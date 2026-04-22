@@ -4088,3 +4088,24 @@
     2. staged apply/accept flow
     3. structured scene/patch contracts
     4. a concise project-state recap for external collaborators
+
+## 2026-04-22 20:33 IST
+
+- Context:
+  - User asked to push the current Studio workspace to GitHub before more AI work so the current state is preserved.
+- What changed:
+  - Initialized this workspace as a new git repository because it was not previously under git.
+  - Added `.codex-runtime-logs/` to `.gitignore` so transient runtime logs are not committed.
+  - Created a snapshot commit for the current workspace state.
+- Files touched:
+  - `.gitignore`
+  - `AI_CONTINUITY_LOG.md`
+- Git actions taken:
+  - `git init`
+  - `git add .`
+  - `git commit -m "Studio workspace snapshot"`
+- Decisions made:
+  - Treat this as a new repository bootstrap because there was no existing `.git` history in this workspace.
+  - Exclude runtime log artifacts from version control while keeping the actual project state committed.
+- Next recommended step:
+  - Rename the branch to `main`, add the requested GitHub remote, and push the snapshot upstream.
