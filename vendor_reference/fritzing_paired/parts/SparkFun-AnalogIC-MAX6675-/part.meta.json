@@ -1,0 +1,73 @@
+{
+  "moduleId": "SparkFun-AnalogIC-MAX6675-",
+  "title": "MAX6675",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-max6675-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_max6675_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so08-max6675_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "T+",
+      "description": "T+"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "T-",
+      "description": "T-"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

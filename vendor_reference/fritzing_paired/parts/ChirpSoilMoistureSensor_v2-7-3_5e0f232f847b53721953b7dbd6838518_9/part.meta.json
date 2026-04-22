@@ -1,0 +1,67 @@
+{
+  "moduleId": "ChirpSoilMoistureSensor_v2-7-3_5e0f232f847b53721953b7dbd6838518_9",
+  "title": "Chirp! Soil Moisture Sensor v2.7.3",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ChirpSoilMoistureSensor_v2-7-3_5e0f232f847b53721953b7dbd6838518_9.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ChirpSoilMoistureSensor_v2-7-3_5e0f232f847b53721953b7dbd6838518_9_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ChirpSoilMoistureSensor_v2-7-3_5e0f232f847b53721953b7dbd6838518_9_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ChirpSoilMoistureSensor_v2-7-3_5e0f232f847b53721953b7dbd6838518_9_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ChirpSoilMoistureSensor_v2-7-3_5e0f232f847b53721953b7dbd6838518_9_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "Pin 0",
+      "description": "MISO"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "Pin 1",
+      "description": "VCC"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "pin 2",
+      "description": "SCK/SCL"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "pin 3",
+      "description": "SDA/MOSI"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "pin 4",
+      "description": "RESET"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "pin 5",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "moduleId": "1099ABDE24_ST-2leadbutton-horizon",
+  "title": "Pushbutton",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\basic_pushbutton_2lead_horizon.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic_pbutton_2leg_horizon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\basic_pbutton_2leg_horizon.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\axial_lay_300mil.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "leg0",
+      "description": "leg"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "leg1",
+      "description": "leg"
+    }
+  ]
+}

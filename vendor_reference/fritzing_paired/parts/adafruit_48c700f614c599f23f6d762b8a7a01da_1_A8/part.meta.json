@@ -1,0 +1,85 @@
+{
+  "moduleId": "adafruit_48c700f614c599f23f6d762b8a7a01da_1_A8",
+  "title": "L3GD20H Triple-Axis Gyro Breakout Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_48c700f614c599f23f6d762b8a7a01da_1_A8.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_1b3e028befbd75423690849a68e06c53_1_breadboard_A8.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_1b3e028befbd75423690849a68e06c53_1_schematic_A8.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_1b3e028befbd75423690849a68e06c53_1_pcb_A8.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_1b3e028befbd75423690849a68e06c53_1_icon_A8.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "SCL/SPC",
+      "description": "SCL/SPC"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "SDA/SDI/SDO",
+      "description": "SDA/SDI/SDO"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "SDO/SAO",
+      "description": "SDO/SAO"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "DRDY/INT2",
+      "description": "DRDY/INT2"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "INT1",
+      "description": "INT1"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

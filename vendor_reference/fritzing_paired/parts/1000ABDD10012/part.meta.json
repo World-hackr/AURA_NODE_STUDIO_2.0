@@ -1,0 +1,43 @@
+{
+  "moduleId": "1000ABDD10012",
+  "title": "Basic Photo-Resistor (Photocell)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\basic_ldr.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic_ldr.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\basic_ldr.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ldr.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\axial_lay_300mil.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 0",
+      "description": "pin0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 1",
+      "description": "pin1"
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "moduleId": "SparkFun-RF-GS1011-GS1011MXX",
+  "title": "GS1011",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-gs1011-gs1011mxx.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_gs1011mxx_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_gs1011_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_gs1011mxx_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\GS1011MXX.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 48,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "ADC1",
+      "description": "ADC1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "ADC2",
+      "description": "ADC2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "ALARM1",
+      "description": "ALARM1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "ALARM2",
+      "description": "ALARM2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DC_CNTL",
+      "description": "DC_CNTL"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "EN_1.8V",
+      "description": "EN_1.8V"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "EXT_RESET",
+      "description": "EXT_RESET"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GPIO19_44MHZ",
+      "description": "GPIO19_44MHZ"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GPIO20_22MHZ",
+      "description": "GPIO20_22MHZ"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GPIO21_11MHZ",
+      "description": "GPIO21_11MHZ"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "GPIO28",
+      "description": "GPIO28"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "GPIO29",
+      "description": "GPIO29"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "GPIO30_LED1",
+      "description": "GPIO30_LED1"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GPIO31_LED2",
+      "description": "GPIO31_LED2"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "I2C_CLK",
+      "description": "I2C_CLK"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "I2C_DATA",
+      "description": "I2C_DATA"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "JTAG_RST",
+      "description": "JTAG_RST"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "JTAG_TCK",
+      "description": "JTAG_TCK"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "JTAG_TDI",
+      "description": "JTAG_TDI"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "JTAG_TDO",
+      "description": "JTAG_TDO"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "JTAG_TMS",
+      "description": "JTAG_TMS"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "MSPI_CLK",
+      "description": "MSPI_CLK"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "MSPI_CS0",
+      "description": "MSPI_CS0"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "MSPI_CS1",
+      "description": "MSPI_CS1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "MSPI_DIN",
+      "description": "MSPI_DIN"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "MSPI_DOUT",
+      "description": "MSPI_DOUT"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "PWM0_GPIO10",
+      "description": "PWM0_GPIO10"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RTC_OUT1",
+      "description": "RTC_OUT1"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "SSPI_CLK",
+      "description": "SSPI_CLK"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "SSPI_CS",
+      "description": "SSPI_CS"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "SSPI_DIN",
+      "description": "SSPI_DIN"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "SSPI_DOUT",
+      "description": "SSPI_DOUT"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "UART0_CTS_GPIO24",
+      "description": "UART0_CTS_GPIO24"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "UART0_RTS_GPIO25",
+      "description": "UART0_RTS_GPIO25"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "UART0_RX_GPIO0",
+      "description": "UART0_RX_GPIO0"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "UART0_TX_GPIO1",
+      "description": "UART0_TX_GPIO1"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "UART1_CTS_GPIO26",
+      "description": "UART1_CTS_GPIO26"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "UART1_RTS_GPIO27",
+      "description": "UART1_RTS_GPIO27"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "UART1_RX_GPIO3",
+      "description": "UART1_RX_GPIO3"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "UART1_TX_GPIO2",
+      "description": "UART1_TX_GPIO2"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "VDDIO",
+      "description": "VDDIO"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "VIN_3V3",
+      "description": "VIN_3V3"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VOUT_1.8V",
+      "description": "VOUT_1.8V"
+    }
+  ]
+}

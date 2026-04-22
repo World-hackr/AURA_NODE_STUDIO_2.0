@@ -1,0 +1,49 @@
+{
+  "moduleId": "SparkFun-Sensors-HALL-EFFECT-SMD",
+  "title": "HALL-EFFECT",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-hall-effect-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_sc70_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_hall-effect_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_sc70_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_sc70_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

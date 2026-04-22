@@ -1,0 +1,49 @@
+{
+  "moduleId": "SparkFun-Electromechanical-SWITCH-SPDT-SMD",
+  "title": "SPST Switch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-switch-spdt-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_ayz0202_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_toggle_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_ayz0202_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AYZ0202.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "O",
+      "description": "O"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P",
+      "description": "P"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "S",
+      "description": "S"
+    }
+  ]
+}

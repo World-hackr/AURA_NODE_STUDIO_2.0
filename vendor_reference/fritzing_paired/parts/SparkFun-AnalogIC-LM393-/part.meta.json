@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-AnalogIC-LM393-",
+  "title": "LM393",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-lm393-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_op-amp_-_mix_2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so08_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G1 +IN",
+      "description": "G1 +IN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G1 -IN",
+      "description": "G1 -IN"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G1 OUT",
+      "description": "G1 OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "G1 V+",
+      "description": "G1 V+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G1 V-",
+      "description": "G1 V-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G2 +IN",
+      "description": "G2 +IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G2 -IN",
+      "description": "G2 -IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G2 OUT",
+      "description": "G2 OUT"
+    }
+  ]
+}

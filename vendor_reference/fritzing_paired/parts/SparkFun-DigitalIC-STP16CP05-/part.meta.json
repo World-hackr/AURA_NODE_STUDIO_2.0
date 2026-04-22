@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-DigitalIC-STP16CP05-",
+  "title": "STP16CP05",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-stp16cp05-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_so-24dw_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_stp16cp05_a6282_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_so-24dw_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_so-24dw_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "LE",
+      "description": "LE"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUT0",
+      "description": "OUT0"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OUT1",
+      "description": "OUT1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OUT10",
+      "description": "OUT10"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OUT11",
+      "description": "OUT11"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "OUT12",
+      "description": "OUT12"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "OUT13",
+      "description": "OUT13"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "OUT14",
+      "description": "OUT14"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "OUT15",
+      "description": "OUT15"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OUT2",
+      "description": "OUT2"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "OUT3",
+      "description": "OUT3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "OUT4",
+      "description": "OUT4"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUT5",
+      "description": "OUT5"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "OUT6",
+      "description": "OUT6"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "OUT7",
+      "description": "OUT7"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "OUT8",
+      "description": "OUT8"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OUT9",
+      "description": "OUT9"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "REXT",
+      "description": "REXT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SDI",
+      "description": "SDI"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SDO",
+      "description": "SDO"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "~OE",
+      "description": "~OE"
+    }
+  ]
+}

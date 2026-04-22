@@ -1,0 +1,49 @@
+{
+  "moduleId": "Dagu_DGServo_9g_Top_view",
+  "title": "Dagu DGServo 9g (Top view)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Dagu DGServo 9g (Top view).fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Dagu_DGServo_9g_Top_view_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Dagu_DGServo_9g_Top_view_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Dagu_DGServo_9g_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Dagu_DGServo_9g_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "gnd",
+      "description": "ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "vcc",
+      "description": "vcc"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pulse",
+      "description": "pulse"
+    }
+  ]
+}

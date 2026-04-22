@@ -1,0 +1,295 @@
+{
+  "moduleId": "FINALWEIO_ff7656622014dbb325626f2fefde52eb_1",
+  "title": "WeIO",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\WeIO.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WeIO_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\WeIO_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\WeIO_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\WeIO_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 44,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "D0/RX",
+      "description": "D0 (GPIO) / RX (UART)"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "D1/TX",
+      "description": "D1 (GPIO) / TX (UART)"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "D2/MOSI 0",
+      "description": "D2 (GPIO) / MOSI 0 (SPI)"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "D3/MISO 0",
+      "description": "D3 (GPIO) / MISO 0 (SPI)"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "D4/SCK 0",
+      "description": "D4 (GPIO) / SCK 0 (SPI)"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "D5",
+      "description": "D5 (GPIO)"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "D6",
+      "description": "D6 (GPIO)"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "D7",
+      "description": "D7 (GPIO)"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "GND 0",
+      "description": "GND Modul 0"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "3V3 0",
+      "description": "3V3 Modul 0"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "D8",
+      "description": "D8 (GPIO)"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "D9",
+      "description": "D9 (GPIO)"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "D10/MOSI 1",
+      "description": "D10 (GPIO) / MOSI 1 (SPI)"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "D11/MISO 1",
+      "description": "D11 (GPIO) / MISO 1 (SPI)"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "D12/SCK 1",
+      "description": "D12 (GPIO) / SCK 1 (SPI)"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "D13",
+      "description": "D13 (GPIO)"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "D14",
+      "description": "D14 (GPIO)"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "D15",
+      "description": "D15 (GPIO)"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "GND 1",
+      "description": "GND Modul 1"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "3V3 1",
+      "description": "3V3 Modul 1"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "GND",
+      "description": "GND SDA"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "5V",
+      "description": "5V SDA"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "D16",
+      "description": "D16 (GPIO)"
+    },
+    {
+      "id": "connector103",
+      "type": "female",
+      "name": "D17",
+      "description": "D17 (GPIO)"
+    },
+    {
+      "id": "connector104",
+      "type": "female",
+      "name": "D18/PWM",
+      "description": "D18 (GPIO) / PWM"
+    },
+    {
+      "id": "connector105",
+      "type": "female",
+      "name": "D19/PWM",
+      "description": "D19 (GPIO) / PWM19"
+    },
+    {
+      "id": "connector106",
+      "type": "female",
+      "name": "D20/PWM",
+      "description": "D20 (GPIO) / PWM20"
+    },
+    {
+      "id": "connector107",
+      "type": "female",
+      "name": "D21/PWM",
+      "description": "D21 (GPIO) / PWM21"
+    },
+    {
+      "id": "connector108",
+      "type": "female",
+      "name": "D22/PWM",
+      "description": "D22 (GPIO) / PWM22"
+    },
+    {
+      "id": "connector109",
+      "type": "female",
+      "name": "D23/PWM",
+      "description": "D23 (GPIO) / PWM23"
+    },
+    {
+      "id": "connector110",
+      "type": "female",
+      "name": "GND 2",
+      "description": "GND Modul 2"
+    },
+    {
+      "id": "connector111",
+      "type": "female",
+      "name": "3V3 2",
+      "description": "3V3 Modul 2"
+    },
+    {
+      "id": "connector112",
+      "type": "female",
+      "name": "D24/ADC",
+      "description": "D24 (GPIO) / A24 (ADC)"
+    },
+    {
+      "id": "connector113",
+      "type": "female",
+      "name": "D25/ADC",
+      "description": "D25 (GPIO) / A25 (ADC)"
+    },
+    {
+      "id": "connector114",
+      "type": "female",
+      "name": "D26/ADC",
+      "description": "D26 (GPIO) / A26 (ADC)"
+    },
+    {
+      "id": "connector115",
+      "type": "female",
+      "name": "D27/ADC",
+      "description": "D27 (GPIO) / A27 (ADC)"
+    },
+    {
+      "id": "connector116",
+      "type": "female",
+      "name": "D28/ADC",
+      "description": "D28 (GPIO) / A28 (ADC)"
+    },
+    {
+      "id": "connector117",
+      "type": "female",
+      "name": "D29/ADC",
+      "description": "D29 (GPIO) / A29 (ADC)"
+    },
+    {
+      "id": "connector118",
+      "type": "female",
+      "name": "D30/ADC",
+      "description": "D30 (GPIO) / A30 (ADC)"
+    },
+    {
+      "id": "connector119",
+      "type": "female",
+      "name": "D31/ADC",
+      "description": "D31 (GPIO) / A31 (ADC)"
+    },
+    {
+      "id": "connector120",
+      "type": "female",
+      "name": "GND 3",
+      "description": "GND Modul 3"
+    },
+    {
+      "id": "connector121",
+      "type": "female",
+      "name": "3V3 3",
+      "description": "3V3 Modul 3"
+    }
+  ]
+}

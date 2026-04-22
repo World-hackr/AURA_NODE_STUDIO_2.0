@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Sensors-VCNL4000-",
+  "title": "VCNL4000",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-vcnl4000-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_vcnl4000_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_vcnl4000_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_vcnl4000_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_vcnl4000_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "IR+",
+      "description": "IR+"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "IR-",
+      "description": "IR-"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "IR-",
+      "description": "IR-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

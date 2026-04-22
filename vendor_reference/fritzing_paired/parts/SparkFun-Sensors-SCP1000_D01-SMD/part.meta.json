@@ -1,0 +1,115 @@
+{
+  "moduleId": "SparkFun-Sensors-SCP1000_D01-SMD",
+  "title": "SCP1000_D01",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-scp1000_d01-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_scp1000_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_scp1000_d01_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_scp1000_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SCP1000.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "ATST",
+      "description": "ATST"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "AVSS",
+      "description": "AVSS"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CSB",
+      "description": "CSB"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DRDY",
+      "description": "DRDY"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DVDD",
+      "description": "DVDD"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DVDDS",
+      "description": "DVDDS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DVSS",
+      "description": "DVSS"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PD",
+      "description": "PD"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "TRIG",
+      "description": "TRIG"
+    }
+  ]
+}

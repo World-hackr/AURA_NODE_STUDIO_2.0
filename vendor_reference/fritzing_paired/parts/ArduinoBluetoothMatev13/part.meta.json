@@ -1,0 +1,67 @@
+{
+  "moduleId": "ArduinoBluetoothMatev13",
+  "title": "Bluetooth Mate Silver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ArduinoBluetoothMatev13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ArduinoBluetoothMatev13_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ArduinoBluetoothMatev13_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ArduinoBluetoothMatev13_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ArduinoBluetoothMatev13_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "RTS_5V",
+      "description": "RTS_5V"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "RX_5V",
+      "description": "RX_5V"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "TX_5V",
+      "description": "TX_5V"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "CTS_5V",
+      "description": "CTS_5V"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

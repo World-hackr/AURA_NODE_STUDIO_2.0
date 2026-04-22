@@ -1,0 +1,30 @@
+{
+  "moduleId": "pcb-arduino-r4wifi-shield",
+  "title": "Arduino R4 Shield PCB",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\arduino-shield_r4_two_layer.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\pcb-arduino-shield-r4wifi.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 0,
+  "connectors": []
+}

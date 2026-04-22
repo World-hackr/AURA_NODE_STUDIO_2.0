@@ -1,0 +1,62 @@
+{
+  "moduleId": "IlluminatedTactileSwitch12_7mm_with_support_631e09",
+  "title": "Illuminated Tact LED Switch 12.7mm with supports",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\illuminated_Tact_Switch_12_7mm_with_support.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\illuminated_Tact_Switch_12x12mm_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\illuminated_Tact_Switch_12x12mm.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\illuminated_Tact_Switch_12x12mm_with_support.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1",
+      "description": "1A"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "2",
+      "description": "2A"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "3",
+      "description": "3B"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "4",
+      "description": "4B"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground/Cathode"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC/Anode"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "moduleId": "Adafruit-_f3ecc21768a5ba4e021c1c8dc9f6739c_1_32",
+  "title": "Adafruit Mini PiTFT - 135x240 Color TFT Add-on for Raspberry Pi",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_f3ecc21768a5ba4e021c1c8dc9f6739c_1_32.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_f3ecc21768a5ba4e021c1c8dc9f6739c_1_breadboard_32.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_f3ecc21768a5ba4e021c1c8dc9f6739c_1_schematic_32.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_f3ecc21768a5ba4e021c1c8dc9f6739c_1_pcb_32.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_f3ecc21768a5ba4e021c1c8dc9f6739c_1_icon_32.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "BUTTONA",
+      "description": "BUTTONA"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "BUTTONB",
+      "description": "BUTTONB"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GPIO4",
+      "description": "GPIO4"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GPIO17",
+      "description": "GPIO17"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GPIO18",
+      "description": "GPIO18"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GPIO22",
+      "description": "GPIO22"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "GPIO27",
+      "description": "GPIO27"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "TFT_DC",
+      "description": "TFT_DC"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "TFT_CS",
+      "description": "TFT_CS"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

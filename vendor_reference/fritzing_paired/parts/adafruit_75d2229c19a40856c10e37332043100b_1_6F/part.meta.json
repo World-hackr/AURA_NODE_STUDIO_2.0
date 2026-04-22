@@ -1,0 +1,79 @@
+{
+  "moduleId": "adafruit_75d2229c19a40856c10e37332043100b_1_6F",
+  "title": "DotStar LED Strip",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_75d2229c19a40856c10e37332043100b_1_6F.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_75d2229c19a40856c10e37332043100b_1_6F_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_75d2229c19a40856c10e37332043100b_1_6F_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_75d2229c19a40856c10e37332043100b_1_6F_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_75d2229c19a40856c10e37332043100b_1_6F_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "pad",
+      "name": "DI",
+      "description": "Data Input"
+    },
+    {
+      "id": "connector4",
+      "type": "pad",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "CO",
+      "description": "Clock Output"
+    },
+    {
+      "id": "connector1",
+      "type": "pad",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "pad",
+      "name": "CI",
+      "description": "Clock Input"
+    },
+    {
+      "id": "connector7",
+      "type": "pad",
+      "name": "DO",
+      "description": "Data Output"
+    },
+    {
+      "id": "connector8",
+      "type": "pad",
+      "name": "+5V",
+      "description": "+5V"
+    }
+  ]
+}

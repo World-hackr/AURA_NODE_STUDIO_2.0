@@ -1,0 +1,40 @@
+{
+  "schema": "aura.contract_index.v1",
+  "contracts": [
+    {
+      "id": "circuit_intent.v1",
+      "path": "packages/contracts/circuit_intent.v1.schema.json",
+      "purpose": "AI-facing structured circuit request layer"
+    },
+    {
+      "id": "circuit_ir.v1",
+      "path": "packages/contracts/circuit_ir.v1.schema.json",
+      "purpose": "Canonical deterministic circuit model"
+    },
+    {
+      "id": "symbol_definition.v1",
+      "path": "packages/contracts/symbol_definition.v1.schema.json",
+      "purpose": "Canonical deterministic schematic symbol model"
+    },
+    {
+      "id": "schematic_document.v1",
+      "path": "packages/contracts/schematic_document.v1.schema.json",
+      "purpose": "Canonical deterministic symbol-based schematic document"
+    },
+    {
+      "id": "component_package.v1",
+      "path": "packages/contracts/component_package.v1.schema.json",
+      "purpose": "Canonical reusable component package model"
+    },
+    {
+      "id": "runtime_profile.v1",
+      "path": "packages/contracts/runtime_profile.v1.schema.json",
+      "purpose": "AURA-owned runtime profile definition"
+    },
+    {
+      "id": "library_index.v1",
+      "path": "packages/contracts/library_index.v1.schema.json",
+      "purpose": "Curated package library index"
+    }
+  ]
+}

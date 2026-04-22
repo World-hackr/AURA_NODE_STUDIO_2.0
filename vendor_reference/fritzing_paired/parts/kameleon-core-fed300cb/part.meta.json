@@ -1,0 +1,211 @@
+{
+  "moduleId": "kameleon-core-fed300cb",
+  "title": "kameleon-core",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\kameleon.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\kameleon-core_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\kameleon-core_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\kameleon-core_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\kameleon-core_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 30,
+  "connectors": [
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "BT0",
+      "description": "BT0"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "2",
+      "description": "PWM/UART1 CTS"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "3",
+      "description": "ADC/UART1 RTS"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "4",
+      "description": "ADC/UART1 TX"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "5",
+      "description": "ADC/UART1 RX"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "10",
+      "description": "ADC/SPI0 CLK"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "11",
+      "description": "ADC/SPI0 MISO"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "12",
+      "description": "ADC/SPI0 MOSI"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "6",
+      "description": "UART0 TX"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "7",
+      "description": "UART0 RX"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "0",
+      "description": "0"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "1",
+      "description": "PWM"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "SWDIO",
+      "description": "SWDIO"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "SWCLK",
+      "description": "SWCLK"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "19",
+      "description": "19"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "16",
+      "description": "PWM/I2C1 SDA"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "9",
+      "description": "I2C0 SDA"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "8",
+      "description": "I2C0 SCL"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "14",
+      "description": "PWM/SPI1 MOSI"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "13",
+      "description": "SPI1 MISO"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "17",
+      "description": "17"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "18",
+      "description": "SPI1 CLK"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "15",
+      "description": "PWM/I2C1 SCL"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

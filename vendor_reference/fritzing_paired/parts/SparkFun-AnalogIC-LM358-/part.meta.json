@@ -1,0 +1,78 @@
+{
+  "moduleId": "SparkFun-AnalogIC-LM358-",
+  "title": "LM358",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-lm358-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_op-amp_-_mix_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_dip08_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_8_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_8_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G$1 +IN",
+      "description": "G$1 +IN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G$1 -IN",
+      "description": "G$1 -IN"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G$1 OUT",
+      "description": "G$1 OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "G$1 V+",
+      "description": "G$1 V+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G$1 V-",
+      "description": "G$1 V-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G$2 +IN",
+      "description": "G$2 +IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G$2 -IN",
+      "description": "G$2 -IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G$2 OUT",
+      "description": "G$2 OUT"
+    }
+  ]
+}

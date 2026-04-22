@@ -1,0 +1,115 @@
+{
+  "moduleId": "Adafruit-_b6fa443ffa75fbeec71cf64561069de1_1_EF",
+  "title": "Adafruit PCM510x I2S DAC",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_b6fa443ffa75fbeec71cf64561069de1_1_EF.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_b6fa443ffa75fbeec71cf64561069de1_1_EF_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_b6fa443ffa75fbeec71cf64561069de1_1_EF_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_b6fa443ffa75fbeec71cf64561069de1_1_EF_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_b6fa443ffa75fbeec71cf64561069de1_1_EF_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "WORDSEL_IN",
+      "description": "WORDSEL_IN"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "DATA_IN",
+      "description": "DATA_IN"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "BITCLK_IN",
+      "description": "BITCLK_IN"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "OUTL",
+      "description": "OUTL"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "OUTR",
+      "description": "OUTR"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "DEMPH",
+      "description": "DEMPH"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "FILTER",
+      "description": "FILTER"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "SCK_IN",
+      "description": "SCK_IN"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "MUTE",
+      "description": "MUTE"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "FORMAT",
+      "description": "FORMAT"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    }
+  ]
+}

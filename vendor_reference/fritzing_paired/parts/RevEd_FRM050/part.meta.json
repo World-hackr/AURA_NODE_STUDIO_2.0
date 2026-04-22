@@ -1,0 +1,79 @@
+{
+  "moduleId": "RevEd_FRM050",
+  "title": "FRM050",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\FRM050.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\FRM050_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\FRM050_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\FRM050_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "In 6",
+      "description": null
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "In 5",
+      "description": null
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "In 4",
+      "description": null
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Out 6",
+      "description": null
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "In 7",
+      "description": null
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Out 4",
+      "description": null
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    }
+  ]
+}

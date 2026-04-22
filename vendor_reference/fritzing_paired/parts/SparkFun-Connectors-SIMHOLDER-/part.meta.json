@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Connectors-SIMHOLDER-",
+  "title": "SIM Socket",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-simholder-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_simholder_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_simholder_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_simholder_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SIMHOLDER.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "C1",
+      "description": "C1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "C2",
+      "description": "C2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "C3",
+      "description": "C3"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "C5",
+      "description": "C5"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "C6",
+      "description": "C6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "C7",
+      "description": "C7"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SW1",
+      "description": "SW1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SW2",
+      "description": "SW2"
+    }
+  ]
+}

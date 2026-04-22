@@ -1,0 +1,217 @@
+{
+  "moduleId": "adafruit_6f3a6f5938698cb20e4e2c1ec0de804a_7_15",
+  "title": "Adafruit Feather 32u4 RFM69 433/900MHz",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_6f3a6f5938698cb20e4e2c1ec0de804a_7_15.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_6f3a6f5938698cb20e4e2c1ec0de804a_10_breadboard_15.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_6f3a6f5938698cb20e4e2c1ec0de804a_10_schematic_15.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_6f3a6f5938698cb20e4e2c1ec0de804a_10_pcb_15.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_6f3a6f5938698cb20e4e2c1ec0de804a_10_icon_15.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 31,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "ANT",
+      "description": "ANT"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "DIO1",
+      "description": "DIO1"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "0",
+      "description": "0"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "13",
+      "description": "13"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "12",
+      "description": "12"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "11",
+      "description": "11"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "10",
+      "description": "10"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "9",
+      "description": "9"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "6",
+      "description": "6"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "5",
+      "description": "5"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "3",
+      "description": "3"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "DIO3",
+      "description": "DIO3"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "DIO2",
+      "description": "DIO2"
+    }
+  ]
+}

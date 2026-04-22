@@ -1,0 +1,493 @@
+{
+  "moduleId": "Sony_Spresense_Extension_CXD5602PWBEXT1_002",
+  "title": "Sony's Spresense Extension Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SonySpresenseExtension_CXD5602PWBEXT1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\CXD5602PWBEXT1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\CXD5602PWBEXT1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\CXD5602PWBEXT1_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\CXD5602PWBEXT1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 77,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "TX",
+      "description": "TX / D01 / UART2_TX"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "RX",
+      "description": "RX / D00 / UART2_RX"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "CTS",
+      "description": "CTS / D27"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "I2S BCK",
+      "description": "I2S BCK / D26"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "I2S LRCK",
+      "description": "I2S LRCK D25"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "SPI CS",
+      "description": "SPI CS / D24"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "SPI SCK",
+      "description": "SPI SCK / D23"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "D22",
+      "description": "D22 / SEN_IRQ_IN"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "A2",
+      "description": "A2 / SEN_AIN4"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "A3",
+      "description": "A3 / SEN_AIN5"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "I2C SDA",
+      "description": "I2C SDA / D14"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "I2C SCL",
+      "description": "I2C SCL / D15"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SPI MOSI",
+      "description": "SPI MOSI / D16"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SPI MISO",
+      "description": "SPI MISO / D17"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "I2S DOUT",
+      "description": "I2S DOUT / D18"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "I2S DIN",
+      "description": "I2S DIN / D19"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "D20",
+      "description": "D20 / EMMC_DATA2"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "D21",
+      "description": "D21 / EMMC_DATA3"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "EXT_VDD",
+      "description": "EXT_VDD"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "XRST_PIN_1.8V",
+      "description": "XRST_PIN_1.8V"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VDD_LVS",
+      "description": "VDD_LVS"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "Res",
+      "description": "Reserved, no connection"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "IOREF",
+      "description": "IOREF"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "Vout",
+      "description": "Vout"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "5V_IN_PIN",
+      "description": "5V_IN_PIN"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "DCLK",
+      "description": "DCLK"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "MIC BIASA",
+      "description": "MIC BIASA"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "MICA",
+      "description": "MICA"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "MIC BIASB",
+      "description": "MIC BIASB"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "MICC",
+      "description": "MICC"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "UART SEL",
+      "description": "UART SEL"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "MIC BIASA",
+      "description": "MIC BIASA"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "MICB",
+      "description": "MICB"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "MIC BIASB",
+      "description": "MIC BIASB"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "MICD",
+      "description": "MICD"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "PWM 3",
+      "description": "PWM 3"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "4",
+      "description": "4"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "PWM 5",
+      "description": "PWM 5"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "PWM 6",
+      "description": "PWM 6"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "7",
+      "description": "7"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "8",
+      "description": "8"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "9",
+      "description": "9"
+    },
+    {
+      "id": "connector69",
+      "type": "female",
+      "name": "10",
+      "description": "10"
+    },
+    {
+      "id": "connector70",
+      "type": "female",
+      "name": "11",
+      "description": "11"
+    },
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "12",
+      "description": "12"
+    },
+    {
+      "id": "connector72",
+      "type": "female",
+      "name": "13",
+      "description": "13"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector74",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    }
+  ]
+}

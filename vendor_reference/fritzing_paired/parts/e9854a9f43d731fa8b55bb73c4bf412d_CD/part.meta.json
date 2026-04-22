@@ -1,0 +1,151 @@
+{
+  "moduleId": "e9854a9f43d731fa8b55bb73c4bf412d_CD",
+  "title": "Raspberry Pi (Model B)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Raspberry_Pi__Model_B___00686a34fe2aba685c4f646a55662e10_CD.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Raspberry_Pi__Model_B___00686a34fe2aba68__icon__56f0326763f48a09de38bfea388ae5fa_CD.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Raspberry_Pi__Model_B___00686a34fe2aba68__breadboard__0ba18e92dd29407598a6f03a0a984299_CD.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Raspberry_Pi__Model_B___00686a34fe2aba68__schematic__42935ae225875f3438c66de63ace02d7_CD.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Raspberry_Pi__Model_B___00686a34fe2aba68__pcb__5ec93daa4d94bb6f465d0ace719fc1bc_CD.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "#22",
+      "description": "GPIO #22"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "#4",
+      "description": "GPIO #4"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "#23",
+      "description": "GPIO #23"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "TXD",
+      "description": "Serial TX (output) line"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "#24",
+      "description": "GPIO #24"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "MOSI",
+      "description": "SPI MOSI (master out / slave in)"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "MISO",
+      "description": "SPI MISO (master in / slave out)"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "#25",
+      "description": "GPIO #25"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SPI clock"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "CS0",
+      "description": "SPI chip select 0"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "CS1",
+      "description": "SPI chip select 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "3V3",
+      "description": "3.3V power rail (from onboard LDO)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RXD",
+      "description": "Serial RX (input) line"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "5V",
+      "description": "5V power rail (from USB)"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SDA",
+      "description": "I2C/TWI data"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "#17",
+      "description": "GPIO #17"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "#18",
+      "description": "GPIO #18"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SCL",
+      "description": "I2C/TWI clock"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "#21",
+      "description": "GPIO #21"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "System Ground"
+    }
+  ]
+}

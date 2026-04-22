@@ -1,0 +1,127 @@
+{
+  "moduleId": "1a7828b6466fac9fd042221e931124c4",
+  "title": "74HC595",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\74HC595.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\74HC595.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\74HC595.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\74HC595.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_16_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "Positive supply voltage"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Q4",
+      "description": "Output Pin"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Q5",
+      "description": "Output Pin"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Q6",
+      "description": "Output Pin"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Q7",
+      "description": "Output Pin"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Q7",
+      "description": "Serial Out"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "MR",
+      "description": "Master Reclear, active low"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SH_CP",
+      "description": "Shift register clock pin"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "ST_CP",
+      "description": "Storage register clock pin (latch pin)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "OE",
+      "description": "Output enable, active low"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Q1",
+      "description": "Output Pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Q2",
+      "description": "Output Pin"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "DS",
+      "description": "Serial data input"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Q0",
+      "description": "Output Pin"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Q3",
+      "description": "Output Pin"
+    }
+  ]
+}

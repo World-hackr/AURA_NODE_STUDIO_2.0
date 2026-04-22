@@ -1,0 +1,79 @@
+{
+  "moduleId": "1001AAAB555Timer",
+  "title": "555 Timer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\555timer.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\555timericon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\555timerbreadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\555timerschematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Reset",
+      "description": "Reset"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Control Voltage",
+      "description": "Control Voltage"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Threshold",
+      "description": "Threshold"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Discharge",
+      "description": "Discharge"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Vcc Supply Voltage",
+      "description": "Vcc Supply Voltage"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Ground",
+      "description": "Ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Trigger",
+      "description": "Trigger"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Output",
+      "description": "Output"
+    }
+  ]
+}

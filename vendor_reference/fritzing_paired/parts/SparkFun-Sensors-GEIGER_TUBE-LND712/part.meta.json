@@ -1,0 +1,43 @@
+{
+  "moduleId": "SparkFun-Sensors-GEIGER_TUBE-LND712",
+  "title": "GEIGER_TUBE",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-geiger_tube-lnd712.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_geiger_tube_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_geiger_tube-1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_geiger_tube_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\GEIGER_TUBE.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    }
+  ]
+}

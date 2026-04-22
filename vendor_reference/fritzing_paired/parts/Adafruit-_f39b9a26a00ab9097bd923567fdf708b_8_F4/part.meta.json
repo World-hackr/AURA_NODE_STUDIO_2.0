@@ -1,0 +1,127 @@
+{
+  "moduleId": "Adafruit-_f39b9a26a00ab9097bd923567fdf708b_8_F4",
+  "title": "Adafruit MEMENTO Camera Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_f39b9a26a00ab9097bd923567fdf708b_8_F4.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_f39b9a26a00ab9097bd923567fdf708b_8_breadboard_F4.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_f39b9a26a00ab9097bd923567fdf708b_8_schematic_F4.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_f39b9a26a00ab9097bd923567fdf708b_8_pcb_F4.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_f39b9a26a00ab9097bd923567fdf708b_8_icon_F4.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector402",
+      "type": "female",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector242",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector247",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector243",
+      "type": "female",
+      "name": "A1_JST1",
+      "description": "A1_JST1"
+    },
+    {
+      "id": "connector248",
+      "type": "female",
+      "name": "D10_JST",
+      "description": "D10_JST"
+    },
+    {
+      "id": "connector301",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector302",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector303",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector304",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector246",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector241",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector401",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

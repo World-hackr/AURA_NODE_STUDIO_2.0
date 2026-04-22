@@ -1,0 +1,211 @@
+{
+  "moduleId": "Amica_NodeMCU_DEVKIT_1.0",
+  "title": "Amica NodeMCU DEVKIT 1.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Amica_NodeMCU_DEVKIT_1.0.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Amica_NodeMCU_DEVKIT_1.0_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Amica_NodeMCU_DEVKIT_1.0_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Amica_NodeMCU_DEVKIT_1.0_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Amica_NodeMCU_DEVKIT_1.0_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 30,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "3.3 Volts (1)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "Ground (2)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "22, GPIO1, TXD0"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "21, GPIO3, RXD0"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "16, GPIO15, RTS0, HCS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "7, GPIO13, CTS0, HMOSI"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "6, GPIO12, HMISO"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "5, GPIO14, HSCLK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 9",
+      "description": "Ground (9)"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 10",
+      "description": "3.3 Volts (10)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 11",
+      "description": "17, GPIO2, TXD1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin 12",
+      "description": "18, GPIO0, FLASH"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin 13",
+      "description": "19, GPIO4, SDA"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin 14",
+      "description": "20, GPIO5, SCL"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin 15",
+      "description": "4, GPIO16, USER, WAKE"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin 16",
+      "description": "2, ADC0, TOUT"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin 17",
+      "description": "Reserved"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin 18",
+      "description": "Reserved"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin 19",
+      "description": "12, GPIO10, SDD3"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin 20",
+      "description": "11, SPIO9, SDD2"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin 21",
+      "description": "13, GPIO8, MOSI, SDD1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin 22",
+      "description": "9, GPIO11, CS, SDCMD"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin 23",
+      "description": "10, GPIO7, MISO, SDD0"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin 24",
+      "description": "14, GPIO6, SCLK, SDCLK"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin 25",
+      "description": "Ground (25)"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "pin 26",
+      "description": "3.3 Volts (26)"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "pin 27",
+      "description": "1, EN, CH_PD"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "pin 28",
+      "description": "3, RST"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "pin 29",
+      "description": "Ground (29)"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "pin 30",
+      "description": "Vin"
+    }
+  ]
+}

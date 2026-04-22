@@ -1,0 +1,55 @@
+{
+  "moduleId": "74f3591ccbd4ba20730577a93d0aeda9",
+  "title": "RGB LED (com. cathode, rbg)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\led-rgb-4pin-cathode_rbg_v4.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\led-rgb-4pin-anode.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\led-rgb-4pin-anode-leg.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\led-rbg-4pin-cathode.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LED-TRICOLOR-THROUGHHOLE_SparkFun.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "red anode",
+      "description": "anode pin for red LED"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "common cathode",
+      "description": "cathode pin for every color, supply +voltage"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "blue anode",
+      "description": "anode pin for blue LED"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "green anode",
+      "description": "anode pin for green LED"
+    }
+  ]
+}

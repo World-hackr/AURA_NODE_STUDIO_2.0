@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA Symbol Lab</title>
+    <link rel="stylesheet" href="css/symbol-lab.css">
+</head>
+<body>
+    <div class="lab-shell">
+        <header class="lab-menubar">
+            <div class="brand-block">
+                <div class="brand-mark">A</div>
+                <div>
+                    <div class="brand-title">AURA Symbol Lab</div>
+                    <div class="brand-subtitle">KiCad symbol intake, inspection, and correction surface</div>
+                </div>
+            </div>
+            <nav class="mode-tabs" aria-label="Studio modes">
+                <a href="index.html">Circuit Studio</a>
+                <span aria-current="page">Symbol Lab</span>
+            </nav>
+            <div class="api-badge" id="api-badge">API checking</div>
+        </header>
+
+        <div class="lab-toolbar" aria-label="Symbol tools">
+            <button class="tool-button active" type="button" data-tool="select">Select</button>
+            <button class="tool-button" type="button" data-tool="move-pin">Move Pin</button>
+            <button class="tool-button" type="button" data-tool="line">Line</button>
+            <button class="tool-button" type="button" data-tool="rect">Rectangle</button>
+            <button class="tool-button" type="button" data-tool="text">Text</button>
+            <div class="toolbar-divider"></div>
+            <button class="tool-button" type="button" id="fit-symbol">Fit Symbol</button>
+            <button class="tool-button" type="button" id="toggle-pin-labels">Pin Labels On</button>
+        </div>
+
+        <div class="lab-workspace">
+            <aside class="left-rail" aria-label="Symbol library browser">
+                <section class="panel panel-libraries">
+                    <div class="panel-title-row">
+                        <h2>Libraries</h2>
+                        <span id="library-count">0</span>
+                    </div>
+                    <input class="search-input" id="library-search" type="search" placeholder="Filter libraries">
+                    <div class="library-list" id="library-list">
+                        <div class="empty-state">Loading KiCad libraries...</div>
+                    </div>
+                </section>
+
+                <section class="panel panel-symbols">
+                    <div class="panel-title-row">
+                        <h2>Symbols</h2>
+                        <span id="symbol-count">0</span>
+                    </div>
+                    <input class="search-input" id="symbol-search" type="search" placeholder="Search selected library">
+                    <div class="symbol-list" id="symbol-list">
+                        <div class="empty-state">Select a library.</div>
+                    </div>
+                </section>
+            </aside>
+
+            <main class="symbol-stage-shell" aria-label="Symbol editor">
+                <div class="stage-header">
+                    <div>
+                        <div class="eyebrow">Schematic Symbol</div>
+                        <h1 id="active-symbol-title">No symbol selected</h1>
+                    </div>
+                    <div class="stage-controls">
+                        <label>
+                            Unit
+                            <select id="unit-select" disabled>
+                                <option>No unit</option>
+                            </select>
+                        </label>
+                        <label>
+                            View
+                            <select id="view-mode">
+                                <option value="symbol">Symbol graphics</option>
+                                <option value="pins">Pins focus</option>
+                                <option value="bounds">Bounds audit</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="symbol-stage">
+                    <div class="stage-badge">Schematic symbol view, not PCB footprint</div>
+                    <div class="canvas-chrome">
+                        <div class="canvas-ruler ruler-top"></div>
+                        <div class="canvas-ruler ruler-left"></div>
+                        <div class="symbol-canvas" id="symbol-canvas">
+                            <div class="empty-canvas">
+                                <strong>Choose a KiCad symbol.</strong>
+                                <span>The lab renders schematic body graphics, pin lines, labels, bounds, and symbol fields.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stage-status">
+                    <span id="renderer-status">Renderer idle</span>
+                    <span>Schematic-only surface. Footprint metadata is hidden from the primary view.</span>
+                </div>
+            </main>
+
+            <aside class="right-rail" aria-label="Symbol inspector">
+                <section class="panel">
+                    <div class="panel-title-row">
+                        <h2>Summary</h2>
+                        <span id="summary-ref">-</span>
+                    </div>
+                    <div class="summary-card" id="summary-card">
+                        <div class="empty-state">No symbol selected.</div>
+                    </div>
+                </section>
+
+                <section class="panel panel-pins">
+                    <div class="panel-title-row">
+                        <h2>Pins</h2>
+                        <span id="pin-count">0</span>
+                    </div>
+                    <div class="pin-table" id="pin-table">
+                        <div class="empty-state">No pins loaded.</div>
+                    </div>
+                </section>
+
+                <section class="panel">
+                    <div class="panel-title-row">
+                        <h2>Symbol Fields</h2>
+                        <span id="field-count">0</span>
+                    </div>
+                    <div class="field-list" id="field-list">
+                        <div class="empty-state">No fields loaded.</div>
+                    </div>
+                </section>
+
+                <section class="panel">
+                    <div class="panel-title-row">
+                        <h2>Geometry Checks</h2>
+                        <span id="check-count">0</span>
+                    </div>
+                    <div class="check-list" id="check-list">
+                        <div class="empty-state">Waiting for symbol.</div>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </div>
+
+    <script type="module" src="js/symbol-lab.js"></script>
+</body>
+</html>

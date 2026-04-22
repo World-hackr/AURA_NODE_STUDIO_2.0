@@ -1,0 +1,97 @@
+{
+  "moduleId": "adafruit_bbdf81b1bb70fab63e3957f8c71b0587_1_44",
+  "title": "OLED Color 1.5 inch 128x128 w microSD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_bbdf81b1bb70fab63e3957f8c71b0587_1_44.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_8968c4852372a7e5635adfb723c132ec_1_breadboard_44.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_8968c4852372a7e5635adfb723c132ec_1_schematic_44.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_8968c4852372a7e5635adfb723c132ec_1_pcb_44.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_8968c4852372a7e5635adfb723c132ec_1_icon_44.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DC",
+      "description": "DC"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OLED_CS",
+      "description": "OLED_CS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SD_CS",
+      "description": "SD_CS"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SD_MISO",
+      "description": "SD_MISO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SD_CD",
+      "description": "SD_CD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

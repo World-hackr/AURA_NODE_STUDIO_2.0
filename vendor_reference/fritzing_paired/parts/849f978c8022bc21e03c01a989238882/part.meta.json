@@ -1,0 +1,115 @@
+{
+  "moduleId": "849f978c8022bc21e03c01a989238882",
+  "title": "LM124-324 Quad Opamp",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\LM124-324 Quad Opamp.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LM124-324_Quad_Opamp.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\LM124-324_Quad_Opamp.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LM124-324_Quad_Opamp.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\LM124-324_Quad_Opamp.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1OUT",
+      "description": "Output 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1IN-",
+      "description": "Inverting Input 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1IN+",
+      "description": "Non-inverting Input 1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VCC+",
+      "description": "Positive Input Voltage (+3.5V to +18V)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "2IN+",
+      "description": "Non-inverting Input 2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "2IN-",
+      "description": "Inverting Input 2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "2OUT",
+      "description": "Output 2"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "3OUT",
+      "description": "Output 3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "3IN-",
+      "description": "Inverting Input 3"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "3IN+",
+      "description": "Non-inverting Input 3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VCC-",
+      "description": "Negative Input Voltage (-3.5V to -18V)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "4IN+",
+      "description": "Non-inverting Input 4"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "4IN-",
+      "description": "Inverting Input 4"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "4OUT",
+      "description": "Output 4"
+    }
+  ]
+}

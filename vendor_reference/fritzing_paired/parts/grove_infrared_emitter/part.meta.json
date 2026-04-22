@@ -1,0 +1,49 @@
+{
+  "moduleId": "grove_infrared_emitter",
+  "title": "Grove Infrared Emitter",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\seeed_grove_infrared_emitter.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\seeed_grove_infrared_emitter_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\seeed_grove_infrared_emitter_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\seeed_grove_generic_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\seeed_grove_generic_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    }
+  ]
+}

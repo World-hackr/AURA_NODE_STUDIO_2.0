@@ -1,0 +1,181 @@
+{
+  "moduleId": "Infineon_TLE493D-P2B6_MS2GO",
+  "title": "Infineon_Infineon_TLE493D-P2B6_MS2GO",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Infineon_TLE493D-P2B6_MS2GO.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Infineon_TLE493D-P2B6_MS2GO_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Infineon_TLE493D-P2B6_MS2GO_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Infineon_TLE493D-P2B6_MS2GO_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Infineon_TLE493D-P2B6_MS2GO_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 25,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "P2.7",
+      "description": "P2.7"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "P2.9",
+      "description": "P2.9"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "P2.10",
+      "description": "P2.10"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "P2.11",
+      "description": "P2.11"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "P0.0",
+      "description": "P0.0"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "P0.5",
+      "description": "P0.5"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "P2.6",
+      "description": "P2.6"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "P2.0",
+      "description": "P2.0"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "P0.15",
+      "description": "P0.15"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "P0.14",
+      "description": "P0.14"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "P0.9",
+      "description": "P0.9"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "P0.8",
+      "description": "P0.8"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "P0.7",
+      "description": "P0.7"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "P0.6",
+      "description": "P0.6"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "P1.0/VDDSENS",
+      "description": "P1.0/VDDSENS"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "P1.0/VDDSENS",
+      "description": "P1.0/VDDSENS"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    }
+  ]
+}

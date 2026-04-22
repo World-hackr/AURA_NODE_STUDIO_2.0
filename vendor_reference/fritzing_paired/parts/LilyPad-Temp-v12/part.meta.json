@@ -1,0 +1,49 @@
+{
+  "moduleId": "LilyPad-Temp-v12",
+  "title": "LilyPad Temperature Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\LilyPad-Temp-v12.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LilyPad-Temp-v12_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\LilyPad-Temp-v12_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LilyPad-Temp-v12_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LilyPad-Temp-v12_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "VO",
+      "description": "VO"
+    }
+  ]
+}

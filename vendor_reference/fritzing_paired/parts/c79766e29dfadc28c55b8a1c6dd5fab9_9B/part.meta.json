@@ -1,0 +1,115 @@
+{
+  "moduleId": "c79766e29dfadc28c55b8a1c6dd5fab9_9B",
+  "title": "GoodFET v42",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\GoodFET_v42__c2dcc568e71e7999ce8a77b7af539169_9B.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\GoodFET_v42__c2dcc568e71e7999ce8a77b7af5__icon__01e9dbd564c591347e171f574b999c2c_9B.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\GoodFET_v42__c2dcc568e71e7999ce8a77b7af5__schematic__e9a6fd6852aec6940e3cb2caae0dfe3a_9B.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\GoodFET_v42__c2dcc568e71e7999ce8a77b7af5__pcb__7d4550553267508e8356c8fb81080a01_9B.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\GoodFET_v42__c2dcc568e71e7999ce8a77b7af5__breadboard__ad25ba0b93f2b6a9cb3bf3147b1705b0_9B.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "TDI",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VCC",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TMS",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "NC",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TCK",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "TST",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "NC",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "RST",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "RX",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "TDO",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "NC",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "TX",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VCC",
+      "description": "no description yet"
+    }
+  ]
+}

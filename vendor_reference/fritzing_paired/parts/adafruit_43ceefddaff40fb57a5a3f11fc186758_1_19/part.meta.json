@@ -1,0 +1,55 @@
+{
+  "moduleId": "adafruit_43ceefddaff40fb57a5a3f11fc186758_1_19",
+  "title": "Adafruit Switched 20mm Coin Cell Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_43ceefddaff40fb57a5a3f11fc186758_1_19.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_43ceefddaff40fb57a5a3f11fc186758_2_breadboard_19.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_43ceefddaff40fb57a5a3f11fc186758_2_schematic_19.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_43ceefddaff40fb57a5a3f11fc186758_2_pcb_19.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_43ceefddaff40fb57a5a3f11fc186758_2_icon_19.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "ON",
+      "description": "ON"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    }
+  ]
+}

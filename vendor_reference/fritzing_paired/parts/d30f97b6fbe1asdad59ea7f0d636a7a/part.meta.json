@@ -1,0 +1,271 @@
+{
+  "moduleId": "d30f97b6fbe1asdad59ea7f0d636a7a",
+  "title": "Parallax Propeller D40",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\controller_propeller_D40.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\parallax_propeller.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Parallax_Propeller.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Parallax_Propeller.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\parallax_propeller_DIL40.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "P3",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "P16",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P4",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "P17",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "P5",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "P18",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P6",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P7",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "P19",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VSS",
+      "description": "Ground"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "P20",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "BOEn",
+      "description": "Brown Out Enable (active low). Must be connected to either VDD or VSS."
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "P21",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "P22",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "P23",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "VSS",
+      "description": "Ground"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "XI",
+      "description": "Crystal Input"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "XO",
+      "description": "Crystal Output"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "VDD",
+      "description": "3.3 volt power (2.7 – 3.3 VDC)"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "P24",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "P25",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "P26",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "P27",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "P28",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC. I2C SCL connection to optional, external EEPROM."
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "P29",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC. I2C SDA connection to optional, external EEPROM."
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "P30",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC. Serial Tx to host."
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "P31",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC. Serial Rx from host."
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RESn",
+      "description": "Reset (active low)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VDD",
+      "description": "3.3 volt power (2.7 – 3.3 VDC)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "P8",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "P9",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "P10",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "P11",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "P12",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "P13",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "P14",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "P15",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "P0",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P1",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "P2",
+      "description": "General purpose I/O Port A. Can source/sink 40 mA each at 3.3 VDC."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "moduleId": "LED-SMD_RGB(WS2812)",
+  "title": "SMD RGB LED (WS2812)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-led-WS2812.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-led-WS2812_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-led-WS2812_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-5050_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-led-WS2812_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "DOut",
+      "description": "DOut - Control data signal output"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DIn",
+      "description": "DIn - Control data signal input"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VCC",
+      "description": "Vcc - Power supply control circuit"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD - Power supply LED"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS - Ground"
+    }
+  ]
+}

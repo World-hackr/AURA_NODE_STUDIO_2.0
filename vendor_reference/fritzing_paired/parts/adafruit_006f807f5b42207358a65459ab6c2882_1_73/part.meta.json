@@ -1,0 +1,61 @@
+{
+  "moduleId": "adafruit_006f807f5b42207358a65459ab6c2882_1_73",
+  "title": "Adafruit Micro USB Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_006f807f5b42207358a65459ab6c2882_1_73.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_006f807f5b42207358a65459ab6c2882_1_breadboard_73.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_006f807f5b42207358a65459ab6c2882_1_schematic_73.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_006f807f5b42207358a65459ab6c2882_1_pcb_73.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_006f807f5b42207358a65459ab6c2882_1_icon_73.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "ID",
+      "description": "ID"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    }
+  ]
+}

@@ -1,0 +1,1279 @@
+{
+  "moduleId": "SparkFun-DigitalIC-EP2C8_PQ208-",
+  "title": "EP2C8_PQ208",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-ep2c8_pq208-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_pqfp208_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_ep2c20_pq208_pll_mix_9_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_pqfp208_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_pqfp208_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 208,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G$1 ASDO",
+      "description": "G$1 ASDO"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G$1 CLKUSR",
+      "description": "G$1 CLKUSR"
+    },
+    {
+      "id": "connector122",
+      "type": "male",
+      "name": "G$1 CONF_DONE",
+      "description": "G$1 CONF_DONE"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G$1 CRC_ERROR",
+      "description": "G$1 CRC_ERROR"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "G$1 DATA0",
+      "description": "G$1 DATA0"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "G$1 DCLK",
+      "description": "G$1 DCLK"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "G$1 DEV_OE",
+      "description": "G$1 DEV_OE"
+    },
+    {
+      "id": "connector106",
+      "type": "male",
+      "name": "G$1 INIT_DONE",
+      "description": "G$1 INIT_DONE"
+    },
+    {
+      "id": "connector125",
+      "type": "male",
+      "name": "G$1 MSEL0",
+      "description": "G$1 MSEL0"
+    },
+    {
+      "id": "connector124",
+      "type": "male",
+      "name": "G$1 MSEL1",
+      "description": "G$1 MSEL1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "G$1 NCE",
+      "description": "G$1 NCE"
+    },
+    {
+      "id": "connector107",
+      "type": "male",
+      "name": "G$1 NCEO",
+      "description": "G$1 NCEO"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "G$1 NCONFIG",
+      "description": "G$1 NCONFIG"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G$1 NCSO",
+      "description": "G$1 NCSO"
+    },
+    {
+      "id": "connector120",
+      "type": "male",
+      "name": "G$1 NSTATUS",
+      "description": "G$1 NSTATUS"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "G$1 TCK",
+      "description": "G$1 TCK"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "G$1 TDI",
+      "description": "G$1 TDI"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "G$1 TDO",
+      "description": "G$1 TDO"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "G$1 TMS",
+      "description": "G$1 TMS"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "G$2 GNDA_PLL1",
+      "description": "G$2 GNDA_PLL1"
+    },
+    {
+      "id": "connector157",
+      "type": "male",
+      "name": "G$2 GNDA_PLL2",
+      "description": "G$2 GNDA_PLL2"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "G$2 GND_PLL1",
+      "description": "G$2 GND_PLL1"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "G$2 GND_PLL1",
+      "description": "G$2 GND_PLL1"
+    },
+    {
+      "id": "connector153",
+      "type": "male",
+      "name": "G$2 GND_PLL2",
+      "description": "G$2 GND_PLL2"
+    },
+    {
+      "id": "connector155",
+      "type": "male",
+      "name": "G$2 GND_PLL2",
+      "description": "G$2 GND_PLL2"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "G$2 VCCA_PLL1",
+      "description": "G$2 VCCA_PLL1"
+    },
+    {
+      "id": "connector156",
+      "type": "male",
+      "name": "G$2 VCCA_PLL2",
+      "description": "G$2 VCCA_PLL2"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "G$2 VCCD_PLL1",
+      "description": "G$2 VCCD_PLL1"
+    },
+    {
+      "id": "connector154",
+      "type": "male",
+      "name": "G$2 VCCD_PLL2",
+      "description": "G$2 VCCD_PLL2"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "G$3 IO",
+      "description": "G$3 IO"
+    },
+    {
+      "id": "connector95",
+      "type": "male",
+      "name": "G$3 IO",
+      "description": "G$3 IO"
+    },
+    {
+      "id": "connector103",
+      "type": "male",
+      "name": "G$3 IO_LVDS57N",
+      "description": "G$3 IO_LVDS57N"
+    },
+    {
+      "id": "connector102",
+      "type": "male",
+      "name": "G$3 IO_LVDS57P",
+      "description": "G$3 IO_LVDS57P"
+    },
+    {
+      "id": "connector101",
+      "type": "male",
+      "name": "G$3 IO_LVDS58N",
+      "description": "G$3 IO_LVDS58N"
+    },
+    {
+      "id": "connector100",
+      "type": "male",
+      "name": "G$3 IO_LVDS58P",
+      "description": "G$3 IO_LVDS58P"
+    },
+    {
+      "id": "connector98",
+      "type": "male",
+      "name": "G$3 IO_LVDS59N",
+      "description": "G$3 IO_LVDS59N"
+    },
+    {
+      "id": "connector96",
+      "type": "male",
+      "name": "G$3 IO_LVDS59P",
+      "description": "G$3 IO_LVDS59P"
+    },
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "G$3 IO_LVDS60N",
+      "description": "G$3 IO_LVDS60N"
+    },
+    {
+      "id": "connector93",
+      "type": "male",
+      "name": "G$3 IO_LVDS60P",
+      "description": "G$3 IO_LVDS60P"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "G$3 IO_LVDS61N",
+      "description": "G$3 IO_LVDS61N"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "G$3 IO_LVDS61P",
+      "description": "G$3 IO_LVDS61P"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "G$3 IO_LVDS62N",
+      "description": "G$3 IO_LVDS62N"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "G$3 IO_LVDS62P",
+      "description": "G$3 IO_LVDS62P"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "G$3 IO_LVDS63N",
+      "description": "G$3 IO_LVDS63N"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "G$3 IO_LVDS63P",
+      "description": "G$3 IO_LVDS63P"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "G$3 IO_LVDS64N",
+      "description": "G$3 IO_LVDS64N"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "G$3 IO_LVDS64P",
+      "description": "G$3 IO_LVDS64P"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "G$3 IO_LVDS66N",
+      "description": "G$3 IO_LVDS66N"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "G$3 IO_LVDS66P",
+      "description": "G$3 IO_LVDS66P"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "G$3 IO_LVDS67N",
+      "description": "G$3 IO_LVDS67N"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "G$3 IO_LVDS67P",
+      "description": "G$3 IO_LVDS67P"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "G$3 IO_LVDS68N",
+      "description": "G$3 IO_LVDS68N"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "G$3 IO_LVDS68P",
+      "description": "G$3 IO_LVDS68P"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "G$3 IO_LVDS70N",
+      "description": "G$3 IO_LVDS70N"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "G$3 IO_LVDS70P",
+      "description": "G$3 IO_LVDS70P"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "G$3 IO_LVDS74N",
+      "description": "G$3 IO_LVDS74N"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "G$3 IO_LVDS74P",
+      "description": "G$3 IO_LVDS74P"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "G$3 IO_LVDS75N",
+      "description": "G$3 IO_LVDS75N"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "G$3 IO_LVDS75P",
+      "description": "G$3 IO_LVDS75P"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "G$3 IO_LVDS76N",
+      "description": "G$3 IO_LVDS76N"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "G$3 IO_LVDS76P",
+      "description": "G$3 IO_LVDS76P"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "G$3 IO_LVDS77P",
+      "description": "G$3 IO_LVDS77P"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "G$3 IO_VREFB4N0",
+      "description": "G$3 IO_VREFB4N0"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "G$3 IO_VREFB4N1",
+      "description": "G$3 IO_VREFB4N1"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "G$3 VCCIO4",
+      "description": "G$3 VCCIO4"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "G$3 VCCIO4",
+      "description": "G$3 VCCIO4"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "G$3 VCCIO4",
+      "description": "G$3 VCCIO4"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "G$3 VCCIO4",
+      "description": "G$3 VCCIO4"
+    },
+    {
+      "id": "connector97",
+      "type": "male",
+      "name": "G$3 VCCIO4",
+      "description": "G$3 VCCIO4"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "G$4 CLK0_LVDSCLK0P",
+      "description": "G$4 CLK0_LVDSCLK0P"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "G$4 CLK1_LVDSCLK0N",
+      "description": "G$4 CLK1_LVDSCLK0N"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "G$4 CLK2_LVDSCLK1P",
+      "description": "G$4 CLK2_LVDSCLK1P"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "G$4 CLK3_LVDSCLK1N",
+      "description": "G$4 CLK3_LVDSCLK1N"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "G$4 IO",
+      "description": "G$4 IO"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "G$4 IO",
+      "description": "G$4 IO"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "G$4 IO",
+      "description": "G$4 IO"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "G$4 IO_LVDS0N",
+      "description": "G$4 IO_LVDS0N"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "G$4 IO_LVDS0P",
+      "description": "G$4 IO_LVDS0P"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "G$4 IO_LVDS12N",
+      "description": "G$4 IO_LVDS12N"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "G$4 IO_LVDS12P",
+      "description": "G$4 IO_LVDS12P"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "G$4 IO_LVDS13N",
+      "description": "G$4 IO_LVDS13N"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "G$4 IO_LVDS13P",
+      "description": "G$4 IO_LVDS13P"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G$4 IO_LVDS14N",
+      "description": "G$4 IO_LVDS14N"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G$4 IO_LVDS14P",
+      "description": "G$4 IO_LVDS14P"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "G$4 IO_LVDS2N",
+      "description": "G$4 IO_LVDS2N"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "G$4 IO_LVDS2P",
+      "description": "G$4 IO_LVDS2P"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "G$4 IO_LVDS3N",
+      "description": "G$4 IO_LVDS3N"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "G$4 IO_LVDS5P",
+      "description": "G$4 IO_LVDS5P"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "G$4 IO_LVDS6N",
+      "description": "G$4 IO_LVDS6N"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "G$4 IO_LVDS7N",
+      "description": "G$4 IO_LVDS7N"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "G$4 IO_LVDS7P",
+      "description": "G$4 IO_LVDS7P"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "G$4 IO_LVDS8N",
+      "description": "G$4 IO_LVDS8N"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "G$4 IO_LVDS8P",
+      "description": "G$4 IO_LVDS8P"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "G$4 IO_PLL1_OUTN",
+      "description": "G$4 IO_PLL1_OUTN"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "G$4 IO_PLL1_OUTP",
+      "description": "G$4 IO_PLL1_OUTP"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "G$4 IO_VREFB1N0",
+      "description": "G$4 IO_VREFB1N0"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "G$4 IO_VREFB1N1",
+      "description": "G$4 IO_VREFB1N1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G$4 VCCIO1",
+      "description": "G$4 VCCIO1"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "G$4 VCCIO1",
+      "description": "G$4 VCCIO1"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "G$4 VCCIO1",
+      "description": "G$4 VCCIO1"
+    },
+    {
+      "id": "connector207",
+      "type": "male",
+      "name": "G$5 IO_LVDS16N",
+      "description": "G$5 IO_LVDS16N"
+    },
+    {
+      "id": "connector206",
+      "type": "male",
+      "name": "G$5 IO_LVDS16P",
+      "description": "G$5 IO_LVDS16P"
+    },
+    {
+      "id": "connector205",
+      "type": "male",
+      "name": "G$5 IO_LVDS17N",
+      "description": "G$5 IO_LVDS17N"
+    },
+    {
+      "id": "connector204",
+      "type": "male",
+      "name": "G$5 IO_LVDS17P",
+      "description": "G$5 IO_LVDS17P"
+    },
+    {
+      "id": "connector200",
+      "type": "male",
+      "name": "G$5 IO_LVDS18N",
+      "description": "G$5 IO_LVDS18N"
+    },
+    {
+      "id": "connector202",
+      "type": "male",
+      "name": "G$5 IO_LVDS18P",
+      "description": "G$5 IO_LVDS18P"
+    },
+    {
+      "id": "connector198",
+      "type": "male",
+      "name": "G$5 IO_LVDS19N",
+      "description": "G$5 IO_LVDS19N"
+    },
+    {
+      "id": "connector199",
+      "type": "male",
+      "name": "G$5 IO_LVDS19P",
+      "description": "G$5 IO_LVDS19P"
+    },
+    {
+      "id": "connector196",
+      "type": "male",
+      "name": "G$5 IO_LVDS21N",
+      "description": "G$5 IO_LVDS21N"
+    },
+    {
+      "id": "connector197",
+      "type": "male",
+      "name": "G$5 IO_LVDS21P",
+      "description": "G$5 IO_LVDS21P"
+    },
+    {
+      "id": "connector192",
+      "type": "male",
+      "name": "G$5 IO_LVDS23N",
+      "description": "G$5 IO_LVDS23N"
+    },
+    {
+      "id": "connector194",
+      "type": "male",
+      "name": "G$5 IO_LVDS23P",
+      "description": "G$5 IO_LVDS23P"
+    },
+    {
+      "id": "connector188",
+      "type": "male",
+      "name": "G$5 IO_LVDS24N",
+      "description": "G$5 IO_LVDS24N"
+    },
+    {
+      "id": "connector190",
+      "type": "male",
+      "name": "G$5 IO_LVDS24P",
+      "description": "G$5 IO_LVDS24P"
+    },
+    {
+      "id": "connector186",
+      "type": "male",
+      "name": "G$5 IO_LVDS25N",
+      "description": "G$5 IO_LVDS25N"
+    },
+    {
+      "id": "connector187",
+      "type": "male",
+      "name": "G$5 IO_LVDS25P",
+      "description": "G$5 IO_LVDS25P"
+    },
+    {
+      "id": "connector184",
+      "type": "male",
+      "name": "G$5 IO_LVDS26P",
+      "description": "G$5 IO_LVDS26P"
+    },
+    {
+      "id": "connector180",
+      "type": "male",
+      "name": "G$5 IO_LVDS28N",
+      "description": "G$5 IO_LVDS28N"
+    },
+    {
+      "id": "connector181",
+      "type": "male",
+      "name": "G$5 IO_LVDS28P",
+      "description": "G$5 IO_LVDS28P"
+    },
+    {
+      "id": "connector178",
+      "type": "male",
+      "name": "G$5 IO_LVDS29N",
+      "description": "G$5 IO_LVDS29N"
+    },
+    {
+      "id": "connector179",
+      "type": "male",
+      "name": "G$5 IO_LVDS29P",
+      "description": "G$5 IO_LVDS29P"
+    },
+    {
+      "id": "connector174",
+      "type": "male",
+      "name": "G$5 IO_LVDS31N",
+      "description": "G$5 IO_LVDS31N"
+    },
+    {
+      "id": "connector175",
+      "type": "male",
+      "name": "G$5 IO_LVDS31P",
+      "description": "G$5 IO_LVDS31P"
+    },
+    {
+      "id": "connector170",
+      "type": "male",
+      "name": "G$5 IO_LVDS33N",
+      "description": "G$5 IO_LVDS33N"
+    },
+    {
+      "id": "connector172",
+      "type": "male",
+      "name": "G$5 IO_LVDS33P",
+      "description": "G$5 IO_LVDS33P"
+    },
+    {
+      "id": "connector167",
+      "type": "male",
+      "name": "G$5 IO_LVDS34N",
+      "description": "G$5 IO_LVDS34N"
+    },
+    {
+      "id": "connector168",
+      "type": "male",
+      "name": "G$5 IO_LVDS34P",
+      "description": "G$5 IO_LVDS34P"
+    },
+    {
+      "id": "connector163",
+      "type": "male",
+      "name": "G$5 IO_LVDS35N",
+      "description": "G$5 IO_LVDS35N"
+    },
+    {
+      "id": "connector164",
+      "type": "male",
+      "name": "G$5 IO_LVDS35P",
+      "description": "G$5 IO_LVDS35P"
+    },
+    {
+      "id": "connector161",
+      "type": "male",
+      "name": "G$5 IO_LVDS36N",
+      "description": "G$5 IO_LVDS36N"
+    },
+    {
+      "id": "connector162",
+      "type": "male",
+      "name": "G$5 IO_LVDS36P",
+      "description": "G$5 IO_LVDS36P"
+    },
+    {
+      "id": "connector159",
+      "type": "male",
+      "name": "G$5 IO_LVDS37N",
+      "description": "G$5 IO_LVDS37N"
+    },
+    {
+      "id": "connector160",
+      "type": "male",
+      "name": "G$5 IO_LVDS37P",
+      "description": "G$5 IO_LVDS37P"
+    },
+    {
+      "id": "connector169",
+      "type": "male",
+      "name": "G$5 IO_VREFB2N0",
+      "description": "G$5 IO_VREFB2N0"
+    },
+    {
+      "id": "connector191",
+      "type": "male",
+      "name": "G$5 IO_VREFB2N1",
+      "description": "G$5 IO_VREFB2N1"
+    },
+    {
+      "id": "connector165",
+      "type": "male",
+      "name": "G$5 VCCIO2",
+      "description": "G$5 VCCIO2"
+    },
+    {
+      "id": "connector171",
+      "type": "male",
+      "name": "G$5 VCCIO2",
+      "description": "G$5 VCCIO2"
+    },
+    {
+      "id": "connector182",
+      "type": "male",
+      "name": "G$5 VCCIO2",
+      "description": "G$5 VCCIO2"
+    },
+    {
+      "id": "connector193",
+      "type": "male",
+      "name": "G$5 VCCIO2",
+      "description": "G$5 VCCIO2"
+    },
+    {
+      "id": "connector201",
+      "type": "male",
+      "name": "G$5 VCCIO2",
+      "description": "G$5 VCCIO2"
+    },
+    {
+      "id": "connector131",
+      "type": "male",
+      "name": "G$6 CLK4_LVDSCLK2P",
+      "description": "G$6 CLK4_LVDSCLK2P"
+    },
+    {
+      "id": "connector130",
+      "type": "male",
+      "name": "G$6 CLK5_LVDSCLK2N",
+      "description": "G$6 CLK5_LVDSCLK2N"
+    },
+    {
+      "id": "connector129",
+      "type": "male",
+      "name": "G$6 CLK6_LVDSCLK3P",
+      "description": "G$6 CLK6_LVDSCLK3P"
+    },
+    {
+      "id": "connector128",
+      "type": "male",
+      "name": "G$6 CLK7_LVDSCLK3N",
+      "description": "G$6 CLK7_LVDSCLK3N"
+    },
+    {
+      "id": "connector117",
+      "type": "male",
+      "name": "G$6 IO",
+      "description": "G$6 IO"
+    },
+    {
+      "id": "connector148",
+      "type": "male",
+      "name": "G$6 IO_LVDS38N",
+      "description": "G$6 IO_LVDS38N"
+    },
+    {
+      "id": "connector149",
+      "type": "male",
+      "name": "G$6 IO_LVDS38P",
+      "description": "G$6 IO_LVDS38P"
+    },
+    {
+      "id": "connector145",
+      "type": "male",
+      "name": "G$6 IO_LVDS39N",
+      "description": "G$6 IO_LVDS39N"
+    },
+    {
+      "id": "connector146",
+      "type": "male",
+      "name": "G$6 IO_LVDS39P",
+      "description": "G$6 IO_LVDS39P"
+    },
+    {
+      "id": "connector142",
+      "type": "male",
+      "name": "G$6 IO_LVDS42N",
+      "description": "G$6 IO_LVDS42N"
+    },
+    {
+      "id": "connector143",
+      "type": "male",
+      "name": "G$6 IO_LVDS42P",
+      "description": "G$6 IO_LVDS42P"
+    },
+    {
+      "id": "connector140",
+      "type": "male",
+      "name": "G$6 IO_LVDS44N",
+      "description": "G$6 IO_LVDS44N"
+    },
+    {
+      "id": "connector141",
+      "type": "male",
+      "name": "G$6 IO_LVDS44P",
+      "description": "G$6 IO_LVDS44P"
+    },
+    {
+      "id": "connector137",
+      "type": "male",
+      "name": "G$6 IO_LVDS45N",
+      "description": "G$6 IO_LVDS45N"
+    },
+    {
+      "id": "connector138",
+      "type": "male",
+      "name": "G$6 IO_LVDS45P",
+      "description": "G$6 IO_LVDS45P"
+    },
+    {
+      "id": "connector134",
+      "type": "male",
+      "name": "G$6 IO_LVDS46N",
+      "description": "G$6 IO_LVDS46N"
+    },
+    {
+      "id": "connector136",
+      "type": "male",
+      "name": "G$6 IO_LVDS46P",
+      "description": "G$6 IO_LVDS46P"
+    },
+    {
+      "id": "connector132",
+      "type": "male",
+      "name": "G$6 IO_LVDS47N",
+      "description": "G$6 IO_LVDS47N"
+    },
+    {
+      "id": "connector133",
+      "type": "male",
+      "name": "G$6 IO_LVDS47P",
+      "description": "G$6 IO_LVDS47P"
+    },
+    {
+      "id": "connector126",
+      "type": "male",
+      "name": "G$6 IO_LVDS48N",
+      "description": "G$6 IO_LVDS48N"
+    },
+    {
+      "id": "connector127",
+      "type": "male",
+      "name": "G$6 IO_LVDS48P",
+      "description": "G$6 IO_LVDS48P"
+    },
+    {
+      "id": "connector114",
+      "type": "male",
+      "name": "G$6 IO_LVDS51N",
+      "description": "G$6 IO_LVDS51N"
+    },
+    {
+      "id": "connector115",
+      "type": "male",
+      "name": "G$6 IO_LVDS51P",
+      "description": "G$6 IO_LVDS51P"
+    },
+    {
+      "id": "connector112",
+      "type": "male",
+      "name": "G$6 IO_LVDS52N",
+      "description": "G$6 IO_LVDS52N"
+    },
+    {
+      "id": "connector113",
+      "type": "male",
+      "name": "G$6 IO_LVDS52P",
+      "description": "G$6 IO_LVDS52P"
+    },
+    {
+      "id": "connector109",
+      "type": "male",
+      "name": "G$6 IO_LVDS53N",
+      "description": "G$6 IO_LVDS53N"
+    },
+    {
+      "id": "connector111",
+      "type": "male",
+      "name": "G$6 IO_LVDS53P",
+      "description": "G$6 IO_LVDS53P"
+    },
+    {
+      "id": "connector104",
+      "type": "male",
+      "name": "G$6 IO_LVDS56N",
+      "description": "G$6 IO_LVDS56N"
+    },
+    {
+      "id": "connector105",
+      "type": "male",
+      "name": "G$6 IO_LVDS56P",
+      "description": "G$6 IO_LVDS56P"
+    },
+    {
+      "id": "connector151",
+      "type": "male",
+      "name": "G$6 IO_PLL2_OUTN",
+      "description": "G$6 IO_PLL2_OUTN"
+    },
+    {
+      "id": "connector150",
+      "type": "male",
+      "name": "G$6 IO_PLL2_OUTP",
+      "description": "G$6 IO_PLL2_OUTP"
+    },
+    {
+      "id": "connector144",
+      "type": "male",
+      "name": "G$6 IO_VREFB3N0",
+      "description": "G$6 IO_VREFB3N0"
+    },
+    {
+      "id": "connector116",
+      "type": "male",
+      "name": "G$6 IO_VREFB3N1",
+      "description": "G$6 IO_VREFB3N1"
+    },
+    {
+      "id": "connector108",
+      "type": "male",
+      "name": "G$6 VCCIO3",
+      "description": "G$6 VCCIO3"
+    },
+    {
+      "id": "connector121",
+      "type": "male",
+      "name": "G$6 VCCIO3",
+      "description": "G$6 VCCIO3"
+    },
+    {
+      "id": "connector135",
+      "type": "male",
+      "name": "G$6 VCCIO3",
+      "description": "G$6 VCCIO3"
+    },
+    {
+      "id": "connector147",
+      "type": "male",
+      "name": "G$6 VCCIO3",
+      "description": "G$6 VCCIO3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector92",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector99",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector110",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector118",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector123",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector139",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector152",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector158",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector166",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector173",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector176",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector183",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector185",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector195",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector203",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "G$7 VCCINT",
+      "description": "G$7 VCCINT"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "G$7 VCCINT",
+      "description": "G$7 VCCINT"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "G$7 VCCINT",
+      "description": "G$7 VCCINT"
+    },
+    {
+      "id": "connector119",
+      "type": "male",
+      "name": "G$7 VCCINT",
+      "description": "G$7 VCCINT"
+    },
+    {
+      "id": "connector177",
+      "type": "male",
+      "name": "G$7 VCCINT",
+      "description": "G$7 VCCINT"
+    },
+    {
+      "id": "connector189",
+      "type": "male",
+      "name": "G$7 VCCINT",
+      "description": "G$7 VCCINT"
+    }
+  ]
+}

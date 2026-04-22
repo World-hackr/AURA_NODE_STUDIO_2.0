@@ -1,0 +1,37 @@
+{
+  "moduleId": "SparkFun-Connectors-M01-SMTRA-256-8-6",
+  "title": "Header 1",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-m01-smtra-256-8-6.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_smtra-256-8-6_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_smtra-256-8-6_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_smtra-256-8-6_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "schematic",
+      "source": "schematic/generic_female_pin_header_1_100mil_10thin_schematic.svg"
+    }
+  ],
+  "connectorCount": 1,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    }
+  ]
+}

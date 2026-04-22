@@ -1,0 +1,289 @@
+{
+  "moduleId": "SparkFun-RF-RN-131G-",
+  "title": "RN-131G",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-rn-131g-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_rn-131g_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_rn-131g_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_rn-131g_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RN-131G.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 43,
+  "connectors": [
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "3.3V-RIN",
+      "description": "3.3V-RIN"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "3.3V-ROUT",
+      "description": "3.3V-ROUT"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "DMA-RX",
+      "description": "DMA-RX"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "DMA-TX",
+      "description": "DMA-TX"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "EPC-A",
+      "description": "EPC-A"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "EPC-B",
+      "description": "EPC-B"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "F_AWAKE",
+      "description": "F_AWAKE"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GPIO-12",
+      "description": "GPIO-12"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GPIO-13",
+      "description": "GPIO-13"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GPIO-4",
+      "description": "GPIO-4"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GPIO-5",
+      "description": "GPIO-5"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GPIO-6",
+      "description": "GPIO-6"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GPIO-7",
+      "description": "GPIO-7"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GPIO-8",
+      "description": "GPIO-8"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GPIO-9",
+      "description": "GPIO-9"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "SEN0",
+      "description": "SEN0"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "SEN1",
+      "description": "SEN1"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "SEN2",
+      "description": "SEN2"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "SEN3",
+      "description": "SEN3"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SEN4",
+      "description": "SEN4"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SEN5",
+      "description": "SEN5"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SEN6",
+      "description": "SEN6"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SEN7",
+      "description": "SEN7"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "SENSE-PWR",
+      "description": "SENSE-PWR"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "S_CAP",
+      "description": "S_CAP"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VDD-BATT",
+      "description": "VDD-BATT"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "VDD-IN",
+      "description": "VDD-IN"
+    }
+  ]
+}

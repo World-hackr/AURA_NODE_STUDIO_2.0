@@ -1,0 +1,415 @@
+{
+  "moduleId": "Frode_3fbd71bd2aded84aad94c91d960efcc1_1",
+  "title": "STM32F40x",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Frode_1.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Frode_3.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Frode_3.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Frode_3.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Frode_3.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 64,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PC1",
+      "description": "PC1"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "PA3",
+      "description": "PA3"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "PA6",
+      "description": "PA6"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "PA7",
+      "description": "PA7"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "PC4",
+      "description": "PC4"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "PC5",
+      "description": "PC5"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VDD1",
+      "description": "VDD1"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "PA4",
+      "description": "PA4"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "PC0",
+      "description": "PC0"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "PB10",
+      "description": "PB10"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "PB11",
+      "description": "PB11"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "VCAP1",
+      "description": "VCAP1"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "PB1",
+      "description": "PB1"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "PB0",
+      "description": "PB0"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VSS1",
+      "description": "VSS1"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "VDD2",
+      "description": "VDD2"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "PC9",
+      "description": "PC9"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "PC12",
+      "description": "PC12"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PH1",
+      "description": "PH1"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "BOOT0",
+      "description": "BOOT0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VDDA",
+      "description": "VDDA"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PA5",
+      "description": "PA5"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "PB2",
+      "description": "PB2"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "PC6",
+      "description": "PC6"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PC15",
+      "description": "PC15"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "PA10",
+      "description": "PA10"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "PC11",
+      "description": "PC11"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "PB8",
+      "description": "PB8"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PA2",
+      "description": "PA2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PA1",
+      "description": "PA1"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "VDD4",
+      "description": "VDD4"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "VSS2",
+      "description": "VSS2"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "PB9",
+      "description": "PB9"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "PB7",
+      "description": "PB7"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "PB6",
+      "description": "PB6"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "PB5",
+      "description": "PB5"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "PB4",
+      "description": "PB4"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "PB3",
+      "description": "PB3"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "PD2",
+      "description": "PD2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PA0",
+      "description": "PA0"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "PC10",
+      "description": "PC10"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "PA15",
+      "description": "PA15"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "PA14",
+      "description": "PA14"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "VDD3",
+      "description": "VDD3"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "VCAP2",
+      "description": "VCAP2"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "PA13",
+      "description": "PA13"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "PA12",
+      "description": "PA12"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "PA11",
+      "description": "PA11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VSSA",
+      "description": "VSSA"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "PB15",
+      "description": "PB15"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "PB14",
+      "description": "PB14"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "PB13",
+      "description": "PB13"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "PB12",
+      "description": "PB12"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "PA9",
+      "description": "PA9"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "PA8",
+      "description": "PA8"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "PC8",
+      "description": "PC8"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "PC7",
+      "description": "PC7"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PC3",
+      "description": "PC3"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PC2",
+      "description": "PC2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "NRST",
+      "description": "NRST"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "PH0",
+      "description": "PH0"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PC14",
+      "description": "PC14"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PC13",
+      "description": "PC13"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "moduleId": "SparkFun-Sensors-MLX90614-_",
+  "title": "MLX90614",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-mlx90614-_.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_to-39_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_mlx90614_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_to-39_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\TO-39.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PWM_SDA",
+      "description": "PWM_SDA"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SCL_VZ",
+      "description": "SCL_VZ"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

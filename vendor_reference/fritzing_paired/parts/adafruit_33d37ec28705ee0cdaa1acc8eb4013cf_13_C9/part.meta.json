@@ -1,0 +1,30 @@
+{
+  "moduleId": "adafruit_33d37ec28705ee0cdaa1acc8eb4013cf_13_C9",
+  "title": "Adafruit USB Isolator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_33d37ec28705ee0cdaa1acc8eb4013cf_13_C9.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_33d37ec28705ee0cdaa1acc8eb4013cf_13_breadboard_C9.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_33d37ec28705ee0cdaa1acc8eb4013cf_13_schematic_C9.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_33d37ec28705ee0cdaa1acc8eb4013cf_13_pcb_C9.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_33d37ec28705ee0cdaa1acc8eb4013cf_13_icon_C9.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 0,
+  "connectors": []
+}

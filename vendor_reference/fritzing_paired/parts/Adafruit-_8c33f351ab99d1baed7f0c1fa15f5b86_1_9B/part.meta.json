@@ -1,0 +1,163 @@
+{
+  "moduleId": "Adafruit-_8c33f351ab99d1baed7f0c1fa15f5b86_1_9B",
+  "title": "Adafruit CP2105 Friend - USB to Dual UART Serial Converters",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_8c33f351ab99d1baed7f0c1fa15f5b86_1_9B.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_8c33f351ab99d1baed7f0c1fa15f5b86_1_9B_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_8c33f351ab99d1baed7f0c1fa15f5b86_1_9B_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_8c33f351ab99d1baed7f0c1fa15f5b86_1_9B_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_8c33f351ab99d1baed7f0c1fa15f5b86_1_9B_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 22,
+  "connectors": [
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "DSR1",
+      "description": "DSR1"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "CTS1",
+      "description": "CTS1"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "RTS1",
+      "description": "RTS1"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "RX1",
+      "description": "RX1"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "RX1",
+      "description": "RX1"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "TX1",
+      "description": "TX1"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "TX1",
+      "description": "TX1"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "DTR1",
+      "description": "DTR1"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "RI1",
+      "description": "RI1"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "RI2",
+      "description": "RI2"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "DTR2",
+      "description": "DTR2"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "TX2",
+      "description": "TX2"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "TX2",
+      "description": "TX2"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "RX2",
+      "description": "RX2"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "RX2",
+      "description": "RX2"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "RTS2",
+      "description": "RTS2"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "CTS2",
+      "description": "CTS2"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

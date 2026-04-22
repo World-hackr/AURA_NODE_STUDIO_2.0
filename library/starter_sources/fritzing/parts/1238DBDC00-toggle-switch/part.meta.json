@@ -1,0 +1,44 @@
+{
+  "moduleId": "1238DBDC00-toggle-switch",
+  "title": "Toggle Switch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\basic-toggle-switch.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic_toggle_switch.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\basic_toggle_switch.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_3_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "L1",
+      "description": "L1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "COM",
+      "description": "COM"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "L2",
+      "description": "L2"
+    }
+  ]
+}

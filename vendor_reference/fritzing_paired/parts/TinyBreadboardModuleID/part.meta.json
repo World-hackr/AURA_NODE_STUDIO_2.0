@@ -1,0 +1,1231 @@
+{
+  "moduleId": "TinyBreadboardModuleID",
+  "title": "Tiny Breadboard",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\tinyBreadboard.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\tinyBreadboardIcon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\tinyBreadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\tinyBreadboard.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\tinyBreadboard.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 200,
+  "connectors": [
+    {
+      "id": "A1",
+      "type": "female",
+      "name": "A1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B1",
+      "type": "female",
+      "name": "B1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C1",
+      "type": "female",
+      "name": "C1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D1",
+      "type": "female",
+      "name": "D1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E1",
+      "type": "female",
+      "name": "E1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A2",
+      "type": "female",
+      "name": "A2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B2",
+      "type": "female",
+      "name": "B2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C2",
+      "type": "female",
+      "name": "C2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D2",
+      "type": "female",
+      "name": "D2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E2",
+      "type": "female",
+      "name": "E2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A3",
+      "type": "female",
+      "name": "A3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B3",
+      "type": "female",
+      "name": "B3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C3",
+      "type": "female",
+      "name": "C3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D3",
+      "type": "female",
+      "name": "D3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E3",
+      "type": "female",
+      "name": "E3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A4",
+      "type": "female",
+      "name": "A4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B4",
+      "type": "female",
+      "name": "B4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C4",
+      "type": "female",
+      "name": "C4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D4",
+      "type": "female",
+      "name": "D4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E4",
+      "type": "female",
+      "name": "E4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A5",
+      "type": "female",
+      "name": "A5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B5",
+      "type": "female",
+      "name": "B5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C5",
+      "type": "female",
+      "name": "C5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D5",
+      "type": "female",
+      "name": "D5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E5",
+      "type": "female",
+      "name": "E5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A6",
+      "type": "female",
+      "name": "A6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B6",
+      "type": "female",
+      "name": "B6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C6",
+      "type": "female",
+      "name": "C6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D6",
+      "type": "female",
+      "name": "D6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E6",
+      "type": "female",
+      "name": "E6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A7",
+      "type": "female",
+      "name": "A7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B7",
+      "type": "female",
+      "name": "B7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C7",
+      "type": "female",
+      "name": "C7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D7",
+      "type": "female",
+      "name": "D7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E7",
+      "type": "female",
+      "name": "E7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A8",
+      "type": "female",
+      "name": "A8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B8",
+      "type": "female",
+      "name": "B8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C8",
+      "type": "female",
+      "name": "C8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D8",
+      "type": "female",
+      "name": "D8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E8",
+      "type": "female",
+      "name": "E8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A9",
+      "type": "female",
+      "name": "A9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B9",
+      "type": "female",
+      "name": "B9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C9",
+      "type": "female",
+      "name": "C9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D9",
+      "type": "female",
+      "name": "D9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E9",
+      "type": "female",
+      "name": "E9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A10",
+      "type": "female",
+      "name": "A10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B10",
+      "type": "female",
+      "name": "B10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C10",
+      "type": "female",
+      "name": "C10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D10",
+      "type": "female",
+      "name": "D10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E10",
+      "type": "female",
+      "name": "E10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A11",
+      "type": "female",
+      "name": "A11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B11",
+      "type": "female",
+      "name": "B11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C11",
+      "type": "female",
+      "name": "C11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D11",
+      "type": "female",
+      "name": "D11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E11",
+      "type": "female",
+      "name": "E11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A12",
+      "type": "female",
+      "name": "A12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B12",
+      "type": "female",
+      "name": "B12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C12",
+      "type": "female",
+      "name": "C12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D12",
+      "type": "female",
+      "name": "D12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E12",
+      "type": "female",
+      "name": "E12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A13",
+      "type": "female",
+      "name": "A13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B13",
+      "type": "female",
+      "name": "B13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C13",
+      "type": "female",
+      "name": "C13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D13",
+      "type": "female",
+      "name": "D13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E13",
+      "type": "female",
+      "name": "E13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A14",
+      "type": "female",
+      "name": "A14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B14",
+      "type": "female",
+      "name": "B14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C14",
+      "type": "female",
+      "name": "C14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D14",
+      "type": "female",
+      "name": "D14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E14",
+      "type": "female",
+      "name": "E14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A15",
+      "type": "female",
+      "name": "A15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B15",
+      "type": "female",
+      "name": "B15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C15",
+      "type": "female",
+      "name": "C15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D15",
+      "type": "female",
+      "name": "D15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E15",
+      "type": "female",
+      "name": "E15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A16",
+      "type": "female",
+      "name": "A16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B16",
+      "type": "female",
+      "name": "B16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C16",
+      "type": "female",
+      "name": "C16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D16",
+      "type": "female",
+      "name": "D16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E16",
+      "type": "female",
+      "name": "E16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A17",
+      "type": "female",
+      "name": "A17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B17",
+      "type": "female",
+      "name": "B17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C17",
+      "type": "female",
+      "name": "C17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D17",
+      "type": "female",
+      "name": "D17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E17",
+      "type": "female",
+      "name": "E17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A18",
+      "type": "female",
+      "name": "A18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B18",
+      "type": "female",
+      "name": "B18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C18",
+      "type": "female",
+      "name": "C18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D18",
+      "type": "female",
+      "name": "D18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E18",
+      "type": "female",
+      "name": "E18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A19",
+      "type": "female",
+      "name": "A19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B19",
+      "type": "female",
+      "name": "B19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C19",
+      "type": "female",
+      "name": "C19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D19",
+      "type": "female",
+      "name": "D19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E19",
+      "type": "female",
+      "name": "E19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "A20",
+      "type": "female",
+      "name": "A20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "B20",
+      "type": "female",
+      "name": "B20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "C20",
+      "type": "female",
+      "name": "C20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "D20",
+      "type": "female",
+      "name": "D20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "E20",
+      "type": "female",
+      "name": "E20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F1",
+      "type": "female",
+      "name": "F1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G1",
+      "type": "female",
+      "name": "G1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H1",
+      "type": "female",
+      "name": "H1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I1",
+      "type": "female",
+      "name": "I1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J1",
+      "type": "female",
+      "name": "J1",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F2",
+      "type": "female",
+      "name": "F2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G2",
+      "type": "female",
+      "name": "G2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H2",
+      "type": "female",
+      "name": "H2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I2",
+      "type": "female",
+      "name": "I2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J2",
+      "type": "female",
+      "name": "J2",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F3",
+      "type": "female",
+      "name": "F3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G3",
+      "type": "female",
+      "name": "G3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H3",
+      "type": "female",
+      "name": "H3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I3",
+      "type": "female",
+      "name": "I3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J3",
+      "type": "female",
+      "name": "J3",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F4",
+      "type": "female",
+      "name": "F4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G4",
+      "type": "female",
+      "name": "G4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H4",
+      "type": "female",
+      "name": "H4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I4",
+      "type": "female",
+      "name": "I4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J4",
+      "type": "female",
+      "name": "J4",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F5",
+      "type": "female",
+      "name": "F5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G5",
+      "type": "female",
+      "name": "G5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H5",
+      "type": "female",
+      "name": "H5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I5",
+      "type": "female",
+      "name": "I5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J5",
+      "type": "female",
+      "name": "J5",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F6",
+      "type": "female",
+      "name": "F6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G6",
+      "type": "female",
+      "name": "G6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H6",
+      "type": "female",
+      "name": "H6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I6",
+      "type": "female",
+      "name": "I6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J6",
+      "type": "female",
+      "name": "J6",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F7",
+      "type": "female",
+      "name": "F7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G7",
+      "type": "female",
+      "name": "G7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H7",
+      "type": "female",
+      "name": "H7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I7",
+      "type": "female",
+      "name": "I7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J7",
+      "type": "female",
+      "name": "J7",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F8",
+      "type": "female",
+      "name": "F8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G8",
+      "type": "female",
+      "name": "G8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H8",
+      "type": "female",
+      "name": "H8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I8",
+      "type": "female",
+      "name": "I8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J8",
+      "type": "female",
+      "name": "J8",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F9",
+      "type": "female",
+      "name": "F9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G9",
+      "type": "female",
+      "name": "G9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H9",
+      "type": "female",
+      "name": "H9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I9",
+      "type": "female",
+      "name": "I9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J9",
+      "type": "female",
+      "name": "J9",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F10",
+      "type": "female",
+      "name": "F10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G10",
+      "type": "female",
+      "name": "G10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H10",
+      "type": "female",
+      "name": "H10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I10",
+      "type": "female",
+      "name": "I10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J10",
+      "type": "female",
+      "name": "J10",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F11",
+      "type": "female",
+      "name": "F11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G11",
+      "type": "female",
+      "name": "G11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H11",
+      "type": "female",
+      "name": "H11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I11",
+      "type": "female",
+      "name": "I11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J11",
+      "type": "female",
+      "name": "J11",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F12",
+      "type": "female",
+      "name": "F12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G12",
+      "type": "female",
+      "name": "G12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H12",
+      "type": "female",
+      "name": "H12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I12",
+      "type": "female",
+      "name": "I12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J12",
+      "type": "female",
+      "name": "J12",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F13",
+      "type": "female",
+      "name": "F13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G13",
+      "type": "female",
+      "name": "G13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H13",
+      "type": "female",
+      "name": "H13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I13",
+      "type": "female",
+      "name": "I13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J13",
+      "type": "female",
+      "name": "J13",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F14",
+      "type": "female",
+      "name": "F14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G14",
+      "type": "female",
+      "name": "G14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H14",
+      "type": "female",
+      "name": "H14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I14",
+      "type": "female",
+      "name": "I14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J14",
+      "type": "female",
+      "name": "J14",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F15",
+      "type": "female",
+      "name": "F15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G15",
+      "type": "female",
+      "name": "G15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H15",
+      "type": "female",
+      "name": "H15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I15",
+      "type": "female",
+      "name": "I15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J15",
+      "type": "female",
+      "name": "J15",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F16",
+      "type": "female",
+      "name": "F16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G16",
+      "type": "female",
+      "name": "G16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H16",
+      "type": "female",
+      "name": "H16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I16",
+      "type": "female",
+      "name": "I16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J16",
+      "type": "female",
+      "name": "J16",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F17",
+      "type": "female",
+      "name": "F17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G17",
+      "type": "female",
+      "name": "G17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H17",
+      "type": "female",
+      "name": "H17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I17",
+      "type": "female",
+      "name": "I17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J17",
+      "type": "female",
+      "name": "J17",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F18",
+      "type": "female",
+      "name": "F18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G18",
+      "type": "female",
+      "name": "G18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H18",
+      "type": "female",
+      "name": "H18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I18",
+      "type": "female",
+      "name": "I18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J18",
+      "type": "female",
+      "name": "J18",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F19",
+      "type": "female",
+      "name": "F19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G19",
+      "type": "female",
+      "name": "G19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H19",
+      "type": "female",
+      "name": "H19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I19",
+      "type": "female",
+      "name": "I19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J19",
+      "type": "female",
+      "name": "J19",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "F20",
+      "type": "female",
+      "name": "F20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "G20",
+      "type": "female",
+      "name": "G20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "H20",
+      "type": "female",
+      "name": "H20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "I20",
+      "type": "female",
+      "name": "I20",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "J20",
+      "type": "female",
+      "name": "J20",
+      "description": "breadboard socket"
+    }
+  ]
+}

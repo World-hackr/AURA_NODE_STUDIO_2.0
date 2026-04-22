@@ -1,0 +1,49 @@
+{
+  "moduleId": "37asdf3c843a2127a0e499f8a0b3ef6aCrystalModuleID",
+  "title": "Resonator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\resonator-3pin.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\resonator-3pin.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\resonator-3pin-leg.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\resonator-3pin.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\resonator-3pin.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "0",
+      "description": "Pin 0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 1",
+      "description": "Pin 1"
+    }
+  ]
+}

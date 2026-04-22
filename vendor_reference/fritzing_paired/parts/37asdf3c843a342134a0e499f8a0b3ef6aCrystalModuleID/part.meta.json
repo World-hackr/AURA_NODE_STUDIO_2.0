@@ -1,0 +1,43 @@
+{
+  "moduleId": "37asdf3c843a342134a0e499f8a0b3ef6aCrystalModuleID",
+  "title": "Resonator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\resonator-2pin.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\resonator-2pin.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\resonator-2pin-leg.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\crystal_hc49u.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\crystal.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "0",
+      "description": "Pin 0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1",
+      "description": "Pin 1"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "moduleId": "SparkFun-RF-XTEND-DIGI-MODEM-",
+  "title": "XTEND-DIGI-MODEM",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-xtend-digi-modem-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_xtend-digi-modem_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_xtend-digi-modem_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_xtend-digi-modem_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\XTEND-DIGI-MODEM.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CONFIG",
+      "description": "CONFIG"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DI",
+      "description": "DI"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DO",
+      "description": "DO"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GPO2",
+      "description": "GPO2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SHDN",
+      "description": "SHDN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SLEEP",
+      "description": "SLEEP"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "TX_PWR",
+      "description": "TX_PWR"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

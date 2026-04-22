@@ -1,0 +1,114 @@
+{
+  "moduleId": "SparkFun-AnalogIC-556-",
+  "title": "556",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-556-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_556_timer_dual_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_dil14_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_14_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_14_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "CV",
+      "description": "CV"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CV2",
+      "description": "CV2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "DIS",
+      "description": "DIS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DIS2",
+      "description": "DIS2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "OUT2",
+      "description": "OUT2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "RST2",
+      "description": "RST2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "THR",
+      "description": "THR"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "THR2",
+      "description": "THR2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TRIG",
+      "description": "TRIG"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TRIG2",
+      "description": "TRIG2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

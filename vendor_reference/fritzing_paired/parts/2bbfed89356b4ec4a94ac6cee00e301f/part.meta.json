@@ -1,0 +1,103 @@
+{
+  "moduleId": "2bbfed89356b4ec4a94ac6cee00e301f",
+  "title": "RFM12B Transceiver DIP Package",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\RFM12B_Transceiver_DIP_Package.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RFM12B_Transceiver_DIP_Package__581e0231.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\RFM12B_Transceiver_DIP_Package__581e0231.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\RFM12B_Transceiver_DIP_Package__581e0231.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\RFM12B_Transceiver_DIP_Package__581e0231.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "nIRQ",
+      "description": "DO - Interrupt request output (active low)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DCLCK/CFIL/FFIT",
+      "description": "DO/AIO/DO - Clock output (no FIFO )/external filter capacitor (analog mode)/FIFO interrupts (active high). When FIFO level set to 1, FIFO empty interruption can be achieved."
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "nRES",
+      "description": "DIO - Reset output (active low)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "S - Power ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CLK",
+      "description": "DO - Clock output for external microcontroller"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "FSCK/DATA/nFFS",
+      "description": "DI/DO/DI - Transmit FSK data input/received data output (FIFO not used)/FIFO select"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SDO",
+      "description": "DO - Serial data output with bus hold"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SCK",
+      "description": "DI - SPI clock input"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VDD",
+      "description": "S - Positive power supply"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "nINT/VDI",
+      "description": "DI/DO - Interrupt input (active low)/valid data indicator"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SDI",
+      "description": "DI - SPI data input"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "nSEL",
+      "description": "DI - Chip select (active low)"
+    }
+  ]
+}

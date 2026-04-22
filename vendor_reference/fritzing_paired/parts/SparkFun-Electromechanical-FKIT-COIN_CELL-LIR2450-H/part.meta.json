@@ -1,0 +1,43 @@
+{
+  "moduleId": "SparkFun-Electromechanical-FKIT-COIN_CELL-LIR2450-H",
+  "title": "FKIT-COIN_CELL",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-fkit-coin_cell-lir2450-h.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_fkit-lir2450-h_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_fkit-battery_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_fkit-lir2450-h_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\FKIT-LIR2450-H.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "NEG",
+      "description": "NEG"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "POS",
+      "description": "POS"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun_BadgerArray",
+  "title": "LED BadgerArray",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SparkFun_BadgerArray.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun_BadgerArray_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SparkFun_BadgerArray_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SparkFun_BadgerArray_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun_BadgerArray_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector114",
+      "type": "female",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector115",
+      "type": "female",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector116",
+      "type": "female",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector117",
+      "type": "female",
+      "name": "D",
+      "description": "D"
+    },
+    {
+      "id": "connector118",
+      "type": "female",
+      "name": "E",
+      "description": "E"
+    },
+    {
+      "id": "connector119",
+      "type": "female",
+      "name": "F",
+      "description": "F"
+    },
+    {
+      "id": "connector120",
+      "type": "female",
+      "name": "G",
+      "description": "G"
+    },
+    {
+      "id": "connector121",
+      "type": "female",
+      "name": "H",
+      "description": "H"
+    }
+  ]
+}

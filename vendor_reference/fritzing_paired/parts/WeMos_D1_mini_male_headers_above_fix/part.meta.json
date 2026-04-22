@@ -1,0 +1,127 @@
+{
+  "moduleId": "WeMos_D1_mini_male_headers_above_fix",
+  "title": "WeMos D1 Mini",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\WeMos-D1-mini-male-headers-above_fixed.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\WeMos-D1-mini-male-headers-above_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WeMos-D1-mini-male-headers-above_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\WeMos-D1-mini_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\WeMos-D1-mini_pcb_fix.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "rst",
+      "type": "female",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "a0",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "d0",
+      "type": "female",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "d5",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "d6",
+      "type": "female",
+      "name": "D6",
+      "description": "D6"
+    },
+    {
+      "id": "d7",
+      "type": "female",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "d8",
+      "type": "female",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "3v3",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "5v",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "g",
+      "type": "female",
+      "name": "G",
+      "description": "G"
+    },
+    {
+      "id": "d4",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "d3",
+      "type": "female",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "d2",
+      "type": "female",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "d1",
+      "type": "female",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "rx",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "tx",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    }
+  ]
+}

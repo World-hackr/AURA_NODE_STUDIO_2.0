@@ -1,0 +1,97 @@
+{
+  "moduleId": "usb_3.0_female",
+  "title": "USB Connectors",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\usb_3.0_female.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\usb_3.0_female_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\usb_3.0_female_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\usb_3.0_female_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\usb_3.0_female_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SSRX-",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND_DRAIN",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SSRX+",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SSTX-",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SSTX+",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "NC",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "NC",
+      "description": "pin 12"
+    }
+  ]
+}

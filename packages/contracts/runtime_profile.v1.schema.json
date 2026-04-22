@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aura/contracts/runtime_profile.v1",
+  "title": "AURA Runtime Profile V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "profileId", "label", "kind", "state"],
+  "properties": {
+    "schema": {
+      "const": "aura.runtime_profile.v1"
+    },
+    "profileId": {
+      "type": "string",
+      "enum": [
+        "light_output",
+        "push_button",
+        "toggle_switch",
+        "slide_switch",
+        "potentiometer",
+        "servo_angle"
+      ]
+    },
+    "label": { "type": "string", "minLength": 1 },
+    "kind": {
+      "type": "string",
+      "enum": ["input", "output", "actuator", "display"]
+    },
+    "state": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "bindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["bindingKind"],
+        "properties": {
+          "bindingKind": {
+            "type": "string",
+            "enum": ["rotation", "translation", "opacity", "color", "visibility", "segments"]
+          },
+          "targetNodeId": { "type": "string" },
+          "axis": {
+            "type": "string",
+            "enum": ["x", "y", "z"]
+          },
+          "minValue": { "type": "number" },
+          "maxValue": { "type": "number" }
+        }
+      }
+    }
+  }
+}

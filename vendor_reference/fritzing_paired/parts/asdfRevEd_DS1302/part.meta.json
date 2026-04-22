@@ -1,0 +1,79 @@
+{
+  "moduleId": "asdfRevEd_DS1302",
+  "title": "DS1302",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_DS1302.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DS1302_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DS1302_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_SO8_DT.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DS1302_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "pad",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector1",
+      "type": "pad",
+      "name": "X1 - Crystal",
+      "description": "Connect this pin to a 32kHz watch crystal"
+    },
+    {
+      "id": "connector2",
+      "type": "pad",
+      "name": "X2 - Crystal",
+      "description": "Connect this pin to a 32kHz watch crystal"
+    },
+    {
+      "id": "connector3",
+      "type": "pad",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector4",
+      "type": "pad",
+      "name": "CE - Chip Enable",
+      "description": "This pin is used as a chip enable and to initiate communications with the device. This pin is active high and the chip will be enabled when this pin has a logic high presented to it. Connect this pin to a digital output pin of your controller"
+    },
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "I/O - SPI Data In/Out",
+      "description": "This pin is used to read data from the device and to write data to the device"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "SCLK - SPI Clock",
+      "description": "Connect this pin to the 'SPI Clock' (SCLK) signal of the controller"
+    },
+    {
+      "id": "connector7",
+      "type": "pad",
+      "name": "Vbat - Backup Supply",
+      "description": "Connect this pin to the positive connection of a 3V battery"
+    }
+  ]
+}

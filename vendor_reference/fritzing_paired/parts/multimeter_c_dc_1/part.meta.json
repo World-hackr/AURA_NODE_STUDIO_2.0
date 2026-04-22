@@ -1,0 +1,49 @@
+{
+  "moduleId": "multimeter_c_dc_1",
+  "title": "Multimeter (DC Current)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\multimeter_c_dc_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\multimeter_c_dc_1_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\multimeter_c_dc_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\multimeter_c_dc_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\multimeter_c_dc_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "COM Probe",
+      "description": "COM"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "V Probe",
+      "description": "Voltage probe"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "A Probe",
+      "description": "Current probe"
+    }
+  ]
+}

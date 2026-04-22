@@ -1,0 +1,38 @@
+{
+  "moduleId": "textile_strech_sensor_005_qcootz4_FsrModuleID",
+  "title": "Textile Stretch Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\textile_stretch_sensor_005.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\textile_strech_sensor_005.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\rheostat_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\axial_lay_2_300mil_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 0",
+      "description": "pin0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 1",
+      "description": "pin1"
+    }
+  ]
+}

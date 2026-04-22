@@ -1,0 +1,193 @@
+{
+  "moduleId": "Adafruit-_f46de9ae1b2280b6d305671649303d97_1_22",
+  "title": "Adafruit OV5640 Camera Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_f46de9ae1b2280b6d305671649303d97_1_22.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_f46de9ae1b2280b6d305671649303d97_1_breadboard_22.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_f46de9ae1b2280b6d305671649303d97_1_schematic_22.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_f46de9ae1b2280b6d305671649303d97_1_pcb_22.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_f46de9ae1b2280b6d305671649303d97_1_icon_22.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 27,
+  "connectors": [
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "VSYNC",
+      "description": "VSYNC"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "PCLK",
+      "description": "PCLK"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "DATA9",
+      "description": "DATA9"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "DATA7",
+      "description": "DATA7"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "DATA5",
+      "description": "DATA5"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "DATA3",
+      "description": "DATA3"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "!RESET",
+      "description": "!RESET"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "HSYNC",
+      "description": "HSYNC"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "HSYNC",
+      "description": "HSYNC"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "EXT_XCLK",
+      "description": "EXT_XCLK"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "EXT_XCLK",
+      "description": "EXT_XCLK"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "DATA8",
+      "description": "DATA8"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "DATA8",
+      "description": "DATA8"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "DATA6",
+      "description": "DATA6"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "DATA6",
+      "description": "DATA6"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "DATA4",
+      "description": "DATA4"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "DATA4",
+      "description": "DATA4"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "DATA2",
+      "description": "DATA2"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "DATA2",
+      "description": "DATA2"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "PWDN",
+      "description": "PWDN"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "PWDN",
+      "description": "PWDN"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

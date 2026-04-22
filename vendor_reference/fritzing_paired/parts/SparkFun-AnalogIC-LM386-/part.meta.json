@@ -1,0 +1,78 @@
+{
+  "moduleId": "SparkFun-AnalogIC-LM386-",
+  "title": "LM386",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-lm386-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_op-amp_-lm386.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_dip08_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_8_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_8_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "+IN",
+      "description": "+IN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "-IN",
+      "description": "-IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "BP",
+      "description": "BP"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GAIN",
+      "description": "GAIN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GAIN",
+      "description": "GAIN"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    }
+  ]
+}

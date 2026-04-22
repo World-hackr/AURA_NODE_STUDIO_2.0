@@ -1,0 +1,43 @@
+{
+  "moduleId": "SparkFun-Electromechanical-BATTERY-245PTH",
+  "title": "Battery Holders",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-battery-245pth.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_battcon_245mm_pth_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_battery_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_battcon_245mm_pth_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\BATTCON_245MM_PTH.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "+",
+      "description": "+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-",
+      "description": "-"
+    }
+  ]
+}

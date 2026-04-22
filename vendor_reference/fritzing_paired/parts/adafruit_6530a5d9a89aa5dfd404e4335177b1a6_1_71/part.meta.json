@@ -1,0 +1,79 @@
+{
+  "moduleId": "adafruit_6530a5d9a89aa5dfd404e4335177b1a6_1_71",
+  "title": "NeoPixel Stick",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_6530a5d9a89aa5dfd404e4335177b1a6_1_71.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_63ac9ae82a412ce2d647640ca7ab7795_1_breadboard_71.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_63ac9ae82a412ce2d647640ca7ab7795_1_schematic_71.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_63ac9ae82a412ce2d647640ca7ab7795_1_pcb_71.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_63ac9ae82a412ce2d647640ca7ab7795_1_icon_71.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "DATAIN",
+      "description": "DATAIN"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "DATAOUT",
+      "description": "DATAOUT"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

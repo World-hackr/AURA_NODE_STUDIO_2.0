@@ -1,0 +1,247 @@
+{
+  "moduleId": "SparkFun-RF-ZG2100M-",
+  "title": "ZG2100M",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-zg2100m-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_zg2100m_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_zg2100m_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_zg2100m_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ZG2100M.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 36,
+  "connectors": [
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "CE_N",
+      "description": "CE_N"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND1",
+      "description": "GND1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND3",
+      "description": "GND3"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND4",
+      "description": "GND4"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "GND5",
+      "description": "GND5"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GND6",
+      "description": "GND6"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GND7",
+      "description": "GND7"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "GND8",
+      "description": "GND8"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "INT_NX",
+      "description": "INT_NX"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "JTAG_EN",
+      "description": "JTAG_EN"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "JTAG_RST_N",
+      "description": "JTAG_RST_N"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "JTAG_TCK",
+      "description": "JTAG_TCK"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "JTAG_TDI",
+      "description": "JTAG_TDI"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "JTAG_TDO",
+      "description": "JTAG_TDO"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "JTAG_TMS",
+      "description": "JTAG_TMS"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "NC1",
+      "description": "NC1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "NC2",
+      "description": "NC2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "NC3",
+      "description": "NC3"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "NC4",
+      "description": "NC4"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "NC5",
+      "description": "NC5"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "NC6",
+      "description": "NC6"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "RES",
+      "description": "RES"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RST_N",
+      "description": "RST_N"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SCS_N",
+      "description": "SCS_N"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "SDI",
+      "description": "SDI"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "SDO",
+      "description": "SDO"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "UART_RX",
+      "description": "UART_RX"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "UART_TX",
+      "description": "UART_TX"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD_1.8_1",
+      "description": "VDD_1.8_1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VDD_1.8_2",
+      "description": "VDD_1.8_2"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VDD_1.8_3",
+      "description": "VDD_1.8_3"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "VDD_1.8_4",
+      "description": "VDD_1.8_4"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VDD_3.3_1",
+      "description": "VDD_3.3_1"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "VDD_3.3_2",
+      "description": "VDD_3.3_2"
+    }
+  ]
+}

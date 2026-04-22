@@ -1,0 +1,67 @@
+{
+  "moduleId": "1001AAACOptocoupler",
+  "title": "Optocoupler",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\optocoupler.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\optocoupler4n35_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\optocoupler4n35_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\optocoupler4n35_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_6_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "Emitter"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "Collector"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "Base"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "Anode"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "Cathode"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "Not Connected"
+    }
+  ]
+}

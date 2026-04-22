@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Sensors-HMC1051Z-",
+  "title": "HMC1051Z",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-hmc1051z-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_hmc1051z3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_hmc1051z_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_hmc1051z3_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\HMC1051Z3.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "S_R+",
+      "description": "S_R+"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "S_R-",
+      "description": "S_R-"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V0+",
+      "description": "V0+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VO-",
+      "description": "VO-"
+    }
+  ]
+}

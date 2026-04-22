@@ -1,0 +1,49 @@
+{
+  "moduleId": "adafruit_e744d7ca544ba0be08600d362bd13106_1_98",
+  "title": "ALSPT19315C",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_e744d7ca544ba0be08600d362bd13106_1_98.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_980ddb6f0c21d02981ca59d327713984_1_breadboard_98.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_980ddb6f0c21d02981ca59d327713984_1_schematic_98.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_980ddb6f0c21d02981ca59d327713984_1_pcb_98.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_980ddb6f0c21d02981ca59d327713984_1_icon_98.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

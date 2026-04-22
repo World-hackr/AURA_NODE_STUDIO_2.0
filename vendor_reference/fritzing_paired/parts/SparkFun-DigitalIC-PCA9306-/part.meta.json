@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-DigitalIC-PCA9306-",
+  "title": "PCA9306",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-pca9306-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_psop-8_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_pca9306_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_psop-8_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_psop-8_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SCL1",
+      "description": "SCL1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SCL2",
+      "description": "SCL2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SDA1",
+      "description": "SDA1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SDA2",
+      "description": "SDA2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VREF1",
+      "description": "VREF1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VREF2",
+      "description": "VREF2"
+    }
+  ]
+}

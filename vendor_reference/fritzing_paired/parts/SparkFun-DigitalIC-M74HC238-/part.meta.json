@@ -1,0 +1,126 @@
+{
+  "moduleId": "SparkFun-DigitalIC-M74HC238-",
+  "title": "M74HC238",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-m74hc238-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_m74hc238_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil16_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_16_400mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_16_400mil_bread.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G1",
+      "description": "G1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Y0",
+      "description": "Y0"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Y1",
+      "description": "Y1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Y2",
+      "description": "Y2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Y3",
+      "description": "Y3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Y4",
+      "description": "Y4"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Y5",
+      "description": "Y5"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Y6",
+      "description": "Y6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Y7",
+      "description": "Y7"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "~G2A",
+      "description": "~G2A"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "~G2B",
+      "description": "~G2B"
+    }
+  ]
+}

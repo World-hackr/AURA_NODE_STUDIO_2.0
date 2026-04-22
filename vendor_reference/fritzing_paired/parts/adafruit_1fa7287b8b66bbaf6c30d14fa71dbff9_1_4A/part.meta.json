@@ -1,0 +1,229 @@
+{
+  "moduleId": "adafruit_1fa7287b8b66bbaf6c30d14fa71dbff9_1_4A",
+  "title": "LED Charlieplexed Matrix - 9x16",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_1fa7287b8b66bbaf6c30d14fa71dbff9_1_4A.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_928ae5878557c65daaead175993d00d6_3_breadboard_4A.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_928ae5878557c65daaead175993d00d6_3_schematic_4A.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_928ae5878557c65daaead175993d00d6_3_pcb_4A.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_928ae5878557c65daaead175993d00d6_3_icon_4A.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 33,
+  "connectors": [
+    {
+      "id": "connector315",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector316",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector313",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector318",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector312",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector319",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector320",
+      "type": "female",
+      "name": "B1",
+      "description": "B1"
+    },
+    {
+      "id": "connector321",
+      "type": "female",
+      "name": "B2",
+      "description": "B2"
+    },
+    {
+      "id": "connector322",
+      "type": "female",
+      "name": "B3",
+      "description": "B3"
+    },
+    {
+      "id": "connector323",
+      "type": "female",
+      "name": "B4",
+      "description": "B4"
+    },
+    {
+      "id": "connector324",
+      "type": "female",
+      "name": "B5",
+      "description": "B5"
+    },
+    {
+      "id": "connector325",
+      "type": "female",
+      "name": "B6",
+      "description": "B6"
+    },
+    {
+      "id": "connector326",
+      "type": "female",
+      "name": "B7",
+      "description": "B7"
+    },
+    {
+      "id": "connector327",
+      "type": "female",
+      "name": "B8",
+      "description": "B8"
+    },
+    {
+      "id": "connector328",
+      "type": "female",
+      "name": "B9",
+      "description": "B9"
+    },
+    {
+      "id": "connector296",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector297",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector298",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector299",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector300",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector301",
+      "type": "female",
+      "name": "A6",
+      "description": "A6"
+    },
+    {
+      "id": "connector302",
+      "type": "female",
+      "name": "A7",
+      "description": "A7"
+    },
+    {
+      "id": "connector303",
+      "type": "female",
+      "name": "A8",
+      "description": "A8"
+    },
+    {
+      "id": "connector304",
+      "type": "female",
+      "name": "A9",
+      "description": "A9"
+    },
+    {
+      "id": "connector309",
+      "type": "male",
+      "name": "SHUTD",
+      "description": "SHUTD"
+    },
+    {
+      "id": "connector305",
+      "type": "female",
+      "name": "SHUTD",
+      "description": "SHUTD"
+    },
+    {
+      "id": "connector310",
+      "type": "male",
+      "name": "INTB",
+      "description": "INTB"
+    },
+    {
+      "id": "connector306",
+      "type": "female",
+      "name": "INTB",
+      "description": "INTB"
+    },
+    {
+      "id": "connector307",
+      "type": "female",
+      "name": "ADDR",
+      "description": "ADDR"
+    },
+    {
+      "id": "connector308",
+      "type": "female",
+      "name": "AUDIO",
+      "description": "AUDIO"
+    },
+    {
+      "id": "connector311",
+      "type": "male",
+      "name": "AUDIO",
+      "description": "AUDIO"
+    },
+    {
+      "id": "connector314",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector317",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

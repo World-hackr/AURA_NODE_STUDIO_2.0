@@ -1,0 +1,241 @@
+{
+  "moduleId": "371230f4269dfda53ae3cc123cd5fdb4",
+  "title": "Arduino Mini",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Arduino Mini.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\Arduino_Mini.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\controller_arduino_mini.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\controller_arduino_mini.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\pcb-arduino-mini.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 35,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "A1",
+      "description": "Analog Input 1"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "D1",
+      "description": "Digital I/O 1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "A2",
+      "description": "Analog Input 2"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "D0",
+      "description": "Digital I/O 0"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "A3",
+      "description": "Analog Input 3"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "D7",
+      "description": "Digital I/O 7"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "D0",
+      "description": "Digital I/O 0"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "D1",
+      "description": "Digital I/O 1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "RST",
+      "description": "Reset"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "D2",
+      "description": "Digital I/O 2"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "D3",
+      "description": "Digital I/O 3"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "D4",
+      "description": "Digital I/O 4"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "D5",
+      "description": "Digital I/O 5"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "D6",
+      "description": "Digital I/O 6"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "D7",
+      "description": "Digital I/O 7"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "D8",
+      "description": "Digital I/O 8"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "D9",
+      "description": "Digital I/O 9"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "A6",
+      "description": "Analog Input 6"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "A7",
+      "description": "Analog Input 7"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "A4",
+      "description": "Analog Input 4"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "A5",
+      "description": "Analog Input 5"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D10",
+      "description": "Digital I/O 10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D11",
+      "description": "Digital I/O 11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "RST",
+      "description": "Reset"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "D12",
+      "description": "Digital I/O 12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "D13",
+      "description": "Digital I/O 13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "+9V",
+      "description": "+9 V Regulated DC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "A0",
+      "description": "Analog Input 0"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

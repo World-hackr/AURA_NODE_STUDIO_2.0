@@ -1,0 +1,67 @@
+{
+  "moduleId": "lm2577_to263_8fc1255a99f187de1e702ceedefc2a0b_1",
+  "title": "LM2577 (TO263)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\lm2577_to263_8fc1255a99f187de1e702ceedefc2a0b_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\lm2577_to263_cf35a2b4aa22119076f3693501fd56b6_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lm2577_to263_cf35a2b4aa22119076f3693501fd56b6_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lm2577_to263_cf35a2b4aa22119076f3693501fd56b6_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\lm2577_to263_cf35a2b4aa22119076f3693501fd56b6_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "COMP",
+      "description": "COMP"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "FB",
+      "description": "Feedback"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SW",
+      "description": "Switch"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "Tab",
+      "description": "GND"
+    }
+  ]
+}

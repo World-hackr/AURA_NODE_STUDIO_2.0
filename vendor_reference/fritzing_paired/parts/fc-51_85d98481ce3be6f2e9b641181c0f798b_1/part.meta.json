@@ -1,0 +1,49 @@
+{
+  "moduleId": "fc-51_85d98481ce3be6f2e9b641181c0f798b_1",
+  "title": "fc-51",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\fc-51-IR-Sensor.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\fc-51_2.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\fc-51_2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\fc-51_2.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\fc-51_2.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "OUT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "VCC"
+    }
+  ]
+}

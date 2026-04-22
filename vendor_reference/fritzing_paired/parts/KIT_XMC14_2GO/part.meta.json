@@ -1,0 +1,163 @@
+{
+  "moduleId": "KIT_XMC14_2GO",
+  "title": "KIT_XMC14_2GO",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Infineon_KIT_XMC14_2GO.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Infineon_KIT_XMC14_2GO_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Infineon_KIT_XMC14_2GO_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Infineon_KIT_XMC14_2GO_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Infineon_KIT_XMC14_2GO_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 22,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "P2_8",
+      "description": "P2_8"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "P2_9",
+      "description": "P2_9"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "P2_10",
+      "description": "P2_10"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "P2_11",
+      "description": "P2_11"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "P1_4",
+      "description": "P1_4"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "P0.5",
+      "description": "P0.5"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "P2_6",
+      "description": "P2_6"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "P2_0",
+      "description": "P2_0"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "P0_15",
+      "description": "P0_15"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "P0.14",
+      "description": "P0.14"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "P0_4",
+      "description": "P0_4"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "P0_3",
+      "description": "P0_3"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "P0_1",
+      "description": "P0_1"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "P0_0",
+      "description": "P0_0"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "CAN_H",
+      "description": "CAN_H"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "CAN_L",
+      "description": "CAN_L"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

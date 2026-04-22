@@ -1,0 +1,127 @@
+{
+  "moduleId": "LCD-GDM1602K",
+  "title": "LCD screen",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\lcd-GDM1602K.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\lcd-GDM1602K.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lcd-GDM1602K.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lcd-GDM1602K.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\lcd-GDM1602K.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VSS",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD",
+      "description": "+5V"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "V0",
+      "description": "Contrast adjustment"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RS",
+      "description": "H/L Register select signal"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "R/W",
+      "description": "H/L Read/Write signal"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "E",
+      "description": "H/L Enable signal"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DB0",
+      "description": "H/L Data bus line"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DB1",
+      "description": "H/L Data bus line"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DB2",
+      "description": "H/L Data bus line"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DB3",
+      "description": "H/L Data bus line"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DB4",
+      "description": "H/L Data bus line"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DB5",
+      "description": "H/L Data bus line"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DB6",
+      "description": "H/L Data bus line"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "DB7",
+      "description": "H/L Data bus line"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "LED+",
+      "description": "LED power supply (Anode)"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "LED-",
+      "description": "LED power supply (GND)"
+    }
+  ]
+}

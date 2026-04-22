@@ -1,0 +1,67 @@
+{
+  "moduleId": "prefix0000_c370f033d3f6e718f3cd68009db820d9_5",
+  "title": "MicroSD Card Module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\prefix0000_c370f033d3f6e718f3cd68009db820d9_5.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\prefix0000_c370f033d3f6e718f3cd68009db820d9_8_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\prefix0000_c370f033d3f6e718f3cd68009db820d9_8_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\prefix0000_c370f033d3f6e718f3cd68009db820d9_8_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "icon",
+      "source": "icon/prefix0000_c370f033d3f6e718f3cd68009db820d9_8_icon.svg"
+    }
+  ],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "CS",
+      "description": "CS"
+    }
+  ]
+}

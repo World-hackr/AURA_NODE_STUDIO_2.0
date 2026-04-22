@@ -1,0 +1,97 @@
+{
+  "moduleId": "SparkfunIMUBreakoutMPU-9250",
+  "title": "SparkFun IMU Breakout - MPU-9250",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Sparkfun_IMU_Breakout_MPU-9250.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Sparkfun_IMU_Breakout_MPU-9250_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Sparkfun_IMU_Breakout_MPU-9250_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Sparkfun_IMU_Breakout_MPU-9250_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Sparkfun_IMU_Breakout_MPU-9250_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SCL/SCLK",
+      "description": "SCL/SCLK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SDA/SDI",
+      "description": "SDA/SDI"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "AUX_CL",
+      "description": "AUX_CL"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "FSYNC",
+      "description": "FSYNC"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "AUX_DA",
+      "description": "AUX_DA"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VDDIO",
+      "description": "VDDIO"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "AD0/SDO",
+      "description": "AD0/SDO"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "!CS",
+      "description": "!CS"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    }
+  ]
+}

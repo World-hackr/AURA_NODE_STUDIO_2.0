@@ -1,0 +1,205 @@
+{
+  "moduleId": "Adafruit-_c836bdae8eaf0cd0f8bcfd5c19706bd6_20_04",
+  "title": "Adafruit INA3221 - Triple 0-26 VDC, ±3.2 Amp Power Monitor - STEMMA QT / Qwiic",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_c836bdae8eaf0cd0f8bcfd5c19706bd6_20_04.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_c836bdae8eaf0cd0f8bcfd5c19706bd6_20_04_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_c836bdae8eaf0cd0f8bcfd5c19706bd6_20_04_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_c836bdae8eaf0cd0f8bcfd5c19706bd6_20_04_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_c836bdae8eaf0cd0f8bcfd5c19706bd6_20_04_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 29,
+  "connectors": [
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "VIN+3",
+      "description": "VIN+3"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "VIN-3",
+      "description": "VIN-3"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "VIN+3",
+      "description": "VIN+3"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "VIN-3",
+      "description": "VIN-3"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "VIN+2",
+      "description": "VIN+2"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "VIN-2",
+      "description": "VIN-2"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "VIN+2",
+      "description": "VIN+2"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "VIN-2",
+      "description": "VIN-2"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "VIN+1",
+      "description": "VIN+1"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "VIN-1",
+      "description": "VIN-1"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "VIN+1",
+      "description": "VIN+1"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "VIN-1",
+      "description": "VIN-1"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "WARNING",
+      "description": "WARNING"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "CRITICAL",
+      "description": "CRITICAL"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "TC",
+      "description": "TC"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "PVALID",
+      "description": "PVALID"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "VPU",
+      "description": "VPU"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

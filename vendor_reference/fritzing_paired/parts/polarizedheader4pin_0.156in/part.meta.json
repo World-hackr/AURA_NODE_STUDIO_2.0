@@ -1,0 +1,50 @@
+{
+  "moduleId": "polarizedheader4pin_0.156in",
+  "title": "polarizedheader 4pin 0.156in",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\polarizedheader4pin_0.156in.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\polarizedheader4pin.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\polarizedheader4pin_0.156in_bread.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\polarizedheader4pin_0.156in_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "pin 4"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "moduleId": "SparkFun-RF-TRF-24G-",
+  "title": "TRF-24G",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-trf-24g-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_trf-24g-socket_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_trf-24g_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_trf-24g-socket_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\TRF-24G-SOCKET.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CE",
+      "description": "CE"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CLK1",
+      "description": "CLK1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CLK2",
+      "description": "CLK2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DATA",
+      "description": "DATA"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DOUT2",
+      "description": "DOUT2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DR1",
+      "description": "DR1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DR2",
+      "description": "DR2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

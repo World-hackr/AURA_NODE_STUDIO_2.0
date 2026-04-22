@@ -1,0 +1,379 @@
+{
+  "moduleId": "Adafruit-_309e52fcdbd9de421c9b5ddfd44b2d42_1_B3",
+  "title": "Adafruit Floppy FeatherWing",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_309e52fcdbd9de421c9b5ddfd44b2d42_1_B3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_309e52fcdbd9de421c9b5ddfd44b2d42_1_breadboard_B3.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_309e52fcdbd9de421c9b5ddfd44b2d42_1_schematic_B3.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_309e52fcdbd9de421c9b5ddfd44b2d42_1_pcb_B3.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_309e52fcdbd9de421c9b5ddfd44b2d42_1_icon_B3.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 58,
+  "connectors": [
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "USB",
+      "description": "USB"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "USB",
+      "description": "USB"
+    },
+    {
+      "id": "connector92",
+      "type": "male",
+      "name": "USB",
+      "description": "USB"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "SELECT_3V",
+      "description": "SELECT_3V"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "SELECT_3V",
+      "description": "SELECT_3V"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "DENSITY_3V",
+      "description": "DENSITY_3V"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "DENSITY_3V",
+      "description": "DENSITY_3V"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "MOTOR_3V",
+      "description": "MOTOR_3V"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "MOTOR_3V",
+      "description": "MOTOR_3V"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "DIR_3V",
+      "description": "DIR_3V"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "DIR_3V",
+      "description": "DIR_3V"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "STEP_3V",
+      "description": "STEP_3V"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "STEP_3V",
+      "description": "STEP_3V"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "INDEX_3V",
+      "description": "INDEX_3V"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "INDEX_3V",
+      "description": "INDEX_3V"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector93",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "WRDATA_3V",
+      "description": "WRDATA_3V"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "WRDATA_3V",
+      "description": "WRDATA_3V"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "WRGATE_3V",
+      "description": "WRGATE_3V"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "WRGATE_3V",
+      "description": "WRGATE_3V"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "WRPROT_3V",
+      "description": "WRPROT_3V"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "WRPROT_3V",
+      "description": "WRPROT_3V"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "TRACK0_3V",
+      "description": "TRACK0_3V"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "TRACK0_3V",
+      "description": "TRACK0_3V"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "RDDATA_3V",
+      "description": "RDDATA_3V"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "RDDATA_3V",
+      "description": "RDDATA_3V"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "SIDE_3V",
+      "description": "SIDE_3V"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "SIDE_3V",
+      "description": "SIDE_3V"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "READY_3V",
+      "description": "READY_3V"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "READY_3V",
+      "description": "READY_3V"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "G",
+      "description": "G"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "G",
+      "description": "G"
+    }
+  ]
+}

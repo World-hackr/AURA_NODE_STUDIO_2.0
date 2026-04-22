@@ -1,0 +1,43 @@
+{
+  "moduleId": "tilt-switch-sw200d_1b7c85bbf48b8a3270358749bb53b4c6_1",
+  "title": "TILT-SWITCH-SW-200D",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\tilt-switch-sw200d.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\tilt-switch_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\tilt-switch-sw200d_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\tilt-switch-sw200d_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\tilt-switch-sw200d_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    }
+  ]
+}

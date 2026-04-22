@@ -1,0 +1,61 @@
+{
+  "moduleId": "stereojad8804d501af14826bbae1fce971b9321",
+  "title": "Audio Jack (TRS) 3.5mm",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\stereo_jack_pg203j_6d7c0c2_002.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\stereo_jack_pg203j_6d7c0c2_002.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\stereo_jack_pg203j_6d7c0c2_002.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\stereo_jack_pg203j_6d7c0c2_002.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\stereo_jack_pg203j_6d7c0c2_002.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Tip",
+      "description": "usually left-hand audio channel"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Tip",
+      "description": "usually left-hand audio channel"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Sleeve",
+      "description": "usually ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Ring",
+      "description": "usually right-hand audio channel"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Ring",
+      "description": "usually right-hand audio channel"
+    }
+  ]
+}

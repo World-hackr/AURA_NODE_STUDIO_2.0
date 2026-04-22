@@ -1,0 +1,271 @@
+{
+  "moduleId": "M5450_LED_Driver",
+  "title": "M5450 LED Driver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\M5450_LED_Driver.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\M5450_LED_Driver_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\M5450_LED_Driver_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\M5450_LED_Driver_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\M5450_LED_Driver_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "out 15",
+      "description": "output 15"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "clock in",
+      "description": "clock in"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "out 14",
+      "description": "output 14"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "data in",
+      "description": "data in"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "out 13",
+      "description": "output 13"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "data enable",
+      "description": "data enable"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "out 12",
+      "description": "output 12"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "out 11",
+      "description": "output 11"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "out 34",
+      "description": "output 34"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "out 10",
+      "description": "output 10"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "out 33",
+      "description": "output 33"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "out 9",
+      "description": "output 9"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "out 32",
+      "description": "output 32"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "out 31",
+      "description": "output 31"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "out 30",
+      "description": "output 30"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "out 29",
+      "description": "output 29"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "out 28",
+      "description": "output 28"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "out 27",
+      "description": "output 27"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "out 26",
+      "description": "output 26"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "out 25",
+      "description": "output 25"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "out 24",
+      "description": "output 24"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "out 23",
+      "description": "output 23"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "out 22",
+      "description": "output 22"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "out 21",
+      "description": "output 21"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "out 20",
+      "description": "output 20"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "out 19",
+      "description": "output 19"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "out 18",
+      "description": "output 18"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "out 8",
+      "description": "output 8"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "out 7",
+      "description": "output 7"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "out 6",
+      "description": "output 6"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "out 5",
+      "description": "output 5"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "out 4",
+      "description": "output 4"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "out 3",
+      "description": "output 3"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "out 2",
+      "description": "output 2"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "out 1",
+      "description": "output 1"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "brightness",
+      "description": "brightness"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "Vdd",
+      "description": "Vdd"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Vss",
+      "description": "Vss"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "out 17",
+      "description": "output 17"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "out 16",
+      "description": "output 16"
+    }
+  ]
+}

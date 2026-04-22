@@ -1,0 +1,271 @@
+{
+  "moduleId": "gs1011_breakout-v11",
+  "title": "GainSpan WiFi Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\gs1011_breakout-v11.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\gs1011_breakout-v11_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\gs1011_breakout-v11_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\gs1011_breakout-v11_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\gs1011_breakout-v11_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G21",
+      "description": "G21"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "MCS1",
+      "description": "MCS1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "MCS0",
+      "description": "MCS0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "MCLK",
+      "description": "MCLK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "TX0",
+      "description": "TX0"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "RX0",
+      "description": "RX0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "MDOUT",
+      "description": "MDOUT"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "MDIN",
+      "description": "MDIN"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "ALM2",
+      "description": "ALM2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "ADC2",
+      "description": "ADC2"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "ADC1",
+      "description": "ADC1"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "DC",
+      "description": "DC"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "RTC",
+      "description": "RTC"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "ALM1",
+      "description": "ALM1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "JRST",
+      "description": "JRST"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "JTMS",
+      "description": "JTMS"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "JTDI",
+      "description": "JTDI"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "JTDO",
+      "description": "JTDO"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "JTCK",
+      "description": "JTCK"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "G2",
+      "description": "G2"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "G3",
+      "description": "G3"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "G27",
+      "description": "G27"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "G26",
+      "description": "G26"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "SDIN",
+      "description": "SDIN"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "SCS",
+      "description": "SCS"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "SDOUT",
+      "description": "SDOUT"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "IDAT",
+      "description": "IDAT"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "ICLK",
+      "description": "ICLK"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "PWM0",
+      "description": "PWM0"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "G28",
+      "description": "G28"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "CTS0",
+      "description": "CTS0"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "RTS0",
+      "description": "RTS0"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "G19",
+      "description": "G19"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "G20",
+      "description": "G20"
+    }
+  ]
+}

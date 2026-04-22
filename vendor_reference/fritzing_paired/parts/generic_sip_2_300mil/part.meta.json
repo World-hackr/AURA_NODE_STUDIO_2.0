@@ -1,0 +1,41 @@
+{
+  "moduleId": "generic_sip_2_300mil",
+  "title": "SIP - 2 pins",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\generic_sip_2_300mil.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\dip_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_sip_2_300mil_bread.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "schematic/generic_sip_2_300mil_schem.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_2_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    }
+  ]
+}

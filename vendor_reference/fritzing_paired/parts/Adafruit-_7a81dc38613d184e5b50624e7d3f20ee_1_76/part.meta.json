@@ -1,0 +1,115 @@
+{
+  "moduleId": "Adafruit-_7a81dc38613d184e5b50624e7d3f20ee_1_76",
+  "title": "Adafruit DVI Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_7a81dc38613d184e5b50624e7d3f20ee_1_76.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_7a81dc38613d184e5b50624e7d3f20ee_3_breadboard_76.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_7a81dc38613d184e5b50624e7d3f20ee_3_schematic_76.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_7a81dc38613d184e5b50624e7d3f20ee_3_pcb_76.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_7a81dc38613d184e5b50624e7d3f20ee_3_icon_76.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector9",
+      "type": "pad",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "TX2+",
+      "description": "TX2+"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "TX2-",
+      "description": "TX2-"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "TX1+",
+      "description": "TX1+"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "TX1-",
+      "description": "TX1-"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "TX0+",
+      "description": "TX0+"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "TX0-",
+      "description": "TX0-"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "TXC+",
+      "description": "TXC+"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "TXC-",
+      "description": "TXC-"
+    },
+    {
+      "id": "connector11",
+      "type": "pad",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector10",
+      "type": "pad",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

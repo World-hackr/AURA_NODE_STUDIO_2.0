@@ -1,0 +1,67 @@
+{
+  "moduleId": "TMP102_Breakout-v11",
+  "title": "Digital Temperature Sensor Breakout - TMP102",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\TMP102_Breakout-v11.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\TMP102_Breakout-v11_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\TMP102_Breakout-v11_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\TMP102_Breakout-v11_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\TMP102_Breakout-v11_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "ALERT",
+      "description": "ALERT"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "ADD0",
+      "description": "ADD0"
+    }
+  ]
+}

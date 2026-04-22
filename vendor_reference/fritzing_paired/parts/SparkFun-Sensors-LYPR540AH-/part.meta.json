@@ -1,0 +1,139 @@
+{
+  "moduleId": "SparkFun-Sensors-LYPR540AH-",
+  "title": "LYPR540AH",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-lypr540ah-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_lga28l_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_lypr540ah_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_lga28l_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_lga28l_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "4XX",
+      "description": "4XX"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "4XY",
+      "description": "4XY"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "4XZ",
+      "description": "4XZ"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "FILTVDD_2G",
+      "description": "FILTVDD_2G"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "RESGND1",
+      "description": "RESGND1"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "RESGND2",
+      "description": "RESGND2"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "RESVDD1",
+      "description": "RESVDD1"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "RESVDD2",
+      "description": "RESVDD2"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "RESVDD3",
+      "description": "RESVDD3"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "RESVDD4",
+      "description": "RESVDD4"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "ST",
+      "description": "ST"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VCONT_1G",
+      "description": "VCONT_1G"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "VCONT_2G",
+      "description": "VCONT_2G"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "X",
+      "description": "X"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "Y",
+      "description": "Y"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "Z",
+      "description": "Z"
+    }
+  ]
+}

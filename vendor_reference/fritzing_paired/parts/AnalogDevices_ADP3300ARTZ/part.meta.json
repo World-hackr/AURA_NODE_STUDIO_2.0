@@ -1,0 +1,67 @@
+{
+  "moduleId": "AnalogDevices_ADP3300ARTZ",
+  "title": "ADP3300 - High Accuracy 50mA Low Dropout Linear Regulator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_ADP3300.AnalogDevices_ADP3300ARTZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ADP3300.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ADP3300.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ADP3300.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ADP3300.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "NC",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-INA",
+      "description": "NR"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "+INA",
+      "description": "SDB"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "-V",
+      "description": "OUT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "NC",
+      "description": "IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OUTA",
+      "description": "ERRB"
+    }
+  ]
+}

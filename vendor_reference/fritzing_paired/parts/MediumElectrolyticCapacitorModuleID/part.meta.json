@@ -1,0 +1,38 @@
+{
+  "moduleId": "MediumElectrolyticCapacitorModuleID",
+  "title": "Electrolytic Capacitor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\capacitor_electrolytic_medium.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\electrolytic_capacitor_220uF_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\capacitor_polar.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\capacitor_elko_medium_200mil.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "-",
+      "description": "- side"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "+",
+      "description": "+ side"
+    }
+  ]
+}

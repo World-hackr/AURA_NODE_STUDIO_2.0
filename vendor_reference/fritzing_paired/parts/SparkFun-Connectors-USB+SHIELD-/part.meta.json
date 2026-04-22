@@ -1,0 +1,67 @@
+{
+  "moduleId": "SparkFun-Connectors-USB+SHIELD-",
+  "title": "USB+SHIELD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-usb_shield-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_usb-b-pth_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_usb_shield_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_usb-b-pth_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\USB-B-PTH.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "P$1",
+      "description": "P$1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P$2",
+      "description": "P$2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    }
+  ]
+}

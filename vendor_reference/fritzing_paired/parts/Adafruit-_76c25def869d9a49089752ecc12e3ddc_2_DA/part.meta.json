@@ -1,0 +1,73 @@
+{
+  "moduleId": "Adafruit-_76c25def869d9a49089752ecc12e3ddc_2_DA",
+  "title": "Adafruit Pixel Trinkey",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_76c25def869d9a49089752ecc12e3ddc_2_DA.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_76c25def869d9a49089752ecc12e3ddc_2_DA_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_76c25def869d9a49089752ecc12e3ddc_2_DA_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_76c25def869d9a49089752ecc12e3ddc_2_DA_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_76c25def869d9a49089752ecc12e3ddc_2_DA_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "DAT_5V",
+      "description": "DAT_5V"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "CLK_5V",
+      "description": "CLK_5V"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "N$1",
+      "description": "N$1"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "moduleId": "Adafruit_Atmega32u4_Breakout",
+  "title": "Adafruit Atmega32u4 Breakout Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Adafruit_Atmega32u4_Breakout.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Adafruit_Atmega32u4_Breakout.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Adafruit_Atmega32u4_Breakout.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Adafruit_Atmega32u4_Breakout.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Adafruit_Atmega32u4_Breakout.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 38,
+  "connectors": [
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "ISP",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "ISP",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "ISP",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "ISP",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "ISP",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "ISP",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "F1",
+      "description": "Analog pin (Arduino A4)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "F4",
+      "description": "Analog pin (Arduino A3)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "F5",
+      "description": "Analog pin (Arduino A2)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "F6",
+      "description": "Analog pin (Arduino A1)"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "3V",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "F7",
+      "description": "Analog pin (Arduino A0)"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "E6",
+      "description": "Green Boot LED (Arduino 7)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "C7",
+      "description": "Digital pin (Arduino 13)"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "B0",
+      "description": "Digital pin (Arduino 14 - Serial RX LED)"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "C6",
+      "description": "Digital pin (Arduino 5)"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "B1",
+      "description": "Digital pin (Arduino 15 - SPI  SCK)"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "B2",
+      "description": "Digital pin (Arduino 16 - SPI MOSI)"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "B3",
+      "description": "Digital pin (Arduino 17 - SPI MISO)"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "D0",
+      "description": "Digital pin (Arduino 3)"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "D1",
+      "description": "Digital pin (Arduino 2)"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "D2",
+      "description": "Digital pin (Arduino 0 - Serial RX)"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "D3",
+      "description": "Digital pin (Arduino 1 - Serial TX)"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "D4",
+      "description": "Digital pin (Arduino 4)\r\nAnalog pin (Arduino A6)"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "D5",
+      "description": "Digital pin (Arduino Serial TX LED)"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "D6",
+      "description": "Digital pin (Arduino 12)"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "D7",
+      "description": "Digital pin (Arduino 6)"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GND",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "RST",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "B7",
+      "description": "Digital pin (Arduino 11)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "B6",
+      "description": "Digital pin (Arduino 10)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "B5",
+      "description": "Digital pin (Arduino 9)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "B4",
+      "description": "Digital pin (Arduino 8)"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "5V",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "F0",
+      "description": "Analog pin (Arduino A5)"
+    }
+  ]
+}

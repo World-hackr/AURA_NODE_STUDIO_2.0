@@ -1,0 +1,115 @@
+{
+  "moduleId": "SparkFun-AnalogIC-LT1014-",
+  "title": "LT1014",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-lt1014-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_so16l_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_lt1014_mix_5_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so16l_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_so16l_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G$1 +IN",
+      "description": "G$1 +IN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G$1 +V",
+      "description": "G$1 +V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G$1 -IN",
+      "description": "G$1 -IN"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "G$1 -V",
+      "description": "G$1 -V"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G$1 OUT",
+      "description": "G$1 OUT"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G$2 +IN",
+      "description": "G$2 +IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G$2 -IN",
+      "description": "G$2 -IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G$2 OUT",
+      "description": "G$2 OUT"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "G$3 +IN",
+      "description": "G$3 +IN"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "G$3 -IN",
+      "description": "G$3 -IN"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "G$3 OUT",
+      "description": "G$3 OUT"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "G$4 +IN",
+      "description": "G$4 +IN"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "G$4 -IN",
+      "description": "G$4 -IN"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "G$4 OUT",
+      "description": "G$4 OUT"
+    }
+  ]
+}

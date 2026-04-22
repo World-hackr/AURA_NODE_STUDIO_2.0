@@ -1,0 +1,55 @@
+{
+  "moduleId": "adafruit_8502109fd655e65467182aa62005fab7_1_5E",
+  "title": "Adafruit EYESPI Pi Beret",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_8502109fd655e65467182aa62005fab7_1_5E.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_8502109fd655e65467182aa62005fab7_1_breadboard_5E.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_8502109fd655e65467182aa62005fab7_1_schematic_5E.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_8502109fd655e65467182aa62005fab7_1_pcb_5E.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_8502109fd655e65467182aa62005fab7_1_icon_5E.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

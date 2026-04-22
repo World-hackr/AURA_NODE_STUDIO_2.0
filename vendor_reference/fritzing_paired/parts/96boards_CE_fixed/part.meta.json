@@ -1,0 +1,271 @@
+{
+  "moduleId": "96boards_CE_fixed",
+  "title": "96boards Consumer Edition",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\96boards_CE.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\96boards_CE_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\96boards_CE_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\96boards_CE_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\96boards_CE_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "UART0_CTS",
+      "description": ""
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "PWR_BTN_N",
+      "description": "Power Button"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "UART0_TxD",
+      "description": ""
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "RST_BTN_N",
+      "description": "Reset Button"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "UART0_RxD",
+      "description": ""
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "SPI0_SCLK",
+      "description": ""
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "UART0_RTS",
+      "description": ""
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "SPI0_DIN",
+      "description": ""
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "UART1_TxD",
+      "description": ""
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "SPI0_CS",
+      "description": ""
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "UART1_RxD",
+      "description": ""
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "SPI0_DOUT",
+      "description": ""
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "I2C0_SCL",
+      "description": ""
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "PCM_FS",
+      "description": ""
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "I2C_SDA",
+      "description": ""
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "PCM_CLK",
+      "description": ""
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "I2C1_SCL",
+      "description": ""
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "PCM_DO",
+      "description": ""
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "I2C1_SDA",
+      "description": ""
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "PCM_DI",
+      "description": ""
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "GPIO-A",
+      "description": ""
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "GPIO-B",
+      "description": ""
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "GPIO-C",
+      "description": ""
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "GPIO-D",
+      "description": ""
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "GPIO-E",
+      "description": ""
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "GPIO-F",
+      "description": ""
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "GPIO-G",
+      "description": ""
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "GPIO-H",
+      "description": ""
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "GPIO-I",
+      "description": ""
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "GPIO-J",
+      "description": ""
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "GPIO-K",
+      "description": ""
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "GPIO-L",
+      "description": ""
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "1V8",
+      "description": ""
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "SYS_DCIN",
+      "description": ""
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "5V",
+      "description": ""
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "SYS_DCIN",
+      "description": ""
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

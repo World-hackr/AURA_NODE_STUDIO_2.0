@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-PowerIC-LMZ14203-",
+  "title": "LMZ14203",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-lmz14203-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_to-pmod-7_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_lmz14203_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_to-pmod-7_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_to-pmod-7_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "EP",
+      "description": "EP"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "FB",
+      "description": "FB"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RON",
+      "description": "RON"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SS",
+      "description": "SS"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VOUT",
+      "description": "VOUT"
+    }
+  ]
+}

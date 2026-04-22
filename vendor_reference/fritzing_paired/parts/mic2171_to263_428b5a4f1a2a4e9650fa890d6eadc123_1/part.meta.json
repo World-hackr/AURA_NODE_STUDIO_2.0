@@ -1,0 +1,67 @@
+{
+  "moduleId": "mic2171_to263_428b5a4f1a2a4e9650fa890d6eadc123_1",
+  "title": "MIC2171 (TO263)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\mic2171_to263_428b5a4f1a2a4e9650fa890d6eadc123_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\mic2171_to263_0c77fd162597c27c046109dab87d38a6_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\mic2171_to263_0c77fd162597c27c046109dab87d38a6_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\mic2171_to263_0c77fd162597c27c046109dab87d38a6_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\mic2171_to263_0c77fd162597c27c046109dab87d38a6_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "EN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "SW"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "VIN"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "FB"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "Tab",
+      "description": "GND"
+    }
+  ]
+}

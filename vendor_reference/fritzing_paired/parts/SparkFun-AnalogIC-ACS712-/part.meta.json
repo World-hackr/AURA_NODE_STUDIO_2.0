@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-AnalogIC-ACS712-",
+  "title": "ACS712",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-acs712-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_acs712_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so08_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "FILT",
+      "description": "FILT"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "IP+",
+      "description": "IP+"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "IP+",
+      "description": "IP+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "IP-",
+      "description": "IP-"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "IP-",
+      "description": "IP-"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VOUT",
+      "description": "VOUT"
+    }
+  ]
+}

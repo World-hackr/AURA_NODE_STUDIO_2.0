@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="44" viewBox="0 0 40 44">
+  <line id="lead_anode" x1="14" y1="26" x2="14" y2="40" stroke="#b8c0c8" stroke-width="2" />
+  <line id="lead_cathode" x1="26" y1="26" x2="26" y2="40" stroke="#b8c0c8" stroke-width="2" />
+  <path id="body" d="M10 24 C10 12, 30 12, 30 24 L10 24 Z" fill="#c94141" stroke="#7a2020" stroke-width="1.5" />
+  <ellipse id="light_core" cx="20" cy="20" rx="8" ry="7" fill="#ff7272" opacity="0.25" />
+</svg>

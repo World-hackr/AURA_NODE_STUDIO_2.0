@@ -1,0 +1,67 @@
+{
+  "moduleId": "xl6009_8044d35aa5770759ef09c66c0795aa37_5",
+  "title": "XL6009",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\xl6009_8044d35aa5770759ef09c66c0795aa37_5.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\xl6009_3266e3c669b0d6e3a125904685147d33_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\xl6009_3266e3c669b0d6e3a125904685147d33_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\xl6009_3266e3c669b0d6e3a125904685147d33_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\xl6009_3266e3c669b0d6e3a125904685147d33_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "EN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "SW"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "VIN"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "FB"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "Tab",
+      "description": "SW"
+    }
+  ]
+}

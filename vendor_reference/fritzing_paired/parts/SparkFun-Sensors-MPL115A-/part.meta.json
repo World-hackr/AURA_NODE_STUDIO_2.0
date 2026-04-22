@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Sensors-MPL115A-",
+  "title": "_h3_MPL115A1 (SPI) and MPL115A2 (I2C) Miniature Digital Barometer__h3_",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-mpl115a-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_lga8_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_mpl115a_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_lga8_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\LGA8.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "CAP",
+      "description": "CAP"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "NC_DOUT",
+      "description": "NC_DOUT"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RST_CS",
+      "description": "RST_CS"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SDA_DIN",
+      "description": "SDA_DIN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SHDN",
+      "description": "SHDN"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

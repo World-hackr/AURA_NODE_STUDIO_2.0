@@ -1,0 +1,187 @@
+{
+  "moduleId": "SparkFun-RF-BLUERADIO_BR-C40A-BAS",
+  "title": "Bluetooth SMD Module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-blueradio_br-c40a-bas.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_blueradio_br-c40a_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_blueradio_br-c40a_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_blueradio_br-c40a_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\BLUERADIO_BR-C40A.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 26,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PCM_CLK",
+      "description": "PCM_CLK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PCM_IN",
+      "description": "PCM_IN"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PCM_OUT",
+      "description": "PCM_OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "PCM_SYNC",
+      "description": "PCM_SYNC"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "PIO_2_CONNECT",
+      "description": "PIO_2_CONNECT"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "PIO_3_INT",
+      "description": "PIO_3_INT"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "PIO_4_FACRST",
+      "description": "PIO_4_FACRST"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PIO_5_STATUS",
+      "description": "PIO_5_STATUS"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PIO_6",
+      "description": "PIO_6"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PIO_7",
+      "description": "PIO_7"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SPI_CLK",
+      "description": "SPI_CLK"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SPI_CSB",
+      "description": "SPI_CSB"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SPI_MISO",
+      "description": "SPI_MISO"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SPI_MOSI",
+      "description": "SPI_MOSI"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "UART_CTS",
+      "description": "UART_CTS"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "UART_RTS",
+      "description": "UART_RTS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "UART_RX",
+      "description": "UART_RX"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "UART_TX",
+      "description": "UART_TX"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

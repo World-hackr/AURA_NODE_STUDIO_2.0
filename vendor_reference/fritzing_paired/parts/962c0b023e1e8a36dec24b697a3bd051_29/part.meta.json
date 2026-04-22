@@ -1,0 +1,49 @@
+{
+  "moduleId": "962c0b023e1e8a36dec24b697a3bd051_29",
+  "title": "PowerSwitch Tail II",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\PowerSwitch_Tail_II__127601765c1940d36b81d290d6d5cd70_29.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\PowerSwitch_Tail_II__127601765c1940d36b8__breadboard__8c6a6f3cbbbd490dde0f0e4897edfcc1_29.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\PowerSwitch_Tail_II__127601765c1940d36b8__schematic__6a6d56eddff0b2f13aa154cf348036bb_29.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\PowerSwitch_Tail_II__127601765c1940d36b8__pcb__fac29c30839beaeba4d99f343946fcf6_29.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\PowerSwitch_Tail_II__127601765c1940d36b8__icon__5ba51bbfb77fef6b37562064a770a9a7_29.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Ground",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "+in",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-in",
+      "description": "no description yet"
+    }
+  ]
+}

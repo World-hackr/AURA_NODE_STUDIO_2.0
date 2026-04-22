@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-DigitalIC-74LVC138AD-",
+  "title": "74LVC138AD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-74lvc138ad-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO16_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_74lvc138ad_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_so016_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO16_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "_E1",
+      "description": "_E1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "_E2",
+      "description": "_E2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "_Y0",
+      "description": "_Y0"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "_Y1",
+      "description": "_Y1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "_Y2",
+      "description": "_Y2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "_Y3",
+      "description": "_Y3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "_Y4",
+      "description": "_Y4"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "_Y5",
+      "description": "_Y5"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "_Y6",
+      "description": "_Y6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "_Y7",
+      "description": "_Y7"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "E3",
+      "description": "E3"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

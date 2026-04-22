@@ -1,0 +1,73 @@
+{
+  "moduleId": "icl7662 (soic)_ceb3f31b17d1c702d898c345cb9aa959_1",
+  "title": "ICL7662 (SOIC)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\icl7662 (soic)_ceb3f31b17d1c702d898c345cb9aa959_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\icl7662 (soic)_c6a56f0ed37f330d1273b09419e1749e_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\icl7662 (soic)_c6a56f0ed37f330d1273b09419e1749e_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\icl7662 (soic)_c6a56f0ed37f330d1273b09419e1749e_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\icl7662 (soic)_c6a56f0ed37f330d1273b09419e1749e_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "C+",
+      "description": "CAP+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "C-",
+      "description": "CAP-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VOUT",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "LV",
+      "description": "LV"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OSC",
+      "description": "OSC"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "V+",
+      "description": "VIN"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "moduleId": "4001_4_x_2_input_NOR_gate_multipart",
+  "title": "4001 4 x 2 Input NOR Gate",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\4001_4_x_2_input_NOR_gate_multipart.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\40xx_series_DIP14_multipart_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\40xx_series_DIP14_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\4001_4_x_2_input_NOR_gate_multipart_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\40xx_series_DIP14_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "B1",
+      "description": "B1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Q1",
+      "description": "Q1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Q2",
+      "description": "Q2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B2",
+      "description": "B2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "B3",
+      "description": "B3"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Q3",
+      "description": "Q3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Q4",
+      "description": "Q4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "B4",
+      "description": "B4"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

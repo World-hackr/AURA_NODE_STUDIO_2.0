@@ -1,0 +1,67 @@
+{
+  "moduleId": "Adafruit-_d54314d5b9ecf09072c0a356236f212e_22_93",
+  "title": "Adafruit STEMMA Reflective Photo Interrupt Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_d54314d5b9ecf09072c0a356236f212e_22_93.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_d54314d5b9ecf09072c0a356236f212e_22_93_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_d54314d5b9ecf09072c0a356236f212e_22_93_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_d54314d5b9ecf09072c0a356236f212e_22_93_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_d54314d5b9ecf09072c0a356236f212e_22_93_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "moduleId": "20A9BBEE34_ST",
+  "title": "Pushbutton",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\pushbutton_4_horizontal.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic_pbutton.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\basic_pbutton.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\switch-4lead.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "pin 4 is always connected with pin 3"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "pin 1 is always connected with pin 2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "pin 2 is always connected with pin 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "pin 3 is always connected with pin 4"
+    }
+  ]
+}

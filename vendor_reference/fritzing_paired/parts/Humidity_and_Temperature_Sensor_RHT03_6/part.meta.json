@@ -1,0 +1,55 @@
+{
+  "moduleId": "Humidity_and_Temperature_Sensor_RHT03_6",
+  "title": "Humidity and Temperature Sensor RHT03",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Humidity_and_Temperature_Sensor_RHT03.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Humidity_and_Temperature_Sensor_RHT03_6.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Humidity_and_Temperature_Sensor_RHT03_6.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Humidity_and_Temperature_Sensor_RHT03_6.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Humidity_and_Temperature_Sensor_RHT03_6.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Vcc",
+      "description": "3.3 V - 5.5V DC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Data-signal",
+      "description": "It goes directly connect to the digital signal and also it connects by a 1k ohm resistor with Vcc, It's something like this:\r\n\r\nData-signal -> Digital Signal\r\n\r\n                   -> 1K ohm -> Vcc"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND 1",
+      "description": "Ground Connection"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND 2",
+      "description": "Ground connection"
+    }
+  ]
+}

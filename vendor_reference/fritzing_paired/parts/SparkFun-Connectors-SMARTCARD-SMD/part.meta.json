@@ -1,0 +1,91 @@
+{
+  "moduleId": "SparkFun-Connectors-SMARTCARD-SMD",
+  "title": "SMARTCARD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-smartcard-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_smartcard_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_smartcard_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_smartcard_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SMARTCARD.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "C4",
+      "description": "C4"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "C8",
+      "description": "C8"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "I_O",
+      "description": "I_O"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SW1",
+      "description": "SW1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SW2",
+      "description": "SW2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VPP",
+      "description": "VPP"
+    }
+  ]
+}

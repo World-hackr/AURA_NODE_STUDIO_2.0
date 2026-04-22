@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-AnalogIC-MUX-74HC4067-SMD",
+  "title": "74HC4067",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-mux-74hc4067-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP24_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_cd74hc4067_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_ssop24_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP24_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CHAN0",
+      "description": "CHAN0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CHAN1",
+      "description": "CHAN1"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "CHAN10",
+      "description": "CHAN10"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "CHAN11",
+      "description": "CHAN11"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "CHAN12",
+      "description": "CHAN12"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "CHAN13",
+      "description": "CHAN13"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "CHAN14",
+      "description": "CHAN14"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "CHAN15",
+      "description": "CHAN15"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CHAN2",
+      "description": "CHAN2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CHAN3",
+      "description": "CHAN3"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CHAN4",
+      "description": "CHAN4"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "CHAN5",
+      "description": "CHAN5"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "CHAN6",
+      "description": "CHAN6"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "CHAN7",
+      "description": "CHAN7"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "CHAN8",
+      "description": "CHAN8"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "CHAN9",
+      "description": "CHAN9"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "COM",
+      "description": "COM"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "S0",
+      "description": "S0"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "S1",
+      "description": "S1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "S2",
+      "description": "S2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "S3",
+      "description": "S3"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "moduleId": "0d68adbdf34156383180850897173015",
+  "title": "Modified Pico",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\controller_pico.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\controller_pico.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\controller_pico.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\controller_pico.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_24_600mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector112",
+      "type": "male",
+      "name": "D1TX",
+      "description": "Digital Pin 1 - TX"
+    },
+    {
+      "id": "connector110",
+      "type": "male",
+      "name": "D0RX",
+      "description": "Digital Pin 0 - RX"
+    },
+    {
+      "id": "connector109",
+      "type": "male",
+      "name": "+5v",
+      "description": "+5 Volts"
+    },
+    {
+      "id": "connector108",
+      "type": "male",
+      "name": "Gnd",
+      "description": "Ground"
+    },
+    {
+      "id": "connector105",
+      "type": "male",
+      "name": "RST",
+      "description": "Reset"
+    },
+    {
+      "id": "connector103",
+      "type": "male",
+      "name": "Aref",
+      "description": "Analog Reference"
+    },
+    {
+      "id": "connector101",
+      "type": "male",
+      "name": "A5",
+      "description": "Analog Pin 5"
+    },
+    {
+      "id": "connector100",
+      "type": "male",
+      "name": "A4",
+      "description": "Analog Pin 4"
+    },
+    {
+      "id": "connector97",
+      "type": "male",
+      "name": "A3",
+      "description": "Analog Pin 3"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "A2",
+      "description": "Analog Pin 2"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "A1",
+      "description": "Analog Pin 1"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "A0",
+      "description": "Analog Pin 0"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "D2",
+      "description": "Digital Pin 2"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "D3",
+      "description": "Digital Pin 3 - PWM"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "D4",
+      "description": "Digital Pin 4"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "D5",
+      "description": "Digital Pin 5 - PWM"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "D6",
+      "description": "Digital Pin 6 - PWM"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "D7",
+      "description": "Digital Pin 7"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "D8",
+      "description": "Digital Pin 8"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "D9",
+      "description": "Digital Pin 9 - PWM"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "D10",
+      "description": "Digital Pin 10 - PWM"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "D11",
+      "description": "Digital Pin 11 - PWM"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "D12",
+      "description": "Digital Pin 12"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "D13",
+      "description": "Digital Pin 13"
+    }
+  ]
+}

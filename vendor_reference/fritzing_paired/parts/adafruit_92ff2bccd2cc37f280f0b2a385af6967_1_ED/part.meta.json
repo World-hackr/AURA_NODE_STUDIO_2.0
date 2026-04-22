@@ -1,0 +1,67 @@
+{
+  "moduleId": "adafruit_92ff2bccd2cc37f280f0b2a385af6967_1_ED",
+  "title": "Adafruit Pixie",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_92ff2bccd2cc37f280f0b2a385af6967_1_ED.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_92ff2bccd2cc37f280f0b2a385af6967_1_breadboard_ED.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_92ff2bccd2cc37f280f0b2a385af6967_1_schematic_ED.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_92ff2bccd2cc37f280f0b2a385af6967_1_pcb_ED.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_92ff2bccd2cc37f280f0b2a385af6967_1_icon_ED.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "IN",
+      "description": "IN"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

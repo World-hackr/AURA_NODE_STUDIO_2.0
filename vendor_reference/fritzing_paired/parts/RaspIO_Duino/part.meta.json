@@ -1,0 +1,1249 @@
+{
+  "moduleId": "RaspIO_Duino",
+  "title": "RaspIO Duino",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\raspio_duino.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\raspio_duino_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\raspio_duino_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\raspio_duino_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\raspio_duino_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 203,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "3v3",
+      "description": "power - 3.3V"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GPIO2",
+      "description": "SDA1 I2C"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "GPIO3",
+      "description": "SCL1 I2C"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "GPIO4",
+      "description": "GPIO4"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "GPIO17",
+      "description": "GPIO17"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "GPIO27",
+      "description": "GPIO27"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "GPIO22",
+      "description": "GPIO22"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "3V3",
+      "description": "power - 3.3V"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "GPIO10",
+      "description": "SPI0_MOSI - GPIO10"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "GPIO9",
+      "description": "SPI0_MISO - GPIO9"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "GPIO11",
+      "description": "SPI0_SCLK - GPIO11"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "GPIO7",
+      "description": "SPI0_CE1_N - GPIO7"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "GPIO8",
+      "description": "SPI0_CE0_N - GPIO8"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "GPIO25",
+      "description": "GPIO25"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "GPIO24",
+      "description": "GPIO24"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "GPIO23",
+      "description": "GPIO23"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "GPIO18",
+      "description": "PCM_CLK - GPIO18"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "GPIO15",
+      "description": "UART0_RXD - GPIO15"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "GPIO14",
+      "description": "UART0_TXD - GPIO14"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "5V",
+      "description": "power - 5V"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "5V",
+      "description": "power - 5V"
+    },
+    {
+      "id": "connector220",
+      "type": "female",
+      "name": "pd_0 D0",
+      "description": "pd_0 pin1"
+    },
+    {
+      "id": "connector221",
+      "type": "female",
+      "name": "pd_0 D0",
+      "description": "pd_0 pin2"
+    },
+    {
+      "id": "connector222",
+      "type": "female",
+      "name": "pd_0 D0",
+      "description": "pd_0 pin3"
+    },
+    {
+      "id": "connector223",
+      "type": "female",
+      "name": "pd_1 D1",
+      "description": "pd_1 pin1"
+    },
+    {
+      "id": "connector224",
+      "type": "female",
+      "name": "pd_1 D1",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector225",
+      "type": "female",
+      "name": "pd_1 D1",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector226",
+      "type": "female",
+      "name": "pd_2 D2",
+      "description": "pd_2 pin1"
+    },
+    {
+      "id": "connector227",
+      "type": "female",
+      "name": "pd_2 D2",
+      "description": "pd_2 pin2"
+    },
+    {
+      "id": "connector228",
+      "type": "female",
+      "name": "pd_2 D2",
+      "description": "pd_2 pin3"
+    },
+    {
+      "id": "connector229",
+      "type": "female",
+      "name": "pd_3 D3 pwm",
+      "description": "pd_3 pwm pin1"
+    },
+    {
+      "id": "connector230",
+      "type": "female",
+      "name": "pd_3 D3 pwm",
+      "description": "pd_3 pwm pin2"
+    },
+    {
+      "id": "connector231",
+      "type": "female",
+      "name": "pd_3 D3 pwm",
+      "description": "pd_3 pwm pin3"
+    },
+    {
+      "id": "connector232",
+      "type": "female",
+      "name": "pd_4 D4",
+      "description": "pd_4 D4 pin1"
+    },
+    {
+      "id": "connector233",
+      "type": "female",
+      "name": "pd_4 D4",
+      "description": "pd_4 D4 pin2"
+    },
+    {
+      "id": "connector234",
+      "type": "female",
+      "name": "pd_4 D4",
+      "description": "pd_4 D4 pin3"
+    },
+    {
+      "id": "connector235",
+      "type": "female",
+      "name": "pd_5 D5 pwm",
+      "description": "pd_5 D5 pwm pin1"
+    },
+    {
+      "id": "connector236",
+      "type": "female",
+      "name": "pd_5 D5 pwm",
+      "description": "pd_5 D5 pwm pin2"
+    },
+    {
+      "id": "connector237",
+      "type": "female",
+      "name": "pd_5 D5 pwm",
+      "description": "pd_5 D5 pwm pin3"
+    },
+    {
+      "id": "connector238",
+      "type": "female",
+      "name": "pd_6 D6 pwm",
+      "description": "pd_6 D6 pwm pin1"
+    },
+    {
+      "id": "connector239",
+      "type": "female",
+      "name": "pd_6 D6 pwm",
+      "description": "pd_6 D6 pwm pin2"
+    },
+    {
+      "id": "connector240",
+      "type": "female",
+      "name": "pd_6 D6 pwm",
+      "description": "pd_6 D6 pwm pin3"
+    },
+    {
+      "id": "connector241",
+      "type": "female",
+      "name": "pd_7 D7",
+      "description": "pd_7 D7 pin1"
+    },
+    {
+      "id": "connector242",
+      "type": "female",
+      "name": "pd_7 D7",
+      "description": "pd_7 D7 pin2"
+    },
+    {
+      "id": "connector243",
+      "type": "female",
+      "name": "pd_7 D7",
+      "description": "pd_7 D7 pin3"
+    },
+    {
+      "id": "connector244",
+      "type": "female",
+      "name": "pb0/D8",
+      "description": "pb0/D8 pin1"
+    },
+    {
+      "id": "connector245",
+      "type": "female",
+      "name": "pb0/D8",
+      "description": "pb0/D8 pin2"
+    },
+    {
+      "id": "connector246",
+      "type": "female",
+      "name": "pb0/D8",
+      "description": "pb0/D8 pin3"
+    },
+    {
+      "id": "connector247",
+      "type": "female",
+      "name": "pb1/D9 pwm",
+      "description": "pb1/D9 pwm pin1"
+    },
+    {
+      "id": "connector248",
+      "type": "female",
+      "name": "pb1/D9 pwm",
+      "description": "pb1/D9 pwm pin2"
+    },
+    {
+      "id": "connector249",
+      "type": "female",
+      "name": "pb1/D9 pwm",
+      "description": "pb1/D9 pwm pin3"
+    },
+    {
+      "id": "connector250",
+      "type": "female",
+      "name": "pb2/D10 pwm",
+      "description": "pb2/D10 pwm pin1"
+    },
+    {
+      "id": "connector251",
+      "type": "female",
+      "name": "pb2/D10 pwm",
+      "description": "pb2/D10 pwm pin2"
+    },
+    {
+      "id": "connector252",
+      "type": "female",
+      "name": "pb2/D10 pwm",
+      "description": "pb2/D10 pwm pin3"
+    },
+    {
+      "id": "connector253",
+      "type": "female",
+      "name": "pb3/D11 pwm",
+      "description": "pb3/D11 pwm pin1"
+    },
+    {
+      "id": "connector254",
+      "type": "female",
+      "name": "pb3/D11 pwm",
+      "description": "pb3/D11 pwm pin2"
+    },
+    {
+      "id": "connector255",
+      "type": "female",
+      "name": "pb3/D11 pwm",
+      "description": "pb3/D11 pwm pin3"
+    },
+    {
+      "id": "connector256",
+      "type": "female",
+      "name": "pb4/D12",
+      "description": "pb4/D12 pin1"
+    },
+    {
+      "id": "connector257",
+      "type": "female",
+      "name": "pb4/D12",
+      "description": "pb4/D12 pin2"
+    },
+    {
+      "id": "connector258",
+      "type": "female",
+      "name": "pb4/D12",
+      "description": "pb4/D12 pin3"
+    },
+    {
+      "id": "connector259",
+      "type": "female",
+      "name": "pb5/D13",
+      "description": "pb5/D13 pin1"
+    },
+    {
+      "id": "connector260",
+      "type": "female",
+      "name": "pb5/D13",
+      "description": "pb5/D13 pin2"
+    },
+    {
+      "id": "connector261",
+      "type": "female",
+      "name": "pb5/D13",
+      "description": "pb5/D13 pin3"
+    },
+    {
+      "id": "connector262",
+      "type": "female",
+      "name": "pc0/A0",
+      "description": "pc0/A0 pin1"
+    },
+    {
+      "id": "connector263",
+      "type": "female",
+      "name": "pc0/A0",
+      "description": "pc0/A0 pin2"
+    },
+    {
+      "id": "connector264",
+      "type": "female",
+      "name": "pc0/A0",
+      "description": "pc0/A0 pin3"
+    },
+    {
+      "id": "connector265",
+      "type": "female",
+      "name": "pc1/A1",
+      "description": "pc1/A1 pin1"
+    },
+    {
+      "id": "connector266",
+      "type": "female",
+      "name": "pc1/A1",
+      "description": "pc1/A1 pin2"
+    },
+    {
+      "id": "connector267",
+      "type": "female",
+      "name": "pc1/A1",
+      "description": "pc1/A1 pin3"
+    },
+    {
+      "id": "connector268",
+      "type": "female",
+      "name": "pc2/A2",
+      "description": "pc2/A2 pin1"
+    },
+    {
+      "id": "connector269",
+      "type": "female",
+      "name": "pc2/A2",
+      "description": "pc2/A2 pin2"
+    },
+    {
+      "id": "connector270",
+      "type": "female",
+      "name": "pc2/A2",
+      "description": "pc2/A2 pin3"
+    },
+    {
+      "id": "connector271",
+      "type": "female",
+      "name": "pc3/A3",
+      "description": "pc3/A3 pin1"
+    },
+    {
+      "id": "connector272",
+      "type": "female",
+      "name": "pc3/A3",
+      "description": "pc3/A3 pin2"
+    },
+    {
+      "id": "connector273",
+      "type": "female",
+      "name": "pc3/A3",
+      "description": "pc3/A3 pin3"
+    },
+    {
+      "id": "connector274",
+      "type": "female",
+      "name": "pc4/A4",
+      "description": "pc4/A4 pin1"
+    },
+    {
+      "id": "connector275",
+      "type": "female",
+      "name": "pc4/A4",
+      "description": "pc4/A4 pin2"
+    },
+    {
+      "id": "connector276",
+      "type": "female",
+      "name": "pc4/A4",
+      "description": "pc4/A4 pin3"
+    },
+    {
+      "id": "connector277",
+      "type": "female",
+      "name": "pc5/A5",
+      "description": "pc5/A5 pin1"
+    },
+    {
+      "id": "connector278",
+      "type": "female",
+      "name": "pc5/A5",
+      "description": "pc5/A5 pin2"
+    },
+    {
+      "id": "connector279",
+      "type": "female",
+      "name": "pc5/A5",
+      "description": "pc5/A5 pin3"
+    },
+    {
+      "id": "connectorProto0",
+      "type": "female",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connectorProto1",
+      "type": "female",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connectorProto2",
+      "type": "female",
+      "name": "pin3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connectorProto3",
+      "type": "female",
+      "name": "3V3",
+      "description": "pin 4"
+    },
+    {
+      "id": "connectorProto4",
+      "type": "female",
+      "name": "pin5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connectorProto5",
+      "type": "female",
+      "name": "pin6",
+      "description": "pin 6"
+    },
+    {
+      "id": "connectorProto6",
+      "type": "female",
+      "name": "pin7",
+      "description": "pin 7"
+    },
+    {
+      "id": "connectorProto7",
+      "type": "female",
+      "name": "pin8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connectorProto8",
+      "type": "female",
+      "name": "pin9",
+      "description": "pin 9"
+    },
+    {
+      "id": "connectorProto9",
+      "type": "female",
+      "name": "pin10",
+      "description": "pin 10"
+    },
+    {
+      "id": "connectorProto10",
+      "type": "female",
+      "name": "pin11",
+      "description": "pin 11"
+    },
+    {
+      "id": "connectorProto11",
+      "type": "female",
+      "name": "pin12",
+      "description": "pin 12"
+    },
+    {
+      "id": "connectorProto12",
+      "type": "female",
+      "name": "pin13",
+      "description": "pin 13"
+    },
+    {
+      "id": "connectorProto13",
+      "type": "female",
+      "name": "pin14",
+      "description": "pin 14"
+    },
+    {
+      "id": "connectorProto14",
+      "type": "female",
+      "name": "pin15",
+      "description": "pin 15"
+    },
+    {
+      "id": "connectorProto15",
+      "type": "female",
+      "name": "pin16",
+      "description": "pin 16"
+    },
+    {
+      "id": "connectorProto16",
+      "type": "female",
+      "name": "pin17",
+      "description": "pin 17"
+    },
+    {
+      "id": "connectorProto17",
+      "type": "female",
+      "name": "pin18",
+      "description": "pin 18"
+    },
+    {
+      "id": "connectorProto18",
+      "type": "female",
+      "name": "pin19",
+      "description": "pin 19"
+    },
+    {
+      "id": "connectorProto19",
+      "type": "female",
+      "name": "pin20",
+      "description": "pin 20"
+    },
+    {
+      "id": "connectorProto20",
+      "type": "female",
+      "name": "pin21",
+      "description": "pin 21"
+    },
+    {
+      "id": "connectorProto21",
+      "type": "female",
+      "name": "pin22",
+      "description": "pin 22"
+    },
+    {
+      "id": "connectorProto22",
+      "type": "female",
+      "name": "pin23",
+      "description": "pin 23"
+    },
+    {
+      "id": "connectorProto23",
+      "type": "female",
+      "name": "pin24",
+      "description": "pin 24"
+    },
+    {
+      "id": "connectorProto24",
+      "type": "female",
+      "name": "pin25",
+      "description": "pin 25"
+    },
+    {
+      "id": "connectorProto25",
+      "type": "female",
+      "name": "pin26",
+      "description": "pin 26"
+    },
+    {
+      "id": "connectorProto26",
+      "type": "female",
+      "name": "pin27",
+      "description": "pin 27"
+    },
+    {
+      "id": "connectorProto27",
+      "type": "female",
+      "name": "pin28",
+      "description": "pin 28"
+    },
+    {
+      "id": "connectorProto28",
+      "type": "female",
+      "name": "pin29",
+      "description": "pin 29"
+    },
+    {
+      "id": "connectorProto29",
+      "type": "female",
+      "name": "pin30",
+      "description": "pin 30"
+    },
+    {
+      "id": "connectorProto30",
+      "type": "female",
+      "name": "pin31",
+      "description": "pin 31"
+    },
+    {
+      "id": "connectorProto31",
+      "type": "female",
+      "name": "pin32",
+      "description": "pin 32"
+    },
+    {
+      "id": "connectorProto32",
+      "type": "female",
+      "name": "pin33",
+      "description": "pin 33"
+    },
+    {
+      "id": "connectorProto33",
+      "type": "female",
+      "name": "pin34",
+      "description": "pin 34"
+    },
+    {
+      "id": "connectorProto34",
+      "type": "female",
+      "name": "pin35",
+      "description": "pin 35"
+    },
+    {
+      "id": "connectorProto35",
+      "type": "female",
+      "name": "pin36",
+      "description": "pin 36"
+    },
+    {
+      "id": "connectorProto36",
+      "type": "female",
+      "name": "pin37",
+      "description": "pin 37"
+    },
+    {
+      "id": "connectorProto37",
+      "type": "female",
+      "name": "pin38",
+      "description": "pin 38"
+    },
+    {
+      "id": "connectorProto38",
+      "type": "female",
+      "name": "pin39",
+      "description": "pin 39"
+    },
+    {
+      "id": "connectorProto39",
+      "type": "female",
+      "name": "pin40",
+      "description": "pin 40"
+    },
+    {
+      "id": "connectorProto40",
+      "type": "female",
+      "name": "pin41",
+      "description": "pin 41"
+    },
+    {
+      "id": "connectorProto41",
+      "type": "female",
+      "name": "pin42",
+      "description": "pin 42"
+    },
+    {
+      "id": "connectorProto42",
+      "type": "female",
+      "name": "pin43",
+      "description": "pin 43"
+    },
+    {
+      "id": "connectorProto43",
+      "type": "female",
+      "name": "pin44",
+      "description": "pin 44"
+    },
+    {
+      "id": "connectorProto44",
+      "type": "female",
+      "name": "pin45",
+      "description": "pin 45"
+    },
+    {
+      "id": "connectorProto45",
+      "type": "female",
+      "name": "pin46",
+      "description": "pin 46"
+    },
+    {
+      "id": "connectorProto46",
+      "type": "female",
+      "name": "pin47",
+      "description": "pin 47"
+    },
+    {
+      "id": "connectorProto47",
+      "type": "female",
+      "name": "pin48",
+      "description": "pin 48"
+    },
+    {
+      "id": "connectorProto48",
+      "type": "female",
+      "name": "pin49",
+      "description": "pin 49"
+    },
+    {
+      "id": "connectorProto49",
+      "type": "female",
+      "name": "pin50",
+      "description": "pin 50"
+    },
+    {
+      "id": "connectorProto50",
+      "type": "female",
+      "name": "pin51",
+      "description": "pin 51"
+    },
+    {
+      "id": "connectorProto51",
+      "type": "female",
+      "name": "pin52",
+      "description": "pin 52"
+    },
+    {
+      "id": "connectorProto52",
+      "type": "female",
+      "name": "pin53",
+      "description": "pin 53"
+    },
+    {
+      "id": "connectorProto53",
+      "type": "female",
+      "name": "pin54",
+      "description": "pin 54"
+    },
+    {
+      "id": "connectorProto54",
+      "type": "female",
+      "name": "pin55",
+      "description": "pin 55"
+    },
+    {
+      "id": "connectorProto55",
+      "type": "female",
+      "name": "pin56",
+      "description": "pin 56"
+    },
+    {
+      "id": "connectorProto56",
+      "type": "female",
+      "name": "pin57",
+      "description": "pin 57"
+    },
+    {
+      "id": "connectorProto57",
+      "type": "female",
+      "name": "pin58",
+      "description": "pin 58"
+    },
+    {
+      "id": "connectorProto58",
+      "type": "female",
+      "name": "pin59",
+      "description": "pin 59"
+    },
+    {
+      "id": "connectorProto59",
+      "type": "female",
+      "name": "pin60",
+      "description": "pin 60"
+    },
+    {
+      "id": "connectorProto60",
+      "type": "female",
+      "name": "pin61",
+      "description": "pin 61"
+    },
+    {
+      "id": "connectorProto61",
+      "type": "female",
+      "name": "pin62",
+      "description": "pin 62"
+    },
+    {
+      "id": "connectorProto62",
+      "type": "female",
+      "name": "pin63",
+      "description": "pin 63"
+    },
+    {
+      "id": "connectorProto63",
+      "type": "female",
+      "name": "pin64",
+      "description": "pin 64"
+    },
+    {
+      "id": "connectorProto64",
+      "type": "female",
+      "name": "pin65",
+      "description": "pin 65"
+    },
+    {
+      "id": "connectorProto65",
+      "type": "female",
+      "name": "pin66",
+      "description": "pin 66"
+    },
+    {
+      "id": "connectorProto66",
+      "type": "female",
+      "name": "pin67",
+      "description": "pin 67"
+    },
+    {
+      "id": "connectorProto67",
+      "type": "female",
+      "name": "pin68",
+      "description": "pin 68"
+    },
+    {
+      "id": "connectorProto68",
+      "type": "female",
+      "name": "pin69",
+      "description": "pin 69"
+    },
+    {
+      "id": "connectorProto69",
+      "type": "female",
+      "name": "pin70",
+      "description": "pin 70"
+    },
+    {
+      "id": "connectorProto70",
+      "type": "female",
+      "name": "pin71",
+      "description": "pin 71"
+    },
+    {
+      "id": "connectorProto71",
+      "type": "female",
+      "name": "pin72",
+      "description": "pin 72"
+    },
+    {
+      "id": "connectorProto72",
+      "type": "female",
+      "name": "pin73",
+      "description": "pin 73"
+    },
+    {
+      "id": "connectorProto73",
+      "type": "female",
+      "name": "pin74",
+      "description": "pin 74"
+    },
+    {
+      "id": "connectorProto74",
+      "type": "female",
+      "name": "pin75",
+      "description": "pin 75"
+    },
+    {
+      "id": "connectorProto75",
+      "type": "female",
+      "name": "pin76",
+      "description": "pin 76"
+    },
+    {
+      "id": "connectorProto76",
+      "type": "female",
+      "name": "pin77",
+      "description": "pin 77"
+    },
+    {
+      "id": "connectorProto77",
+      "type": "female",
+      "name": "pin78",
+      "description": "pin 78"
+    },
+    {
+      "id": "connectorProto78",
+      "type": "female",
+      "name": "pin79",
+      "description": "pin 79"
+    },
+    {
+      "id": "connectorProto79",
+      "type": "female",
+      "name": "pin80",
+      "description": "pin 80"
+    },
+    {
+      "id": "connectorProto80",
+      "type": "female",
+      "name": "pin81",
+      "description": "pin 81"
+    },
+    {
+      "id": "connectorProto81",
+      "type": "female",
+      "name": "pin82",
+      "description": "pin 82"
+    },
+    {
+      "id": "connectorProto82",
+      "type": "female",
+      "name": "pin83",
+      "description": "pin 83"
+    },
+    {
+      "id": "connectorProto83",
+      "type": "female",
+      "name": "3V3",
+      "description": "pin 84"
+    },
+    {
+      "id": "connectorProto84",
+      "type": "female",
+      "name": "pin85",
+      "description": "pin 85"
+    },
+    {
+      "id": "connectorProto85",
+      "type": "female",
+      "name": "pin86",
+      "description": "pin 86"
+    },
+    {
+      "id": "connectorProto86",
+      "type": "female",
+      "name": "pin87",
+      "description": "pin 87"
+    },
+    {
+      "id": "connectorProto87",
+      "type": "female",
+      "name": "pin88",
+      "description": "pin 88"
+    },
+    {
+      "id": "connectorProto88",
+      "type": "female",
+      "name": "pin89",
+      "description": "pin 89"
+    },
+    {
+      "id": "connectorProto89",
+      "type": "female",
+      "name": "3V3",
+      "description": "pin 90"
+    },
+    {
+      "id": "connector330",
+      "type": "female",
+      "name": "tx(pi)",
+      "description": "jumper: tx(pi) to rx(atmega)"
+    },
+    {
+      "id": "connector331",
+      "type": "female",
+      "name": "rx",
+      "description": "rx(atmega) jumper"
+    },
+    {
+      "id": "connector332",
+      "type": "female",
+      "name": "tx",
+      "description": "tx(atmega) jumper"
+    },
+    {
+      "id": "connector333",
+      "type": "female",
+      "name": "rx(pi)",
+      "description": "jumper: rx(pi) to tx(atmega)"
+    },
+    {
+      "id": "connector334",
+      "type": "female",
+      "name": "sclk(1)",
+      "description": "sclk jumper"
+    },
+    {
+      "id": "connector335",
+      "type": "female",
+      "name": "sclk(2)",
+      "description": "sclk jumper"
+    },
+    {
+      "id": "connector336",
+      "type": "female",
+      "name": "miso",
+      "description": "miso jumper"
+    },
+    {
+      "id": "connector337",
+      "type": "female",
+      "name": "miso",
+      "description": "miso jumper"
+    },
+    {
+      "id": "connector338",
+      "type": "female",
+      "name": "mosi",
+      "description": "mosi jumper"
+    },
+    {
+      "id": "connector339",
+      "type": "female",
+      "name": "mosi",
+      "description": "mosi jumper"
+    },
+    {
+      "id": "connector340",
+      "type": "female",
+      "name": "Ardu3v3",
+      "description": "3v3 Arduino/Pi jumper"
+    },
+    {
+      "id": "connector341",
+      "type": "female",
+      "name": "Pi3v3",
+      "description": "3v3 Arduino/Pi jumper"
+    },
+    {
+      "id": "connector990",
+      "type": "female",
+      "name": "GPIO_SDA",
+      "description": "GPIO_SDA"
+    },
+    {
+      "id": "connector991",
+      "type": "female",
+      "name": "GPIO_SCL",
+      "description": "GPIO_SCL"
+    },
+    {
+      "id": "connector992",
+      "type": "female",
+      "name": "GPIO_4",
+      "description": "GPIO_4"
+    },
+    {
+      "id": "connector993",
+      "type": "female",
+      "name": "GPIO_17",
+      "description": "GPIO_17"
+    },
+    {
+      "id": "connector994",
+      "type": "female",
+      "name": "GPIO_18",
+      "description": "GPIO_18"
+    },
+    {
+      "id": "connector995",
+      "type": "female",
+      "name": "GPIO_21/27",
+      "description": "GPIO_21/27"
+    },
+    {
+      "id": "connector996",
+      "type": "female",
+      "name": "GPIO_22",
+      "description": "GPIO_22"
+    },
+    {
+      "id": "connector997",
+      "type": "female",
+      "name": "GPIO_23",
+      "description": "GPIO_23"
+    },
+    {
+      "id": "connector998",
+      "type": "female",
+      "name": "GPIO_24",
+      "description": "GPIO_24"
+    },
+    {
+      "id": "connector999",
+      "type": "female",
+      "name": "GPIO_25",
+      "description": "GPIO_25"
+    },
+    {
+      "id": "connector9910",
+      "type": "female",
+      "name": "GPIO_MOSI",
+      "description": "GPIO_MOSI"
+    },
+    {
+      "id": "connector9911",
+      "type": "female",
+      "name": "GPIO_MISO",
+      "description": "GPIO_MISO"
+    },
+    {
+      "id": "connector9912",
+      "type": "female",
+      "name": "GPIO_SCLK",
+      "description": "GPIO_SCLK"
+    },
+    {
+      "id": "connector111",
+      "type": "female",
+      "name": "CE0",
+      "description": "CE0"
+    },
+    {
+      "id": "connector112",
+      "type": "female",
+      "name": "CE1",
+      "description": "CE1"
+    }
+  ]
+}

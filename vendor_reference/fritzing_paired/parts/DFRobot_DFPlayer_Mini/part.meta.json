@@ -1,0 +1,127 @@
+{
+  "moduleId": "DFRobot_DFPlayer_Mini",
+  "title": "DFRobot DFPlayer Mini",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DFRobot-DFPlayer-Mini.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DFRobot-DFPlayer-Mini_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DFRobot-DFPlayer-Mini_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DFRobot-DFPlayer-Mini_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DFRobot-DFPlayer-Mini_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "Input voltage, Min: DC3.2V; Max: DC5.0V; Typ: DC4.2V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RX",
+      "description": "UART serial input"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "TX",
+      "description": "UART serial output"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DAC_R",
+      "description": "Audio output right channel"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DAC_L",
+      "description": "Audio output left channel"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SPK_1",
+      "description": "Speaker 1 (less than 3W)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND-1",
+      "description": "Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SPK_2",
+      "description": "Speaker 2 (less than 3W)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "IO_1",
+      "description": "Trigger port 1 - Short press to play previous, long press to decrease volume"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND-2",
+      "description": "Ground"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "IO_2",
+      "description": "Trigger port 2 - Short press to play next, long press to increase volume"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "ADKEY_1",
+      "description": "AD port 1 - Trigger play first segment"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "ADKEY_2",
+      "description": "AD port 2 - Trigger play fifth segment"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "USB_POS",
+      "description": "USB+DP"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "USB_NEG",
+      "description": "USB-DM"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "BUSY",
+      "description": "Busy - Low means playing, high means not"
+    }
+  ]
+}

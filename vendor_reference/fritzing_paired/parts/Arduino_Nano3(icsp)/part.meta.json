@@ -1,0 +1,247 @@
+{
+  "moduleId": "Arduino Nano3(icsp)",
+  "title": "Arduino Nano (Rev3.0) (ICSP)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Arduino Nano3(icsp).fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino Nano3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Arduino Nano3_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Arduino Nano3(icsp)_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino Nano3_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 36,
+  "connectors": [
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "D1/TX",
+      "description": "D1/TX"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "D0/RX",
+      "description": "D0/RX"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "D6",
+      "description": "D6"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "D9",
+      "description": "D9"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "D11/MOSI",
+      "description": "D11/MOSI"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "D12/MISO",
+      "description": "D12/MISO"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "A7",
+      "description": "A7"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "A6",
+      "description": "A6"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "D13/SCK",
+      "description": "D13/SCK"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "D12/MISO",
+      "description": "D12/MISO"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "D13/SCK",
+      "description": "D13/SCK"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "D11/MOSI",
+      "description": "D11/MOSI"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "moduleId": "Adafruit-_5b3c7e259a433579352f3a7daab01a16_1_12",
+  "title": "Adafruit PCA9548 8-Channel STEMMA QT / Qwiic I2C Multiplexer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_5b3c7e259a433579352f3a7daab01a16_1_12.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_5b3c7e259a433579352f3a7daab01a16_1_breadboard_12.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_5b3c7e259a433579352f3a7daab01a16_1_schematic_12.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_5b3c7e259a433579352f3a7daab01a16_1_pcb_12.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_5b3c7e259a433579352f3a7daab01a16_1_icon_12.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 41,
+  "connectors": [
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "0SDA",
+      "description": "0SDA"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "0SCL",
+      "description": "0SCL"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "1SDA",
+      "description": "1SDA"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "1SCL",
+      "description": "1SCL"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "2SDA",
+      "description": "2SDA"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "2SCL",
+      "description": "2SCL"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "3SDA",
+      "description": "3SDA"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "3SCL",
+      "description": "3SCL"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "4SDA",
+      "description": "4SDA"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "4SCL",
+      "description": "4SCL"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "5SDA",
+      "description": "5SDA"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "5SCL",
+      "description": "5SCL"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "6SDA",
+      "description": "6SDA"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "6SCL",
+      "description": "6SCL"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "7SDA",
+      "description": "7SDA"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "7SCL",
+      "description": "7SCL"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

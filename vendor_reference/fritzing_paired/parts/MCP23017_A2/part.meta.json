@@ -1,0 +1,199 @@
+{
+  "moduleId": "MCP23017_A2",
+  "title": "MCP23017 I2C I/O Expander",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\MCP23017_A2_I2C_I_O_Expander.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\MCP23017_I2C_I_O_Expander_A2.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\MCP23017_I2C_I_O_Expander_A2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\MCP23017_I2C_I_O_Expander_A2.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\MCP23017_I2C_I_O_Expander_A2.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "A0",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GPB6",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "A1",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GPB7",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "A2",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VDD",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "RESET",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "INTB",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "INTA",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GPA0",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GPA1",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GPA2",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GPA3",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GPA4",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GPA5",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GPA6",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GPA7",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GPB0",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VSS",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GPB1",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GPB2",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "NC",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GPB3",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SCL",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GPB4",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SDA",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GPB5",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "NC",
+      "description": "no description yet"
+    }
+  ]
+}

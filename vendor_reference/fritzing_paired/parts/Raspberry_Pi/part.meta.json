@@ -1,0 +1,187 @@
+{
+  "moduleId": "Raspberry Pi",
+  "title": "Raspberry Pi",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Raspberry_Pi.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\Raspberry_Pi_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\raspberry_pi_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\raspberry_pi_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\Raspberry_Pi_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 26,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GPIO4",
+      "description": "GPIO Pin 4"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TXD",
+      "description": "Serial TXD"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GPIO5",
+      "description": "GPIO Pin 5"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "RXD",
+      "description": "Serial RXD"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "SPI_MOSI",
+      "description": "SPI MOSI (Master Out, Slave In)"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "SPI_MISO",
+      "description": "SPI MISO (Master In, Slave Out)"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GPIO6",
+      "description": "GPIO Pin 6"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SPI_SCLK",
+      "description": "SPI SCLK (Serial Clock)"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SPI_CE0_N",
+      "description": "SPI CE0 N (Cable Select Line 0)"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "SPI_CE1_N",
+      "description": "SPI CE1 N (Cable Select Line 1)"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "3V3",
+      "description": "Output Voltage 3V3"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "5V",
+      "description": "Output Voltage 5V"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GPIO0",
+      "description": "GPIO Pin 0"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "I2C_SDA0",
+      "description": "I2C SDA 0 (Serial Data)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GPIO1",
+      "description": "GPIO Pin 1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "I2C_SCL_0",
+      "description": "I2C SCL 0 (Serial Clock)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GPIO2",
+      "description": "GPIO Pin 2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GPIO7",
+      "description": "GPIO Pin 7"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GPIO3",
+      "description": "GPIO Pin 3"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "Pin 9 DNC",
+      "description": "Pin 9 DNC"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "Pin 4 DNC ",
+      "description": "Pin 4 DNC"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "Pin 14 DNC ",
+      "description": "Pin 14 DNC"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "Pin 20 DNC ",
+      "description": "Pin 20 DNC"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "Pin 17 DNC ",
+      "description": "Pin 17 DNC"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "Pin 25 DNC ",
+      "description": "Pin 25 DNC"
+    }
+  ]
+}

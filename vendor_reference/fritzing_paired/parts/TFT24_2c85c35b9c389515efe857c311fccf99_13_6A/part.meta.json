@@ -1,0 +1,271 @@
+{
+  "moduleId": "TFT24_2c85c35b9c389515efe857c311fccf99_13_6A",
+  "title": "2.4 Touchscreen TFT Breakout w:MicroSD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\TFT24_2c85c35b9c389515efe857c311fccf99_13_6A.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\TFT24_2c85c35b9c389515efe857c311fccf99_13_breadboard_6A.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\TFT24_2c85c35b9c389515efe857c311fccf99_13_schematic_6A.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\TFT24_2c85c35b9c389515efe857c311fccf99_13_pcb_6A.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\TFT24_2c85c35b9c389515efe857c311fccf99_13_icon_6A.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "C/D",
+      "description": "C/D"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "WR",
+      "description": "WR"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RD",
+      "description": "RD"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "LITE",
+      "description": "LITE"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "X+",
+      "description": "X+"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Y+",
+      "description": "Y+"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "X-",
+      "description": "X-"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Y-",
+      "description": "Y-"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "D6",
+      "description": "D6"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "+3V",
+      "description": "+3V"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "WR_DC",
+      "description": "WR_DC"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "LITE",
+      "description": "LITE"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "Y+",
+      "description": "Y+"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "X+",
+      "description": "X+"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "Y-",
+      "description": "Y-"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "X-",
+      "description": "X-"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "IM0",
+      "description": "IM0"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "IM1",
+      "description": "IM1"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "IM2",
+      "description": "IM2"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "IM3",
+      "description": "IM3"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "SD_CS",
+      "description": "SD_CS"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "CARDDET",
+      "description": "CARDDET"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "moduleId": "Adafruit-_2d2e06ec85eeb58fc976969bcb692c3b_13_5C",
+  "title": "Adafruit DVI Sock for Pico",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_2d2e06ec85eeb58fc976969bcb692c3b_13_5C.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_2d2e06ec85eeb58fc976969bcb692c3b_13_5C_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_2d2e06ec85eeb58fc976969bcb692c3b_13_5C_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_2d2e06ec85eeb58fc976969bcb692c3b_13_5C_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_2d2e06ec85eeb58fc976969bcb692c3b_13_5C_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "D0P",
+      "description": "D0P"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "D0N",
+      "description": "D0N"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "CKP",
+      "description": "CKP"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CKN",
+      "description": "CKN"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "UTIL",
+      "description": "UTIL"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "D1N",
+      "description": "D1N"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "D1P",
+      "description": "D1P"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "D2N",
+      "description": "D2N"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "D2P",
+      "description": "D2P"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "HPD",
+      "description": "HPD"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "CEC",
+      "description": "CEC"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "moduleId": "SparkFun-AnalogIC-HT8950-",
+  "title": "HT8950",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-ht8950-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_ht8950_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_dil18_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_18_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_18_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "AIN",
+      "description": "AIN"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "AO",
+      "description": "AO"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "AUDIO",
+      "description": "AUDIO"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "FVIB",
+      "description": "FVIB"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "LAMP",
+      "description": "LAMP"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OSC1",
+      "description": "OSC1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "OSC2",
+      "description": "OSC2"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "ROB",
+      "description": "ROB"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SW0",
+      "description": "SW0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SW1",
+      "description": "SW1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SW2",
+      "description": "SW2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "TGD",
+      "description": "TGD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "TGU",
+      "description": "TGU"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "TS",
+      "description": "TS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VIB",
+      "description": "VIB"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VREF",
+      "description": "VREF"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 56">
+  <path id="body" d="M12 10c0-6.6 5.4-12 12-12h14c6.6 0 12 5.4 12 12v16H12V10z" fill="#d1d1d1" stroke="#676767" stroke-width="1.5"/>
+  <circle id="light_core" cx="31" cy="16" r="9" fill="#b54c4c" opacity="0.6"/>
+  <line id="lead_r" x1="10" y1="26" x2="10" y2="54" stroke="#9a9a9a" stroke-width="3"/>
+  <line id="lead_com" x1="24" y1="26" x2="24" y2="54" stroke="#9a9a9a" stroke-width="3"/>
+  <line id="lead_g" x1="38" y1="26" x2="38" y2="54" stroke="#9a9a9a" stroke-width="3"/>
+  <line id="lead_b" x1="52" y1="26" x2="52" y2="54" stroke="#9a9a9a" stroke-width="3"/>
+</svg>

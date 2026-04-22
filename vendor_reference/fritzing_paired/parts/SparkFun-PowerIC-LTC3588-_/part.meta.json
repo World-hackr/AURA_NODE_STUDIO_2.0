@@ -1,0 +1,97 @@
+{
+  "moduleId": "SparkFun-PowerIC-LTC3588-_",
+  "title": "LTC3588",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-ltc3588-_.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_msop-10-gndpad_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_ltc3588_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_msop-10-gndpad_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_msop-10-gndpad_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "CAP",
+      "description": "CAP"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PGOOD",
+      "description": "PGOOD"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "PZ1",
+      "description": "PZ1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PZ2",
+      "description": "PZ2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VIN2",
+      "description": "VIN2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VOUT",
+      "description": "VOUT"
+    }
+  ]
+}

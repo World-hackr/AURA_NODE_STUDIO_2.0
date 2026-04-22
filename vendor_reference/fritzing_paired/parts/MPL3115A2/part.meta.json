@@ -1,0 +1,67 @@
+{
+  "moduleId": "MPL3115A2",
+  "title": "Altitude/Pressure Sensor - MPL3115A2 Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\MPL3115A2_breakout.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MPL3115A2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\MPL3115A2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\MPL3115A2_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\MPL3115A2_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "INT2",
+      "description": "INT2"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "INT1",
+      "description": "INT1"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

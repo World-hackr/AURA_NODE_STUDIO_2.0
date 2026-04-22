@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-AnalogIC-LTC6244-",
+  "title": "LTC6244",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-ltc6244-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_msop8_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_ltc6244_mix_7_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_msop8_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_msop8_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G$1 +IN",
+      "description": "G$1 +IN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "G$1 +V",
+      "description": "G$1 +V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G$1 -IN",
+      "description": "G$1 -IN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G$1 -V",
+      "description": "G$1 -V"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G$1 OUT",
+      "description": "G$1 OUT"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G$2 +IN",
+      "description": "G$2 +IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G$2 -IN",
+      "description": "G$2 -IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G$2 OUT",
+      "description": "G$2 OUT"
+    }
+  ]
+}

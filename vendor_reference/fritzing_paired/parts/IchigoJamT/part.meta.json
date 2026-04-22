@@ -1,0 +1,229 @@
+{
+  "moduleId": "IchigoJamT",
+  "title": "IchigoJam T",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\IchigoJamT.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\IchigoJamT_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\IchigoJamT_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\IchigoJamT_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\IchigoJamT_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 33,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VIDEO1",
+      "description": "Video sync signal output"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VIDEO2",
+      "description": "Video image signal output"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "IN1",
+      "description": "Digital input (IN1), Internal pull-up"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "IN2",
+      "description": "Analog input (IN2, ANA2)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "IN3",
+      "description": "I2C_SDA"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "IN4",
+      "description": "Digital input (IN4), Internal pull-up"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VCC",
+      "description": "Analog power input 3.3V"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "Analog ground input"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "OUT1",
+      "description": "Digital output (OUT1)"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUT2",
+      "description": "Digital output (OUT2, PWM2)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "OUT3",
+      "description": "Digital output (OUT3, PWM3)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "OUT4",
+      "description": "Digital output (OUT4, PWM4)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "BTN",
+      "description": "for Button, Wake-up interrupt"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "LED",
+      "description": "LED"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RXD",
+      "description": "UART receive / input"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "TXD",
+      "description": "UART transmission / output"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "OUT6",
+      "description": "Digital output (OUT6)"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "OUT5",
+      "description": "Digital output (OUT5, PWM5)"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "XTAL2",
+      "description": "Crystal oscillator buffer output"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "XTAL1",
+      "description": "Crystal oscillator clock input"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "VCC",
+      "description": "Main power input"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GND",
+      "description": "Main ground input"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "RESET",
+      "description": "Reset input"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "ISP",
+      "description": "Firmware writing"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "SOUND",
+      "description": "Sound output"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "KBD2",
+      "description": "Keyboard DATA"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "SCL",
+      "description": "I2C_SCL"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "KBD1",
+      "description": "Keyboard CLK"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "5V",
+      "description": "for USB power"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "SDA",
+      "description": "I2C_SDA"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "SCL",
+      "description": "I2C_SCL"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

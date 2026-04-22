@@ -1,0 +1,67 @@
+{
+  "moduleId": "FloraColor_ed3bf661120bddfe1e4466e7eb13a85a_1_FF",
+  "title": "Flora TCS34725 Color Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\FloraColor_ed3bf661120bddfe1e4466e7eb13a85a_1_FF.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\FloraColor_10452d3ab8dec5a8fb381791da6df4f9_1_breadboard_FF.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\FloraColor_10452d3ab8dec5a8fb381791da6df4f9_1_schematic_FF.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\FloraColor_10452d3ab8dec5a8fb381791da6df4f9_1_pcb_FF.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\FloraColor_10452d3ab8dec5a8fb381791da6df4f9_1_icon_FF.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SDA_3V",
+      "description": "SDA_3V"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "SCL_3V",
+      "description": "SCL_3V"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-Electromechanical-BUTTONPAD-2X2-",
+  "title": "BUTTONPAD-2X2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-buttonpad-2x2-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_buttonpad-2x2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_buttonpad_single_mix_14_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_buttonpad-2x2_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\BUTTONPAD-2X2.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "-C1 BLU",
+      "description": "-C1 BLU"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "-C1 GND",
+      "description": "-C1 GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "-C1 GRN",
+      "description": "-C1 GRN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-C1 RED",
+      "description": "-C1 RED"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "-C1 SIG1",
+      "description": "-C1 SIG1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "-C1 SIG2",
+      "description": "-C1 SIG2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "-C2 BLU",
+      "description": "-C2 BLU"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "-C2 GND",
+      "description": "-C2 GND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "-C2 GRN",
+      "description": "-C2 GRN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "-C2 RED",
+      "description": "-C2 RED"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "-C2 SIG1",
+      "description": "-C2 SIG1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "-C2 SIG2",
+      "description": "-C2 SIG2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "-C3 BLU",
+      "description": "-C3 BLU"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "-C3 GND",
+      "description": "-C3 GND"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "-C3 GRN",
+      "description": "-C3 GRN"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "-C3 RED",
+      "description": "-C3 RED"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "-C3 SIG1",
+      "description": "-C3 SIG1"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "-C3 SIG2",
+      "description": "-C3 SIG2"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "-C4 BLU",
+      "description": "-C4 BLU"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "-C4 GND",
+      "description": "-C4 GND"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "-C4 GRN",
+      "description": "-C4 GRN"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "-C4 RED",
+      "description": "-C4 RED"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "-C4 SIG1",
+      "description": "-C4 SIG1"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "-C4 SIG2",
+      "description": "-C4 SIG2"
+    }
+  ]
+}

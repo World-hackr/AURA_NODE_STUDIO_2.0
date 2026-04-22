@@ -1,0 +1,319 @@
+{
+  "moduleId": "22b3bd892734fe28cfbcd54edd4c2a6a",
+  "title": "STM32F103",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\STM32F103.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\STM32F103_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\STM32F103_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\STM32F103_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\STM32F103_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 48,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PC15-OSC32_OUT",
+      "description": "4"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PB10",
+      "description": "21"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "PD0-OSC_IN",
+      "description": "5"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "PB11",
+      "description": "22"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PD1-OSC_OUT",
+      "description": "6"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VSS_1",
+      "description": "23"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "NRST",
+      "description": "7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VSSA",
+      "description": "8"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VDD_2",
+      "description": "24"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VDDA",
+      "description": "9"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "PB12",
+      "description": "25"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PA0-WKUP",
+      "description": "10"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "PB13",
+      "description": "26"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "PB14",
+      "description": "27"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "PB15",
+      "description": "28"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "PA8",
+      "description": "29"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "PA9",
+      "description": "30"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "PA10",
+      "description": "31"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "PA11",
+      "description": "32"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "PA12",
+      "description": "33"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "PA13",
+      "description": "34"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "VSS_2",
+      "description": "35"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "VDD_2",
+      "description": "36"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "PA14",
+      "description": "37"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "PA15",
+      "description": "38"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "PB3",
+      "description": "39"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "PB4",
+      "description": "40"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "PB5",
+      "description": "41"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "PB6",
+      "description": "42"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "PB7",
+      "description": "43"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "BOOT0",
+      "description": "44"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "PB8",
+      "description": "45"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "PB9",
+      "description": "46"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "VSS_3",
+      "description": "47"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "VDD_3",
+      "description": "48"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PA1",
+      "description": "11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PA2",
+      "description": "12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "PA3",
+      "description": "13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PA4",
+      "description": "14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PA5",
+      "description": "15"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PA6",
+      "description": "16"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "PA7",
+      "description": "17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "PB0",
+      "description": "18"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "PB1",
+      "description": "19"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "PB2",
+      "description": "20"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VBAT",
+      "description": "1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PC13-TAMPER-RTC",
+      "description": "2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PC14-OSC32_IN",
+      "description": "3"
+    }
+  ]
+}

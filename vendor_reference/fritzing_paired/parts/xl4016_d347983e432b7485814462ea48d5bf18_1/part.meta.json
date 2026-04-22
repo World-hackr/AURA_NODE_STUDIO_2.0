@@ -1,0 +1,67 @@
+{
+  "moduleId": "xl4016_d347983e432b7485814462ea48d5bf18_1",
+  "title": "XL4016",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\xl4016_d347983e432b7485814462ea48d5bf18_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\xl4016_da39401d3aec6aea0d50ab1b250a8cbe_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\xl4016_da39401d3aec6aea0d50ab1b250a8cbe_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\xl4016_da39401d3aec6aea0d50ab1b250a8cbe_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\xl4016_da39401d3aec6aea0d50ab1b250a8cbe_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "FB"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "SW"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "VC"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "VIN"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "Tab",
+      "description": "SW"
+    }
+  ]
+}

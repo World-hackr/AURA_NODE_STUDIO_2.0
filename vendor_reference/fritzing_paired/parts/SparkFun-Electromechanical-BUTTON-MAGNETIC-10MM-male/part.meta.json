@@ -1,0 +1,37 @@
+{
+  "moduleId": "SparkFun-Electromechanical-BUTTON-MAGNETIC-10MM-male",
+  "title": "BUTTON-MAGNETIC",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-button-magnetic-10mm-male.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_button-10mm_breadboard-male.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_sewtap_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_button-10mm_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_button-10mm_breadboard-male.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 1,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    }
+  ]
+}

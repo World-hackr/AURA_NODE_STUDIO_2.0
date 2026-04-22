@@ -1,0 +1,73 @@
+{
+  "moduleId": "SIM800L_ffc8b43381ee538161803713ee68337c_5",
+  "title": "SIM800L",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SIM800L_5.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SIM800L_7.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SIM800L_7.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SIM800L_7.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SIM800L_7.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "5V",
+      "description": "+5 V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SIM_TXD",
+      "description": "Tx pin"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SIM_RXD",
+      "description": "Rx pin"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RST",
+      "description": "Reset pin (active low)"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "moduleId": "PC847X_7eb43b60a64029b53561d2a746e15e5e_1",
+  "title": "Sharp PC847X",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Sharp-PC847X.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PC847X_5.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PC847X_5.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PC847X_5.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\PC847X_5.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "Cathode"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "Anode"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "Cathode"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "Anode"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "Cathode"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "Anode"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Pin 7",
+      "description": "Anode"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Pin 8",
+      "description": "Cathode"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Pin 9",
+      "description": "Emitter"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Pin 10",
+      "description": "Collector"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Pin 11",
+      "description": "Emitter"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Pin 12",
+      "description": "Collector"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Pin 13",
+      "description": "Emitter"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Pin 14",
+      "description": "Collector"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Pin 15",
+      "description": "Emitter"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "Pin 16",
+      "description": "Collector"
+    }
+  ]
+}

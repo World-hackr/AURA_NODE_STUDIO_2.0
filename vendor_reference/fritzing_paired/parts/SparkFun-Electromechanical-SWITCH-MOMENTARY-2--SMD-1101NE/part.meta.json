@@ -1,0 +1,43 @@
+{
+  "moduleId": "SparkFun-Electromechanical-SWITCH-MOMENTARY-2--SMD-1101NE",
+  "title": "SWITCH-MOMENTARY-2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-switch-momentary-2--smd-1101ne.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_tactile-switch-1101ne_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_switch-momentary-2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_tactile-switch-1101ne_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\TACTILE-SWITCH-1101NE.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    }
+  ]
+}

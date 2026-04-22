@@ -1,0 +1,2431 @@
+{
+  "moduleId": "0152b316-ca6e-11ee-a6fa-8be78db221f8BreadboardModuleID",
+  "title": "Half breadboard",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Half_breadboard_v2.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Half_breadboard56a.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Half_breadboard56a.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Half_breadboard56a.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Half_breadboard56a_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 400,
+  "connectors": [
+    {
+      "id": "pin1A",
+      "type": "female",
+      "name": "pin1A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1B",
+      "type": "female",
+      "name": "pin1B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1C",
+      "type": "female",
+      "name": "pin1C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1D",
+      "type": "female",
+      "name": "pin1D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1E",
+      "type": "female",
+      "name": "pin1E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1F",
+      "type": "female",
+      "name": "pin1F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1G",
+      "type": "female",
+      "name": "pin1G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1H",
+      "type": "female",
+      "name": "pin1H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1I",
+      "type": "female",
+      "name": "pin1I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin1J",
+      "type": "female",
+      "name": "pin1J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2A",
+      "type": "female",
+      "name": "pin2A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2B",
+      "type": "female",
+      "name": "pin2B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2C",
+      "type": "female",
+      "name": "pin2C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2D",
+      "type": "female",
+      "name": "pin2D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2E",
+      "type": "female",
+      "name": "pin2E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2F",
+      "type": "female",
+      "name": "pin2F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2G",
+      "type": "female",
+      "name": "pin2G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2H",
+      "type": "female",
+      "name": "pin2H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2I",
+      "type": "female",
+      "name": "pin2I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin2J",
+      "type": "female",
+      "name": "pin2J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3A",
+      "type": "female",
+      "name": "pin3A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3B",
+      "type": "female",
+      "name": "pin3B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3C",
+      "type": "female",
+      "name": "pin3C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3D",
+      "type": "female",
+      "name": "pin3D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3E",
+      "type": "female",
+      "name": "pin3E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3F",
+      "type": "female",
+      "name": "pin3F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3G",
+      "type": "female",
+      "name": "pin3G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3H",
+      "type": "female",
+      "name": "pin3H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3I",
+      "type": "female",
+      "name": "pin3I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3J",
+      "type": "female",
+      "name": "pin3J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4A",
+      "type": "female",
+      "name": "pin4A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4B",
+      "type": "female",
+      "name": "pin4B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4C",
+      "type": "female",
+      "name": "pin4C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4D",
+      "type": "female",
+      "name": "pin4D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4E",
+      "type": "female",
+      "name": "pin4E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4F",
+      "type": "female",
+      "name": "pin4F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4G",
+      "type": "female",
+      "name": "pin4G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4H",
+      "type": "female",
+      "name": "pin4H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4I",
+      "type": "female",
+      "name": "pin4I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4J",
+      "type": "female",
+      "name": "pin4J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5A",
+      "type": "female",
+      "name": "pin5A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5B",
+      "type": "female",
+      "name": "pin5B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5C",
+      "type": "female",
+      "name": "pin5C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5D",
+      "type": "female",
+      "name": "pin5D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5E",
+      "type": "female",
+      "name": "pin5E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5F",
+      "type": "female",
+      "name": "pin5F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5G",
+      "type": "female",
+      "name": "pin5G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5H",
+      "type": "female",
+      "name": "pin5H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5I",
+      "type": "female",
+      "name": "pin5I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5J",
+      "type": "female",
+      "name": "pin5J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6A",
+      "type": "female",
+      "name": "pin6A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6B",
+      "type": "female",
+      "name": "pin6B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6C",
+      "type": "female",
+      "name": "pin6C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6D",
+      "type": "female",
+      "name": "pin6D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6E",
+      "type": "female",
+      "name": "pin6E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6F",
+      "type": "female",
+      "name": "pin6F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6G",
+      "type": "female",
+      "name": "pin6G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6H",
+      "type": "female",
+      "name": "pin6H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6I",
+      "type": "female",
+      "name": "pin6I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6J",
+      "type": "female",
+      "name": "pin6J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7A",
+      "type": "female",
+      "name": "pin7A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7B",
+      "type": "female",
+      "name": "pin7B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7C",
+      "type": "female",
+      "name": "pin7C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7D",
+      "type": "female",
+      "name": "pin7D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7E",
+      "type": "female",
+      "name": "pin7E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7F",
+      "type": "female",
+      "name": "pin7F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7G",
+      "type": "female",
+      "name": "pin7G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7H",
+      "type": "female",
+      "name": "pin7H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7I",
+      "type": "female",
+      "name": "pin7I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7J",
+      "type": "female",
+      "name": "pin7J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8A",
+      "type": "female",
+      "name": "pin8A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8B",
+      "type": "female",
+      "name": "pin8B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8C",
+      "type": "female",
+      "name": "pin8C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8D",
+      "type": "female",
+      "name": "pin8D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8E",
+      "type": "female",
+      "name": "pin8E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8F",
+      "type": "female",
+      "name": "pin8F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8G",
+      "type": "female",
+      "name": "pin8G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8H",
+      "type": "female",
+      "name": "pin8H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8I",
+      "type": "female",
+      "name": "pin8I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin8J",
+      "type": "female",
+      "name": "pin8J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9A",
+      "type": "female",
+      "name": "pin9A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9B",
+      "type": "female",
+      "name": "pin9B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9C",
+      "type": "female",
+      "name": "pin9C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9D",
+      "type": "female",
+      "name": "pin9D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9E",
+      "type": "female",
+      "name": "pin9E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9F",
+      "type": "female",
+      "name": "pin9F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9G",
+      "type": "female",
+      "name": "pin9G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9H",
+      "type": "female",
+      "name": "pin9H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9I",
+      "type": "female",
+      "name": "pin9I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9J",
+      "type": "female",
+      "name": "pin9J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10A",
+      "type": "female",
+      "name": "pin10A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10B",
+      "type": "female",
+      "name": "pin10B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10C",
+      "type": "female",
+      "name": "pin10C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10D",
+      "type": "female",
+      "name": "pin10D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10E",
+      "type": "female",
+      "name": "pin10E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10F",
+      "type": "female",
+      "name": "pin10F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10G",
+      "type": "female",
+      "name": "pin10G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10H",
+      "type": "female",
+      "name": "pin10H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10I",
+      "type": "female",
+      "name": "pin10I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10J",
+      "type": "female",
+      "name": "pin10J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11A",
+      "type": "female",
+      "name": "pin11A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11B",
+      "type": "female",
+      "name": "pin11B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11C",
+      "type": "female",
+      "name": "pin11C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11D",
+      "type": "female",
+      "name": "pin11D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11E",
+      "type": "female",
+      "name": "pin11E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11F",
+      "type": "female",
+      "name": "pin11F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11G",
+      "type": "female",
+      "name": "pin11G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11H",
+      "type": "female",
+      "name": "pin11H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11I",
+      "type": "female",
+      "name": "pin11I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11J",
+      "type": "female",
+      "name": "pin11J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12A",
+      "type": "female",
+      "name": "pin12A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12B",
+      "type": "female",
+      "name": "pin12B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12C",
+      "type": "female",
+      "name": "pin12C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12D",
+      "type": "female",
+      "name": "pin12D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12E",
+      "type": "female",
+      "name": "pin12E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12F",
+      "type": "female",
+      "name": "pin12F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12G",
+      "type": "female",
+      "name": "pin12G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12H",
+      "type": "female",
+      "name": "pin12H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12I",
+      "type": "female",
+      "name": "pin12I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12J",
+      "type": "female",
+      "name": "pin12J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13A",
+      "type": "female",
+      "name": "pin13A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13B",
+      "type": "female",
+      "name": "pin13B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13C",
+      "type": "female",
+      "name": "pin13C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13D",
+      "type": "female",
+      "name": "pin13D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13E",
+      "type": "female",
+      "name": "pin13E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13F",
+      "type": "female",
+      "name": "pin13F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13G",
+      "type": "female",
+      "name": "pin13G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13H",
+      "type": "female",
+      "name": "pin13H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13I",
+      "type": "female",
+      "name": "pin13I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13J",
+      "type": "female",
+      "name": "pin13J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14A",
+      "type": "female",
+      "name": "pin14A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14B",
+      "type": "female",
+      "name": "pin14B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14C",
+      "type": "female",
+      "name": "pin14C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14D",
+      "type": "female",
+      "name": "pin14D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14E",
+      "type": "female",
+      "name": "pin14E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14F",
+      "type": "female",
+      "name": "pin14F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14G",
+      "type": "female",
+      "name": "pin14G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14H",
+      "type": "female",
+      "name": "pin14H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14I",
+      "type": "female",
+      "name": "pin14I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin14J",
+      "type": "female",
+      "name": "pin14J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15A",
+      "type": "female",
+      "name": "pin15A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15B",
+      "type": "female",
+      "name": "pin15B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15C",
+      "type": "female",
+      "name": "pin15C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15D",
+      "type": "female",
+      "name": "pin15D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15E",
+      "type": "female",
+      "name": "pin15E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15F",
+      "type": "female",
+      "name": "pin15F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15G",
+      "type": "female",
+      "name": "pin15G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15H",
+      "type": "female",
+      "name": "pin15H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15I",
+      "type": "female",
+      "name": "pin15I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15J",
+      "type": "female",
+      "name": "pin15J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16A",
+      "type": "female",
+      "name": "pin16A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16B",
+      "type": "female",
+      "name": "pin16B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16C",
+      "type": "female",
+      "name": "pin16C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16D",
+      "type": "female",
+      "name": "pin16D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16E",
+      "type": "female",
+      "name": "pin16E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16F",
+      "type": "female",
+      "name": "pin16F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16G",
+      "type": "female",
+      "name": "pin16G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16H",
+      "type": "female",
+      "name": "pin16H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16I",
+      "type": "female",
+      "name": "pin16I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16J",
+      "type": "female",
+      "name": "pin16J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17A",
+      "type": "female",
+      "name": "pin17A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17B",
+      "type": "female",
+      "name": "pin17B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17C",
+      "type": "female",
+      "name": "pin17C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17D",
+      "type": "female",
+      "name": "pin17D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17E",
+      "type": "female",
+      "name": "pin17E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17F",
+      "type": "female",
+      "name": "pin17F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17G",
+      "type": "female",
+      "name": "pin17G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17H",
+      "type": "female",
+      "name": "pin17H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17I",
+      "type": "female",
+      "name": "pin17I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17J",
+      "type": "female",
+      "name": "pin17J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18A",
+      "type": "female",
+      "name": "pin18A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18B",
+      "type": "female",
+      "name": "pin18B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18C",
+      "type": "female",
+      "name": "pin18C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18D",
+      "type": "female",
+      "name": "pin18D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18E",
+      "type": "female",
+      "name": "pin18E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18F",
+      "type": "female",
+      "name": "pin18F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18G",
+      "type": "female",
+      "name": "pin18G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18H",
+      "type": "female",
+      "name": "pin18H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18I",
+      "type": "female",
+      "name": "pin18I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18J",
+      "type": "female",
+      "name": "pin18J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19A",
+      "type": "female",
+      "name": "pin19A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19B",
+      "type": "female",
+      "name": "pin19B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19C",
+      "type": "female",
+      "name": "pin19C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19D",
+      "type": "female",
+      "name": "pin19D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19E",
+      "type": "female",
+      "name": "pin19E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19F",
+      "type": "female",
+      "name": "pin19F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19G",
+      "type": "female",
+      "name": "pin19G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19H",
+      "type": "female",
+      "name": "pin19H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19I",
+      "type": "female",
+      "name": "pin19I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19J",
+      "type": "female",
+      "name": "pin19J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20A",
+      "type": "female",
+      "name": "pin20A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20B",
+      "type": "female",
+      "name": "pin20B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20C",
+      "type": "female",
+      "name": "pin20C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20D",
+      "type": "female",
+      "name": "pin20D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20E",
+      "type": "female",
+      "name": "pin20E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20F",
+      "type": "female",
+      "name": "pin20F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20G",
+      "type": "female",
+      "name": "pin20G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20H",
+      "type": "female",
+      "name": "pin20H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20I",
+      "type": "female",
+      "name": "pin20I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin20J",
+      "type": "female",
+      "name": "pin20J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21A",
+      "type": "female",
+      "name": "pin21A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21B",
+      "type": "female",
+      "name": "pin21B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21C",
+      "type": "female",
+      "name": "pin21C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21D",
+      "type": "female",
+      "name": "pin21D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21E",
+      "type": "female",
+      "name": "pin21E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21F",
+      "type": "female",
+      "name": "pin21F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21G",
+      "type": "female",
+      "name": "pin21G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21H",
+      "type": "female",
+      "name": "pin21H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21I",
+      "type": "female",
+      "name": "pin21I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21J",
+      "type": "female",
+      "name": "pin21J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22A",
+      "type": "female",
+      "name": "pin22A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22B",
+      "type": "female",
+      "name": "pin22B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22C",
+      "type": "female",
+      "name": "pin22C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22D",
+      "type": "female",
+      "name": "pin22D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22E",
+      "type": "female",
+      "name": "pin22E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22F",
+      "type": "female",
+      "name": "pin22F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22G",
+      "type": "female",
+      "name": "pin22G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22H",
+      "type": "female",
+      "name": "pin22H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22I",
+      "type": "female",
+      "name": "pin22I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22J",
+      "type": "female",
+      "name": "pin22J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23A",
+      "type": "female",
+      "name": "pin23A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23B",
+      "type": "female",
+      "name": "pin23B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23C",
+      "type": "female",
+      "name": "pin23C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23D",
+      "type": "female",
+      "name": "pin23D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23E",
+      "type": "female",
+      "name": "pin23E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23F",
+      "type": "female",
+      "name": "pin23F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23G",
+      "type": "female",
+      "name": "pin23G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23H",
+      "type": "female",
+      "name": "pin23H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23I",
+      "type": "female",
+      "name": "pin23I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23J",
+      "type": "female",
+      "name": "pin23J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24A",
+      "type": "female",
+      "name": "pin24A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24B",
+      "type": "female",
+      "name": "pin24B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24C",
+      "type": "female",
+      "name": "pin24C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24D",
+      "type": "female",
+      "name": "pin24D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24E",
+      "type": "female",
+      "name": "pin24E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24F",
+      "type": "female",
+      "name": "pin24F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24G",
+      "type": "female",
+      "name": "pin24G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24H",
+      "type": "female",
+      "name": "pin24H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24I",
+      "type": "female",
+      "name": "pin24I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24J",
+      "type": "female",
+      "name": "pin24J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25A",
+      "type": "female",
+      "name": "pin25A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25B",
+      "type": "female",
+      "name": "pin25B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25C",
+      "type": "female",
+      "name": "pin25C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25D",
+      "type": "female",
+      "name": "pin25D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25E",
+      "type": "female",
+      "name": "pin25E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25F",
+      "type": "female",
+      "name": "pin25F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25G",
+      "type": "female",
+      "name": "pin25G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25H",
+      "type": "female",
+      "name": "pin25H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25I",
+      "type": "female",
+      "name": "pin25I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25J",
+      "type": "female",
+      "name": "pin25J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26A",
+      "type": "female",
+      "name": "pin26A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26B",
+      "type": "female",
+      "name": "pin26B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26C",
+      "type": "female",
+      "name": "pin26C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26D",
+      "type": "female",
+      "name": "pin26D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26E",
+      "type": "female",
+      "name": "pin26E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26F",
+      "type": "female",
+      "name": "pin26F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26G",
+      "type": "female",
+      "name": "pin26G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26H",
+      "type": "female",
+      "name": "pin26H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26I",
+      "type": "female",
+      "name": "pin26I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin26J",
+      "type": "female",
+      "name": "pin26J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27A",
+      "type": "female",
+      "name": "pin27A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27B",
+      "type": "female",
+      "name": "pin27B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27C",
+      "type": "female",
+      "name": "pin27C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27D",
+      "type": "female",
+      "name": "pin27D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27E",
+      "type": "female",
+      "name": "pin27E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27F",
+      "type": "female",
+      "name": "pin27F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27G",
+      "type": "female",
+      "name": "pin27G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27H",
+      "type": "female",
+      "name": "pin27H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27I",
+      "type": "female",
+      "name": "pin27I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27J",
+      "type": "female",
+      "name": "pin27J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28A",
+      "type": "female",
+      "name": "pin28A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28B",
+      "type": "female",
+      "name": "pin28B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28C",
+      "type": "female",
+      "name": "pin28C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28D",
+      "type": "female",
+      "name": "pin28D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28E",
+      "type": "female",
+      "name": "pin28E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28F",
+      "type": "female",
+      "name": "pin28F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28G",
+      "type": "female",
+      "name": "pin28G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28H",
+      "type": "female",
+      "name": "pin28H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28I",
+      "type": "female",
+      "name": "pin28I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28J",
+      "type": "female",
+      "name": "pin28J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29A",
+      "type": "female",
+      "name": "pin29A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29B",
+      "type": "female",
+      "name": "pin29B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29C",
+      "type": "female",
+      "name": "pin29C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29D",
+      "type": "female",
+      "name": "pin29D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29E",
+      "type": "female",
+      "name": "pin29E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29F",
+      "type": "female",
+      "name": "pin29F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29G",
+      "type": "female",
+      "name": "pin29G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29H",
+      "type": "female",
+      "name": "pin29H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29I",
+      "type": "female",
+      "name": "pin29I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29J",
+      "type": "female",
+      "name": "pin29J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30A",
+      "type": "female",
+      "name": "pin30A",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30B",
+      "type": "female",
+      "name": "pin30B",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30C",
+      "type": "female",
+      "name": "pin30C",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30D",
+      "type": "female",
+      "name": "pin30D",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30E",
+      "type": "female",
+      "name": "pin30E",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30F",
+      "type": "female",
+      "name": "pin30F",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30G",
+      "type": "female",
+      "name": "pin30G",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30H",
+      "type": "female",
+      "name": "pin30H",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30I",
+      "type": "female",
+      "name": "pin30I",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30J",
+      "type": "female",
+      "name": "pin30J",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3W",
+      "type": "female",
+      "name": "pin3W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3X",
+      "type": "female",
+      "name": "pin3X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3Y",
+      "type": "female",
+      "name": "pin3Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin3Z",
+      "type": "female",
+      "name": "pin3Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4W",
+      "type": "female",
+      "name": "pin4W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4X",
+      "type": "female",
+      "name": "pin4X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4Y",
+      "type": "female",
+      "name": "pin4Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin4Z",
+      "type": "female",
+      "name": "pin4Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5W",
+      "type": "female",
+      "name": "pin5W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5X",
+      "type": "female",
+      "name": "pin5X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5Y",
+      "type": "female",
+      "name": "pin5Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin5Z",
+      "type": "female",
+      "name": "pin5Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6W",
+      "type": "female",
+      "name": "pin6W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6X",
+      "type": "female",
+      "name": "pin6X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6Y",
+      "type": "female",
+      "name": "pin6Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin6Z",
+      "type": "female",
+      "name": "pin6Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7W",
+      "type": "female",
+      "name": "pin7W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7X",
+      "type": "female",
+      "name": "pin7X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7Y",
+      "type": "female",
+      "name": "pin7Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin7Z",
+      "type": "female",
+      "name": "pin7Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9W",
+      "type": "female",
+      "name": "pin9W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9X",
+      "type": "female",
+      "name": "pin9X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9Y",
+      "type": "female",
+      "name": "pin9Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin9Z",
+      "type": "female",
+      "name": "pin9Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10W",
+      "type": "female",
+      "name": "pin10W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10X",
+      "type": "female",
+      "name": "pin10X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10Y",
+      "type": "female",
+      "name": "pin10Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin10Z",
+      "type": "female",
+      "name": "pin10Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11W",
+      "type": "female",
+      "name": "pin11W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11X",
+      "type": "female",
+      "name": "pin11X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11Y",
+      "type": "female",
+      "name": "pin11Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin11Z",
+      "type": "female",
+      "name": "pin11Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12W",
+      "type": "female",
+      "name": "pin12W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12X",
+      "type": "female",
+      "name": "pin12X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12Y",
+      "type": "female",
+      "name": "pin12Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin12Z",
+      "type": "female",
+      "name": "pin12Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13W",
+      "type": "female",
+      "name": "pin13W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13X",
+      "type": "female",
+      "name": "pin13X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13Y",
+      "type": "female",
+      "name": "pin13Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin13Z",
+      "type": "female",
+      "name": "pin13Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15W",
+      "type": "female",
+      "name": "pin15W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15X",
+      "type": "female",
+      "name": "pin15X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15Y",
+      "type": "female",
+      "name": "pin15Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin15Z",
+      "type": "female",
+      "name": "pin15Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16W",
+      "type": "female",
+      "name": "pin16W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16X",
+      "type": "female",
+      "name": "pin16X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16Y",
+      "type": "female",
+      "name": "pin16Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin16Z",
+      "type": "female",
+      "name": "pin16Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17W",
+      "type": "female",
+      "name": "pin17W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17X",
+      "type": "female",
+      "name": "pin17X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17Y",
+      "type": "female",
+      "name": "pin17Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin17Z",
+      "type": "female",
+      "name": "pin17Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18W",
+      "type": "female",
+      "name": "pin18W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18X",
+      "type": "female",
+      "name": "pin18X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18Y",
+      "type": "female",
+      "name": "pin18Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin18Z",
+      "type": "female",
+      "name": "pin18Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19W",
+      "type": "female",
+      "name": "pin19W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19X",
+      "type": "female",
+      "name": "pin19X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19Y",
+      "type": "female",
+      "name": "pin19Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin19Z",
+      "type": "female",
+      "name": "pin19Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21W",
+      "type": "female",
+      "name": "pin21W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21X",
+      "type": "female",
+      "name": "pin21X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21Y",
+      "type": "female",
+      "name": "pin21Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin21Z",
+      "type": "female",
+      "name": "pin21Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22W",
+      "type": "female",
+      "name": "pin22W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22X",
+      "type": "female",
+      "name": "pin22X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22Y",
+      "type": "female",
+      "name": "pin22Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin22Z",
+      "type": "female",
+      "name": "pin22Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23W",
+      "type": "female",
+      "name": "pin23W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23X",
+      "type": "female",
+      "name": "pin23X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23Y",
+      "type": "female",
+      "name": "pin23Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin23Z",
+      "type": "female",
+      "name": "pin23Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24W",
+      "type": "female",
+      "name": "pin24W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24X",
+      "type": "female",
+      "name": "pin24X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24Y",
+      "type": "female",
+      "name": "pin24Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin24Z",
+      "type": "female",
+      "name": "pin24Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25W",
+      "type": "female",
+      "name": "pin25W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25X",
+      "type": "female",
+      "name": "pin25X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25Y",
+      "type": "female",
+      "name": "pin25Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin25Z",
+      "type": "female",
+      "name": "pin25Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27W",
+      "type": "female",
+      "name": "pin27W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27X",
+      "type": "female",
+      "name": "pin27X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27Y",
+      "type": "female",
+      "name": "pin27Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin27Z",
+      "type": "female",
+      "name": "pin27Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28W",
+      "type": "female",
+      "name": "pin28W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28X",
+      "type": "female",
+      "name": "pin28X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28Y",
+      "type": "female",
+      "name": "pin28Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin28Z",
+      "type": "female",
+      "name": "pin28Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29W",
+      "type": "female",
+      "name": "pin29W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29X",
+      "type": "female",
+      "name": "pin29X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29Y",
+      "type": "female",
+      "name": "pin29Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin29Z",
+      "type": "female",
+      "name": "pin29Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30W",
+      "type": "female",
+      "name": "pin30W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30X",
+      "type": "female",
+      "name": "pin30X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30Y",
+      "type": "female",
+      "name": "pin30Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin30Z",
+      "type": "female",
+      "name": "pin30Z",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin31W",
+      "type": "female",
+      "name": "pin31W",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin31X",
+      "type": "female",
+      "name": "pin31X",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin31Y",
+      "type": "female",
+      "name": "pin31Y",
+      "description": "breadboard socket"
+    },
+    {
+      "id": "pin31Z",
+      "type": "female",
+      "name": "pin31Z",
+      "description": "breadboard socket"
+    }
+  ]
+}

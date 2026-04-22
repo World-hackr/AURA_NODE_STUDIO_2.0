@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-LED-LED_BARGRAPH_10-",
+  "title": "LED_BARGRAPH_10",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-led-led_bargraph_10-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-led_led_bargaph_10_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-led_led_bargraph_10_mix_18_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-led_led_bargaph_10_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-led_led_bargaph_10_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A A",
+      "description": "A A"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "A C",
+      "description": "A C"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "B A",
+      "description": "B A"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "B C",
+      "description": "B C"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "C A",
+      "description": "C A"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "C C",
+      "description": "C C"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D A",
+      "description": "D A"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "D C",
+      "description": "D C"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "E A",
+      "description": "E A"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "E C",
+      "description": "E C"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "F A",
+      "description": "F A"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "F C",
+      "description": "F C"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G A",
+      "description": "G A"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "G C",
+      "description": "G C"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "H A",
+      "description": "H A"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "H C",
+      "description": "H C"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "I A",
+      "description": "I A"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "I C",
+      "description": "I C"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "J A",
+      "description": "J A"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "J C",
+      "description": "J C"
+    }
+  ]
+}

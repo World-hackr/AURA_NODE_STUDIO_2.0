@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA Studio | KiCad Schematic Editor</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Top Menu Bar -->
+    <div class="menubar">
+        <div class="menu-item">File</div>
+        <div class="menu-item">Edit</div>
+        <div class="menu-item">View</div>
+        <a class="menu-item menu-link" href="symbol-lab.html">Symbol Lab</a>
+        <div class="menu-item">Place</div>
+        <div class="menu-item">Inspect</div>
+        <div class="menu-item">Tools</div>
+        <div class="menu-item">Preferences</div>
+        <div class="menu-item">Help</div>
+    </div>
+
+    <!-- Top Toolbar -->
+    <div class="top-toolbar">
+        <button class="tool-btn" title="Save"><img src="assets/kicad/save_24.png" alt="Save"></button>
+        <div class="toolbar-sep"></div>
+        <button class="tool-btn" title="Undo"><img src="assets/kicad/undo_24.png" alt="Undo"></button>
+        <button class="tool-btn" title="Redo"><img src="assets/kicad/redo_24.png" alt="Redo"></button>
+        <div class="toolbar-sep"></div>
+        <button class="tool-btn" title="Find"><img src="assets/kicad/find_24.png" alt="Find"></button>
+        <button class="tool-btn" title="Find & Replace"><img src="assets/kicad/find_replace_24.png" alt="Find Replace"></button>
+        <div class="toolbar-sep"></div>
+        <button class="tool-btn" title="Redraw"><img src="assets/kicad/refresh_24.png" alt="Redraw"></button>
+        <button class="tool-btn" title="Zoom In"><img src="assets/kicad/zoom_in_24.png" alt="Zoom In"></button>
+        <button class="tool-btn" title="Zoom Out"><img src="assets/kicad/zoom_out_24.png" alt="Zoom Out"></button>
+        <button class="tool-btn" title="Zoom Fit"><img src="assets/kicad/zoom_fit_in_page_24.png" alt="Zoom Fit"></button>
+        <button class="tool-btn" title="Zoom to Selection"><img src="assets/kicad/zoom_selection_24.png" alt="Zoom Selection"></button>
+        <div class="toolbar-sep"></div>
+        <button class="tool-btn" id="json-import-trigger" title="Import JSON"><img src="assets/kicad/import_document_24.png" alt="Import JSON"></button>
+        <button class="tool-btn" title="Update PCB"><img src="assets/kicad/update_pcb_from_sch_24.png" alt="Update PCB"></button>
+    </div>
+
+    <div class="main-workspace">
+        <!-- Left Display Toolbar -->
+        <div class="left-toolbar">
+            <button class="tool-btn active" title="Common Components" data-library-group-shortcut="common"><img src="assets/kicad/add_symbol_to_schematic_24.png" alt="Common"></button>
+            <button class="tool-btn" title="Power and Connectors" data-library-group-shortcut="power"><img src="assets/kicad/add_power_24.png" alt="Power"></button>
+            <button class="tool-btn" title="Semiconductors" data-library-group-shortcut="semiconductors"><img src="assets/kicad/add_component_24.png" alt="Semiconductors"></button>
+            <button class="tool-btn" title="ICs and Modules" data-library-group-shortcut="ics"><img src="assets/kicad/add_hierarchical_subsheet_24.png" alt="ICs"></button>
+            <button class="tool-btn" title="All KiCad Libraries" data-library-group-shortcut="all"><img src="assets/kicad/list_nets_24.png" alt="All"></button>
+        </div>
+
+        <!-- Left Panel: Library Browser -->
+        <div class="side-panel left-panel">
+            <div class="panel-header">Symbol Library</div>
+            <div class="panel-content">
+                <label class="panel-label" for="library-group">Symbol Set</label>
+                <select class="panel-search" id="library-group">
+                    <option value="common">Common schematic</option>
+                    <option value="power">Power and connectors</option>
+                    <option value="semiconductors">Semiconductors</option>
+                    <option value="ics">ICs and modules</option>
+                    <option value="all">All KiCad libraries</option>
+                </select>
+                <div class="panel-header panel-header-inline">Common Components</div>
+                <div class="common-component-list" id="common-component-list">
+                    <div class="empty-state">Loading common symbols...</div>
+                </div>
+                <input type="text" class="panel-search" id="library-search" placeholder="Filter...">
+                <div class="library-tree" id="kicad-library-list">
+                    <div class="empty-state">Loading libraries...</div>
+                </div>
+                <div class="panel-header">Symbols</div>
+                <input type="text" class="panel-search" id="symbol-search" placeholder="Search symbols...">
+                <div class="symbol-gallery browser-list--symbols" id="component-palette">
+                    <div class="empty-state">Loading symbols...</div>
+                </div>
+                <div class="panel-header">Preview</div>
+                <div class="symbol-preview-area" id="selected-symbol-preview">
+                    <div class="empty-state">No symbol selected</div>
+                </div>
+                <div class="symbol-preview-meta">
+                    <div class="symbol-preview-name" id="selected-symbol-name">No symbol selected</div>
+                    <div class="symbol-preview-description" id="selected-symbol-description">Pick a symbol to inspect and place.</div>
+                </div>
+                <button class="panel-action" id="add-selected-symbol" type="button" disabled>Place on canvas</button>
+            </div>
+        </div>
+
+        <!-- Center Workspace -->
+        <div class="workspace-stack">
+            <div class="canvas-container" id="workspace-container">
+                <canvas id="scale-overlay"></canvas>
+                <div id="workspace-frame" class="workspace-frame">
+                    <canvas id="workspace"></canvas>
+                </div>
+                <div class="selection-scope-panel" id="selection-scope-panel">
+                    <div class="selection-scope-label">Select</div>
+                    <div class="selection-scope-summary" id="selection-scope-summary">0 part / 0 wire</div>
+                    <div class="selection-scope-actions">
+                        <button class="tool-btn tool-btn--text selection-scope-btn" id="selection-scope-components" type="button" title="Select component bodies">PART</button>
+                        <button class="tool-btn tool-btn--text selection-scope-btn" id="selection-scope-wires" type="button" title="Select wires and junctions">WIRE</button>
+                        <button class="tool-btn tool-btn--text selection-scope-btn" id="selection-scope-both" type="button" title="Select both components and wires">BOTH</button>
+                    </div>
+                </div>
+                <div class="wire-autoroute-panel" id="wire-autoroute-panel" hidden>
+                    <div class="wire-autoroute-meta">
+                        <div class="wire-autoroute-label" id="wire-autoroute-label">Selected Wire</div>
+                        <div class="wire-autoroute-id" id="wire-autoroute-id">WIRE</div>
+                    </div>
+                    <button class="wire-autoroute-button" id="wire-autoroute-btn" type="button">Autoroute</button>
+                    <button class="wire-autoroute-dismiss" id="wire-autoroute-dismiss" type="button" aria-label="Dismiss autoroute panel">x</button>
+                </div>
+                <button class="canvas-settings-toggle" id="canvas-settings-toggle" type="button" title="Canvas settings">&#9881;</button>
+                <div class="canvas-settings-panel" id="canvas-settings-panel" hidden>
+                    <div class="canvas-settings-title">Canvas Settings</div>
+                    <label class="canvas-setting">
+                        <span>Background Mode</span>
+                        <select id="canvas-bg-mode">
+                            <option value="solid">Solid Color</option>
+                            <option value="texture">Texture</option>
+                        </select>
+                    </label>
+                    <label class="canvas-setting">
+                        <span>Canvas Color</span>
+                        <input id="canvas-bg-color" type="color" value="#000000">
+                    </label>
+                    <label class="canvas-setting">
+                        <span>Texture</span>
+                        <select id="canvas-texture">
+                            <option value="texture1.jpg">Texture 1</option>
+                            <option value="texture2.jpg">Texture 2</option>
+                            <option value="texture3.jpg">Texture 3</option>
+                            <option value="texture4.jpg">Texture 4</option>
+                        </select>
+                    </label>
+                    <label class="canvas-setting">
+                        <span>Theme</span>
+                        <select id="canvas-theme">
+                            <option value="dark">Dark</option>
+                            <option value="blueprint">Blueprint</option>
+                            <option value="light">Light</option>
+                        </select>
+                    </label>
+                    <label class="canvas-setting">
+                        <span>Grid Opacity</span>
+                        <input id="canvas-grid-opacity" type="range" min="0" max="100" value="40">
+                    </label>
+                    <button class="panel-action" id="canvas-reset-view" type="button">Reset View</button>
+                </div>
+            </div>
+            <div class="bottom-inspector-panel">
+                <div class="panel-header">Inspector</div>
+                <div class="bottom-inspector-content">
+                    <div class="inspector-subpanel inspector-subpanel--summary">
+                        <div class="panel-label inspector-mini-label">Summary</div>
+                        <div class="properties-content properties-content--compact" id="selection-summary">
+                            <div class="empty-state">No item selected</div>
+                        </div>
+                    </div>
+                    <div class="inspector-subpanel inspector-subpanel--fill">
+                        <div class="panel-label inspector-mini-label">Details</div>
+                        <div class="properties-content properties-content--compact" id="inspector-content">
+                            <div class="empty-state">No item selected</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Drawing Toolbar -->
+        <div class="right-toolbar">
+            <button class="tool-btn active" id="tool-btn-select" type="button" title="Select Item" data-tool="select" aria-pressed="true"><img src="assets/kicad/cursor_24.png" alt="Select"></button>
+            <button class="tool-btn tool-btn--text" id="selection-mode-toggle-btn" type="button" title="Toggle selection mode">SEL</button>
+            <button class="tool-btn" title="Add Symbol"><img src="assets/kicad/add_symbol_to_schematic_24.png" alt="Add Symbol"></button>
+            <button class="tool-btn" title="Add Power"><img src="assets/kicad/add_power_24.png" alt="Add Power"></button>
+            <button class="tool-btn tool-btn--wire" id="tool-btn-wire" type="button" title="Route Wire (W)" data-tool="wire" aria-pressed="false"><img src="assets/kicad/add_line_24.png" alt="Add Wire"></button>
+            <button class="tool-btn" title="Add Bus"><img src="assets/kicad/add_bus_24.png" alt="Add Bus"></button>
+            <button class="tool-btn" title="Add Wire to Bus Entry"><img src="assets/kicad/add_line2bus_24.png" alt="Wire to Bus"></button>
+            <button class="tool-btn" title="Add No Connect Flag"><img src="assets/kicad/noconn_24.png" alt="No Connect"></button>
+            <button class="tool-btn" title="Add Junction"><img src="assets/kicad/add_junction_24.png" alt="Add Junction"></button>
+            <button class="tool-btn" title="Add Net Label"><img src="assets/kicad/add_label_24.png" alt="Add Net Label"></button>
+            <button class="tool-btn" title="Add Global Label"><img src="assets/kicad/add_glabel_24.png" alt="Add Global Label"></button>
+            <button class="tool-btn" title="Add Hierarchical Label"><img src="assets/kicad/add_hierarchical_label_24.png" alt="Add Hierarchical Label"></button>
+            <button class="tool-btn" title="Add Hierarchical Sheet"><img src="assets/kicad/add_hierarchical_subsheet_24.png" alt="Add Sheet"></button>
+            <button class="tool-btn" title="Add Graphic Polygon"><img src="assets/kicad/add_graphical_polygon_24.png" alt="Add Polygon"></button>
+            <button class="tool-btn" title="Add Graphic Text"><img src="assets/kicad/add_textbox_24.png" alt="Add Text"></button>
+            <button class="tool-btn tool-btn--text" id="pin-label-toggle-btn" type="button" title="Toggle Pin Labels">PIN</button>
+        </div>
+    </div>
+
+    <!-- Bottom Status Bar -->
+    <div class="status-bar">
+        <div class="status-item" id="coord-display">X: 0.00 Y: 0.00</div>
+        <div class="status-sep"></div>
+        <div class="status-item">Grid: 1.27 mm (50 mils)</div>
+        <div class="status-sep"></div>
+        <div class="status-item" id="stage-mode-label">Ready</div>
+        <div class="status-spacer"></div>
+        <div class="status-item" id="api-state-chip">API Online</div>
+    </div>
+
+    <div class="modal-overlay" id="json-import-modal" hidden>
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <div class="modal-title">Import Circuit JSON</div>
+                    <div class="modal-subtitle">Accepts <code>aura.schematic_document.v1</code> now, with starter support for <code>aura.circuit_ir.v1</code>.</div>
+                </div>
+                <button class="modal-close" id="json-import-close" type="button" aria-label="Close import dialog">x</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-actions">
+                    <button class="panel-action panel-action--secondary" id="json-import-example" type="button">Load Example</button>
+                    <button class="panel-action panel-action--secondary" id="json-import-clear" type="button">Clear</button>
+                </div>
+                <textarea class="json-import-input" id="json-import-input" spellcheck="false" placeholder="{&#10;  &quot;schema&quot;: &quot;aura.schematic_document.v1&quot;,&#10;  ...&#10;}"></textarea>
+                <div class="json-import-status" id="json-import-status">Paste a schematic JSON payload, then apply it to the canvas.</div>
+            </div>
+            <div class="modal-footer">
+                <button class="panel-action panel-action--secondary" id="json-import-cancel" type="button">Cancel</button>
+                <button class="panel-action" id="json-import-apply" type="button">Apply To Canvas</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/routing.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

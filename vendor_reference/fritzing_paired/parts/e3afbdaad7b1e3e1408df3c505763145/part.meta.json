@@ -1,0 +1,91 @@
+{
+  "moduleId": "e3afbdaad7b1e3e1408df3c505763145",
+  "title": "avr isp 10 pin",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\avr_isp_10_pin.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\avr_isp_10_pin_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\avr_isp_10_pin_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\avr_isp_10_pin_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\avr_isp_10_pin_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "sck",
+      "description": "sck-pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "miso",
+      "description": "miso-pin 5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "gnd",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "gnd",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "rxd",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "txd",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "vcc",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "mosi",
+      "description": "mosi-pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "not connected",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "/reset",
+      "description": "reset-pin 3"
+    }
+  ]
+}

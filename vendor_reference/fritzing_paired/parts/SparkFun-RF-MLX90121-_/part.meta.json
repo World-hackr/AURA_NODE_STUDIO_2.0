@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-RF-MLX90121-_",
+  "title": "MLX90121",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-mlx90121-_.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP20_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_mlx90121_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_ssop20_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP20_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "CK",
+      "description": "CK"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DIN",
+      "description": "DIN"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "DSYC",
+      "description": "DSYC"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "MOD",
+      "description": "MOD"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "MODE",
+      "description": "MODE"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RES1",
+      "description": "RES1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "RES2(DNC)",
+      "description": "RES2(DNC)"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "RTB",
+      "description": "RTB"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VDD1",
+      "description": "VDD1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VDD2",
+      "description": "VDD2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VDD3",
+      "description": "VDD3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VSS1",
+      "description": "VSS1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VSS2",
+      "description": "VSS2"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VSS3",
+      "description": "VSS3"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "XBUF",
+      "description": "XBUF"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "XIN",
+      "description": "XIN"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "XOUT",
+      "description": "XOUT"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "moduleId": "LilyPad-XBee-v15",
+  "title": "LilyPad XBee",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\LilyPad-XBee-v15.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LilyPad-XBee-v15_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\LilyPad-XBee-v15_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LilyPad-XBee-v15_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LilyPad-XBee-v15_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "TX-O",
+      "description": "TX-O"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "RX-I",
+      "description": "RX-I"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "5",
+      "description": "5"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "ON",
+      "description": "ON"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "VREF",
+      "description": "VREF"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "RES",
+      "description": "RES"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "D11",
+      "description": "D11"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "D12",
+      "description": "D12"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "TX-O",
+      "description": "TX-O"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "RX-I",
+      "description": "RX-I"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "RSSI",
+      "description": "RSSI"
+    }
+  ]
+}

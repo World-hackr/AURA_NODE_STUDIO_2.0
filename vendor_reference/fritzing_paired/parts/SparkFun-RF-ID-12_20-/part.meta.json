@@ -1,0 +1,97 @@
+{
+  "moduleId": "SparkFun-RF-ID-12_20-",
+  "title": "ID-12_20",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-id-12_20-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_id-12_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_id-12_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_id-12_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ID-12.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "+_-",
+      "description": "+_-"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "ANT1",
+      "description": "ANT1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "ANT2",
+      "description": "ANT2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CP",
+      "description": "CP"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "FUTURE",
+      "description": "FUTURE"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GNDT",
+      "description": "GNDT"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "LED",
+      "description": "LED"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RES",
+      "description": "RES"
+    }
+  ]
+}

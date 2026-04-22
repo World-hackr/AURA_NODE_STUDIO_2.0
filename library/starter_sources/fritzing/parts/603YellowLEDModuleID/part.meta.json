@@ -1,0 +1,38 @@
+{
+  "moduleId": "603YellowLEDModuleID",
+  "title": "yellow smd LED",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\SMD_LED_yellow_0603.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\LED-yellow-5mmicon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\led.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_LED_0603.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "cathode",
+      "description": "cathode pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "anode",
+      "description": "anode pin"
+    }
+  ]
+}

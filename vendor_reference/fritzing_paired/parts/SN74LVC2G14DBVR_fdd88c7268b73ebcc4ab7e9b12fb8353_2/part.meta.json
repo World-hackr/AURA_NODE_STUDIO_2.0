@@ -1,0 +1,67 @@
+{
+  "moduleId": "SN74LVC2G14DBVR_fdd88c7268b73ebcc4ab7e9b12fb8353_2",
+  "title": "SN74LVC2G14DBVR",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SN74LVC2G14DBVR_2.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SN74LVC2G14DBVR_7.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SN74LVC2G14DBVR_7.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SN74LVC2G14DBVR_7.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SN74LVC2G14DBVR_7.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "2Y",
+      "description": "2Y"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "1Y",
+      "description": "1Y"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1A",
+      "description": "1A"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "2A",
+      "description": "2A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

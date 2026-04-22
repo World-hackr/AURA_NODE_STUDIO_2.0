@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-AnalogIC-AD725-",
+  "title": "AD725",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-ad725-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_so16l_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_ad725_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so16l_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_so16l_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "4FSC",
+      "description": "4FSC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "APOS",
+      "description": "APOS"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "BIN",
+      "description": "BIN"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CE",
+      "description": "CE"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "COMP",
+      "description": "COMP"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CRMA",
+      "description": "CRMA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "DPOS",
+      "description": "DPOS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GIN",
+      "description": "GIN"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "HSYNC",
+      "description": "HSYNC"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "LUMA",
+      "description": "LUMA"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RIN",
+      "description": "RIN"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "STND",
+      "description": "STND"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VSYNC",
+      "description": "VSYNC"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "YTRAP",
+      "description": "YTRAP"
+    }
+  ]
+}

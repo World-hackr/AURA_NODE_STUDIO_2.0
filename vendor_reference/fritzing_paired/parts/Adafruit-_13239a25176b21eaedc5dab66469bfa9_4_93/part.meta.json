@@ -1,0 +1,103 @@
+{
+  "moduleId": "Adafruit-_13239a25176b21eaedc5dab66469bfa9_4_93",
+  "title": "Adafruit RS-232 Full Pinout Level-Shifter Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_13239a25176b21eaedc5dab66469bfa9_4_93.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_13239a25176b21eaedc5dab66469bfa9_4_93_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_13239a25176b21eaedc5dab66469bfa9_4_93_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_13239a25176b21eaedc5dab66469bfa9_4_93_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_13239a25176b21eaedc5dab66469bfa9_4_93_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "DCD",
+      "description": "DCD"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "DSR",
+      "description": "DSR"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "RI",
+      "description": "RI"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "!INVALID",
+      "description": "!INVALID"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "!FORCEOFF",
+      "description": "!FORCEOFF"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

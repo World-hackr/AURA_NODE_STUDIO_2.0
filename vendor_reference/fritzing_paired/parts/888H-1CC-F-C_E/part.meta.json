@@ -1,0 +1,79 @@
+{
+  "moduleId": "888H-1CC-F-C_E",
+  "title": "888H-1CC-F-C E",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\888H-1CC-F-C_E.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\888H-1CC-F-C_E_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\888H-1CC-F-C_E_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\888H-1CC-F-C_E_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\888H-1CC-F-C_E_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "11 N.O.",
+      "description": "11 N.O."
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "9 COM",
+      "description": "9 COM"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "7 N.C.",
+      "description": "7 N.C."
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "1 +",
+      "description": "1 +"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "22 -",
+      "description": "22 -"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "16 N.C.",
+      "description": "16 N.C."
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "14 COM",
+      "description": "14 COM"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "12 N.O.",
+      "description": "12 N.O."
+    }
+  ]
+}

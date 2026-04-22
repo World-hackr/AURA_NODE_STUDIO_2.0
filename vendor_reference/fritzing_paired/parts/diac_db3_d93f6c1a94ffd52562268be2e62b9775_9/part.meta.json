@@ -1,0 +1,38 @@
+{
+  "moduleId": "diac_db3_d93f6c1a94ffd52562268be2e62b9775_9",
+  "title": "DIAC Diode",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\diac_diode_db3.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\diac_db3_1.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\diac_db3_1.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\diac_db3_1.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Anode 1",
+      "description": "Anode 1 Pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Anode 2",
+      "description": "Anode 2 Pin"
+    }
+  ]
+}

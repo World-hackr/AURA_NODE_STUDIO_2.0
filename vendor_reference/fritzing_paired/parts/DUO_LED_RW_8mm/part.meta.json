@@ -1,0 +1,49 @@
+{
+  "moduleId": "DUO_LED_RW_8mm",
+  "title": "DUO LED RW",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DUO_LED_RW_8mm.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DUO_LED_RW_8mm_flat_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DUO_LED_RW_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DUO_LED_8mm_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DUO_LED_RW_8mm_flat_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "white anode",
+      "description": "anode pin for white LED"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "red anode",
+      "description": "anode pin for red LED"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "common cathode",
+      "description": "cathode pin for every color"
+    }
+  ]
+}

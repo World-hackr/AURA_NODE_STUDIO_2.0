@@ -1,0 +1,25 @@
+{
+  "moduleId": "Sony_Spresense_CXD5602PWDCAM1_002",
+  "title": "Sony's Spresense Camera Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SonySpresense_CXD5602PWBCAM1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\CXD5602PWBCAM1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\CXD5602PWBCAM1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\CXD5602PWBCAM1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 0,
+  "connectors": []
+}

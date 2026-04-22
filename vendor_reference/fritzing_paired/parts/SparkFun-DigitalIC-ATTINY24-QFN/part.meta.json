@@ -1,0 +1,121 @@
+{
+  "moduleId": "SparkFun-DigitalIC-ATTINY24-QFN",
+  "title": "ATTINY24",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-attiny24-qfn.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_qfn20_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_attiny24_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_qfn20_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_qfn20_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PA0_ADC0",
+      "description": "PA0_ADC0"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "PA1_ADC1",
+      "description": "PA1_ADC1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PA2_ADC2",
+      "description": "PA2_ADC2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PA3_ADC3",
+      "description": "PA3_ADC3"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PA4_SCL",
+      "description": "PA4_SCL"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PA5_MISO",
+      "description": "PA5_MISO"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "PA6_MOSI",
+      "description": "PA6_MOSI"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PA7_ADC7",
+      "description": "PA7_ADC7"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PB0",
+      "description": "PB0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "PB1",
+      "description": "PB1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PB2",
+      "description": "PB2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PB3_RESET",
+      "description": "PB3_RESET"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

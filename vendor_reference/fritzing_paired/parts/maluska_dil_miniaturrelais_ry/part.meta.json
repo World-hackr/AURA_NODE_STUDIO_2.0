@@ -1,0 +1,79 @@
+{
+  "moduleId": "maluska_dil_miniaturrelais_ry",
+  "title": "maluska dil miniaturrelais",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\maluska_dil_miniaturrelais_ry.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\maluska_dil_miniaturrelais_ry_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\maluska_dil_miniaturrelais_ry_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\maluska_dil_miniaturrelais_ry_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\maluska_dil_miniaturrelais_ry_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "4",
+      "description": "Pin 4"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "6",
+      "description": "Pin 6"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "8",
+      "description": "Pin 8"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "9",
+      "description": "Pin 9"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "11",
+      "description": "Pin 11"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "13",
+      "description": "Pin 13"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "16",
+      "description": "Pin 16"
+    }
+  ]
+}

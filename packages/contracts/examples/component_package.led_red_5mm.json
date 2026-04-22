@@ -1,0 +1,32 @@
+{
+  "schema": "aura.component_package.v1",
+  "metadata": {
+    "id": "pkg_led_red_5mm",
+    "slug": "led_red_5mm",
+    "name": "Red LED 5mm",
+    "description": "Reviewed beginner-friendly through-hole red LED.",
+    "category": "indicator",
+    "tags": ["led", "red", "5mm", "through-hole"]
+  },
+  "source": {
+    "kind": "fritzing",
+    "label": "Fritzing curated LED source"
+  },
+  "pins": [
+    { "id": "A", "label": "Anode", "x": 10, "y": 42, "side": "bottom" },
+    { "id": "K", "label": "Cathode", "x": 22, "y": 42, "side": "bottom" }
+  ],
+  "sceneAsset": {
+    "path": "scene.svg",
+    "namedNodes": ["body", "lead_anode", "lead_cathode", "light_core"]
+  },
+  "runtimeProfileRef": "light_output",
+  "bindings": [
+    {
+      "targetNodeId": "light_core",
+      "bindingKind": "opacity",
+      "notes": "Preview glow only, not full electrical simulation."
+    }
+  ],
+  "aliases": ["red led", "5mm red led", "indicator led"]
+}

@@ -1,0 +1,198 @@
+{
+  "moduleId": "SparkFun-Connectors-ZIFSOCKET-28-3-ZIFFSOCKET-28-3",
+  "title": "ZIFSOCKET-28-3",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-zifsocket-28-3-ziffsocket-28-3.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_dil-28-3_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_dil28-3-zif_socket_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_28_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_28_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "P$1",
+      "description": "P$1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P$10",
+      "description": "P$10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "P$11",
+      "description": "P$11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "P$12",
+      "description": "P$12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "P$13",
+      "description": "P$13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "P$14",
+      "description": "P$14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "P$15",
+      "description": "P$15"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "P$16",
+      "description": "P$16"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "P$17",
+      "description": "P$17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "P$18",
+      "description": "P$18"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "P$19",
+      "description": "P$19"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P$2",
+      "description": "P$2"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "P$20",
+      "description": "P$20"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "P$21",
+      "description": "P$21"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "P$22",
+      "description": "P$22"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "P$23",
+      "description": "P$23"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "P$24",
+      "description": "P$24"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "P$25",
+      "description": "P$25"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "P$26",
+      "description": "P$26"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "P$27",
+      "description": "P$27"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "P$28",
+      "description": "P$28"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "P$3",
+      "description": "P$3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "P$4",
+      "description": "P$4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P$5",
+      "description": "P$5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "P$6",
+      "description": "P$6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P$7",
+      "description": "P$7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P$8",
+      "description": "P$8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "P$9",
+      "description": "P$9"
+    }
+  ]
+}

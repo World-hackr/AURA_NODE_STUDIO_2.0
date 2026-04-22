@@ -1,0 +1,187 @@
+{
+  "moduleId": "EspruinoPico_8fb644a5b6642112445ed6d90bc494d8_6",
+  "title": "Espruino Pico",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\EspruinoPico_8fb644a5b6642112445ed6d90bc494d8_6.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\EspruinoPico_8fb644a5b6642112445ed6d90bc494d8_8_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\EspruinoPico_8fb644a5b6642112445ed6d90bc494d8_8_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\EspruinoPico_8fb644a5b6642112445ed6d90bc494d8_8_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\EspruinoPico_8fb644a5b6642112445ed6d90bc494d8_8_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 26,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "Vin",
+      "description": "Battery Voltage In"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "B15",
+      "description": "B15"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "B14",
+      "description": "B14"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "B13",
+      "description": "B13"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "B10",
+      "description": "B10"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "B1",
+      "description": "B1"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "A7",
+      "description": "A7"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "A6",
+      "description": "A6"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "A10",
+      "description": "A10"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "A8",
+      "description": "A8"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "B7",
+      "description": "B7"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "B6",
+      "description": "B6"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "B5",
+      "description": "B5"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "B4",
+      "description": "B4"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "B3",
+      "description": "B3"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "3.3",
+      "description": "3.3v Out"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "Vout",
+      "description": "Battery/USB Voltage Out"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "B9",
+      "description": "B9"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "B8",
+      "description": "B8"
+    }
+  ]
+}

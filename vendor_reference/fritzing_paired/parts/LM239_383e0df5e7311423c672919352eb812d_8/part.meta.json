@@ -1,0 +1,115 @@
+{
+  "moduleId": "LM239_383e0df5e7311423c672919352eb812d_8",
+  "title": "Quad Comparator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\LM239_IC_DIP_14_300mil.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\LM239_IC_DIP_14_300mil_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LM239_IC_DIP_14_300mil_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\LM239_IC_DIP_14_300mil_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LM239_IC_DIP_14_300mil_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "Output 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "Output 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 3",
+      "description": "VDD"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "Minus Input 2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 5",
+      "description": "Plus Input 2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 6",
+      "description": "Minus Input 1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 7",
+      "description": "Plus Input 1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 8",
+      "description": "Minus Input 3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 9",
+      "description": "Plus Input 3"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 10",
+      "description": "Minus Input 4"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 10",
+      "description": "Plus Input 4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin 12",
+      "description": "GND"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin 13",
+      "description": "Output 4"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin 14",
+      "description": "Output 3"
+    }
+  ]
+}

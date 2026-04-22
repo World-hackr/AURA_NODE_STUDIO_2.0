@@ -1,0 +1,205 @@
+{
+  "moduleId": "Adafruit-_7ed4dc07e6134d26864360d5eb11e7c6_1_16",
+  "title": "Adafruit PC Joystick seesaw Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_7ed4dc07e6134d26864360d5eb11e7c6_1_16.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_7ed4dc07e6134d26864360d5eb11e7c6_1_breadboard_16.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_7ed4dc07e6134d26864360d5eb11e7c6_1_schematic_16.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_7ed4dc07e6134d26864360d5eb11e7c6_1_pcb_16.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_7ed4dc07e6134d26864360d5eb11e7c6_1_icon_16.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 29,
+  "connectors": [
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector86",
+      "type": "pad",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector93",
+      "type": "pad",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector100",
+      "type": "pad",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector94",
+      "type": "pad",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector91",
+      "type": "pad",
+      "name": "JOY1_Y",
+      "description": "JOY1_Y"
+    },
+    {
+      "id": "connector88",
+      "type": "pad",
+      "name": "JOY1_X",
+      "description": "JOY1_X"
+    },
+    {
+      "id": "connector98",
+      "type": "pad",
+      "name": "JOY2_Y",
+      "description": "JOY2_Y"
+    },
+    {
+      "id": "connector96",
+      "type": "pad",
+      "name": "JOY2_X",
+      "description": "JOY2_X"
+    },
+    {
+      "id": "connector87",
+      "type": "pad",
+      "name": "BUTTON1",
+      "description": "BUTTON1"
+    },
+    {
+      "id": "connector92",
+      "type": "pad",
+      "name": "BUTTON2",
+      "description": "BUTTON2"
+    },
+    {
+      "id": "connector95",
+      "type": "pad",
+      "name": "BUTTON3",
+      "description": "BUTTON3"
+    },
+    {
+      "id": "connector99",
+      "type": "pad",
+      "name": "BUTTON4",
+      "description": "BUTTON4"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "IRQ",
+      "description": "IRQ"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "UPDI",
+      "description": "UPDI"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector89",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector90",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector97",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

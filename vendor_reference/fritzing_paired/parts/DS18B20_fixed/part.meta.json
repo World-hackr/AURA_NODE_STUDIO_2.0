@@ -1,0 +1,49 @@
+{
+  "moduleId": "DS18B20_fixed",
+  "title": "DS18B20 1-Wire Temperature Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DS18B20.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DS18B20_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DS18B20_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DS18B20_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DS18B20_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VDD",
+      "description": "Supply voltage (3-5V)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DQ",
+      "description": "1-Wire Data"
+    }
+  ]
+}

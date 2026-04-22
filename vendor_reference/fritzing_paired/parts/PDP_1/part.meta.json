@@ -1,0 +1,290 @@
+{
+  "moduleId": "PDP_1",
+  "title": "PDP",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PDP_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PDP_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PDP_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PDP_1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 44,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "0_-",
+      "description": "Channel 0  common ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "0_+",
+      "description": "Channel 0 positive (40A)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1_+",
+      "description": "Channel 1 common ground"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "1_-",
+      "description": "Channel 1 positive (40A)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "2_+",
+      "description": "Channel 2common ground"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "2_-",
+      "description": "Channel 2 positive (40A)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "3_+",
+      "description": "Channel 3common ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "3_-",
+      "description": "Channel 3 positive (40A)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "4_+",
+      "description": "Channel 4 common ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "4_-",
+      "description": "Channel 4 positive (30A)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "5_+",
+      "description": "Channel 5 common ground"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "5_-",
+      "description": "Channel 5 positive (30A)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "6_+",
+      "description": "Channel 6 common ground"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "6_-",
+      "description": "Channel 6 positive (30A)"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "7_+",
+      "description": "Channel 7 common ground"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "7_-",
+      "description": "Channel 7 positive (30A)"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VRM_PCM_0+",
+      "description": "VRM PCM 0 positive"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VRM_PCM_0-",
+      "description": "VRM PCM 0 common ground"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VRM_PCM_1+",
+      "description": "VRM PCM 1 positive"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VRM_PCM_1-",
+      "description": "VRM PCM 1 common ground"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "CONT_+",
+      "description": "roboREO supply positive (10A)"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "CONT_-",
+      "description": "roboREO supply common ground"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "8_-",
+      "description": "Channel 8 common ground"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "8_+",
+      "description": "Channel 8 positive (30A)"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "9_-",
+      "description": "Channel 9 common ground)"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "9_+",
+      "description": "Channel 9 positive (30A)"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "10_-",
+      "description": "Channel 10 common ground"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "10_+",
+      "description": "Channel 10 positive (30A)"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "11_-",
+      "description": "Channel 11 common ground"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "11_+",
+      "description": "Channel 11 positive (30A)"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "12_-",
+      "description": "Channel 12 common ground"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "12_+",
+      "description": "Channel 12 positive (40A)"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "13_-",
+      "description": "Channel 13 common ground"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "13_+",
+      "description": "Channel 14 positive (40A)"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "14_-",
+      "description": "Channel 14 common ground"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "14_+",
+      "description": "Channel 15 positive (40A)"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "15_-",
+      "description": "Channel 15 common ground"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "15_+",
+      "description": "Channel 15 positive (40A)"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "BAT-",
+      "description": "Battery input negative, common ground"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "BAT+",
+      "description": "Battery input positive"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "CAN_G_0",
+      "description": "CAN low 0"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "CAN_Y_0",
+      "description": "CAN high 0"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "CAN_G_1",
+      "description": "CAN low 1"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "CAN_Y_1",
+      "description": "CAN high 1"
+    }
+  ]
+}

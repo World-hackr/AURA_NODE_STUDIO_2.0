@@ -1,0 +1,49 @@
+{
+  "moduleId": "1238DBDC00-voltage-reg_lm317",
+  "title": "Voltage Regulator - Variable",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\voltage_regulator_lm317.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\voltage_regulator_vreg_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\voltage_regulator_vreg.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\voltage_regulator_LM317.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\TO-220.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "ADJ",
+      "description": "Adjust"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OUT",
+      "description": "Output"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "IN",
+      "description": "Input Voltage"
+    }
+  ]
+}

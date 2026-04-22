@@ -1,0 +1,49 @@
+{
+  "moduleId": "SparkFun-LED-LUXEON-REBEL-",
+  "title": "LUXEON-REBEL",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-led-luxeon-rebel-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-led_luxeon-rebel_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-led_luxeon_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-led_luxeon-rebel_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\LUXEON-REBEL.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "S",
+      "description": "S"
+    }
+  ]
+}

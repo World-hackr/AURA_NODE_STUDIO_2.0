@@ -1,0 +1,33 @@
+{
+  "schema": "aura.library_index.v1",
+  "packages": [
+    {
+      "packageId": "pkg_arduino_uno_rev3",
+      "slug": "arduino_uno_rev3",
+      "name": "Arduino Uno Rev3",
+      "category": "board",
+      "path": "library/curated_packages/arduino_uno_rev3",
+      "aliases": ["arduino uno", "uno", "uno r3"],
+      "status": "trusted"
+    },
+    {
+      "packageId": "pkg_resistor_220r",
+      "slug": "resistor_220r",
+      "name": "Resistor 220R",
+      "category": "passive",
+      "path": "library/curated_packages/resistor_220r",
+      "aliases": ["220r resistor", "220 ohm resistor", "resistor"],
+      "status": "trusted"
+    },
+    {
+      "packageId": "pkg_rgb_led_common_cathode",
+      "slug": "rgb_led_common_cathode",
+      "name": "RGB LED Common Cathode",
+      "category": "indicator",
+      "path": "library/curated_packages/rgb_led_common_cathode",
+      "runtimeProfileId": "light_output",
+      "aliases": ["rgb led", "common cathode rgb led", "led indicator"],
+      "status": "trusted"
+    }
+  ]
+}

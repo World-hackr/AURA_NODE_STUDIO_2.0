@@ -1,0 +1,115 @@
+{
+  "moduleId": "RevEd_PICAXE_14M",
+  "title": "PICAXE-14M",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PICAXE_14M.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PICAXE_14M_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PICAXE_14M_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PICAXE_14M_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_14_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Serial In",
+      "description": "Connect to the 22K resistor of the PICAXE download circuit"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "In 4 / ADC 4",
+      "description": "This pin can be used as a digital input or can be used as an analogue input"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "In 3 / Infrain",
+      "description": "This pin can be used as a digital input. The output from an Infra-Red Receiver can be connected to this pin"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "In 2",
+      "description": "This pin can be used as a digital input"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "In 1",
+      "description": "This pin can be used as a digital input"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "In 0 / ADC 0",
+      "description": "This pin can be used as a digital input or can be used as an analogue input"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Out 5",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Out 4",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Out 3",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Out 2",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Out 1",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Serial Out / Out 0 / Infraout",
+      "description": "Connect to the output pin of the download connector for the PICAXE download circuit. This pin can be used as a digital output and can be used to drive an Infra-Red LED"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun Load Sensor Combinator",
+  "title": "SparkFun Load Sensor Combinator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SparkFun Load Sensor Combinator.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun Load Sensor Combinator_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SparkFun Load Sensor Combinator_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SparkFun Load Sensor Combinator_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun Load Sensor Combinator_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "E-",
+      "description": "E-"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "N$1",
+      "description": "N$1"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "A-",
+      "description": "A-"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "A+",
+      "description": "A+"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "N$1",
+      "description": "N$1"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "E+",
+      "description": "E+"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "E+",
+      "description": "E+"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "E-",
+      "description": "E-"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "A-",
+      "description": "A-"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "A+",
+      "description": "A+"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "5",
+      "description": "5"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "TEMP_DAT",
+      "description": "TEMP_DAT"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    }
+  ]
+}

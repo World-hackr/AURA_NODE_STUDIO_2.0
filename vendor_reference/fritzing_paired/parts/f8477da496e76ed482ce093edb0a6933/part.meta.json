@@ -1,0 +1,199 @@
+{
+  "moduleId": "f8477da496e76ed482ce093edb0a6933",
+  "title": "Aries 28-6574-10 28W ZIF Socket",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\New_Aries_28W_ZIF.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\New_Aries_28W_ZIF4.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\New_Aries_28W_ZIF4.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\New_Aries_28W_ZIF4.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\New_Aries_28W_ZIF4.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Pin 16",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Pin 8",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Pin 9",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "Pin 17",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "Pin 18",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Pin 10",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "Pin 19",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "Pin 20",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "Pin 21",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "Pin 22",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "Pin 23",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "Pin 24",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "Pin 25",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "Pin 26",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "Pin 27",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "Pin 28",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Pin 11",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Pin 12",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Pin 13",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Pin 14",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Pin 15",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Pin 7",
+      "description": "no description yet"
+    }
+  ]
+}

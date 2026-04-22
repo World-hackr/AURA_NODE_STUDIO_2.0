@@ -1,0 +1,73 @@
+{
+  "moduleId": "adafruit_107b6b54e8c206d354d96b469fef7c74_1_7F",
+  "title": "SI1145 Digital UV Index + IR + Visible Light Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_107b6b54e8c206d354d96b469fef7c74_1_7F.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_107b6b54e8c206d354d96b469fef7c74_1_breadboard_7F.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_107b6b54e8c206d354d96b469fef7c74_1_schematic_7F.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_107b6b54e8c206d354d96b469fef7c74_1_pcb_7F.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_107b6b54e8c206d354d96b469fef7c74_1_icon_7F.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "LED",
+      "description": "LED"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

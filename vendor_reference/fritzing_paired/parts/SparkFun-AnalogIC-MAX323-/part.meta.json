@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-AnalogIC-MAX323-",
+  "title": "MAX323",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-max323-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_max323_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so08_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "COM1",
+      "description": "COM1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "COM2",
+      "description": "COM2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "IN1",
+      "description": "IN1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "IN2",
+      "description": "IN2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "NO1",
+      "description": "NO1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "NO2",
+      "description": "NO2"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    }
+  ]
+}

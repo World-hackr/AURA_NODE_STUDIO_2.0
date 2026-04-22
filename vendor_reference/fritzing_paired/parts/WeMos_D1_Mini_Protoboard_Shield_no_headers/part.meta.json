@@ -1,0 +1,565 @@
+{
+  "moduleId": "WeMos_D1_Mini_Protoboard_Shield_no_headers",
+  "title": "WeMos D1 Mini Protoboard Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\WeMos-D1-mini-Protoboard-Shield-no-headers.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WeMos-D1-mini-Protoboard-Shield-no-headers_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WeMos-D1-mini-Protoboard-Shield-no-headers_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\WeMos-D1-mini-Protoboard-Shield_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\WeMos-D1-mini-Protoboard-Shield_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 89,
+  "connectors": [
+    {
+      "id": "rst",
+      "type": "female",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "a0",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "d0",
+      "type": "female",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "d5",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "d6",
+      "type": "female",
+      "name": "D6",
+      "description": "D6"
+    },
+    {
+      "id": "d7",
+      "type": "female",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "d8",
+      "type": "female",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "3v3",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "5v",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "g",
+      "type": "female",
+      "name": "G",
+      "description": "G"
+    },
+    {
+      "id": "d4",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "d3",
+      "type": "female",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "d2",
+      "type": "female",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "d1",
+      "type": "female",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "rx",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "tx",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "x1-y10",
+      "type": "female",
+      "name": "X1-Y10",
+      "description": "X1-Y10"
+    },
+    {
+      "id": "x1-y11",
+      "type": "female",
+      "name": "X1-Y11",
+      "description": "X1-Y11"
+    },
+    {
+      "id": "x2-y1",
+      "type": "female",
+      "name": "X2-Y1",
+      "description": "X2-Y1"
+    },
+    {
+      "id": "x2-y2",
+      "type": "female",
+      "name": "X2-Y2",
+      "description": "X2-Y2"
+    },
+    {
+      "id": "x2-y3",
+      "type": "female",
+      "name": "X2-Y3",
+      "description": "X2-Y3"
+    },
+    {
+      "id": "x2-y4",
+      "type": "female",
+      "name": "X2-Y4",
+      "description": "X2-Y4"
+    },
+    {
+      "id": "x2-y5",
+      "type": "female",
+      "name": "X2-Y5",
+      "description": "X2-Y5"
+    },
+    {
+      "id": "x2-y6",
+      "type": "female",
+      "name": "X2-Y6",
+      "description": "X2-Y6"
+    },
+    {
+      "id": "x2-y7",
+      "type": "female",
+      "name": "X2-Y7",
+      "description": "X2-Y7"
+    },
+    {
+      "id": "x2-y8",
+      "type": "female",
+      "name": "X2-Y8",
+      "description": "X2-Y8"
+    },
+    {
+      "id": "x2-y9",
+      "type": "female",
+      "name": "X2-Y9",
+      "description": "X2-Y9"
+    },
+    {
+      "id": "x2-y10",
+      "type": "female",
+      "name": "X2-Y10",
+      "description": "X2-Y10"
+    },
+    {
+      "id": "x2-y11",
+      "type": "female",
+      "name": "X2-Y11",
+      "description": "X2-Y11"
+    },
+    {
+      "id": "x3-y1",
+      "type": "female",
+      "name": "X3-Y1",
+      "description": "X3-Y1"
+    },
+    {
+      "id": "x3-y2",
+      "type": "female",
+      "name": "X3-Y2",
+      "description": "X3-Y2"
+    },
+    {
+      "id": "x3-y3",
+      "type": "female",
+      "name": "X3-Y3",
+      "description": "X3-Y3"
+    },
+    {
+      "id": "x3-y4",
+      "type": "female",
+      "name": "X3-Y4",
+      "description": "X3-Y4"
+    },
+    {
+      "id": "x3-y5",
+      "type": "female",
+      "name": "X3-Y5",
+      "description": "X3-Y5"
+    },
+    {
+      "id": "x3-y6",
+      "type": "female",
+      "name": "X3-Y6",
+      "description": "X3-Y6"
+    },
+    {
+      "id": "x3-y7",
+      "type": "female",
+      "name": "X3-Y7",
+      "description": "X3-Y7"
+    },
+    {
+      "id": "x3-y8",
+      "type": "female",
+      "name": "X3-Y8",
+      "description": "X3-Y8"
+    },
+    {
+      "id": "x3-y9",
+      "type": "female",
+      "name": "X3-Y9",
+      "description": "X3-Y9"
+    },
+    {
+      "id": "x3-y10",
+      "type": "female",
+      "name": "X3-Y10",
+      "description": "X3-Y10"
+    },
+    {
+      "id": "x3-y11",
+      "type": "female",
+      "name": "X3-Y11",
+      "description": "X3-Y11"
+    },
+    {
+      "id": "x4-y1",
+      "type": "female",
+      "name": "X4-Y1",
+      "description": "X4-Y1"
+    },
+    {
+      "id": "x4-y2",
+      "type": "female",
+      "name": "X4-Y2",
+      "description": "X4-Y2"
+    },
+    {
+      "id": "x4-y3",
+      "type": "female",
+      "name": "X4-Y3",
+      "description": "X4-Y3"
+    },
+    {
+      "id": "x4-y4",
+      "type": "female",
+      "name": "X4-Y4",
+      "description": "X4-Y4"
+    },
+    {
+      "id": "x4-y5",
+      "type": "female",
+      "name": "X4-Y5",
+      "description": "X4-Y5"
+    },
+    {
+      "id": "x4-y6",
+      "type": "female",
+      "name": "X4-Y6",
+      "description": "X4-Y6"
+    },
+    {
+      "id": "x4-y7",
+      "type": "female",
+      "name": "X4-Y7",
+      "description": "X4-Y7"
+    },
+    {
+      "id": "x4-y8",
+      "type": "female",
+      "name": "X4-Y8",
+      "description": "X4-Y8"
+    },
+    {
+      "id": "x4-y9",
+      "type": "female",
+      "name": "X4-Y9",
+      "description": "X4-Y9"
+    },
+    {
+      "id": "x4-y10",
+      "type": "female",
+      "name": "X4-Y10",
+      "description": "X4-Y10"
+    },
+    {
+      "id": "x4-y11",
+      "type": "female",
+      "name": "X4-Y11",
+      "description": "X4-Y11"
+    },
+    {
+      "id": "x5-y1",
+      "type": "female",
+      "name": "X5-Y1",
+      "description": "X5-Y1"
+    },
+    {
+      "id": "x5-y2",
+      "type": "female",
+      "name": "X5-Y2",
+      "description": "X5-Y2"
+    },
+    {
+      "id": "x5-y3",
+      "type": "female",
+      "name": "X5-Y3",
+      "description": "X5-Y3"
+    },
+    {
+      "id": "x5-y4",
+      "type": "female",
+      "name": "X5-Y4",
+      "description": "X5-Y4"
+    },
+    {
+      "id": "x5-y5",
+      "type": "female",
+      "name": "X5-Y5",
+      "description": "X5-Y5"
+    },
+    {
+      "id": "x5-y6",
+      "type": "female",
+      "name": "X5-Y6",
+      "description": "X5-Y6"
+    },
+    {
+      "id": "x5-y7",
+      "type": "female",
+      "name": "X5-Y7",
+      "description": "X5-Y7"
+    },
+    {
+      "id": "x5-y8",
+      "type": "female",
+      "name": "X5-Y8",
+      "description": "X5-Y8"
+    },
+    {
+      "id": "x5-y9",
+      "type": "female",
+      "name": "X5-Y9",
+      "description": "X5-Y9"
+    },
+    {
+      "id": "x5-y10",
+      "type": "female",
+      "name": "X5-Y10",
+      "description": "X5-Y10"
+    },
+    {
+      "id": "x5-y11",
+      "type": "female",
+      "name": "X5-Y11",
+      "description": "X5-Y11"
+    },
+    {
+      "id": "x6-y1",
+      "type": "female",
+      "name": "X6-Y1",
+      "description": "X6-Y1"
+    },
+    {
+      "id": "x6-y2",
+      "type": "female",
+      "name": "X6-Y2",
+      "description": "X6-Y2"
+    },
+    {
+      "id": "x6-y3",
+      "type": "female",
+      "name": "X6-Y3",
+      "description": "X6-Y3"
+    },
+    {
+      "id": "x6-y4",
+      "type": "female",
+      "name": "X6-Y4",
+      "description": "X6-Y4"
+    },
+    {
+      "id": "x6-y5",
+      "type": "female",
+      "name": "X6-Y5",
+      "description": "X6-Y5"
+    },
+    {
+      "id": "x6-y6",
+      "type": "female",
+      "name": "X6-Y6",
+      "description": "X6-Y6"
+    },
+    {
+      "id": "x6-y7",
+      "type": "female",
+      "name": "X6-Y7",
+      "description": "X6-Y7"
+    },
+    {
+      "id": "x6-y8",
+      "type": "female",
+      "name": "X6-Y8",
+      "description": "X6-Y8"
+    },
+    {
+      "id": "x6-y9",
+      "type": "female",
+      "name": "X6-Y9",
+      "description": "X6-Y9"
+    },
+    {
+      "id": "x6-y10",
+      "type": "female",
+      "name": "X6-Y10",
+      "description": "X6-Y10"
+    },
+    {
+      "id": "x6-y11",
+      "type": "female",
+      "name": "X6-Y11",
+      "description": "X6-Y11"
+    },
+    {
+      "id": "x7-y1",
+      "type": "female",
+      "name": "X7-Y1",
+      "description": "X7-Y1"
+    },
+    {
+      "id": "x7-y2",
+      "type": "female",
+      "name": "X7-Y2",
+      "description": "X7-Y2"
+    },
+    {
+      "id": "x7-y3",
+      "type": "female",
+      "name": "X7-Y3",
+      "description": "X7-Y3"
+    },
+    {
+      "id": "x7-y4",
+      "type": "female",
+      "name": "X7-Y4",
+      "description": "X7-Y4"
+    },
+    {
+      "id": "x7-y5",
+      "type": "female",
+      "name": "X7-Y5",
+      "description": "X7-Y5"
+    },
+    {
+      "id": "x7-y6",
+      "type": "female",
+      "name": "X7-Y6",
+      "description": "X7-Y6"
+    },
+    {
+      "id": "x7-y7",
+      "type": "female",
+      "name": "X7-Y7",
+      "description": "X7-Y7"
+    },
+    {
+      "id": "x7-y8",
+      "type": "female",
+      "name": "X7-Y8",
+      "description": "X7-Y8"
+    },
+    {
+      "id": "x7-y9",
+      "type": "female",
+      "name": "X7-Y9",
+      "description": "X7-Y9"
+    },
+    {
+      "id": "x7-y10",
+      "type": "female",
+      "name": "X7-Y10",
+      "description": "X7-Y10"
+    },
+    {
+      "id": "x7-y11",
+      "type": "female",
+      "name": "X7-Y11",
+      "description": "X7-Y11"
+    },
+    {
+      "id": "x8-y9",
+      "type": "female",
+      "name": "X8-Y9",
+      "description": "X8-Y9"
+    },
+    {
+      "id": "x8-y10",
+      "type": "female",
+      "name": "X8-Y10",
+      "description": "X8-Y10"
+    },
+    {
+      "id": "x8-y11",
+      "type": "female",
+      "name": "X8-Y11",
+      "description": "X8-Y11"
+    },
+    {
+      "id": "x9-y10",
+      "type": "female",
+      "name": "X9-Y10",
+      "description": "X9-Y10"
+    },
+    {
+      "id": "x9-y11",
+      "type": "female",
+      "name": "X9-Y11",
+      "description": "X9-Y11"
+    }
+  ]
+}

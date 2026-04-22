@@ -1,0 +1,38 @@
+{
+  "moduleId": "805RedLEDModuleID",
+  "title": "Red smd LED",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\SMD_LED_red_0805.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\LED-red-5mmicon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\led.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_LED_0805.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "cathode",
+      "description": "cathode pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "anode",
+      "description": "anode pin"
+    }
+  ]
+}

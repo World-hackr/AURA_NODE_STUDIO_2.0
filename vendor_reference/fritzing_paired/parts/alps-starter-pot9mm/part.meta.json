@@ -1,0 +1,49 @@
+{
+  "moduleId": "alps-starter-pot9mm",
+  "title": "Rotary Potentiometer (Small)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\alps-starter-pot9mm_5.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\starter-poti-small_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\basic_poti.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\alps-starter-pot9mm_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\starter-poti-small_breadboard.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "leg1",
+      "description": "leg1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "wiper",
+      "description": "wiper"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "leg2",
+      "description": "leg2"
+    }
+  ]
+}

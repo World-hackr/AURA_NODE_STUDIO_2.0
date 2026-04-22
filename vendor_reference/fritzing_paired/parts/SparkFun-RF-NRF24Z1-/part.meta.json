@@ -1,0 +1,247 @@
+{
+  "moduleId": "SparkFun-RF-NRF24Z1-",
+  "title": "NRF24Z1",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-nrf24z1-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-36_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_nrf24z1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_qfn-36_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-36_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 36,
+  "connectors": [
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "ANT1",
+      "description": "ANT1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "ANT2",
+      "description": "ANT2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DATA",
+      "description": "DATA"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DD0",
+      "description": "DD0"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DD1",
+      "description": "DD1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DVDD",
+      "description": "DVDD"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "IREF",
+      "description": "IREF"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "IRQ",
+      "description": "IRQ"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "MCLK",
+      "description": "MCLK"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "MCSN",
+      "description": "MCSN"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "MMISO",
+      "description": "MMISO"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "MMOSI",
+      "description": "MMOSI"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "MODE",
+      "description": "MODE"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "MSCK",
+      "description": "MSCK"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "MSCL",
+      "description": "MSCL"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "MSDA",
+      "description": "MSDA"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "REQ",
+      "description": "REQ"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SCSN",
+      "description": "SCSN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SMISO",
+      "description": "SMISO"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SMOSI",
+      "description": "SMOSI"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SPDIO",
+      "description": "SPDIO"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SSCK",
+      "description": "SSCK"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SSEL",
+      "description": "SSEL"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VDD1",
+      "description": "VDD1"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "VDD2",
+      "description": "VDD2"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VDD_PA",
+      "description": "VDD_PA"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "VSS1",
+      "description": "VSS1"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "VSS2",
+      "description": "VSS2"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "VSS3",
+      "description": "VSS3"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VSS_PA",
+      "description": "VSS_PA"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "WS",
+      "description": "WS"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "XC1",
+      "description": "XC1"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "XC2",
+      "description": "XC2"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "moduleId": "FloraLux_d182b4893e48867eec970c131ff7f281_1_8B",
+  "title": "Flora TSL2561 Lux Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\FloraLux_d182b4893e48867eec970c131ff7f281_1_8B.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\FloraLux_5f6125105117ef2dcd686a506a7bf682_1_breadboard_8B.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\FloraLux_5f6125105117ef2dcd686a506a7bf682_1_schematic_8B.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\FloraLux_5f6125105117ef2dcd686a506a7bf682_1_pcb_8B.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\FloraLux_5f6125105117ef2dcd686a506a7bf682_1_icon_8B.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    }
+  ]
+}

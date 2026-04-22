@@ -1,0 +1,44 @@
+{
+  "moduleId": "JST-B3P-VH",
+  "title": "JST-B3P-VH",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\JST-B3P-VH.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\JST-B3P-VH_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\JST-B3P-VH_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\JST-B3P-VH_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "pin 3"
+    }
+  ]
+}

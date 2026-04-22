@@ -1,0 +1,187 @@
+{
+  "moduleId": "SparkFun-DigitalIC-USB3318-",
+  "title": "USB3318",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-usb3318-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_qfn-24-usb_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_usb3318_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_qfn-24-usb_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_qfn-24-usb_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 26,
+  "connectors": [
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "CLKOUT",
+      "description": "CLKOUT"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CPEN",
+      "description": "CPEN"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "DATA0",
+      "description": "DATA0"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "DATA1",
+      "description": "DATA1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "DATA2",
+      "description": "DATA2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DATA3",
+      "description": "DATA3"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DATA4",
+      "description": "DATA4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DATA5",
+      "description": "DATA5"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DATA6",
+      "description": "DATA6"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DATA7",
+      "description": "DATA7"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "DIR",
+      "description": "DIR"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DM",
+      "description": "DM"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DP",
+      "description": "DP"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND1",
+      "description": "GND1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "ID",
+      "description": "ID"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "NXT",
+      "description": "NXT"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "RBIAS",
+      "description": "RBIAS"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "REFCLK",
+      "description": "REFCLK"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "RESETB",
+      "description": "RESETB"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "STP",
+      "description": "STP"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VDD18",
+      "description": "VDD18"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VDD33",
+      "description": "VDD33"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VDDIO",
+      "description": "VDDIO"
+    }
+  ]
+}

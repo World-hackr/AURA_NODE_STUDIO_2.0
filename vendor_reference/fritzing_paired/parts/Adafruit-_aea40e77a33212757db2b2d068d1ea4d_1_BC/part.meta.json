@@ -1,0 +1,85 @@
+{
+  "moduleId": "Adafruit-_aea40e77a33212757db2b2d068d1ea4d_1_BC",
+  "title": "Adafruit MOSFET Driver STEMMA Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_aea40e77a33212757db2b2d068d1ea4d_1_BC.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_aea40e77a33212757db2b2d068d1ea4d_1_breadboard_BC.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_aea40e77a33212757db2b2d068d1ea4d_1_schematic_BC.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_aea40e77a33212757db2b2d068d1ea4d_1_pcb_BC.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_aea40e77a33212757db2b2d068d1ea4d_1_icon_BC.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

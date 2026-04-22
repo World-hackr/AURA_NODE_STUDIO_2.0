@@ -1,0 +1,55 @@
+{
+  "moduleId": "d63bf67236bb974ced6c30c1d9f152a9_18",
+  "title": "MPX2010 pressure sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\MPX2010 pressure sensor.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\MPX2010 - Icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MPX2010 - breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\MPX2010 - schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\MPX2010 - pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground terminal"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "V out -",
+      "description": "Sensor output neg"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Vs",
+      "description": "Power terminal"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "V out +",
+      "description": "Sensor output pos"
+    }
+  ]
+}

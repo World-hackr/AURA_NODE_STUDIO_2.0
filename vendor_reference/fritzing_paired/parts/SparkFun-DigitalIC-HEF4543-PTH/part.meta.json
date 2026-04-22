@@ -1,0 +1,126 @@
+{
+  "moduleId": "SparkFun-DigitalIC-HEF4543-PTH",
+  "title": "HEF4543",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-hef4543-pth.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_hef4543_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil16_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_16_400mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_16_400mil_bread.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "BL",
+      "description": "BL"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "D",
+      "description": "D"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "E",
+      "description": "E"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "F",
+      "description": "F"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "G",
+      "description": "G"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "LD",
+      "description": "LD"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PH",
+      "description": "PH"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

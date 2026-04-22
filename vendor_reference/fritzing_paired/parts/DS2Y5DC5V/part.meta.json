@@ -1,0 +1,79 @@
+{
+  "moduleId": "DS2Y5DC5V",
+  "title": "DS2Y-5-DC5V",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DS2Y-5-DC5V.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DS2Y-5-DC5V_2.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DS2Y-5-DC5V_2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DS2Y-5-DC5V_2.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DS2Y-5-DC5V_2.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "8 N.O.",
+      "description": "8 N.O."
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "6 N.C.",
+      "description": "6 N.C."
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "4 COM",
+      "description": "4 COM"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "1 +",
+      "description": "1 +"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "16 -",
+      "description": "16 -"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "13 COM",
+      "description": "13 COM"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "11 N.C.",
+      "description": "11 N.C."
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "9 N.O.",
+      "description": "9 N.O."
+    }
+  ]
+}

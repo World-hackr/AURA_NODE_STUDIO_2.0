@@ -1,0 +1,49 @@
+{
+  "moduleId": "SparkFun-DiscreteSemi-MOSFET-NCHANNEL-SOT323",
+  "title": "MOSFET-NCHANNEL",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-discretesemi-mosfet-nchannel-sot323.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_sot323_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-discretesemi_mosfet-nchannel-1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-discretesemi_sot323_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_sot323_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D",
+      "description": "D"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G",
+      "description": "G"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "S",
+      "description": "S"
+    }
+  ]
+}

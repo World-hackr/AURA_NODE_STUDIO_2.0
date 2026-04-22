@@ -1,0 +1,43 @@
+{
+  "moduleId": "1000FADF10011",
+  "title": "DC Motor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\dc_motor.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\dc_motor.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\dc_motor.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\dc_motor.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_2_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "Pin 2"
+    }
+  ]
+}

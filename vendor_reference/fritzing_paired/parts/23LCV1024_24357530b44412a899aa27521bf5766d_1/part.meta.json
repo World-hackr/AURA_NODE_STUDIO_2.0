@@ -1,0 +1,79 @@
+{
+  "moduleId": "23LCV1024_24357530b44412a899aa27521bf5766d_1",
+  "title": "23LCV1024",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\23LCV1024_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\23LCV1024_1.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\23LCV1024_1.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\23LCV1024_1.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\23LCV1024_1.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "CS_",
+      "description": "Chip Select (active LOW) Input"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SO/SIO1",
+      "description": "Serial Data Output / SDI Pin"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "NC",
+      "description": "Not Connected"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VSS",
+      "description": "Ground"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SI/SIO0",
+      "description": "Serial Data Input / SDI Pin"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SCK",
+      "description": "Serial Clock Input"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VBAT",
+      "description": "External Backup Supply"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC",
+      "description": "Supply Voltage"
+    }
+  ]
+}

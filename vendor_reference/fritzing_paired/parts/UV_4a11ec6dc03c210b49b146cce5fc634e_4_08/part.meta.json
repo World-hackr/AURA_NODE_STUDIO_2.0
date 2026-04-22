@@ -1,0 +1,49 @@
+{
+  "moduleId": "UV_4a11ec6dc03c210b49b146cce5fc634e_4_08",
+  "title": "GUVA-S12SD UV Light Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\UV_4a11ec6dc03c210b49b146cce5fc634e_4_08.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\UV_4a11ec6dc03c210b49b146cce5fc634e_4_breadboard_08.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\UV_4a11ec6dc03c210b49b146cce5fc634e_4_schematic_08.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\UV_4a11ec6dc03c210b49b146cce5fc634e_4_pcb_08.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\UV_4a11ec6dc03c210b49b146cce5fc634e_4_icon_08.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Out",
+      "description": "Out"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

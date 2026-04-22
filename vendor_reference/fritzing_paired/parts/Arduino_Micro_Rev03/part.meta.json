@@ -1,0 +1,259 @@
+{
+  "moduleId": "Arduino_Micro_Rev03",
+  "title": "Arduino Micro (Rev3)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Arduino_Micro_Rev03.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino_Micro_Rev03_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Arduino_Micro_Rev03_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Arduino_Micro_Rev03_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino_Micro_Rev03_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 38,
+  "connectors": [
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "RXLED/SS",
+      "description": "RXLED/SS"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "D1/TX",
+      "description": "D1/TX"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "D0/RX",
+      "description": "D0/RX"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "D2/SDA",
+      "description": "D2/SDA"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "D3/SCL",
+      "description": "D3/SCL"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "D4 PWM/A6",
+      "description": "D4 PWM/A6"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "D5 PWM",
+      "description": "D5 PWM"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "D6 PWM/A7",
+      "description": "D6 PWM/A7"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "D8 PWM/A8",
+      "description": "D8 PWM/A8"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "D9 PWM/A9",
+      "description": "D9 PWM/A9"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "D10 PWM/A10",
+      "description": "D10 PWM/A10"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "D11 PWM",
+      "description": "D11 PWM"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "D12 PWM/A11",
+      "description": "D12 PWM/A11"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector69",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector72",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector74",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "D13 PWM",
+      "description": "D13 PWM"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "moduleId": "SMDCrystalModuleID",
+  "title": "Crystal",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_crystal.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\crystal.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\crystal_leg.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_crystal_HC49.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\crystal.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 0",
+      "description": "pin 0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 1",
+      "description": "pin 1"
+    }
+  ]
+}

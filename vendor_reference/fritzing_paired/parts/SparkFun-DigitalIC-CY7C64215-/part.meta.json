@@ -1,0 +1,199 @@
+{
+  "moduleId": "SparkFun-DigitalIC-CY7C64215-",
+  "title": "CY7C64215",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-cy7c64215-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP28DB_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_cy7c64215_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_ssop28db_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP28DB_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "P00",
+      "description": "P00"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P01",
+      "description": "P01"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "P02",
+      "description": "P02"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "P03",
+      "description": "P03"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "P04",
+      "description": "P04"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "P05",
+      "description": "P05"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "P06",
+      "description": "P06"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P07",
+      "description": "P07"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "P10",
+      "description": "P10"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "P11",
+      "description": "P11"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "P12",
+      "description": "P12"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "P13",
+      "description": "P13"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "P14",
+      "description": "P14"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P15",
+      "description": "P15"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "P16",
+      "description": "P16"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "P17",
+      "description": "P17"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "P20",
+      "description": "P20"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P21",
+      "description": "P21"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "P22",
+      "description": "P22"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P23",
+      "description": "P23"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "P24",
+      "description": "P24"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "P25",
+      "description": "P25"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

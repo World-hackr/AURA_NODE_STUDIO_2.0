@@ -1,0 +1,134 @@
+{
+  "moduleId": "Camdenboss_CTB0158-9_5_08mm_pitch_90deg_terminals",
+  "title": "Camdenboss CTB0158-9",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Camdenboss_CTB0158-9_5_08mm_pitch_90deg_terminals.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Camdenboss_CTB0158-9_5_08mm_pitch_90deg_terminals_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Camdenboss_CTB0158-9_5_08mm_pitch_90deg_terminals_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Camdenboss_CTB0158-9_5_08mm_pitch_90deg_terminals_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin9",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "terminal 1",
+      "description": "screw terminal 1"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "terminal 2",
+      "description": "screw terminal 2"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "terminal 3",
+      "description": "screw terminal 3"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "terminal 4",
+      "description": "screw terminal 4"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "terminal 5",
+      "description": "screw terminal 5"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "terminal 6",
+      "description": "screw terminal 6"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "terminal 7",
+      "description": "screw terminal 7"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "terminal 8",
+      "description": "screw terminal 8"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "terminal 9",
+      "description": "screw terminal 8"
+    }
+  ]
+}

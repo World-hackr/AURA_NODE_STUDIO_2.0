@@ -1,0 +1,55 @@
+{
+  "moduleId": "SEN-10621 RPI-1031 Tilt-a-Whirl Breakout-sfe_c4f3fbd3a94f0953d33d8ac83b51e5ac_3",
+  "title": "SparkFun RPI-1031 Tilt-a-Whirl Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\SEN-10621 RPI-1031 Tilt-a-Whirl Breakout-sfe_c4f3fbd3a94f0953d33d8ac83b51e5ac_3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\SEN-10621 RPI-1031 Tilt-a-Whirl Breakout-sfe_c4f3fbd3a94f0953d33d8ac83b51e5ac_3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\SEN-10621 RPI-1031 Tilt-a-Whirl Breakout-sfe_c4f3fbd3a94f0953d33d8ac83b51e5ac_3_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\SEN-10621 RPI-1031 Tilt-a-Whirl Breakout-sfe_c4f3fbd3a94f0953d33d8ac83b51e5ac_3_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\SEN-10621 RPI-1031 Tilt-a-Whirl Breakout-sfe_c4f3fbd3a94f0953d33d8ac83b51e5ac_3_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "S1",
+      "description": "SDA"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "S2",
+      "description": "S2"
+    }
+  ]
+}

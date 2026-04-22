@@ -1,0 +1,157 @@
+{
+  "moduleId": "scart_houseing_angle",
+  "title": "Scart Houseing",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\scart_houseing_angle.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\scart_houseing_angle_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\scart_houseing_angle_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\scart_houseing_angle_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\scart_houseing_angle_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 21,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin9",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin10",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin11",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin12",
+      "description": "pin 12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin13",
+      "description": "pin 13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin14",
+      "description": "pin 14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin15",
+      "description": "pin 15"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin16",
+      "description": "pin 16"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin17",
+      "description": "pin 17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin18",
+      "description": "pin 18"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin19",
+      "description": "pin 19"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin20",
+      "description": "pin 20"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin21",
+      "description": "pin 21"
+    }
+  ]
+}

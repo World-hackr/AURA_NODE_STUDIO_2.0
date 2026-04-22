@@ -1,0 +1,79 @@
+{
+  "moduleId": "st662_d8b963bc77dd4b623cd15dc5ffd12c1a_6",
+  "title": "ST662",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\st662_d8b963bc77dd4b623cd15dc5ffd12c1a_6.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\st662_d81bd34a8e087fc44299900ed7e2e4a8_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\st662_d81bd34a8e087fc44299900ed7e2e4a8_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\st662_d81bd34a8e087fc44299900ed7e2e4a8_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\st662_d81bd34a8e087fc44299900ed7e2e4a8_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "C1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "C1+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 3",
+      "description": "C2-"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "C2+"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 5",
+      "description": "Vin"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 6",
+      "description": "Vout"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 7",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 8",
+      "description": "SHDN"
+    }
+  ]
+}

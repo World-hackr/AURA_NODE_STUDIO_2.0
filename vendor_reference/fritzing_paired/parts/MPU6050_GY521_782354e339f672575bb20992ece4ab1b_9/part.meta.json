@@ -1,0 +1,79 @@
+{
+  "moduleId": "MPU6050_GY521_782354e339f672575bb20992ece4ab1b_9",
+  "title": "InvenSense MPU6050",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\InvenSense_MPU6050.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\MPU6050_GY521_9.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MPU6050_GY521_9.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\MPU6050_GY521_9.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\MPU6050_GY521_9.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "XDA",
+      "description": "XDA"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "XCL",
+      "description": "XCL"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "AD0",
+      "description": "AD0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    }
+  ]
+}

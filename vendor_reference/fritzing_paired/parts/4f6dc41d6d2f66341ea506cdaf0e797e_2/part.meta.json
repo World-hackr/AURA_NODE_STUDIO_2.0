@@ -1,0 +1,38 @@
+{
+  "moduleId": "4f6dc41d6d2f66341ea506cdaf0e797e_2",
+  "title": "Textile Analog Pressure Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Textile Analog Pressure Sensor_4.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\Textile_analog_sensor.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\thermistor.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\axial_lay_2_300mil_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 0",
+      "description": "pin0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 1",
+      "description": "pin1"
+    }
+  ]
+}

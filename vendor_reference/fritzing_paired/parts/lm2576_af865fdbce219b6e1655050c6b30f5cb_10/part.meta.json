@@ -1,0 +1,67 @@
+{
+  "moduleId": "lm2576_af865fdbce219b6e1655050c6b30f5cb_10",
+  "title": "LM2576",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\lm2576_af865fdbce219b6e1655050c6b30f5cb_10.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\lm2576_3f752a7671beb498c6e8b42ac57f6abc_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lm2576_3f752a7671beb498c6e8b42ac57f6abc_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lm2576_3f752a7671beb498c6e8b42ac57f6abc_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\lm2576_3f752a7671beb498c6e8b42ac57f6abc_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "VIN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "OUTPUT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "FB"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "EN"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "Tab",
+      "description": "GND"
+    }
+  ]
+}

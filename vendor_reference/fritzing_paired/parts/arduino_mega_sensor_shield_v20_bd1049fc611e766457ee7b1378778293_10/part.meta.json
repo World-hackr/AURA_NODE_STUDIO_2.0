@@ -1,0 +1,1999 @@
+{
+  "moduleId": "arduino_mega_sensor_shield_v20_bd1049fc611e766457ee7b1378778293_10",
+  "title": "Arduino Mega Sensor Shield v2.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\arduino_mega_sensor_shield_v20.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\arduino_mega_sensor_shield_v20_5.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\arduino_mega_sensor_shield_v20_5.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\arduino_mega_sensor_shield_v20_5.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\arduino_mega_sensor_shield_v20_5.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 328,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin0",
+      "description": "pin 0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 4",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 6",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 7",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 9",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 10",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin 11",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin 12",
+      "description": "pin 12"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin 13",
+      "description": "pin 13"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin 14",
+      "description": "pin 14"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin 15",
+      "description": "pin 15"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin 16",
+      "description": "pin 16"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin 17",
+      "description": "pin 17"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin 18",
+      "description": "pin 18"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin 19",
+      "description": "pin 19"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin 20",
+      "description": "pin 20"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin 21",
+      "description": "pin 21"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin 22",
+      "description": "pin 22"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin 23",
+      "description": "pin 23"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin 24",
+      "description": "pin 24"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "pin 25",
+      "description": "pin 25"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "pin 26",
+      "description": "pin 26"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "pin 27",
+      "description": "pin 27"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "pin 28",
+      "description": "pin 28"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "pin 29",
+      "description": "pin 29"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "pin 30",
+      "description": "pin 30"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "pin 31",
+      "description": "pin 31"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "pin 32",
+      "description": "pin 32"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "pin 33",
+      "description": "pin 33"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "pin 34",
+      "description": "pin 34"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "pin 35",
+      "description": "pin 35"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "pin 36",
+      "description": "pin 36"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "pin 37",
+      "description": "pin 37"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "pin 38",
+      "description": "pin 38"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "pin 39",
+      "description": "pin 39"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "pin 40",
+      "description": "pin 40"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "pin 41",
+      "description": "pin 41"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "pin 42",
+      "description": "pin 42"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "pin 43",
+      "description": "pin 43"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "pin 44",
+      "description": "pin 44"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "pin 45",
+      "description": "pin 45"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "pin 46",
+      "description": "pin 46"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "pin 47",
+      "description": "pin 47"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "pin 48",
+      "description": "pin 48"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "pin 49",
+      "description": "pin 49"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "pin 50",
+      "description": "pin 50"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "pin 51",
+      "description": "pin 51"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "pin 52",
+      "description": "pin 52"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "pin 53",
+      "description": "pin 53"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "pin 54",
+      "description": "pin 54"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "pin 55",
+      "description": "pin 55"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "pin 56",
+      "description": "pin 56"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "pin 57",
+      "description": "pin 57"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "pin 58",
+      "description": "pin 58"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "pin 59",
+      "description": "pin 59"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "pin 60",
+      "description": "pin 60"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "pin 61",
+      "description": "pin 61"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "pin 62",
+      "description": "pin 62"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "pin 63",
+      "description": "pin 63"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "pin 64",
+      "description": "pin 64"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "pin 65",
+      "description": "pin 65"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "pin 66",
+      "description": "pin 66"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "pin 67",
+      "description": "pin 67"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "pin 68",
+      "description": "pin 68"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "pin 69",
+      "description": "pin 69"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "pin 70",
+      "description": "pin 70"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "pin 71",
+      "description": "pin 71"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "pin 72",
+      "description": "pin 72"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "pin 73",
+      "description": "pin 73"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "pin 74",
+      "description": "pin 74"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "pin 75",
+      "description": "pin 75"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "pin 76",
+      "description": "pin 76"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "pin 77",
+      "description": "pin 77"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "pin 78",
+      "description": "pin 78"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "pin 79",
+      "description": "pin 79"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "pin 80",
+      "description": "pin 80"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "pin 81",
+      "description": "pin 81"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "pin 82",
+      "description": "pin 82"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "pin 83",
+      "description": "pin 83"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "pin 84",
+      "description": "pin 84"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "pin 85",
+      "description": "pin 85"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "pin 86",
+      "description": "pin 86"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "pin 87",
+      "description": "pin 87"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "pin 88",
+      "description": "pin 88"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "pin 89",
+      "description": "pin 89"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "pin 90",
+      "description": "pin 90"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "pin 91",
+      "description": "pin 91"
+    },
+    {
+      "id": "connector92",
+      "type": "male",
+      "name": "pin 92",
+      "description": "pin 92"
+    },
+    {
+      "id": "connector93",
+      "type": "male",
+      "name": "pin 93",
+      "description": "pin 93"
+    },
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "pin 94",
+      "description": "pin 94"
+    },
+    {
+      "id": "connector95",
+      "type": "male",
+      "name": "pin 95",
+      "description": "pin 95"
+    },
+    {
+      "id": "connector96",
+      "type": "male",
+      "name": "pin 96",
+      "description": "pin 96"
+    },
+    {
+      "id": "connector97",
+      "type": "male",
+      "name": "pin 97",
+      "description": "pin 97"
+    },
+    {
+      "id": "connector98",
+      "type": "male",
+      "name": "pin 98",
+      "description": "pin 98"
+    },
+    {
+      "id": "connector99",
+      "type": "male",
+      "name": "pin 99",
+      "description": "pin 99"
+    },
+    {
+      "id": "connector100",
+      "type": "male",
+      "name": "pin 100",
+      "description": "pin 100"
+    },
+    {
+      "id": "connector101",
+      "type": "male",
+      "name": "pin 101",
+      "description": "pin 101"
+    },
+    {
+      "id": "connector102",
+      "type": "male",
+      "name": "pin 102",
+      "description": "pin 102"
+    },
+    {
+      "id": "connector103",
+      "type": "male",
+      "name": "pin 103",
+      "description": "pin 103"
+    },
+    {
+      "id": "connector104",
+      "type": "male",
+      "name": "pin 104",
+      "description": "pin 104"
+    },
+    {
+      "id": "connector105",
+      "type": "male",
+      "name": "pin 105",
+      "description": "pin 105"
+    },
+    {
+      "id": "connector106",
+      "type": "male",
+      "name": "pin 106",
+      "description": "pin 106"
+    },
+    {
+      "id": "connector107",
+      "type": "male",
+      "name": "pin 107",
+      "description": "pin 107"
+    },
+    {
+      "id": "connector108",
+      "type": "male",
+      "name": "pin 108",
+      "description": "pin 108"
+    },
+    {
+      "id": "connector109",
+      "type": "male",
+      "name": "pin 109",
+      "description": "pin 109"
+    },
+    {
+      "id": "connector110",
+      "type": "male",
+      "name": "pin 110",
+      "description": "pin 110"
+    },
+    {
+      "id": "connector111",
+      "type": "male",
+      "name": "pin 111",
+      "description": "pin 111"
+    },
+    {
+      "id": "connector112",
+      "type": "male",
+      "name": "pin 112",
+      "description": "pin 112"
+    },
+    {
+      "id": "connector113",
+      "type": "male",
+      "name": "pin 113",
+      "description": "pin 113"
+    },
+    {
+      "id": "connector114",
+      "type": "male",
+      "name": "pin 114",
+      "description": "pin 114"
+    },
+    {
+      "id": "connector115",
+      "type": "male",
+      "name": "pin 115",
+      "description": "pin 115"
+    },
+    {
+      "id": "connector116",
+      "type": "male",
+      "name": "pin 116",
+      "description": "pin 116"
+    },
+    {
+      "id": "connector117",
+      "type": "male",
+      "name": "pin 117",
+      "description": "pin 117"
+    },
+    {
+      "id": "connector118",
+      "type": "male",
+      "name": "pin 118",
+      "description": "pin 118"
+    },
+    {
+      "id": "connector119",
+      "type": "male",
+      "name": "pin 119",
+      "description": "pin 119"
+    },
+    {
+      "id": "connector120",
+      "type": "male",
+      "name": "pin 120",
+      "description": "pin 120"
+    },
+    {
+      "id": "connector121",
+      "type": "male",
+      "name": "pin 121",
+      "description": "pin 121"
+    },
+    {
+      "id": "connector122",
+      "type": "male",
+      "name": "pin 122",
+      "description": "pin 122"
+    },
+    {
+      "id": "connector123",
+      "type": "male",
+      "name": "pin 123",
+      "description": "pin 123"
+    },
+    {
+      "id": "connector124",
+      "type": "male",
+      "name": "pin 124",
+      "description": "pin 124"
+    },
+    {
+      "id": "connector125",
+      "type": "male",
+      "name": "pin 125",
+      "description": "pin 125"
+    },
+    {
+      "id": "connector126",
+      "type": "male",
+      "name": "pin 126",
+      "description": "pin 126"
+    },
+    {
+      "id": "connector127",
+      "type": "male",
+      "name": "pin 127",
+      "description": "pin 127"
+    },
+    {
+      "id": "connector128",
+      "type": "male",
+      "name": "pin 128",
+      "description": "pin 128"
+    },
+    {
+      "id": "connector129",
+      "type": "male",
+      "name": "pin 129",
+      "description": "pin 129"
+    },
+    {
+      "id": "connector130",
+      "type": "male",
+      "name": "pin 130",
+      "description": "pin 130"
+    },
+    {
+      "id": "connector131",
+      "type": "male",
+      "name": "pin 131",
+      "description": "pin 131"
+    },
+    {
+      "id": "connector132",
+      "type": "male",
+      "name": "pin 132",
+      "description": "pin 132"
+    },
+    {
+      "id": "connector133",
+      "type": "male",
+      "name": "pin 133",
+      "description": "pin 133"
+    },
+    {
+      "id": "connector134",
+      "type": "male",
+      "name": "pin 134",
+      "description": "pin 134"
+    },
+    {
+      "id": "connector135",
+      "type": "male",
+      "name": "pin 135",
+      "description": "pin 135"
+    },
+    {
+      "id": "connector136",
+      "type": "male",
+      "name": "pin 136",
+      "description": "pin 136"
+    },
+    {
+      "id": "connector137",
+      "type": "male",
+      "name": "pin 137",
+      "description": "pin 137"
+    },
+    {
+      "id": "connector138",
+      "type": "male",
+      "name": "pin 138",
+      "description": "pin 138"
+    },
+    {
+      "id": "connector139",
+      "type": "male",
+      "name": "pin 139",
+      "description": "pin 139"
+    },
+    {
+      "id": "connector140",
+      "type": "male",
+      "name": "pin 140",
+      "description": "pin 140"
+    },
+    {
+      "id": "connector141",
+      "type": "male",
+      "name": "pin 141",
+      "description": "pin 141"
+    },
+    {
+      "id": "connector142",
+      "type": "male",
+      "name": "pin 142",
+      "description": "pin 142"
+    },
+    {
+      "id": "connector143",
+      "type": "male",
+      "name": "pin 143",
+      "description": "pin 143"
+    },
+    {
+      "id": "connector144",
+      "type": "male",
+      "name": "pin 144",
+      "description": "pin 144"
+    },
+    {
+      "id": "connector145",
+      "type": "male",
+      "name": "pin 145",
+      "description": "pin 145"
+    },
+    {
+      "id": "connector146",
+      "type": "male",
+      "name": "pin 146",
+      "description": "pin 146"
+    },
+    {
+      "id": "connector147",
+      "type": "male",
+      "name": "pin 147",
+      "description": "pin 147"
+    },
+    {
+      "id": "connector148",
+      "type": "male",
+      "name": "pin 148",
+      "description": "pin 148"
+    },
+    {
+      "id": "connector149",
+      "type": "male",
+      "name": "pin 149",
+      "description": "pin 149"
+    },
+    {
+      "id": "connector150",
+      "type": "male",
+      "name": "pin 150",
+      "description": "pin 150"
+    },
+    {
+      "id": "connector151",
+      "type": "male",
+      "name": "pin 151",
+      "description": "pin 151"
+    },
+    {
+      "id": "connector152",
+      "type": "male",
+      "name": "pin 152",
+      "description": "pin 152"
+    },
+    {
+      "id": "connector153",
+      "type": "male",
+      "name": "pin 153",
+      "description": "pin 153"
+    },
+    {
+      "id": "connector154",
+      "type": "male",
+      "name": "pin 154",
+      "description": "pin 154"
+    },
+    {
+      "id": "connector155",
+      "type": "male",
+      "name": "pin 155",
+      "description": "pin 155"
+    },
+    {
+      "id": "connector156",
+      "type": "male",
+      "name": "pin 156",
+      "description": "pin 156"
+    },
+    {
+      "id": "connector157",
+      "type": "male",
+      "name": "pin 157",
+      "description": "pin 157"
+    },
+    {
+      "id": "connector158",
+      "type": "male",
+      "name": "pin 158",
+      "description": "pin 158"
+    },
+    {
+      "id": "connector159",
+      "type": "male",
+      "name": "pin 159",
+      "description": "pin 159"
+    },
+    {
+      "id": "connector160",
+      "type": "male",
+      "name": "pin 160",
+      "description": "pin 160"
+    },
+    {
+      "id": "connector161",
+      "type": "male",
+      "name": "pin 161",
+      "description": "pin 161"
+    },
+    {
+      "id": "connector162",
+      "type": "male",
+      "name": "pin 162",
+      "description": "pin 162"
+    },
+    {
+      "id": "connector163",
+      "type": "male",
+      "name": "pin 163",
+      "description": "pin 163"
+    },
+    {
+      "id": "connector164",
+      "type": "male",
+      "name": "pin 164",
+      "description": "pin 164"
+    },
+    {
+      "id": "connector165",
+      "type": "male",
+      "name": "pin 165",
+      "description": "pin 165"
+    },
+    {
+      "id": "connector166",
+      "type": "male",
+      "name": "pin 166",
+      "description": "pin 166"
+    },
+    {
+      "id": "connector167",
+      "type": "male",
+      "name": "pin 167",
+      "description": "pin 167"
+    },
+    {
+      "id": "connector168",
+      "type": "male",
+      "name": "pin 168",
+      "description": "pin 168"
+    },
+    {
+      "id": "connector169",
+      "type": "male",
+      "name": "pin 169",
+      "description": "pin 169"
+    },
+    {
+      "id": "connector170",
+      "type": "male",
+      "name": "pin 170",
+      "description": "pin 170"
+    },
+    {
+      "id": "connector171",
+      "type": "male",
+      "name": "pin 171",
+      "description": "pin 171"
+    },
+    {
+      "id": "connector172",
+      "type": "male",
+      "name": "pin 172",
+      "description": "pin 172"
+    },
+    {
+      "id": "connector173",
+      "type": "male",
+      "name": "pin 173",
+      "description": "pin 173"
+    },
+    {
+      "id": "connector174",
+      "type": "male",
+      "name": "pin 174",
+      "description": "pin 174"
+    },
+    {
+      "id": "connector175",
+      "type": "male",
+      "name": "pin 175",
+      "description": "pin 175"
+    },
+    {
+      "id": "connector176",
+      "type": "male",
+      "name": "pin 176",
+      "description": "pin 176"
+    },
+    {
+      "id": "connector177",
+      "type": "male",
+      "name": "pin 177",
+      "description": "pin 177"
+    },
+    {
+      "id": "connector178",
+      "type": "male",
+      "name": "pin 178",
+      "description": "pin 178"
+    },
+    {
+      "id": "connector179",
+      "type": "male",
+      "name": "pin 179",
+      "description": "pin 179"
+    },
+    {
+      "id": "connector180",
+      "type": "male",
+      "name": "pin 180",
+      "description": "pin 180"
+    },
+    {
+      "id": "connector181",
+      "type": "male",
+      "name": "pin 181",
+      "description": "pin 181"
+    },
+    {
+      "id": "connector182",
+      "type": "male",
+      "name": "pin 182",
+      "description": "pin 182"
+    },
+    {
+      "id": "connector183",
+      "type": "male",
+      "name": "pin 183",
+      "description": "pin 183"
+    },
+    {
+      "id": "connector184",
+      "type": "male",
+      "name": "pin 184",
+      "description": "pin 184"
+    },
+    {
+      "id": "connector185",
+      "type": "male",
+      "name": "pin 185",
+      "description": "pin 185"
+    },
+    {
+      "id": "connector186",
+      "type": "male",
+      "name": "pin 186",
+      "description": "pin 186"
+    },
+    {
+      "id": "connector187",
+      "type": "male",
+      "name": "pin 187",
+      "description": "pin 187"
+    },
+    {
+      "id": "connector188",
+      "type": "male",
+      "name": "pin 188",
+      "description": "pin 188"
+    },
+    {
+      "id": "connector189",
+      "type": "male",
+      "name": "pin 189",
+      "description": "pin 189"
+    },
+    {
+      "id": "connector190",
+      "type": "male",
+      "name": "pin 190",
+      "description": "pin 190"
+    },
+    {
+      "id": "connector191",
+      "type": "male",
+      "name": "pin 191",
+      "description": "pin 191"
+    },
+    {
+      "id": "connector192",
+      "type": "male",
+      "name": "pin 192",
+      "description": "pin 192"
+    },
+    {
+      "id": "connector193",
+      "type": "male",
+      "name": "pin 193",
+      "description": "pin 193"
+    },
+    {
+      "id": "connector194",
+      "type": "male",
+      "name": "pin 194",
+      "description": "pin 194"
+    },
+    {
+      "id": "connector195",
+      "type": "male",
+      "name": "pin 195",
+      "description": "pin 195"
+    },
+    {
+      "id": "connector196",
+      "type": "male",
+      "name": "pin 196",
+      "description": "pin 196"
+    },
+    {
+      "id": "connector197",
+      "type": "male",
+      "name": "pin 197",
+      "description": "pin 197"
+    },
+    {
+      "id": "connector198",
+      "type": "male",
+      "name": "pin 198",
+      "description": "pin 198"
+    },
+    {
+      "id": "connector199",
+      "type": "male",
+      "name": "pin 199",
+      "description": "pin 199"
+    },
+    {
+      "id": "connector200",
+      "type": "male",
+      "name": "pin 200",
+      "description": "pin 200"
+    },
+    {
+      "id": "connector201",
+      "type": "male",
+      "name": "pin 201",
+      "description": "pin 201"
+    },
+    {
+      "id": "connector202",
+      "type": "male",
+      "name": "pin 202",
+      "description": "pin 202"
+    },
+    {
+      "id": "connector203",
+      "type": "male",
+      "name": "pin 203",
+      "description": "pin 203"
+    },
+    {
+      "id": "connector204",
+      "type": "male",
+      "name": "pin 204",
+      "description": "pin 204"
+    },
+    {
+      "id": "connector205",
+      "type": "male",
+      "name": "pin 205",
+      "description": "pin 205"
+    },
+    {
+      "id": "connector206",
+      "type": "male",
+      "name": "pin 206",
+      "description": "pin 206"
+    },
+    {
+      "id": "connector207",
+      "type": "male",
+      "name": "pin 207",
+      "description": "pin 207"
+    },
+    {
+      "id": "connector208",
+      "type": "male",
+      "name": "pin 208",
+      "description": "pin 208"
+    },
+    {
+      "id": "connector209",
+      "type": "male",
+      "name": "pin 209",
+      "description": "pin 209"
+    },
+    {
+      "id": "connector210",
+      "type": "male",
+      "name": "pin 210",
+      "description": "pin 210"
+    },
+    {
+      "id": "connector211",
+      "type": "male",
+      "name": "pin 211",
+      "description": "pin 211"
+    },
+    {
+      "id": "connector212",
+      "type": "male",
+      "name": "pin 212",
+      "description": "pin 212"
+    },
+    {
+      "id": "connector213",
+      "type": "male",
+      "name": "pin 213",
+      "description": "pin 213"
+    },
+    {
+      "id": "connector214",
+      "type": "male",
+      "name": "pin 214",
+      "description": "pin 214"
+    },
+    {
+      "id": "connector215",
+      "type": "male",
+      "name": "pin 215",
+      "description": "pin 215"
+    },
+    {
+      "id": "connector216",
+      "type": "male",
+      "name": "pin 216",
+      "description": "pin 216"
+    },
+    {
+      "id": "connector217",
+      "type": "male",
+      "name": "pin 217",
+      "description": "pin 217"
+    },
+    {
+      "id": "connector218",
+      "type": "male",
+      "name": "pin 218",
+      "description": "pin 218"
+    },
+    {
+      "id": "connector219",
+      "type": "male",
+      "name": "pin 219",
+      "description": "pin 219"
+    },
+    {
+      "id": "connector220",
+      "type": "male",
+      "name": "pin 220",
+      "description": "pin 220"
+    },
+    {
+      "id": "connector221",
+      "type": "male",
+      "name": "pin 221",
+      "description": "pin 221"
+    },
+    {
+      "id": "connector222",
+      "type": "male",
+      "name": "pin 222",
+      "description": "pin 222"
+    },
+    {
+      "id": "connector223",
+      "type": "male",
+      "name": "pin 223",
+      "description": "pin 223"
+    },
+    {
+      "id": "connector224",
+      "type": "male",
+      "name": "pin 224",
+      "description": "pin 224"
+    },
+    {
+      "id": "connector225",
+      "type": "male",
+      "name": "pin 225",
+      "description": "pin 225"
+    },
+    {
+      "id": "connector226",
+      "type": "male",
+      "name": "pin 226",
+      "description": "pin 226"
+    },
+    {
+      "id": "connector227",
+      "type": "male",
+      "name": "pin 227",
+      "description": "pin 227"
+    },
+    {
+      "id": "connector228",
+      "type": "male",
+      "name": "pin 228",
+      "description": "pin 228"
+    },
+    {
+      "id": "connector229",
+      "type": "male",
+      "name": "pin 229",
+      "description": "pin 229"
+    },
+    {
+      "id": "connector230",
+      "type": "male",
+      "name": "pin 230",
+      "description": "pin 230"
+    },
+    {
+      "id": "connector231",
+      "type": "male",
+      "name": "pin 231",
+      "description": "pin 231"
+    },
+    {
+      "id": "connector232",
+      "type": "male",
+      "name": "pin 232",
+      "description": "pin 232"
+    },
+    {
+      "id": "connector233",
+      "type": "male",
+      "name": "pin 233",
+      "description": "pin 233"
+    },
+    {
+      "id": "connector234",
+      "type": "male",
+      "name": "pin 234",
+      "description": "pin 234"
+    },
+    {
+      "id": "connector235",
+      "type": "male",
+      "name": "pin 235",
+      "description": "pin 235"
+    },
+    {
+      "id": "connector236",
+      "type": "male",
+      "name": "pin 236",
+      "description": "pin 236"
+    },
+    {
+      "id": "connector237",
+      "type": "male",
+      "name": "pin 237",
+      "description": "pin 237"
+    },
+    {
+      "id": "connector238",
+      "type": "male",
+      "name": "pin 238",
+      "description": "pin 238"
+    },
+    {
+      "id": "connector239",
+      "type": "male",
+      "name": "pin 239",
+      "description": "pin 239"
+    },
+    {
+      "id": "connector240",
+      "type": "male",
+      "name": "pin 240",
+      "description": "pin 240"
+    },
+    {
+      "id": "connector241",
+      "type": "male",
+      "name": "pin 241",
+      "description": "pin 241"
+    },
+    {
+      "id": "connector242",
+      "type": "male",
+      "name": "pin 242",
+      "description": "pin 242"
+    },
+    {
+      "id": "connector243",
+      "type": "male",
+      "name": "pin 243",
+      "description": "pin 243"
+    },
+    {
+      "id": "connector244",
+      "type": "male",
+      "name": "pin 244",
+      "description": "pin 244"
+    },
+    {
+      "id": "connector245",
+      "type": "male",
+      "name": "pin 245",
+      "description": "pin 245"
+    },
+    {
+      "id": "connector246",
+      "type": "male",
+      "name": "pin 246",
+      "description": "pin 246"
+    },
+    {
+      "id": "connector247",
+      "type": "male",
+      "name": "pin 247",
+      "description": "pin 247"
+    },
+    {
+      "id": "connector248",
+      "type": "male",
+      "name": "pin 248",
+      "description": "pin 248"
+    },
+    {
+      "id": "connector249",
+      "type": "male",
+      "name": "pin 249",
+      "description": "pin 249"
+    },
+    {
+      "id": "connector250",
+      "type": "male",
+      "name": "pin 250",
+      "description": "pin 250"
+    },
+    {
+      "id": "connector251",
+      "type": "male",
+      "name": "pin 251",
+      "description": "pin 251"
+    },
+    {
+      "id": "connector252",
+      "type": "male",
+      "name": "pin 252",
+      "description": "pin 252"
+    },
+    {
+      "id": "connector253",
+      "type": "male",
+      "name": "pin 253",
+      "description": "pin 253"
+    },
+    {
+      "id": "connector254",
+      "type": "male",
+      "name": "pin 254",
+      "description": "pin 254"
+    },
+    {
+      "id": "connector255",
+      "type": "male",
+      "name": "pin 255",
+      "description": "pin 255"
+    },
+    {
+      "id": "connector256",
+      "type": "male",
+      "name": "pin 256",
+      "description": "pin 256"
+    },
+    {
+      "id": "connector257",
+      "type": "male",
+      "name": "pin 257",
+      "description": "pin 257"
+    },
+    {
+      "id": "connector258",
+      "type": "male",
+      "name": "pin 258",
+      "description": "pin 258"
+    },
+    {
+      "id": "connector259",
+      "type": "male",
+      "name": "pin 259",
+      "description": "pin 259"
+    },
+    {
+      "id": "connector260",
+      "type": "male",
+      "name": "pin 260",
+      "description": "pin 260"
+    },
+    {
+      "id": "connector261",
+      "type": "male",
+      "name": "pin 261",
+      "description": "pin 261"
+    },
+    {
+      "id": "connector262",
+      "type": "male",
+      "name": "pin 262",
+      "description": "pin 262"
+    },
+    {
+      "id": "connector263",
+      "type": "male",
+      "name": "pin 263",
+      "description": "pin 263"
+    },
+    {
+      "id": "connector264",
+      "type": "male",
+      "name": "pin 264",
+      "description": "pin 264"
+    },
+    {
+      "id": "connector265",
+      "type": "male",
+      "name": "pin 265",
+      "description": "pin 265"
+    },
+    {
+      "id": "connector266",
+      "type": "male",
+      "name": "pin 266",
+      "description": "pin 266"
+    },
+    {
+      "id": "connector267",
+      "type": "male",
+      "name": "pin 267",
+      "description": "pin 267"
+    },
+    {
+      "id": "connector268",
+      "type": "male",
+      "name": "pin 268",
+      "description": "pin 268"
+    },
+    {
+      "id": "connector269",
+      "type": "male",
+      "name": "pin 269",
+      "description": "pin 269"
+    },
+    {
+      "id": "connector270",
+      "type": "male",
+      "name": "pin 270",
+      "description": "pin 270"
+    },
+    {
+      "id": "connector271",
+      "type": "male",
+      "name": "pin 271",
+      "description": "pin 271"
+    },
+    {
+      "id": "connector272",
+      "type": "male",
+      "name": "pin 272",
+      "description": "pin 272"
+    },
+    {
+      "id": "connector273",
+      "type": "male",
+      "name": "pin 273",
+      "description": "pin 273"
+    },
+    {
+      "id": "connector274",
+      "type": "male",
+      "name": "pin 274",
+      "description": "pin 274"
+    },
+    {
+      "id": "connector275",
+      "type": "male",
+      "name": "pin 275",
+      "description": "pin 275"
+    },
+    {
+      "id": "connector276",
+      "type": "male",
+      "name": "pin 276",
+      "description": "pin 276"
+    },
+    {
+      "id": "connector277",
+      "type": "male",
+      "name": "pin 277",
+      "description": "pin 277"
+    },
+    {
+      "id": "connector278",
+      "type": "male",
+      "name": "pin 278",
+      "description": "pin 278"
+    },
+    {
+      "id": "connector279",
+      "type": "male",
+      "name": "pin 279",
+      "description": "pin 279"
+    },
+    {
+      "id": "connector280",
+      "type": "male",
+      "name": "pin 280",
+      "description": "pin 280"
+    },
+    {
+      "id": "connector281",
+      "type": "male",
+      "name": "pin 281",
+      "description": "pin 281"
+    },
+    {
+      "id": "connector282",
+      "type": "male",
+      "name": "pin 282",
+      "description": "pin 282"
+    },
+    {
+      "id": "connector283",
+      "type": "male",
+      "name": "pin 283",
+      "description": "pin 283"
+    },
+    {
+      "id": "connector284",
+      "type": "male",
+      "name": "pin 284",
+      "description": "pin 284"
+    },
+    {
+      "id": "connector285",
+      "type": "male",
+      "name": "pin 285",
+      "description": "pin 285"
+    },
+    {
+      "id": "connector286",
+      "type": "male",
+      "name": "pin 286",
+      "description": "pin 286"
+    },
+    {
+      "id": "connector287",
+      "type": "male",
+      "name": "pin 287",
+      "description": "pin 287"
+    },
+    {
+      "id": "connector288",
+      "type": "male",
+      "name": "pin 288",
+      "description": "pin 288"
+    },
+    {
+      "id": "connector289",
+      "type": "male",
+      "name": "pin 289",
+      "description": "pin 289"
+    },
+    {
+      "id": "connector290",
+      "type": "male",
+      "name": "pin 290",
+      "description": "pin 290"
+    },
+    {
+      "id": "connector291",
+      "type": "male",
+      "name": "pin 291",
+      "description": "pin 291"
+    },
+    {
+      "id": "connector292",
+      "type": "male",
+      "name": "pin 292",
+      "description": "pin 292"
+    },
+    {
+      "id": "connector293",
+      "type": "male",
+      "name": "pin 293",
+      "description": "pin 293"
+    },
+    {
+      "id": "connector294",
+      "type": "male",
+      "name": "pin 294",
+      "description": "pin 294"
+    },
+    {
+      "id": "connector295",
+      "type": "male",
+      "name": "pin 295",
+      "description": "pin 295"
+    },
+    {
+      "id": "connector296",
+      "type": "male",
+      "name": "pin 296",
+      "description": "pin 296"
+    },
+    {
+      "id": "connector297",
+      "type": "male",
+      "name": "pin 297",
+      "description": "pin 297"
+    },
+    {
+      "id": "connector298",
+      "type": "male",
+      "name": "pin 298",
+      "description": "pin 298"
+    },
+    {
+      "id": "connector299",
+      "type": "male",
+      "name": "pin 299",
+      "description": "pin 299"
+    },
+    {
+      "id": "connector300",
+      "type": "male",
+      "name": "pin 300",
+      "description": "pin 300"
+    },
+    {
+      "id": "connector301",
+      "type": "male",
+      "name": "pin 301",
+      "description": "pin 301"
+    },
+    {
+      "id": "connector302",
+      "type": "male",
+      "name": "pin 302",
+      "description": "pin 302"
+    },
+    {
+      "id": "connector303",
+      "type": "male",
+      "name": "pin 303",
+      "description": "pin 303"
+    },
+    {
+      "id": "connector304",
+      "type": "male",
+      "name": "pin 304",
+      "description": "pin 304"
+    },
+    {
+      "id": "connector305",
+      "type": "male",
+      "name": "pin 305",
+      "description": "pin 305"
+    },
+    {
+      "id": "connector306",
+      "type": "male",
+      "name": "pin 306",
+      "description": "pin 306"
+    },
+    {
+      "id": "connector307",
+      "type": "male",
+      "name": "pin 307",
+      "description": "pin 307"
+    },
+    {
+      "id": "connector308",
+      "type": "male",
+      "name": "pin 308",
+      "description": "pin 308"
+    },
+    {
+      "id": "connector309",
+      "type": "male",
+      "name": "pin 309",
+      "description": "pin 309"
+    },
+    {
+      "id": "connector310",
+      "type": "male",
+      "name": "pin 310",
+      "description": "pin 310"
+    },
+    {
+      "id": "connector311",
+      "type": "male",
+      "name": "pin 311",
+      "description": "pin 311"
+    },
+    {
+      "id": "connector312",
+      "type": "male",
+      "name": "pin 312",
+      "description": "pin 312"
+    },
+    {
+      "id": "connector313",
+      "type": "male",
+      "name": "pin 313",
+      "description": "pin 313"
+    },
+    {
+      "id": "connector314",
+      "type": "male",
+      "name": "pin 314",
+      "description": "pin 314"
+    },
+    {
+      "id": "connector315",
+      "type": "male",
+      "name": "pin 315",
+      "description": "pin 315"
+    },
+    {
+      "id": "connector316",
+      "type": "male",
+      "name": "pin 316",
+      "description": "pin 316"
+    },
+    {
+      "id": "connector317",
+      "type": "male",
+      "name": "pin 317",
+      "description": "pin 317"
+    },
+    {
+      "id": "connector318",
+      "type": "male",
+      "name": "pin 318",
+      "description": "pin 318"
+    },
+    {
+      "id": "connector319",
+      "type": "male",
+      "name": "pin 319",
+      "description": "pin 319"
+    },
+    {
+      "id": "connector320",
+      "type": "male",
+      "name": "pin 320",
+      "description": "pin 320"
+    },
+    {
+      "id": "connector321",
+      "type": "male",
+      "name": "pin 321",
+      "description": "pin 321"
+    },
+    {
+      "id": "connector322",
+      "type": "male",
+      "name": "pin 322",
+      "description": "pin 322"
+    },
+    {
+      "id": "connector323",
+      "type": "male",
+      "name": "pin 323",
+      "description": "pin 323"
+    },
+    {
+      "id": "connector324",
+      "type": "male",
+      "name": "pin 324",
+      "description": "pin 324"
+    },
+    {
+      "id": "connector325",
+      "type": "male",
+      "name": "pin 325",
+      "description": "pin 325"
+    },
+    {
+      "id": "connector326",
+      "type": "male",
+      "name": "pin 326",
+      "description": "pin 326"
+    },
+    {
+      "id": "connector327",
+      "type": "male",
+      "name": "pin 327",
+      "description": "pin 327"
+    }
+  ]
+}

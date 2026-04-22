@@ -1,0 +1,55 @@
+{
+  "moduleId": "SL-SHT-25-RealSize_4be6181ca26c416ea6944fbbfc5094eb_2",
+  "title": "StrawberryLinux SHT25 Sensor module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SL-SHT-25-RealSize_4be6181ca26c416ea6944fbbfc5094eb_2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SL-SHT-25-RealSize_1362d745f47e4867bc2ca7383aec02e2_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SL-SHT-25-RealSize_1362d745f47e4867bc2ca7383aec02e2_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SL-SHT-25-RealSize_1362d745f47e4867bc2ca7383aec02e2_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SL-SHT-25-RealSize_1362d745f47e4867bc2ca7383aec02e2_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SCL",
+      "description": "I2C SCL"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SDA",
+      "description": "I2C SDA"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

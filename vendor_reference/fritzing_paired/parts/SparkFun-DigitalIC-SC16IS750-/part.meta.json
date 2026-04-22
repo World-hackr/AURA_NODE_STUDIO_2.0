@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-DigitalIC-SC16IS750-",
+  "title": "SC16IS750",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-sc16is750-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-24_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_sc16is750_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_qfn-24_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-24_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "_CTS",
+      "description": "_CTS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "_IRQ",
+      "description": "_IRQ"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "_RTS",
+      "description": "_RTS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "A0-_CS",
+      "description": "A0-_CS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "A1-SI",
+      "description": "A1-SI"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GPIO0",
+      "description": "GPIO0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GPIO1",
+      "description": "GPIO1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GPIO2",
+      "description": "GPIO2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GPIO3",
+      "description": "GPIO3"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GPIO4-_DSR",
+      "description": "GPIO4-_DSR"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GPIO5-_DTR",
+      "description": "GPIO5-_DTR"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GPIO6-_CD",
+      "description": "GPIO6-_CD"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "GPIO7-_RI",
+      "description": "GPIO7-_RI"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "I2C-_SPI",
+      "description": "I2C-_SPI"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "NC-SO",
+      "description": "NC-SO"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCL-SCLK",
+      "description": "SCL-SCLK"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SDA-VSS",
+      "description": "SDA-VSS"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "XTAL1",
+      "description": "XTAL1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "XTAL2",
+      "description": "XTAL2"
+    }
+  ]
+}

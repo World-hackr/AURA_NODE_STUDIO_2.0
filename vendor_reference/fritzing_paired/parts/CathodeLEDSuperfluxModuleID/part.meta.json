@@ -1,0 +1,55 @@
+{
+  "moduleId": "CathodeLEDSuperfluxModuleID",
+  "title": "Super Flux LED blue",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\led_flux_blue_cathode.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\LED-SuperFlux-blue.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\led-superFlux-blue.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\led-SuperFlux.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\led-superFlux.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "cathode",
+      "description": "cathode"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "cathode",
+      "description": "cathode"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "anode",
+      "description": "anode"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "anode",
+      "description": "anode"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "moduleId": "3_Axis_Accelerometer_Breakout___MMA8452Q",
+  "title": "3-Axis Accelerometer Breakout - MMA8452Q",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\3_Axis_Accelerometer_Breakout___MMA8452Q.fzp",
+  "copiedViews": [
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\3_Axis_Accelerometer_Breakout___MMA8452Q_PCB.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\3_Axis_Accelerometer_Breakout___MMA8452Q_BB.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\3_Axis_Accelerometer_Breakout___MMA8452Q_Sch.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\3_Axis_Accelerometer_Breakout___MMA8452Q_Icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "I2",
+      "description": "I2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "I1",
+      "description": "I1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

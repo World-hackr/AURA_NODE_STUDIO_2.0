@@ -1,0 +1,163 @@
+{
+  "moduleId": "74HC595 Shift Reg Breakout-v11",
+  "title": "Shift Register Breakout - 74HC595",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\74HC595 Shift Reg Breakout-v11.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\74HC595 Shift Reg Breakout-v11_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\74HC595 Shift Reg Breakout-v11_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\74HC595 Shift Reg Breakout-v11_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\74HC595 Shift Reg Breakout-v11_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 22,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "QA",
+      "description": "QA"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "QB",
+      "description": "QB"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "QC",
+      "description": "QC"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "QD",
+      "description": "QD"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "QE",
+      "description": "QE"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "QF",
+      "description": "QF"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "QG",
+      "description": "QG"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "QH",
+      "description": "QH"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "/RESET",
+      "description": "/RESET"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "/OUTPUT_ENABLE",
+      "description": "/OUTPUT_ENABLE"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "CLOCK",
+      "description": "CLOCK"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "LATCH_CLOCK",
+      "description": "LATCH_CLOCK"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SERIAL_IN",
+      "description": "SERIAL_IN"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "/RESET",
+      "description": "/RESET"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "/OUTPUT_ENABLE",
+      "description": "/OUTPUT_ENABLE"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "CLOCK",
+      "description": "CLOCK"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "LATCH_CLOCK",
+      "description": "LATCH_CLOCK"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SERIAL_OUT",
+      "description": "SERIAL_OUT"
+    }
+  ]
+}

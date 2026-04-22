@@ -1,0 +1,103 @@
+{
+  "moduleId": "7e3598758afd7c1363215b7f0c124af8",
+  "title": "Digital Panel Meter, Voltage, DMS-20PC",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Digital_Panel_Meter__Voltage__DMS_20PC.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Digital_Panel_Meter__Voltage__DMS_20PC__.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Digital_Panel_Meter__Voltage__DMS_20PC__.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Digital_Panel_Meter__Voltage__DMS_20PC__.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Digital_Panel_Meter__Voltage__DMS_20PC__.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "4: #DP3",
+      "description": "Decimal Point 3 (right most). Active low."
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "5: #DP2",
+      "description": "Decimal Point 2 (middle).  Active Low."
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "6: #DP1",
+      "description": "Decimal Point 1 (left most). Active Low."
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "7:  Reference In",
+      "description": "In normal operaiton pin 7 is tied to pin 8 (reference output) to achieve all isted accuracy and drift specs)."
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "8: Reference Out",
+      "description": "Precision reference actively trimmed at factory.  Normally tied to Pin 7 (reference input)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "9: Display Test/Hold",
+      "description": "Tie to VCC (pin 1) to active meter DISPLAY TEST feature, lighting all segments. DO NOT leave meter in test mode for more than 10 seconds. Normally this pin is left floating."
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "10:  Analog Common",
+      "description": "Connected to internal, low-noise relative ground for certain differential and floating measurements."
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "11: (+) INPUT HI",
+      "description": "Positive Input"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "12: (-) INPUT LO",
+      "description": "Negative Input"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1: VCC",
+      "description": "VCC / +5VDC Positive Supply"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2: ENABLE",
+      "description": "Display Enable Pin"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "3: GND",
+      "description": "Power supply return"
+    }
+  ]
+}

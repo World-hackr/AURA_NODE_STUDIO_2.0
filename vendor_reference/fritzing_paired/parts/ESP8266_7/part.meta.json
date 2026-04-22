@@ -1,0 +1,127 @@
+{
+  "moduleId": "ESP8266_7",
+  "title": "ESP8266 WiFi Module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ESP8266_7.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ESP8266_7_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ESP8266_7_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ESP8266_7_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ESP8266_7_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "pad",
+      "name": "GPIO_2",
+      "description": "General-Purpose IO 2"
+    },
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "CH_PD",
+      "description": "Enable (Active High)"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector0",
+      "type": "pad",
+      "name": "RXD",
+      "description": "UART Receive"
+    },
+    {
+      "id": "connector1",
+      "type": "pad",
+      "name": "VCC",
+      "description": "+3.3V Supply"
+    },
+    {
+      "id": "connector2",
+      "type": "pad",
+      "name": "GPIO_0",
+      "description": "General-Purpose IO 0"
+    },
+    {
+      "id": "connector7",
+      "type": "pad",
+      "name": "TXD",
+      "description": "UART Transmit"
+    },
+    {
+      "id": "connector8",
+      "type": "pad",
+      "name": "GPIO_15",
+      "description": "General-Purpose IO 15"
+    },
+    {
+      "id": "connector9",
+      "type": "pad",
+      "name": "GPIO_4",
+      "description": "General-Purpose IO 4"
+    },
+    {
+      "id": "connector10",
+      "type": "pad",
+      "name": "GPIO_5",
+      "description": "General-Purpose IO 5"
+    },
+    {
+      "id": "connector11",
+      "type": "pad",
+      "name": "ADC_0",
+      "description": "Analog-Digital-Converter"
+    },
+    {
+      "id": "connector12",
+      "type": "pad",
+      "name": "GPIO_16",
+      "description": "General-Purpose IO 16"
+    },
+    {
+      "id": "connector13",
+      "type": "pad",
+      "name": "GPIO_14",
+      "description": "General-Purpose IO 14"
+    },
+    {
+      "id": "connector14",
+      "type": "pad",
+      "name": "GPIO_12",
+      "description": "General-Purpose IO 12"
+    },
+    {
+      "id": "connector15",
+      "type": "pad",
+      "name": "GPIO_13",
+      "description": "General-Purpose IO 13"
+    },
+    {
+      "id": "connector16",
+      "type": "pad",
+      "name": "REST",
+      "description": "Reset"
+    }
+  ]
+}

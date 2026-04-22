@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-PowerIC-NJM2670-SMD",
+  "title": "NJM2670",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-njm2670-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO-24W_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_njm2670_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_so-24w_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO-24W_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "ENABLEA",
+      "description": "ENABLEA"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "ENABLEB",
+      "description": "ENABLEB"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "INA1",
+      "description": "INA1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "INA2",
+      "description": "INA2"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "INB1",
+      "description": "INB1"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "INB2",
+      "description": "INB2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUTA1",
+      "description": "OUTA1"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "OUTA2",
+      "description": "OUTA2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "OUTB1",
+      "description": "OUTB1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OUTB2",
+      "description": "OUTB2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SENSEA",
+      "description": "SENSEA"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SENSEB",
+      "description": "SENSEB"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "TSDARM",
+      "description": "TSDARM"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VSA",
+      "description": "VSA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VSB",
+      "description": "VSB"
+    }
+  ]
+}

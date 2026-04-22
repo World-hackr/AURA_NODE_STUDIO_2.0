@@ -1,0 +1,85 @@
+{
+  "moduleId": "Adafruit-_17c720b589ba234a927a8f5224094006_1_68",
+  "title": "Adafruit TPS61169 Constant Current Boost Converter LED Driver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_17c720b589ba234a927a8f5224094006_1_68.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_17c720b589ba234a927a8f5224094006_1_68_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_17c720b589ba234a927a8f5224094006_1_68_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_17c720b589ba234a927a8f5224094006_1_68_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_17c720b589ba234a927a8f5224094006_1_68_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "LEDK",
+      "description": "LEDK"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "LEDK",
+      "description": "LEDK"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "PWM",
+      "description": "PWM"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

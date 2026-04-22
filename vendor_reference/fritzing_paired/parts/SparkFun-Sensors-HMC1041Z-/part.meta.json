@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Sensors-HMC1041Z-",
+  "title": "HMC1041Z",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-hmc1041z-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_hmc1041z_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_hmc1041z_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_hmc1041z_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\HMC1041Z.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "OFFSET+",
+      "description": "OFFSET+"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "OFFSET-",
+      "description": "OFFSET-"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "OUT+",
+      "description": "OUT+"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUT-",
+      "description": "OUT-"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "S_R+",
+      "description": "S_R+"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "S_R-",
+      "description": "S_R-"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VBRIDGE",
+      "description": "VBRIDGE"
+    }
+  ]
+}

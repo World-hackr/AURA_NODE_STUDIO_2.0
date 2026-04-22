@@ -1,0 +1,43 @@
+{
+  "moduleId": "SparkFun-Passives-RESISTOR-0402-RES",
+  "title": "Resistor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\sparkfun-passives-resistor-0402-res.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\resistor_220.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\resistor.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-passives_0402-res_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\resistor_icon_220.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 0",
+      "description": "Pin0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "Pin 1"
+    }
+  ]
+}

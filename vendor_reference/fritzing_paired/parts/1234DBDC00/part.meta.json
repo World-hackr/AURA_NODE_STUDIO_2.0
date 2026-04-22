@@ -1,0 +1,44 @@
+{
+  "moduleId": "1234DBDC00",
+  "title": "NPN-Transistor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\basic_transistor_npn.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic_transistor_npnicon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\basic_transistor_npn.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\to92.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "emitter",
+      "description": "emitter"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "base",
+      "description": "base"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "collector",
+      "description": "collector"
+    }
+  ]
+}

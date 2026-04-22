@@ -1,0 +1,49 @@
+{
+  "moduleId": "MPX4250AP_60bfc397c54bae166e67461339be2ca8_4",
+  "title": "MPX4250AP pressure sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\MPX4250AP pressure sensor.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\MPX4250AP_1.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MPX4250AP_1.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\MPX4250AP_1.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\MPX4250AP_1.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V out",
+      "description": "Sensor output"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground terminal"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Vs",
+      "description": "Power terminal"
+    }
+  ]
+}

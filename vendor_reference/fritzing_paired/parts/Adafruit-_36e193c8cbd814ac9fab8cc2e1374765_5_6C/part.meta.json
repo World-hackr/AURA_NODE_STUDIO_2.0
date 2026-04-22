@@ -1,0 +1,133 @@
+{
+  "moduleId": "Adafruit-_36e193c8cbd814ac9fab8cc2e1374765_5_6C",
+  "title": "Adafruit Mini Sparkle Motion",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_36e193c8cbd814ac9fab8cc2e1374765_5_6C.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_36e193c8cbd814ac9fab8cc2e1374765_5_6C_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_36e193c8cbd814ac9fab8cc2e1374765_5_6C_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_36e193c8cbd814ac9fab8cc2e1374765_5_6C_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_36e193c8cbd814ac9fab8cc2e1374765_5_6C_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 17,
+  "connectors": [
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "SENSOR",
+      "description": "SENSOR"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "S1",
+      "description": "S1"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "S2",
+      "description": "S2"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "IO14",
+      "description": "IO14"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "IO27",
+      "description": "IO27"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "IO25",
+      "description": "IO25"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "IO26",
+      "description": "IO26"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

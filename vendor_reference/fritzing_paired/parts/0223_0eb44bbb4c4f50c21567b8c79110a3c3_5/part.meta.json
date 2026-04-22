@@ -1,0 +1,127 @@
+{
+  "moduleId": "0223_0eb44bbb4c4f50c21567b8c79110a3c3_5",
+  "title": "A4988 Stepper Motor Driver Carrier",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\0223_0eb44bbb4c4f50c21567b8c79110a3c3_5.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\0223_0eb44bbb4c4f50c21567b8c79110a3c3_5_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\0223_0eb44bbb4c4f50c21567b8c79110a3c3_5_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\0223_0eb44bbb4c4f50c21567b8c79110a3c3_5_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\0223_0eb44bbb4c4f50c21567b8c79110a3c3_5_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector130",
+      "type": "male",
+      "name": "Enable",
+      "description": "This input turns on or off all of the FET outputs. When set to a logic high, the outputs are disabled. When set to a logic low, the internal control enables the outputs as required. The translator inputs STEP, DIR, and MSx, as well as the internal sequencing logic, all remain active, independent of the ENABLE input state."
+    },
+    {
+      "id": "connector141",
+      "type": "male",
+      "name": "GROUND",
+      "description": "Stepper ground."
+    },
+    {
+      "id": "connector131",
+      "type": "male",
+      "name": "MS1",
+      "description": "Microstep Resolution Switch 1."
+    },
+    {
+      "id": "connector142",
+      "type": "male",
+      "name": "OUT 2B",
+      "description": "Power connections to the stepper."
+    },
+    {
+      "id": "connector132",
+      "type": "male",
+      "name": "MS2",
+      "description": "Microstep Resolution Switch 2."
+    },
+    {
+      "id": "connector143",
+      "type": "male",
+      "name": "OUT 2A",
+      "description": "Power connections to the stepper."
+    },
+    {
+      "id": "connector133",
+      "type": "male",
+      "name": "MS3",
+      "description": "Microstep Resolution Switch 3."
+    },
+    {
+      "id": "connector144",
+      "type": "male",
+      "name": "OUT 1A",
+      "description": "Power connections to the stepper."
+    },
+    {
+      "id": "connector134",
+      "type": "male",
+      "name": "RESET",
+      "description": "Reset chip."
+    },
+    {
+      "id": "connector145",
+      "type": "male",
+      "name": "OUT 1B",
+      "description": "Power connections to the stepper."
+    },
+    {
+      "id": "connector135",
+      "type": "male",
+      "name": "SLEEP",
+      "description": "Sleep pin"
+    },
+    {
+      "id": "connector146",
+      "type": "male",
+      "name": "VDD",
+      "description": "Logic Voltage"
+    },
+    {
+      "id": "connector136",
+      "type": "male",
+      "name": "STEP",
+      "description": "Stepping impulse."
+    },
+    {
+      "id": "connector147",
+      "type": "male",
+      "name": "GROUND",
+      "description": "Logic ground"
+    },
+    {
+      "id": "connector137",
+      "type": "male",
+      "name": "DIR",
+      "description": "This determines the direction of rotation of the motor. Changes to this input do not take effect  until the next STEP rising edge."
+    },
+    {
+      "id": "connector140",
+      "type": "male",
+      "name": "VMOT",
+      "description": "Stepper voltage."
+    }
+  ]
+}

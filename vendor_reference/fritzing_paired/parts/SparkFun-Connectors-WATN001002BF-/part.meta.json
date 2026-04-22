@@ -1,0 +1,187 @@
+{
+  "moduleId": "SparkFun-Connectors-WATN001002BF-",
+  "title": "***Unproven!!!***",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-watn001002bf-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_ffc26_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_watn001001_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_ffc26_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ffc26.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 26,
+  "connectors": [
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "DI0",
+      "description": "DI0"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "DI1",
+      "description": "DI1"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "DI2",
+      "description": "DI2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DLY0",
+      "description": "DLY0"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "DLY1",
+      "description": "DLY1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "EIO1",
+      "description": "EIO1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "EIO2",
+      "description": "EIO2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "LATCH",
+      "description": "LATCH"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "RESERVED",
+      "description": "RESERVED"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "RESERVED",
+      "description": "RESERVED"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "RESERVED",
+      "description": "RESERVED"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "RESERVED",
+      "description": "RESERVED"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SHL",
+      "description": "SHL"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SLEEPB",
+      "description": "SLEEPB"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "V0",
+      "description": "V0"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "V0",
+      "description": "V0"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "V1",
+      "description": "V1"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "V1",
+      "description": "V1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "V2",
+      "description": "V2"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "V2",
+      "description": "V2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VSSE",
+      "description": "VSSE"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VSSE",
+      "description": "VSSE"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "XCK",
+      "description": "XCK"
+    }
+  ]
+}

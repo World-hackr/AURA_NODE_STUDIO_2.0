@@ -1,0 +1,631 @@
+{
+  "moduleId": "SparkFun-DigitalIC-DSPIC33FJ256GP710-_",
+  "title": "DSPIC33FJ256GP710",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-dspic33fj256gp710-_.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tqfp-100-12x12mm_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_dspic33fj256gp710_power_mix_8_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_tqfp-100-12x12mm_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tqfp-100-12x12mm_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 100,
+  "connectors": [
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "G1 AVDD",
+      "description": "G1 AVDD"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "G1 AVSS",
+      "description": "G1 AVSS"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "G1 RA10_VREF+",
+      "description": "G1 RA10_VREF+"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "G1 RA9_VREF-",
+      "description": "G1 RA9_VREF-"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "G1 VCAP",
+      "description": "G1 VCAP"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "G1 VDD",
+      "description": "G1 VDD"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G1 VDD",
+      "description": "G1 VDD"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "G1 VDD",
+      "description": "G1 VDD"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "G1 VDD",
+      "description": "G1 VDD"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "G1 VDD",
+      "description": "G1 VDD"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "G1 VDD",
+      "description": "G1 VDD"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "G1 VSS",
+      "description": "G1 VSS"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "G1 VSS",
+      "description": "G1 VSS"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "G1 VSS",
+      "description": "G1 VSS"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "G1 VSS",
+      "description": "G1 VSS"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "G1 VSS",
+      "description": "G1 VSS"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "G2 RA6_AN22",
+      "description": "G2 RA6_AN22"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "G2 RB0_AN0",
+      "description": "G2 RB0_AN0"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "G2 RB1_AN1",
+      "description": "G2 RB1_AN1"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "G2 RB10_AN10",
+      "description": "G2 RB10_AN10"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "G2 RB11_AN11",
+      "description": "G2 RB11_AN11"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "G2 RB12_AN12",
+      "description": "G2 RB12_AN12"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "G2 RB13_AN13",
+      "description": "G2 RB13_AN13"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "G2 RB14_AN14",
+      "description": "G2 RB14_AN14"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "G2 RB3_AN3",
+      "description": "G2 RB3_AN3"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "G2 RB4_AN4",
+      "description": "G2 RB4_AN4"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "G2 RB5_AN5",
+      "description": "G2 RB5_AN5"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "G2 RB6_AN6",
+      "description": "G2 RB6_AN6"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "G2 RB7_AN7",
+      "description": "G2 RB7_AN7"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "G2 RB8_AN8",
+      "description": "G2 RB8_AN8"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "G2 RB9_AN9",
+      "description": "G2 RB9_AN9"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "G2 RC4_AN19",
+      "description": "G2 RC4_AN19"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "G2 RD0_OC1",
+      "description": "G2 RD0_OC1"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "G2 RD1_OC2",
+      "description": "G2 RD1_OC2"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "G2 RD10_IC3",
+      "description": "G2 RD10_IC3"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "G2 RD11_IC4",
+      "description": "G2 RD11_IC4"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "G2 RD12_IC5",
+      "description": "G2 RD12_IC5"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "G2 RD13_IC6",
+      "description": "G2 RD13_IC6"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "G2 RD14_U1CTS_IC7",
+      "description": "G2 RD14_U1CTS_IC7"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "G2 RD15_U1RTS_IC8",
+      "description": "G2 RD15_U1RTS_IC8"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "G2 RD2_OC3",
+      "description": "G2 RD2_OC3"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "G2 RD3_OC4",
+      "description": "G2 RD3_OC4"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "G2 RD4_OC5",
+      "description": "G2 RD4_OC5"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "G2 RD5_OC6",
+      "description": "G2 RD5_OC6"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "G2 RD6_OC7",
+      "description": "G2 RD6_OC7"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "G2 RD7_OC8",
+      "description": "G2 RD7_OC8"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "G2 RD8_IC1",
+      "description": "G2 RD8_IC1"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "G2 RD9_IC2",
+      "description": "G2 RD9_IC2"
+    },
+    {
+      "id": "connector93",
+      "type": "male",
+      "name": "G2 RE1_AN25",
+      "description": "G2 RE1_AN25"
+    },
+    {
+      "id": "connector97",
+      "type": "male",
+      "name": "G2 RE2",
+      "description": "G2 RE2"
+    },
+    {
+      "id": "connector98",
+      "type": "male",
+      "name": "G2 RE3",
+      "description": "G2 RE3"
+    },
+    {
+      "id": "connector99",
+      "type": "male",
+      "name": "G2 RE4",
+      "description": "G2 RE4"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "G2 RF2_U1RX",
+      "description": "G2 RF2_U1RX"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "G2 RF3_U1TX",
+      "description": "G2 RF3_U1TX"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "G2 RG2_SCL1",
+      "description": "G2 RG2_SCL1"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "G2 RG3_SDA1",
+      "description": "G2 RG3_SDA1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "G3 MCLR",
+      "description": "G3 MCLR"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "G3 RA1",
+      "description": "G3 RA1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "G3 RA12_INT1",
+      "description": "G3 RA12_INT1"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "G3 RA13_INT2",
+      "description": "G3 RA13_INT2"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "G3 RA14",
+      "description": "G3 RA14"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "G3 RA2_SCL2",
+      "description": "G3 RA2_SCL2"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "G3 RA3_SDA2",
+      "description": "G3 RA3_SDA2"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "G3 RA4_TDI",
+      "description": "G3 RA4_TDI"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "G3 RA5_TDO",
+      "description": "G3 RA5_TDO"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "G3 RA7_AN23",
+      "description": "G3 RA7_AN23"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "G3 RB15_AN15",
+      "description": "G3 RB15_AN15"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "G3 RB2_SS1",
+      "description": "G3 RB2_SS1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G3 RC1_AN16",
+      "description": "G3 RC1_AN16"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "G3 RC13_PGED2",
+      "description": "G3 RC13_PGED2"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "G3 RC14_PGEC2",
+      "description": "G3 RC14_PGEC2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G3 RC2_AN17",
+      "description": "G3 RC2_AN17"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "G3 RC3_AN18",
+      "description": "G3 RC3_AN18"
+    },
+    {
+      "id": "connector92",
+      "type": "male",
+      "name": "G3 RE0_AN24",
+      "description": "G3 RE0_AN24"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "G3 RF0_C1RX1",
+      "description": "G3 RF0_C1RX1"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "G3 RF1_C1TX1",
+      "description": "G3 RF1_C1TX1"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "G3 RF12_U2CTS",
+      "description": "G3 RF12_U2CTS"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "G3 RF13_U2RTS",
+      "description": "G3 RF13_U2RTS"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "G3 RF4_U2RX",
+      "description": "G3 RF4_U2RX"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "G3 RF5_U2TX",
+      "description": "G3 RF5_U2TX"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "G3 RF6_SCK1",
+      "description": "G3 RF6_SCK1"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "G3 RF7_SDI1",
+      "description": "G3 RF7_SDI1"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "G3 RF8_SDO1",
+      "description": "G3 RF8_SDO1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "G3 RG6_SCK2",
+      "description": "G3 RG6_SCK2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "G3 RG7_SDI2",
+      "description": "G3 RG7_SDI2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "G3 RG8_SDO2",
+      "description": "G3 RG8_SDO2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "G3 RG9_SS2",
+      "description": "G3 RG9_SS2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "G4 RA0_TMS",
+      "description": "G4 RA0_TMS"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "G4 RA15",
+      "description": "G4 RA15"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "G4 RC12_OSC1",
+      "description": "G4 RC12_OSC1"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "G4 RC15_OSC2",
+      "description": "G4 RC15_OSC2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G4 RE5_AN29",
+      "description": "G4 RE5_AN29"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G4 RE6_AN30",
+      "description": "G4 RE6_AN30"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G4 RE7_AN31",
+      "description": "G4 RE7_AN31"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "G4 RG0_C2RX",
+      "description": "G4 RG0_C2RX"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "G4 RG1_C2TX",
+      "description": "G4 RG1_C2TX"
+    },
+    {
+      "id": "connector95",
+      "type": "male",
+      "name": "G4 RG12_CSDI",
+      "description": "G4 RG12_CSDI"
+    },
+    {
+      "id": "connector96",
+      "type": "male",
+      "name": "G4 RG13_CSDO",
+      "description": "G4 RG13_CSDO"
+    },
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "G4 RG14_CSCK",
+      "description": "G4 RG14_CSCK"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G4 RG15_COFS",
+      "description": "G4 RG15_COFS"
+    }
+  ]
+}

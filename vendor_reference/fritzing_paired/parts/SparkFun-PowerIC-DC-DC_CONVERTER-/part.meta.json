@@ -1,0 +1,85 @@
+{
+  "moduleId": "SparkFun-PowerIC-DC-DC_CONVERTER-",
+  "title": "DC-DC_CONVERTER",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-dc-dc_converter-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_dc-dc_converter_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_dc-dc_converter_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_dc-dc_converter_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_dc-dc_converter_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND1",
+      "description": "GND1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "ON_OFF",
+      "description": "ON_OFF"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PGOOD",
+      "description": "PGOOD"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SENSE",
+      "description": "SENSE"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SEQ",
+      "description": "SEQ"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TRIM",
+      "description": "TRIM"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VOUT",
+      "description": "VOUT"
+    }
+  ]
+}

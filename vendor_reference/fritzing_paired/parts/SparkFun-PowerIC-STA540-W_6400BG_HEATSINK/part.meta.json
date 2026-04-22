@@ -1,0 +1,121 @@
+{
+  "moduleId": "SparkFun-PowerIC-STA540-W_6400BG_HEATSINK",
+  "title": "STA540",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-sta540-w_6400bg_heatsink.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_multiwatt15_6400bgheatsink_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_sta540_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_multiwatt15_6400bgheatsink_2_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\MULTIWATT15_6400BGHEATSINK.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DIAG",
+      "description": "DIAG"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "IN1",
+      "description": "IN1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "IN2",
+      "description": "IN2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "IN3",
+      "description": "IN3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "IN4",
+      "description": "IN4"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "OUT1",
+      "description": "OUT1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OUT2",
+      "description": "OUT2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OUT3",
+      "description": "OUT3"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OUT4",
+      "description": "OUT4"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P-GND",
+      "description": "P-GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "S-GND",
+      "description": "S-GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "STBY",
+      "description": "STBY"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SVR",
+      "description": "SVR"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VCC1",
+      "description": "VCC1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VCC2",
+      "description": "VCC2"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "moduleId": "atlas-sientific_ORP Circuit",
+  "title": "ORP Circuit",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\atlas-sientific_ORP Circuit.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\atlas-sientific_ORP Circuit_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\atlas-sientific_ORP Circuit_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\atlas-sientific_ORP Circuit_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\atlas-sientific_ORP Circuit_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "Supply Ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "TX",
+      "description": "Data Out"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RX",
+      "description": "Data In"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Vcc",
+      "description": "Supply Voltage"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "PRB",
+      "description": "Probe (Sensor)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "Supply Ground"
+    }
+  ]
+}

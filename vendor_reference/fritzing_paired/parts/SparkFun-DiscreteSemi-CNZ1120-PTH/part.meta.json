@@ -1,0 +1,55 @@
+{
+  "moduleId": "SparkFun-DiscreteSemi-CNZ1120-PTH",
+  "title": "CNZ1120",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-discretesemi-cnz1120-pth.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_cnz1120_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-discretesemi_cnz1120_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-discretesemi_cnz1120_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\CNZ1120.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "3",
+      "description": "3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "4",
+      "description": "4"
+    }
+  ]
+}

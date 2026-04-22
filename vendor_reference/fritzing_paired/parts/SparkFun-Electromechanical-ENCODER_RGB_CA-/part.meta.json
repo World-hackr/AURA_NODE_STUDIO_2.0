@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Electromechanical-ENCODER_RGB_CA-",
+  "title": "ENCODER_RGB_CA",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-encoder_rgb_ca-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_encoder_led_3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_encoder_led_3_ca_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_encoder_led_3_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ENCODER_LED_3.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "+",
+      "description": "+"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "-B",
+      "description": "-B"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-G",
+      "description": "-G"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "-R",
+      "description": "-R"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    }
+  ]
+}

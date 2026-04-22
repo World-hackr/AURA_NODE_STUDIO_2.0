@@ -1,0 +1,67 @@
+{
+  "moduleId": "adafruit_5b8537298473cf749a4148ed9547c214_1_F8",
+  "title": "Quarter 60 NeoPixel Ring",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_5b8537298473cf749a4148ed9547c214_1_F8.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_5b8537298473cf749a4148ed9547c214_2_breadboard_F8.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_5b8537298473cf749a4148ed9547c214_2_schematic_F8.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_5b8537298473cf749a4148ed9547c214_2_pcb_F8.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_5b8537298473cf749a4148ed9547c214_2_icon_F8.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "DATAIN",
+      "description": "DATAIN"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "DATAOUT",
+      "description": "DATAOUT"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

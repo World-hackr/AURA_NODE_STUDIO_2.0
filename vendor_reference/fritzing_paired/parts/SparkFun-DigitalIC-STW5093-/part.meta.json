@@ -1,0 +1,211 @@
+{
+  "moduleId": "SparkFun-DigitalIC-STW5093-",
+  "title": "STW5093",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-stw5093-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tssop30_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_stw5093_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_tssop30_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tssop30_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 30,
+  "connectors": [
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "AUXCLK",
+      "description": "AUXCLK"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "BZ",
+      "description": "BZ"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "CCLK",
+      "description": "CCLK"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "CI",
+      "description": "CI"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "CO",
+      "description": "CO"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "CS-",
+      "description": "CS-"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "DR",
+      "description": "DR"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "DX",
+      "description": "DX"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "FS",
+      "description": "FS"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GNDA",
+      "description": "GNDA"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GNDP",
+      "description": "GNDP"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "LO",
+      "description": "LO"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "MBIAS",
+      "description": "MBIAS"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "MCLK",
+      "description": "MCLK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "MIC1+",
+      "description": "MIC1+"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "MIC1-",
+      "description": "MIC1-"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "MIC2+",
+      "description": "MIC2+"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "MIC2-",
+      "description": "MIC2-"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "MIC3+",
+      "description": "MIC3+"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "MIC3-",
+      "description": "MIC3-"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "REMIN",
+      "description": "REMIN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "REMOUT",
+      "description": "REMOUT"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VCCA",
+      "description": "VCCA"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VCCP",
+      "description": "VCCP"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VFR",
+      "description": "VFR"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VLR+",
+      "description": "VLR+"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VLR-",
+      "description": "VLR-"
+    }
+  ]
+}

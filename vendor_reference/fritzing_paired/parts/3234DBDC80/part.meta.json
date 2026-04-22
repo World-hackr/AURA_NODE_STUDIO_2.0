@@ -1,0 +1,49 @@
+{
+  "moduleId": "3234DBDC80",
+  "title": "Basic Servo",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\basic_servo.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic_servo.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\basic_servo.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\servo_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_3_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "gnd",
+      "description": "ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "vcc",
+      "description": "vcc"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pulse",
+      "description": "pulse"
+    }
+  ]
+}

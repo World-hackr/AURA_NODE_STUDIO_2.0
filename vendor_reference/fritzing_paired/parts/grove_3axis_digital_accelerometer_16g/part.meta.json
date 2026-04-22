@@ -1,0 +1,55 @@
+{
+  "moduleId": "grove_3axis_digital_accelerometer_16g",
+  "title": "Grove 3 Axis Digital Accelerometer 16g",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\seeed_grove_3axis_digital_accelerometer_16g.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\seeed_grove_3axis_digital_accelerometer_16g_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\seeed_grove_3axis_digital_accelerometer_16g_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\seeed_grove_generic_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\seeed_grove_generic_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    }
+  ]
+}

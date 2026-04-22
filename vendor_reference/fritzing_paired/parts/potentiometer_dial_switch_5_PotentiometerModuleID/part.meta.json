@@ -1,0 +1,56 @@
+{
+  "moduleId": "potentiometer_dial_switch_5_PotentiometerModuleID",
+  "title": "25mm Dial Potentiometer with switch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\potentiometer_dial_switch_5.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\potentiometer_dial_with_switch_5_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\potentiometer_dial_with_switch_5_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\potentiometer_dial_with_switch_5_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "leg1",
+      "description": "leg1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "wiper",
+      "description": "wiper"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "leg2",
+      "description": "leg2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "switch leg1",
+      "description": "leg 1 of switch"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "switch leg2",
+      "description": "leg 2 of switch"
+    }
+  ]
+}

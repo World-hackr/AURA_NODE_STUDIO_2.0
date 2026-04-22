@@ -1,0 +1,85 @@
+{
+  "moduleId": "adafruit_bc0ba015bf34e54442f6b0e52cf72368_13_52",
+  "title": "Adafruit INA169 Analog DC Current Sensor Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_bc0ba015bf34e54442f6b0e52cf72368_13_52.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_153b0d899874580ecaa5d96af76eddfc_1_breadboard_52.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_153b0d899874580ecaa5d96af76eddfc_1_schematic_52.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_153b0d899874580ecaa5d96af76eddfc_1_pcb_52.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_153b0d899874580ecaa5d96af76eddfc_1_icon_52.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "VIN-",
+      "description": "VIN-"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "VIN+",
+      "description": "VIN+"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VIN-",
+      "description": "VIN-"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VIN+",
+      "description": "VIN+"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

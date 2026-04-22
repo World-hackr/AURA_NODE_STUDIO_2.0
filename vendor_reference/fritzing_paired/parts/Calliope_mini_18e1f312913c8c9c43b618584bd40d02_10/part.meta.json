@@ -1,0 +1,313 @@
+{
+  "moduleId": "Calliope_mini_18e1f312913c8c9c43b618584bd40d02_10",
+  "title": "Calliope Mini V 1.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Calliope_mini_V_1_0.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Calliope_mini_V_1_0_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Calliope_mini_V_1_0_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Calliope_mini_V_1_0_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Calliope_mini_V_1_0_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 47,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "3V3",
+      "description": "+3,3V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "C18",
+      "description": "C18/SDA"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "C16",
+      "description": "C16/RX"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "C14",
+      "description": "C14"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "C12",
+      "description": "C12"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "C10",
+      "description": "C10"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "C8",
+      "description": "C8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "C6",
+      "description": "C6"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "C4",
+      "description": "C4"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "C2",
+      "description": "C2/P2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "C0",
+      "description": "C0/P0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Vin",
+      "description": "Vin +9V"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "MA",
+      "description": "MA"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "MB",
+      "description": "MB"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "3V3",
+      "description": "+3,3V"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "C1",
+      "description": "C1/P1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "C3",
+      "description": "C3/P3"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "C5",
+      "description": "C5"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "C7",
+      "description": "C7"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "C9",
+      "description": "C9"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "C11",
+      "description": "C11"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "C13",
+      "description": "C13"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "C15",
+      "description": "C15"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "C17",
+      "description": "C17/TX"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "C19",
+      "description": "C19/SCL"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "3V3_A1",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "3V3_A2",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "3V3_P",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "GND_A1",
+      "description": "GND"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GND_A2",
+      "description": "GND"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GND_P",
+      "description": "GND"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "P3",
+      "description": "C3/P3"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "P2",
+      "description": "C2/P2"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "P1",
+      "description": "C1/P1"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "P0",
+      "description": "C0/P0"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "SCL_A0",
+      "description": "C19/SCL"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "SDA_A0",
+      "description": "C18/SDA"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "TX_A1",
+      "description": "C17/TX"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "RX_A1",
+      "description": "C16/RX"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "GND (BAT-)",
+      "description": "battery connector ground connection"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "BAT+",
+      "description": "battery connector positive connection"
+    }
+  ]
+}

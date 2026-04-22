@@ -1,0 +1,181 @@
+{
+  "moduleId": "Adafruit-_7f747447faf6580bacd04f6913797d47_1_DF",
+  "title": "Adafruit PCA9546 4-Channel STEMMA QT I2C Multiplexer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_7f747447faf6580bacd04f6913797d47_1_DF.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_7f747447faf6580bacd04f6913797d47_1_breadboard_DF.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_7f747447faf6580bacd04f6913797d47_1_schematic_DF.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_7f747447faf6580bacd04f6913797d47_1_pcb_DF.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_7f747447faf6580bacd04f6913797d47_1_icon_DF.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 25,
+  "connectors": [
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "0SDA",
+      "description": "0SDA"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "0SCL",
+      "description": "0SCL"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "1SDA",
+      "description": "1SDA"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "1SCL",
+      "description": "1SCL"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "2SDA",
+      "description": "2SDA"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "2SCL",
+      "description": "2SCL"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "3SDA",
+      "description": "3SDA"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "3SCL",
+      "description": "3SCL"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

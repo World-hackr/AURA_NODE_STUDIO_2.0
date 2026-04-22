@@ -1,0 +1,85 @@
+{
+  "moduleId": "c04a5dd707ca537800655cb3aa4b2048",
+  "title": "DIN-5 jack (MIDI)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\din-5_midi_connector.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\din-5_midi_connector.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\din-5_midi_connector.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\din-5_midi_connector.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DIN5_midi_5_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "2",
+      "description": "Pin 2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "4",
+      "description": "Pin 4"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "1",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "3",
+      "description": "Pin 3"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "5",
+      "description": "Pin 5"
+    }
+  ]
+}

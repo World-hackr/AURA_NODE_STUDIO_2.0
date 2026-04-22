@@ -1,0 +1,38 @@
+{
+  "moduleId": "b0e55b1d0b90f35f7ce4a2221e985a35",
+  "title": "Reed switch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\reed switch.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\reed_switch.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\reed_switch.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\axial_lay_500mil.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "Pin 2"
+    }
+  ]
+}

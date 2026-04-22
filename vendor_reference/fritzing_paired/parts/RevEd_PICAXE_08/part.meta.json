@@ -1,0 +1,79 @@
+{
+  "moduleId": "RevEd_PICAXE_08",
+  "title": "PICAXE-08",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PICAXE_08.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PICAXE_08_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PICAXE_08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PICAXE_08_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Serial In",
+      "description": "Connect to the 22K resistor of the PICAXE download circuit"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "In/Out 4",
+      "description": "This pin can be used as a digital input and a digital output"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "In 3",
+      "description": "This pin can be used as a digital input"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "In/Out 2",
+      "description": "This pin can be used as a digital input and a digital output"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "In/Out 1",
+      "description": "This pin can be used as a digital input and a digital output"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Serial Out / Out 0",
+      "description": "Connect to the output pin of the download connector for the PICAXE download circuit. This pin can be used as a digital output"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    }
+  ]
+}

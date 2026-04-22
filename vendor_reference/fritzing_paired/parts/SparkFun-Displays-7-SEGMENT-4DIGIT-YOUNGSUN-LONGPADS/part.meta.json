@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-Displays-7-SEGMENT-4DIGIT-YOUNGSUN-LONGPADS",
+  "title": "7-SEGMENT-4DIGIT-YOUNGSUN",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-displays-7-segment-4digit-youngsun-longpads.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-displays_7-segment-4digit-youngsun-longpads_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-displays_7-segment-4digit-youngsun_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-displays_7-segment-4digit-youngsun-longpads_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-displays_7-segment-4digit-youngsun-longpads_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "APOS-A",
+      "description": "APOS-A"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "APOS-C",
+      "description": "APOS-C"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "COL-A",
+      "description": "COL-A"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "COL-C",
+      "description": "COL-C"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D",
+      "description": "D"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "DIG1",
+      "description": "DIG1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DIG2",
+      "description": "DIG2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DIG3",
+      "description": "DIG3"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DIG4",
+      "description": "DIG4"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DP",
+      "description": "DP"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "E",
+      "description": "E"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "F",
+      "description": "F"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "G",
+      "description": "G"
+    }
+  ]
+}

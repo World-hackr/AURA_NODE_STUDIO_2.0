@@ -1,0 +1,79 @@
+{
+  "moduleId": "a59353bd0db0225dc22770e292c622f3",
+  "title": "LM 358 Dual Op-Amp",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\lm358.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\lm358icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lm358_bread.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lm358_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "Ground"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "Non-Inverting Input B"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "Inverting Input B"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Pin 7",
+      "description": "Output B"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Pin 8",
+      "description": "V+"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "Output A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "Inverting Input A"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "Non-Inverting Input A"
+    }
+  ]
+}

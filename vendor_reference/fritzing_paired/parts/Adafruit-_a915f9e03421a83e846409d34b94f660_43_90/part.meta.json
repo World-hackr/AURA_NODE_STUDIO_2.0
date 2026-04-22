@@ -1,0 +1,97 @@
+{
+  "moduleId": "Adafruit-_a915f9e03421a83e846409d34b94f660_43_90",
+  "title": "Adafruit RGB LCD Shield Rev B",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_a915f9e03421a83e846409d34b94f660_43_90.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_a915f9e03421a83e846409d34b94f660_43_90_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_a915f9e03421a83e846409d34b94f660_43_90_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_a915f9e03421a83e846409d34b94f660_43_90_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_a915f9e03421a83e846409d34b94f660_43_90_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector95",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector123",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector100",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector101",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector122",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector121",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector120",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector117",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector118",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector119",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

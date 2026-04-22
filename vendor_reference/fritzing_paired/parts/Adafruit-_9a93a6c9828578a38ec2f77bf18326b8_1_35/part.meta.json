@@ -1,0 +1,67 @@
+{
+  "moduleId": "Adafruit-_9a93a6c9828578a38ec2f77bf18326b8_1_35",
+  "title": "Adafruit 555 PWM Output STEMMA",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_9a93a6c9828578a38ec2f77bf18326b8_1_35.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_9a93a6c9828578a38ec2f77bf18326b8_1_35_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_9a93a6c9828578a38ec2f77bf18326b8_1_35_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_9a93a6c9828578a38ec2f77bf18326b8_1_35_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_9a93a6c9828578a38ec2f77bf18326b8_1_35_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

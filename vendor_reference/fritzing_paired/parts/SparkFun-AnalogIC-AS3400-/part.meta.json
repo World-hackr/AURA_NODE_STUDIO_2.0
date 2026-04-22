@@ -1,0 +1,181 @@
+{
+  "moduleId": "SparkFun-AnalogIC-AS3400-",
+  "title": "AS3400",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-as3400-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_qfn-24_alt2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_as3400_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_qfn-24_alt2_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_qfn-24_alt2_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 25,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "CPN",
+      "description": "CPN"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "CPP",
+      "description": "CPP"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "HPL",
+      "description": "HPL"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "HPR",
+      "description": "HPR"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "HPVDD",
+      "description": "HPVDD"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "IOP1R",
+      "description": "IOP1R"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "IOP2R",
+      "description": "IOP2R"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "LINL",
+      "description": "LINL"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "LINR",
+      "description": "LINR"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "MICL",
+      "description": "MICL"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "MICR",
+      "description": "MICR"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "MICS",
+      "description": "MICS"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "MODE_CSCL",
+      "description": "MODE_CSCL"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "PAD",
+      "description": "PAD"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "QLINR",
+      "description": "QLINR"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "QMICL",
+      "description": "QMICL"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "QMICR",
+      "description": "QMICR"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "QOP1R",
+      "description": "QOP1R"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "QOP2R",
+      "description": "QOP2R"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VNEG",
+      "description": "VNEG"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VOL_CSDA",
+      "description": "VOL_CSDA"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

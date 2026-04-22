@@ -1,0 +1,175 @@
+{
+  "moduleId": "Adafruit-_0c3c88ef192b7b9e98daa060c16ddb46_1_65",
+  "title": "Adafruit NeoTrellis M4 Express",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_0c3c88ef192b7b9e98daa060c16ddb46_1_65.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_0c3c88ef192b7b9e98daa060c16ddb46_1_breadboard_65.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_0c3c88ef192b7b9e98daa060c16ddb46_1_schematic_65.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_0c3c88ef192b7b9e98daa060c16ddb46_1_pcb_65.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_0c3c88ef192b7b9e98daa060c16ddb46_1_icon_65.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector189",
+      "type": "pad",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector194",
+      "type": "pad",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector199",
+      "type": "pad",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector204",
+      "type": "pad",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector188",
+      "type": "pad",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector193",
+      "type": "pad",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector198",
+      "type": "pad",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector203",
+      "type": "pad",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector191",
+      "type": "pad",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector196",
+      "type": "pad",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector201",
+      "type": "pad",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector206",
+      "type": "pad",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector192",
+      "type": "pad",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector197",
+      "type": "pad",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector202",
+      "type": "pad",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector207",
+      "type": "pad",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector190",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector195",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector200",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector205",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-DigitalIC-MAX7456-GROUNDPAD",
+  "title": "MAX7456",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-max7456-groundpad.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tssop28-groundpad_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_max7456_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_tssop28-groundpad_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tssop28-groundpad_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CLKIN",
+      "description": "CLKIN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CLKOUT",
+      "description": "CLKOUT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DIN",
+      "description": "DIN"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DVDD",
+      "description": "DVDD"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "LOS",
+      "description": "LOS"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "PGND",
+      "description": "PGND"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "PVDD",
+      "description": "PVDD"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "SAG",
+      "description": "SAG"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "VOUT",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "XFB",
+      "description": "XFB"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "~CS",
+      "description": "~CS"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "~HSYNC",
+      "description": "~HSYNC"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "~RESET",
+      "description": "~RESET"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "~VSYNC",
+      "description": "~VSYNC"
+    }
+  ]
+}

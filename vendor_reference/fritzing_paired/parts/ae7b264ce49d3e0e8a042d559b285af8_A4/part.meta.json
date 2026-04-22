@@ -1,0 +1,43 @@
+{
+  "moduleId": "ae7b264ce49d3e0e8a042d559b285af8_A4",
+  "title": "4xAA Switchable Battery Pack w/JST connector",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\4xAA_Switchable_Battery_Pack_w_JST_connector__74f0f194e535f309bdb7f7b45398bd99_A4.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\4xAA_Switchable_Battery_Pack_w_JST_conne__icon__c4a5dbcedf93e528b10dd9734c100ec5_A4.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\4xAA_Switchable_Battery_Pack_w_JST_conne__breadboard__ccb01dc6970cf2e65ead1a93d392c07a_A4.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\4xAA_Switchable_Battery_Pack_w_JST_conne__schematic__308d365494b250c4b7b5cbf65f2cb3bf_A4.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\4xAA_Switchable_Battery_Pack_w_JST_conne__pcb__c7de84521122051dcffc8cd1d26f714a_A4.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "POS",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "NEG",
+      "description": "no description yet"
+    }
+  ]
+}

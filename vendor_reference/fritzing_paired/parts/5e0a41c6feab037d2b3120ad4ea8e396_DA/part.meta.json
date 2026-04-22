@@ -1,0 +1,61 @@
+{
+  "moduleId": "5e0a41c6feab037d2b3120ad4ea8e396_DA",
+  "title": "Rotary Encoder with Knob",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Rotary_Encoder_with_Knob__7b11449cc823aa59093ad261b18d4ed2_DA.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Rotary_Encoder_with_Knob__7b11449cc823aa__icon__d8d9591d3b7850d6f1cee5b431174cc7_DA.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Rotary_Encoder_with_Knob__7b11449cc823aa__breadboard__a79e98d8c2f7a328c2698f7e8ab0ea3d_DA.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Rotary_Encoder_with_Knob__7b11449cc823aa__schematic__e2f78447a8c6ef15a0aa9d70cd784e24_DA.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Rotary_Encoder_with_Knob__7b11449cc823aa__pcb__70fa53afb27bf6fb6ceb77d9557646a5_DA.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    }
+  ]
+}

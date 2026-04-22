@@ -1,0 +1,79 @@
+{
+  "moduleId": "Subminiature_Rotary_Switch_RM-series",
+  "title": "RM-series Subminiature Rotary Switch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Subminiature_Rotary_Switch_RM-series.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Subminiature_Rotary_Switch_RM-series_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Subminiature_Rotary_Switch_RM-series_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Subminiature_Rotary_Switch_RM-series_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Subminiature_Rotary_Switch_RM-series_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "0",
+      "description": "C"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "3",
+      "description": "3"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "4",
+      "description": "4"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "5",
+      "description": "5"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "6",
+      "description": "6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "7",
+      "description": "7"
+    }
+  ]
+}

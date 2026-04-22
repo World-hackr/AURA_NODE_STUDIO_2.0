@@ -1,0 +1,127 @@
+{
+  "moduleId": "Adafruit-_817a25fefc5791e61d1254945976f8c8_13_6E",
+  "title": "Adafruit USB Type C Vertical Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_817a25fefc5791e61d1254945976f8c8_13_6E.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_817a25fefc5791e61d1254945976f8c8_13_6E_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_817a25fefc5791e61d1254945976f8c8_13_6E_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_817a25fefc5791e61d1254945976f8c8_13_6E_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_817a25fefc5791e61d1254945976f8c8_13_6E_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "CC1",
+      "description": "CC1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CC1",
+      "description": "CC1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "CC2",
+      "description": "CC2"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "CC2",
+      "description": "CC2"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SBU2",
+      "description": "SBU2"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SBU2",
+      "description": "SBU2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SBU1",
+      "description": "SBU1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "SBU1",
+      "description": "SBU1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "moduleId": "SparkFun-DigitalIC-NAND256-",
+  "title": "NAND256",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-nand256-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tsop48_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_nand256_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_tsop48_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tsop48_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 19,
+  "connectors": [
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "AL",
+      "description": "AL"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "CL",
+      "description": "CL"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "IO0",
+      "description": "IO0"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "IO1",
+      "description": "IO1"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "IO2",
+      "description": "IO2"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "IO3",
+      "description": "IO3"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "IO4",
+      "description": "IO4"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "IO5",
+      "description": "IO5"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "IO6",
+      "description": "IO6"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "IO7",
+      "description": "IO7"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RXB",
+      "description": "RXB"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VDD1",
+      "description": "VDD1"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "VDD2",
+      "description": "VDD2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VSS1",
+      "description": "VSS1"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "VSS2",
+      "description": "VSS2"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "XE",
+      "description": "XE"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "XR",
+      "description": "XR"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "XW",
+      "description": "XW"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "XWP",
+      "description": "XWP"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "moduleId": "SparkFun-Connectors-M12-MACHINE-PIN_LOCK",
+  "title": "Header 12",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-m12-machine-pin_lock.fzp",
+  "copiedViews": [
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_1x12_machine-pin-header_lock.004_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_1x12_machine-pin-header_lock.004_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_female_pin_header_12_100mil_bread.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "schematic/generic_female_pin_header_12_100mil_10thin_schematic.svg"
+    }
+  ],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "10",
+      "description": "10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "11",
+      "description": "11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "12",
+      "description": "12"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "3",
+      "description": "3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "4",
+      "description": "4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "5",
+      "description": "5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "6",
+      "description": "6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "7",
+      "description": "7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "8",
+      "description": "8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "9",
+      "description": "9"
+    }
+  ]
+}

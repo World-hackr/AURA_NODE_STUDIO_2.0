@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-PowerIC-LM2621-SMD",
+  "title": "LM2621",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-lm2621-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_msop-8_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_lm2621_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_msop-8_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_msop-8_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "BOOT",
+      "description": "BOOT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "FB",
+      "description": "FB"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "FREQ",
+      "description": "FREQ"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "PGND",
+      "description": "PGND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SGND",
+      "description": "SGND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

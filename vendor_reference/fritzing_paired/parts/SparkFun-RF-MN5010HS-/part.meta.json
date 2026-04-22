@@ -1,0 +1,139 @@
+{
+  "moduleId": "SparkFun-RF-MN5010HS-",
+  "title": "MN5010HS",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-mn5010hs-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_gr-10_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_mn5010hs_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_gr-10_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\GR-10.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "1PPS",
+      "description": "1PPS"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "ANT",
+      "description": "ANT"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "BATT",
+      "description": "BATT"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND11",
+      "description": "GND11"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND24",
+      "description": "GND24"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GND27",
+      "description": "GND27"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GND29",
+      "description": "GND29"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GND31",
+      "description": "GND31"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND4",
+      "description": "GND4"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "NAV",
+      "description": "NAV"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "NMR",
+      "description": "NMR"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "ONOFF",
+      "description": "ONOFF"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "OPT1",
+      "description": "OPT1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OPT2",
+      "description": "OPT2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RX-I",
+      "description": "RX-I"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TX-O",
+      "description": "TX-O"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VIO",
+      "description": "VIO"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "moduleId": "Fairchild_MBR745",
+  "title": "MBR745 Schottky",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Fairchild_MBR745.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Fairchild_MBR745_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Fairchild_MBR745_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Fairchild_MBR745_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Fairchild_MBR745_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Cathode",
+      "description": "cathode"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Anode",
+      "description": "anode"
+    }
+  ]
+}

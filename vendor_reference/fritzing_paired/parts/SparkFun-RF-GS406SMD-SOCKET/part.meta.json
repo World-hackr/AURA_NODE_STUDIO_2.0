@@ -1,0 +1,91 @@
+{
+  "moduleId": "SparkFun-RF-GS406SMD-SOCKET",
+  "title": "GS406SMD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-gs406smd-socket.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_gs406smd_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_gs406smd_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_gs406smd_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\gs406smd.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "P1",
+      "description": "P1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P10",
+      "description": "P10"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P2",
+      "description": "P2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "P3",
+      "description": "P3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "P4",
+      "description": "P4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P5",
+      "description": "P5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "P6",
+      "description": "P6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P7",
+      "description": "P7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P8",
+      "description": "P8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "P9",
+      "description": "P9"
+    }
+  ]
+}

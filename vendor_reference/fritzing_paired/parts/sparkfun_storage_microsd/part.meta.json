@@ -1,0 +1,73 @@
+{
+  "moduleId": "sparkfun_storage_microsd",
+  "title": "SparkFun - microSD Transflash",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun_storage_microsd.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\sparkfun_storage_microsd_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun_storage_microsd_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun_storage_microsd_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun_storage_microsd_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "ground"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SCK",
+      "description": "serial clock"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VCC",
+      "description": "voltage collector collector - IC power supply pin"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DI",
+      "description": "data in"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CS",
+      "description": "card select"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "CD",
+      "description": "card detect"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DO",
+      "description": "data out"
+    }
+  ]
+}

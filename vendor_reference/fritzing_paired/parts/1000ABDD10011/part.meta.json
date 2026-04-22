@@ -1,0 +1,33 @@
+{
+  "moduleId": "1000ABDD10011",
+  "title": "Basic Force Sensing Resistor (FSR)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\basic_fsr_4.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\basic_fsr.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_2_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 0",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 1",
+      "description": "Pin 2"
+    }
+  ]
+}

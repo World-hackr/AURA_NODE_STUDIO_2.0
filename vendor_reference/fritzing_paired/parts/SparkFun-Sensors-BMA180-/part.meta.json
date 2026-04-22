@@ -1,0 +1,103 @@
+{
+  "moduleId": "SparkFun-Sensors-BMA180-",
+  "title": "BMA180",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-bma180-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_lga12_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_bma180_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_lga12_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_lga12_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CSB",
+      "description": "CSB"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "NC1",
+      "description": "NC1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "NC2",
+      "description": "NC2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "NC3",
+      "description": "NC3"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SDI",
+      "description": "SDI"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SDO",
+      "description": "SDO"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VDDIO",
+      "description": "VDDIO"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

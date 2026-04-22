@@ -1,0 +1,79 @@
+{
+  "moduleId": "AnalogDevices_AD8561ANZ",
+  "title": "AD8561 - Ultrafast 7ns Single Supply Comparator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_AD8561.AnalogDevices_AD8561ANZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AD8561.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\AD8561.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\AD8561.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AD8561.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "+IN",
+      "description": "+IN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-IN",
+      "description": "-IN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "LATCH",
+      "description": "LATCH"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "OUTB",
+      "description": "OUTB"
+    }
+  ]
+}

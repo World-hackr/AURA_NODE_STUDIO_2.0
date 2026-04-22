@@ -1,0 +1,73 @@
+{
+  "moduleId": "TMP007_23c660327358d868d26e16a9d991f3c3_15_7A",
+  "title": "TMP007 Thermopile Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\TMP007_23c660327358d868d26e16a9d991f3c3_15_7A.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\TMP007_bf0f2cc2d4b766e595e38d201b4ea822_1_breadboard_7A.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\TMP007_bf0f2cc2d4b766e595e38d201b4ea822_1_schematic_7A.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\TMP007_bf0f2cc2d4b766e595e38d201b4ea822_1_pcb_7A.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\TMP007_bf0f2cc2d4b766e595e38d201b4ea822_1_icon_7A.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "ALERT",
+      "description": "ALERT"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "ADDR1",
+      "description": "ADDR1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "ADDR0",
+      "description": "ADDR0"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "moduleId": "PowerDriver-Shield-v13",
+  "title": "Arduino Power Driver Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PowerDriver-Shield-v13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PowerDriver-Shield-v13_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PowerDriver-Shield-v13_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\PowerDriver-Shield-v13_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PowerDriver-Shield-v13_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "D11-5V",
+      "description": "D11-5V"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "D10-5V",
+      "description": "D10-5V"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "D9-5V",
+      "description": "D9-5V"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "D6-12V",
+      "description": "D6-12V"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "12V",
+      "description": "12V"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "D5-12V",
+      "description": "D5-12V"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "12V",
+      "description": "12V"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "D3-12V",
+      "description": "D3-12V"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "12V",
+      "description": "12V"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "5V_ARDUINO",
+      "description": "5V_ARDUINO"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector103",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector104",
+      "type": "female",
+      "name": "D6",
+      "description": "D6"
+    },
+    {
+      "id": "connector105",
+      "type": "female",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector106",
+      "type": "female",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "connector107",
+      "type": "female",
+      "name": "D9",
+      "description": "D9"
+    },
+    {
+      "id": "connector108",
+      "type": "female",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector109",
+      "type": "female",
+      "name": "D11",
+      "description": "D11"
+    },
+    {
+      "id": "connector110",
+      "type": "female",
+      "name": "D12",
+      "description": "D12"
+    },
+    {
+      "id": "connector111",
+      "type": "female",
+      "name": "D13",
+      "description": "D13"
+    },
+    {
+      "id": "connector112",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector113",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector114",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector115",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector116",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector117",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector118",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    }
+  ]
+}

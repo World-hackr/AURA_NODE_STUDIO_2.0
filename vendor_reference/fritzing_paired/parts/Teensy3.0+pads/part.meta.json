@@ -1,0 +1,337 @@
+{
+  "moduleId": "Teensy3.0+pads",
+  "title": "Teensy 3.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Teensy 3.0+pads.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Teensy_3.0_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Teensy_3.0+pads_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Teensy_3.0+pads_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Teensy_3.0+pads_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 51,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "3V3",
+      "description": "3.3V Input"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "D6",
+      "description": "Digital Inpout/Output and PWM"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "D7",
+      "description": "Digital Inpout/Output and RX3"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "Program",
+      "description": "Program"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "D8",
+      "description": "Digital Inpout/Output and TX3"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "Reset",
+      "description": "Reset"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "D13",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "A0/D14",
+      "description": "Analog Input/Digital I/O"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "A1/D15",
+      "description": "Analog Input/Digital I/O"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "A2/D16",
+      "description": "Analog Input/Digital I/O"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "A3/D17",
+      "description": "Analog Input/Digital I/O"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "A4/D18",
+      "description": "Analog Input/Digital I/O - SDA"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "A5/D19",
+      "description": "Analog Input/Digital I/O - SCL"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "A6/D20",
+      "description": "Analog Input/Digital I/O, PWM"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "A7/D21",
+      "description": "Analog Input/Digital I/O, PWM"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "A8/D22",
+      "description": "Analog Input/Digital I/O, PWM"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "A9/D23",
+      "description": "Analog Input/Digital I/O, PWM"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "3V3",
+      "description": "+3.3V Input (100mA max)"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "D0",
+      "description": "Digital I/O and RX1"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "D9",
+      "description": "Digital I/O, PWM and RX2"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "D1",
+      "description": "Digital I/O and TX1"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "D2",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "D10",
+      "description": "Digital I/O, PWM and TX2"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "D3",
+      "description": "Digital I/O and PWM"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "D11",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "D4",
+      "description": "Digital I/O and PWM"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "D12",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "D5",
+      "description": "Digital I/O and PWM"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "VBat",
+      "description": "Voltage Input, use 3V coin cell for real time clock"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "AGND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "Vin",
+      "description": "3.7V to 5.5V"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "A11",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "A10",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "AREF",
+      "description": "Aref"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "VUSB",
+      "description": "VUSB"
+    },
+    {
+      "id": "connector37",
+      "type": "pad",
+      "name": "D24",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector38",
+      "type": "pad",
+      "name": "D25",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector39",
+      "type": "pad",
+      "name": "D26",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector40",
+      "type": "pad",
+      "name": "D27",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector41",
+      "type": "pad",
+      "name": "D28",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector42",
+      "type": "pad",
+      "name": "D29",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector43",
+      "type": "pad",
+      "name": "D30",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector44",
+      "type": "pad",
+      "name": "D31",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector45",
+      "type": "pad",
+      "name": "D32",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector46",
+      "type": "pad",
+      "name": "D33",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector47",
+      "type": "pad",
+      "name": "A12",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector48",
+      "type": "pad",
+      "name": "A13",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector49",
+      "type": "pad",
+      "name": "GND",
+      "description": "Ground Pad"
+    },
+    {
+      "id": "connector50",
+      "type": "pad",
+      "name": "3V3",
+      "description": "3.3V input Voltage"
+    }
+  ]
+}

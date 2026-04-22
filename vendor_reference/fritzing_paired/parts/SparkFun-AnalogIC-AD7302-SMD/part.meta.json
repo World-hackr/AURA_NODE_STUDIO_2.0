@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-AnalogIC-AD7302-SMD",
+  "title": "AD7302",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-ad7302-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_tssop20_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_ad7302_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_tssop20_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_tssop20_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "AB",
+      "description": "AB"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "CLR",
+      "description": "CLR"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DB0",
+      "description": "DB0"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DB1",
+      "description": "DB1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DB2",
+      "description": "DB2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DB3",
+      "description": "DB3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DB4",
+      "description": "DB4"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DB5",
+      "description": "DB5"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DB6",
+      "description": "DB6"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "DB7",
+      "description": "DB7"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "LDAC",
+      "description": "LDAC"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PD",
+      "description": "PD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "REFIN",
+      "description": "REFIN"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VOUTA",
+      "description": "VOUTA"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VOUTB",
+      "description": "VOUTB"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "WR",
+      "description": "WR"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "moduleId": "SparkFun-Connectors-USB-MINIB--5PIN",
+  "title": "Mini-USB _B_ connector with 5th pin broken out.",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-usb-minib--5pin.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_usb-minib_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_usb-5pin_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_usb-minib_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\USB-MINIB.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "ID",
+      "description": "ID"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "MTN1",
+      "description": "MTN1"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "MTN2",
+      "description": "MTN2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "MTN3",
+      "description": "MTN3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "MTN4",
+      "description": "MTN4"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "moduleId": "32mm_8x8_dot_matrix_column_cathode_led_display_narrow_pad",
+  "title": "32mm 8x8 dot matrix column cathode led display with narrow pcb pads",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\32mm_8x8_dot_matrix_column_cathode_led_display_narrow_pad.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\8x8_dot_matrix_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\32mm_8x8_dot_matrix_DIP_16_945mil_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\8x8_column_cathode_led_matrix_16_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\32x32mm_DIP_16_945mil_narrow_pad_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "row 5"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "row 7"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 3",
+      "description": "column 2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "column 3"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 5",
+      "description": "row 8"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 6",
+      "description": "column 5"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 7",
+      "description": "row 6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 8",
+      "description": "row 3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 9",
+      "description": "row 1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 10",
+      "description": "column 4"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 11",
+      "description": "column 6"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin 12",
+      "description": "row 4"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin 13",
+      "description": "column 1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin 14",
+      "description": "row 2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin 15",
+      "description": "column 7"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin 16",
+      "description": "column 8"
+    }
+  ]
+}

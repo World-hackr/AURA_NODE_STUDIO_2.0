@@ -1,0 +1,223 @@
+{
+  "moduleId": "WeMos_D1_Mini_Dual_Base_Shield_no_headers",
+  "title": "WeMos D1 Mini Dual Base Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\WeMos-D1-mini-Dual-Base-Shield-no-headers.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WeMos-D1-mini-Dual-Base-Shield-no-headers_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WeMos-D1-mini-Dual-Base-Shield-no-headers_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\WeMos-D1-mini-Dual-Base-Shield_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\WeMos-D1-mini-Dual-Base-Shield_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 32,
+  "connectors": [
+    {
+      "id": "rst-left",
+      "type": "female",
+      "name": "RST Left",
+      "description": "RST Left"
+    },
+    {
+      "id": "a0-left",
+      "type": "female",
+      "name": "A0 Left",
+      "description": "A0 Left"
+    },
+    {
+      "id": "d0-left",
+      "type": "female",
+      "name": "D0 Left",
+      "description": "D0 Left"
+    },
+    {
+      "id": "d5-left",
+      "type": "female",
+      "name": "D5 Left",
+      "description": "D5 Left"
+    },
+    {
+      "id": "d6-left",
+      "type": "female",
+      "name": "D6 Left",
+      "description": "D6 Left"
+    },
+    {
+      "id": "d7-left",
+      "type": "female",
+      "name": "D7 Left",
+      "description": "D7 Left"
+    },
+    {
+      "id": "d8-left",
+      "type": "female",
+      "name": "D8 Left",
+      "description": "D8 Left"
+    },
+    {
+      "id": "3v3-left",
+      "type": "female",
+      "name": "3V3 Left",
+      "description": "3V3 Left"
+    },
+    {
+      "id": "5v-left",
+      "type": "female",
+      "name": "5V Left",
+      "description": "5V Left"
+    },
+    {
+      "id": "g-left",
+      "type": "female",
+      "name": "G Left",
+      "description": "G Left"
+    },
+    {
+      "id": "d4-left",
+      "type": "female",
+      "name": "D4 Left",
+      "description": "D4 Left"
+    },
+    {
+      "id": "d3-left",
+      "type": "female",
+      "name": "D3 Left",
+      "description": "D3 Left"
+    },
+    {
+      "id": "d2-left",
+      "type": "female",
+      "name": "D2 Left",
+      "description": "D2 Left"
+    },
+    {
+      "id": "d1-left",
+      "type": "female",
+      "name": "D1 Left",
+      "description": "D1 Left"
+    },
+    {
+      "id": "rx-left",
+      "type": "female",
+      "name": "RX Left",
+      "description": "RX Left"
+    },
+    {
+      "id": "tx-left",
+      "type": "female",
+      "name": "TX Left",
+      "description": "TX Left"
+    },
+    {
+      "id": "rst-right",
+      "type": "female",
+      "name": "RST Right",
+      "description": "RST Right"
+    },
+    {
+      "id": "a0-right",
+      "type": "female",
+      "name": "A0 Right",
+      "description": "A0 Right"
+    },
+    {
+      "id": "d0-right",
+      "type": "female",
+      "name": "D0 Right",
+      "description": "D0 Right"
+    },
+    {
+      "id": "d5-right",
+      "type": "female",
+      "name": "D5 Right",
+      "description": "D5 Right"
+    },
+    {
+      "id": "d6-right",
+      "type": "female",
+      "name": "D6 Right",
+      "description": "D6 Right"
+    },
+    {
+      "id": "d7-right",
+      "type": "female",
+      "name": "D7 Right",
+      "description": "D7 Right"
+    },
+    {
+      "id": "d8-right",
+      "type": "female",
+      "name": "D8 Right",
+      "description": "D8 Right"
+    },
+    {
+      "id": "3v3-right",
+      "type": "female",
+      "name": "3V3 Right",
+      "description": "3V3 Right"
+    },
+    {
+      "id": "5v-right",
+      "type": "female",
+      "name": "5V Right",
+      "description": "5V Right"
+    },
+    {
+      "id": "g-right",
+      "type": "female",
+      "name": "G Right",
+      "description": "G Right"
+    },
+    {
+      "id": "d4-right",
+      "type": "female",
+      "name": "D4 Right",
+      "description": "D4 Right"
+    },
+    {
+      "id": "d3-right",
+      "type": "female",
+      "name": "D3 Right",
+      "description": "D3 Right"
+    },
+    {
+      "id": "d2-right",
+      "type": "female",
+      "name": "D2 Right",
+      "description": "D2 Right"
+    },
+    {
+      "id": "d1-right",
+      "type": "female",
+      "name": "D1 Right",
+      "description": "D1 Right"
+    },
+    {
+      "id": "rx-right",
+      "type": "female",
+      "name": "RX Right",
+      "description": "RX Right"
+    },
+    {
+      "id": "tx-right",
+      "type": "female",
+      "name": "TX Right",
+      "description": "TX Right"
+    }
+  ]
+}

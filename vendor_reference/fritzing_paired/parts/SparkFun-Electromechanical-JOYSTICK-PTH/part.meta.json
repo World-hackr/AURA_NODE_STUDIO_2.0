@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Electromechanical-JOYSTICK-PTH",
+  "title": "Thumb Joystick",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-joystick-pth.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_joystick_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_joystick_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_joystick_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\JOYSTICK.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "H",
+      "description": "H"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "H+",
+      "description": "H+"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "H-",
+      "description": "H-"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SEL+",
+      "description": "SEL+"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SEL-",
+      "description": "SEL-"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "V",
+      "description": "V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    }
+  ]
+}

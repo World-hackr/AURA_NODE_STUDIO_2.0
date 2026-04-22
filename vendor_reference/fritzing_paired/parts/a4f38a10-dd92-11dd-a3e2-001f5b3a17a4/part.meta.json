@@ -1,0 +1,127 @@
+{
+  "moduleId": "a4f38a10-dd92-11dd-a3e2-001f5b3a17a4",
+  "title": "H-Bridge",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\h-bridge.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\h-bridge_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\h-bridge.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\h-bridge_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_16_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND1",
+      "description": "Heat Sink and Ground"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC1",
+      "description": "Separate Supply Voltage (for logic circuit)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND2",
+      "description": "Heat Sink and Ground"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "2Y",
+      "description": "Output 2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "2A",
+      "description": "Control 2"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC2",
+      "description": "Supply Voltage (High Load)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "3,4EN",
+      "description": "Enable 3,4"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "3A",
+      "description": "Control 3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "3Y",
+      "description": "Output 3"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND3",
+      "description": "Heat Sink and Ground"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1,2EN",
+      "description": "Enable 1,2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND4",
+      "description": "Heat Sink and Ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1A",
+      "description": "Control 1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "4Y",
+      "description": "Output 4"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1Y",
+      "description": "Output 1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "4A",
+      "description": "Control 4"
+    }
+  ]
+}

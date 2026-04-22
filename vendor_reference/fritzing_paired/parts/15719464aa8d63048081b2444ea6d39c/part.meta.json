@@ -1,0 +1,103 @@
+{
+  "moduleId": "15719464aa8d63048081b2444ea6d39c",
+  "title": "microSD Socket",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\microSD-socket-molex-502774-0891.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\microSD-socket.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\microSD-socket.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\microSD-socket.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\microSD-socket-molex-502774-0891.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "pad",
+      "name": "NC",
+      "description": "Not connected"
+    },
+    {
+      "id": "connector1",
+      "type": "pad",
+      "name": "CS",
+      "description": "Chip Select"
+    },
+    {
+      "id": "connector2",
+      "type": "pad",
+      "name": "DI",
+      "description": "Digital In (MOSI)"
+    },
+    {
+      "id": "connector3",
+      "type": "pad",
+      "name": "VCC",
+      "description": "Power (3.3V)"
+    },
+    {
+      "id": "connector4",
+      "type": "pad",
+      "name": "SCK",
+      "description": "Serial Clock"
+    },
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "DO",
+      "description": "Digital Out (MISO)"
+    },
+    {
+      "id": "connector7",
+      "type": "pad",
+      "name": "RSV",
+      "description": "Reserved"
+    },
+    {
+      "id": "connector8",
+      "type": "pad",
+      "name": "SHIELD",
+      "description": "Shield"
+    },
+    {
+      "id": "connector9",
+      "type": "pad",
+      "name": "SHIELD",
+      "description": "Shield"
+    },
+    {
+      "id": "connector10",
+      "type": "pad",
+      "name": "SHIELD",
+      "description": "Shield"
+    },
+    {
+      "id": "connector11",
+      "type": "pad",
+      "name": "SHIELD",
+      "description": "Shield"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "moduleId": "Adafruit-_8dc5c3d2642cf405085d4e6ef9666b33_1_B2",
+  "title": "Adafruit MicroLipo Charger v2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_8dc5c3d2642cf405085d4e6ef9666b33_1_B2.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_8dc5c3d2642cf405085d4e6ef9666b33_1_breadboard_B2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_8dc5c3d2642cf405085d4e6ef9666b33_1_schematic_B2.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_8dc5c3d2642cf405085d4e6ef9666b33_1_pcb_B2.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_8dc5c3d2642cf405085d4e6ef9666b33_1_icon_B2.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

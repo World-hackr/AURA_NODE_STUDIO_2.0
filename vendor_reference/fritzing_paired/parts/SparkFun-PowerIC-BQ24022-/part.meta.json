@@ -1,0 +1,97 @@
+{
+  "moduleId": "SparkFun-PowerIC-BQ24022-",
+  "title": "Unproven",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-bq24022-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_drc-10_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_bq24022_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_drc-10_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_drc-10_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "AC",
+      "description": "AC"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "ETP",
+      "description": "ETP"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "ISET1",
+      "description": "ISET1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "ISET2",
+      "description": "ISET2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "STAT1",
+      "description": "STAT1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "STAT2",
+      "description": "STAT2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "USB",
+      "description": "USB"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "~CE",
+      "description": "~CE"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "~PG",
+      "description": "~PG"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "moduleId": "Adafruit-_1d6a13ed47b68439b62684970cb76f4b_1_D7",
+  "title": "Adafruit CH552 QT Py",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_1d6a13ed47b68439b62684970cb76f4b_1_D7.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_1d6a13ed47b68439b62684970cb76f4b_1_D7_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_1d6a13ed47b68439b62684970cb76f4b_1_D7_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_1d6a13ed47b68439b62684970cb76f4b_1_D7_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_1d6a13ed47b68439b62684970cb76f4b_1_D7_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 32,
+  "connectors": [
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "A0/P1.1",
+      "description": "A0/P1.1"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "A0/P1.1",
+      "description": "A0/P1.1"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "A1/P1.4",
+      "description": "A1/P1.4"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "A1/P1.4",
+      "description": "A1/P1.4"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "MOSI/A2/P1.5",
+      "description": "MOSI/A2/P1.5"
+    },
+    {
+      "id": "connector69",
+      "type": "female",
+      "name": "MOSI/A2/P1.5",
+      "description": "MOSI/A2/P1.5"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "P3.2/A3",
+      "description": "P3.2/A3"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "P3.2/A3",
+      "description": "P3.2/A3"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "P3.4/SDA",
+      "description": "P3.4/SDA"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "P3.4/SDA",
+      "description": "P3.4/SDA"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "P3.4/SDA",
+      "description": "P3.4/SDA"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "P3.3/SCL",
+      "description": "P3.3/SCL"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "P3.3/SCL",
+      "description": "P3.3/SCL"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "P3.3/SCL",
+      "description": "P3.3/SCL"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "P3.1/TX",
+      "description": "P3.1/TX"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "P3.1/TX",
+      "description": "P3.1/TX"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "MOSI/A2/P1.5",
+      "description": "MOSI/A2/P1.5"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "MOSI/A2/P1.5",
+      "description": "MOSI/A2/P1.5"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "MISO/P1.6",
+      "description": "MISO/P1.6"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "MISO/P1.6",
+      "description": "MISO/P1.6"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "SCK/P1.7",
+      "description": "SCK/P1.7"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "SCK/P1.7",
+      "description": "SCK/P1.7"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "P3.0/RX",
+      "description": "P3.0/RX"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "P3.0/RX",
+      "description": "P3.0/RX"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

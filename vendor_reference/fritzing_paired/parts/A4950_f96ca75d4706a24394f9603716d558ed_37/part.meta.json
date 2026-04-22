@@ -1,0 +1,79 @@
+{
+  "moduleId": "A4950_f96ca75d4706a24394f9603716d558ed_37",
+  "title": "A4950",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\A4950_37.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\A4950_42.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\A4950_42.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\A4950_42.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\A4950_42.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VREF",
+      "description": "VREF"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VBB",
+      "description": "VBB"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OUT1",
+      "description": "OUT1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "LSS",
+      "description": "LSS"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "IN2",
+      "description": "IN2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "IN1",
+      "description": "IN1"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "OUT2",
+      "description": "OUT2"
+    }
+  ]
+}

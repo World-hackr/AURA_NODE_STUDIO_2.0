@@ -1,0 +1,115 @@
+{
+  "moduleId": "SparkFun-DigitalIC-HEX_CONVERTER-",
+  "title": "HEX_CONVERTER",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-hex_converter-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO16_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_m74hc4050_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_so016_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO16_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1A",
+      "description": "1A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1Y",
+      "description": "1Y"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "2A",
+      "description": "2A"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "2Y",
+      "description": "2Y"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "3A",
+      "description": "3A"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "3Y",
+      "description": "3Y"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "4A",
+      "description": "4A"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "4Y",
+      "description": "4Y"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "5A",
+      "description": "5A"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "5Y",
+      "description": "5Y"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "6A",
+      "description": "6A"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "6Y",
+      "description": "6Y"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

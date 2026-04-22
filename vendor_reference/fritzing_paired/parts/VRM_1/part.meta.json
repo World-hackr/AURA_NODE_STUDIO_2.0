@@ -1,0 +1,134 @@
+{
+  "moduleId": "VRM_1",
+  "title": "VRM",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\VRM_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\VRM_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\VRM_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\VRM_1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "5V_2A_GND0",
+      "description": "5V_2A_GND0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "5V_2A_5V0",
+      "description": "5V_2A_5V0"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "5V_2A_GND1",
+      "description": "5V_2A_GND1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "5V_2A_5V1",
+      "description": "5V_2A_5V1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "5V_500mA_GND0",
+      "description": "5V_500mA_GND0"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "5V_500mA_5V0",
+      "description": "5V_500mA_5V0"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "5V_500mA_GND1",
+      "description": "5V_500mA_GND1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "5V_500mA_5V1",
+      "description": "5V_500mA_5V1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "12V_2A_GND0",
+      "description": "12V_2A_GND0"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "12V_2A_12v0",
+      "description": "12V_2A_12v0"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "12V_2A_GND1",
+      "description": "12V_2A_GND1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "12V_2A_12v1",
+      "description": "12V_2A_12v1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "12V_500mA_GND0",
+      "description": "12V_500mA_GND0"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "12V_500mA_12v0",
+      "description": "12V_500mA_12v0"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "12V_500mA_GND1",
+      "description": "12V_500mA_GND1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "12V_500mA_12v1",
+      "description": "12V_500mA_12v1"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "In12V",
+      "description": "In12V"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "InGnd",
+      "description": "InGnd"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "moduleId": "ti_launchpad-rev1.5",
+  "title": "TI Launchpad MSP430G2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\TI Launchpad MSP430G2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\TI_Launchpad_MSP430G2_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\TI_Launchpad_MSP430G2.1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\TI_Launchpad_MSP430G2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\TI_Launchpad_MSP430G2_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "p3",
+      "description": "P1.1 (TXD)"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "p16",
+      "description": "RESET"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "p17",
+      "description": "TEST"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "p2",
+      "description": "P1.0 (LED1)"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "p18",
+      "description": "XOUT"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "p1",
+      "description": "VCC"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "p19",
+      "description": "XIN"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "p20",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "p10",
+      "description": "P2.2"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "p9",
+      "description": "P2.1"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "p11",
+      "description": "P2.3"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "p8",
+      "description": "P2.0"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "p7",
+      "description": "P1.5"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "p12",
+      "description": "P2.4"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "p6",
+      "description": "P1.4"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "p13",
+      "description": "P2.5"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "p5",
+      "description": "P1.3 (S2)"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "p14",
+      "description": "P1.6"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "p4",
+      "description": "P1.2 (RXD)"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "p15",
+      "description": "P1.7"
+    }
+  ]
+}

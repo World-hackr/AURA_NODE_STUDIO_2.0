@@ -1,0 +1,139 @@
+{
+  "moduleId": "blueIOT_RevB",
+  "title": "blueIOT RevB",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Arduino-BLE-LowPower-RevB-final_5.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino-BLE-LowPower-RevB-final_5_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Arduino-BLE-LowPower-RevB-final_5_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Arduino-BLE-LowPower-RevB-final_5_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino-BLE-LowPower-RevB-final_5_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "connector72",
+      "type": "female",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector74",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "N/C",
+      "description": "N/C"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "SCL/A5",
+      "description": "SCL/A5"
+    },
+    {
+      "id": "connector82",
+      "type": "female",
+      "name": "SCA/A4",
+      "description": "SCA/A4"
+    },
+    {
+      "id": "connector83",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "SCA/A4",
+      "description": "SCA/A4"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "SCL/A5",
+      "description": "SCL/A5"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    }
+  ]
+}

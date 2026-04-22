@@ -1,0 +1,79 @@
+{
+  "moduleId": "ds1809_ic_dip",
+  "title": "DS1809",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ds2809_ic.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ds2809_ic_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ds2809_ic_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ds2809_ic_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ds2809_ic_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RH",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "UC",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "STR",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RL",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RW",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DC",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC",
+      "description": "pin 8"
+    }
+  ]
+}

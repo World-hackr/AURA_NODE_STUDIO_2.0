@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-Connectors-OBDII-",
+  "title": "OBDII",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-obdii-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_obdii_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_obdii_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_obdii_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\OBDII.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "11",
+      "description": "11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "12",
+      "description": "12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "13",
+      "description": "13"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "3",
+      "description": "3"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "8",
+      "description": "8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "9",
+      "description": "9"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "BATTPOWER",
+      "description": "BATTPOWER"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CANHIGH",
+      "description": "CANHIGH"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "CANLOW",
+      "description": "CANLOW"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "CHASGND",
+      "description": "CHASGND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "ISOK-LINE",
+      "description": "ISOK-LINE"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "ISOL-LINE",
+      "description": "ISOL-LINE"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "J1850BUS",
+      "description": "J1850BUS"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "J1850BUS+",
+      "description": "J1850BUS+"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SIGGND",
+      "description": "SIGGND"
+    }
+  ]
+}

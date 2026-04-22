@@ -1,0 +1,79 @@
+{
+  "moduleId": "PowerCell-v13",
+  "title": "Power Cell LiPo Charger/Booster",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PowerCell Lipo Charger Booster v13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PowerCell-v13.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PowerCell-v13.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\PowerCell-v13.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PowerCell-v13.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "5VIN",
+      "description": "5VIN"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "VBATT",
+      "description": "VBATT"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "PS",
+      "description": "PS"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "EN",
+      "description": "EN"
+    }
+  ]
+}

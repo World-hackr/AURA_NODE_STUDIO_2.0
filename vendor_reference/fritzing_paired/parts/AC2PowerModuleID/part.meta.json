@@ -1,0 +1,38 @@
+{
+  "moduleId": "AC2PowerModuleID",
+  "title": "AC Power",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\acpower.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\acpower.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\acpower.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\acpower.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "V+",
+      "description": "Positive Supply Voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    }
+  ]
+}

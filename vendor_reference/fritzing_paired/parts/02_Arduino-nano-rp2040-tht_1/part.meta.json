@@ -1,0 +1,211 @@
+{
+  "moduleId": "02_Arduino-nano-rp2040-tht_1",
+  "title": "Arduino NANO RP2040 CONNECT with headers",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Arduino-nano-rp2040-tht_1.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino-nano-rp2040-tht_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Arduino-nano-rp2040-tht_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Arduino-nano-rp2040-tht_1_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino-nano-rp2040-tht_1_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 30,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "TX",
+      "description": "GPIO8/pwm"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RX",
+      "description": "GPIO1/pwm"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RESET-3",
+      "description": "RESET"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND-4",
+      "description": "ground"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "D2",
+      "description": "GPIO25/pwm"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "D3",
+      "description": "GPIO15/pwm"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "D4",
+      "description": "GPIO16/pwm"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "D5",
+      "description": "GPIO17/pwm"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "D6",
+      "description": "GPIO18/pwm"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "D7",
+      "description": "GPIO19/pwm"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "D8",
+      "description": "GPIO20/pwm"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "D9",
+      "description": "GPIO21/pwm"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "D10",
+      "description": "GPIO5/pwm"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "D11",
+      "description": "GPIO7/COPI/pwm"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "D12",
+      "description": "GPIO4/CIPO/pwm"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "D13",
+      "description": "GPIO6/SCK/pwm"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "AREF",
+      "description": "PA03"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "D14",
+      "description": "A0/GPIO26/DAC0/pwm"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "D15",
+      "description": "A1/GPIO27/pwm"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "D16",
+      "description": "A2/GPIO28/pwm"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "D17",
+      "description": "A3/GPIO29/pwm"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "D18",
+      "description": "A4/GPIO12/pwm"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "D19",
+      "description": "A5/GPIO13/pwm"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "D20",
+      "description": "A6 (no pwm)"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "D27",
+      "description": "A7 (no pwm)"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "+5V",
+      "description": "5V power output"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "RESET-28",
+      "description": "QSPI_CSn"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GND-29",
+      "description": "ground"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "VIN",
+      "description": "raw power input 5-21V"
+    }
+  ]
+}

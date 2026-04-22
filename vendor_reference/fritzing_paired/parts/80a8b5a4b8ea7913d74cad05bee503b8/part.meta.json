@@ -1,0 +1,73 @@
+{
+  "moduleId": "80a8b5a4b8ea7913d74cad05bee503b8",
+  "title": "SparkFun - Breakout Board for microSD Transflash v4",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\SparkFun___Breakout_Board_for_microSD_Transflash_v4__0b0c87ce0a9414b7db3b2898baf3a987.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\MicroSD_05Sept2012_2__4ee441f0d5b17b985e__icon__2895dc166effb8cc3f68284816882e15.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\Breakout_Board_for_microSD_Transflash_v1__breadboard__2af30564c1fde27f27144aa631c413a8.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\SparkFun___Breakout_Board_for_microSD_Tr__pcb__4408c32b908370887f85acfa3d18cb5c.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\SparkFun___Breakout_Board_for_microSD_Tr__schematic__58c25f18f1c08d677072cd8301438167.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "ground"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SCK",
+      "description": "serial clock"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VCC",
+      "description": "voltage collector collector - IC power supply pin"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DI",
+      "description": "data in"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CS",
+      "description": "card select"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "CD",
+      "description": "card detect"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DO",
+      "description": "data out"
+    }
+  ]
+}

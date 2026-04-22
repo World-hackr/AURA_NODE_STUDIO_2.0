@@ -1,0 +1,85 @@
+{
+  "moduleId": "adafruit_d34c2446fc0901e09aa5ed34d68accf9_7_D7",
+  "title": "Adafruit ADXL345",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_d34c2446fc0901e09aa5ed34d68accf9_7_D7.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_d34c2446fc0901e09aa5ed34d68accf9_7_breadboard_D7.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_d34c2446fc0901e09aa5ed34d68accf9_7_schematic_D7.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_d34c2446fc0901e09aa5ed34d68accf9_7_pcb_D7.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_d34c2446fc0901e09aa5ed34d68accf9_7_icon_D7.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "INT1",
+      "description": "INT1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "INT2",
+      "description": "INT2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SDO/ADDR",
+      "description": "SDO/ADDR"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SDA/SDIO",
+      "description": "SDA/SDIO"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    }
+  ]
+}

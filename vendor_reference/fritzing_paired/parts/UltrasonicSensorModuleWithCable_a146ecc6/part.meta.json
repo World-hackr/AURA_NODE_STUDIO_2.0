@@ -1,0 +1,49 @@
+{
+  "moduleId": "UltrasonicSensorModuleWithCable_a146ecc6",
+  "title": "Ultrasonic Sensor Module with cable",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\tdk_ussm.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\tdk_ussm_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\tdk_ussm_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\tdk_ussm_schematic.min.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_3_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "IO",
+      "description": "IO"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Vsup",
+      "description": "Vsup"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "moduleId": "Adafruit-_c219d7da3c86195867e2c1f02ed1351c_1_43",
+  "title": "Adafruit Sparkle Motion WLED Friend",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_c219d7da3c86195867e2c1f02ed1351c_1_43.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_c219d7da3c86195867e2c1f02ed1351c_1_43_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_c219d7da3c86195867e2c1f02ed1351c_1_43_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_c219d7da3c86195867e2c1f02ed1351c_1_43_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_c219d7da3c86195867e2c1f02ed1351c_1_43_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 22,
+  "connectors": [
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector194",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "IO10",
+      "description": "IO10"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "IO18",
+      "description": "IO18"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "IO9",
+      "description": "IO9"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector193",
+      "type": "female",
+      "name": "SENSOR",
+      "description": "SENSOR"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "S4",
+      "description": "S4"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "S3",
+      "description": "S3"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "S2",
+      "description": "S2"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "S1",
+      "description": "S1"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector195",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

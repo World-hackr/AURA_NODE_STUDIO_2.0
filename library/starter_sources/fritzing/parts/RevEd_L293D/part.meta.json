@@ -1,0 +1,127 @@
+{
+  "moduleId": "RevEd_L293D",
+  "title": "L293D",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\L293D.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\L293D_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\L293D_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\L293D_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_16_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Enable 1",
+      "description": null
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "In 1",
+      "description": null
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Out 1 ( Controlled by Enable 1 )",
+      "description": null
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Out 2 ( Controlled by Enable 1 )",
+      "description": null
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "In 2",
+      "description": null
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "+Vmotor",
+      "description": "Connect to the positive rail of the power supply which is to power your motor. This may be the same rail to which pin 16 connects to but does not have to be"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Enable 2",
+      "description": null
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "In 3",
+      "description": null
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Out 3 ( Controlled by Enable 2 )",
+      "description": null
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Out 4 ( Controlled by Enable 2 )",
+      "description": null
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "In 4",
+      "description": null
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit which powers the controller"
+    }
+  ]
+}

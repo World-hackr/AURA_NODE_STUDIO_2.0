@@ -1,0 +1,103 @@
+{
+  "moduleId": "RFduinoSMD_fix",
+  "title": "RFduino SMD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\RFduinoSMD_fix.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RFduinoSMD_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\RFduinoSMD_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\RFduinoSMD_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\RFduinoSMD_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "gnd",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "nc",
+      "description": "NC"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "vin",
+      "description": "+3V"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "reset",
+      "description": "RESET"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "factory",
+      "description": "FACTORY"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "gpio0",
+      "description": "GPIO 0 / AREF"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "gpio1",
+      "description": "GPIO 1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "gpio2",
+      "description": "GPIO 2"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "gpio3",
+      "description": "GPIO 3"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "gpio4",
+      "description": "GPIO 4"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "gpio5",
+      "description": "GPIO 5"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "gpio6",
+      "description": "GPIO 6"
+    }
+  ]
+}

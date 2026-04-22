@@ -1,0 +1,271 @@
+{
+  "moduleId": "5f7b51547fafb902305f5b3cbb81bb74",
+  "title": "BASIC Stamp 2p 40-Pin",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\BASIC_Stamp_2p40.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\BASIC_Stamp_2p40.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\BASIC_Stamp_2p40.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\BASIC_Stamp_2p40.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_40_600mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VSS",
+      "description": "System ground"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "X0",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P0",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "X1",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "P1",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "X2",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P2",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P3",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "X3",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "P4",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "X4",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P5",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "X5",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "X6",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "X7",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "X8",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "X9",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "X10",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "X11",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "X12",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "X13",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "X14",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "X15",
+      "description": "Auxiliary Bank of General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "VDD",
+      "description": "5-volt DC input/output"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "RES",
+      "description": "Reset input/output"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "VSS",
+      "description": "System ground"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "VIN",
+      "description": "Unregulated power in: accepts 5.5 - 12 VDC (7.5 recommended), which is then internally regulated to 5 volts."
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "P6",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "P7",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "P8",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "P9",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "P10",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "P11",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "P12",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "P13",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "P14",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "P15",
+      "description": "General-purpose I/O pins: each can source and sink 30 mA."
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SOUT",
+      "description": "Serial Out"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SIN",
+      "description": "Serial In"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "ATN",
+      "description": "Attention"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "moduleId": "f80c6938-71e1-44a1-867e-442332a78ca8CapacitorModuleID",
+  "title": "Electrolytic Capacitor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_elko_0605.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\electrolytic_capacitor_small_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\capacitor_polar.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_elko_0605.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "-",
+      "description": "- side"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "+",
+      "description": "+ side"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "moduleId": "prefix0000_rbrun_41e2db2b27ebc0f7c890cf07e8f6b2f0_3",
+  "title": "ZS-042 RTC Module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\prefix0000_rbrun_41e2db2b27ebc0f7c890cf07e8f6b2f0_3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\prefix0000_rbrun_41e2db2b27ebc0f7c890cf07e8f6b2f0_3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\prefix0000_rbrun_41e2db2b27ebc0f7c890cf07e8f6b2f0_3_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\prefix0000_rbrun_41e2db2b27ebc0f7c890cf07e8f6b2f0_3_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\prefix0000_rbrun_41e2db2b27ebc0f7c890cf07e8f6b2f0_3_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "SQW",
+      "description": "SQW"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "32K",
+      "description": "32K"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    }
+  ]
+}

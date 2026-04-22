@@ -1,0 +1,73 @@
+{
+  "moduleId": "DeadOn RTC - DS3234 Breakout-v11",
+  "title": "DeadOn RTC - DS3234 Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DeadOn RTC - DS3234 Breakout-v11.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DeadOn RTC - DS3234 Breakout-v11_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DeadOn RTC - DS3234 Breakout-v11_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DeadOn RTC - DS3234 Breakout-v11_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DeadOn RTC - DS3234 Breakout-v11_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SS",
+      "description": "SS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "INT/SQW",
+      "description": "INT/SQW"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

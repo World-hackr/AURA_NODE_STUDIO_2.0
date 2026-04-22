@@ -1,0 +1,229 @@
+{
+  "moduleId": "adafruit_f1fc6240e0e202eae3ef9b2397a6e237_1_8B",
+  "title": "Itsy Bitsy M0 Express",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_f1fc6240e0e202eae3ef9b2397a6e237_1_8B.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_e39a95d9e511160d433406ee277c1cc4_1_breadboard_8B.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_e39a95d9e511160d433406ee277c1cc4_1_schematic_8B.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_e39a95d9e511160d433406ee277c1cc4_1_pcb_8B.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_e39a95d9e511160d433406ee277c1cc4_1_icon_8B.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 33,
+  "connectors": [
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "VHI",
+      "description": "VHI"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "!RESET",
+      "description": "!RESET"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector26",
+      "type": "pad",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector27",
+      "type": "pad",
+      "name": "SWDIO",
+      "description": "SWDIO"
+    },
+    {
+      "id": "connector28",
+      "type": "pad",
+      "name": "SWCLK",
+      "description": "SWCLK"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "D13",
+      "description": "D13"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "D12",
+      "description": "D12"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "D11",
+      "description": "D11"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "D9",
+      "description": "D9"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "D5_5V",
+      "description": "D5_5V"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "connector30",
+      "type": "pad",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector29",
+      "type": "pad",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

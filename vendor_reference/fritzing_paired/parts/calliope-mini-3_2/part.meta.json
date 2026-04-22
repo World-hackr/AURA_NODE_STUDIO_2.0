@@ -1,0 +1,343 @@
+{
+  "moduleId": "calliope-mini-3_2",
+  "title": "Calliope mini 3",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\calliope-mini-3_2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\calliope-mini-3_2_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\calliope-mini-3_2_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\calliope-mini-3_2_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\calliope-mini-3_2_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 52,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "SDA"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "SCL"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "P0"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Pin 7",
+      "description": "P1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Pin 8",
+      "description": "VCC"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Pin 9",
+      "description": "P1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Pin 10",
+      "description": "P3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Pin 11",
+      "description": "C5"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Pin 12",
+      "description": "C7"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Pin 13",
+      "description": "C9"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Pin 14",
+      "description": "C11"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Pin 15",
+      "description": "C13"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Pin 16",
+      "description": "C15"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "Pin 17",
+      "description": "C17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "Pin 18",
+      "description": "C19"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "Pin 19",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "Pin 20",
+      "description": "M1+"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "Pin 21",
+      "description": "M1-"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "Pin 22",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "Pin 23",
+      "description": "GND"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "Pin 24",
+      "description": "P0"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "Pin 25",
+      "description": "P2"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "Pin 26",
+      "description": "C4"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "Pin 27",
+      "description": "C6"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "Pin 28",
+      "description": "C8"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "Pin 29",
+      "description": "C10"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "Pin 30",
+      "description": "C12"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "Pin 31",
+      "description": "C14"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "Pin 32",
+      "description": "C16"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "Pin 33",
+      "description": "C18"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "Pin 34",
+      "description": "C20"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "Pin 35",
+      "description": "M0+"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "Pin 36",
+      "description": "M0-"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "Pin 37",
+      "description": "VM+"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "Pin 38",
+      "description": "jadac1-1/D"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "Pin 39",
+      "description": "jadac1-2/GND"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "Pin 40",
+      "description": "jadac1-3/3V3"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "Pin 41",
+      "description": "jadac2-1/D"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "Pin 42",
+      "description": "jadac2-2/GND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "Pin 43",
+      "description": "jadac2-3/3V3"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "Pin 44",
+      "description": "P2"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "Pin 45",
+      "description": "BAT+"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "Pin 46",
+      "description": "BAT-"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "Pin 47",
+      "description": "P3"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "Pin 48",
+      "description": "GND"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "Pin 49",
+      "description": "3V3"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "Pin 50",
+      "description": "TX"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "Pin 51",
+      "description": "RX"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "Pin 52",
+      "description": "VCC"
+    }
+  ]
+}

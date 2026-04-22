@@ -1,0 +1,115 @@
+{
+  "moduleId": "37cd03ff9ef946e7aa6617af82fc08fa",
+  "title": "SN74LS32N",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SN74LS32N.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SN74LS32N_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SN74LS32N_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SN74LS32N_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SN74LS32N_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "2A",
+      "description": "in part2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "2B",
+      "description": "in part2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "2Y",
+      "description": "out part2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "Digital Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "3Y",
+      "description": "out part3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "3A",
+      "description": "in part3"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "3B",
+      "description": "in part3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "4Y",
+      "description": "out part4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "4A",
+      "description": "in part4"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1A",
+      "description": "in part1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "4B",
+      "description": "in part4"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1B",
+      "description": "in part1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Vcc",
+      "description": "PowerSupply +5V"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1Y",
+      "description": "out part1"
+    }
+  ]
+}

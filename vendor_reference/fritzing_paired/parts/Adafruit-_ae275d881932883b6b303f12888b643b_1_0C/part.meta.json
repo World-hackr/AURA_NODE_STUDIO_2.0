@@ -1,0 +1,67 @@
+{
+  "moduleId": "Adafruit-_ae275d881932883b6b303f12888b643b_1_0C",
+  "title": "Adafruit NeoPixel JST SH Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_ae275d881932883b6b303f12888b643b_1_0C.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_ae275d881932883b6b303f12888b643b_1_0C_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_ae275d881932883b6b303f12888b643b_1_0C_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_ae275d881932883b6b303f12888b643b_1_0C_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_ae275d881932883b6b303f12888b643b_1_0C_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "IN",
+      "description": "IN"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

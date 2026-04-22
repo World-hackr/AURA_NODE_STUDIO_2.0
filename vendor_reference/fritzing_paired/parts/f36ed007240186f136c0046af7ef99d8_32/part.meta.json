@@ -1,0 +1,61 @@
+{
+  "moduleId": "f36ed007240186f136c0046af7ef99d8_32",
+  "title": "Waterproof Pushbutton (white)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Waterproof_Pushbutton__white___ef7b5357b089e56f59f302ad2bcf68ca_32.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Waterproof_Momentary_Pushbutton__red___8__schematic__16ce13ae8ec2a6255530791e2aea98bd_32.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Waterproof_Momentary_Pushbutton__red___8__pcb__3366a2fd46e307b79d340967a30e3c2e_32.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Waterproof_Pushbutton__white___ef7b5357b__icon__ac09e538586102689bf728c37d587985_32.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Waterproof_Pushbutton__white___ef7b5357b__breadboard__0e2be1defffb042262882339e45d9089_32.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    }
+  ]
+}

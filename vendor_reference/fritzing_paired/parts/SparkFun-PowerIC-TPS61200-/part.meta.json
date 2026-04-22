@@ -1,0 +1,121 @@
+{
+  "moduleId": "SparkFun-PowerIC-TPS61200-",
+  "title": "TPS61200",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-tps61200-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_qfn-10_pad_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_tps61200_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_qfn-10_pad_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_qfn-10_pad_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "FB",
+      "description": "FB"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "L",
+      "description": "L"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PAD",
+      "description": "PAD"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PAD",
+      "description": "PAD"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PAD",
+      "description": "PAD"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "PAD",
+      "description": "PAD"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PAD",
+      "description": "PAD"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PGND",
+      "description": "PGND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "PS",
+      "description": "PS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "UVLO",
+      "description": "UVLO"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VAUX",
+      "description": "VAUX"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VOUT",
+      "description": "VOUT"
+    }
+  ]
+}

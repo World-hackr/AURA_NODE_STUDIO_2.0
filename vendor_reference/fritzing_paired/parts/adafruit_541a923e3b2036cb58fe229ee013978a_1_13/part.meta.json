@@ -1,0 +1,97 @@
+{
+  "moduleId": "adafruit_541a923e3b2036cb58fe229ee013978a_1_13",
+  "title": "Adafruit 2.0 inch 240x320 IPS TFT",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_541a923e3b2036cb58fe229ee013978a_1_13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_fd84a65bc3cf43f261f496c6d2fe89f1_1_breadboard_13.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_fd84a65bc3cf43f261f496c6d2fe89f1_1_schematic_13.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_fd84a65bc3cf43f261f496c6d2fe89f1_1_pcb_13.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_fd84a65bc3cf43f261f496c6d2fe89f1_1_icon_13.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "SCLK_5V",
+      "description": "SCLK_5V"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "MOSI_5V",
+      "description": "MOSI_5V"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "LCDCS_5V",
+      "description": "LCDCS_5V"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "RESET_5V",
+      "description": "RESET_5V"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "DC_5V",
+      "description": "DC_5V"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "SDCS_5V",
+      "description": "SDCS_5V"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "BACKLIGHT",
+      "description": "BACKLIGHT"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "moduleId": "SparkFun-AnalogIC-NE555-P",
+  "title": "General purpose bipolar Timer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-ne555-p.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_ne555_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_dil-08_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_8_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_8_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "_RES",
+      "description": "_RES"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CON",
+      "description": "CON"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DIS",
+      "description": "DIS"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TRE",
+      "description": "TRE"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "TRI",
+      "description": "TRI"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC+",
+      "description": "VCC+"
+    }
+  ]
+}

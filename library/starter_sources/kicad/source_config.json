@@ -1,0 +1,19 @@
+{
+  "schema": "aura.kicad_source_config.v1",
+  "sourceKind": "kicad",
+  "importMode": "raw_workspace_copy_preferred",
+  "workspaceRawDir": "./raw",
+  "envVar": "KICAD9_SYMBOL_DIR",
+  "fallbackWindowsDirs": [
+    "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols",
+    "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols",
+    "C:\\Program Files\\KiCad\\7.0\\share\\kicad\\symbols",
+    "C:\\Users\\Santo\\OneDrive\\Desktop\\AURA_2\\AURA Node Studio_1\\vendor_reference\\kicad-symbols"
+  ],
+  "indexFile": "./library_index.json",
+  "notes": [
+    "This workspace now contains a raw copied KiCad symbol library under ./raw.",
+    "The project should prefer the workspace raw copy first and only fall back to installed KiCad paths if needed.",
+    "Refresh the index with npm run sync:kicad-library."
+  ]
+}

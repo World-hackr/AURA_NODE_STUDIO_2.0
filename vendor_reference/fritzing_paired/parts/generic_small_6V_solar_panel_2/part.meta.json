@@ -1,0 +1,38 @@
+{
+  "moduleId": "generic_small_6V_solar_panel_2",
+  "title": "Small 6V Solar Panel",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\generic_small_6V_solar_panel.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\generic_small_6V_solar_panel.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\generic_small_6V_solar_panel.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\generic_small_6V_solar_panel.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "+",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "-",
+      "description": "pin 2"
+    }
+  ]
+}

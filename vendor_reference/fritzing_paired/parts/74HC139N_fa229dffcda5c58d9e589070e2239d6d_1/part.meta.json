@@ -1,0 +1,127 @@
+{
+  "moduleId": "74HC139N_fa229dffcda5c58d9e589070e2239d6d_1",
+  "title": "74HC139N",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\74HC139N_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\74HC139N_2.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\74HC139N_2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\74HC139N_2.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\74HC139N_2.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1G_",
+      "description": "Enable, active low"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1A",
+      "description": "Input (address)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1B",
+      "description": "Input (address)"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "1Y0",
+      "description": "Output"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "1Y1",
+      "description": "Output"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "1Y2",
+      "description": "Output"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "1Y3",
+      "description": "Output"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "2Y3",
+      "description": "Output"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "2Y2",
+      "description": "Output"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "2Y1",
+      "description": "Output"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "2Y0",
+      "description": "Output"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "2B",
+      "description": "Input (address)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "2A",
+      "description": "Input (address)"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "2G_",
+      "description": "Enable, active low"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "pin 16"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "moduleId": "adafruit_ffd51df0b5410b3e06f7e782c37b6870_1_15",
+  "title": "12 NeoPixel Ring",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_ffd51df0b5410b3e06f7e782c37b6870_1_15.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_88be198d12b447cdfecbbe9dfb4bc1a8_1_breadboard_15.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_88be198d12b447cdfecbbe9dfb4bc1a8_1_schematic_15.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_88be198d12b447cdfecbbe9dfb4bc1a8_1_pcb_15.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_88be198d12b447cdfecbbe9dfb4bc1a8_1_icon_15.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "IN",
+      "description": "IN"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

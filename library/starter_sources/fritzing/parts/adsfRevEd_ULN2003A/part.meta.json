@@ -1,0 +1,127 @@
+{
+  "moduleId": "adsfRevEd_ULN2003A",
+  "title": "ULN2003A",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_ULN2003A.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ULN2003A_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ULN2003A_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_SO16_DT.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ULN2003A_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "In 1",
+      "description": "This is the input which controls output Out 1. This input should be connected to a digital output from your controller"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "In 2",
+      "description": "This is the input which controls output Out 2. This input should be connected to a digital output from your controller"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "In 3",
+      "description": "This is the input which controls output Out 3. This input should be connected to a digital output from your controller"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "In 4",
+      "description": "This is the input which controls output Out 4. This input should be connected to a digital output from your controller"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "In 5",
+      "description": "This is the input which controls output Out 5. This input should be connected to a digital output from your controller"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "In 6",
+      "description": "This is the input which controls output Out 6. This input should be connected to a digital output from your controller"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "In 7",
+      "description": "This is the input which controls output Out 7. This input should be connected to a digital output from your controller"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "COM - Common",
+      "description": "Connect this pin to the positive rail of the power supply to which the loads controlled by the outputs are connected to"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Out 7",
+      "description": "This is the output controlled by input 'In 7'. This is an open-collector output with an internal diode clamp to pin 9 (COM)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Out 6",
+      "description": "This is the output controlled by input 'In 6'. This is an open-collector output with an internal diode clamp to pin 9 (COM)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Out 5",
+      "description": "This is the output controlled by input 'In 5'. This is an open-collector output with an internal diode clamp to pin 9 (COM)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Out 4",
+      "description": "This is the output controlled by input 'In 4'. This is an open-collector output with an internal diode clamp to pin 9 (COM)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Out 3",
+      "description": "This is the output controlled by input 'In 3'. This is an open-collector output with an internal diode clamp to pin 9 (COM)"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Out 2",
+      "description": "This is the output controlled by input 'In 2'. This is an open-collector output with an internal diode clamp to pin 9 (COM)"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Out 1",
+      "description": "This is the output controlled by input 'In 1'. This is an open-collector output with an internal diode clamp to pin 9 (COM)"
+    }
+  ]
+}

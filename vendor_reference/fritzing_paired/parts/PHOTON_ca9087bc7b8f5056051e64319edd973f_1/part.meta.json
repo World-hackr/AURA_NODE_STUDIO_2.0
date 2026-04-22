@@ -1,0 +1,175 @@
+{
+  "moduleId": "PHOTON_ca9087bc7b8f5056051e64319edd973f_1",
+  "title": "Photon",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\PHOTON_ca9087bc7b8f5056051e64319edd973f_1.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PHOTON_824ff3ebabbafb3949f059a17a7025a9_2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PHOTON_824ff3ebabbafb3949f059a17a7025a9_2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\PHOTON_824ff3ebabbafb3949f059a17a7025a9_2_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PHOTON_824ff3ebabbafb3949f059a17a7025a9_2_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "A0",
+      "description": "Analog Input 0"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "A1",
+      "description": "Analog Input 1"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "A2",
+      "description": "Analog Input 2 / SS (SPI)"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "A3",
+      "description": "Analog Input 3 / Digital to Analog Output 2 / SCK (SPI)"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "A4",
+      "description": "Analog Input 4 / MISO (SPI)"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "A5",
+      "description": "Analog Input 5 / MOSI (SPI)"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "DAC",
+      "description": "Digital to Analog Output 1 / Analog Input 6"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "WKP",
+      "description": "Active high Wake Up digital input / Analog Input 7"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "RX",
+      "description": "Serial1 UART Receive"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "TX",
+      "description": "Serial1 UART Transmit"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "VIN",
+      "description": "Diode drop below USB V+ / Input to 3.3V Regulator (3.6V - 5.5V max input)"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "D0",
+      "description": "Digital Input/Output 0 / SDA (I2C)"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "D1",
+      "description": "Digital Input/Output 1 / SCL (I2C)"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "D2",
+      "description": "Digital Input/Output 2"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "D3",
+      "description": "Digital Input/Output 3"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "D4",
+      "description": "Digital Input/Output 4"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "D5",
+      "description": "Digital Input/Output 5"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "D6",
+      "description": "Digital Input/Output 6"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "D7",
+      "description": "Digital Input/Output 7"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT Supply to the internal RTC, backup registers and SRAM (1.65 - 3.6VDC)"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "RST",
+      "description": "Reset Input (Active Low)"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "3V3",
+      "description": "Regulated 3.3V Output"
+    }
+  ]
+}

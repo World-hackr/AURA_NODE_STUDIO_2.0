@@ -1,0 +1,397 @@
+{
+  "moduleId": "c4256c251d53ee723058f86aa6d016a2",
+  "title": "GogoBoard 4.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\gogoboard 4.0.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\gogoboard_4.043282.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\gogoboard_4.043282.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\gogoboard_4.043282.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\gogoboard_4.043282.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 61,
+  "connectors": [
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "SV1/A",
+      "description": "Servo Motor / Output"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SV4/D",
+      "description": "Servo Motor / Output"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "SV2/B",
+      "description": "Servo Motor / Output"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SV2/B",
+      "description": "Servo Motor / Output"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "SCL",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "SDA",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "VIN/BAT",
+      "description": "Unregulated Voltage / Battery"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "SCL",
+      "description": "Serial Clock Line"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "SDA",
+      "description": "Serial Data Line"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "VUNR",
+      "description": "Unregulated Voltage"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "A1",
+      "description": "Sensor / Digital &amp; Analog Input"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "A2",
+      "description": "Sensor / Digital &amp; Analog Input"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "A3",
+      "description": "Sensor / Digital &amp; Analog Input"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "A4",
+      "description": "Sensor / Digital &amp; Analog Input"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "A5",
+      "description": "Sensor / Digital &amp; Analog Input"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "A6",
+      "description": "Sensor / Digital &amp; Analog Input"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "A7",
+      "description": "Sensor / Digital &amp; Analog Input"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "A8",
+      "description": "Sensor / Digital &amp; Analog Input"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SV3/C",
+      "description": "Servo Motor / Output"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "SV3/C",
+      "description": "Servo Motor / Output"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SV4/D",
+      "description": "Servo Motor / Output"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SV1/A",
+      "description": "Servo Motor / Output"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

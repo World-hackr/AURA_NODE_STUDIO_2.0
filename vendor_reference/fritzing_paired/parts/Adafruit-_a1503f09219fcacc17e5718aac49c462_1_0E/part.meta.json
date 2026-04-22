@@ -1,0 +1,175 @@
+{
+  "moduleId": "Adafruit-_a1503f09219fcacc17e5718aac49c462_1_0E",
+  "title": "Adafruit NeoDriver STEMMA QT",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_a1503f09219fcacc17e5718aac49c462_1_0E.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_a1503f09219fcacc17e5718aac49c462_1_breadboard_0E.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_a1503f09219fcacc17e5718aac49c462_1_schematic_0E.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_a1503f09219fcacc17e5718aac49c462_1_pcb_0E.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_a1503f09219fcacc17e5718aac49c462_1_icon_0E.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "NEOPIX_OUT",
+      "description": "NEOPIX_OUT"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "NEOPIX_OUT",
+      "description": "NEOPIX_OUT"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "NEOPIX_OUT",
+      "description": "NEOPIX_OUT"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "UPDI",
+      "description": "UPDI"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

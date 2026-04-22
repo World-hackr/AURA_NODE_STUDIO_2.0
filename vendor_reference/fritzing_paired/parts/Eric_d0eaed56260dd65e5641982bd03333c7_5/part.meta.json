@@ -1,0 +1,199 @@
+{
+  "moduleId": "Eric_d0eaed56260dd65e5641982bd03333c7_5",
+  "title": "Blend Micro v1.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Eric_d0eaed56260dd65e5641982bd03333c7_5.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\Eric_d0eaed56260dd65e5641982bd03333c7_5_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\Eric_d0eaed56260dd65e5641982bd03333c7_5_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\Eric_d0eaed56260dd65e5641982bd03333c7_5_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\Eric_d0eaed56260dd65e5641982bd03333c7_5_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "D8/A8",
+      "description": "D8/A8"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D5/PWM",
+      "description": "D5/PWM"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D3/SCL/PWM",
+      "description": "D3/SCL/PWM"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "D2/SDA",
+      "description": "D2/SDA"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "D1/TX",
+      "description": "D1/TX"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "D0/RX",
+      "description": "D0/RX"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SS",
+      "description": "SS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "D9/PWM/A9",
+      "description": "D9/PWM/A9"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "D10/PWM/A10",
+      "description": "D10/PWM/A10"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "D11/PWM",
+      "description": "D11/PWM"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "D12/A11",
+      "description": "D12/A11"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "D13/PWM/LED",
+      "description": "D13/PWM/LED"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "V33",
+      "description": "V33"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

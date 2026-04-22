@@ -1,0 +1,73 @@
+{
+  "moduleId": "adafruit_85a8ed1e6f240f3461dd0e944e1b15a6_13_3E",
+  "title": "Adafruit ADXL377",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_85a8ed1e6f240f3461dd0e944e1b15a6_13_3E.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_85a8ed1e6f240f3461dd0e944e1b15a6_13_breadboard_3E.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_85a8ed1e6f240f3461dd0e944e1b15a6_13_schematic_3E.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_85a8ed1e6f240f3461dd0e944e1b15a6_13_pcb_3E.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_85a8ed1e6f240f3461dd0e944e1b15a6_13_icon_3E.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SELFTEST",
+      "description": "SELFTEST"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "ZOUT",
+      "description": "ZOUT"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "YOUT",
+      "description": "YOUT"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "XOUT",
+      "description": "XOUT"
+    }
+  ]
+}

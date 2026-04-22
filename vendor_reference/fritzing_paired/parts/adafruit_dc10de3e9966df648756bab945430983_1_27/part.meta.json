@@ -1,0 +1,79 @@
+{
+  "moduleId": "adafruit_dc10de3e9966df648756bab945430983_1_27",
+  "title": "OLED Monochrome 128x64 1.3 inch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_dc10de3e9966df648756bab945430983_1_27.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_9209602f3c06916fbab98c5459dcf7b1_1_breadboard_27.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_9209602f3c06916fbab98c5459dcf7b1_1_schematic_27.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_9209602f3c06916fbab98c5459dcf7b1_1_pcb_27.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_9209602f3c06916fbab98c5459dcf7b1_1_icon_27.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "MOSI_SDA",
+      "description": "MOSI_SDA"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SCLK_SCK",
+      "description": "SCLK_SCK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DC_SA0",
+      "description": "DC_SA0"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

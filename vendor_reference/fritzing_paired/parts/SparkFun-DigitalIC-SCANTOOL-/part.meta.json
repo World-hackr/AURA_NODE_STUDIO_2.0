@@ -1,0 +1,205 @@
+{
+  "moduleId": "SparkFun-DigitalIC-SCANTOOL-",
+  "title": "SCANTOOL",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-scantool-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic__stn_scantool_qfn-28-s_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_stn1110-qfn_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic__stn_scantool_qfn-28-s_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic__stn_scantool_qfn-28-s_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 29,
+  "connectors": [
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "!ISO_K_TX",
+      "description": "!ISO_K_TX"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "!ISO_L_TX",
+      "description": "!ISO_L_TX"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "!ISO_RX",
+      "description": "!ISO_RX"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "!J1850_BUS-_TX",
+      "description": "!J1850_BUS-_TX"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "!OBD_RX_LED!_!INT",
+      "description": "!OBD_RX_LED!_!INT"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "!OBD_TX_LED!_!RST_NVM",
+      "description": "!OBD_TX_LED!_!RST_NVM"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "!RESET",
+      "description": "!RESET"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "!SLEEP",
+      "description": "!SLEEP"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "!UART_RX_LED",
+      "description": "!UART_RX_LED"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "!UART_TX_LED",
+      "description": "!UART_TX_LED"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "!VPW_RX",
+      "description": "!VPW_RX"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "ANALOG_IN",
+      "description": "ANALOG_IN"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "AVSS",
+      "description": "AVSS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CAN_RX",
+      "description": "CAN_RX"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CAN_TX",
+      "description": "CAN_TX"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "J1850_BUS+_TX",
+      "description": "J1850_BUS+_TX"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OSC1",
+      "description": "OSC1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OSC2",
+      "description": "OSC2"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "PAD",
+      "description": "PAD"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "PWM_!VPW",
+      "description": "PWM_!VPW"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PWM_RX",
+      "description": "PWM_RX"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PWR_CTRL",
+      "description": "PWR_CTRL"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "UART_RX",
+      "description": "UART_RX"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "UART_TX",
+      "description": "UART_TX"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VCAP",
+      "description": "VCAP"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

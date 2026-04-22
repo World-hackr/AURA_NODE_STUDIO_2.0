@@ -1,0 +1,61 @@
+{
+  "moduleId": "audiojack_breakout-v11",
+  "title": "Audio Jack Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\audiojack_breakout-v11.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\audiojack_breakout-v11_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\audiojack_breakout-v11_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\audiojack_breakout-v11_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\audiojack_breakout-v11_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RING_SHUNT",
+      "description": "RING_SHUNT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RING",
+      "description": "RING"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "TIP_SHUNT",
+      "description": "TIP_SHUNT"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "TIP",
+      "description": "TIP"
+    }
+  ]
+}

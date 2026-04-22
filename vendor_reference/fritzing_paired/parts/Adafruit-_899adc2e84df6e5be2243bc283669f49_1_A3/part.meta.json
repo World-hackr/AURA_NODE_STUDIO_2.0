@@ -1,0 +1,235 @@
+{
+  "moduleId": "Adafruit-_899adc2e84df6e5be2243bc283669f49_1_A3",
+  "title": "Adafruit Feather ESP32-C6",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_899adc2e84df6e5be2243bc283669f49_1_A3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_899adc2e84df6e5be2243bc283669f49_1_A3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_899adc2e84df6e5be2243bc283669f49_1_A3_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_899adc2e84df6e5be2243bc283669f49_1_A3_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_899adc2e84df6e5be2243bc283669f49_1_A3_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 34,
+  "connectors": [
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector193",
+      "type": "female",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "VSENSOR",
+      "description": "VSENSOR"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "A2/IO6",
+      "description": "A2/IO6"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "A3/IO5",
+      "description": "A3/IO5"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "IO9/BOOT/NEOPIX",
+      "description": "IO9/BOOT/NEOPIX"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "IO15",
+      "description": "IO15"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "IO14",
+      "description": "IO14"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "IO0",
+      "description": "IO0"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "IO8",
+      "description": "IO8"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "IO7",
+      "description": "IO7"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "A2/IO6",
+      "description": "A2/IO6"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "A3/IO5",
+      "description": "A3/IO5"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector192",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

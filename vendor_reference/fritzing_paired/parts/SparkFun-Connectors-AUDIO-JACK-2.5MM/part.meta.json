@@ -1,0 +1,49 @@
+{
+  "moduleId": "SparkFun-Connectors-AUDIO-JACK-2.5MM",
+  "title": "2.5mm Audio Jack",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-audio-jack-2.5mm.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_stereojack2.5mm_stereojack2.5mm_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_audio-jack_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_stereojack2.5mm_stereojack2.5mm_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\STEREOJACK2.5MM_STEREOJACK2.5MM.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "LEFT",
+      "description": "LEFT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RIGHT",
+      "description": "RIGHT"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SLEEVE",
+      "description": "SLEEVE"
+    }
+  ]
+}

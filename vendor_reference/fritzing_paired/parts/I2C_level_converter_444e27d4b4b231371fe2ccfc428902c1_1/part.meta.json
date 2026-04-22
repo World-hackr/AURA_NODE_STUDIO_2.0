@@ -1,0 +1,103 @@
+{
+  "moduleId": "I2C_level_converter_444e27d4b4b231371fe2ccfc428902c1_1",
+  "title": "I2C level shifter bidirectional",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\I2C level shifter bidirectional.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\I2C_level_converter_1.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\I2C_level_converter_1.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\I2C_level_converter_1.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\I2C_level_converter_1.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "LV4",
+      "description": "Low voltage I2C channel 4"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "LV3",
+      "description": "LV3"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "LV",
+      "description": "LV"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "LV2",
+      "description": "LV2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "LV1",
+      "description": "LV1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "HV1",
+      "description": "TX_HV"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "HV2",
+      "description": "RX_HV"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "HV",
+      "description": "HV"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "HV3",
+      "description": "RX2_HV"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "HV4",
+      "description": "TX2_HV"
+    }
+  ]
+}

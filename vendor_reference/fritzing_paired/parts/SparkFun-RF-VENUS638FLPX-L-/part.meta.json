@@ -1,0 +1,379 @@
+{
+  "moduleId": "SparkFun-RF-VENUS638FLPX-L-",
+  "title": "Venus638FLPX-L GPS Receiver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-venus638flpx-l-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_venus638flpx_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_venus638flpx-l_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_venus638flpx_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_venus638flpx_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 58,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "BTSEL",
+      "description": "BTSEL"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "CSN",
+      "description": "CSN"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "GNDRF",
+      "description": "GNDRF"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GPIO1",
+      "description": "GPIO1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GPIO2",
+      "description": "GPIO2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GPIO20",
+      "description": "GPIO20"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GPIO22",
+      "description": "GPIO22"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GPIO23",
+      "description": "GPIO23"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GPIO24",
+      "description": "GPIO24"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "GPIO25",
+      "description": "GPIO25"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "GPIO28",
+      "description": "GPIO28"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GPIO29",
+      "description": "GPIO29"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "GPIO3",
+      "description": "GPIO3"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "GPIO30",
+      "description": "GPIO30"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "GPIO4",
+      "description": "GPIO4"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "GPIO6",
+      "description": "GPIO6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "LED_GPIO0",
+      "description": "LED_GPIO0"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "PIO11",
+      "description": "PIO11"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PIO12",
+      "description": "PIO12"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "PIO14",
+      "description": "PIO14"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "PIO15",
+      "description": "PIO15"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "PIO5",
+      "description": "PIO5"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "PPS",
+      "description": "PPS"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "REGEN",
+      "description": "REGEN"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "RFIN",
+      "description": "RFIN"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RSTN",
+      "description": "RSTN"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "RTC",
+      "description": "RTC"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "RXD0",
+      "description": "RXD0"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "RXD1",
+      "description": "RXD1"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "TXD0",
+      "description": "TXD0"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "TXD1",
+      "description": "TXD1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

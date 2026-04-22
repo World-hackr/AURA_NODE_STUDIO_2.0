@@ -1,0 +1,49 @@
+{
+  "moduleId": "JST3_f4be6e4fb114b97faa8eefb5f65e6d53_10_D4",
+  "title": "Flora 3-Pin JST",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\JST3_f4be6e4fb114b97faa8eefb5f65e6d53_10_D4.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\JST3_b79774972f798d54f5f74133fdd58390_1_breadboard_D4.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\JST3_b79774972f798d54f5f74133fdd58390_1_schematic_D4.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\JST3_b79774972f798d54f5f74133fdd58390_1_pcb_D4.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\JST3_b79774972f798d54f5f74133fdd58390_1_icon_D4.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "L",
+      "description": "L"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "M",
+      "description": "M"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "R",
+      "description": "R"
+    }
+  ]
+}

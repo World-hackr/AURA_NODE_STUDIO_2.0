@@ -1,0 +1,157 @@
+{
+  "moduleId": "DualVNH2311acd0be31c4d7cbd909ecf39e39784",
+  "title": "Dual VNH2SP30 Motor Driver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Dual_VNH2SP30_Motor_Driver_23a2baa_2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Dual_VNH2SP30_Motor_Driver_23a2baa_2_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Dual_VNH2SP30_Motor_Driver_23a2baa_2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Dual_VNH2SP30_Motor_Driver_23a2baa_2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Dual_VNH2SP30_Motor_Driver_23a2baa_2_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 21,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "Pin 1",
+      "description": "1DIAG/EN Status of High-Side and Low-Side Switches; Open Drain Output"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "Pin 2",
+      "description": "1INa Clockwise Input 1"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "Pin 3",
+      "description": "1INb Counter Clockwise Input 1"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "Pin 4",
+      "description": "1PWM PWM Input 1"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "Pin 5",
+      "description": "1CS Output of Current sense 1"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "Pin 6",
+      "description": "VIN(+) Battery+"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "Pin 7",
+      "description": "GND Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "Pin 8",
+      "description": "+5V(IN) 5V power input"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "Pin 9",
+      "description": "GND Ground"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "Pin 10",
+      "description": "VIN(+) Battery+"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "Pin 11",
+      "description": "2CS Output of Current sense 2"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "Pin 12",
+      "description": "2PWM PWM Input 2"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "Pin 13",
+      "description": "2INb Clockwise Input 2"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "Pin 14",
+      "description": "2INa Counter Clockwise Input 2"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "Pin 15",
+      "description": "2DIAG/EN Status of High-Side and Low-Side Switche; Open Drain Output"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "Pin 16",
+      "description": "OUT2B Power connections to the motor 1.&#13;\r\nSource of High-Side Switch B / Drain of Low-Side Switch B"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "Pin 17",
+      "description": "OUT2A Power connections to the motor 2.&#13;\r\nSource of High-Side Switch A / Drain of Low-Side Switch A"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "Pin 18",
+      "description": "VIN(+) Battery+"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "pin 19",
+      "description": "GND Ground"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "Pin 20",
+      "description": "OUT1B Power connections to the motor 1.&#13;\r\nSource of High-Side Switch B / Drain of Low-Side Switch B"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "Pin 21",
+      "description": "OUT1A Power connections to the motor 1.&#13;\r\nSource of High-Side Switch A / Drain of Low-Side Switch A"
+    }
+  ]
+}

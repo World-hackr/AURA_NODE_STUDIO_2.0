@@ -1,0 +1,175 @@
+{
+  "moduleId": "37E5C8D507334A9E94A6DE1EBB3D272F",
+  "title": "Netduino Mini",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\NetduinoMini.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\NetduinoMini.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\NetduinoMini.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\NetduinoMini.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_24_600mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "TX1",
+      "description": "Serial Transmit [RS-232]"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RX1",
+      "description": "Serial Receive [RS-232]"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DTR",
+      "description": "Serial Data Terminal Ready [RS-232]. Connects to PC serial port DTR pin for programming."
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "5",
+      "description": "Digital I/O / Analog Input 0 [Max output current 2 mA]"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "6",
+      "description": "Digital I/O / Analog Input 1 [Max output current 2 mA]"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "7",
+      "description": "Digital I/O / Analog Input 2 [Max output current 2 mA]"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "8",
+      "description": "Digital I/O / Analog Input 3 [Max output current 2 mA]"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "9",
+      "description": "Digital I/O / Two Wire Data [Max output current 8 mA]"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "10",
+      "description": "Digital I/O / Two Wire Clock [Max output current 8 mA]"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "11",
+      "description": "Digital I/O / Serial Transmit [Max output current 16 mA]"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "12",
+      "description": "Digital I/O / Serial Receive [Max output current 16 mA]"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "13",
+      "description": "Digital I/O / SPI Chip Select 0 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "14",
+      "description": "Digital I/O / SPI Master Out Slave In [Max output current 8 mA]"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "15",
+      "description": "Digital I/O / SPI Master In Slave Out [Max output current 8 mA]"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "16",
+      "description": "Digital I/O / SPI Clock [Max output current 8 mA]"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "17",
+      "description": "Digital I/O / PWM Output 0 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "18",
+      "description": "Digital I/O / PWM Output 1 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "19",
+      "description": "Digital I/O / PWM Output 2 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "20",
+      "description": "Digital I/O / PWM Output 3 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "5V",
+      "description": "5V DC Input/Output"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "RST",
+      "description": "Reset [Active logic LOW]"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VIN",
+      "description": "DC Supply Voltage Input"
+    }
+  ]
+}

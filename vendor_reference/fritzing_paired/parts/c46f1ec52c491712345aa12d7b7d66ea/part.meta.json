@@ -1,0 +1,211 @@
+{
+  "moduleId": "c46f1ec52c491712345aa12d7b7d66ea",
+  "title": "Arduino Nano v3.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Arduino Nano_v30.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\controller_arduino_nano.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\controller_arduino_nano_v30.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\controller_arduino_nano.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_30_600mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 30,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "D12",
+      "description": "Digital I/O 12"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "D4",
+      "description": "Digital I/O Pin 4"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "D13",
+      "description": "Digital I/O 13"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "D5",
+      "description": "Digital I/O Pin 5"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "3V3",
+      "description": "+3.3V DC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "D6",
+      "description": "Digital I/O 6"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "AREF",
+      "description": "Analog Reference Voltage"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "A0",
+      "description": "Analog Input 0"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "A1",
+      "description": "Analog Input 1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "A2",
+      "description": "Analog Input 2"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "A3",
+      "description": "Analog Input 3"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "A4",
+      "description": "Analog Input 4"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "A5",
+      "description": "Analog Input 5"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "A6",
+      "description": "Analog Input 6"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "A7",
+      "description": "Analog Input 7"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "RST",
+      "description": "Reset"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "VIN",
+      "description": "DC Supply Voltage Input"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "D1TX",
+      "description": "Digital I/O 1 / Serial Transmit"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "D7",
+      "description": "Digital I/O 7"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D0RX",
+      "description": "Digital I/O 0 / Serial Recieve"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "D8",
+      "description": "Digital I/O 8"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RST",
+      "description": "Reset"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "D9",
+      "description": "Digital I/O 9"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "D10",
+      "description": "Digital I/O 10"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "D2",
+      "description": "Digital I/O 2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "D11",
+      "description": "Digital I/O 11"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "D3",
+      "description": "Digital I/O 3"
+    }
+  ]
+}

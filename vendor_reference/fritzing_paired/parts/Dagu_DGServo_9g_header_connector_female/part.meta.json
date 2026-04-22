@@ -1,0 +1,44 @@
+{
+  "moduleId": "Dagu_DGServo_9g_header_connector_female",
+  "title": "Dagu DGServo 9g header connector (female)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Dagu DGServo 9g header connector (female).fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Dagu_DGServo_9g_header_connector_female_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Dagu_DGServo_9g_header_connector_female_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Dagu_DGServo_9g_header_connector_female_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "gnd",
+      "description": "ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Vcc",
+      "description": "Vcc"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pulse",
+      "description": "pulse"
+    }
+  ]
+}

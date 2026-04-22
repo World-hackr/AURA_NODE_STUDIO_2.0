@@ -1,0 +1,43 @@
+{
+  "moduleId": "77c36646df552e9fe72f360837f556ccleg",
+  "title": "Battery block 9V",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Battery block 9V.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Battery_block_9V82.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Battery_block_9V82.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Battery_block_9V85_leg.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_2_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "-",
+      "description": "negative side"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "+",
+      "description": "positive side"
+    }
+  ]
+}

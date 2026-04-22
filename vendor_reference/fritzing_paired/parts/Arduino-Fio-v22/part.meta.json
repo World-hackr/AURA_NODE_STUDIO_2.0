@@ -1,0 +1,283 @@
+{
+  "moduleId": "Arduino-Fio-v22",
+  "title": "Arduino Fio (Funnel I/O)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Arduino-Fio-v22.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino-Fio-v22_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Arduino-Fio-v22_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\Arduino-Fio-v22_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino-Fio-v22_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 42,
+  "connectors": [
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "D3 PWM",
+      "description": "D3 PWM"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "D5 PWM",
+      "description": "D5 PWM"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "D6 PWM",
+      "description": "D6 PWM"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "D9 PWM",
+      "description": "D9 PWM"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "D10 PWM/SS",
+      "description": "D10 PWM/SS"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "D11 PWM/MOSI",
+      "description": "D11 PWM/MOSI"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "D12/MISO",
+      "description": "D12/MISO"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "D13/SCK",
+      "description": "D13/SCK"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "VBATT",
+      "description": "VBATT"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "Reset",
+      "description": "Reset"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "D0/RXI",
+      "description": "D0/RXI"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "D1/TXO",
+      "description": "D1/TXO"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "DTR (Reset)",
+      "description": "DTR (Reset)"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "A4/SDA",
+      "description": "A4/SDA"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "A5/SCL",
+      "description": "A5/SCL"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "A6",
+      "description": "A6"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "A7",
+      "description": "A7"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "USB_VIN",
+      "description": "USB_VIN"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "Off",
+      "description": "Off"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "On",
+      "description": "On"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "SLEEP_RQ",
+      "description": "SLEEP_RQ"
+    }
+  ]
+}

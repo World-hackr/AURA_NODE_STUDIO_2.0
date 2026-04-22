@@ -1,0 +1,43 @@
+{
+  "moduleId": "87dcb0bbf2b729b09994d4a523e4cf2f_CB",
+  "title": "3xAAA Switchable Battery Pack w/Bare Wire",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\3xAAA_Switchable_Battery_Pack_w_Bare_Wire_Connectors__d238f586aa178a4fdedc3c4b9fd923fe_CB.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\3xAAA_Switchable_Battery_Pack_w_Bare_Wir__icon__f598719a6f45822395748594219d01c3_CB.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\3xAAA_Switchable_Battery_Pack_w_Bare_Wir__breadboard__ec0c81b44f0bdb488ee1481fa0514237_CB.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\3xAAA_Switchable_Battery_Pack_w_Bare_Wir__schematic__950e972e8dd117912ab814a9a88a0032_CB.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\3xAAA_Switchable_Battery_Pack_w_Bare_Wir__pcb__14b4275de0ad32f5b57dcd864a092f3f_CB.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "POS",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "NEG",
+      "description": "no description yet"
+    }
+  ]
+}

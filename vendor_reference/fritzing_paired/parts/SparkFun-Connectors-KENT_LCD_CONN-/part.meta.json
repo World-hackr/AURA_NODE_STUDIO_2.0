@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-Connectors-KENT_LCD_CONN-",
+  "title": "KENT_LCD_CONN",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-kent_lcd_conn-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_ffc_16_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_kent_lcd_conn_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_ffc_16_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\FFC_16.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "_RESET",
+      "description": "_RESET"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "BUSY",
+      "description": "BUSY"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "NC1",
+      "description": "NC1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "NC2",
+      "description": "NC2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SI",
+      "description": "SI"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SO",
+      "description": "SO"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VPWR1",
+      "description": "VPWR1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VPWR2",
+      "description": "VPWR2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VPWR3",
+      "description": "VPWR3"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VSS1",
+      "description": "VSS1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VSS2",
+      "description": "VSS2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VSS3",
+      "description": "VSS3"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VSS4",
+      "description": "VSS4"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "moduleId": "FloraBLE_16c4d98b8e82b62d9d5d8c9665c26842_1_5B",
+  "title": "Flora Bluefruit LE",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\FloraBLE_16c4d98b8e82b62d9d5d8c9665c26842_1_5B.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\FloraBLE_72c021dadd0ebccc9f5e39bd921ffda5_1_breadboard_5B.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\FloraBLE_72c021dadd0ebccc9f5e39bd921ffda5_1_schematic_5B.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\FloraBLE_72c021dadd0ebccc9f5e39bd921ffda5_1_pcb_5B.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\FloraBLE_72c021dadd0ebccc9f5e39bd921ffda5_1_icon_5B.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "RXI",
+      "description": "RXI"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "MODE",
+      "description": "MODE"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "TXO",
+      "description": "TXO"
+    }
+  ]
+}

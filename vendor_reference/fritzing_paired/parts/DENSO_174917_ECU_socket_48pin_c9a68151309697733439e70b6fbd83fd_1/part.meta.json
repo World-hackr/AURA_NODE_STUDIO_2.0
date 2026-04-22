@@ -1,0 +1,319 @@
+{
+  "moduleId": "DENSO 174917 ECU socket 48pin_c9a68151309697733439e70b6fbd83fd_1",
+  "title": "174917_DENSO-ECU-socket_48pin-040-070",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\174917_DENSO-ECU-socket_48pin-040-070.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DENSO 174917 ECU socket 48pin_1.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DENSO 174917 ECU socket 48pin_1.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DENSO 174917 ECU socket 48pin_1.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DENSO 174917 ECU socket 48pin_1.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 48,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1A",
+      "description": "1A"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "1J",
+      "description": "1J"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "1K",
+      "description": "1K"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "1L",
+      "description": "1L"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "1M",
+      "description": "1M"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "1N",
+      "description": "1N"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "1O",
+      "description": "1O"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "1P",
+      "description": "1P"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "1Q",
+      "description": "1Q"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "1R",
+      "description": "1R"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "1S",
+      "description": "1S"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1B",
+      "description": "1B"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "1T",
+      "description": "1T"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "1U",
+      "description": "1U"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "1V",
+      "description": "1V"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "2A",
+      "description": "2A"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "2B",
+      "description": "2B"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "2C",
+      "description": "2C"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "2D",
+      "description": "2D"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "2E",
+      "description": "2E"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "2F",
+      "description": "2F"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "2G",
+      "description": "2G"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1C",
+      "description": "1C"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "2H",
+      "description": "2H"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "2I",
+      "description": "2I"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "2J",
+      "description": "2J"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "2K",
+      "description": "2K"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "2L",
+      "description": "2L"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "2M",
+      "description": "2M"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "2N",
+      "description": "2N"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "2O",
+      "description": "2O"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "2P",
+      "description": "2P"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "2Q",
+      "description": "2Q"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "1D",
+      "description": "1D"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "2R",
+      "description": "2R"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "2S",
+      "description": "2S"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "2T",
+      "description": "2T"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "2U",
+      "description": "2U"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "2V",
+      "description": "2V"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "2W",
+      "description": "2W"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "2X",
+      "description": "2X"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "2Y",
+      "description": "2Y"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "2Z",
+      "description": "2Z"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "1E",
+      "description": "1E"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "1F",
+      "description": "1F"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "1G",
+      "description": "1G"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "1H",
+      "description": "1H"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "1I",
+      "description": "1I"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "moduleId": "SparkFun-Connectors-M03-POLAR_LOCK",
+  "title": "Header 3",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-m03-polar_lock.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_molex-1x3_lock_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_molex-1x3_lock_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_molex-1x3_lock_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "schematic",
+      "source": "schematic/generic_female_pin_header_3_100mil_10thin_schematic.svg"
+    }
+  ],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "3",
+      "description": "3"
+    }
+  ]
+}

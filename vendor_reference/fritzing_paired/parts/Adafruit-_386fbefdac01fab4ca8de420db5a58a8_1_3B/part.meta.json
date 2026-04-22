@@ -1,0 +1,145 @@
+{
+  "moduleId": "Adafruit-_386fbefdac01fab4ca8de420db5a58a8_1_3B",
+  "title": "Adafruit INA237 85V 10A 16-bit DC Current Voltage Power Monitor - STEMMA QT",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_386fbefdac01fab4ca8de420db5a58a8_1_3B.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_386fbefdac01fab4ca8de420db5a58a8_1_3B_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_386fbefdac01fab4ca8de420db5a58a8_1_3B_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_386fbefdac01fab4ca8de420db5a58a8_1_3B_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_386fbefdac01fab4ca8de420db5a58a8_1_3B_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 19,
+  "connectors": [
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "VIN+",
+      "description": "VIN+"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "VIN+",
+      "description": "VIN+"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "VIN-",
+      "description": "VIN-"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "VIN-",
+      "description": "VIN-"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "ALERT",
+      "description": "ALERT"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

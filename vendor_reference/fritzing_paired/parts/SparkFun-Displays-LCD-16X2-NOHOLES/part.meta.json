@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-Displays-LCD-16X2-NOHOLES",
+  "title": "LCD-16X2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-displays-lcd-16x2-noholes.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-displays_lcd-16x2_noholes_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-displays_lcd-16x2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-displays_lcd-16x2_noholes_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-displays_lcd-16x2_noholes_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DB0",
+      "description": "DB0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DB1",
+      "description": "DB1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DB2",
+      "description": "DB2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DB3",
+      "description": "DB3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DB4",
+      "description": "DB4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DB5",
+      "description": "DB5"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DB6",
+      "description": "DB6"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "DB7",
+      "description": "DB7"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "E",
+      "description": "E"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "K",
+      "description": "K"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "R_W",
+      "description": "R_W"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RS",
+      "description": "RS"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VO",
+      "description": "VO"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "moduleId": "Adafruit-_e23bd4ce2a9690d186e7c1f3b638e193_1_96",
+  "title": "Adafruit High Power Infrared LED Emitter - STEMMA JST PH 2mm",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_e23bd4ce2a9690d186e7c1f3b638e193_1_96.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_e23bd4ce2a9690d186e7c1f3b638e193_1_breadboard_96.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_e23bd4ce2a9690d186e7c1f3b638e193_1_schematic_96.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_e23bd4ce2a9690d186e7c1f3b638e193_1_pcb_96.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_e23bd4ce2a9690d186e7c1f3b638e193_1_icon_96.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "K",
+      "description": "K"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

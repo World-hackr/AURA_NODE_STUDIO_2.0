@@ -1,0 +1,79 @@
+{
+  "moduleId": "afdgarRevEd_24LC01",
+  "title": "24LC01",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_24LC01.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\24LC01_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\24LC01_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_SO8_DT.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\24LC01_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "pad",
+      "name": "A0",
+      "description": null
+    },
+    {
+      "id": "connector1",
+      "type": "pad",
+      "name": "A1",
+      "description": null
+    },
+    {
+      "id": "connector2",
+      "type": "pad",
+      "name": "A2",
+      "description": null
+    },
+    {
+      "id": "connector3",
+      "type": "pad",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector4",
+      "type": "pad",
+      "name": "SDA - I2C Data",
+      "description": "Connect this pin to the 'I2C Data' (SDA) signal of the controller"
+    },
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "SCL - I2C Clock",
+      "description": "Connect this pin to the 'I2C Clock' (SCL) signal of the controller"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "WP - Write Protect",
+      "description": "This pin is used to write protect this device. Connect this pin to a digital output pin of the controller or the positive rail or 0V (ground) of your power supply. When presented with a logic high signal or connected to the postive rail the EEPROM will be write protected and memory contents cannot be altered"
+    },
+    {
+      "id": "connector7",
+      "type": "pad",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "moduleId": "UltrasonicMiniModule_a146ec24",
+  "title": "Connector M40-1100300",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\m40-1100300.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\m40-1100300.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\m40-1100300.min.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Circuit 1",
+      "description": "Circuit 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "pin3"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Circuit 1",
+      "description": "Circuit 1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin3",
+      "description": "pin3"
+    }
+  ]
+}

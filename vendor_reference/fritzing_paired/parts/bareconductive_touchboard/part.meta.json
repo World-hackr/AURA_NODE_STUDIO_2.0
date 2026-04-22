@@ -1,0 +1,445 @@
+{
+  "moduleId": "bareconductive_touchboard",
+  "title": "Bare Conductive Touch Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\bareconductive_touchboard.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\bareconductive_touchboard_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\bareconductive_touchboard_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\bareconductive_touchboard_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\bareconductive_touchboard_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 69,
+  "connectors": [
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "D0/RX",
+      "description": "D0/RX"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "D1/TX",
+      "description": "D1/TX"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "D2/SDA (MPR121)",
+      "description": "D2/SDA (MPR121)"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "D3/SCL PWM (MPR121)",
+      "description": "D3/SCL PWM (MPR121)"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "D4/IRQ A6 (MPR121)",
+      "description": "D4/IRQ A6 (MPR121)"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "D5/SD-CS PWM (SD Card)",
+      "description": "D5/SD-CS PWM (SD Card)"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "D6/D-CS PWM/A7 (VS1053)",
+      "description": "D6/D-CS PWM/A7 (VS1053)"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "D7/DREQ (VS1053)",
+      "description": "D7/DREQ (VS1053)"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "n.c.",
+      "description": "reserved"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "IOREF",
+      "description": "IOREF"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector92",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector93",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector95",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector96",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector97",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector98",
+      "type": "male",
+      "name": "D8/MP3-RST/A8 (VS1053)",
+      "description": "D8/MP3-RST/A8 (VS1053)"
+    },
+    {
+      "id": "connector99",
+      "type": "male",
+      "name": "D9/MP3-CS PWM/A9 (VS1053)",
+      "description": "D9/MP3-CS PWM/A9 (VS1053)"
+    },
+    {
+      "id": "connector100",
+      "type": "male",
+      "name": "D10 PWM/A10 (MIDI)",
+      "description": "D10 PWM/A10 (MIDI)"
+    },
+    {
+      "id": "connector101",
+      "type": "male",
+      "name": "D11 PWM",
+      "description": "D11 PWM"
+    },
+    {
+      "id": "connector102",
+      "type": "male",
+      "name": "D12/A11",
+      "description": "D12/A11"
+    },
+    {
+      "id": "connector103",
+      "type": "male",
+      "name": "D13 PWM",
+      "description": "D13 PWM"
+    },
+    {
+      "id": "connector104",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector105",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector106",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector107",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector108",
+      "type": "male",
+      "name": "L",
+      "description": "L"
+    },
+    {
+      "id": "connector109",
+      "type": "male",
+      "name": "R",
+      "description": "R"
+    },
+    {
+      "id": "connector110",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector111",
+      "type": "male",
+      "name": "E0",
+      "description": "E0"
+    },
+    {
+      "id": "connector112",
+      "type": "male",
+      "name": "E1",
+      "description": "E1"
+    },
+    {
+      "id": "connector113",
+      "type": "male",
+      "name": "E2",
+      "description": "E2"
+    },
+    {
+      "id": "connector114",
+      "type": "male",
+      "name": "E3",
+      "description": "E3"
+    },
+    {
+      "id": "connector115",
+      "type": "male",
+      "name": "E4",
+      "description": "E4"
+    },
+    {
+      "id": "connector116",
+      "type": "male",
+      "name": "E5",
+      "description": "E5"
+    },
+    {
+      "id": "connector117",
+      "type": "male",
+      "name": "E6",
+      "description": "E6"
+    },
+    {
+      "id": "connector118",
+      "type": "male",
+      "name": "E7",
+      "description": "E7"
+    },
+    {
+      "id": "connector119",
+      "type": "male",
+      "name": "E8",
+      "description": "E8"
+    },
+    {
+      "id": "connector120",
+      "type": "male",
+      "name": "E9",
+      "description": "E9"
+    },
+    {
+      "id": "connector121",
+      "type": "male",
+      "name": "E10",
+      "description": "E10"
+    },
+    {
+      "id": "connector122",
+      "type": "male",
+      "name": "E11",
+      "description": "E11"
+    },
+    {
+      "id": "connector123",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector124",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector125",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector126",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector127",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector128",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector129",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector130",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector131",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector132",
+      "type": "male",
+      "name": "E0",
+      "description": "E0 direct pin"
+    },
+    {
+      "id": "connector133",
+      "type": "male",
+      "name": "E1",
+      "description": "E1 direct pin"
+    },
+    {
+      "id": "connector134",
+      "type": "male",
+      "name": "E2",
+      "description": "E2 direct pin"
+    },
+    {
+      "id": "connector135",
+      "type": "male",
+      "name": "E3",
+      "description": "E3 direct pin"
+    },
+    {
+      "id": "connector136",
+      "type": "male",
+      "name": "E4",
+      "description": "E4 direct pin"
+    },
+    {
+      "id": "connector137",
+      "type": "male",
+      "name": "E5",
+      "description": "E5 direct pin"
+    },
+    {
+      "id": "connector138",
+      "type": "male",
+      "name": "E6",
+      "description": "E6 direct pin"
+    },
+    {
+      "id": "connector139",
+      "type": "male",
+      "name": "E7",
+      "description": "E7 direct pin"
+    },
+    {
+      "id": "connector140",
+      "type": "male",
+      "name": "E8",
+      "description": "E8 direct pin"
+    },
+    {
+      "id": "connector141",
+      "type": "male",
+      "name": "E9",
+      "description": "E9 direct pin"
+    },
+    {
+      "id": "connector142",
+      "type": "male",
+      "name": "E10",
+      "description": "E10 direct pin"
+    },
+    {
+      "id": "connector143",
+      "type": "male",
+      "name": "E11",
+      "description": "E11 direct pin"
+    },
+    {
+      "id": "connector144",
+      "type": "male",
+      "name": "GND",
+      "description": "GND direct pin"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "moduleId": "8606aaeac6ae43adf3f4ee2ce89b9d0b",
+  "title": "ATmega644",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ATmega644.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\microcontroller.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ATmega644c3.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DIP___40_pins491bd.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ATmega644c3.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PB3",
+      "description": "(4) PC0A / AIN1 / PCINT11"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PD7",
+      "description": "(21) OC2A / PCINT31"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "PB4",
+      "description": "(5) OC0B / SS / PCINT2"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "PC0",
+      "description": "(22) SCL / PCINT16"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PB5",
+      "description": "(6) MOSI / PCINT13"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "PC1",
+      "description": "(23) SDA / PCINT17"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PB6",
+      "description": "(7) MISO / PCINT14"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "PB7",
+      "description": "(8) SCK / PCINT15"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "PC2",
+      "description": "(24) TCK / PCINT18"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RESET",
+      "description": "(9) RESET"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "PC3",
+      "description": "(25) TMS / PCINT19"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VCC",
+      "description": "(10) VCC"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "PC4",
+      "description": "(26) TDO / PCINT20"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "PC5",
+      "description": "(27) TDI / PCINT21"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "PC6",
+      "description": "(28) TOSC1 / PCINT22"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "PC7",
+      "description": "(29) TOSC2 / PCINT23"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "AVCC",
+      "description": "(30) Analog Supply Voltage"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GND",
+      "description": "(31) GND 2nd node"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "AREF",
+      "description": "(32) Analog Reference Voltage"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "PA7",
+      "description": "(33) ADC7 / PCINT7"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "PA6",
+      "description": "(34) ADC6 / PCINT6"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "PA5",
+      "description": "(35) ADC5 / PCINT5"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "PA4",
+      "description": "(36) ADC4 / PCINT4"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "PA3",
+      "description": "(37) ADC3 / PCINT3"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "PA2",
+      "description": "(38) ADC2 / PCINT2"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "PA1",
+      "description": "(39) ADC1 / PCINT1"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "PA0",
+      "description": "(40) ADC0 / PCINT0"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "(11) GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "XTAL2",
+      "description": "(12) XTAL2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "XTAL1",
+      "description": "(13) XTAL1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PD0",
+      "description": "(14) RXD0 / PCINT24"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PD1",
+      "description": "(15) TXD0 / PCINT25"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PD2",
+      "description": "(16) INT0 / PCINT26"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "PD3",
+      "description": "(17) INT1 / PCINT27"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "PD4",
+      "description": "(18) OC1B / PCINT28"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "PD5",
+      "description": "(19) OC1A / PCINT29"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "PD6",
+      "description": "(20) OC2B / ICP / PCINT30"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "PB0",
+      "description": "(1) XCK0 / T0 / PCINT8"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PB1",
+      "description": "(2) CLKO / T1 / PCINT9"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PB2",
+      "description": "(3) INT2 / AIN0 / PCINT10"
+    }
+  ]
+}

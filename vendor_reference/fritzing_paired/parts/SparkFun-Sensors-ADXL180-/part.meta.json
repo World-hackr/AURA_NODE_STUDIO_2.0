@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Sensors-ADXL180-",
+  "title": "ADXL180",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-adxl180-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_adxl180_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_adxl180_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_adxl180_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_adxl180_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VBC",
+      "description": "VBC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VBN",
+      "description": "VBN"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VBN",
+      "description": "VBN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VBN",
+      "description": "VBN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VBN",
+      "description": "VBN"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VBP",
+      "description": "VBP"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VSCI",
+      "description": "VSCI"
+    }
+  ]
+}

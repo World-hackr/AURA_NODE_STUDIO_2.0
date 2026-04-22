@@ -1,0 +1,67 @@
+{
+  "moduleId": "femtobuck",
+  "title": "FemtoBuck LED Driver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\femtobuck.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\femtobuck_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\femtobuck_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\femtobuck_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\femtobuck_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "PGND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "D-",
+      "description": "D-/DGND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "D+",
+      "description": "D+/CTRL_CH1"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "OUT+",
+      "description": "OUT+"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "OUT-",
+      "description": "OUT-"
+    }
+  ]
+}

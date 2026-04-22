@@ -1,0 +1,283 @@
+{
+  "moduleId": "dquidio_GPRS",
+  "title": "dquidio_GPRS board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\dquidio_GPRS.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\dquidio_GPRS_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\dquidio_GPRS_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\dquidio_GPRS_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\dquidio_GPRS_PCB.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 42,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "12V_Input",
+      "description": "Pin 1 - User 12V In – Input"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "5V_Output",
+      "description": "pin 2 - 5V- Out"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RS-232 Rx",
+      "description": "pin 3 - to be managed via Firmware"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RS-232 Tx",
+      "description": "pin 4 - to be managed via Firmware"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 5 - GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 6 - GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "OUT 1",
+      "description": "pin 7 - Output number 1. To be configured with DQuid App"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "OUT 2",
+      "description": "pin 8 - Output number 2. To be configured with DQuid App"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "I2C_SDA",
+      "description": "pin 9 - to be managed via Firmware"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "I2C_SCL",
+      "description": "pin 10 - to be managed via Firmware"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "UART Tx",
+      "description": "pin 11 - to be managed via Firmware"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "UART Rx",
+      "description": "pin 12 - to be managed via Firmware"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "CAN H",
+      "description": "pin 13 - CAN H"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "CAN L",
+      "description": "pin 14 - CAN H"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OUT 3",
+      "description": "pin 15 - Output 3. To be configured with DQuid App"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OUT 4",
+      "description": "pin 16 - Output 4. To be configured with DQuid DQuid APP"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "IN 1",
+      "description": "pin 17 - Input 1. To be configured with DQuid APP"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "IN 2",
+      "description": "pin 18 - Input 2. To be configured with DQuid APP"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "IN 3",
+      "description": "pin 19 - Input 3. To be configured with DQuid APP"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "IN 4",
+      "description": "pin 20 - Input 4. To be configured with DQuid APP"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "UART Rx",
+      "description": "pin 21"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "UART Tx",
+      "description": "pin 22"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "Digtial 0",
+      "description": "pin 23"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "Digital 1",
+      "description": "pin 24"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "Digital 2",
+      "description": "pin 25"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "Digital 3",
+      "description": "pin 26"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "Not connected",
+      "description": "pin 27"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "Not connected",
+      "description": "pin 28"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "I2C SCL",
+      "description": "pin 29"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "I2C SDA",
+      "description": "pin 30"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "Not connected",
+      "description": "pin 31"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "Not connected",
+      "description": "pin 32"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "Not connected",
+      "description": "pin 33"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "Analog 0",
+      "description": "pin 34"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "Input 12 V",
+      "description": "pin 35"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 36"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 37"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "Output 5 V",
+      "description": "pin 38"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "Output 3.3 V",
+      "description": "pin 39"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "Not Connected",
+      "description": "pin 40 is not connected"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "Not Connected",
+      "description": "pin 42 is not connected"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "moduleId": "AnalogDevices_AD654JNZ",
+  "title": "AD654 - Low Cost Monolithic Voltage-to-Frequency Converter",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_AD654.AnalogDevices_AD654JNZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AD654.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\AD654.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\AD654.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AD654.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "10V",
+      "description": "FOUT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "5V",
+      "description": "COM"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "2p5V",
+      "description": "RT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "COMMON",
+      "description": "+VIN"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "STROBE",
+      "description": "-VS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VBG",
+      "description": "CT"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CAP",
+      "description": "CT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "V+",
+      "description": "+VS"
+    }
+  ]
+}

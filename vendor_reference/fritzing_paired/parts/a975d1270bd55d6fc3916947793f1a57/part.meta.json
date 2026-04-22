@@ -1,0 +1,97 @@
+{
+  "moduleId": "a975d1270bd55d6fc3916947793f1a57",
+  "title": "RFID Reader",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\rfid-reader.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\rfid_reader_id12.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\rfid_reader_id12.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\rfid_reader_id12.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\rfid_reader_id12.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector2pin_10",
+      "type": "male",
+      "name": "+5V",
+      "description": "Power"
+    },
+    {
+      "id": "connector2pin_1",
+      "type": "male",
+      "name": "RES",
+      "description": "Reset Bar"
+    },
+    {
+      "id": "connector2pin_2",
+      "type": "male",
+      "name": "ANT0",
+      "description": "Antenna"
+    },
+    {
+      "id": "connector2pin_3",
+      "type": "male",
+      "name": "ANT1",
+      "description": "Antenna"
+    },
+    {
+      "id": "connector2pin_4",
+      "type": "male",
+      "name": "CP",
+      "description": "Card Present"
+    },
+    {
+      "id": "connector2pin_5",
+      "type": "male",
+      "name": "Future",
+      "description": "For future use"
+    },
+    {
+      "id": "connector2pin_6",
+      "type": "male",
+      "name": "+/-",
+      "description": "Format Selector"
+    },
+    {
+      "id": "connector2pin_7",
+      "type": "male",
+      "name": "D1",
+      "description": "Data Pin 1"
+    },
+    {
+      "id": "connector2pin_8",
+      "type": "male",
+      "name": "D0",
+      "description": "Data Pin 0"
+    },
+    {
+      "id": "connector2pin_9",
+      "type": "male",
+      "name": "LED",
+      "description": "LED / Beeper"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

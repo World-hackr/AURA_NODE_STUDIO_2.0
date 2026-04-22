@@ -1,0 +1,139 @@
+{
+  "moduleId": "MPR121-Breakout-v13",
+  "title": "MPR121 Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\MPR121-Breakout-v13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MPR121-Breakout-v13_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\MPR121-Breakout-v13_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\MPR121-Breakout-v13_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MPR121-Breakout-v13_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "ADDR",
+      "description": "ADDR"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "~IRQ",
+      "description": "~IRQ"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "ELE11",
+      "description": "ELE11"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "ELE10",
+      "description": "ELE10"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "ELE9",
+      "description": "ELE9"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "ELE8",
+      "description": "ELE8"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "ELE7",
+      "description": "ELE7"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "ELE6",
+      "description": "ELE6"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "ELE5",
+      "description": "ELE5"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "ELE4",
+      "description": "ELE4"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "ELE3",
+      "description": "ELE3"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "ELE2",
+      "description": "ELE2"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "ELE1",
+      "description": "ELE1"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "ELE0",
+      "description": "ELE0"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

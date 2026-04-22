@@ -1,0 +1,151 @@
+{
+  "moduleId": "TXB0108_3be107ba1d4971bd982d12cdddf32e11_1_66",
+  "title": "TXB0108 8-channel Bi-directional Logic Level Converter",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\TXB0108_3be107ba1d4971bd982d12cdddf32e11_1_66.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\TXB0108_3be107ba1d4971bd982d12cdddf32e11_1_breadboard_66.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\TXB0108_3be107ba1d4971bd982d12cdddf32e11_1_schematic_66.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\TXB0108_3be107ba1d4971bd982d12cdddf32e11_1_pcb_66.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\TXB0108_3be107ba1d4971bd982d12cdddf32e11_1_icon_66.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "VCCA",
+      "description": "VCCA"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VCCB",
+      "description": "VCCB"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "A6",
+      "description": "A6"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "A7",
+      "description": "A7"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "A8",
+      "description": "A8"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "OE",
+      "description": "OE"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "B1",
+      "description": "B1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "B2",
+      "description": "B2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "B3",
+      "description": "B3"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "B4",
+      "description": "B4"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "B5",
+      "description": "B5"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "B6",
+      "description": "B6"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "B7",
+      "description": "B7"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "B8",
+      "description": "B8"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

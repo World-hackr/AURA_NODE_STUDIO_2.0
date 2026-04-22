@@ -1,0 +1,67 @@
+{
+  "moduleId": "Adafruit-_0a14526b57ce0e445a36ec8125564d0a_1_29",
+  "title": "Adafruit UPDI Friend",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_0a14526b57ce0e445a36ec8125564d0a_1_29.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_0a14526b57ce0e445a36ec8125564d0a_1_breadboard_29.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_0a14526b57ce0e445a36ec8125564d0a_1_schematic_29.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_0a14526b57ce0e445a36ec8125564d0a_1_pcb_29.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_0a14526b57ce0e445a36ec8125564d0a_1_icon_29.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VDDIO",
+      "description": "VDDIO"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "VDDIO",
+      "description": "VDDIO"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

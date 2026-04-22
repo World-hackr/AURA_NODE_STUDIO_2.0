@@ -1,0 +1,54 @@
+{
+  "moduleId": "SparkFun-DiscreteSemi-MOC3031-M-",
+  "title": "MOC3031-M",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-discretesemi-moc3031-m-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-discretesemi_moc3031-m_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-discretesemi_dil06_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_6_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_6_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "4",
+      "description": "4"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "6",
+      "description": "6"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "moduleId": "bsiepert_99e5a749a6ed7fc70f9995a21b83b5e1_1_79",
+  "title": "Adafruit VCNL4040",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\bsiepert_99e5a749a6ed7fc70f9995a21b83b5e1_1_79.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\bsiepert_99e5a749a6ed7fc70f9995a21b83b5e1_1_breadboard_79.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\bsiepert_99e5a749a6ed7fc70f9995a21b83b5e1_1_schematic_79.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\bsiepert_99e5a749a6ed7fc70f9995a21b83b5e1_1_pcb_79.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\bsiepert_99e5a749a6ed7fc70f9995a21b83b5e1_1_icon_79.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

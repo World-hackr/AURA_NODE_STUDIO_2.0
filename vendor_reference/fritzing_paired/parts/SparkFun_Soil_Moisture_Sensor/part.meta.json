@@ -1,0 +1,67 @@
+{
+  "moduleId": "SparkFun_Soil_Moisture_Sensor",
+  "title": "Soil Moisture Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SparkFun_Soil_Moisture_Sensor.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun_Soil_Moisture_Sensor_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SparkFun_Soil_Moisture_Sensor_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SparkFun_Soil_Moisture_Sensor_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun_Soil_Moisture_Sensor_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "SIG",
+      "description": "SIG"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "SIG",
+      "description": "SIG"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "moduleId": "1_LabDCPowerSupplyModuleID",
+  "title": "DC Power Supply",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\power_supply_dc_lab_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\power_supply_dc_lab_1_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\power_supply_dc_lab_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\power_supply_dc_lab_1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_2_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "OUTPUT -"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "OUTPUT +"
+    }
+  ]
+}

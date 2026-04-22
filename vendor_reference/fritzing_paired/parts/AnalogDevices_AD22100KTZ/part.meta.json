@@ -1,0 +1,49 @@
+{
+  "moduleId": "AnalogDevices_AD22100KTZ",
+  "title": "AD22100 - Voltage Output Temperature Sensor with Signal Conditioning",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_AD22100KTZ.AnalogDevices_AD22100KTZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AD22100.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\AD22100.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\AD22100.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AD22100.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Vo",
+      "description": "Vo"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

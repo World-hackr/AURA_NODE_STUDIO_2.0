@@ -1,0 +1,103 @@
+{
+  "moduleId": "Adafruit-_a3e8ffb60fb55067fd58135b6f119958_1_A6",
+  "title": "Adafruit RS232 Pal",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_a3e8ffb60fb55067fd58135b6f119958_1_A6.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_a3e8ffb60fb55067fd58135b6f119958_1_A6_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_a3e8ffb60fb55067fd58135b6f119958_1_A6_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_a3e8ffb60fb55067fd58135b6f119958_1_A6_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_a3e8ffb60fb55067fd58135b6f119958_1_A6_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "R2OUT",
+      "description": "R2OUT"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "T2IN",
+      "description": "T2IN"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "R1OUT",
+      "description": "R1OUT"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "T1IN",
+      "description": "T1IN"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "R2IN",
+      "description": "R2IN"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "T2OUT",
+      "description": "T2OUT"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "R1IN",
+      "description": "R1IN"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "T1OUT",
+      "description": "T1OUT"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

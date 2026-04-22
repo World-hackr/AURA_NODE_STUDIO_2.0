@@ -1,0 +1,67 @@
+{
+  "moduleId": "SparkFun-PowerIC-ADM1087-SC-70",
+  "title": "ADM1087",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-adm1087-sc-70.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_sc-70_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_adm1087_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_sc-70_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_sc-70_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CEXT",
+      "description": "CEXT"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "ENIN",
+      "description": "ENIN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "ENOUT",
+      "description": "ENOUT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    }
+  ]
+}

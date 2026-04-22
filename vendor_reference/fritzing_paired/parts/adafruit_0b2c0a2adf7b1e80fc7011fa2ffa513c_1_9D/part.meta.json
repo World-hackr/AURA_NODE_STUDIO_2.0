@@ -1,0 +1,97 @@
+{
+  "moduleId": "adafruit_0b2c0a2adf7b1e80fc7011fa2ffa513c_1_9D",
+  "title": "1.27 inch 16-bit Color OLED w microSD holder",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_0b2c0a2adf7b1e80fc7011fa2ffa513c_1_9D.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_0b2c0a2adf7b1e80fc7011fa2ffa513c_1_breadboard_9D.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_0b2c0a2adf7b1e80fc7011fa2ffa513c_1_schematic_9D.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_0b2c0a2adf7b1e80fc7011fa2ffa513c_1_pcb_9D.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_0b2c0a2adf7b1e80fc7011fa2ffa513c_1_icon_9D.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DC",
+      "description": "DC"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OLEDCS",
+      "description": "OLEDCS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SDCS",
+      "description": "SDCS"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SD_CD",
+      "description": "SD_CD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

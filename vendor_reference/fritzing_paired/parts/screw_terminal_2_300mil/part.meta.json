@@ -1,0 +1,38 @@
+{
+  "moduleId": "screw_terminal_2_300mil",
+  "title": "Screw terminal - 2 pins",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\screw_terminal_2_300mil.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\screw_terminal.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\screw_terminal_2_100mil_bread.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/screw_terminal_2_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "Pin 2"
+    }
+  ]
+}

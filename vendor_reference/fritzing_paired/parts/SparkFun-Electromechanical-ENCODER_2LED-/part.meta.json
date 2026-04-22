@@ -1,0 +1,73 @@
+{
+  "moduleId": "SparkFun-Electromechanical-ENCODER_2LED-",
+  "title": "ENCODER_2LED",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-encoder_2led-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_encoder_led_2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_encoder_led_2-1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_encoder_led_2_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ENCODER_LED_2.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "+G",
+      "description": "+G"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "+R",
+      "description": "+R"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "-",
+      "description": "-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    }
+  ]
+}

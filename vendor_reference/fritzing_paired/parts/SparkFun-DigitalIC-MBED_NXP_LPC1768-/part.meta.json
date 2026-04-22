@@ -1,0 +1,270 @@
+{
+  "moduleId": "SparkFun-DigitalIC-MBED_NXP_LPC1768-",
+  "title": "MBED_NXP_LPC1768",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-mbed_nxp_lpc1768-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_mbed_nxp_lpc1768_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil40_0.9_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_40_1000mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_40_1000mil_bread.svg"
+    }
+  ],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "P$1",
+      "description": "P$1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P$10",
+      "description": "P$10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "P$11",
+      "description": "P$11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "P$12",
+      "description": "P$12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "P$13",
+      "description": "P$13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "P$14",
+      "description": "P$14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "P$15",
+      "description": "P$15"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "P$16",
+      "description": "P$16"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "P$17",
+      "description": "P$17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "P$18",
+      "description": "P$18"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "P$19",
+      "description": "P$19"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P$2",
+      "description": "P$2"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "P$20",
+      "description": "P$20"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "P$21",
+      "description": "P$21"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "P$22",
+      "description": "P$22"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "P$23",
+      "description": "P$23"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "P$24",
+      "description": "P$24"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "P$25",
+      "description": "P$25"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "P$26",
+      "description": "P$26"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "P$27",
+      "description": "P$27"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "P$28",
+      "description": "P$28"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "P$29",
+      "description": "P$29"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "P$3",
+      "description": "P$3"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "P$30",
+      "description": "P$30"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "P$31",
+      "description": "P$31"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "P$32",
+      "description": "P$32"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "P$33",
+      "description": "P$33"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "P$34",
+      "description": "P$34"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "P$35",
+      "description": "P$35"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "P$36",
+      "description": "P$36"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "P$37",
+      "description": "P$37"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "P$38",
+      "description": "P$38"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "P$39",
+      "description": "P$39"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "P$4",
+      "description": "P$4"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "P$40",
+      "description": "P$40"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P$5",
+      "description": "P$5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "P$6",
+      "description": "P$6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P$7",
+      "description": "P$7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P$8",
+      "description": "P$8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "P$9",
+      "description": "P$9"
+    }
+  ]
+}

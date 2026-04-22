@@ -1,0 +1,79 @@
+{
+  "moduleId": "AnalogDevices_AD8210YRZ",
+  "title": "AD8210 - High Voltage Birdirectional Current Shunt Monitor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_AD8210.AnalogDevices_AD8210YRZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AD8210.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\AD8210.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\AD8210CMOD.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AD8210.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "-IN",
+      "description": "-IN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VREF2",
+      "description": "VREF2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VREF1",
+      "description": "VREF1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "+IN",
+      "description": "+IN"
+    }
+  ]
+}

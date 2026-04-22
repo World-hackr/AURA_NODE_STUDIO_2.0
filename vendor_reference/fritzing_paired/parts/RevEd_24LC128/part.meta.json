@@ -1,0 +1,79 @@
+{
+  "moduleId": "RevEd_24LC128",
+  "title": "24LC128",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\24LC128.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\24LC128_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\24LC128_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\24LC128_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A0",
+      "description": "Connect this pin to either the positive rail or 0V (ground) of your power supply for this circuit to select the 'I2C Device Address' for this component"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A1",
+      "description": "Connect this pin to either the positive rail or 0V (ground) of your power supply for this circuit to select the 'I2C Device Address' for this component"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "A2",
+      "description": "Connect this pin to either the positive rail or 0V (ground) of your power supply for this circuit to select the 'I2C Device Address' for this component"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SDA - I2C Data",
+      "description": "Connect this pin to the 'I2C Data' (SDA) signal of the controller"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SCL - I2C Clock",
+      "description": "Connect this pin to the 'I2C Clock' (SCL) signal of the controller"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "WP - Write Protect",
+      "description": "This pin is used to write protect this device. Connect this pin to a digital output pin of the controller or the positive rail or 0V (ground) of your power supply. When presented with a logic high signal or connected to the postive rail the EEPROM will be write protected and memory contents cannot be altered"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    }
+  ]
+}

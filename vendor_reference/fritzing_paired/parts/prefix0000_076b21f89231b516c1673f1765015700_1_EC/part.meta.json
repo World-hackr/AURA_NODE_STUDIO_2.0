@@ -1,0 +1,151 @@
+{
+  "moduleId": "prefix0000_076b21f89231b516c1673f1765015700_1_EC",
+  "title": "74LVC245 Octal 2-Way Tranceiver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\prefix0000_076b21f89231b516c1673f1765015700_1_EC.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\prefix0000_076b21f89231b516c1673f1765015700_2_icon_EC.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\prefix0000_076b21f89231b516c1673f1765015700_2_breadboard_EC.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\prefix0000_076b21f89231b516c1673f1765015700_2_schematic_EC.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\prefix0000_076b21f89231b516c1673f1765015700_2_pcb_EC.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "B4",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "A6",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "B3",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "A7",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "B2",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "ground"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "B1",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "!OE",
+      "description": "output enable (inverted)"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "VCC",
+      "description": "supply voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DIR",
+      "description": "direction"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "A8",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "A1",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "A2",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "B8",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "A3",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "B7",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "A4",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "B6",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "A5",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "B5",
+      "description": "no description yet"
+    }
+  ]
+}

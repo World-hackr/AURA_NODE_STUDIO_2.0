@@ -1,0 +1,247 @@
+{
+  "moduleId": "SparkFun-RF-GR-10-SMD",
+  "title": "GR-10 GPS Receiver Module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-gr-10-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_gr-10_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_gr-10_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_gr-10_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\GR-10.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 36,
+  "connectors": [
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "1.8VIF",
+      "description": "1.8VIF"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "1.8VLNA",
+      "description": "1.8VLNA"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "1.8VRF",
+      "description": "1.8VRF"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "1.8VVCO",
+      "description": "1.8VVCO"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "1PPS",
+      "description": "1PPS"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "3V",
+      "description": "3V"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "ANT",
+      "description": "ANT"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "APIO_A4",
+      "description": "APIO_A4"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "FREF",
+      "description": "FREF"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GPIO_A11",
+      "description": "GPIO_A11"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GPIO_A5",
+      "description": "GPIO_A5"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GPIO_A6",
+      "description": "GPIO_A6"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GPIO_A9",
+      "description": "GPIO_A9"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GPIO_B16",
+      "description": "GPIO_B16"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GPIO_B19",
+      "description": "GPIO_B19"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "RFEN",
+      "description": "RFEN"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "RTC_XIN",
+      "description": "RTC_XIN"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "RTC_XOUT",
+      "description": "RTC_XOUT"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RX0",
+      "description": "RX0"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RX1",
+      "description": "RX1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SB",
+      "description": "SB"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "TPI",
+      "description": "TPI"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "TPQ",
+      "description": "TPQ"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TX0",
+      "description": "TX0"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TX1",
+      "description": "TX1"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VALID_FIX",
+      "description": "VALID_FIX"
+    }
+  ]
+}

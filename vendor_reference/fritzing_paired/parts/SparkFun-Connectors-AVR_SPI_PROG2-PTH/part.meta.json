@@ -1,0 +1,91 @@
+{
+  "moduleId": "SparkFun-Connectors-AVR_SPI_PROG2-PTH",
+  "title": "AVR 10-pin ICSP Header",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-avr_spi_prog2-pth.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_avr_icsp_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_avr_spi_programmer-1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_avr_icsp_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_avr_icsp_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "10",
+      "description": "10"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "3",
+      "description": "3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "4",
+      "description": "4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "5",
+      "description": "5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "6",
+      "description": "6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "7",
+      "description": "7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "8",
+      "description": "8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "9",
+      "description": "9"
+    }
+  ]
+}

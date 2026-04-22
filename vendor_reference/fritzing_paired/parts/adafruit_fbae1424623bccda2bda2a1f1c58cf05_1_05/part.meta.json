@@ -1,0 +1,235 @@
+{
+  "moduleId": "adafruit_fbae1424623bccda2bda2a1f1c58cf05_1_05",
+  "title": "12-Channel 16-bit PWM LED Driver - SPI",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_fbae1424623bccda2bda2a1f1c58cf05_1_05.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_2d4bfcce497a7cb6c1fef10979115d36_1_breadboard_05.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_2d4bfcce497a7cb6c1fef10979115d36_1_schematic_05.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_2d4bfcce497a7cb6c1fef10979115d36_1_pcb_05.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_2d4bfcce497a7cb6c1fef10979115d36_1_icon_05.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 34,
+  "connectors": [
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "DI",
+      "description": "DI"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "CI",
+      "description": "CI"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "R0",
+      "description": "R0"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "G0",
+      "description": "G0"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "B0",
+      "description": "B0"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "R1",
+      "description": "R1"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "G1",
+      "description": "G1"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "B1",
+      "description": "B1"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "DO",
+      "description": "DO"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "CO",
+      "description": "CO"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "R2",
+      "description": "R2"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "G2",
+      "description": "G2"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "B2",
+      "description": "B2"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "R3",
+      "description": "R3"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "G3",
+      "description": "G3"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "B3",
+      "description": "B3"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

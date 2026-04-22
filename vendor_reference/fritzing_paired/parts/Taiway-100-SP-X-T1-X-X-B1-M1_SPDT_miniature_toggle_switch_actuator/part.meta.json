@@ -1,0 +1,32 @@
+{
+  "moduleId": "Taiway-100-SP-X-T1-X-X-B1-M1_SPDT_miniature_toggle_switch_actuator",
+  "title": "Taiway 100-SP-X-T1 SPDT Miniature Toggle Switch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Taiway-100-SP-X-T1-X-X-B1-M1_SPDT_miniature_toggle_switch_actuator.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Taiway-100-SP-X-T1_SPDT_miniature_toggle_switch_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Taiway-100-SP-X-T1-X-X-B1-M1_SPDT_miniature_toggle_switch_actuator_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Taiway-100-SP-X-T1-X-X-B1-M1_SPDT_miniature_toggle_switch_mounting_hole_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 1,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "unknown",
+      "name": "COM",
+      "description": "COM"
+    }
+  ]
+}

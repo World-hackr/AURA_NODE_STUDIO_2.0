@@ -1,0 +1,67 @@
+{
+  "moduleId": "lm2596_to220_f44cb37d8d6021cdacac7094cee01f17_1",
+  "title": "LM2596 (TO220)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\lm2596_to220_f44cb37d8d6021cdacac7094cee01f17_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\lm2596_to220_3031c9eb84e0fd397e0edb51634d8fb9_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lm2596_to220_3031c9eb84e0fd397e0edb51634d8fb9_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lm2596_to220_3031c9eb84e0fd397e0edb51634d8fb9_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\lm2596_to220_3031c9eb84e0fd397e0edb51634d8fb9_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "VIN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "OUTPUT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "FB"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "EN"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "Tab",
+      "description": "GND"
+    }
+  ]
+}

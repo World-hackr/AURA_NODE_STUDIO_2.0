@@ -1,0 +1,79 @@
+{
+  "moduleId": "AnalogDevices_AD584JNZ",
+  "title": "AD584 - Pin Programmable Precision Voltage Reference",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_AD584.AnalogDevices_AD584JNZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AD584.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\AD584.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\AD584.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AD584.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "10V",
+      "description": "10V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "2p5V",
+      "description": "2p5V"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "COMMON",
+      "description": "COMMON"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "STROBE",
+      "description": "STROBE"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VBG",
+      "description": "VBG"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CAP",
+      "description": "CAP"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    }
+  ]
+}

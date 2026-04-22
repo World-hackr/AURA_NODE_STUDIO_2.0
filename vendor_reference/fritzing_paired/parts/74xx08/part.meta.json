@@ -1,0 +1,115 @@
+{
+  "moduleId": "74xx08",
+  "title": "74HC08 Logic AND Gate",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\user\\74xx08.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\user\\icon\\74xx08_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\user\\breadboard\\74xx08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\user\\schematic\\74xx08_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\user\\pcb\\74xx08_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1A",
+      "description": "Gate 1 input A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1B",
+      "description": "Gate 1 input B"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1Y",
+      "description": "Gate 1 output"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "2A",
+      "description": "Gate 2 input A"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "2B",
+      "description": "Gate 2 input B"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "2Y",
+      "description": "Gate 2 output"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "3Y",
+      "description": "Gate 3 output"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "3A",
+      "description": "Gate 3 input A"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "3B",
+      "description": "Gate 3 input B"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "4Y",
+      "description": "Gate 4 output"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "4A",
+      "description": "Gate 4 input A"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "4B",
+      "description": "Gate 4 input B"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VCC",
+      "description": "DC supply voltage"
+    }
+  ]
+}

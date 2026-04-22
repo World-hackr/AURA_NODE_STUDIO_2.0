@@ -1,0 +1,109 @@
+{
+  "moduleId": "SparkFun-DigitalIC-WS2801-",
+  "title": "WS2801",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-ws2801-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_sop-14_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_ws2801_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_sop-14_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_sop-14_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 13,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "BFB",
+      "description": "BFB"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "BOUT",
+      "description": "BOUT"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "CKI",
+      "description": "CKI"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "CKO",
+      "description": "CKO"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GFB",
+      "description": "GFB"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GOUT",
+      "description": "GOUT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "POL",
+      "description": "POL"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RFB",
+      "description": "RFB"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "ROUT",
+      "description": "ROUT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SDI",
+      "description": "SDI"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SDO",
+      "description": "SDO"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

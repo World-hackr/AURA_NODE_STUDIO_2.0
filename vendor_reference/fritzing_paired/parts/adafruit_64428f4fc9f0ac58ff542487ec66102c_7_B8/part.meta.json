@@ -1,0 +1,73 @@
+{
+  "moduleId": "adafruit_64428f4fc9f0ac58ff542487ec66102c_7_B8",
+  "title": "Adafruit ADXL326",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_64428f4fc9f0ac58ff542487ec66102c_7_B8.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_64428f4fc9f0ac58ff542487ec66102c_7_breadboard_B8.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_64428f4fc9f0ac58ff542487ec66102c_7_schematic_B8.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_64428f4fc9f0ac58ff542487ec66102c_7_pcb_B8.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_64428f4fc9f0ac58ff542487ec66102c_7_icon_B8.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "ZOUT",
+      "description": "ZOUT"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "YOUT",
+      "description": "YOUT"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "XOUT",
+      "description": "XOUT"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "TEST",
+      "description": "TEST"
+    }
+  ]
+}

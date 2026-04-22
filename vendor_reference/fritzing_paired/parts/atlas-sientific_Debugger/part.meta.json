@@ -1,0 +1,61 @@
+{
+  "moduleId": "atlas-sientific_Debugger",
+  "title": "Debugger",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\atlas-sientific_Debugger.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\atlas-sientific_Debugger_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\atlas-sientific_Debugger_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\atlas-sientific_Debugger_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\atlas-sientific_Debugger_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "5v",
+      "description": "Supply 5 Voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "3v",
+      "description": "Supply 3 Voltage"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "Supply Ground"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RX",
+      "description": "Data In"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "TX",
+      "description": "Data Out"
+    }
+  ]
+}

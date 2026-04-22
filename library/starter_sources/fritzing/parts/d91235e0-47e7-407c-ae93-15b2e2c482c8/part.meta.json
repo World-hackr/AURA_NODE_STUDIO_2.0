@@ -1,0 +1,44 @@
+{
+  "moduleId": "d91235e0-47e7-407c-ae93-15b2e2c482c8",
+  "title": "NPN-Transistor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_BC847.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic_transistor_npnicon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\transistor_npn.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_SOT-23.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "2",
+      "description": "Emitter"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "0",
+      "description": "Base"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "1",
+      "description": "Collector"
+    }
+  ]
+}

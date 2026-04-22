@@ -1,0 +1,61 @@
+{
+  "schema": "aura.circuit_ir.v1",
+  "metadata": {
+    "title": "Blinking LED Example",
+    "viewMode": "breadboard"
+  },
+  "components": [
+    {
+      "id": "c1",
+      "packageId": "pkg_arduino_uno_rev3",
+      "reference": "U1",
+      "placement": { "x": 100, "y": 120, "rotationDeg": 0 }
+    },
+    {
+      "id": "r1",
+      "packageId": "pkg_resistor_220r",
+      "reference": "R1",
+      "attrs": { "value": "220R" },
+      "placement": { "x": 320, "y": 140, "rotationDeg": 0 }
+    },
+    {
+      "id": "d1",
+      "packageId": "pkg_led_red_5mm",
+      "reference": "D1",
+      "runtimeProfileId": "light_output",
+      "placement": { "x": 420, "y": 140, "rotationDeg": 0 }
+    }
+  ],
+  "nets": [
+    {
+      "id": "net_sig",
+      "label": "SIG",
+      "connections": [
+        { "componentId": "c1", "pinId": "D13" },
+        { "componentId": "r1", "pinId": "1" }
+      ]
+    },
+    {
+      "id": "net_led",
+      "connections": [
+        { "componentId": "r1", "pinId": "2" },
+        { "componentId": "d1", "pinId": "A" }
+      ]
+    },
+    {
+      "id": "net_gnd",
+      "label": "GND",
+      "connections": [
+        { "componentId": "d1", "pinId": "K" },
+        { "componentId": "c1", "pinId": "GND" }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note_1",
+      "kind": "note",
+      "text": "Example only; compiler will eventually generate layout positions automatically."
+    }
+  ]
+}

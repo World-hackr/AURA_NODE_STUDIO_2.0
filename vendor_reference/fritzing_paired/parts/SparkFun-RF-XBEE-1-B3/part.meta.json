@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-RF-XBEE-1-B3",
+  "title": "XBEE-1",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-xbee-1-b3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_xbee-smd_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_xbee-1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_xbee-smd_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\XBEE-SMD.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DIN",
+      "description": "DIN"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "DIO0",
+      "description": "DIO0"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "DIO1",
+      "description": "DIO1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DIO11",
+      "description": "DIO11"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DIO12",
+      "description": "DIO12"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "DIO2",
+      "description": "DIO2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "DIO3",
+      "description": "DIO3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DIO4",
+      "description": "DIO4"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DIO5",
+      "description": "DIO5"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DIO9",
+      "description": "DIO9"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "RES",
+      "description": "RES"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RES",
+      "description": "RES"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RSSI",
+      "description": "RSSI"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

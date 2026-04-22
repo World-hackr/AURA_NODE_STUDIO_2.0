@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+.codex-runtime-logs/
+.vscode/
+.qodo/
+database/*.db
+database/*.db-shm
+database/*.db-wal
+apps/studio_web/node_modules/
+apps/studio_web/dist/
+apps/studio_api/node_modules/

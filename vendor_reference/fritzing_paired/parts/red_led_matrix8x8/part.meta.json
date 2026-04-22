@@ -1,0 +1,122 @@
+{
+  "moduleId": "red_led_matrix8x8",
+  "title": "LBT2088AH",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\LBT2088AH.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\red_led_matrix8x8.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\red_led_matrix8x8.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\red_led_matrix8x8.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 6",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 7",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 9",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 10",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin 11",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin 12",
+      "description": "pin 12"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin 13",
+      "description": "pin 13"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin 14",
+      "description": "pin 14"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin 15",
+      "description": "pin 15"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin 16",
+      "description": "pin 16"
+    }
+  ]
+}

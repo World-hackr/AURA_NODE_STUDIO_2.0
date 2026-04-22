@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-Displays-LCD-G12864-FULL",
+  "title": "Graphical LCD 128x64",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-displays-lcd-g12864-full.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-displays_lcd-g12864_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-displays_lcd-g12864_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-displays_lcd-g12864_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-displays_lcd-g12864_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "CS1",
+      "description": "CS1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CS2",
+      "description": "CS2"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "D_I",
+      "description": "D_I"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DB0",
+      "description": "DB0"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DB1",
+      "description": "DB1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DB2",
+      "description": "DB2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DB3",
+      "description": "DB3"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DB4",
+      "description": "DB4"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DB5",
+      "description": "DB5"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DB6",
+      "description": "DB6"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DB7",
+      "description": "DB7"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "E",
+      "description": "E"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "K",
+      "description": "K"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "R_W",
+      "description": "R_W"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VEE",
+      "description": "VEE"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VO",
+      "description": "VO"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "moduleId": "PCM_1",
+  "title": "PCM",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PCM_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PCM_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PCM_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PCM_1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 26,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "Solenoid 0 Positive"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "Solenoid 0 Negative"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "Solenoid 1 Positive"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "Solenoid 1 Negative"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "Solenoid 2 Positive"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "Solenoid 2 Negative"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "Solenoid 3 Positive"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "Solenoid 3 Negative"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin9",
+      "description": "Solenoid 4 Positive"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin10",
+      "description": "Solenoid 4 Negative"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin11",
+      "description": "Solenoid 5 Positive"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin12",
+      "description": "Solenoid 5 Negative"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin13",
+      "description": "Solenoid 6 Positive"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin14",
+      "description": "Solenoid 6 Negative"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin15",
+      "description": "Solenoid 7 Positive"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin16",
+      "description": "Solenoid 7 Negative"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin17",
+      "description": "12V Power Input Positive"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin18",
+      "description": "12V Power Input Negative"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin19",
+      "description": "Can Bus High"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin20",
+      "description": "Can Bus Low"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin21",
+      "description": "Can Bus High"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin22",
+      "description": "Can Bus Low"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin23",
+      "description": "Pressure Switch 1 Input"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin24",
+      "description": "Pressure Switch 2 Input"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin25",
+      "description": "Compressor Output Negative"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "pin26",
+      "description": "Compressor Output Positive"
+    }
+  ]
+}

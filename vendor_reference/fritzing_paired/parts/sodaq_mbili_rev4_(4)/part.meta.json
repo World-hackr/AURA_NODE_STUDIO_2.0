@@ -1,0 +1,727 @@
+{
+  "moduleId": "sodaq_mbili_rev4 (4)",
+  "title": "sodaq mbili",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sodaq_mbili_rev4 (4).fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sodaq_mbili_rev4 (4)_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sodaq_mbili_rev4 (4)_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sodaq_mbili_rev4 (4)_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sodaq_mbili_rev4 (4)_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 116,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "BEE_1_3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "BEE_2_RXD",
+      "description": "Pin 2 on the bee slot is connected to Serial1 (RXD1). With a solder jumber this can be changed to Serial (RDX0)"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "BEE_3_TXD",
+      "description": "Pin 3 on the bee slot is connected to Serial1 (TXD1). With a solder jumber this can be changed to Serial (TDX0)"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "BEE_4_NC",
+      "description": "Pin 4 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "BEE_5_NC",
+      "description": "Pin 5 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "BEE_6",
+      "description": "Pin 6 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "BEE_7",
+      "description": "Pin 7 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "BEE_8",
+      "description": "Pin 8 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "BEE_9_DTR",
+      "description": "Pin 9 on the bee slot is connected to D23 and is used as DTR pin to switch bee modules on and off or enable sleep"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "BEE_10_GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "BEE_11_NC",
+      "description": "Pin 11 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "BEE_12_CTS",
+      "description": "Pin 12 on the bee slot is connected to D8 and is used as CTS pin to indicate if the bee module is ready"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "BEE_13_NC",
+      "description": "Pin 13 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "BEE_14_NC",
+      "description": "Pin 14 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "BEE_15_ASSOC",
+      "description": "Pin 15 on the bee slot is normally not connected but by using solder jumper it can be used to connect to pin A7"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "BEE_16_RTS",
+      "description": "Pin 16 on the bee slot is connected to D9 and can be used for the RTS signal"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "BEE_17_RESET",
+      "description": "Pin 17 on the bee slot is normally not connected but can be connected to the MCU RESET pin by making solder jumper SJ7"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "BEE_18_NC",
+      "description": "Pin 18 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "BEE_19_NC",
+      "description": "Pin 19 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "BEE_20_RI",
+      "description": "Pin 20 on the bee slot is normally not connected but by using solder jumper it can be used to connect to pin A7 for the Ring Indicator signal"
+    },
+    {
+      "id": "connector164",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector165",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector166",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector167",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector168",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector169",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector170",
+      "type": "female",
+      "name": "3V3_SW",
+      "description": "3.3V switched power on when  D22 is high"
+    },
+    {
+      "id": "connector171",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector172",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector173",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector174",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector175",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector176",
+      "type": "female",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector177",
+      "type": "female",
+      "name": "D11",
+      "description": "D11"
+    },
+    {
+      "id": "connector178",
+      "type": "female",
+      "name": "3V3_SW",
+      "description": "3.3V switched power on when  D22 is high"
+    },
+    {
+      "id": "connector179",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector180",
+      "type": "female",
+      "name": "TXD1",
+      "description": "TXD1"
+    },
+    {
+      "id": "connector181",
+      "type": "female",
+      "name": "RXD1",
+      "description": "RXD1"
+    },
+    {
+      "id": "connector182",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector183",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector184",
+      "type": "female",
+      "name": "TXD0",
+      "description": "TXD0"
+    },
+    {
+      "id": "connector185",
+      "type": "female",
+      "name": "RXD0",
+      "description": "RXD0"
+    },
+    {
+      "id": "connector186",
+      "type": "female",
+      "name": "3V3_SW",
+      "description": "3.3V switched power on when  D22 is high"
+    },
+    {
+      "id": "connector187",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector188",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector189",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector190",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector191",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector192",
+      "type": "female",
+      "name": "D6",
+      "description": "D6"
+    },
+    {
+      "id": "connector193",
+      "type": "female",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector194",
+      "type": "female",
+      "name": "3V3_SW",
+      "description": "3.3V switched power on when  D22 is high"
+    },
+    {
+      "id": "connector195",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector196",
+      "type": "female",
+      "name": "BEE_1_3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector197",
+      "type": "female",
+      "name": "BEE_2_RXD",
+      "description": "Pin 2 on the bee slot is connected to Serial1 (RXD1). With a solder jumber this can be changed to Serial (RDX0)"
+    },
+    {
+      "id": "connector198",
+      "type": "female",
+      "name": "BEE_3_TXD",
+      "description": "Pin 3 on the bee slot is connected to Serial1 (TXD1). With a solder jumber this can be changed to Serial (TDX0)"
+    },
+    {
+      "id": "connector199",
+      "type": "female",
+      "name": "BEE_4_NC",
+      "description": "Pin 4 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector200",
+      "type": "female",
+      "name": "BEE_5_NC",
+      "description": "Pin 5 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector201",
+      "type": "female",
+      "name": "BEE_6_NC",
+      "description": "Pin 6 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector202",
+      "type": "female",
+      "name": "BEE_7_NC",
+      "description": "Pin 7 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector203",
+      "type": "female",
+      "name": "BEE_8_NC",
+      "description": "Pin 8 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector204",
+      "type": "female",
+      "name": "BEE_9_DTR",
+      "description": "Pin 9 on the bee slot is connected to D23 and is used as DTR pin to switch bee modules on and off or enable sleep"
+    },
+    {
+      "id": "connector205",
+      "type": "female",
+      "name": "BEE_10_GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector206",
+      "type": "female",
+      "name": "BEE_11_NC",
+      "description": "Pin 11 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector207",
+      "type": "female",
+      "name": "BEE_12_CTS",
+      "description": "Pin 12 on the bee slot is connected to D8 and is used as CTS pin to indicate if the bee module is ready"
+    },
+    {
+      "id": "connector208",
+      "type": "female",
+      "name": "BEE_13_NC",
+      "description": "Pin 13 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector209",
+      "type": "female",
+      "name": "BEE_14_NC",
+      "description": "Pin 14 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector210",
+      "type": "female",
+      "name": "BEE_15_ASSOC",
+      "description": "Pin 15 on the bee slot is normally not connected but by using solder jumper it can be used to connect to pin A7"
+    },
+    {
+      "id": "connector211",
+      "type": "female",
+      "name": "BEE_16_D9",
+      "description": "Pin 16 on the bee slot is connected to D9 and can be used for the RTS signal"
+    },
+    {
+      "id": "connector212",
+      "type": "female",
+      "name": "BEE_17_RESET",
+      "description": "Pin 17 on the bee slot is normally not connected but can be connected to the MCU RESET pin by making solder jumper SJ7"
+    },
+    {
+      "id": "connector213",
+      "type": "female",
+      "name": "BEE_18_NC",
+      "description": "Pin 18 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector214",
+      "type": "female",
+      "name": "BEE_19_NC",
+      "description": "Pin 19 on the bee slot is normally not connected"
+    },
+    {
+      "id": "connector215",
+      "type": "female",
+      "name": "BEE_20_RI",
+      "description": "Pin 20 on the bee slot is normally not connected but by using solder jumper it can be used to connect to pin A7 for the Ring Indicator signal"
+    },
+    {
+      "id": "connector216",
+      "type": "female",
+      "name": "D20",
+      "description": "D20"
+    },
+    {
+      "id": "connector217",
+      "type": "female",
+      "name": "D21",
+      "description": "D21"
+    },
+    {
+      "id": "connector218",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector219",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector220",
+      "type": "female",
+      "name": "D18",
+      "description": "D18"
+    },
+    {
+      "id": "connector221",
+      "type": "female",
+      "name": "D19",
+      "description": "D19"
+    },
+    {
+      "id": "connector222",
+      "type": "female",
+      "name": "3V3_SW",
+      "description": "3.3V switched power on when  D22 is high"
+    },
+    {
+      "id": "connector223",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector224",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector225",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector226",
+      "type": "female",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector227",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector228",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector229",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector230",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector231",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector232",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector233",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector234",
+      "type": "female",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "connector235",
+      "type": "female",
+      "name": "D9",
+      "description": "D9"
+    },
+    {
+      "id": "connector236",
+      "type": "female",
+      "name": "3V3_SW",
+      "description": "3.3V switched power on when  D22 is high"
+    },
+    {
+      "id": "connector237",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector251",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector252",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector253",
+      "type": "female",
+      "name": "GPRSBEE_SW1",
+      "description": "This is used to switch V_BAT directly to the GPRSbee"
+    },
+    {
+      "id": "connector254",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector255",
+      "type": "female",
+      "name": "JTAG_TCK",
+      "description": "JTAG TCK connects to pin D18 on the MCU"
+    },
+    {
+      "id": "connector256",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector257",
+      "type": "female",
+      "name": "JTAG_TD0",
+      "description": "JTAG TDO connects to pin D20 on the MCU"
+    },
+    {
+      "id": "connector258",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector259",
+      "type": "female",
+      "name": "JTAG_TMS",
+      "description": "JTAG TMS connects to pin D19 on the MCU"
+    },
+    {
+      "id": "connector260",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector261",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector262",
+      "type": "female",
+      "name": "JTAG_NC",
+      "description": "Not Connected"
+    },
+    {
+      "id": "connector263",
+      "type": "female",
+      "name": "JTAG_TD1",
+      "description": "JTAG TD1 connects to pin D21 on the MCU"
+    },
+    {
+      "id": "connector264",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector265",
+      "type": "female",
+      "name": "JP_BAT2",
+      "description": "This jumper needs to be installed when running on battery. Can be removed to measure the current."
+    },
+    {
+      "id": "connector266",
+      "type": "female",
+      "name": "JP_BAT1",
+      "description": "This jumper needs to be installed when running on battery. Can be removed to measure the current."
+    },
+    {
+      "id": "connector267",
+      "type": "female",
+      "name": "SW_1",
+      "description": "This socket is to allow for external power switch. To use this put onboard switch in off positio"
+    },
+    {
+      "id": "connector268",
+      "type": "female",
+      "name": "SW_2",
+      "description": "This socket is to allow for external power switch. To use this put onboard switch in off position"
+    },
+    {
+      "id": "connector269",
+      "type": "female",
+      "name": "V_BAT",
+      "description": "Connects to Litium Polymer (LiPo) batteries with nominal voltage of 3.7V"
+    },
+    {
+      "id": "connector270",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector280",
+      "type": "female",
+      "name": "V_SOLAR",
+      "description": "Max voltage 6V and max panel size 3W"
+    },
+    {
+      "id": "connector281",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

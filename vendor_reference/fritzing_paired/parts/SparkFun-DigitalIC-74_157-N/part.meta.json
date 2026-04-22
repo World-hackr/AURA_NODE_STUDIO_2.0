@@ -1,0 +1,126 @@
+{
+  "moduleId": "SparkFun-DigitalIC-74*157-N",
+  "title": "SELECTOR_MULTIPLEXER",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-74_157-n.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_74157_mix_11_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil16_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_16_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_16_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A !A!_B",
+      "description": "A !A!_B"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A 1A",
+      "description": "A 1A"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "A 1B",
+      "description": "A 1B"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "A 1Y",
+      "description": "A 1Y"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "A 2A",
+      "description": "A 2A"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "A 2B",
+      "description": "A 2B"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "A 2Y",
+      "description": "A 2Y"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "A 3A",
+      "description": "A 3A"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "A 3B",
+      "description": "A 3B"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "A 3Y",
+      "description": "A 3Y"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "A 4A",
+      "description": "A 4A"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "A 4B",
+      "description": "A 4B"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "A 4Y",
+      "description": "A 4Y"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "A G",
+      "description": "A G"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P GND",
+      "description": "P GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "P VCC",
+      "description": "P VCC"
+    }
+  ]
+}

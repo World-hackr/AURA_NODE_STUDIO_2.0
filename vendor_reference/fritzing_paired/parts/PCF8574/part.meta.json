@@ -1,0 +1,127 @@
+{
+  "moduleId": "PCF8574",
+  "title": "PCF8574",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\PCF8574.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PCF8574.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PCF8574.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PCF8574.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_16_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "Positive supply voltage"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "P0",
+      "description": "Output pin"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P1",
+      "description": "Output pin"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "P2",
+      "description": "Output pin"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P3",
+      "description": "Output pin"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "P4",
+      "description": "Output pin"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P5",
+      "description": "Output pin"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "P6",
+      "description": "Output pin"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "P7",
+      "description": "Output pin"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "INT",
+      "description": "Interrupt pin, (active low)"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A0",
+      "description": "Address pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A1",
+      "description": "Address pin"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SCL",
+      "description": "Serial Clock pin"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SDA",
+      "description": "Serial Data pin"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "A3",
+      "description": "Output Pin"
+    }
+  ]
+}

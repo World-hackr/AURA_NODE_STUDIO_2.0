@@ -1,0 +1,67 @@
+{
+  "moduleId": "adafruit_4a34a67fa13f20e5334e6a2db3ed98fc_4_91",
+  "title": "Adafruit I2S Mic -  SPH0645",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_4a34a67fa13f20e5334e6a2db3ed98fc_4_91.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_4a34a67fa13f20e5334e6a2db3ed98fc_7_breadboard_91.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_4a34a67fa13f20e5334e6a2db3ed98fc_7_schematic_91.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_4a34a67fa13f20e5334e6a2db3ed98fc_7_pcb_91.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_4a34a67fa13f20e5334e6a2db3ed98fc_7_icon_91.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "BCLK",
+      "description": "BCLK"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DATA",
+      "description": "DATA"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "WS",
+      "description": "WS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SELECT",
+      "description": "SELECT"
+    }
+  ]
+}

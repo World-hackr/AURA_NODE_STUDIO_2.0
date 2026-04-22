@@ -1,0 +1,775 @@
+{
+  "moduleId": "ludusProtoShieldWireless",
+  "title": "Ludus ProtoShield Wireless",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ludusProtoShieldWireless.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ludusProtoShieldWireless_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ludusProtoShieldWireless_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ludusProtoShieldWireless_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ludusProtoShieldWireless_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 124,
+  "connectors": [
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "D0/RXI",
+      "description": "D0/RXI"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "D1/TXO",
+      "description": "D1/TXO"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "PWMA",
+      "description": "PWMA"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "AIN1",
+      "description": "AIN1"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "AIN2",
+      "description": "AIN2"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "PWMB",
+      "description": "PWMB"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "BIN1",
+      "description": "BIN1"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "BIN2",
+      "description": "BIN2"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "D9",
+      "description": "D9"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "D11",
+      "description": "D11"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "D12",
+      "description": "D12"
+    },
+    {
+      "id": "connector69",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector70",
+      "type": "female",
+      "name": "PWR_RAIL",
+      "description": "PWR_RAIL"
+    },
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "D13",
+      "description": "D13"
+    },
+    {
+      "id": "connector72",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "ANALOG_PWR_RAIL",
+      "description": "ANALOG_PWR_RAIL"
+    },
+    {
+      "id": "connector74",
+      "type": "female",
+      "name": "A0/SW_RXI",
+      "description": "A0/SW_RXI"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "ANALOG_PWR_RAIL",
+      "description": "ANALOG_PWR_RAIL"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "A1/SW_TXO",
+      "description": "A1/SW_TXO"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "ANALOG_PWR_RAIL",
+      "description": "ANALOG_PWR_RAIL"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector82",
+      "type": "female",
+      "name": "ANALOG_PWR_RAIL",
+      "description": "ANALOG_PWR_RAIL"
+    },
+    {
+      "id": "connector83",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "ANALOG_PWR_RAIL",
+      "description": "ANALOG_PWR_RAIL"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "ANALOG_PWR_RAIL",
+      "description": "ANALOG_PWR_RAIL"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "FUSED_3.3V",
+      "description": "FUSED_3.3V"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "SDA_I2C_PORT",
+      "description": "SDA_I2C_PORT"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "SCL_I2C_PORT",
+      "description": "SCL_I2C_PORT"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "BOUT2",
+      "description": "BOUT2"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "BOUT1",
+      "description": "BOUT1"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "AOUT2",
+      "description": "AOUT2"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "AOUT1",
+      "description": "AOUT1"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "BOUT2",
+      "description": "BOUT2"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "BOUT1",
+      "description": "BOUT1"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "AOUT2",
+      "description": "AOUT2"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "AOUT1",
+      "description": "AOUT1"
+    },
+    {
+      "id": "connector182",
+      "type": "female",
+      "name": "FUSED_3.3V",
+      "description": "FUSED_3.3V"
+    },
+    {
+      "id": "connector183",
+      "type": "female",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector184",
+      "type": "female",
+      "name": "DIN",
+      "description": "DIN"
+    },
+    {
+      "id": "connector185",
+      "type": "female",
+      "name": "4",
+      "description": "4"
+    },
+    {
+      "id": "connector186",
+      "type": "female",
+      "name": "XBEE_RESET",
+      "description": "XBEE_RESET"
+    },
+    {
+      "id": "connector187",
+      "type": "female",
+      "name": "RSSI",
+      "description": "RSSI"
+    },
+    {
+      "id": "connector188",
+      "type": "female",
+      "name": "DIO11",
+      "description": "DIO11"
+    },
+    {
+      "id": "connector189",
+      "type": "female",
+      "name": "8",
+      "description": "8"
+    },
+    {
+      "id": "connector190",
+      "type": "female",
+      "name": "9",
+      "description": "9"
+    },
+    {
+      "id": "connector191",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector192",
+      "type": "female",
+      "name": "11",
+      "description": "11"
+    },
+    {
+      "id": "connector193",
+      "type": "female",
+      "name": "12",
+      "description": "12"
+    },
+    {
+      "id": "connector194",
+      "type": "female",
+      "name": "13",
+      "description": "13"
+    },
+    {
+      "id": "connector195",
+      "type": "female",
+      "name": "14",
+      "description": "14"
+    },
+    {
+      "id": "connector196",
+      "type": "female",
+      "name": "15",
+      "description": "15"
+    },
+    {
+      "id": "connector197",
+      "type": "female",
+      "name": "16",
+      "description": "16"
+    },
+    {
+      "id": "connector198",
+      "type": "female",
+      "name": "17",
+      "description": "17"
+    },
+    {
+      "id": "connector199",
+      "type": "female",
+      "name": "18",
+      "description": "18"
+    },
+    {
+      "id": "connector200",
+      "type": "female",
+      "name": "DIO1",
+      "description": "DIO1"
+    },
+    {
+      "id": "connector201",
+      "type": "female",
+      "name": "DIO0",
+      "description": "DIO0"
+    },
+    {
+      "id": "connector202",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector203",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector204",
+      "type": "female",
+      "name": "A0/SW_RXI",
+      "description": "A0/SW_RXI"
+    },
+    {
+      "id": "connector205",
+      "type": "female",
+      "name": "A1/SW_TXO",
+      "description": "A1/SW_TXO"
+    },
+    {
+      "id": "connector206",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector207",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector208",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector209",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector210",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector211",
+      "type": "female",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector212",
+      "type": "female",
+      "name": "PWMA",
+      "description": "PWMA"
+    },
+    {
+      "id": "connector213",
+      "type": "female",
+      "name": "AIN1",
+      "description": "AIN1"
+    },
+    {
+      "id": "connector214",
+      "type": "female",
+      "name": "AIN2",
+      "description": "AIN2"
+    },
+    {
+      "id": "connector215",
+      "type": "female",
+      "name": "PWMB",
+      "description": "PWMB"
+    },
+    {
+      "id": "connector216",
+      "type": "female",
+      "name": "BIN1",
+      "description": "BIN1"
+    },
+    {
+      "id": "connector217",
+      "type": "female",
+      "name": "BIN2",
+      "description": "BIN2"
+    },
+    {
+      "id": "connector218",
+      "type": "female",
+      "name": "D9",
+      "description": "D9"
+    },
+    {
+      "id": "connector219",
+      "type": "female",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector220",
+      "type": "female",
+      "name": "D11",
+      "description": "D11"
+    },
+    {
+      "id": "connector221",
+      "type": "female",
+      "name": "D12",
+      "description": "D12"
+    },
+    {
+      "id": "connector222",
+      "type": "female",
+      "name": "D13",
+      "description": "D13"
+    },
+    {
+      "id": "connector223",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector224",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector225",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector226",
+      "type": "female",
+      "name": "IOREF",
+      "description": "IOREF"
+    },
+    {
+      "id": "connector227",
+      "type": "female",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector228",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector229",
+      "type": "female",
+      "name": "D0/RXI",
+      "description": "D0/RXI"
+    },
+    {
+      "id": "connector230",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector231",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector232",
+      "type": "female",
+      "name": "D1/TXO",
+      "description": "D1/TXO"
+    },
+    {
+      "id": "connector233",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    }
+  ]
+}

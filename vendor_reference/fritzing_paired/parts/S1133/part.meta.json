@@ -1,0 +1,43 @@
+{
+  "moduleId": "S1133",
+  "title": "S1133 Si Photodiode",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\S1133_Si_Photodiode.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\S1133_Si_Photodiode_Icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\S1133_Si_Photodiode_BB.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\S1133_Si_Photodiode_Sch.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\S1133_Si_Photodiode_PCB.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "cathode",
+      "description": "cathode pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "anode",
+      "description": "anode pin"
+    }
+  ]
+}

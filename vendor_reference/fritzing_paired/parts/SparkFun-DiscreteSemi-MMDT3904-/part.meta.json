@@ -1,0 +1,67 @@
+{
+  "moduleId": "SparkFun-DiscreteSemi-MMDT3904-",
+  "title": "MMDT3904",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-discretesemi-mmdt3904-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_sot363_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-discretesemi_npn_mix_13_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-discretesemi_sot363_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_sot363_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G$1 B",
+      "description": "G$1 B"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G$1 C",
+      "description": "G$1 C"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G$1 E",
+      "description": "G$1 E"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G$2 B",
+      "description": "G$2 B"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G$2 C",
+      "description": "G$2 C"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G$2 E",
+      "description": "G$2 E"
+    }
+  ]
+}

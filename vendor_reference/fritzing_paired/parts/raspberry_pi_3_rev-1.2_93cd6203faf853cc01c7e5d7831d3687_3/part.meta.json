@@ -1,0 +1,271 @@
+{
+  "moduleId": "raspberry_pi_3_rev-1.2_93cd6203faf853cc01c7e5d7831d3687_3",
+  "title": "Raspberry Pi 3",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Raspberry Pi 3.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\raspberry_pi_3_rev-1.2.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\raspberry_pi_3_rev-1.2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\raspberry_pi_3_rev-1.2.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\raspberry_pi_3_rev-1.2.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "3v3",
+      "description": "power - 3.3V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GPIO2",
+      "description": "SDA1 I2C"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GPIO3",
+      "description": "SCL1 I2C"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GIPO4",
+      "description": "GIPO4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GIPO17",
+      "description": "GIPO17"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GIPO27",
+      "description": "GIPO27"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GIPO22",
+      "description": "GIPO22"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "3V3",
+      "description": "power - 3.3V"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GIPO10",
+      "description": "SPI0_MOSI - GIPO10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GIPO9",
+      "description": "SPI0_MISO - GIPO9"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GIPO11",
+      "description": "SPI0_SCLK - GIPO11"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "ID_SD",
+      "description": "I2C ID EEPROM"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GIPO5",
+      "description": "GIPO5"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GIPO6",
+      "description": "GIPO6"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GIPO13",
+      "description": "GIPO13"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GIPO19",
+      "description": "GIPO19"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GIPO26",
+      "description": "GIPO26"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GIPO21",
+      "description": "GIPO21"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GIPO20",
+      "description": "GIPO20"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GIPO16",
+      "description": "GIPO16"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GIPO12",
+      "description": "GIPO12"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "ID_SC",
+      "description": "I2C ID EEPROM"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GIPO7",
+      "description": "SPI0_CE1_N - GIPO7"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GIPO8",
+      "description": "SPI0_CE0_N - GIPO8"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "GIPO25",
+      "description": "GIPO25"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "GIPO24",
+      "description": "GIPO24"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GIPO23",
+      "description": "GIPO23"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "GIPO18",
+      "description": "PCM_CLK - GIPO18"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "GIPO15",
+      "description": "UART0_RXD - GIPO15"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GIPO14",
+      "description": "UART0_TXD - GIPO14"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "5V",
+      "description": "power - 5V"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "5V",
+      "description": "power - 5V"
+    }
+  ]
+}

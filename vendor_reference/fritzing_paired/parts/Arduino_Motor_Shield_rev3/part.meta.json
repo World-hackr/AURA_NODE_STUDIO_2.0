@@ -1,0 +1,373 @@
+{
+  "moduleId": "Arduino Motor Shield rev3",
+  "title": "Arduino Motor Shield (Rev3)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Arduino_Motor_Shield_rev3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino_Motor_Shield_rev3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Arduino_Motor_Shield_rev3_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Arduino_Motor_Shield_rev3_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Arduino_Motor_Shield_rev3_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 57,
+  "connectors": [
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector103",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector104",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector105",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector106",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector107",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector108",
+      "type": "female",
+      "name": "D8/BreakeB",
+      "description": "D8/BreakeB"
+    },
+    {
+      "id": "connector109",
+      "type": "female",
+      "name": "D9/BreakeA",
+      "description": "D9/BreakeA"
+    },
+    {
+      "id": "connector110",
+      "type": "female",
+      "name": "D10 PWM",
+      "description": "D10 PWM"
+    },
+    {
+      "id": "connector111",
+      "type": "female",
+      "name": "D11 PWM/B",
+      "description": "D11 PWM/B"
+    },
+    {
+      "id": "connector112",
+      "type": "female",
+      "name": "D12/DirA",
+      "description": "D12/DirA"
+    },
+    {
+      "id": "connector113",
+      "type": "female",
+      "name": "D13/DirB",
+      "description": "D13/DirB"
+    },
+    {
+      "id": "connector114",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector115",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector116",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector117",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector118",
+      "type": "female",
+      "name": "IOREF",
+      "description": "IOREF"
+    },
+    {
+      "id": "connector119",
+      "type": "female",
+      "name": "D1/TX",
+      "description": "D1/TX"
+    },
+    {
+      "id": "connector120",
+      "type": "female",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector121",
+      "type": "female",
+      "name": "D3 PWM/A",
+      "description": "D3 PWM/A"
+    },
+    {
+      "id": "connector122",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector123",
+      "type": "female",
+      "name": "D5 PWM",
+      "description": "D5 PWM"
+    },
+    {
+      "id": "connector124",
+      "type": "female",
+      "name": "D6 PWM",
+      "description": "D6 PWM"
+    },
+    {
+      "id": "connector125",
+      "type": "female",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector134",
+      "type": "female",
+      "name": "B-",
+      "description": "B-"
+    },
+    {
+      "id": "connector135",
+      "type": "female",
+      "name": "B+",
+      "description": "B+"
+    },
+    {
+      "id": "connector136",
+      "type": "female",
+      "name": "A-",
+      "description": "A-"
+    },
+    {
+      "id": "connector137",
+      "type": "female",
+      "name": "A+",
+      "description": "A+"
+    },
+    {
+      "id": "connector138",
+      "type": "female",
+      "name": "VMOT",
+      "description": "VMOT"
+    },
+    {
+      "id": "connector139",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector140",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector141",
+      "type": "female",
+      "name": "D5 PWM",
+      "description": "D5 PWM"
+    },
+    {
+      "id": "connector142",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector143",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector144",
+      "type": "female",
+      "name": "D6 PWM",
+      "description": "D6 PWM"
+    },
+    {
+      "id": "connector145",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector147",
+      "type": "female",
+      "name": "IOREF",
+      "description": "IOREF"
+    },
+    {
+      "id": "connector148",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector149",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector150",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector151",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector152",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector153",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector191",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector192",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector193",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector194",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector195",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector196",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector197",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector198",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    }
+  ]
+}

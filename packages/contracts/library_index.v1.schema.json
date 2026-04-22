@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aura/contracts/library_index.v1",
+  "title": "AURA Library Index V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "packages"],
+  "properties": {
+    "schema": {
+      "const": "aura.library_index.v1"
+    },
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["packageId", "slug", "name", "category", "path"],
+        "properties": {
+          "packageId": { "type": "string" },
+          "slug": { "type": "string" },
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "path": { "type": "string" },
+          "runtimeProfileId": { "type": "string" },
+          "aliases": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "status": {
+            "type": "string",
+            "enum": ["draft", "reviewed", "trusted", "archived"]
+          }
+        }
+      }
+    }
+  }
+}

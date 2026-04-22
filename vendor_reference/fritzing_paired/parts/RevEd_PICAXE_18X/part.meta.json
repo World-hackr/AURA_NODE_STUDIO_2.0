@@ -1,0 +1,139 @@
+{
+  "moduleId": "RevEd_PICAXE_18X",
+  "title": "PICAXE-18X",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PICAXE_18X.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PICAXE_18X_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PICAXE_18X_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PICAXE_18X_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_18_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "In 2 / ADC 2",
+      "description": "This pin can be used as a digital input or can be used as an analogue input"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Serial Out",
+      "description": "Connect to the output pin of the download connector for the PICAXE download circuit"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Serial In",
+      "description": "Connect to the 22K resistor of the PICAXE download circuit"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Reset",
+      "description": "Connect via a 4K7 resistor to the positive rail of the power supply in your circuit. This pin must be connected via the 4K7 resistor or the PICAXE will not operate correctly. This pin can also be connected to a switch to 0V (ground) to provide a manual 'reset button' for the PICAXE"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Out 0 / Infraout",
+      "description": "This pin can be used as a digital output and can be used to drive an Infra-Red LED"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Out 1 / I2C Data",
+      "description": "This pin can be used as a digital output. If using the PICAXE with I2C devices this pin should connect to the 'I2C Data' (SDA) pins of those devices and a 4K7 resistor should connect from this pin to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Out 2",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Out 3",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Out 4 / I2C Clock",
+      "description": "This pin can be used as a digital output. If using the PICAXE with I2C devices this pin should connect to the 'I2C Clock' (SCL) pins of those devices and a 4K7 resistor should connect from this pin to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Out 5",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Out 6",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Out 7",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "In 6 / Keyboard Clock",
+      "description": "This pin can be used as a digital input. If using the PICAXE with a PS/2 keyboard this pin should connect to the 'PS/2 Keyboard Clock' signal ( pin 5 on a PS/2 mini-DIN connector ) and a 4K7 resistor should connect from this pin to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "In 7 / Keyboard Data",
+      "description": "This pin can be used as a digital input. If using the PICAXE with a PS/2 keyboard this pin should connect to the 'PS/2 Keyboard Data' signal ( pin 1 on a PS/2 mini-DIN connector ) and a 4K7 resistor should connect from this pin to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "In 0 / ADC 0 / Infrain",
+      "description": "This pin can be used as a digital input or can be used as an analogue input. The output from an Infra-Red Receiver can be connected to this pin"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "In 1 / ADC 1",
+      "description": "This pin can be used as a digital input or can be used as an analogue input"
+    }
+  ]
+}

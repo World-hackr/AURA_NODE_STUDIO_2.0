@@ -1,0 +1,30 @@
+{
+  "moduleId": "Adafruit-_1d0da9cb6b23141d1b724bd9df9fa327_1_23",
+  "title": "Adafruit Mini PiTFT 1.3\" - 240x240 TFT Add-on for Raspberry Pi",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_1d0da9cb6b23141d1b724bd9df9fa327_1_23.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_1d0da9cb6b23141d1b724bd9df9fa327_1_breadboard_23.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_1d0da9cb6b23141d1b724bd9df9fa327_1_schematic_23.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_1d0da9cb6b23141d1b724bd9df9fa327_1_pcb_23.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_1d0da9cb6b23141d1b724bd9df9fa327_1_icon_23.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 0,
+  "connectors": []
+}

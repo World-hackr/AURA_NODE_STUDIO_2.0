@@ -1,0 +1,44 @@
+{
+  "moduleId": "2d505f861194750183f944ba86c13b44_28",
+  "title": "TSOP312.., 314..",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\tsop312.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\tsop312_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\tsop312_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\tsop312_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Vs",
+      "description": "supply voltage"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Data",
+      "description": "data"
+    }
+  ]
+}

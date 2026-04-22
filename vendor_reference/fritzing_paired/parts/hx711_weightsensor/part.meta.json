@@ -1,0 +1,91 @@
+{
+  "moduleId": "hx711_weightsensor",
+  "title": "HX711 Weighing Sensor Module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\hx711_weightsensor.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\hx711_weightsensor_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\hx711_weightsensor_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\hx711_weightsensor_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\hx711_weightsensor_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "DO/RX",
+      "description": "DO/RX"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "CK/TX",
+      "description": "CK/TX"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "E+",
+      "description": "E+"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "E-",
+      "description": "E-"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "A+",
+      "description": "A+"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "A-",
+      "description": "A-"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "B+",
+      "description": "B+"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "B-",
+      "description": "B-"
+    }
+  ]
+}

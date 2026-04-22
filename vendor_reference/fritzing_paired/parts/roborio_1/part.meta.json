@@ -1,0 +1,896 @@
+{
+  "moduleId": "roborio_1",
+  "title": "roboRIO",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\roborio_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\roborio_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\roborio_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\roborio_1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 145,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "CAN L (GRN)",
+      "description": "CAN L (GRN)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "CAN H (YEL)",
+      "description": "CAN H (YEL)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Ground",
+      "description": "Ground"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "+3.3V",
+      "description": "+3.3V"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Ground",
+      "description": "Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DIO0 GND",
+      "description": "DIO0 GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DIO0 +5V",
+      "description": "DIO0 +5V"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DIO0 SIG",
+      "description": "DIO0 SIG"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DIO1 GND",
+      "description": "DIO1 GND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "DIO1 +5V",
+      "description": "DIO1 +5V"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DIO1 SIG",
+      "description": "DIO1 SIG"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "DIO2 GND",
+      "description": "DIO2 GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "DIO2 +5V",
+      "description": "DIO2 +5V"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "DIO2 SIG",
+      "description": "DIO2 SIG"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "DIO3 GND",
+      "description": "DIO3 GND"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "DIO3 +5V",
+      "description": "DIO3 +5V"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "DIO3 SIG",
+      "description": "DIO3 SIG"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "DIO4 GND",
+      "description": "DIO4 GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "DIO4 +5V",
+      "description": "DIO4 +5V"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "DIO4 SIG",
+      "description": "DIO4 SIG"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "DIO5 GND",
+      "description": "DIO5 GND"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "DIO5 +5V",
+      "description": "DIO5 +5V"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "DIO5 SIG",
+      "description": "DIO5 SIG"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "DIO6 GND",
+      "description": "DIO6 GND"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "DIO6 +5V",
+      "description": "DIO6 +5V"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "DIO6 SIG",
+      "description": "DIO6 SIG"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "DIO7 GND",
+      "description": null
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "DIO7 +5V",
+      "description": "DIO7 +5V"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "DIO7 SIG",
+      "description": "DIO7 SIG"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "DIO8 GND",
+      "description": "DIO8 GND"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "DIO8 +5V",
+      "description": "DIO8 +5V"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "DIO8 SIG",
+      "description": "DIO8 SIG"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "DIO9 GND",
+      "description": "DIO9 GND"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "DIO9 +5V",
+      "description": "DIO9 +5V"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "DIO9 SIG",
+      "description": "DIO9 SIG"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "Power +VIN",
+      "description": "Power +VIN"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "Power GND",
+      "description": "Power GND"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "RSL SIG",
+      "description": "RSL SIG"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "RSL GND",
+      "description": "RSL GND"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "Pin 33",
+      "description": "MXP +3.3V"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "Pin 34",
+      "description": "MXP DIO15/I2C.SDA"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "Pin 31",
+      "description": "MXP DIO10/PWM2"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "Pin 32",
+      "description": "MXP DIO14/I2C.SCL"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "Pin 29",
+      "description": "MXP DIO9/PWM1"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "Pin 30",
+      "description": "MXP DGND"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "Pin 27",
+      "description": "MXP DIO8/PWM0"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "Pin 28",
+      "description": "MXP DGND"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "Pin 25",
+      "description": "MXP DIO7/SPI.MOSI"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "Pin 26",
+      "description": "MXP DIO13"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "Pin 23",
+      "description": "MXP DIO6/SPI.MISO"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "Pin 24",
+      "description": "MXP DGND"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "Pin 21",
+      "description": "MXP DIO5/SPI.CLK"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "Pin 22",
+      "description": "DIO12/ENC.B"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "Pin 19",
+      "description": "DIO4"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "Pin 20",
+      "description": "DGND"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "Pin 17",
+      "description": "DIO3"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "Pin 18",
+      "description": "DIO11/ENC.B"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "Pin 15",
+      "description": "DIO2"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "Pin 16",
+      "description": "DGND"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "Pin 13",
+      "description": "DIO1"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "Pin 14",
+      "description": "UART.TX"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "Pin 11",
+      "description": "DIO0"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "Pin 12",
+      "description": "DGND"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "Pin 9",
+      "description": "AI3"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "Pin 10",
+      "description": "UART.RX"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "Pin 7",
+      "description": "AI2"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "pin 8",
+      "description": "DGND"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "AI1"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "AGND"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "AI0"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "AO1"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "+5V"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "AO0"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "SPI GND",
+      "description": "SPI GND"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "SPI CS0",
+      "description": "SPI CS0"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "SPI SCK",
+      "description": "SPI SCK"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "SPI CS1",
+      "description": "SPI CS1"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "SPI MOSI",
+      "description": "SPI MOSI"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "SPI +5V",
+      "description": "SPI +5V"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "SPI MISO",
+      "description": "SPI MISO"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "SPI CS2",
+      "description": "SPI CS2"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "SPI +3.3V",
+      "description": "SPI +3.3V"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "SPI CS3",
+      "description": "SPI CS3"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "RY0 FWD",
+      "description": "RY0 FWD"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "RY0 REV",
+      "description": "RY0 REV"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "RY0 GND",
+      "description": "RY0 GND"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "RY1 FWD",
+      "description": "RY1 FWD"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "RY1 REV",
+      "description": "RY1 REV"
+    },
+    {
+      "id": "connector92",
+      "type": "male",
+      "name": "RY1 GND",
+      "description": "RY1 GND"
+    },
+    {
+      "id": "connector93",
+      "type": "male",
+      "name": "RY2 FWD",
+      "description": "RY2 FWD"
+    },
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "RY2 REV",
+      "description": "RY2 REV"
+    },
+    {
+      "id": "connector95",
+      "type": "male",
+      "name": "RY2 GND",
+      "description": "RY2 GND"
+    },
+    {
+      "id": "connector96",
+      "type": "male",
+      "name": "RY3 FWD",
+      "description": "RY3 FWD"
+    },
+    {
+      "id": "connector97",
+      "type": "male",
+      "name": "RY3 REV",
+      "description": null
+    },
+    {
+      "id": "connector98",
+      "type": "male",
+      "name": "RY3 GND",
+      "description": "RY3 GND"
+    },
+    {
+      "id": "connector99",
+      "type": "male",
+      "name": "IN A0 SIG",
+      "description": "IN A0 SIG"
+    },
+    {
+      "id": "connector100",
+      "type": "male",
+      "name": "IN A0 +5V",
+      "description": "IN A0 +5V"
+    },
+    {
+      "id": "connector101",
+      "type": "male",
+      "name": "IN A0 GND",
+      "description": "IN A0 GND"
+    },
+    {
+      "id": "connector102",
+      "type": "male",
+      "name": "IN A1 SIG",
+      "description": "IN A1 SIG"
+    },
+    {
+      "id": "connector103",
+      "type": "male",
+      "name": "IN A1 +5V",
+      "description": "IN A1 +5V"
+    },
+    {
+      "id": "connector104",
+      "type": "male",
+      "name": "IN A1 GND",
+      "description": "IN A1 GND"
+    },
+    {
+      "id": "connector105",
+      "type": "male",
+      "name": "IN A2 SIG",
+      "description": "IN A2 SIG"
+    },
+    {
+      "id": "connector106",
+      "type": "male",
+      "name": "IN A2 +5V",
+      "description": "IN A2 +5V"
+    },
+    {
+      "id": "connector107",
+      "type": "male",
+      "name": "IN A2 GND",
+      "description": "IN A2 GND"
+    },
+    {
+      "id": "connector108",
+      "type": "male",
+      "name": "IN A3 SIG",
+      "description": "IN A3 SIG"
+    },
+    {
+      "id": "connector109",
+      "type": "male",
+      "name": "IN A3 +5V",
+      "description": null
+    },
+    {
+      "id": "connector110",
+      "type": "male",
+      "name": "IN A3 GND",
+      "description": "IN A3 GND"
+    },
+    {
+      "id": "connector111",
+      "type": "male",
+      "name": "PWM0 SIG",
+      "description": "PWM0 SIG"
+    },
+    {
+      "id": "connector112",
+      "type": "male",
+      "name": "PWM0 +6V",
+      "description": "PWM0 +6V"
+    },
+    {
+      "id": "connector113",
+      "type": "male",
+      "name": "PWM0 GND",
+      "description": "PWM0 GND"
+    },
+    {
+      "id": "connector114",
+      "type": "male",
+      "name": "PWM1 SIG",
+      "description": "PWM1 SIG"
+    },
+    {
+      "id": "connector115",
+      "type": "male",
+      "name": "PWM1 +6V",
+      "description": "PWM1 +6V"
+    },
+    {
+      "id": "connector116",
+      "type": "male",
+      "name": "PWM1 GND",
+      "description": "PWM1 GND"
+    },
+    {
+      "id": "connector117",
+      "type": "male",
+      "name": "PWM2 SIG",
+      "description": "PWM2 SIG"
+    },
+    {
+      "id": "connector118",
+      "type": "male",
+      "name": "PWM2 +6V",
+      "description": "PWM2 +6V"
+    },
+    {
+      "id": "connector119",
+      "type": "male",
+      "name": "PWM2 GND",
+      "description": "PWM2 GND"
+    },
+    {
+      "id": "connector120",
+      "type": "male",
+      "name": "PWM3 SIG",
+      "description": "PWM3 SIG"
+    },
+    {
+      "id": "connector121",
+      "type": "male",
+      "name": "PWM3 +6V",
+      "description": "PWM3 +6V"
+    },
+    {
+      "id": "connector122",
+      "type": "male",
+      "name": "PWM3 GND",
+      "description": "PWM3 GND"
+    },
+    {
+      "id": "connector123",
+      "type": "male",
+      "name": "PWM4 SIG",
+      "description": "PWM4 SIG"
+    },
+    {
+      "id": "connector124",
+      "type": "male",
+      "name": "PWM4 +6V",
+      "description": "PWM4 +6V"
+    },
+    {
+      "id": "connector125",
+      "type": "male",
+      "name": "PWM4 GND",
+      "description": "PWM4 GND"
+    },
+    {
+      "id": "connector126",
+      "type": "male",
+      "name": "PWM5 SIG",
+      "description": "PWM5 SIG"
+    },
+    {
+      "id": "connector127",
+      "type": "male",
+      "name": "PWM5 +6V",
+      "description": "PWM5 +6V"
+    },
+    {
+      "id": "connector128",
+      "type": "male",
+      "name": "PWM5 GND",
+      "description": null
+    },
+    {
+      "id": "connector129",
+      "type": "male",
+      "name": "PWM6 SIG",
+      "description": "PWM6 SIG"
+    },
+    {
+      "id": "connector130",
+      "type": "male",
+      "name": "PWM6 +6V",
+      "description": "PWM6 +6V"
+    },
+    {
+      "id": "connector131",
+      "type": "male",
+      "name": "PWM6 GND",
+      "description": null
+    },
+    {
+      "id": "connector132",
+      "type": "male",
+      "name": "PWM7 SIG",
+      "description": "PWM7 SIG"
+    },
+    {
+      "id": "connector133",
+      "type": "male",
+      "name": "PWM7 +6V",
+      "description": "PWM7 +6V"
+    },
+    {
+      "id": "connector134",
+      "type": "male",
+      "name": "PWM7 GND",
+      "description": "PWM7 GND"
+    },
+    {
+      "id": "connector135",
+      "type": "male",
+      "name": "PWM8 SIG",
+      "description": "PWM8 SIG"
+    },
+    {
+      "id": "connector136",
+      "type": "male",
+      "name": "PWM8 +6V",
+      "description": "PWM8 +6V"
+    },
+    {
+      "id": "connector137",
+      "type": "male",
+      "name": "PWM8 GND",
+      "description": "PWM8 GND"
+    },
+    {
+      "id": "connector138",
+      "type": "male",
+      "name": "PWM9 SIG",
+      "description": null
+    },
+    {
+      "id": "connector139",
+      "type": "male",
+      "name": "PWM9 +6V",
+      "description": "PWM9 +6V"
+    },
+    {
+      "id": "connector140",
+      "type": "male",
+      "name": "PWM9 GND",
+      "description": "PWM9 GND"
+    },
+    {
+      "id": "connector141",
+      "type": "male",
+      "name": "USB B",
+      "description": "USB B"
+    },
+    {
+      "id": "connector142",
+      "type": "male",
+      "name": "USB A",
+      "description": "USB A"
+    },
+    {
+      "id": "connector143",
+      "type": "male",
+      "name": "USB A",
+      "description": "USB A"
+    },
+    {
+      "id": "connector144",
+      "type": "male",
+      "name": "Ethernet",
+      "description": "Ethernet"
+    }
+  ]
+}

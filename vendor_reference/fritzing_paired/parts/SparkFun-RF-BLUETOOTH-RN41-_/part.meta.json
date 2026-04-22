@@ -1,0 +1,241 @@
+{
+  "moduleId": "SparkFun-RF-BLUETOOTH-RN41-_",
+  "title": "BLUETOOTH-RN41",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-bluetooth-rn41-_.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_rn41_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_rn41_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_rn41_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RN41.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 35,
+  "connectors": [
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "AIO1",
+      "description": "AIO1"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "AIO2",
+      "description": "AIO2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND1",
+      "description": "GND1"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GND3",
+      "description": "GND3"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GND4",
+      "description": "GND4"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GND5",
+      "description": "GND5"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PCMCLK",
+      "description": "PCMCLK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PCMIN",
+      "description": "PCMIN"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PCMOUT",
+      "description": "PCMOUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "PCMSYNC",
+      "description": "PCMSYNC"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "PIO10",
+      "description": "PIO10"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "PIO11",
+      "description": "PIO11"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "PIO2",
+      "description": "PIO2"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "PIO3",
+      "description": "PIO3"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "PIO4",
+      "description": "PIO4"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PIO5",
+      "description": "PIO5"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PIO6",
+      "description": "PIO6"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PIO7",
+      "description": "PIO7"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "PIO8",
+      "description": "PIO8"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "PIO9",
+      "description": "PIO9"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SPICLK",
+      "description": "SPICLK"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SPICSB",
+      "description": "SPICSB"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SPIMISO",
+      "description": "SPIMISO"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SPIMOSI",
+      "description": "SPIMOSI"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "UARTCTS",
+      "description": "UARTCTS"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "UARTRTS",
+      "description": "UARTRTS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "UARTRX",
+      "description": "UARTRX"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "UARTTX",
+      "description": "UARTTX"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "USBD+",
+      "description": "USBD+"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "USBD-",
+      "description": "USBD-"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

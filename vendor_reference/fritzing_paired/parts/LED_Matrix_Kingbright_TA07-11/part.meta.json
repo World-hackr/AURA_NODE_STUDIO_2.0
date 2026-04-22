@@ -1,0 +1,103 @@
+{
+  "moduleId": "LED_Matrix_Kingbright_TA07-11",
+  "title": "LED Dot Matrix 18mm (0.7 INCH)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\LED_Matrix_Kingbright_TA07-11.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\LED_Matrix_Kingbright.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LED_Matrix_Kingbright_TX07-11.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\LED_Matrix_Kingbright_TA07-11.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LED_Matrix_Kingbright_TX07-11.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Column 1",
+      "description": "Column 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Row 3",
+      "description": "Row 3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Column 2",
+      "description": "Column 2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Row 5",
+      "description": "Row 5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Row 6",
+      "description": "Row 6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Row 7",
+      "description": "Row 7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Column 4",
+      "description": "Column 4"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Column 5",
+      "description": "Column 5"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Row 4",
+      "description": "Row 4"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Column 3",
+      "description": "Column 3"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Row 2",
+      "description": "Row 2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Row 1",
+      "description": "Row 1"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "moduleId": "HEF4094",
+  "title": "HEF4094",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\HEF4094.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\HEF4094228f.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\HEF4094228f.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\HEF4094228f.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\HEF4094228f.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Vdd",
+      "description": "+V"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Q1",
+      "description": "(also QP0) Parallel output"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Q2",
+      "description": "(also QP1) Parallel output"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Q3",
+      "description": "(also QP2) Parallel output"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Q4",
+      "description": "(also QP3) Parallel output"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Vss",
+      "description": "Ground supply voltage"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Qs",
+      "description": "(also QS1) Serial Output"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Q",
+      "description": "(also QS2) Serial Output"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Q8",
+      "description": "(also QP7) Parallel output"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Q7",
+      "description": "(also QP6) Parallel output"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Q6",
+      "description": "(also QP5) Parallel output"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "STROBE",
+      "description": "STR - Strobe Input"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Q5",
+      "description": "(also QP4) Parallel output"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DATA",
+      "description": "Data input"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "CLOCK",
+      "description": "Clock Input"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OE",
+      "description": "Output Enable input"
+    }
+  ]
+}

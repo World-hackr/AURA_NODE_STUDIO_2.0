@@ -1,0 +1,38 @@
+{
+  "moduleId": "1e1cbd15-a784-4e41-a3e7-fd0ce4380a2cCapacitorModuleID",
+  "title": "Ceramic Capacitor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_multilayer-capacitor_1206.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ceramic_capacitor_blue_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\capacitor.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_1206.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "0",
+      "description": "pin0"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1",
+      "description": "pin1"
+    }
+  ]
+}

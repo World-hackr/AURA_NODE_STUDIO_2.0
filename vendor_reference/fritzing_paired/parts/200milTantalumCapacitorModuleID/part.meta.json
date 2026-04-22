@@ -1,0 +1,38 @@
+{
+  "moduleId": "200milTantalumCapacitorModuleID",
+  "title": "Tantalum Capacitor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\capacitor_tantalum_200mil.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\capacitor_tantalum.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\capacitor_polar.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\capacitor_tantalum_200mil.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "-",
+      "description": "negative side"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "+",
+      "description": "positive side"
+    }
+  ]
+}

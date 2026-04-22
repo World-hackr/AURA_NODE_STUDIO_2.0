@@ -1,0 +1,67 @@
+{
+  "moduleId": "ADXL335_v13",
+  "title": "Triple Axis Accelerometer Breakout - ADXL335",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADXL335_v13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ADXL335_v13_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ADXL335_v13_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ADXL335_v13_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ADXL335_v13_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "ST",
+      "description": "ST"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "ZOUT",
+      "description": "ZOUT"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "YOUT",
+      "description": "YOUT"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "XOUT",
+      "description": "XOUT"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "moduleId": "9352f017fa7aa88874a9c9af299b97a3_E0",
+  "title": "Adafruit Feedback Servo (small)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit_Feedback_Servo__small___e29a0e3cef79e961bf67d687d9ef44d7_E0.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit_Feedback_Servo__small___e29a0e3__icon__e9dab8df48e480cd294b04157226c1f0_E0.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit_Feedback_Servo__small___e29a0e3__breadboard__ba57dddc506c67533722bfe9f9c159ea_E0.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit_Feedback_Servo__small___e29a0e3__schematic__fe2c7332110a60086c615809e759fb67_E0.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit_Feedback_Servo__small___e29a0e3__pcb__d3315a11741ff64ae4a292f74fd506ae_E0.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Power",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Ground",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Feedback",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Signal",
+      "description": "no description yet"
+    }
+  ]
+}

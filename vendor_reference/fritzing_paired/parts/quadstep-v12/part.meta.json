@@ -1,0 +1,391 @@
+{
+  "moduleId": "quadstep-v12",
+  "title": "QuadStepper",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\quadstep-v12.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\quadstep-v12_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\quadstep-v12_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\quadstep-v12_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\quadstep-v12_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 60,
+  "connectors": [
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "1-1B",
+      "description": "1-1B"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "1-1A",
+      "description": "1-1A"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "1-2A",
+      "description": "1-2A"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "1-2B",
+      "description": "1-2B"
+    },
+    {
+      "id": "connector70",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector72",
+      "type": "female",
+      "name": "VOUT",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "VOUT",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "3-1B",
+      "description": "3-1B"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "3-1A",
+      "description": "3-1A"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "3-2A",
+      "description": "3-2A"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "3-2B",
+      "description": "3-2B"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "4-1B",
+      "description": "4-1B"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "4-1A",
+      "description": "4-1A"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "4-2A",
+      "description": "4-2A"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "4-2B",
+      "description": "4-2B"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "2-1B",
+      "description": "2-1B"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "2-1A",
+      "description": "2-1A"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "2-2A",
+      "description": "2-2A"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "2-2B",
+      "description": "2-2B"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "STP1",
+      "description": "STP1"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "DIR1",
+      "description": "DIR1"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "MS11",
+      "description": "MS11"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "MS21",
+      "description": "MS21"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "MS31",
+      "description": "MS31"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "RST1",
+      "description": "RST1"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "SLP1",
+      "description": "SLP1"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "EN1",
+      "description": "EN1"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "STP3",
+      "description": "STP3"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "DIR3",
+      "description": "DIR3"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "MS13",
+      "description": "MS13"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "MS23",
+      "description": "MS23"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "MS33",
+      "description": "MS33"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "RST3",
+      "description": "RST3"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "SLP3",
+      "description": "SLP3"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "EN3",
+      "description": "EN3"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "STP4",
+      "description": "STP4"
+    },
+    {
+      "id": "connector103",
+      "type": "female",
+      "name": "DIR4",
+      "description": "DIR4"
+    },
+    {
+      "id": "connector104",
+      "type": "female",
+      "name": "MS14",
+      "description": "MS14"
+    },
+    {
+      "id": "connector105",
+      "type": "female",
+      "name": "MS24",
+      "description": "MS24"
+    },
+    {
+      "id": "connector106",
+      "type": "female",
+      "name": "MS34",
+      "description": "MS34"
+    },
+    {
+      "id": "connector107",
+      "type": "female",
+      "name": "RST4",
+      "description": "RST4"
+    },
+    {
+      "id": "connector108",
+      "type": "female",
+      "name": "SLP4",
+      "description": "SLP4"
+    },
+    {
+      "id": "connector109",
+      "type": "female",
+      "name": "EN4",
+      "description": "EN4"
+    },
+    {
+      "id": "connector110",
+      "type": "female",
+      "name": "STP2",
+      "description": "STP2"
+    },
+    {
+      "id": "connector111",
+      "type": "female",
+      "name": "DIR2",
+      "description": "DIR2"
+    },
+    {
+      "id": "connector112",
+      "type": "female",
+      "name": "MS12",
+      "description": "MS12"
+    },
+    {
+      "id": "connector113",
+      "type": "female",
+      "name": "MS22",
+      "description": "MS22"
+    },
+    {
+      "id": "connector114",
+      "type": "female",
+      "name": "MS32",
+      "description": "MS32"
+    },
+    {
+      "id": "connector115",
+      "type": "female",
+      "name": "RST2",
+      "description": "RST2"
+    },
+    {
+      "id": "connector116",
+      "type": "female",
+      "name": "SLP2",
+      "description": "SLP2"
+    },
+    {
+      "id": "connector117",
+      "type": "female",
+      "name": "EN2",
+      "description": "EN2"
+    },
+    {
+      "id": "connector120",
+      "type": "female",
+      "name": "DIR",
+      "description": "DIR"
+    },
+    {
+      "id": "connector121",
+      "type": "female",
+      "name": "EN4",
+      "description": "EN4"
+    },
+    {
+      "id": "connector122",
+      "type": "female",
+      "name": "EN3",
+      "description": "EN3"
+    },
+    {
+      "id": "connector123",
+      "type": "female",
+      "name": "VOUT",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector124",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector125",
+      "type": "female",
+      "name": "EN2",
+      "description": "EN2"
+    },
+    {
+      "id": "connector126",
+      "type": "female",
+      "name": "EN1",
+      "description": "EN1"
+    },
+    {
+      "id": "connector127",
+      "type": "female",
+      "name": "STP",
+      "description": "STP"
+    }
+  ]
+}

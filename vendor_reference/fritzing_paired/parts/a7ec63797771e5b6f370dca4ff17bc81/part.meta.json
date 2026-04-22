@@ -1,0 +1,67 @@
+{
+  "moduleId": "a7ec63797771e5b6f370dca4ff17bc81",
+  "title": "3-Axis Accelerometer Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\accelerometer-adxl.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\accelerometer-adxl.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\accelerometer-adxl.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\accelerometer-adxl.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_6_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "ST",
+      "description": "Self-Test"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Z",
+      "description": "Z-axis"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Y",
+      "description": "Y-axis"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "X",
+      "description": "X-axis"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VDD",
+      "description": "Power"
+    }
+  ]
+}

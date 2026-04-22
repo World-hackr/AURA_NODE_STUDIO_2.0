@@ -1,0 +1,49 @@
+{
+  "moduleId": "SparkFun-Connectors-AUDIO-JACK-SMD2",
+  "title": "3.5mm Audio Jack",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-audio-jack-smd2.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_audio-jack-3.5mm-smd_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_audio-jack_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_audio-jack-3.5mm-smd_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AUDIO-JACK-3.5MM-SMD.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "LEFT",
+      "description": "LEFT"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RIGHT",
+      "description": "RIGHT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SLEEVE",
+      "description": "SLEEVE"
+    }
+  ]
+}

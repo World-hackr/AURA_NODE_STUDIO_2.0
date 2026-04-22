@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-Sensors-HMC6042-",
+  "title": "HMC6042",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-hmc6042-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_hmc6042_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_hmc6042_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_hmc6042_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_hmc6042_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "C1",
+      "description": "C1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "FBX",
+      "description": "FBX"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "FBY",
+      "description": "FBY"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "FBZ",
+      "description": "FBZ"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "INZ+",
+      "description": "INZ+"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "INZ-",
+      "description": "INZ-"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OUTX",
+      "description": "OUTX"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OUTY",
+      "description": "OUTY"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "OUTZ",
+      "description": "OUTZ"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "S_R+",
+      "description": "S_R+"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "S_R-",
+      "description": "S_R-"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "S_R-C",
+      "description": "S_R-C"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "S_R-IN",
+      "description": "S_R-IN"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VDD1",
+      "description": "VDD1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VDD2",
+      "description": "VDD2"
+    }
+  ]
+}

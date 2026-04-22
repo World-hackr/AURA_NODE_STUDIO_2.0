@@ -1,0 +1,67 @@
+{
+  "moduleId": "lm2574_soic_139fde836b26224f66fa149e18beb2eb_2",
+  "title": "LM2574 (SOIC)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\lm2574_soic_139fde836b26224f66fa149e18beb2eb_2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\lm2574_soic_7b40e44506a08afc013425384b13b56d_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lm2574_soic_7b40e44506a08afc013425384b13b56d_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lm2574_soic_7b40e44506a08afc013425384b13b56d_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\lm2574_soic_7b40e44506a08afc013425384b13b56d_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin3",
+      "description": "FB"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin4",
+      "description": "SIG_GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin5",
+      "description": "ON/OFF"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin6",
+      "description": "PWR_GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin10",
+      "description": "VIN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin12",
+      "description": "OUTPUT"
+    }
+  ]
+}

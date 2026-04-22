@@ -1,0 +1,115 @@
+{
+  "moduleId": "AnalogDevices_OP482GPZ",
+  "title": "OP482 - Low Power, High Speed JFET Quad Operational Amplifier",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_OP482.AnalogDevices_OP482GPZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\OP482.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\OP482.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\OP482.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\OP482.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OUTA",
+      "description": "OUTA"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-INA",
+      "description": "-INA"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "+INA",
+      "description": "+INA"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "V+",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "+INB",
+      "description": "+INB"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "-INB",
+      "description": "-INB"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "OUTB",
+      "description": "OUTB"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "OUTC",
+      "description": "OUTC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "-INC",
+      "description": "-INC"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "+INC",
+      "description": "+INC"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "+IND",
+      "description": "+IND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "-IND",
+      "description": "-IND"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OUTD",
+      "description": "OUTD"
+    }
+  ]
+}

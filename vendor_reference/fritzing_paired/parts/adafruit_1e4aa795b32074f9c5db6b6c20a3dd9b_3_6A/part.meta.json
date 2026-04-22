@@ -1,0 +1,61 @@
+{
+  "moduleId": "adafruit_1e4aa795b32074f9c5db6b6c20a3dd9b_3_6A",
+  "title": "Seven-Segment LED Backpack 1.2 Inch Digits",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_1e4aa795b32074f9c5db6b6c20a3dd9b_3_6A.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_1e4aa795b32074f9c5db6b6c20a3dd9b_3_breadboard_6A.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_1e4aa795b32074f9c5db6b6c20a3dd9b_3_schematic_6A.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_1e4aa795b32074f9c5db6b6c20a3dd9b_3_pcb_6A.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_1e4aa795b32074f9c5db6b6c20a3dd9b_3_icon_6A.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "moduleId": "Adafruit-_6e6e83db5bb8e3300b6cc3c4c1ae7879_1_B5",
+  "title": "Adafruit WCH CH9102F Friend - USB to Serial Converter",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_6e6e83db5bb8e3300b6cc3c4c1ae7879_1_B5.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_6e6e83db5bb8e3300b6cc3c4c1ae7879_1_breadboard_B5.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_6e6e83db5bb8e3300b6cc3c4c1ae7879_1_schematic_B5.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_6e6e83db5bb8e3300b6cc3c4c1ae7879_1_pcb_B5.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_6e6e83db5bb8e3300b6cc3c4c1ae7879_1_icon_B5.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 22,
+  "connectors": [
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "GPIO3",
+      "description": "GPIO3"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "GPIO2",
+      "description": "GPIO2"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "#SUSP",
+      "description": "#SUSP"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "SUSP",
+      "description": "SUSP"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "RI",
+      "description": "RI"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "DCD",
+      "description": "DCD"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "DSR",
+      "description": "DSR"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "moduleId": "adafruit_2d459a7ab102a5fe885fef0d2637801e_1_32",
+  "title": "HMC5883L Triple-axis Magnetometer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_2d459a7ab102a5fe885fef0d2637801e_1_32.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_2d459a7ab102a5fe885fef0d2637801e_1_breadboard_32.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_2d459a7ab102a5fe885fef0d2637801e_1_schematic_32.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_2d459a7ab102a5fe885fef0d2637801e_1_pcb_32.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_2d459a7ab102a5fe885fef0d2637801e_1_icon_32.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "RDY",
+      "description": "RDY"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

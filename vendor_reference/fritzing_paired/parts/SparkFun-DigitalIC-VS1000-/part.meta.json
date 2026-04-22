@@ -1,0 +1,319 @@
+{
+  "moduleId": "SparkFun-DigitalIC-VS1000-",
+  "title": "VS1000",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-vs1000-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LQFP-48_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_vs1000_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_lqfp-48_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LQFP-48_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 48,
+  "connectors": [
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "AGND1",
+      "description": "AGND1"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "AGND2",
+      "description": "AGND2"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "AGND3",
+      "description": "AGND3"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "AGND4",
+      "description": "AGND4"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "AVDD1",
+      "description": "AVDD1"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "AVDD2",
+      "description": "AVDD2"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "AVDD3",
+      "description": "AVDD3"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "AVDD4",
+      "description": "AVDD4"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "CS1_GPIO0_10",
+      "description": "CS1_GPIO0_10"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "CS2_GPIO0_14",
+      "description": "CS2_GPIO0_14"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "CVDD",
+      "description": "CVDD"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DGND1",
+      "description": "DGND1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "DGND2",
+      "description": "DGND2"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "DGND3",
+      "description": "DGND3"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GBUF",
+      "description": "GBUF"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "IOVDD1",
+      "description": "IOVDD1"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "IOVDD2",
+      "description": "IOVDD2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "IOVDD3",
+      "description": "IOVDD3"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "LEFT",
+      "description": "LEFT"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "NFALE_GPIO0_13",
+      "description": "NFALE_GPIO0_13"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "NFCLE_GPIO0_12",
+      "description": "NFCLE_GPIO0_12"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "NFDIO0_IO0_0",
+      "description": "NFDIO0_IO0_0"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "NFDIO1_IO0_1",
+      "description": "NFDIO1_IO0_1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "NFDIO2_IO0_2",
+      "description": "NFDIO2_IO0_2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "NFDIO3_IO0_3",
+      "description": "NFDIO3_IO0_3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "NFDIO4_IO0_4",
+      "description": "NFDIO4_IO0_4"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "NFDIO5_IO0_5",
+      "description": "NFDIO5_IO0_5"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "NFDIO6_IO0_6",
+      "description": "NFDIO6_IO0_6"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "NFDIO7_IO0_7",
+      "description": "NFDIO7_IO0_7"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "NFRD_GPIO0_9",
+      "description": "NFRD_GPIO0_9"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "NFRDY_GPIO0_8",
+      "description": "NFRDY_GPIO0_8"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "NFWR_GPIO0_11",
+      "description": "NFWR_GPIO0_11"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "POWBTN",
+      "description": "POWBTN"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "RCAP",
+      "description": "RCAP"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "RIGHT",
+      "description": "RIGHT"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "RX_GPIO1_4",
+      "description": "RX_GPIO1_4"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SCLK_GPIO1_1",
+      "description": "SCLK_GPIO1_1"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SI_GPIO1_2",
+      "description": "SI_GPIO1_2"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "SO_GPIO1_3",
+      "description": "SO_GPIO1_3"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TEST",
+      "description": "TEST"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "TX_GPIO1_5",
+      "description": "TX_GPIO1_5"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "USBN",
+      "description": "USBN"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "USBP",
+      "description": "USBP"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "VHIGH",
+      "description": "VHIGH"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "XCS_GPIO1_0",
+      "description": "XCS_GPIO1_0"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "XRESET",
+      "description": "XRESET"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "XTAL0",
+      "description": "XTAL0"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "XTAL1",
+      "description": "XTAL1"
+    }
+  ]
+}

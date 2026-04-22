@@ -1,0 +1,198 @@
+{
+  "moduleId": "SparkFun-DigitalIC-AVR-MEGA8-P-SIM",
+  "title": "MICROCONTROLLER",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-avr-mega8-p-sim.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_23-i_o-2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil28-3-simon_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_28_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_28_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "AVCC",
+      "description": "AVCC"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PB0(ICP)",
+      "description": "PB0(ICP)"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PB1(OC1A)",
+      "description": "PB1(OC1A)"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PB2(SS_OC1B)",
+      "description": "PB2(SS_OC1B)"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "PB3(MOSI_OC2)",
+      "description": "PB3(MOSI_OC2)"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "PB4(MISO)",
+      "description": "PB4(MISO)"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "PB5(SCK)",
+      "description": "PB5(SCK)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PB6(XTAL1_TOSC1)",
+      "description": "PB6(XTAL1_TOSC1)"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PB7(XTAL2_TOSC2)",
+      "description": "PB7(XTAL2_TOSC2)"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "PC0(ADC0)",
+      "description": "PC0(ADC0)"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "PC1(ADC1)",
+      "description": "PC1(ADC1)"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "PC2(ADC2)",
+      "description": "PC2(ADC2)"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "PC3(ADC3)",
+      "description": "PC3(ADC3)"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "PC4(ADC4_SDA)",
+      "description": "PC4(ADC4_SDA)"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "PC5(ADC5_SCL)",
+      "description": "PC5(ADC5_SCL)"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "PC6(_RESET)",
+      "description": "PC6(_RESET)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PD0(RXD)",
+      "description": "PD0(RXD)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PD1(TXD)",
+      "description": "PD1(TXD)"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PD2(INT0)",
+      "description": "PD2(INT0)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "PD3(INT1)",
+      "description": "PD3(INT1)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PD4(XCK_T0)",
+      "description": "PD4(XCK_T0)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PD5(T1)",
+      "description": "PD5(T1)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PD6(AIN0)",
+      "description": "PD6(AIN0)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "PD7(AIN1)",
+      "description": "PD7(AIN1)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

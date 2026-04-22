@@ -1,0 +1,79 @@
+{
+  "moduleId": "AnalogDevices_ADTL082ARZ",
+  "title": "ADTL082 - Dual JFET Input Op Amps",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_ADTL082.AnalogDevices_ADTL082ARZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ADTL082.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ADTL082.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ADTL082CMOD.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ADTL082.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OUTA",
+      "description": "OUTA"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-INA",
+      "description": "-INA"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "+INA",
+      "description": "+INA"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "-V",
+      "description": "-V"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "+INB",
+      "description": "+INB"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "-INB",
+      "description": "-INB"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "OUTB",
+      "description": "OUTB"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "+V",
+      "description": "+V"
+    }
+  ]
+}

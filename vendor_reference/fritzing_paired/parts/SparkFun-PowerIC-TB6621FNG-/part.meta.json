@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-PowerIC-TB6621FNG-",
+  "title": "TB6621FNG",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-tb6621fng-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP24_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_tb6612fng_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_ssop24_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP24_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A01",
+      "description": "A01"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A01",
+      "description": "A01"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "A02",
+      "description": "A02"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "A02",
+      "description": "A02"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "AIN1",
+      "description": "AIN1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "AIN2",
+      "description": "AIN2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "B01",
+      "description": "B01"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "B01",
+      "description": "B01"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "B02",
+      "description": "B02"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "B02",
+      "description": "B02"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "BIN1",
+      "description": "BIN1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "BIN2",
+      "description": "BIN2"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PGND1",
+      "description": "PGND1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PGND1",
+      "description": "PGND1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PGND2",
+      "description": "PGND2"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PGND2",
+      "description": "PGND2"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "PWMA",
+      "description": "PWMA"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PWMB",
+      "description": "PWMB"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "STBY",
+      "description": "STBY"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VM1",
+      "description": "VM1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VM2",
+      "description": "VM2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VM3",
+      "description": "VM3"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "moduleId": "RevEd_FRM010",
+  "title": "FRM010",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\FRM010.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\FRM010_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\FRM010_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\FRM010_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_18_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "LCD RS",
+      "description": "Connect to the LCD module 'RS' pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "LCD E",
+      "description": "Connect to the LCD module 'E' pin"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Serial In",
+      "description": "This is the serial input used to control the FRM010. Connect to a digital output of your controller via a 1K resistor or via a 22K resistor when connected directly to a PC or to an input signal whose voltage is greater than the power supply"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Reset",
+      "description": "Connect via a 4K7 resistor to the positive rail of the power supply in your circuit. This pin must be connected via the 4K7 resistor or the FRM010 will not operate correctly. This pin can also be connected to a switch to 0V (ground) to provide a manual 'reset button' for the FRM010"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "LCD D4",
+      "description": "Connect to the LCD module 'D4' pin"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "LCD D5",
+      "description": "Connect to the LCD module 'D5' pin"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "LCD D6",
+      "description": "Connect to the LCD module 'D6' pin"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "LCD D7",
+      "description": "Connect to the LCD module 'D7' pin"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "JP1 - Welcome Message selection",
+      "description": "Connect this pin to 0V (ground) to display a welcome message. Leave this pin unconnected to not display the welcome message"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "JP2 - Baud Rate selection",
+      "description": "Connect this pin to 0V (ground) to select 9600 baud operation. Leave the pin unconnected to select 2400 baud operation"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "JP3 - Polarity selection",
+      "description": "Connect this pin to 0V (ground) when connected directly to a PC or controlled by a PICAXE using an 'N' baud rate. Leave this pin unconnected when controlled by a PICAXE using a 'T' baud rate"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "JP4 - Number of Lines selection",
+      "description": "Connect this pin to 0V (ground) for a single line display. Leave the pin unconnected for a two line display"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "XTAL",
+      "description": "Connect this pin to a 4MHz resonator. Without a resonator fitted the FRM010 will not function."
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "XTAL",
+      "description": "Connect this pin to a 4MHz resonator. Without a resonator fitted the FRM010 will not function."
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "LED",
+      "description": "Connect this pin to a LED plus current limiting resistor to 0V (ground) of your power supply to indicate that communications are being received"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "LCD PWR",
+      "description": "Power for the LCD module. Connect to the LCD module 'VCC' pin"
+    }
+  ]
+}

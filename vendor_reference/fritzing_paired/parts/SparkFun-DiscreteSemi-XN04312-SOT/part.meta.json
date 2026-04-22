@@ -1,0 +1,67 @@
+{
+  "moduleId": "SparkFun-DiscreteSemi-XN04312-SOT",
+  "title": "NPN_PNP Transistor Array",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-discretesemi-xn04312-sot.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_sot23-6_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-discretesemi_xn04312_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-discretesemi_sot23-6_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_sot23-6_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "B1",
+      "description": "B1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "B2",
+      "description": "B2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "C1",
+      "description": "C1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "C2",
+      "description": "C2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "E1",
+      "description": "E1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "E2",
+      "description": "E2"
+    }
+  ]
+}

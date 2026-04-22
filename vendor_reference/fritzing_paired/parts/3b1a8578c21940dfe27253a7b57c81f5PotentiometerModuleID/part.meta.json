@@ -1,0 +1,49 @@
+{
+  "moduleId": "3b1a8578c21940dfe27253a7b57c81f5PotentiometerModuleID",
+  "title": "Slide Potentiometer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\pot-slider_4.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\pot-slider.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\pot-slider.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\basic_poti.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\pot-slider.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "leg1",
+      "description": "leg1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "wiper",
+      "description": "wiper"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "leg2",
+      "description": "leg2"
+    }
+  ]
+}

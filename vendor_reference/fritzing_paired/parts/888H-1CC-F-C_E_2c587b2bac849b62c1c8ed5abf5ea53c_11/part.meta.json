@@ -1,0 +1,79 @@
+{
+  "moduleId": "888H-1CC-F-C E_2c587b2bac849b62c1c8ed5abf5ea53c_11",
+  "title": "888H-1CC-F-C E",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\888H-1CC-F-C E_2c587b2bac849b62c1c8ed5abf5ea53c_11.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\888H-1CC-F-C E_c52355b8b44074381742a8ee87d8d3d2_2_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\888H-1CC-F-C E_c52355b8b44074381742a8ee87d8d3d2_2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\888H-1CC-F-C E_c52355b8b44074381742a8ee87d8d3d2_2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\888H-1CC-F-C E_c52355b8b44074381742a8ee87d8d3d2_2_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "11 N.O.",
+      "description": "11 N.O."
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "9 COM",
+      "description": "9 COM"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "7 N.C.",
+      "description": "7 N.C."
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "1 +",
+      "description": "1 +"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "22 -",
+      "description": "22 -"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "16 N.C.",
+      "description": "16 N.C."
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "14 COM",
+      "description": "14 COM"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "12 N.O.",
+      "description": "12 N.O."
+    }
+  ]
+}

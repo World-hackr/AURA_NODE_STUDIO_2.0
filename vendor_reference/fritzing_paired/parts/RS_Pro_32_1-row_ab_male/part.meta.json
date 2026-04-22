@@ -1,0 +1,218 @@
+{
+  "moduleId": "RS_Pro_32_1-row_ab_male",
+  "title": "RS Pro 1-row ab male 32 pins",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\RS_Pro_32_1-row_ab_male.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\RS_Pro_32_1-row_ab_male_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\RS_Pro_32_1-row_ab_male_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\RS_Pro_32_1-row_ab_male_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 32,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin9",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin10",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin11",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin12",
+      "description": "pin 12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin13",
+      "description": "pin 13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin14",
+      "description": "pin 14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin15",
+      "description": "pin 15"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin16",
+      "description": "pin 16"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin17",
+      "description": "pin 17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin18",
+      "description": "pin 18"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin19",
+      "description": "pin 19"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin20",
+      "description": "pin 20"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin21",
+      "description": "pin 21"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin22",
+      "description": "pin 22"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin23",
+      "description": "pin 23"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin24",
+      "description": "pin 24"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin25",
+      "description": "pin 25"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "pin26",
+      "description": "pin 26"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "pin27",
+      "description": "pin 27"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "pin28",
+      "description": "pin 28"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "pin29",
+      "description": "pin 29"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "pin30",
+      "description": "pin 30"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "pin31",
+      "description": "pin 31"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "pin32",
+      "description": "pin 32"
+    }
+  ]
+}

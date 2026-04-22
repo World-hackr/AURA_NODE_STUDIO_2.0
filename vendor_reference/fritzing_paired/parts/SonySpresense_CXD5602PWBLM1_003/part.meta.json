@@ -1,0 +1,349 @@
+{
+  "moduleId": "SonySpresense_CXD5602PWBLM1_003",
+  "title": "Sony's Spresense LTE Extension Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SonySpresense_CXD5602PWBLM1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\CXD5602PWBLM1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\CXD5602PWBLM1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\CXD5602PWBLM1_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\CXD5602PWBLM1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 53,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "TX",
+      "description": "TX / D01 / UART2_TX"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "RX",
+      "description": "RX / D00 / UART2_RX"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "CTS",
+      "description": "CTS / D27"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "I2S BCK",
+      "description": "I2S BCK / D26"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "I2S LRCK",
+      "description": "I2S LRCK D25"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "SPI CS",
+      "description": "SPI CS / D24"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "SPI SCK",
+      "description": "SPI SCK / D23"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "D22",
+      "description": "D22 / SEN_IRQ_IN"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "A2",
+      "description": "A2 / SEN_AIN4"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "A3",
+      "description": "A3 / SEN_AIN5"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "I2C SDA",
+      "description": "I2C SDA / D14"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "I2C SCL",
+      "description": "I2C SCL / D15"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SPI MOSI",
+      "description": "SPI MOSI / D16"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SPI MISO",
+      "description": "SPI MISO / D17"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "I2S DOUT",
+      "description": "I2S DOUT / D18"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "I2S DIN",
+      "description": "I2S DIN / D19"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "D20",
+      "description": "D20 / EMMC_DATA2"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "D21",
+      "description": "D21 / EMMC_DATA3"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "EXT_VDD",
+      "description": "EXT_VDD"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "XRST_PIN_1.8V",
+      "description": "XRST_PIN_1.8V"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VDD_LVS",
+      "description": "VDD_LVS"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "VIN",
+      "description": "MAIN_POWER"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GND",
+      "description": "IOREF"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "D02",
+      "description": "D02 HIF_IRQ_OUT"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "D29",
+      "description": "D29 SPI3_SCK"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "D06",
+      "description": "D06 PWM0"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "D30",
+      "description": "D30 SPI3_MISO"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "D05",
+      "description": "D05 PWM1"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "D31",
+      "description": "D31 SPI3_MOSI"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "D09",
+      "description": "D09 PWM2"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "D32",
+      "description": "D32 SPI3_CS0"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "D03",
+      "description": "D03 PWM3"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "D07",
+      "description": "D07 SPI3_CS1"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "MICB",
+      "description": "MICB"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "MICA",
+      "description": "MICA"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "MIC BIASA",
+      "description": "MIC BIASA"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "MIC BIASA",
+      "description": "MIC BIASA"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "1.8V",
+      "description": "1.8V"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "DCLK",
+      "description": "DCLK"
+    }
+  ]
+}

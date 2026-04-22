@@ -1,0 +1,59 @@
+{
+  "schema": "aura.circuit_intent.v1",
+  "metadata": {
+    "title": "Blinking LED Example",
+    "userPrompt": "Make an Arduino Uno blink one red LED.",
+    "preferredView": "breadboard",
+    "createdBy": "example"
+  },
+  "requirements": {
+    "goal": "Simple beginner LED circuit controlled by an Arduino Uno.",
+    "parts": [
+      {
+        "role": "controller",
+        "query": "Arduino Uno",
+        "quantity": 1,
+        "required": true
+      },
+      {
+        "role": "indicator",
+        "query": "red LED",
+        "quantity": 1,
+        "required": true
+      },
+      {
+        "role": "current_limit",
+        "query": "resistor",
+        "valueHint": "220R",
+        "quantity": 1,
+        "required": true
+      }
+    ],
+    "connections": [
+      {
+        "fromRole": "controller",
+        "fromPinHint": "digital output",
+        "toRole": "current_limit"
+      },
+      {
+        "fromRole": "current_limit",
+        "toRole": "indicator",
+        "toPinHint": "anode"
+      },
+      {
+        "fromRole": "indicator",
+        "fromPinHint": "cathode",
+        "toRole": "controller",
+        "toPinHint": "ground"
+      }
+    ],
+    "constraints": {
+      "allowSubstitutions": true,
+      "prioritizeSimplicity": true,
+      "maxPartCount": 3
+    }
+  },
+  "reviewHints": [
+    "Resolver should choose a common beginner-friendly Uno package."
+  ]
+}

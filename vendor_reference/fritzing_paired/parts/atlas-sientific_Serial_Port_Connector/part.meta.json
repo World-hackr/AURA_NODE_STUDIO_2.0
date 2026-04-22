@@ -1,0 +1,127 @@
+{
+  "moduleId": "atlas-sientific_Serial Port Connector",
+  "title": "Serial Port Connector",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\atlas-sientific_Serial Port Connector.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\atlas-sientific_Serial Port Connector_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\atlas-sientific_Serial Port Connector_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\atlas-sientific_Serial Port Connector_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\atlas-sientific_Serial Port Connector_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Vcc",
+      "description": "Supply Voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "S1",
+      "description": "Output direction control 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "S0",
+      "description": "Output direction control 0"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "E",
+      "description": "Enable"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RX - Z",
+      "description": "Data In - Z"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TX - Z",
+      "description": "Data Out - Z"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "Supply Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "NC",
+      "description": "Not Connected"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RX - Y0",
+      "description": "Data In - Y0"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "TX - Y0",
+      "description": "Data Out - Y0"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RX - Y1",
+      "description": "Data In - Y1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "TX - Y1",
+      "description": "Data Out - Y1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "RX - Y2",
+      "description": "Data in - Y2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "TX - Y2",
+      "description": "Data Out - Y2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RX - Y3",
+      "description": "Data In - Y3"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "TX - Y3",
+      "description": "Data Out - Y3"
+    }
+  ]
+}

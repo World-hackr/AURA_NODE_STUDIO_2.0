@@ -1,0 +1,295 @@
+{
+  "moduleId": "SparkFun-DigitalIC-ATMEGA32U4-QFN",
+  "title": "ATMEGA32U4",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-atmega32u4-qfn.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_qfn-44_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_atmega32u4_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_qfn-44_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_qfn-44_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 44,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "!RESET",
+      "description": "!RESET"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "AVCC",
+      "description": "AVCC"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "AVCC",
+      "description": "AVCC"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "PB0(SS)",
+      "description": "PB0(SS)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PB1(SCK)",
+      "description": "PB1(SCK)"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PB2(MOSI)",
+      "description": "PB2(MOSI)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PB3(MISO)",
+      "description": "PB3(MISO)"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "PB4(ADC11)",
+      "description": "PB4(ADC11)"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "PB5(ADC12)",
+      "description": "PB5(ADC12)"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "PB6(ADC13)",
+      "description": "PB6(ADC13)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PB7",
+      "description": "PB7"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "PC6",
+      "description": "PC6"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "PC7",
+      "description": "PC7"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "PD0(SCL)",
+      "description": "PD0(SCL)"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "PD1(SDA)",
+      "description": "PD1(SDA)"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "PD2(RX)",
+      "description": "PD2(RX)"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PD3(TX)",
+      "description": "PD3(TX)"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "PD4(ADC8)",
+      "description": "PD4(ADC8)"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "PD5",
+      "description": "PD5"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "PD6(ADC9)",
+      "description": "PD6(ADC9)"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "PD7(ADC10)",
+      "description": "PD7(ADC10)"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "PE2_!HWB",
+      "description": "PE2_!HWB"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "PE6",
+      "description": "PE6"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "PF0(ADC0)",
+      "description": "PF0(ADC0)"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "PF1(ADC1)",
+      "description": "PF1(ADC1)"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "PF4(ADC4)",
+      "description": "PF4(ADC4)"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "PF5(ADC5)",
+      "description": "PF5(ADC5)"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "PF6(ADC6)",
+      "description": "PF6(ADC6)"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "PF7(ADC7)",
+      "description": "PF7(ADC7)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "UCAP",
+      "description": "UCAP"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "UGND",
+      "description": "UGND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "UVCC",
+      "description": "UVCC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "XTAL1",
+      "description": "XTAL1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "XTAL2",
+      "description": "XTAL2"
+    }
+  ]
+}

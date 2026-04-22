@@ -1,0 +1,67 @@
+{
+  "moduleId": "HC-05-male_fix",
+  "title": "Bluetooth HC-05 Macho",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\HC-05-male_fix.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\HC-05-male_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\HC-05-male_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\HC-05-male_fix_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\HC-05-male_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "pad",
+      "name": "State",
+      "description": "Monitor de Estado do Bluetooth - Não usamos"
+    },
+    {
+      "id": "connector13",
+      "type": "pad",
+      "name": "TXD",
+      "description": "Saíde - Conecte ao RX do Arduino"
+    },
+    {
+      "id": "connector14",
+      "type": "pad",
+      "name": "RXD",
+      "description": "Entrada - Conecte ao TX do Arduino"
+    },
+    {
+      "id": "connector15",
+      "type": "pad",
+      "name": "VCC",
+      "description": "Alimentação - Conecte ao +5 V do Arduino"
+    },
+    {
+      "id": "connector16",
+      "type": "pad",
+      "name": "Key",
+      "description": "Chave de Ativação do Modo de Programação através de comandos-AT"
+    },
+    {
+      "id": "connector17",
+      "type": "pad",
+      "name": "GND",
+      "description": "Terra - Conecte ao GND do Arduino"
+    }
+  ]
+}

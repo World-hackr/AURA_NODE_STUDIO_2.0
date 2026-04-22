@@ -1,0 +1,139 @@
+{
+  "moduleId": "SparkFun-Sensors-IDG1215--1215",
+  "title": "IDG1215",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-idg1215--1215.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_idg500_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_idg1215_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_idg500_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_idg500_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "AZ",
+      "description": "AZ"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CPOUT",
+      "description": "CPOUT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "PTATS",
+      "description": "PTATS"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VREF",
+      "description": "VREF"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "XAGC",
+      "description": "XAGC"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "XHP1",
+      "description": "XHP1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "XHP2",
+      "description": "XHP2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "XOUT",
+      "description": "XOUT"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "YAGC",
+      "description": "YAGC"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "YHP1",
+      "description": "YHP1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "YHP2",
+      "description": "YHP2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "YOUT",
+      "description": "YOUT"
+    }
+  ]
+}

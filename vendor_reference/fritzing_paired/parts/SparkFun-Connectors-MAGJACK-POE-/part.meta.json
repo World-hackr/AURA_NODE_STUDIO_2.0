@@ -1,0 +1,115 @@
+{
+  "moduleId": "SparkFun-Connectors-MAGJACK-POE-",
+  "title": "MAGJACK-POE",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-magjack-poe-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_magjack-poe_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_magjack-poe_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_magjack-poe_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\MAGJACK-POE.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GLED+",
+      "description": "GLED+"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GLED-",
+      "description": "GLED-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RCT",
+      "description": "RCT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RD+",
+      "description": "RD+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RD-",
+      "description": "RD-"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SHIELD",
+      "description": "SHIELD"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SHIELD",
+      "description": "SHIELD"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TCT",
+      "description": "TCT"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "TD+",
+      "description": "TD+"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TD-",
+      "description": "TD-"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "YLED+",
+      "description": "YLED+"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "YLED-",
+      "description": "YLED-"
+    }
+  ]
+}

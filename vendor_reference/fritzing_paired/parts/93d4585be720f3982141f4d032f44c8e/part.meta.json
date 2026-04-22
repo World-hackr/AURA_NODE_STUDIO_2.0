@@ -1,0 +1,38 @@
+{
+  "moduleId": "93d4585be720f3982141f4d032f44c8e",
+  "title": "Peltier Element",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\peltier element.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\peltier_element.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\peltier_element.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_2_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "Pin 2"
+    }
+  ]
+}

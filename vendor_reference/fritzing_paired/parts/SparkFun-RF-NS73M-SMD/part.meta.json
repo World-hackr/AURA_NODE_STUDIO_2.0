@@ -1,0 +1,121 @@
+{
+  "moduleId": "SparkFun-RF-NS73M-SMD",
+  "title": "FM Transmitter",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-ns73m-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_ns73m_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_ns73m_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_ns73m_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ns73m.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CK",
+      "description": "CK"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DA",
+      "description": "DA"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "IIC",
+      "description": "IIC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "LA",
+      "description": "LA"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "LIN",
+      "description": "LIN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PWE",
+      "description": "PWE"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RFO",
+      "description": "RFO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "RIN",
+      "description": "RIN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "TEB",
+      "description": "TEB"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDRF",
+      "description": "VDRF"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "X1",
+      "description": "X1"
+    }
+  ]
+}

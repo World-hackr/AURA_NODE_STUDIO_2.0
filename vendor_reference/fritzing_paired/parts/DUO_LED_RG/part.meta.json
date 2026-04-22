@@ -1,0 +1,49 @@
+{
+  "moduleId": "DUO_LED_RG",
+  "title": "DUO LED RG",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DUO_LED_RG.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DUO_LED_RG_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DUO_LED_RG_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DUO_LED_RG_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DUO_LED_RG.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "green anode",
+      "description": "anode pin for green LED"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "red anode",
+      "description": "anode pin for red LED"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "common cathode",
+      "description": "cathode pin for every color, supply +voltage"
+    }
+  ]
+}

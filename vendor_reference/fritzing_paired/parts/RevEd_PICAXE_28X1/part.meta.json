@@ -1,0 +1,199 @@
+{
+  "moduleId": "RevEd_PICAXE_28X1",
+  "title": "PICAXE-28X1",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PICAXE_28X1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PICAXE_28X1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PICAXE_28X1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PICAXE_28X1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_28_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Reset",
+      "description": "Connect via a 4K7 resistor to the positive rail of the power supply in your circuit. This pin must be connected via the 4K7 resistor or the PICAXE will not operate correctly. This pin can also be connected to a switch to 0V (ground) to provide a manual 'reset button' for the PICAXE"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "In A0 / ADC 0 / ULPWU",
+      "description": "This pin can be used as a digital input or can be used as an analogue input"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "In A1 / ADC 1",
+      "description": "This pin can be used as a digital input or can be used as an analogue input"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "In A2 / ADC 2",
+      "description": "This pin can be used as a digital input or can be used as an analogue input"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "In A3 / ADC 3",
+      "description": "This pin can be used as a digital input or can be used as an analogue input"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Serial In",
+      "description": "Connect to the 22K resistor of the PICAXE download circuit"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Serial Out",
+      "description": "Connect to the output pin of the download connector for the PICAXE download circuit"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Resonator ( Optional )",
+      "description": "Connect to a resonator or crystal if you wish to use one. The PICAXE will operate without a resonator or crystal connected"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Resonator ( Optional )",
+      "description": "Connect to a resonator or crystal if you wish to use one. The PICAXE will operate without a resonator or crystal connected"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "In 0 / Timer Clock",
+      "description": "This pin can be used as a digital input. This pin can be used to increment the internal 'timer' variable of the PICAXE"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "In 1 / PWM 1",
+      "description": "This pin can be used as a digital input. This pin can be used to generate a background PWM output signal using the PWMOUT command"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "In 2 / PWM 2 / HPWM A",
+      "description": "This pin can be used as a digital input. This pin can be used to generate a background PWM output signal using the PWMOUT or HPWM commands"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "In 3 / I2C Clock / SPI Clock",
+      "description": "This pin can be used as a digital input. If using the PICAXE with I2C devices this pin should connect to the 'I2C Clock' (SCL) pins of those devices and a 4K7 resistor should connect from this pin to the positive rail of the power supply in your circuit. If using the PICAXE with SPI devices this pin should connect to the 'SPI Clock' (SCK/SCLK) pins of those devices"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "In 4 / I2C Data / SPI Data In",
+      "description": "This pin can be used as a digital input. If using the PICAXE with I2C devices this pin should connect to the 'I2C Data' (SDA) pins of those devices and a 4K7 resistor should connect from this pin to the positive rail of the power supply in your circuit. If using the PICAXE with SPI devices this pin should connect to the 'SPI Data Out' (DO/DOUT/SO) pins of those devices"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "In 5 / SPI Data Out",
+      "description": "This pin can be used as a digital input. If using the PICAXE with SPI devices this pin should connect to the 'SPI Data In' (DI/DIN/SI) pins of those devices"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "In 6 / Hserout / Keybaord Clock",
+      "description": "This pin can be used as a digital input. This pin can be used to output high-speed serial data"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "In 7 / Hserin / Keyboard Data",
+      "description": "This pin can be used as a digital input. This pin can be used to receive high-speed serial data. If using the PICAXE with a PS/2 keyboard this pin should connect to the 'PS/2 Keyboard Data' signal ( pin 1 on a PS/2 mini-DIN connector ) and a 4K7 resistor should connect from this pin to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "Out 0",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "Out 1 / HPWM C",
+      "description": "This pin can be used as a digital output. This pin can be used to generate a background PWM output signal using the HPWM command"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "Out 2 / HPWM B",
+      "description": "This pin can be used as a digital output. This pin can be used to generate a background PWM output signal using the HPWM command"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "Out 3",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "Out 4 / HPWM D",
+      "description": "This pin can be used as a digital output. This pin can be used to generate a background PWM output signal using the HPWM command"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "Out 5",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "Out 6",
+      "description": "This pin can be used as a digital output"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "Out 7",
+      "description": "This pin can be used as a digital output"
+    }
+  ]
+}

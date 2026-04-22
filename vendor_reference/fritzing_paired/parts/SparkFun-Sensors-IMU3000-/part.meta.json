@@ -1,0 +1,115 @@
+{
+  "moduleId": "SparkFun-Sensors-IMU3000-",
+  "title": "IMU3000",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-imu3000-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-24_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_imu3000_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_qfn-24_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-24_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "AD0",
+      "description": "AD0"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "AUX_CL",
+      "description": "AUX_CL"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "AUX_DA",
+      "description": "AUX_DA"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "CLKIN",
+      "description": "CLKIN"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "CLKOUT",
+      "description": "CLKOUT"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "CPOUT",
+      "description": "CPOUT"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "REGOUT",
+      "description": "REGOUT"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VLOG",
+      "description": "VLOG"
+    }
+  ]
+}

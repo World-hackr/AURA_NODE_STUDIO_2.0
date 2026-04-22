@@ -1,0 +1,1124 @@
+{
+  "schema": "aura.kicad_library_index.v1",
+  "generatedAt": "2026-04-20T12:07:27.966Z",
+  "sourceKind": "kicad",
+  "sourceDir": "C:\\Users\\Santo\\OneDrive\\Desktop\\AURA_2\\AURA Node Studio\\library\\starter_sources\\kicad\\raw",
+  "libraryCount": 223,
+  "libraries": [
+    {
+      "id": "4xxx_IEEE",
+      "name": "4xxx_IEEE",
+      "symbolCount": 99
+    },
+    {
+      "id": "4xxx",
+      "name": "4xxx",
+      "symbolCount": 51
+    },
+    {
+      "id": "74xGxx",
+      "name": "74xGxx",
+      "symbolCount": 174
+    },
+    {
+      "id": "74xx_IEEE",
+      "name": "74xx_IEEE",
+      "symbolCount": 185
+    },
+    {
+      "id": "74xx",
+      "name": "74xx",
+      "symbolCount": 277
+    },
+    {
+      "id": "Amplifier_Audio",
+      "name": "Amplifier_Audio",
+      "symbolCount": 106
+    },
+    {
+      "id": "Amplifier_Buffer",
+      "name": "Amplifier_Buffer",
+      "symbolCount": 11
+    },
+    {
+      "id": "Amplifier_Current",
+      "name": "Amplifier_Current",
+      "symbolCount": 150
+    },
+    {
+      "id": "Amplifier_Difference",
+      "name": "Amplifier_Difference",
+      "symbolCount": 18
+    },
+    {
+      "id": "Amplifier_Instrumentation",
+      "name": "Amplifier_Instrumentation",
+      "symbolCount": 42
+    },
+    {
+      "id": "Amplifier_Operational",
+      "name": "Amplifier_Operational",
+      "symbolCount": 421
+    },
+    {
+      "id": "Amplifier_Video",
+      "name": "Amplifier_Video",
+      "symbolCount": 3
+    },
+    {
+      "id": "Analog_ADC",
+      "name": "Analog_ADC",
+      "symbolCount": 190
+    },
+    {
+      "id": "Analog_DAC",
+      "name": "Analog_DAC",
+      "symbolCount": 156
+    },
+    {
+      "id": "Analog_Switch",
+      "name": "Analog_Switch",
+      "symbolCount": 165
+    },
+    {
+      "id": "Analog",
+      "name": "Analog",
+      "symbolCount": 22
+    },
+    {
+      "id": "Audio",
+      "name": "Audio",
+      "symbolCount": 118
+    },
+    {
+      "id": "Auxiliary_Items",
+      "name": "Auxiliary_Items",
+      "symbolCount": 2
+    },
+    {
+      "id": "Battery_Management",
+      "name": "Battery_Management",
+      "symbolCount": 153
+    },
+    {
+      "id": "Buffer",
+      "name": "Buffer",
+      "symbolCount": 2
+    },
+    {
+      "id": "Comparator",
+      "name": "Comparator",
+      "symbolCount": 61
+    },
+    {
+      "id": "Connector_Audio",
+      "name": "Connector_Audio",
+      "symbolCount": 233
+    },
+    {
+      "id": "Connector_Generic_MountingPin",
+      "name": "Connector_Generic_MountingPin",
+      "symbolCount": 334
+    },
+    {
+      "id": "Connector_Generic_Shielded",
+      "name": "Connector_Generic_Shielded",
+      "symbolCount": 335
+    },
+    {
+      "id": "Connector_Generic",
+      "name": "Connector_Generic",
+      "symbolCount": 334
+    },
+    {
+      "id": "Connector",
+      "name": "Connector",
+      "symbolCount": 398
+    },
+    {
+      "id": "Converter_ACDC",
+      "name": "Converter_ACDC",
+      "symbolCount": 233
+    },
+    {
+      "id": "Converter_DCDC",
+      "name": "Converter_DCDC",
+      "symbolCount": 1149
+    },
+    {
+      "id": "CPLD_Altera",
+      "name": "CPLD_Altera",
+      "symbolCount": 26
+    },
+    {
+      "id": "CPLD_Microchip",
+      "name": "CPLD_Microchip",
+      "symbolCount": 8
+    },
+    {
+      "id": "CPLD_Renesas",
+      "name": "CPLD_Renesas",
+      "symbolCount": 4
+    },
+    {
+      "id": "CPLD_Xilinx",
+      "name": "CPLD_Xilinx",
+      "symbolCount": 22
+    },
+    {
+      "id": "CPU_NXP_6800",
+      "name": "CPU_NXP_6800",
+      "symbolCount": 12
+    },
+    {
+      "id": "CPU_NXP_68000",
+      "name": "CPU_NXP_68000",
+      "symbolCount": 6
+    },
+    {
+      "id": "CPU_NXP_IMX",
+      "name": "CPU_NXP_IMX",
+      "symbolCount": 18
+    },
+    {
+      "id": "CPU_PowerPC",
+      "name": "CPU_PowerPC",
+      "symbolCount": 1
+    },
+    {
+      "id": "CPU",
+      "name": "CPU",
+      "symbolCount": 7
+    },
+    {
+      "id": "Device",
+      "name": "Device",
+      "symbolCount": 533
+    },
+    {
+      "id": "Diode_Bridge",
+      "name": "Diode_Bridge",
+      "symbolCount": 214
+    },
+    {
+      "id": "Diode_Laser",
+      "name": "Diode_Laser",
+      "symbolCount": 5
+    },
+    {
+      "id": "Diode",
+      "name": "Diode",
+      "symbolCount": 762
+    },
+    {
+      "id": "Display_Character",
+      "name": "Display_Character",
+      "symbolCount": 130
+    },
+    {
+      "id": "Display_Graphic",
+      "name": "Display_Graphic",
+      "symbolCount": 39
+    },
+    {
+      "id": "Driver_Display",
+      "name": "Driver_Display",
+      "symbolCount": 14
+    },
+    {
+      "id": "Driver_FET",
+      "name": "Driver_FET",
+      "symbolCount": 216
+    },
+    {
+      "id": "Driver_Haptic",
+      "name": "Driver_Haptic",
+      "symbolCount": 2
+    },
+    {
+      "id": "Driver_LED",
+      "name": "Driver_LED",
+      "symbolCount": 129
+    },
+    {
+      "id": "Driver_Motor",
+      "name": "Driver_Motor",
+      "symbolCount": 99
+    },
+    {
+      "id": "Driver_Relay",
+      "name": "Driver_Relay",
+      "symbolCount": 5
+    },
+    {
+      "id": "Driver_TEC",
+      "name": "Driver_TEC",
+      "symbolCount": 2
+    },
+    {
+      "id": "DSP_AnalogDevices",
+      "name": "DSP_AnalogDevices",
+      "symbolCount": 5
+    },
+    {
+      "id": "DSP_Freescale",
+      "name": "DSP_Freescale",
+      "symbolCount": 1
+    },
+    {
+      "id": "DSP_Microchip_DSPIC33",
+      "name": "DSP_Microchip_DSPIC33",
+      "symbolCount": 19
+    },
+    {
+      "id": "DSP_Motorola",
+      "name": "DSP_Motorola",
+      "symbolCount": 1
+    },
+    {
+      "id": "DSP_Texas",
+      "name": "DSP_Texas",
+      "symbolCount": 1
+    },
+    {
+      "id": "Fiber_Optic",
+      "name": "Fiber_Optic",
+      "symbolCount": 2
+    },
+    {
+      "id": "Filter",
+      "name": "Filter",
+      "symbolCount": 116
+    },
+    {
+      "id": "FPGA_CologneChip_GateMate",
+      "name": "FPGA_CologneChip_GateMate",
+      "symbolCount": 1
+    },
+    {
+      "id": "FPGA_Efinix_Trion",
+      "name": "FPGA_Efinix_Trion",
+      "symbolCount": 1
+    },
+    {
+      "id": "FPGA_Lattice",
+      "name": "FPGA_Lattice",
+      "symbolCount": 24
+    },
+    {
+      "id": "FPGA_Microsemi",
+      "name": "FPGA_Microsemi",
+      "symbolCount": 18
+    },
+    {
+      "id": "FPGA_Xilinx_Artix7",
+      "name": "FPGA_Xilinx_Artix7",
+      "symbolCount": 27
+    },
+    {
+      "id": "FPGA_Xilinx_Kintex7",
+      "name": "FPGA_Xilinx_Kintex7",
+      "symbolCount": 18
+    },
+    {
+      "id": "FPGA_Xilinx_Spartan6",
+      "name": "FPGA_Xilinx_Spartan6",
+      "symbolCount": 45
+    },
+    {
+      "id": "FPGA_Xilinx_Virtex5",
+      "name": "FPGA_Xilinx_Virtex5",
+      "symbolCount": 41
+    },
+    {
+      "id": "FPGA_Xilinx_Virtex6",
+      "name": "FPGA_Xilinx_Virtex6",
+      "symbolCount": 28
+    },
+    {
+      "id": "FPGA_Xilinx_Virtex7",
+      "name": "FPGA_Xilinx_Virtex7",
+      "symbolCount": 34
+    },
+    {
+      "id": "FPGA_Xilinx",
+      "name": "FPGA_Xilinx",
+      "symbolCount": 34
+    },
+    {
+      "id": "GPU",
+      "name": "GPU",
+      "symbolCount": 3
+    },
+    {
+      "id": "Graphic",
+      "name": "Graphic",
+      "symbolCount": 30
+    },
+    {
+      "id": "Interface_CAN_LIN",
+      "name": "Interface_CAN_LIN",
+      "symbolCount": 97
+    },
+    {
+      "id": "Interface_CurrentLoop",
+      "name": "Interface_CurrentLoop",
+      "symbolCount": 3
+    },
+    {
+      "id": "Interface_Ethernet",
+      "name": "Interface_Ethernet",
+      "symbolCount": 36
+    },
+    {
+      "id": "Interface_Expansion",
+      "name": "Interface_Expansion",
+      "symbolCount": 111
+    },
+    {
+      "id": "Interface_HDMI",
+      "name": "Interface_HDMI",
+      "symbolCount": 2
+    },
+    {
+      "id": "Interface_HID",
+      "name": "Interface_HID",
+      "symbolCount": 5
+    },
+    {
+      "id": "Interface_LineDriver",
+      "name": "Interface_LineDriver",
+      "symbolCount": 16
+    },
+    {
+      "id": "Interface_Optical",
+      "name": "Interface_Optical",
+      "symbolCount": 43
+    },
+    {
+      "id": "Interface_Telecom",
+      "name": "Interface_Telecom",
+      "symbolCount": 3
+    },
+    {
+      "id": "Interface_UART",
+      "name": "Interface_UART",
+      "symbolCount": 168
+    },
+    {
+      "id": "Interface_USB",
+      "name": "Interface_USB",
+      "symbolCount": 135
+    },
+    {
+      "id": "Interface",
+      "name": "Interface",
+      "symbolCount": 116
+    },
+    {
+      "id": "Isolator_Analog",
+      "name": "Isolator_Analog",
+      "symbolCount": 18
+    },
+    {
+      "id": "Isolator",
+      "name": "Isolator",
+      "symbolCount": 419
+    },
+    {
+      "id": "Jumper",
+      "name": "Jumper",
+      "symbolCount": 11
+    },
+    {
+      "id": "LED",
+      "name": "LED",
+      "symbolCount": 63
+    },
+    {
+      "id": "Logic_LevelTranslator",
+      "name": "Logic_LevelTranslator",
+      "symbolCount": 58
+    },
+    {
+      "id": "Logic_Programmable",
+      "name": "Logic_Programmable",
+      "symbolCount": 11
+    },
+    {
+      "id": "MCU_AnalogDevices",
+      "name": "MCU_AnalogDevices",
+      "symbolCount": 3
+    },
+    {
+      "id": "MCU_Cypress",
+      "name": "MCU_Cypress",
+      "symbolCount": 36
+    },
+    {
+      "id": "MCU_Dialog",
+      "name": "MCU_Dialog",
+      "symbolCount": 2
+    },
+    {
+      "id": "MCU_Espressif",
+      "name": "MCU_Espressif",
+      "symbolCount": 7
+    },
+    {
+      "id": "MCU_Intel",
+      "name": "MCU_Intel",
+      "symbolCount": 31
+    },
+    {
+      "id": "MCU_Microchip_8051",
+      "name": "MCU_Microchip_8051",
+      "symbolCount": 15
+    },
+    {
+      "id": "MCU_Microchip_ATmega",
+      "name": "MCU_Microchip_ATmega",
+      "symbolCount": 440
+    },
+    {
+      "id": "MCU_Microchip_ATtiny",
+      "name": "MCU_Microchip_ATtiny",
+      "symbolCount": 223
+    },
+    {
+      "id": "MCU_Microchip_AVR_Dx",
+      "name": "MCU_Microchip_AVR_Dx",
+      "symbolCount": 50
+    },
+    {
+      "id": "MCU_Microchip_AVR",
+      "name": "MCU_Microchip_AVR",
+      "symbolCount": 19
+    },
+    {
+      "id": "MCU_Microchip_PIC10",
+      "name": "MCU_Microchip_PIC10",
+      "symbolCount": 24
+    },
+    {
+      "id": "MCU_Microchip_PIC12",
+      "name": "MCU_Microchip_PIC12",
+      "symbolCount": 114
+    },
+    {
+      "id": "MCU_Microchip_PIC16",
+      "name": "MCU_Microchip_PIC16",
+      "symbolCount": 260
+    },
+    {
+      "id": "MCU_Microchip_PIC18",
+      "name": "MCU_Microchip_PIC18",
+      "symbolCount": 172
+    },
+    {
+      "id": "MCU_Microchip_PIC24",
+      "name": "MCU_Microchip_PIC24",
+      "symbolCount": 7
+    },
+    {
+      "id": "MCU_Microchip_PIC32",
+      "name": "MCU_Microchip_PIC32",
+      "symbolCount": 17
+    },
+    {
+      "id": "MCU_Microchip_SAMA",
+      "name": "MCU_Microchip_SAMA",
+      "symbolCount": 1
+    },
+    {
+      "id": "MCU_Microchip_SAMD",
+      "name": "MCU_Microchip_SAMD",
+      "symbolCount": 87
+    },
+    {
+      "id": "MCU_Microchip_SAME",
+      "name": "MCU_Microchip_SAME",
+      "symbolCount": 16
+    },
+    {
+      "id": "MCU_Microchip_SAML",
+      "name": "MCU_Microchip_SAML",
+      "symbolCount": 20
+    },
+    {
+      "id": "MCU_Microchip_SAMV",
+      "name": "MCU_Microchip_SAMV",
+      "symbolCount": 3
+    },
+    {
+      "id": "MCU_Module",
+      "name": "MCU_Module",
+      "symbolCount": 64
+    },
+    {
+      "id": "MCU_Nordic",
+      "name": "MCU_Nordic",
+      "symbolCount": 11
+    },
+    {
+      "id": "MCU_NXP_ColdFire",
+      "name": "MCU_NXP_ColdFire",
+      "symbolCount": 6
+    },
+    {
+      "id": "MCU_NXP_HC11",
+      "name": "MCU_NXP_HC11",
+      "symbolCount": 10
+    },
+    {
+      "id": "MCU_NXP_HC12",
+      "name": "MCU_NXP_HC12",
+      "symbolCount": 2
+    },
+    {
+      "id": "MCU_NXP_HCS12",
+      "name": "MCU_NXP_HCS12",
+      "symbolCount": 1
+    },
+    {
+      "id": "MCU_NXP_Kinetis",
+      "name": "MCU_NXP_Kinetis",
+      "symbolCount": 155
+    },
+    {
+      "id": "MCU_NXP_LPC",
+      "name": "MCU_NXP_LPC",
+      "symbolCount": 106
+    },
+    {
+      "id": "MCU_NXP_MAC7100",
+      "name": "MCU_NXP_MAC7100",
+      "symbolCount": 2
+    },
+    {
+      "id": "MCU_NXP_MCore",
+      "name": "MCU_NXP_MCore",
+      "symbolCount": 1
+    },
+    {
+      "id": "MCU_NXP_NTAG",
+      "name": "MCU_NXP_NTAG",
+      "symbolCount": 1
+    },
+    {
+      "id": "MCU_NXP_S08",
+      "name": "MCU_NXP_S08",
+      "symbolCount": 189
+    },
+    {
+      "id": "MCU_Parallax",
+      "name": "MCU_Parallax",
+      "symbolCount": 3
+    },
+    {
+      "id": "MCU_Puya",
+      "name": "MCU_Puya",
+      "symbolCount": 2
+    },
+    {
+      "id": "MCU_RaspberryPi",
+      "name": "MCU_RaspberryPi",
+      "symbolCount": 5
+    },
+    {
+      "id": "MCU_Renesas_Synergy_S1",
+      "name": "MCU_Renesas_Synergy_S1",
+      "symbolCount": 1
+    },
+    {
+      "id": "MCU_SiFive",
+      "name": "MCU_SiFive",
+      "symbolCount": 3
+    },
+    {
+      "id": "MCU_SiliconLabs",
+      "name": "MCU_SiliconLabs",
+      "symbolCount": 48
+    },
+    {
+      "id": "MCU_ST_STM32C0",
+      "name": "MCU_ST_STM32C0",
+      "symbolCount": 57
+    },
+    {
+      "id": "MCU_ST_STM32F0",
+      "name": "MCU_ST_STM32F0",
+      "symbolCount": 133
+    },
+    {
+      "id": "MCU_ST_STM32F1",
+      "name": "MCU_ST_STM32F1",
+      "symbolCount": 178
+    },
+    {
+      "id": "MCU_ST_STM32F2",
+      "name": "MCU_ST_STM32F2",
+      "symbolCount": 62
+    },
+    {
+      "id": "MCU_ST_STM32F3",
+      "name": "MCU_ST_STM32F3",
+      "symbolCount": 126
+    },
+    {
+      "id": "MCU_ST_STM32F4",
+      "name": "MCU_ST_STM32F4",
+      "symbolCount": 300
+    },
+    {
+      "id": "MCU_ST_STM32F7",
+      "name": "MCU_ST_STM32F7",
+      "symbolCount": 156
+    },
+    {
+      "id": "MCU_ST_STM32G0",
+      "name": "MCU_ST_STM32G0",
+      "symbolCount": 228
+    },
+    {
+      "id": "MCU_ST_STM32G4",
+      "name": "MCU_ST_STM32G4",
+      "symbolCount": 165
+    },
+    {
+      "id": "MCU_ST_STM32H5",
+      "name": "MCU_ST_STM32H5",
+      "symbolCount": 73
+    },
+    {
+      "id": "MCU_ST_STM32H7",
+      "name": "MCU_ST_STM32H7",
+      "symbolCount": 225
+    },
+    {
+      "id": "MCU_ST_STM32L0",
+      "name": "MCU_ST_STM32L0",
+      "symbolCount": 245
+    },
+    {
+      "id": "MCU_ST_STM32L1",
+      "name": "MCU_ST_STM32L1",
+      "symbolCount": 158
+    },
+    {
+      "id": "MCU_ST_STM32L4",
+      "name": "MCU_ST_STM32L4",
+      "symbolCount": 320
+    },
+    {
+      "id": "MCU_ST_STM32L5",
+      "name": "MCU_ST_STM32L5",
+      "symbolCount": 44
+    },
+    {
+      "id": "MCU_ST_STM32MP1",
+      "name": "MCU_ST_STM32MP1",
+      "symbolCount": 84
+    },
+    {
+      "id": "MCU_ST_STM32U0",
+      "name": "MCU_ST_STM32U0",
+      "symbolCount": 48
+    },
+    {
+      "id": "MCU_ST_STM32U5",
+      "name": "MCU_ST_STM32U5",
+      "symbolCount": 162
+    },
+    {
+      "id": "MCU_ST_STM32WB",
+      "name": "MCU_ST_STM32WB",
+      "symbolCount": 40
+    },
+    {
+      "id": "MCU_ST_STM32WL",
+      "name": "MCU_ST_STM32WL",
+      "symbolCount": 16
+    },
+    {
+      "id": "MCU_ST_STM8",
+      "name": "MCU_ST_STM8",
+      "symbolCount": 36
+    },
+    {
+      "id": "MCU_STC",
+      "name": "MCU_STC",
+      "symbolCount": 10
+    },
+    {
+      "id": "MCU_Texas_MSP430",
+      "name": "MCU_Texas_MSP430",
+      "symbolCount": 361
+    },
+    {
+      "id": "MCU_Texas_SimpleLink",
+      "name": "MCU_Texas_SimpleLink",
+      "symbolCount": 1
+    },
+    {
+      "id": "MCU_Texas",
+      "name": "MCU_Texas",
+      "symbolCount": 21
+    },
+    {
+      "id": "MCU_Trident",
+      "name": "MCU_Trident",
+      "symbolCount": 1
+    },
+    {
+      "id": "MCU_WCH_RiscV",
+      "name": "MCU_WCH_RiscV",
+      "symbolCount": 15
+    },
+    {
+      "id": "Mechanical",
+      "name": "Mechanical",
+      "symbolCount": 13
+    },
+    {
+      "id": "Memory_EEPROM",
+      "name": "Memory_EEPROM",
+      "symbolCount": 100
+    },
+    {
+      "id": "Memory_EPROM",
+      "name": "Memory_EPROM",
+      "symbolCount": 13
+    },
+    {
+      "id": "Memory_Flash",
+      "name": "Memory_Flash",
+      "symbolCount": 59
+    },
+    {
+      "id": "Memory_NVRAM",
+      "name": "Memory_NVRAM",
+      "symbolCount": 32
+    },
+    {
+      "id": "Memory_RAM",
+      "name": "Memory_RAM",
+      "symbolCount": 99
+    },
+    {
+      "id": "Memory_ROM",
+      "name": "Memory_ROM",
+      "symbolCount": 2
+    },
+    {
+      "id": "Memory_UniqueID",
+      "name": "Memory_UniqueID",
+      "symbolCount": 2
+    },
+    {
+      "id": "Motor",
+      "name": "Motor",
+      "symbolCount": 23
+    },
+    {
+      "id": "Oscillator",
+      "name": "Oscillator",
+      "symbolCount": 121
+    },
+    {
+      "id": "Potentiometer_Digital",
+      "name": "Potentiometer_Digital",
+      "symbolCount": 64
+    },
+    {
+      "id": "Power_Management",
+      "name": "Power_Management",
+      "symbolCount": 280
+    },
+    {
+      "id": "Power_Protection",
+      "name": "Power_Protection",
+      "symbolCount": 142
+    },
+    {
+      "id": "Power_Supervisor",
+      "name": "Power_Supervisor",
+      "symbolCount": 93
+    },
+    {
+      "id": "power",
+      "name": "power",
+      "symbolCount": 101
+    },
+    {
+      "id": "Reference_Current",
+      "name": "Reference_Current",
+      "symbolCount": 12
+    },
+    {
+      "id": "Reference_Voltage",
+      "name": "Reference_Voltage",
+      "symbolCount": 343
+    },
+    {
+      "id": "Regulator_Controller",
+      "name": "Regulator_Controller",
+      "symbolCount": 154
+    },
+    {
+      "id": "Regulator_Current",
+      "name": "Regulator_Current",
+      "symbolCount": 2
+    },
+    {
+      "id": "Regulator_Linear",
+      "name": "Regulator_Linear",
+      "symbolCount": 1619
+    },
+    {
+      "id": "Regulator_SwitchedCapacitor",
+      "name": "Regulator_SwitchedCapacitor",
+      "symbolCount": 38
+    },
+    {
+      "id": "Regulator_Switching",
+      "name": "Regulator_Switching",
+      "symbolCount": 1170
+    },
+    {
+      "id": "Relay_SolidState",
+      "name": "Relay_SolidState",
+      "symbolCount": 106
+    },
+    {
+      "id": "Relay",
+      "name": "Relay",
+      "symbolCount": 257
+    },
+    {
+      "id": "RF_AM_FM",
+      "name": "RF_AM_FM",
+      "symbolCount": 13
+    },
+    {
+      "id": "RF_Amplifier",
+      "name": "RF_Amplifier",
+      "symbolCount": 77
+    },
+    {
+      "id": "RF_Bluetooth",
+      "name": "RF_Bluetooth",
+      "symbolCount": 14
+    },
+    {
+      "id": "RF_Filter",
+      "name": "RF_Filter",
+      "symbolCount": 201
+    },
+    {
+      "id": "RF_GPS",
+      "name": "RF_GPS",
+      "symbolCount": 26
+    },
+    {
+      "id": "RF_GSM",
+      "name": "RF_GSM",
+      "symbolCount": 22
+    },
+    {
+      "id": "RF_Mixer",
+      "name": "RF_Mixer",
+      "symbolCount": 8
+    },
+    {
+      "id": "RF_Module",
+      "name": "RF_Module",
+      "symbolCount": 84
+    },
+    {
+      "id": "RF_NFC",
+      "name": "RF_NFC",
+      "symbolCount": 9
+    },
+    {
+      "id": "RF_RFID",
+      "name": "RF_RFID",
+      "symbolCount": 2
+    },
+    {
+      "id": "RF_Switch",
+      "name": "RF_Switch",
+      "symbolCount": 30
+    },
+    {
+      "id": "RF_WiFi",
+      "name": "RF_WiFi",
+      "symbolCount": 2
+    },
+    {
+      "id": "RF_ZigBee",
+      "name": "RF_ZigBee",
+      "symbolCount": 8
+    },
+    {
+      "id": "RF",
+      "name": "RF",
+      "symbolCount": 65
+    },
+    {
+      "id": "Security",
+      "name": "Security",
+      "symbolCount": 7
+    },
+    {
+      "id": "Sensor_Audio",
+      "name": "Sensor_Audio",
+      "symbolCount": 8
+    },
+    {
+      "id": "Sensor_Current",
+      "name": "Sensor_Current",
+      "symbolCount": 261
+    },
+    {
+      "id": "Sensor_Distance",
+      "name": "Sensor_Distance",
+      "symbolCount": 5
+    },
+    {
+      "id": "Sensor_Energy",
+      "name": "Sensor_Energy",
+      "symbolCount": 43
+    },
+    {
+      "id": "Sensor_Gas",
+      "name": "Sensor_Gas",
+      "symbolCount": 15
+    },
+    {
+      "id": "Sensor_Humidity",
+      "name": "Sensor_Humidity",
+      "symbolCount": 15
+    },
+    {
+      "id": "Sensor_Magnetic",
+      "name": "Sensor_Magnetic",
+      "symbolCount": 72
+    },
+    {
+      "id": "Sensor_Motion",
+      "name": "Sensor_Motion",
+      "symbolCount": 35
+    },
+    {
+      "id": "Sensor_Optical",
+      "name": "Sensor_Optical",
+      "symbolCount": 75
+    },
+    {
+      "id": "Sensor_Pressure",
+      "name": "Sensor_Pressure",
+      "symbolCount": 24
+    },
+    {
+      "id": "Sensor_Proximity",
+      "name": "Sensor_Proximity",
+      "symbolCount": 35
+    },
+    {
+      "id": "Sensor_Temperature",
+      "name": "Sensor_Temperature",
+      "symbolCount": 119
+    },
+    {
+      "id": "Sensor_Touch",
+      "name": "Sensor_Touch",
+      "symbolCount": 24
+    },
+    {
+      "id": "Sensor_Voltage",
+      "name": "Sensor_Voltage",
+      "symbolCount": 1
+    },
+    {
+      "id": "Sensor",
+      "name": "Sensor",
+      "symbolCount": 17
+    },
+    {
+      "id": "Simulation_SPICE",
+      "name": "Simulation_SPICE",
+      "symbolCount": 41
+    },
+    {
+      "id": "Switch",
+      "name": "Switch",
+      "symbolCount": 78
+    },
+    {
+      "id": "Timer_PLL",
+      "name": "Timer_PLL",
+      "symbolCount": 21
+    },
+    {
+      "id": "Timer_RTC",
+      "name": "Timer_RTC",
+      "symbolCount": 48
+    },
+    {
+      "id": "Timer",
+      "name": "Timer",
+      "symbolCount": 67
+    },
+    {
+      "id": "Transformer",
+      "name": "Transformer",
+      "symbolCount": 117
+    },
+    {
+      "id": "Transistor_Array",
+      "name": "Transistor_Array",
+      "symbolCount": 26
+    },
+    {
+      "id": "Transistor_BJT",
+      "name": "Transistor_BJT",
+      "symbolCount": 390
+    },
+    {
+      "id": "Transistor_FET_Other",
+      "name": "Transistor_FET_Other",
+      "symbolCount": 16
+    },
+    {
+      "id": "Transistor_FET",
+      "name": "Transistor_FET",
+      "symbolCount": 604
+    },
+    {
+      "id": "Transistor_IGBT",
+      "name": "Transistor_IGBT",
+      "symbolCount": 2
+    },
+    {
+      "id": "Transistor_Power_Module",
+      "name": "Transistor_Power_Module",
+      "symbolCount": 35
+    },
+    {
+      "id": "Triac_Thyristor",
+      "name": "Triac_Thyristor",
+      "symbolCount": 52
+    },
+    {
+      "id": "Valve",
+      "name": "Valve",
+      "symbolCount": 24
+    },
+    {
+      "id": "Video",
+      "name": "Video",
+      "symbolCount": 38
+    }
+  ]
+}

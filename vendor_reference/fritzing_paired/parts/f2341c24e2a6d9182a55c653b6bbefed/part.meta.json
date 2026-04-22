@@ -1,0 +1,91 @@
+{
+  "moduleId": "f2341c24e2a6d9182a55c653b6bbefed",
+  "title": "7-Segment LED Display",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\7-segment_display.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\7-segment display.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\7-segment display.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\7-segment display.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_10_700mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "commAnode",
+      "description": "Common Anode Pin"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "cathodeF",
+      "description": "Cathode F Pin"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "cathodeG",
+      "description": "Cathode G Pin"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "cathodeE",
+      "description": "Cathode E Pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "cathodeD",
+      "description": "Cathode D Pin"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "commAnode",
+      "description": "Common Anode Pin"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "cathodeC",
+      "description": "Cathode C Pin"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "cathodeDP",
+      "description": "Cathode Decimal Point Pin"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "cathodeB",
+      "description": "Cathode B Pin"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "cathodeA",
+      "description": "Cathode A Pin"
+    }
+  ]
+}

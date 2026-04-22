@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-AnalogIC-PCM1803-SMD",
+  "title": "PCM1803",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-pcm1803-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP20_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_pcm1803a_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_ssop20_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP20_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "BCK",
+      "description": "BCK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "BPAS",
+      "description": "BPAS"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "FMT0",
+      "description": "FMT0"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "FMT1",
+      "description": "FMT1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GNDA",
+      "description": "GNDA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GNDD",
+      "description": "GNDD"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "LRCK",
+      "description": "LRCK"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "MD0",
+      "description": "MD0"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "MD1",
+      "description": "MD1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OSR",
+      "description": "OSR"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PDWN",
+      "description": "PDWN"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "TEST",
+      "description": "TEST"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VCCA",
+      "description": "VCCA"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VINL",
+      "description": "VINL"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VINR",
+      "description": "VINR"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VREF1",
+      "description": "VREF1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VREF2",
+      "description": "VREF2"
+    }
+  ]
+}

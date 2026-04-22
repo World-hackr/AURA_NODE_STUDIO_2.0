@@ -1,0 +1,61 @@
+{
+  "moduleId": "adafruit_09790affdc0f0fc2b24fa02fbe6f6668_1_E3",
+  "title": "SPW2430",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_09790affdc0f0fc2b24fa02fbe6f6668_1_E3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_09790affdc0f0fc2b24fa02fbe6f6668_1_breadboard_E3.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_09790affdc0f0fc2b24fa02fbe6f6668_1_schematic_E3.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_09790affdc0f0fc2b24fa02fbe6f6668_1_pcb_E3.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_09790affdc0f0fc2b24fa02fbe6f6668_1_icon_E3.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V Out"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "AC",
+      "description": "AC Out"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DC",
+      "description": "DC Out"
+    }
+  ]
+}

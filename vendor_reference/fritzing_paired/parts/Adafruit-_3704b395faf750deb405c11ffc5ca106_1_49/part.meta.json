@@ -1,0 +1,79 @@
+{
+  "moduleId": "Adafruit-_3704b395faf750deb405c11ffc5ca106_1_49",
+  "title": "Adafruit QSPI DIP Breakout Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_3704b395faf750deb405c11ffc5ca106_1_49.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_3704b395faf750deb405c11ffc5ca106_1_breadboard_49.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_3704b395faf750deb405c11ffc5ca106_1_schematic_49.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_3704b395faf750deb405c11ffc5ca106_1_pcb_49.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_3704b395faf750deb405c11ffc5ca106_1_icon_49.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "IO3",
+      "description": "IO3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SS",
+      "description": "SS"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "IO2",
+      "description": "IO2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

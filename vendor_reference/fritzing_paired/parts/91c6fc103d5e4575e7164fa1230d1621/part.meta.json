@@ -1,0 +1,79 @@
+{
+  "moduleId": "91c6fc103d5e4575e7164fa1230d1621",
+  "title": "attiny85",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ATtiny85.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ATtiny85_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ATtiny85_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ATtiny85_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "PB0 (MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "PB1 (MISO/DO/AIN1/OC0B/OC1A/PCINT1)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Pin 7",
+      "description": "PB2 (SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Pin 8",
+      "description": "VCC"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "PB5 (PCINT5/RESET/ADC0/dW)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "PB3 (PCINT3/XTAL1/CLKI/OC1B/ADC3)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "PB4 (PCINT4/XTAL2/CLKO/OC1B/ADC2)"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "moduleId": "adafruit_46c6640fdefb98953a89b9f0d3e038b3_1_C3",
+  "title": "Adafruit DS2413 1-Wire Two GPIO Controller Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_46c6640fdefb98953a89b9f0d3e038b3_1_C3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_46c6640fdefb98953a89b9f0d3e038b3_3_breadboard_C3.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_46c6640fdefb98953a89b9f0d3e038b3_3_schematic_C3.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_46c6640fdefb98953a89b9f0d3e038b3_3_pcb_C3.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_46c6640fdefb98953a89b9f0d3e038b3_3_icon_C3.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "IO",
+      "description": "IO"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PIOB",
+      "description": "PIOB"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PIOA",
+      "description": "PIOA"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

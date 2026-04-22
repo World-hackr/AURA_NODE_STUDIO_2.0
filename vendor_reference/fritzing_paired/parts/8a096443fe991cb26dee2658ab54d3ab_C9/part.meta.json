@@ -1,0 +1,43 @@
+{
+  "moduleId": "8a096443fe991cb26dee2658ab54d3ab_C9",
+  "title": "7-Segment Panel Celsius Thermometer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\7_Segment_Panel_Celsius_Thermometer___f1fa055e70b3a0bca76cadde10b9863a_C9.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\7_Segment_Panel_Celsius_Thermometer___f1__icon__9468706d5a07746c0cb5bb0148669e7c_C9.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\7_Segment_Panel_Celsius_Thermometer___f1__breadboard__f13c8c53e10535c5ba95ff33d3050d97_C9.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\7_Segment_Panel_Celsius_Thermometer___f1__schematic__31dd29aa6ac1b9f529ad434cb2c46357_C9.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\7_Segment_Panel_Celsius_Thermometer___f1__pcb__4ff31a63a0e495b401dec998738d3fdb_C9.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V+",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "V-",
+      "description": "aka ground"
+    }
+  ]
+}

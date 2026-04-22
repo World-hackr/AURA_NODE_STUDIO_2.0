@@ -1,0 +1,43 @@
+{
+  "moduleId": "1_SawtoothPowerSupplyModuleID",
+  "title": "Pulse Power",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\power_supply_sawtooth_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\waveform_generator_sawtooth_v1_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\waveform_generator_sawtooth_v1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\power_supply_sawtooth_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\power_supply_sawtooth_1_schematic.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "V+",
+      "description": "Positive Supply Voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "V-",
+      "description": "Negative Supply Voltage"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "moduleId": "SparkFun-Sensors-ADXL335-",
+  "title": "ADXL335",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-adxl335-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_lfcsp-16_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_adxl335_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_lfcsp-16_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_lfcsp-16_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "COM",
+      "description": "COM"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "COM",
+      "description": "COM"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "COM",
+      "description": "COM"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "COM",
+      "description": "COM"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "ST",
+      "description": "ST"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VS",
+      "description": "VS"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VS",
+      "description": "VS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "XOUT",
+      "description": "XOUT"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "YOUT",
+      "description": "YOUT"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "ZOUT",
+      "description": "ZOUT"
+    }
+  ]
+}

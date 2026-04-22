@@ -1,0 +1,43 @@
+{
+  "moduleId": "LilyPad-Button-v12",
+  "title": "LilyPad Button Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\LilyPad-Button-v12.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LilyPad-Button-v12_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\LilyPad-Button-v12_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LilyPad-Button-v12_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LilyPad-Button-v12_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "-",
+      "description": "-"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "S",
+      "description": "S"
+    }
+  ]
+}

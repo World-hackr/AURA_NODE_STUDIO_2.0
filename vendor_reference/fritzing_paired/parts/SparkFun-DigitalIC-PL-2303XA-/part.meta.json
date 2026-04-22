@@ -1,0 +1,199 @@
+{
+  "moduleId": "SparkFun-DigitalIC-PL-2303XA-",
+  "title": "PL-2303XA",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-pl-2303xa-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP28DB_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_pl-2303xa_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_ssop28db_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP28DB_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CTS_N",
+      "description": "CTS_N"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DCD_N",
+      "description": "DCD_N"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "DM",
+      "description": "DM"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DP",
+      "description": "DP"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DSR_N",
+      "description": "DSR_N"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DTR_N",
+      "description": "DTR_N"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "EE_CLK",
+      "description": "EE_CLK"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "EE_DATA",
+      "description": "EE_DATA"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GND_A",
+      "description": "GND_A"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GP0",
+      "description": "GP0"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GP1",
+      "description": "GP1"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "OSC1",
+      "description": "OSC1"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "OSC2",
+      "description": "OSC2"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "PLL_TEST",
+      "description": "PLL_TEST"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "RESET_N",
+      "description": "RESET_N"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RI_N",
+      "description": "RI_N"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RTS_N",
+      "description": "RTS_N"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SHTD_N",
+      "description": "SHTD_N"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VDD_325",
+      "description": "VDD_325"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VDD_33",
+      "description": "VDD_33"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VDD_33A",
+      "description": "VDD_33A"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VDD_5",
+      "description": "VDD_5"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VO_33",
+      "description": "VO_33"
+    }
+  ]
+}

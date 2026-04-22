@@ -1,0 +1,34 @@
+{
+  "schema": "aura.component_package.v1",
+  "metadata": {
+    "id": "pkg_rgb_led_common_cathode",
+    "slug": "rgb_led_common_cathode",
+    "name": "RGB LED Common Cathode",
+    "description": "Official Fritzing RGB LED used in Studio as a single-channel beginner indicator source.",
+    "category": "indicator",
+    "tags": ["rgb led", "common cathode", "indicator", "through-hole"]
+  },
+  "source": {
+    "kind": "fritzing",
+    "label": "Official Fritzing RGB LED common cathode source"
+  },
+  "pins": [
+    { "id": "R", "label": "Red anode", "x": 10, "y": 48, "side": "bottom" },
+    { "id": "COM", "label": "Common cathode", "x": 24, "y": 48, "side": "bottom" },
+    { "id": "G", "label": "Green anode", "x": 38, "y": 48, "side": "bottom" },
+    { "id": "B", "label": "Blue anode", "x": 52, "y": 48, "side": "bottom" }
+  ],
+  "sceneAsset": {
+    "path": "scene.svg",
+    "namedNodes": ["body", "lead_r", "lead_com", "lead_g", "lead_b", "light_core"]
+  },
+  "runtimeProfileRef": "light_output",
+  "bindings": [
+    {
+      "targetNodeId": "light_core",
+      "bindingKind": "opacity",
+      "notes": "Simple preview glow for the selected channel."
+    }
+  ],
+  "aliases": ["rgb led", "common cathode rgb led", "led indicator"]
+}

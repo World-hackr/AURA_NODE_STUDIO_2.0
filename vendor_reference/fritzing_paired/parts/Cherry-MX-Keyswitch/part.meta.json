@@ -1,0 +1,91 @@
+{
+  "moduleId": "Cherry-MX-Keyswitch",
+  "title": "Cherry MX Keyswitch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Cherry-MX-Keyswitch.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Cherry-MX-Keyswitch_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Cherry-MX-Keyswitch_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Cherry-MX-Keyswitch_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Cherry-MX-Keyswitch_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 4",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 6",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 7",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 9",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 10",
+      "description": "pin 10"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "moduleId": "d0cab10c62e1441045ed0415450e2819",
+  "title": "RFM12b HopeRF Transceiver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\RFM12b_HopeRF_old_Transceiver.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RFM12b_HopeRF_Transceiver__9c603c735b502.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\RFM12b_HopeRF_Transceiver__9c603c735b502.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\RFM12b_HopeRF_Transceiver__9c603c735b502.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\RFM12b_HopeRF_Transceiver__9c603c735b502.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "4 DCLK/CFIL",
+      "description": "Clock output (no FIFO) / external filter cap"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "5 CLK",
+      "description": "Clock output for external microcontroller"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "6 nRES",
+      "description": "Reset output (active low)"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "7 GND",
+      "description": "Power ground"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "8 ANT",
+      "description": "Antenna"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "9 VDD",
+      "description": "Positive power supply"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "10 GND",
+      "description": "Power ground"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "11 nINT/VDI",
+      "description": "Interrupt input (active low) / Valid data indicator"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "12 SDI",
+      "description": "SPI data input"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "13 SCK",
+      "description": "SPI clock input"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "1 SDO",
+      "description": "Serial data output with bus hold"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "14 nSEL",
+      "description": "Chip select (active low)"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "2 nIRQ",
+      "description": "Interrupts request output (active low)"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "3 FSK/DATA",
+      "description": "Transmit FSK data input / Received data output"
+    }
+  ]
+}

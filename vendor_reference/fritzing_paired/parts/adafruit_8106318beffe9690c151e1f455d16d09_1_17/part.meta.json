@@ -1,0 +1,229 @@
+{
+  "moduleId": "adafruit_8106318beffe9690c151e1f455d16d09_1_17",
+  "title": "Adafruit ItsyBitsy RP2040",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_8106318beffe9690c151e1f455d16d09_1_17.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_8106318beffe9690c151e1f455d16d09_1_17_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_8106318beffe9690c151e1f455d16d09_1_17_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_8106318beffe9690c151e1f455d16d09_1_17_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_8106318beffe9690c151e1f455d16d09_1_17_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 33,
+  "connectors": [
+    {
+      "id": "connector102",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector104",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector126",
+      "type": "male",
+      "name": "VHI",
+      "description": "VHI"
+    },
+    {
+      "id": "connector127",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector128",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector129",
+      "type": "male",
+      "name": "!RESET",
+      "description": "!RESET"
+    },
+    {
+      "id": "connector125",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector124",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector123",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector122",
+      "type": "male",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector121",
+      "type": "male",
+      "name": "D24",
+      "description": "D24"
+    },
+    {
+      "id": "connector120",
+      "type": "male",
+      "name": "D25",
+      "description": "D25"
+    },
+    {
+      "id": "connector119",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector118",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector117",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector116",
+      "type": "male",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "SWDIO",
+      "description": "SWDIO"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "SWCLK",
+      "description": "SWCLK"
+    },
+    {
+      "id": "connector105",
+      "type": "male",
+      "name": "D13",
+      "description": "D13"
+    },
+    {
+      "id": "connector106",
+      "type": "male",
+      "name": "D12",
+      "description": "D12"
+    },
+    {
+      "id": "connector107",
+      "type": "male",
+      "name": "D11",
+      "description": "D11"
+    },
+    {
+      "id": "connector108",
+      "type": "male",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector109",
+      "type": "male",
+      "name": "D9",
+      "description": "D9"
+    },
+    {
+      "id": "connector110",
+      "type": "male",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector111",
+      "type": "male",
+      "name": "D5_5V",
+      "description": "D5_5V"
+    },
+    {
+      "id": "connector112",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector113",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector114",
+      "type": "male",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector115",
+      "type": "male",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector103",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

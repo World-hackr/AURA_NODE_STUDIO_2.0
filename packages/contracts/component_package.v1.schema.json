@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aura/contracts/component_package.v1",
+  "title": "AURA Component Package V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "metadata", "pins", "sceneAsset"],
+  "properties": {
+    "schema": {
+      "const": "aura.component_package.v1"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "slug", "name", "category"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "category": { "type": "string", "minLength": 1 },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["native", "fritzing", "wokwi", "kicad", "manual"]
+        },
+        "label": { "type": "string" },
+        "path": { "type": "string" }
+      }
+    },
+    "pins": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "x", "y"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "label": { "type": "string", "minLength": 1 },
+          "x": { "type": "number" },
+          "y": { "type": "number" },
+          "side": {
+            "type": "string",
+            "enum": ["top", "right", "bottom", "left", "center"]
+          }
+        }
+      }
+    },
+    "sceneAsset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path"],
+      "properties": {
+        "path": { "const": "scene.svg" },
+        "namedNodes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "runtimeProfileRef": {
+      "type": "string"
+    },
+    "bindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["targetNodeId", "bindingKind"],
+        "properties": {
+          "targetNodeId": { "type": "string" },
+          "bindingKind": {
+            "type": "string",
+            "enum": ["rotation", "translation", "opacity", "color", "visibility", "segments"]
+          },
+          "axis": {
+            "type": "string",
+            "enum": ["x", "y", "z"]
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

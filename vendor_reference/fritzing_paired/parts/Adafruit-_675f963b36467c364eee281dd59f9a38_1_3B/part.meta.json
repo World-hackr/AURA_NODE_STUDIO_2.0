@@ -1,0 +1,127 @@
+{
+  "moduleId": "Adafruit-_675f963b36467c364eee281dd59f9a38_1_3B",
+  "title": "Adafruit bq25185 USB - DC - Solar Lithium Ion Polymer Charger",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_675f963b36467c364eee281dd59f9a38_1_3B.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_675f963b36467c364eee281dd59f9a38_1_3B_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_675f963b36467c364eee281dd59f9a38_1_3B_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_675f963b36467c364eee281dd59f9a38_1_3B_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_675f963b36467c364eee281dd59f9a38_1_3B_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector82",
+      "type": "female",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "VSET",
+      "description": "VSET"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "THERM",
+      "description": "THERM"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "ISET",
+      "description": "ISET"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "STAT1",
+      "description": "STAT1"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "STAT2",
+      "description": "STAT2"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "/CE",
+      "description": "/CE"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

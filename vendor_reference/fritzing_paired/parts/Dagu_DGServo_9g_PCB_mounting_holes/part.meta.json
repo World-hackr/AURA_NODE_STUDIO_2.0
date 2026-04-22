@@ -1,0 +1,20 @@
+{
+  "moduleId": "Dagu_DGServo_9g_PCB_mounting_holes",
+  "title": "Dagu DGServo 9g PCB mounting holes",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Dagu DGServo 9g PCB mounting holes.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Dagu_DGServo_9g_PCB_mounting_holes_pcb.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Dagu_DGServo_9g_PCB_mounting_holes_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 0,
+  "connectors": []
+}

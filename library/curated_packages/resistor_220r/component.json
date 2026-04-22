@@ -1,0 +1,24 @@
+{
+  "schema": "aura.component_package.v1",
+  "metadata": {
+    "id": "pkg_resistor_220r",
+    "slug": "resistor_220r",
+    "name": "Resistor 220R",
+    "description": "Beginner resistor package mapped to the official Fritzing through-hole resistor.",
+    "category": "passive",
+    "tags": ["resistor", "220r", "through-hole", "passive"]
+  },
+  "source": {
+    "kind": "fritzing",
+    "label": "Official Fritzing resistor source"
+  },
+  "pins": [
+    { "id": "1", "label": "Pin 1", "x": 6, "y": 24, "side": "left" },
+    { "id": "2", "label": "Pin 2", "x": 94, "y": 24, "side": "right" }
+  ],
+  "sceneAsset": {
+    "path": "scene.svg",
+    "namedNodes": ["body", "lead_left", "lead_right"]
+  },
+  "aliases": ["220r resistor", "220 ohm resistor", "resistor"]
+}

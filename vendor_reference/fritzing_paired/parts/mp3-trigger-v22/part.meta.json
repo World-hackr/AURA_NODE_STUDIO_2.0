@@ -1,0 +1,313 @@
+{
+  "moduleId": "mp3-trigger-v22",
+  "title": "MP3 Trigger",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\mp3-trigger-v22.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\mp3-trigger-v22_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\mp3-trigger-v22_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\mp3-trigger-v22_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\mp3-trigger-v22_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 47,
+  "connectors": [
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "NC1",
+      "description": "NC1"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "RX-I",
+      "description": "RX-I"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "USBVCC",
+      "description": "USBVCC"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "NC2",
+      "description": "NC2"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "XRES",
+      "description": "XRES"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "TRIG18",
+      "description": "TRIG18"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "TRIG17",
+      "description": "TRIG17"
+    },
+    {
+      "id": "connector265",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector266",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector267",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector268",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector269",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector270",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector271",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector272",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector273",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector274",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector275",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector276",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector277",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector278",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector279",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector280",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector281",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector282",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector283",
+      "type": "male",
+      "name": "T18",
+      "description": "T18"
+    },
+    {
+      "id": "connector284",
+      "type": "male",
+      "name": "T17",
+      "description": "T17"
+    },
+    {
+      "id": "connector285",
+      "type": "male",
+      "name": "T16",
+      "description": "T16"
+    },
+    {
+      "id": "connector286",
+      "type": "male",
+      "name": "T15",
+      "description": "T15"
+    },
+    {
+      "id": "connector287",
+      "type": "male",
+      "name": "T14",
+      "description": "T14"
+    },
+    {
+      "id": "connector288",
+      "type": "male",
+      "name": "T13",
+      "description": "T13"
+    },
+    {
+      "id": "connector289",
+      "type": "male",
+      "name": "T12",
+      "description": "T12"
+    },
+    {
+      "id": "connector290",
+      "type": "male",
+      "name": "T11",
+      "description": "T11"
+    },
+    {
+      "id": "connector291",
+      "type": "male",
+      "name": "T10",
+      "description": "T10"
+    },
+    {
+      "id": "connector292",
+      "type": "male",
+      "name": "T9",
+      "description": "T9"
+    },
+    {
+      "id": "connector293",
+      "type": "male",
+      "name": "T8",
+      "description": "T8"
+    },
+    {
+      "id": "connector294",
+      "type": "male",
+      "name": "T7",
+      "description": "T7"
+    },
+    {
+      "id": "connector295",
+      "type": "male",
+      "name": "T6",
+      "description": "T6"
+    },
+    {
+      "id": "connector296",
+      "type": "male",
+      "name": "T5",
+      "description": "T5"
+    },
+    {
+      "id": "connector297",
+      "type": "male",
+      "name": "T4",
+      "description": "T4"
+    },
+    {
+      "id": "connector298",
+      "type": "male",
+      "name": "T3",
+      "description": "T3"
+    },
+    {
+      "id": "connector299",
+      "type": "male",
+      "name": "T2",
+      "description": "T2"
+    },
+    {
+      "id": "connector300",
+      "type": "male",
+      "name": "T1",
+      "description": "T1"
+    }
+  ]
+}

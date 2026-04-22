@@ -1,0 +1,151 @@
+{
+  "moduleId": "e668db37f545319f20b1f0749943e456_C4",
+  "title": "Raspberry Pi Model B",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Raspberry_Pi_Model_B__b1e0c6be3ca697083dc27537d9c0b56c_C4.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Raspberry_Pi_Model_B__b1e0c6be3ca697083d__icon__46bb0a26a2e41edbae78d12bcb2edda3_C4.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Raspberry_Pi_Model_B__b1e0c6be3ca697083d__breadboard__8dfb279cec950415413852caea1999c5_C4.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Raspberry_Pi_Model_B__b1e0c6be3ca697083d__schematic__f3e640c5c5a83c052d29526cc21f5c7d_C4.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Raspberry_Pi_Model_B__b1e0c6be3ca697083d__pcb__12117868b324bd2352fcf41aa7bc6b38_C4.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "#4",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "#22",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "#23",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "TXD",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "#24",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "MOSI",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "MISO",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "#25",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SCLK",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "CS0",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "CS1",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "3V3",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "5V",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RXD",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SDA",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "#17",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "#18",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SCL",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "#21",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "no description yet"
+    }
+  ]
+}

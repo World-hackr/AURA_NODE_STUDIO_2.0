@@ -1,0 +1,145 @@
+{
+  "moduleId": "8ca227160f651d06d5d89a6e8ed3a35f",
+  "title": "EDGY Analog In",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\EDGY_Analog_In.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\EDGY_Analog_In_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\EDGY_Analog_In_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\EDGY_Analog_In_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\EDGY_Analog_In_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 19,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Analog In 5",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "C1",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "Analog In 6",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "C2",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "Analog In 7",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "C3",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "Analog In 8",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "C1",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "C2",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Analog Out",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "C3",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Analog In 1",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "5V+",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Analog In 2",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Analog In 3",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Analog In 4",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "5V+",
+      "description": "Noch keine Beschreibung"
+    }
+  ]
+}

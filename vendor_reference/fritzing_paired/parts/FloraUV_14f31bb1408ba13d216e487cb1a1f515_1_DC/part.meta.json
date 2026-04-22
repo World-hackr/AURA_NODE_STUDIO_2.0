@@ -1,0 +1,67 @@
+{
+  "moduleId": "FloraUV_14f31bb1408ba13d216e487cb1a1f515_1_DC",
+  "title": "Flora SI1145 UV Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\FloraUV_14f31bb1408ba13d216e487cb1a1f515_1_DC.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\FloraUV_a23f59c7dc63ec354d375090d2af0bf1_1_breadboard_DC.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\FloraUV_a23f59c7dc63ec354d375090d2af0bf1_1_schematic_DC.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\FloraUV_a23f59c7dc63ec354d375090d2af0bf1_1_pcb_DC.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\FloraUV_a23f59c7dc63ec354d375090d2af0bf1_1_icon_DC.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "moduleId": "e55c4e524988a0331c383c6d9b004770_8",
+  "title": "Rotary Potentiometer (Small)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\starter-poti-small.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\starter-poti-small_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\basic_poti.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\starter-poti-small_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\starter-poti-small_breadboard.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "leg1",
+      "description": "leg1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "wiper",
+      "description": "wiper"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "leg2",
+      "description": "leg2"
+    }
+  ]
+}

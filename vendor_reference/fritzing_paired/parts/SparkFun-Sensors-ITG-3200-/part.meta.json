@@ -1,0 +1,97 @@
+{
+  "moduleId": "SparkFun-Sensors-ITG-3200-",
+  "title": "ITG-3200",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-itg-3200-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-24_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_itg-3200_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_qfn-24_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-24_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "AD0",
+      "description": "AD0"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "CLKIN",
+      "description": "CLKIN"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "CPOUT",
+      "description": "CPOUT"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "REGOUT",
+      "description": "REGOUT"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RESV-G",
+      "description": "RESV-G"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VLOGIC",
+      "description": "VLOGIC"
+    }
+  ]
+}

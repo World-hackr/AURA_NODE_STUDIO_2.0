@@ -1,0 +1,127 @@
+{
+  "moduleId": "886eef678ed928d06ef45ebe7c253560_EF",
+  "title": "'4050 Hex Buffer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\_4050_Hex_Buffer__d5db95d3260767fe4b93a374b186036d_EF.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\_4050_Hex_Buffer__d5db95d3260767fe4b93a3__icon__4ad930e00e019c40fd348d000be170be_EF.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\_4050_Hex_Buffer__d5db95d3260767fe4b93a3__breadboard__1504a98e5073df709d7da8765e3aecb3_EF.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\_4050_Hex_Buffer__d5db95d3260767fe4b93a3__pcb__01422ff707d79dda26f462d6b0656f53_EF.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\_4050_Hex_Buffer__d5db95d3260767fe4b93a3__schematic__0a3f49cb248e1790614d9c328dd94355_EF.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "L",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "A",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "NC",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "H",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "I",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "C",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VSS",
+      "description": "ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "D",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "J",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "E",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "K",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VCC",
+      "description": "supply voltage"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "NC",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "F",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G",
+      "description": "no description yet"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "moduleId": "AnalogDevices_TMP01FPZ",
+  "title": "TMP01 - Low Power, Programmable Temperature Controller",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_TMP01.AnalogDevices_TMP01FPZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\TMP01.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\TMP01.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\TMP01.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\TMP01.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "10V",
+      "description": "VREF"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "5V",
+      "description": "SETH"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "2p5V",
+      "description": "SETL"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "COMMON",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "STROBE",
+      "description": "VPTAT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VBG",
+      "description": "UNDERB"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CAP",
+      "description": "OVERB"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "moduleId": "SparkFun-AnalogIC-AD7781-CRZ",
+  "title": "AD7781",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-ad7781-crz.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SOIC-14_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_ad7781_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_soic-14_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SOIC-14_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 13,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "*PDRST",
+      "description": "*PDRST"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "AIN+",
+      "description": "AIN+"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "AIN-",
+      "description": "AIN-"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "BPDSW",
+      "description": "BPDSW"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DVDD",
+      "description": "DVDD"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "FILTER",
+      "description": "FILTER"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GAIN",
+      "description": "GAIN"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "REFIN+",
+      "description": "REFIN+"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "REFIN-",
+      "description": "REFIN-"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    }
+  ]
+}

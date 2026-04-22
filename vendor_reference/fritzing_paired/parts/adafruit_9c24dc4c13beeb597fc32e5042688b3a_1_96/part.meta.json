@@ -1,0 +1,271 @@
+{
+  "moduleId": "adafruit_9c24dc4c13beeb597fc32e5042688b3a_1_96",
+  "title": "TFT 2.8 inch 320x240 Touch w microSD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_9c24dc4c13beeb597fc32e5042688b3a_1_96.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_c3b496c5edc388712ca15941ef5c858d_1_breadboard_96.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_c3b496c5edc388712ca15941ef5c858d_1_schematic_96.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_c3b496c5edc388712ca15941ef5c858d_1_pcb_96.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_c3b496c5edc388712ca15941ef5c858d_1_icon_96.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "LCD_RD",
+      "description": "LCD_RD"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "LCD_CS",
+      "description": "LCD_CS"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "LCD_CS",
+      "description": "LCD_CS"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "LCD_DC",
+      "description": "LCD_DC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "LCD_DC",
+      "description": "LCD_DC"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "LCD_RST",
+      "description": "LCD_RST"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "LCD_RST",
+      "description": "LCD_RST"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "LCD_Y+",
+      "description": "LCD_Y+"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "LCD_Y+",
+      "description": "LCD_Y+"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "LCD_X+",
+      "description": "LCD_X+"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "LCD_X+",
+      "description": "LCD_X+"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "LCD_Y-",
+      "description": "LCD_Y-"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "LCD_Y-",
+      "description": "LCD_Y-"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "LCD_X-",
+      "description": "LCD_X-"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "LCD_X-",
+      "description": "LCD_X-"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "IM3",
+      "description": "IM3"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "IM2",
+      "description": "IM2"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "IM1",
+      "description": "IM1"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "IM0",
+      "description": "IM0"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "SD_CS",
+      "description": "SD_CS"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "CARDDET",
+      "description": "CARDDET"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "LCD_LITE",
+      "description": "LCD_LITE"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "LCD_LITE",
+      "description": "LCD_LITE"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "LCD_DATA0",
+      "description": "LCD_DATA0"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "LCD_DATA1",
+      "description": "LCD_DATA1"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "LCD_DATA2",
+      "description": "LCD_DATA2"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "LCD_DATA3",
+      "description": "LCD_DATA3"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "LCD_DATA4",
+      "description": "LCD_DATA4"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "LCD_DATA5",
+      "description": "LCD_DATA5"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "LCD_DATA6",
+      "description": "LCD_DATA6"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "LCD_DATA7",
+      "description": "LCD_DATA7"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

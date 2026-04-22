@@ -1,0 +1,331 @@
+{
+  "moduleId": "STM32F103C8T6_blue_mini_db4c63b0e434949d3cc651e6f45c9298_3",
+  "title": "STM32F103C8T6 blue mini board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\STM32F103C8T6 blue mini board.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\STM32F103C8T6_blue_mini_2.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\STM32F103C8T6_blue_mini_2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\STM32F103C8T6_blue_mini_2.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\STM32F103C8T6_blue_mini_2.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 50,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "B12",
+      "description": "5V ck3 T1BKIN NSS2 SMBA12 PB12 25"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "B13",
+      "description": "5V CTS3 T1CIN SCK2 PB13 26"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "B14",
+      "description": "5V RTS3 T1C2N MISO2 PB14 14"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "B15",
+      "description": "5V T1C3N MOSI2 PB15 28"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "A8",
+      "description": "5V PWM MCO T1C1 CK1 PA8 29"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "A9",
+      "description": "5V PWM T1C2 TX1 PA9 30"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "A10",
+      "description": "5V PWM T1C3 RX1 PA10 31"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "A11",
+      "description": "5V PWM CANRX T1C4 CTS1 USB- PA11 32"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "A12",
+      "description": "5V CANTX T1ETR RTS1 USB+ PA12 33"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "A15",
+      "description": "5V T2C1E NSS1 JTDI PA15 38"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "B3",
+      "description": "5V TRACE T2C2 SCKI JTDO PB3 39"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "B4",
+      "description": "5V SWO T3C1 MISO1 JTRST PB4 40"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "B5",
+      "description": "3.3V T2C2 MOSI1 SMBAI1 PB5 41"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "B6",
+      "description": "5V PWM TX1 T4C1 SCL1 PB6 42"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "B7",
+      "description": "5V PWM RX1 T4C2 SDA1 PB7 43"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "B8",
+      "description": "5V PWM CANRX SCL1 T4C3 PB8 45"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "B9",
+      "description": "5V PWM CANTX SDA1 T4c4 PB9 46"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "5V",
+      "description": "5V Power Connection"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "G",
+      "description": "GND Ground"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V Power Connection"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "VBAT",
+      "description": "3.3V VBAT"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "C13",
+      "description": "3.3V Sink 3ma source 0ma PC13_LED TAMPER_RTC PC13 2"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "C14",
+      "description": "3.3V Sink 3ma source 0ma OSC32_IN PC14 3"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "C15",
+      "description": "3.3V Sink 3ma source 0ma OSC32_OUT PC15 4"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "A0",
+      "description": "3.3V PWM WKUP T2C1E CTS2 ADC0 PA0 10"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "A1",
+      "description": "3.3V PWM T2C2 RTS2 ADC1 PA1 11"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "A2",
+      "description": "3.3V PWM T2C3 TX2 ADC2 PA2 12"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "A3",
+      "description": "3.3V PWM T2C4 RX2 ADC3 PA3 13"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "A4",
+      "description": "3.3V CK2 NSS1 ADC4 PA4 14"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "A5",
+      "description": "3.3V SCK1 ADC5 PA5 15"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "A6",
+      "description": "3.3V PWM T1BKIN T3C1 MISO1 ADC6 PA6 16"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "A7",
+      "description": "3.3V PWM T1C1N T3C3 MOSI1 ADC7 PA7 17"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "B0",
+      "description": "3.3V PWM T1C2N T3C3 ADC8 PB0"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "B1",
+      "description": "3.3V PWM T1C3N T3C4 ADC9 PB1 19"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "B10",
+      "description": "5V T2C3N TX3 SCL2 PB10 21"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "B11",
+      "description": "5V T2CAN RX3 SDA2 PB11 22"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "RST",
+      "description": "3.3V RESET_BUTTON NRST 7"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V Power connection"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "G",
+      "description": "GND Ground Connection"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "G",
+      "description": "GND Ground Connection"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "3.3",
+      "description": "3.3V Jtag connector"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "DIO",
+      "description": "5V SWDIO JTMS PA13 34 jtag connector"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "CLK",
+      "description": "5V SWCLK JTCLK PA14 37 Jtag Connector"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground Jtag Connector"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground Boot1 connector"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": null,
+      "description": "5V Boot1 PB2 20"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V  Power Connection Boot1 Connector"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground Boot0 Connector"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "Boot0",
+      "description": "3.3V Boot0 44"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V Power Connection Boot0 Connector"
+    }
+  ]
+}

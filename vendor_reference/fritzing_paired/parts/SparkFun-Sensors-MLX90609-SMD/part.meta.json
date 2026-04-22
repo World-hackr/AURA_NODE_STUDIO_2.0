@@ -1,0 +1,157 @@
+{
+  "moduleId": "SparkFun-Sensors-MLX90609-SMD",
+  "title": "MLX90609",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-mlx90609-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_mlx90609_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_mlx90609_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_mlx90609_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_mlx90609_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 21,
+  "connectors": [
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "CASE",
+      "description": "CASE"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "ERROR",
+      "description": "ERROR"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "FLT",
+      "description": "FLT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "HVIN",
+      "description": "HVIN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "OUTAR",
+      "description": "OUTAR"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "OUTTEMP",
+      "description": "OUTTEMP"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SELFTEST",
+      "description": "SELFTEST"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SS",
+      "description": "SS"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "TEST",
+      "description": "TEST"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "TESTIN",
+      "description": "TESTIN"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "TESTOUT",
+      "description": "TESTOUT"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "TOPCAP",
+      "description": "TOPCAP"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "TOPCAP",
+      "description": "TOPCAP"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "VDDA",
+      "description": "VDDA"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "VREF",
+      "description": "VREF"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "VSSA",
+      "description": "VSSA"
+    }
+  ]
+}

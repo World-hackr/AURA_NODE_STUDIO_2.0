@@ -1,0 +1,126 @@
+{
+  "moduleId": "SparkFun-DigitalIC-ICL3232-",
+  "title": "ICL3232",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-icl3232-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_icl3232_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil16_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_16_400mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_16_400mil_bread.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "C1+",
+      "description": "C1+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "C1-",
+      "description": "C1-"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "C2+",
+      "description": "C2+"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "C2-",
+      "description": "C2-"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "R1IN",
+      "description": "R1IN"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "R1OUT",
+      "description": "R1OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "R2IN",
+      "description": "R2IN"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "R2OUT",
+      "description": "R2OUT"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "T1IN",
+      "description": "T1IN"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "T1OUT",
+      "description": "T1OUT"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "T2IN",
+      "description": "T2IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "T2OUT",
+      "description": "T2OUT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "V-",
+      "description": "V-"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

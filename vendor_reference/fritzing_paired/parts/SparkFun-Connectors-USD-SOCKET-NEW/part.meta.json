@@ -1,0 +1,103 @@
+{
+  "moduleId": "SparkFun-Connectors-USD-SOCKET-NEW",
+  "title": "microSD Socket",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-usd-socket-new.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_micro-sd-socket-pp_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_usdcard_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_micro-sd-socket-pp_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\MICRO-SD-SOCKET-PP.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DI",
+      "description": "DI"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DO",
+      "description": "DO"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "RSV",
+      "description": "RSV"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SHIELD",
+      "description": "SHIELD"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SHIELD",
+      "description": "SHIELD"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SHIELD",
+      "description": "SHIELD"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SHIELD",
+      "description": "SHIELD"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

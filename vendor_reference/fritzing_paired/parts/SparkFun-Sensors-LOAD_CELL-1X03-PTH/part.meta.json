@@ -1,0 +1,48 @@
+{
+  "moduleId": "SparkFun-Sensors-LOAD_CELL-1X03-PTH",
+  "title": "LOAD_CELL",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-load_cell-1x03-pth.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_load_cell_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\1X03.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_female_pin_header_3_100mil_bread.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "pcb/nsjumper_3_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "R",
+      "description": "R"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "W",
+      "description": "W"
+    }
+  ]
+}

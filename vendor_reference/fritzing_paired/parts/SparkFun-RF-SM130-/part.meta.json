@@ -1,0 +1,145 @@
+{
+  "moduleId": "SparkFun-RF-SM130-",
+  "title": "SM130",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-sm130-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_sm130_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_sm130_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_sm130_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_sm130_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 19,
+  "connectors": [
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "ANT1",
+      "description": "ANT1"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "ANT2",
+      "description": "ANT2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "ERROR",
+      "description": "ERROR"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "I1",
+      "description": "I1"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "I2",
+      "description": "I2"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "O1",
+      "description": "O1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "O2",
+      "description": "O2"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OK",
+      "description": "OK"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "RFGND",
+      "description": "RFGND"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "RFGND",
+      "description": "RFGND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "RFGND",
+      "description": "RFGND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RFVCC",
+      "description": "RFVCC"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RX-I",
+      "description": "RX-I"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "TX-O",
+      "description": "TX-O"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

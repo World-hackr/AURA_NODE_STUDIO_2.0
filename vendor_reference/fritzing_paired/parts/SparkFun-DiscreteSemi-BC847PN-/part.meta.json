@@ -1,0 +1,67 @@
+{
+  "moduleId": "SparkFun-DiscreteSemi-BC847PN-",
+  "title": "BC847PN",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-discretesemi-bc847pn-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_sot363_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-discretesemi_pnp_mix_12_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-discretesemi_sot363_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-discretesemi_sot363_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G1 B",
+      "description": "G1 B"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G1 C",
+      "description": "G1 C"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G1 E",
+      "description": "G1 E"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G2 B",
+      "description": "G2 B"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G2 C",
+      "description": "G2 C"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G2 E",
+      "description": "G2 E"
+    }
+  ]
+}

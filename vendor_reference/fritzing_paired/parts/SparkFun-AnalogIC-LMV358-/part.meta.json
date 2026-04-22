@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-AnalogIC-LMV358-",
+  "title": "LMV358",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-lmv358-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_opamp_2_mix_4_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so08_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G$1 +IN1",
+      "description": "G$1 +IN1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "G$1 +V",
+      "description": "G$1 +V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G$1 -IN1",
+      "description": "G$1 -IN1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G$1 GND",
+      "description": "G$1 GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G$1 OUT1",
+      "description": "G$1 OUT1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G$2 +IN2",
+      "description": "G$2 +IN2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G$2 -IN2",
+      "description": "G$2 -IN2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G$2 OUT2",
+      "description": "G$2 OUT2"
+    }
+  ]
+}

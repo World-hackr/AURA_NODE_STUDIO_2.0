@@ -1,0 +1,319 @@
+{
+  "moduleId": "linino_one_rev1",
+  "title": "linino one",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\linino_one(rev1).fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\linino_one(rev1)_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\linino_one(rev1)_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\linino_one(rev1)_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\linino_one(rev1)_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 48,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RD +",
+      "description": "RD+"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RD -",
+      "description": "RD-"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "TD +",
+      "description": "TD+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "TD -",
+      "description": "TD-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "AR_Vin",
+      "description": "AR_VIN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "D13",
+      "description": "D13"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "3V3",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "REF",
+      "description": "Ref"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "A1",
+      "description": "A1 - analog input"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "A2",
+      "description": "A2 - analog input"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "A3",
+      "description": "A3 - analog input"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "A4",
+      "description": "A4 - analog input"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "A5",
+      "description": "A5 - analog input"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "USB -",
+      "description": "USB -"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "USB +",
+      "description": "USB +"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "5V",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "D6",
+      "description": "D6"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "D9",
+      "description": "D9"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "D11",
+      "description": "D11"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "D12",
+      "description": "D12"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "AR_GP6",
+      "description": "AR_GP6"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "AR_GP23",
+      "description": "AR_GP23"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "VCC_GT",
+      "description": "VCC_GT"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "TX",
+      "description": "Tx"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "SS",
+      "description": "SS"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "MOSI",
+      "description": "Mosi"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "VIN",
+      "description": "Vin"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    }
+  ]
+}

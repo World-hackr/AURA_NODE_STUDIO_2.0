@@ -1,0 +1,91 @@
+{
+  "moduleId": "adafruit_e371fbe9722138e9f73efa6ef50567a6_1_B1",
+  "title": "TFT 1.8 inch 160x128 w microSD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_e371fbe9722138e9f73efa6ef50567a6_1_B1.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_bc8ccc3d7be22f661e2075785ed36d76_1_breadboard_B1.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_bc8ccc3d7be22f661e2075785ed36d76_1_schematic_B1.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_bc8ccc3d7be22f661e2075785ed36d76_1_pcb_B1.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_bc8ccc3d7be22f661e2075785ed36d76_1_icon_B1.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "TFTDC",
+      "description": "TFTDC"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "CARDCS",
+      "description": "CARDCS"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "TFTCS",
+      "description": "TFTCS"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "LITE",
+      "description": "LITE"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

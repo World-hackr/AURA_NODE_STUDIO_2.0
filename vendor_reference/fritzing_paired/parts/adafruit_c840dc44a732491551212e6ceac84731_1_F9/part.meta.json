@@ -1,0 +1,121 @@
+{
+  "moduleId": "adafruit_c840dc44a732491551212e6ceac84731_1_F9",
+  "title": "Adafruit RFM69HCW Transceiver Radio",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_c840dc44a732491551212e6ceac84731_1_F9.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_c840dc44a732491551212e6ceac84731_2_breadboard_F9.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_c840dc44a732491551212e6ceac84731_2_schematic_F9.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_c840dc44a732491551212e6ceac84731_2_pcb_F9.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_c840dc44a732491551212e6ceac84731_2_icon_F9.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DIO1",
+      "description": "DIO1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DIO2",
+      "description": "DIO2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DIO3",
+      "description": "DIO3"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DIO4",
+      "description": "DIO4"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DIO5",
+      "description": "DIO5"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "ANTENNA",
+      "description": "ANTENNA"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "DIO0",
+      "description": "DIO0"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    }
+  ]
+}

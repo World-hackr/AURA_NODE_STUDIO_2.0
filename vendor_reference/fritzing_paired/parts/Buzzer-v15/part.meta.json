@@ -1,0 +1,43 @@
+{
+  "moduleId": "Buzzer-v15",
+  "title": "LilyPad Buzzer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Buzzer-v15.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Buzzer-v15_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Buzzer-v15_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Buzzer-v15_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Buzzer-v15_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "-",
+      "description": "-"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "+",
+      "description": "+"
+    }
+  ]
+}

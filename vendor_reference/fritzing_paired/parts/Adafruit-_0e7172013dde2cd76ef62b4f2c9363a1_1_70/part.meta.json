@@ -1,0 +1,181 @@
+{
+  "moduleId": "Adafruit-_0e7172013dde2cd76ef62b4f2c9363a1_1_70",
+  "title": "Adafruit I2C SPI LCD STEMMA Backpack",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_0e7172013dde2cd76ef62b4f2c9363a1_1_70.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_0e7172013dde2cd76ef62b4f2c9363a1_1_breadboard_70.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_0e7172013dde2cd76ef62b4f2c9363a1_1_schematic_70.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_0e7172013dde2cd76ef62b4f2c9363a1_1_pcb_70.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_0e7172013dde2cd76ef62b4f2c9363a1_1_icon_70.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 25,
+  "connectors": [
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "LEDK",
+      "description": "LEDK"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "DB7",
+      "description": "DB7"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "DB6",
+      "description": "DB6"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "DB5",
+      "description": "DB5"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "DB4",
+      "description": "DB4"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "E",
+      "description": "E"
+    },
+    {
+      "id": "connector83",
+      "type": "female",
+      "name": "RS",
+      "description": "RS"
+    },
+    {
+      "id": "connector82",
+      "type": "female",
+      "name": "CONTRAST",
+      "description": "CONTRAST"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "LATCH",
+      "description": "LATCH"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "DATA_LV",
+      "description": "DATA_LV"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "DATA_LV",
+      "description": "DATA_LV"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "DATA_LV",
+      "description": "DATA_LV"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "CLOCK_LV",
+      "description": "CLOCK_LV"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "CLOCK_LV",
+      "description": "CLOCK_LV"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "CLOCK_LV",
+      "description": "CLOCK_LV"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

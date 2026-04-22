@@ -1,0 +1,134 @@
+{
+  "moduleId": "TalonSRX_1",
+  "title": "Talon SRX",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\TalonSRX_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\TalonSRX_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\TalonSRX_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\TalonSRX_1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "V+",
+      "description": "Input Voltage (6 - 28V) up to 60A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "Input Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "M-",
+      "description": "Motor Output -"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "M+",
+      "description": "Motor Output +"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CAN0 Y",
+      "description": "CAN0 High (Yel)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CAN0 G",
+      "description": "CAN0 Low (Grn)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CAN1 Y",
+      "description": "CAN 1 High (Yel)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CAN1 G",
+      "description": "CAN 1 Low (Grn)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "Data Port +3.3V"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "Data Port +5V"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "Data Port Analog Input"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "Data Port Forward Limit"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "Data Port Quadrature B"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "Data Port DO NOT CONNECT"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Pin 7",
+      "description": "Data Port Quadrature A"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Pin 8",
+      "description": "Data Port Reverse Limit"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "Pin 9",
+      "description": "Data Port Quadriture Index X"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "Pin 10",
+      "description": "Data Port Ground"
+    }
+  ]
+}

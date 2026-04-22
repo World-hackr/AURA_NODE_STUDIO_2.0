@@ -1,0 +1,67 @@
+{
+  "moduleId": "FTDI Basic-v13",
+  "title": "FTDI Basic Programmer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\FTDI Basic-v13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\FTDI Basic-v13_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\FTDI Basic-v13_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\FTDI Basic-v13_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\FTDI Basic-v13_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "RXI",
+      "description": "RXI"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "TXO",
+      "description": "TXO"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "POWER",
+      "description": "POWER"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

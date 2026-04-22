@@ -1,0 +1,607 @@
+{
+  "moduleId": "SparkFun-Electromechanical-BUTTONPAD-4X4-",
+  "title": "BUTTONPAD-4X4",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-electromechanical-buttonpad-4x4-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-electromechanical_buttonpad-4x4_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-electromechanical_buttonpad_single_mix_16_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-electromechanical_buttonpad-4x4_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\BUTTONPAD-4X4.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 96,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "G$0 BLU",
+      "description": "G$0 BLU"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "G$0 GND",
+      "description": "G$0 GND"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "G$0 GRN",
+      "description": "G$0 GRN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "G$0 RED",
+      "description": "G$0 RED"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G$0 SIG1",
+      "description": "G$0 SIG1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "G$0 SIG2",
+      "description": "G$0 SIG2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "G$1 BLU",
+      "description": "G$1 BLU"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "G$1 GND",
+      "description": "G$1 GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "G$1 GRN",
+      "description": "G$1 GRN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "G$1 RED",
+      "description": "G$1 RED"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "G$1 SIG1",
+      "description": "G$1 SIG1"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "G$1 SIG2",
+      "description": "G$1 SIG2"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "G$10 BLU",
+      "description": "G$10 BLU"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "G$10 GND",
+      "description": "G$10 GND"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "G$10 GRN",
+      "description": "G$10 GRN"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "G$10 RED",
+      "description": "G$10 RED"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "G$10 SIG1",
+      "description": "G$10 SIG1"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "G$10 SIG2",
+      "description": "G$10 SIG2"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "G$11 BLU",
+      "description": "G$11 BLU"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "G$11 GND",
+      "description": "G$11 GND"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "G$11 GRN",
+      "description": "G$11 GRN"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "G$11 RED",
+      "description": "G$11 RED"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "G$11 SIG1",
+      "description": "G$11 SIG1"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "G$11 SIG2",
+      "description": "G$11 SIG2"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "G$12 BLU",
+      "description": "G$12 BLU"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "G$12 GND",
+      "description": "G$12 GND"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "G$12 GRN",
+      "description": "G$12 GRN"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "G$12 RED",
+      "description": "G$12 RED"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "G$12 SIG1",
+      "description": "G$12 SIG1"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "G$12 SIG2",
+      "description": "G$12 SIG2"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "G$13 BLU",
+      "description": "G$13 BLU"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "G$13 GND",
+      "description": "G$13 GND"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "G$13 GRN",
+      "description": "G$13 GRN"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "G$13 RED",
+      "description": "G$13 RED"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "G$13 SIG1",
+      "description": "G$13 SIG1"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "G$13 SIG2",
+      "description": "G$13 SIG2"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "G$14 BLU",
+      "description": "G$14 BLU"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "G$14 GND",
+      "description": "G$14 GND"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "G$14 GRN",
+      "description": "G$14 GRN"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "G$14 RED",
+      "description": "G$14 RED"
+    },
+    {
+      "id": "connector92",
+      "type": "male",
+      "name": "G$14 SIG1",
+      "description": "G$14 SIG1"
+    },
+    {
+      "id": "connector93",
+      "type": "male",
+      "name": "G$14 SIG2",
+      "description": "G$14 SIG2"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "G$15 BLU",
+      "description": "G$15 BLU"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "G$15 GND",
+      "description": "G$15 GND"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "G$15 GRN",
+      "description": "G$15 GRN"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "G$15 RED",
+      "description": "G$15 RED"
+    },
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "G$15 SIG1",
+      "description": "G$15 SIG1"
+    },
+    {
+      "id": "connector95",
+      "type": "male",
+      "name": "G$15 SIG2",
+      "description": "G$15 SIG2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "G$2 BLU",
+      "description": "G$2 BLU"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "G$2 GND",
+      "description": "G$2 GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "G$2 GRN",
+      "description": "G$2 GRN"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "G$2 RED",
+      "description": "G$2 RED"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "G$2 SIG1",
+      "description": "G$2 SIG1"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "G$2 SIG2",
+      "description": "G$2 SIG2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "G$3 BLU",
+      "description": "G$3 BLU"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "G$3 GND",
+      "description": "G$3 GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "G$3 GRN",
+      "description": "G$3 GRN"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "G$3 RED",
+      "description": "G$3 RED"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "G$3 SIG1",
+      "description": "G$3 SIG1"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "G$3 SIG2",
+      "description": "G$3 SIG2"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "G$4 BLU",
+      "description": "G$4 BLU"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "G$4 GND",
+      "description": "G$4 GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "G$4 GRN",
+      "description": "G$4 GRN"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "G$4 RED",
+      "description": "G$4 RED"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "G$4 SIG1",
+      "description": "G$4 SIG1"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "G$4 SIG2",
+      "description": "G$4 SIG2"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "G$5 BLU",
+      "description": "G$5 BLU"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "G$5 GND",
+      "description": "G$5 GND"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "G$5 GRN",
+      "description": "G$5 GRN"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "G$5 RED",
+      "description": "G$5 RED"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "G$5 SIG1",
+      "description": "G$5 SIG1"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "G$5 SIG2",
+      "description": "G$5 SIG2"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "G$6 BLU",
+      "description": "G$6 BLU"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "G$6 GND",
+      "description": "G$6 GND"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "G$6 GRN",
+      "description": "G$6 GRN"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "G$6 RED",
+      "description": "G$6 RED"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "G$6 SIG1",
+      "description": "G$6 SIG1"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "G$6 SIG2",
+      "description": "G$6 SIG2"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "G$7 BLU",
+      "description": "G$7 BLU"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "G$7 GND",
+      "description": "G$7 GND"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "G$7 GRN",
+      "description": "G$7 GRN"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "G$7 RED",
+      "description": "G$7 RED"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "G$7 SIG1",
+      "description": "G$7 SIG1"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "G$7 SIG2",
+      "description": "G$7 SIG2"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "G$8 BLU",
+      "description": "G$8 BLU"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "G$8 GND",
+      "description": "G$8 GND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "G$8 GRN",
+      "description": "G$8 GRN"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "G$8 RED",
+      "description": "G$8 RED"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "G$8 SIG1",
+      "description": "G$8 SIG1"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "G$8 SIG2",
+      "description": "G$8 SIG2"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "G$9 BLU",
+      "description": "G$9 BLU"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "G$9 GND",
+      "description": "G$9 GND"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "G$9 GRN",
+      "description": "G$9 GRN"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "G$9 RED",
+      "description": "G$9 RED"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "G$9 SIG1",
+      "description": "G$9 SIG1"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "G$9 SIG2",
+      "description": "G$9 SIG2"
+    }
+  ]
+}

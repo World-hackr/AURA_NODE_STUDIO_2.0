@@ -1,0 +1,115 @@
+{
+  "moduleId": "0b6deb11c8005423ea8d84452203654d",
+  "title": "HCMS-29xx",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\HCMS-29xx.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\HCMS-29xxff.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\HCMS-29xxff.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\HCMS-29xxff.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\HCMS-29xxff.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VLED",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Data In",
+      "description": "Data Input Pin"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RS",
+      "description": "Register Select"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Clock",
+      "description": "Data Clock input"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Chip Enable",
+      "description": "Chip Enable Pin"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Blank",
+      "description": "Blanking Pin"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND Logic",
+      "description": "Ground for logic in the IC"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SEL",
+      "description": "Select internal or external oscillator"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "V Logic",
+      "description": "Voltage supply for onboard logic"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Reset",
+      "description": "Reset pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V LED",
+      "description": "Voltage supply for LEDs"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Osc.",
+      "description": "Input for external oscillator"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Data Out",
+      "description": "Data output"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Gnd LED",
+      "description": "Ground for the LEDs"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "moduleId": "HLK-PM01_f3fff412ac55f21b5b3168355aacbaa9_1",
+  "title": "HLK-PM01",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\HLK-PM01.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\HLK-PM01_3.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\HLK-PM01_3.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\HLK-PM01_3.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\HLK-PM01_3.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "AC",
+      "description": "AC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "AC",
+      "description": "AC"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-Vo",
+      "description": "-V Out"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "+Vo",
+      "description": "+V Out"
+    }
+  ]
+}

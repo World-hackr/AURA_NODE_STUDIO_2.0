@@ -1,0 +1,43 @@
+{
+  "moduleId": "429554780853871ee7a5d41bb711aebd_CD",
+  "title": "LiPoly Battery (1300mAh)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\LiPoly_Battery__1300mAh___bc55d3710a708443197b3fc3d08dd188_CD.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\LiPoly_Battery__1300mAh___bc55d3710a7084__icon__b9a86a0640635280016fc4a5f8063f0d_CD.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\LiPoly_Battery__1300mAh___bc55d3710a7084__breadboard__6b3cce1f5ede237f9017ca63fe540b6b_CD.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\LiPoly_Battery__1300mAh___bc55d3710a7084__schematic__91e191d5745e12a099fa191d6b8823ea_CD.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\LiPoly_Battery__1300mAh___bc55d3710a7084__pcb__5726a06ec35459995a144a3632d8985a_CD.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "positive",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "negative",
+      "description": "no description yet"
+    }
+  ]
+}

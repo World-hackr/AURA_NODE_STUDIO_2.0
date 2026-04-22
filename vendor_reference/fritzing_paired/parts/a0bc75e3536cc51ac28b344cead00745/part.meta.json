@@ -1,0 +1,217 @@
+{
+  "moduleId": "a0bc75e3536cc51ac28b344cead00745",
+  "title": "Teensy 2.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Teensy 2.0.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Teensy_2.0_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Teensy_2.0_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Teensy_2.0_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Teensy_2.0_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 31,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "D0",
+      "description": "Digital Inpout/Output"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "RST",
+      "description": "Reset"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "D1",
+      "description": "Digital Inpout/Output"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "D4",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "D2",
+      "description": "Digital Inpout/Output – Serial Receive"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "D6",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "D7",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "B4",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "B5",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "B6",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "F7",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "F6",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "F5",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "F4",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "F1",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "F0",
+      "description": "Analog Input"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "VCC",
+      "description": "+5V"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "B0",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "D3",
+      "description": "Digital I/O – Serial Transmit"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "B1",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "B2",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "C6",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "B3",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "C7",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "E6",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "D5",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "B7",
+      "description": "Digital I/O"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "VCC",
+      "description": "+5V"
+    }
+  ]
+}

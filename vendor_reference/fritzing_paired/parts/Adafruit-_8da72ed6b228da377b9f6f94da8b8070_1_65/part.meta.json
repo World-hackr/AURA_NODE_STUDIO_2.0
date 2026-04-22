@@ -1,0 +1,67 @@
+{
+  "moduleId": "Adafruit-_8da72ed6b228da377b9f6f94da8b8070_1_65",
+  "title": "Adafruit Simple Soil Moisture Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_8da72ed6b228da377b9f6f94da8b8070_1_65.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_8da72ed6b228da377b9f6f94da8b8070_1_65_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_8da72ed6b228da377b9f6f94da8b8070_1_65_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_8da72ed6b228da377b9f6f94da8b8070_1_65_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_8da72ed6b228da377b9f6f94da8b8070_1_65_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector19",
+      "type": "pad",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector20",
+      "type": "pad",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "SIGNAL",
+      "description": "SIGNAL"
+    },
+    {
+      "id": "connector21",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

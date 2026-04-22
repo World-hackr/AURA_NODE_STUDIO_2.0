@@ -1,0 +1,78 @@
+{
+  "moduleId": "SparkFun-AnalogIC-OPAMP-DUAL-",
+  "title": "Dual Op-Amp",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-opamp-dual-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_op-amp_-_mix_6_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_dip08_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_8_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_8_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "A +IN",
+      "description": "A +IN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A -IN",
+      "description": "A -IN"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A OUT",
+      "description": "A OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "A V+",
+      "description": "A V+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "A V-",
+      "description": "A V-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "B +IN",
+      "description": "B +IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B -IN",
+      "description": "B -IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "B OUT",
+      "description": "B OUT"
+    }
+  ]
+}

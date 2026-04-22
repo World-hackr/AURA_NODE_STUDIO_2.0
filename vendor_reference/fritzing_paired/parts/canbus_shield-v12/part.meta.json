@@ -1,0 +1,241 @@
+{
+  "moduleId": "canbus_shield-v12",
+  "title": "Arduino Can-Bus Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\canbus_shield-v12.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\canbus_shield-v12_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\canbus_shield-v12_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\canbus_shield-v12_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\canbus_shield-v12_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 35,
+  "connectors": [
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "LCD",
+      "description": "LCD"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "CANH",
+      "description": "CANH"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "CANL",
+      "description": "CANL"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "JOY-UP",
+      "description": "JOY-UP"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "JOY-LEFT",
+      "description": "JOY-LEFT"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "JOY-DOWN",
+      "description": "JOY-DOWN"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "JOY-CLICK",
+      "description": "JOY-CLICK"
+    },
+    {
+      "id": "connector82",
+      "type": "female",
+      "name": "JOY-RIGHT",
+      "description": "JOY-RIGHT"
+    },
+    {
+      "id": "connector83",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "CAN_INT",
+      "description": "CAN_INT"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "LCD",
+      "description": "LCD"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "LED2",
+      "description": "LED2"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "LED1",
+      "description": "LED1"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "SD_CS",
+      "description": "SD_CS"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "CAN_CS",
+      "description": "CAN_CS"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "RS",
+      "description": "RS"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "+12V",
+      "description": "+12V"
+    }
+  ]
+}

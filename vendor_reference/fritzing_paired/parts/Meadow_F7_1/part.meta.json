@@ -1,0 +1,223 @@
+{
+  "moduleId": "Meadow_F7_1",
+  "title": "Meadow F7 Micro",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Meadow_F7_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Meadow_F7_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Meadow_F7_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Meadow_F7_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Meadow_F7_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 32,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "~RST",
+      "description": "Reset (active low)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "AREF",
+      "description": "Analog-to-Digital Converter reference voltage [Connect to 3.3V]"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "A0",
+      "description": "Analog Input 0"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "A1",
+      "description": "Analog Input 1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "A2",
+      "description": "Analog Input 2"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "A3",
+      "description": "Analog Input 3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "A4",
+      "description": "Analog Input 4"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "A5",
+      "description": "Analog Input 5"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "DO0",
+      "description": "Digital I/O 0"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DO1",
+      "description": "Digital I/O 1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "DO2",
+      "description": "Digital I/O 2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "DO3",
+      "description": "Digital I/O 3"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "DO4",
+      "description": "Digital I/O 4"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "DO5",
+      "description": "Digital I/O 5"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "DO6",
+      "description": "Digital I/O 6"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "DO7",
+      "description": "Digital I/O 7"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "DO8",
+      "description": "Digital I/O 8"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "DO9",
+      "description": "Digital I/O 9"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "D10",
+      "description": "Digital I/O 10"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "D11",
+      "description": "Digital I/O 11"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "D12",
+      "description": "Digital I/O 12"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "D13",
+      "description": "Digital I/O 13"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "D14",
+      "description": "Digital I/O 14"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "D15",
+      "description": "Digital I/O 15"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "+5V",
+      "description": "+5V Regulated DC"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "EN",
+      "description": "not connected"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "BAT",
+      "description": "DC Supply Voltage Input"
+    }
+  ]
+}

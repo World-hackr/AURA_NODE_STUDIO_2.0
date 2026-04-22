@@ -1,0 +1,126 @@
+{
+  "moduleId": "SparkFun-AnalogIC-74HC4052-DIP",
+  "title": "74HC4052",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-74hc4052-dip.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_74hc4052_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_dil16_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_16_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_16_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "INH",
+      "description": "INH"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VEE",
+      "description": "VEE"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "X",
+      "description": "X"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "X0",
+      "description": "X0"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "X1",
+      "description": "X1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "X2",
+      "description": "X2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "X3",
+      "description": "X3"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Y",
+      "description": "Y"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Y0",
+      "description": "Y0"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Y1",
+      "description": "Y1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Y2",
+      "description": "Y2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Y3",
+      "description": "Y3"
+    }
+  ]
+}

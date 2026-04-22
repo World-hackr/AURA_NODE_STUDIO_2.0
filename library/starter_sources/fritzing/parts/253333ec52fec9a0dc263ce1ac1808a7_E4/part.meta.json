@@ -1,0 +1,49 @@
+{
+  "moduleId": "253333ec52fec9a0dc263ce1ac1808a7_E4",
+  "title": "TIP120 Hi-Current Darlington Transistor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\TIP120_Hi_Current_Darlington_Transistor__951a634fcf8984fc7901abe44c8719c5_E4.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\TIP120_Hi_Current_Darlington_Transistor___icon__ea49f24f3070e00fad20a68dd9fc6605_E4.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\TIP120_Hi_Current_Darlington_Transistor___schematic__3276864e320f761ad3e9c0756174a87e_E4.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\TIP120_Hi_Current_Darlington_Transistor___pcb__bfbaf884225a5dd3ec8438e444c80981_E4.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\TIP120_Hi_Current_Darlington_Transistor___breadboard__5d9a6a9ef5fa8ada03bbf0e82c9222b6_E4.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "EMITTER",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "BASE",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "COLLECTOR",
+      "description": "no description yet"
+    }
+  ]
+}

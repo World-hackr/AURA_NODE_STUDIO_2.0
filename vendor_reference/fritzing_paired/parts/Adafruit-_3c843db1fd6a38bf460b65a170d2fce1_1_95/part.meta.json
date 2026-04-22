@@ -1,0 +1,115 @@
+{
+  "moduleId": "Adafruit-_3c843db1fd6a38bf460b65a170d2fce1_1_95",
+  "title": "Adafruit Color Newxie TFT Display",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_3c843db1fd6a38bf460b65a170d2fce1_1_95.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_3c843db1fd6a38bf460b65a170d2fce1_1_95_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_3c843db1fd6a38bf460b65a170d2fce1_1_95_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_3c843db1fd6a38bf460b65a170d2fce1_1_95_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_3c843db1fd6a38bf460b65a170d2fce1_1_95_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "BACKLIGHT",
+      "description": "BACKLIGHT"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "BACKLIGHT",
+      "description": "BACKLIGHT"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "DC",
+      "description": "DC"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "DC",
+      "description": "DC"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "TFTCS",
+      "description": "TFTCS"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "TFTCS",
+      "description": "TFTCS"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

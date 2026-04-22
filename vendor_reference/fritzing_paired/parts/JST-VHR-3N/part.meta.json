@@ -1,0 +1,62 @@
+{
+  "moduleId": "JST-VHR-3N",
+  "title": "JST-VHR-3N",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\JST-VHR-3N.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\JST-VHR-3N_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\JST-VHR-3N_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\JST-VHR-3N_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "pin 4",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "pin 5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "pin 6",
+      "description": "pin 6"
+    }
+  ]
+}

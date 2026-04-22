@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-Sensors-MPR121-QFN20",
+  "title": "MPR121",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-mpr121-qfn20.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-20-0.4MM_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_mpr121_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_qfn-20-0.4mm_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-20-0.4MM_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "ADDR",
+      "description": "ADDR"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "ELE0",
+      "description": "ELE0"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "ELE1",
+      "description": "ELE1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "ELE10_LED6",
+      "description": "ELE10_LED6"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "ELE11_LED7",
+      "description": "ELE11_LED7"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "ELE2",
+      "description": "ELE2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "ELE3",
+      "description": "ELE3"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "ELE4_LED0",
+      "description": "ELE4_LED0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "ELE5_LED1",
+      "description": "ELE5_LED1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "ELE6_LED2",
+      "description": "ELE6_LED2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "ELE7_LED3",
+      "description": "ELE7_LED3"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "ELE8_LED4",
+      "description": "ELE8_LED4"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "ELE9_LED5",
+      "description": "ELE9_LED5"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "REXT",
+      "description": "REXT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VREG",
+      "description": "VREG"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "~IRQ",
+      "description": "~IRQ"
+    }
+  ]
+}

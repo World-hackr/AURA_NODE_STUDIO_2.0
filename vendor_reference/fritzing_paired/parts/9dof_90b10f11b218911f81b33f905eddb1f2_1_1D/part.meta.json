@@ -1,0 +1,67 @@
+{
+  "moduleId": "9dof_90b10f11b218911f81b33f905eddb1f2_1_1D",
+  "title": "Flora LSM9DS0 9DOF",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\9dof_90b10f11b218911f81b33f905eddb1f2_1_1D.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\9dof_3b58599aa4ad4e3c565a9f017337e736_1_breadboard_1D.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\9dof_3b58599aa4ad4e3c565a9f017337e736_1_schematic_1D.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\9dof_3b58599aa4ad4e3c565a9f017337e736_1_pcb_1D.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\9dof_3b58599aa4ad4e3c565a9f017337e736_1_icon_1D.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    }
+  ]
+}

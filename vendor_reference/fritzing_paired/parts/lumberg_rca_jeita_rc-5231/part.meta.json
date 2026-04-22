@@ -1,0 +1,43 @@
+{
+  "moduleId": "lumberg_rca_jeita_rc-5231",
+  "title": "RCA",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\lumberg_rca_jeita_rc-5231.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lumberg_rca_jeita_rc-5231_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lumberg_rca_jeita_rc-5231_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\lumberg_rca_jeita_rc-5231_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RCA_LOCK.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "PIN",
+      "description": "PIN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SHELL",
+      "description": "SHELL"
+    }
+  ]
+}

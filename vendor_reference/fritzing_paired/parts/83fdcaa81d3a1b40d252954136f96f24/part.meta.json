@@ -1,0 +1,271 @@
+{
+  "moduleId": "83fdcaa81d3a1b40d252954136f96f24",
+  "title": "PIC 16F877A",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PIC_16F877A.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PIC_16F877A_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PIC_16F877A_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\PIC_16F877A_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PIC_16F877A_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RA2/AN2",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "RD2/PSP2",
+      "description": "pin 21"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RA3/AN3",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "RD3/PSP3",
+      "description": "pin 22"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RA4",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "RC4",
+      "description": "pin 23"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RA5/AN4/SS",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RE0/RD/AN5",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "RC5",
+      "description": "pin 24"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RE1/WR/AN6",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "RC6/TX/CK",
+      "description": "pin 25"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "RE2/CS/AN7",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "RC7/RX/DT",
+      "description": "pin 26"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "RD4/PSP4",
+      "description": "pin 27"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "RD5/PSP5",
+      "description": "pin 28"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "RD6/PSP6",
+      "description": "pin 29"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "RD7/PSP7",
+      "description": "pin 30"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "VSS",
+      "description": "pin 31"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "VDD",
+      "description": "pin 32"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "RB0/INT",
+      "description": "pin 33"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "RB1",
+      "description": "pin 34"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "RB2",
+      "description": "pin 35"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "RB3",
+      "description": "pin 36"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "RB4",
+      "description": "pin 37"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "RB5",
+      "description": "pin 38"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "RB6",
+      "description": "pin 39"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "RB7",
+      "description": "pin 40"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VDD",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VSS",
+      "description": "pin 12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "OSC1/CLKIN",
+      "description": "pin 13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OSC2/CLKOUT",
+      "description": "pin 14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RC0",
+      "description": "pin 15"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "RC1",
+      "description": "pin 16"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "RC2",
+      "description": "pin 17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "RC3",
+      "description": "pin 18"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "RD0/PSP0",
+      "description": "pin 19"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "RD1/PSP1",
+      "description": "pin 20"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "MCLR",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RA0/AN0",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RA1/AN1",
+      "description": "pin 3"
+    }
+  ]
+}

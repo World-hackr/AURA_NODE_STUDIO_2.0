@@ -1,0 +1,415 @@
+{
+  "moduleId": "adafruit_517427713e138326ebed767d65dbed61_1_BA",
+  "title": "24-Channel 12-bit PWM LED Driver - SPI",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_517427713e138326ebed767d65dbed61_1_BA.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_003244c6770b77d81979db1ba5f8f630_1_breadboard_BA.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_003244c6770b77d81979db1ba5f8f630_1_schematic_BA.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_003244c6770b77d81979db1ba5f8f630_1_pcb_BA.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_003244c6770b77d81979db1ba5f8f630_1_icon_BA.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 64,
+  "connectors": [
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector70",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector72",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector74",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector82",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector104",
+      "type": "female",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector111",
+      "type": "male",
+      "name": "+24V",
+      "description": "+24V"
+    },
+    {
+      "id": "connector112",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector108",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "DIN",
+      "description": "DIN"
+    },
+    {
+      "id": "connector109",
+      "type": "male",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector106",
+      "type": "male",
+      "name": "LAT",
+      "description": "LAT"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "LAT",
+      "description": "LAT"
+    },
+    {
+      "id": "connector107",
+      "type": "male",
+      "name": "OE",
+      "description": "OE"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "OE",
+      "description": "OE"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "PWM0",
+      "description": "PWM0"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "PWM1",
+      "description": "PWM1"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "PWM2",
+      "description": "PWM2"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "PWM3",
+      "description": "PWM3"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "PWM4",
+      "description": "PWM4"
+    },
+    {
+      "id": "connector69",
+      "type": "female",
+      "name": "PWM5",
+      "description": "PWM5"
+    },
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "PWM6",
+      "description": "PWM6"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "PWM7",
+      "description": "PWM7"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "PWM8",
+      "description": "PWM8"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "PWM9",
+      "description": "PWM9"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "PWM10",
+      "description": "PWM10"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "PWM11",
+      "description": "PWM11"
+    },
+    {
+      "id": "connector83",
+      "type": "female",
+      "name": "PWM12",
+      "description": "PWM12"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "PWM13",
+      "description": "PWM13"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "PWM14",
+      "description": "PWM14"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "PWM15",
+      "description": "PWM15"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "PWM16",
+      "description": "PWM16"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "PWM17",
+      "description": "PWM17"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "PWM18",
+      "description": "PWM18"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "PWM19",
+      "description": "PWM19"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "PWM20",
+      "description": "PWM20"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "PWM21",
+      "description": "PWM21"
+    },
+    {
+      "id": "connector103",
+      "type": "female",
+      "name": "PWM22",
+      "description": "PWM22"
+    },
+    {
+      "id": "connector105",
+      "type": "female",
+      "name": "PWM23",
+      "description": "PWM23"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector110",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector115",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

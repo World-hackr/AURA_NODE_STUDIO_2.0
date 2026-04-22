@@ -1,0 +1,74 @@
+{
+  "moduleId": "powerpushbutton_adafruit",
+  "title": "Adafruit Push-button Power Switch Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\powerbutton_adafruit.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\powerpushbutton_adafruit_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\powerpushbutton_adafruit_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\powerpushbutton_adafruit_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "IN",
+      "description": "(pin 1) Vcc IN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OUT",
+      "description": "(pin 2) OUT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "(pin 3) Ground"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "OFF",
+      "description": "(pin 4) off"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "IN",
+      "description": "(pin 5) Vcc IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OUT",
+      "description": "(pin 6) OUT"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "(pin 7) Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "OFF",
+      "description": "(pin 8) Off"
+    }
+  ]
+}

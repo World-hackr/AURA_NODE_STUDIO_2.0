@@ -1,0 +1,55 @@
+{
+  "moduleId": "RioRand_LM2596_94ce9810d0922bc731e2f315085d46ab_1",
+  "title": "RioRand LM2596",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\RioRand_LM2596_94ce9810d0922bc731e2f315085d46ab_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RioRand_LM2596_94ce9810d0922bc731e2f315085d46ab_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\RioRand_LM2596_94ce9810d0922bc731e2f315085d46ab_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\RioRand_LM2596_94ce9810d0922bc731e2f315085d46ab_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\RioRand_LM2596_94ce9810d0922bc731e2f315085d46ab_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "In+"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "In-"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "Out+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "Out-"
+    }
+  ]
+}

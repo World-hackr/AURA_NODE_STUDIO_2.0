@@ -1,0 +1,115 @@
+{
+  "moduleId": "RJ45_TRXCOM",
+  "title": "RJ45-TRXCOM",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\RJ45_TRXCOM.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RJ45_TRXCOM2_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\RJ45_TRXCOM2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\RJ45_TRXCOM2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\RJ45_TRXCOM2_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Transmit TD+",
+      "description": "(1)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Transmit TD-",
+      "description": "(2)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Receive RD+",
+      "description": "(3)"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Transmit CT",
+      "description": "(4)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Receive CT",
+      "description": "(5)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Receive RD-",
+      "description": "(6)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "n.c.",
+      "description": "(7)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CHS Ground",
+      "description": "(8)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Yellow Anode +",
+      "description": "(13)"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Yellow Kathode -",
+      "description": "(14)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Green Kathode -",
+      "description": "(11)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Green Anode +",
+      "description": "(12)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Sheeld",
+      "description": "Noch keine Beschreibung"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Sheeld",
+      "description": "Noch keine Beschreibung"
+    }
+  ]
+}

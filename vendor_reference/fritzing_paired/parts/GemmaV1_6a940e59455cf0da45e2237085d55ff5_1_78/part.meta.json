@@ -1,0 +1,67 @@
+{
+  "moduleId": "GemmaV1_6a940e59455cf0da45e2237085d55ff5_1_78",
+  "title": "GEMMA v1",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\GemmaV1_6a940e59455cf0da45e2237085d55ff5_1_78.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\GemmaV1_607e90af2e38de80832364fcbf281743_1_breadboard_78.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\GemmaV1_607e90af2e38de80832364fcbf281743_1_schematic_78.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\GemmaV1_607e90af2e38de80832364fcbf281743_1_pcb_78.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\GemmaV1_607e90af2e38de80832364fcbf281743_1_icon_78.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "B0",
+      "description": "B0"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "B1",
+      "description": "B1"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "B2",
+      "description": "B2"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "Vout",
+      "description": "Vout"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "moduleId": "5_DCPowerSupplyModuleID",
+  "title": "DC Power",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\power_supply_dc_5.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\power_supply_dc_5_schematic.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\power_supply_dc_5_schematic.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\power_supply_dc_5_schematic.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V+",
+      "description": "Positive Supply Voltage"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "V-",
+      "description": "Negative Supply Voltage"
+    }
+  ]
+}

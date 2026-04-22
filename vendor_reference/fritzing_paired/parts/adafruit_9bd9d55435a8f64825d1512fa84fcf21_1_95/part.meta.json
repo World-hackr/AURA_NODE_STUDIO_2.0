@@ -1,0 +1,91 @@
+{
+  "moduleId": "adafruit_9bd9d55435a8f64825d1512fa84fcf21_1_95",
+  "title": "OLED Color 0.96 inch 96x64 w microSD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_9bd9d55435a8f64825d1512fa84fcf21_1_95.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_e4bf0d37d328e81a8e6e0b1d043ffbb3_1_breadboard_95.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_e4bf0d37d328e81a8e6e0b1d043ffbb3_1_schematic_95.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_e4bf0d37d328e81a8e6e0b1d043ffbb3_1_pcb_95.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_e4bf0d37d328e81a8e6e0b1d043ffbb3_1_icon_95.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SD_CS",
+      "description": "SD_CS"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "OLED_CS",
+      "description": "OLED_CS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DC",
+      "description": "DC"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SD_MISO",
+      "description": "SD_MISO"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SD_CD",
+      "description": "SD_CD"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-Sensors-TRANSCHIPTC5747-",
+  "title": "TRANSCHIPTC5747",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-transchiptc5747-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_camera_sfv24r-2st_2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_camera_sfv24r-2st_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_camera_sfv24r-2st_2_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\sfv24r-2st_2.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "AVDD28",
+      "description": "AVDD28"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CLK_IN",
+      "description": "CLK_IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DOUT_0",
+      "description": "DOUT_0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DOUT_1",
+      "description": "DOUT_1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DOUT_2",
+      "description": "DOUT_2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DOUT_3",
+      "description": "DOUT_3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DOUT_4",
+      "description": "DOUT_4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DOUT_5",
+      "description": "DOUT_5"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DOUT_6",
+      "description": "DOUT_6"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "DOUT_7",
+      "description": "DOUT_7"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "DOUT_8",
+      "description": "DOUT_8"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "DVDD28",
+      "description": "DVDD28"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "LED_CTRL",
+      "description": "LED_CTRL"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PS1",
+      "description": "PS1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "PS2",
+      "description": "PS2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RESET_N",
+      "description": "RESET_N"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "SDIN",
+      "description": "SDIN"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SHIELD",
+      "description": "SHIELD"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VALIDH",
+      "description": "VALIDH"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VALIDV",
+      "description": "VALIDV"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCLK_OUT",
+      "description": "VCLK_OUT"
+    }
+  ]
+}

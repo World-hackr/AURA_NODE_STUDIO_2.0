@@ -1,0 +1,139 @@
+{
+  "moduleId": "SparkFun-DigitalIC-UM-FPU_V3_1-SO",
+  "title": "UM-FPU_V3_1",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-um-fpu_v3_1-so.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SOIC18-W_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_um-fpu_v3_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_soic18-w_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SOIC18-W_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "!MCLR",
+      "description": "!MCLR"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "AN0",
+      "description": "AN0"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "AN1",
+      "description": "AN1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "AVSS",
+      "description": "AVSS"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "EXTIN",
+      "description": "EXTIN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OSC1",
+      "description": "OSC1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OSC2",
+      "description": "OSC2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OUT0",
+      "description": "OUT0"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUT1",
+      "description": "OUT1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SERIN",
+      "description": "SERIN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SEROUT",
+      "description": "SEROUT"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SIN_SDA",
+      "description": "SIN_SDA"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SOUT_SCL",
+      "description": "SOUT_SCL"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

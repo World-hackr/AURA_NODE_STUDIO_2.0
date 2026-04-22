@@ -1,0 +1,67 @@
+{
+  "moduleId": "lm2574_dip_66badd838e8393d3c0dbcb8723600919_5",
+  "title": "LM2574 (DIP)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\lm2574_dip_66badd838e8393d3c0dbcb8723600919_5.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\lm2574_dip_56a9867e53c62f26ffbe744f45501ea0_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lm2574_dip_56a9867e53c62f26ffbe744f45501ea0_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lm2574_dip_56a9867e53c62f26ffbe744f45501ea0_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\lm2574_dip_56a9867e53c62f26ffbe744f45501ea0_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "FB"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "SIG_GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "EN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "PWR_GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "VIN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin7",
+      "description": "SW"
+    }
+  ]
+}

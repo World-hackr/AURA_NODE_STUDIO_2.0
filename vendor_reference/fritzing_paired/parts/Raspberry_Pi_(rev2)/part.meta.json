@@ -1,0 +1,187 @@
+{
+  "moduleId": "Raspberry Pi (rev2)",
+  "title": "Raspberry Pi rev2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Raspberry_Pi(rev2).fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\Raspberry_Pi_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\raspberry_pi_rev2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\raspberry_pi_rev2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Raspberry_Pi_rev2_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 26,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GPIO4",
+      "description": "GPIO Pin 4"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GPIO 14",
+      "description": "GPIO 14/Serial TXD"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GPIO 24",
+      "description": "GPIO 24"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GPIO 15",
+      "description": "GPIO 15/Serial RXD"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GPIO 10",
+      "description": "GPIO 10/MOSI"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GPIO 9",
+      "description": "GPIO 9/MISO"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GPIO 25",
+      "description": "GPIO 25"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GPIO 11",
+      "description": "GPIO 11/SCLK (Serial Clock)"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GPIO 8",
+      "description": "GPIO 8/CE0 (Cable Select Line 0)"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GPIO 7",
+      "description": "GPIO 7/CE1 (Cable Select Line 1)"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "3V3",
+      "description": "Output Voltage 3V3"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "5V",
+      "description": "Output Voltage 5V"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GPIO 17",
+      "description": "GPIO 17"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GIPO 2",
+      "description": "GIPO 2/SDA (Serial Data)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GPIO 18",
+      "description": "GPIO 18/PCM_CLK"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GIPO 3",
+      "description": "GIPO 3/SCL (Serial Clock)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GPIO 27",
+      "description": "GPIO 27"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GPIO 23",
+      "description": "GPIO 23"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GPIO 22",
+      "description": "GPIO 22"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "5V",
+      "description": "Output Voltage 5V"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "3V3",
+      "description": "Output Voltage 3V3"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

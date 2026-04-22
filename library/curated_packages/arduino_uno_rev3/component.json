@@ -1,0 +1,25 @@
+{
+  "schema": "aura.component_package.v1",
+  "metadata": {
+    "id": "pkg_arduino_uno_rev3",
+    "slug": "arduino_uno_rev3",
+    "name": "Arduino Uno Rev3",
+    "description": "Minimal reviewed beginner board package for early circuit generation.",
+    "category": "board",
+    "tags": ["arduino", "uno", "board", "microcontroller"]
+  },
+  "source": {
+    "kind": "manual",
+    "label": "Fresh restart seed package"
+  },
+  "pins": [
+    { "id": "D13", "label": "D13", "x": 130, "y": 20, "side": "top" },
+    { "id": "5V", "label": "5V", "x": 60, "y": 20, "side": "top" },
+    { "id": "GND", "label": "GND", "x": 75, "y": 20, "side": "top" }
+  ],
+  "sceneAsset": {
+    "path": "scene.svg",
+    "namedNodes": ["board_body", "header_top"]
+  },
+  "aliases": ["arduino uno", "uno", "uno r3"]
+}

@@ -1,0 +1,121 @@
+{
+  "moduleId": "Infineon_CY8CKIT-062S2-AI",
+  "title": "CY8CKIT-062S2-AI",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Infineon_CY8CKIT-062S2-AI.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Infineon_CY8CKIT-062S2-AI_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Infineon_CY8CKIT-062S2-AI_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Infineon_CY8CKIT-062S2-AI_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Infineon_CY8CKIT-062S2-AI_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "UART_RX",
+      "description": "UART_RX"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "UART_TX",
+      "description": "UART_TX"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "P9_0",
+      "description": "P9_0"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "P9_1",
+      "description": "P9_1"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "P9_2",
+      "description": "P9_2"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "P9_3",
+      "description": "P9_3"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "P9_4",
+      "description": "P9_4"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "P9_5",
+      "description": "P9_5"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "P9_6",
+      "description": "P9_6"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "P9_7",
+      "description": "P9_7"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

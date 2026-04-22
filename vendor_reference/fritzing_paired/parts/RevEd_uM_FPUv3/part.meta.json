@@ -1,0 +1,139 @@
+{
+  "moduleId": "RevEd_uM_FPUv3",
+  "title": "uM-FPUv3",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\uM_FPUv3.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\uM_FPUv3_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\uM_FPUv3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\uM_FPUv3_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_18_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "MCLR",
+      "description": "Master Clear / Reset"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "AN0",
+      "description": "Analogue Input 0"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "AN1",
+      "description": "Analogue Input 1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "CS",
+      "description": "Chip Select"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "EXTIN",
+      "description": "External Input"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OSC1",
+      "description": "Oscillator"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OSC2",
+      "description": "Oscillator"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Serial Out",
+      "description": "Serial Output"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Serial In",
+      "description": "Serial Input"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUT1",
+      "description": "Output 1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "I2C Clock / SPI Data Out",
+      "description": "When using I2C mode connect this pin to the 'I2C Clock' (SCL) signal of the controller. When using SPI mode this pin is used to read data from this device. Connect this pin to the 'SPI Data In' (DI/DIN/SI) pin or to a digital input pin of your controller"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "I2C Data / SPI Data In",
+      "description": "When using I2C mode connect this pin to the 'I2C Data' (SDA) signal of the controller. When using SPI mode this pin is used to write data into this device. Connect this pin to the 'SPI Data Out' (DO/DOUT/SO) pin or to a digital output pin of your controller"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OUT0",
+      "description": "Output 0"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "SPI clock",
+      "description": "When using SPI mode this pin is used to clock data in and data out of the device. Connect this pin to the 'SPI Clock' (SCK/SCLK) pin or to a digital output pin of your controller"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "AVSS - Analogue Ground",
+      "description": "Connect to the 0V (ground) of the analogue power supply"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "AVDD - Analogue Supply",
+      "description": "Connect to the positive rail of the analogue power supply"
+    }
+  ]
+}

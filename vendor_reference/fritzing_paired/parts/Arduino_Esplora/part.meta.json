@@ -1,0 +1,223 @@
+{
+  "moduleId": "Arduino_Esplora",
+  "title": "Arduino Esplora (Rev4)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Arduino_Esplora.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino_Esplora_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Arduino_Esplora_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Arduino_Esplora_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Arduino_Esplora_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 32,
+  "connectors": [
+    {
+      "id": "connector130",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector131",
+      "type": "female",
+      "name": "INA",
+      "description": "INA"
+    },
+    {
+      "id": "connector132",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector133",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector134",
+      "type": "female",
+      "name": "INB",
+      "description": "INB"
+    },
+    {
+      "id": "connector135",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector161",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector162",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector163",
+      "type": "female",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector164",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector165",
+      "type": "female",
+      "name": "D7/LCD_CS",
+      "description": "D7/LCD_CS"
+    },
+    {
+      "id": "connector166",
+      "type": "female",
+      "name": "IO8/CARD_CS",
+      "description": "IO8/CARD_CS"
+    },
+    {
+      "id": "connector167",
+      "type": "female",
+      "name": "IO11/DC_LCD",
+      "description": "IO11/DC_LCD"
+    },
+    {
+      "id": "connector168",
+      "type": "female",
+      "name": "RST_LCD",
+      "description": "RST_LCD"
+    },
+    {
+      "id": "connector169",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector170",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector171",
+      "type": "female",
+      "name": "11",
+      "description": "11"
+    },
+    {
+      "id": "connector172",
+      "type": "female",
+      "name": "12",
+      "description": "12"
+    },
+    {
+      "id": "connector173",
+      "type": "female",
+      "name": "13",
+      "description": "13"
+    },
+    {
+      "id": "connector174",
+      "type": "female",
+      "name": "14",
+      "description": "14"
+    },
+    {
+      "id": "connector175",
+      "type": "female",
+      "name": "15",
+      "description": "15"
+    },
+    {
+      "id": "connector176",
+      "type": "female",
+      "name": "16",
+      "description": "16"
+    },
+    {
+      "id": "connector177",
+      "type": "female",
+      "name": "17",
+      "description": "17"
+    },
+    {
+      "id": "connector178",
+      "type": "female",
+      "name": "18",
+      "description": "18"
+    },
+    {
+      "id": "connector179",
+      "type": "female",
+      "name": "19",
+      "description": "19"
+    },
+    {
+      "id": "connector180",
+      "type": "female",
+      "name": "20",
+      "description": "20"
+    },
+    {
+      "id": "connector196",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector197",
+      "type": "female",
+      "name": "OUT2",
+      "description": "OUT2"
+    },
+    {
+      "id": "connector198",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector199",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector200",
+      "type": "female",
+      "name": "OUT3",
+      "description": "OUT3"
+    },
+    {
+      "id": "connector201",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    }
+  ]
+}

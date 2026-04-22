@@ -1,0 +1,49 @@
+{
+  "moduleId": "4a531c3119db2e1fd301cb1292e45937_6B",
+  "title": "PIR sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\PIR_sensor__723e9e78d3d1bdc76f4badecd521c4cb_6B.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\PIR_sensor__723e9e78d3d1bdc76f4badecd521__icon__aced9f32f9eef22493673f7929d6b4b3_6B.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\PIR_sensor__723e9e78d3d1bdc76f4badecd521__breadboard__bde4d2a73b9c7784602c3b4f93cfb0ab_6B.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\PIR_sensor__723e9e78d3d1bdc76f4badecd521__schematic__4c698e9578a08c9d23d9979cd290117a_6B.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\PIR_sensor__723e9e78d3d1bdc76f4badecd521__pcb__d8c8c387833f6c2ed30ad08ccdccf662_6B.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD",
+      "description": "supply voltage"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SIG",
+      "description": "signal"
+    }
+  ]
+}

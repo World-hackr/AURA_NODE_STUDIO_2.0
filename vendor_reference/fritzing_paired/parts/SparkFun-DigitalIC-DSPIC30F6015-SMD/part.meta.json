@@ -1,0 +1,415 @@
+{
+  "moduleId": "SparkFun-DigitalIC-DSPIC30F6015-SMD",
+  "title": "DSPIC30F6015",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-dspic30f6015-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tqfp64_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_dspic30f6015_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_tqfp64_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_tqfp64_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 64,
+  "connectors": [
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "MCLR",
+      "description": "MCLR"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "OSC1",
+      "description": "OSC1"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "OSC2",
+      "description": "OSC2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "PGC",
+      "description": "PGC"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "PGD",
+      "description": "PGD"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "RB10",
+      "description": "RB10"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "RB11",
+      "description": "RB11"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "RB12",
+      "description": "RB12"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "RB13",
+      "description": "RB13"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "RB14",
+      "description": "RB14"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "RB15",
+      "description": "RB15"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "RB2",
+      "description": "RB2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "RB3",
+      "description": "RB3"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "RB4",
+      "description": "RB4"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RB5",
+      "description": "RB5"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "RB8",
+      "description": "RB8"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "RB9",
+      "description": "RB9"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "RC13",
+      "description": "RC13"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "RC14",
+      "description": "RC14"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "RD0",
+      "description": "RD0"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "RD10",
+      "description": "RD10"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "RD11",
+      "description": "RD11"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "RD1",
+      "description": "RD1"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "RD2",
+      "description": "RD2"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "RD3",
+      "description": "RD3"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "RD4",
+      "description": "RD4"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "RD5",
+      "description": "RD5"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "RD6",
+      "description": "RD6"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "RD7",
+      "description": "RD7"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "RD8",
+      "description": "RD8"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "RD9",
+      "description": "RD9"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "RE0",
+      "description": "RE0"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "RE1",
+      "description": "RE1"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "RE2",
+      "description": "RE2"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "RE3",
+      "description": "RE3"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "RE4",
+      "description": "RE4"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RE5",
+      "description": "RE5"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RE6",
+      "description": "RE6"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RE7",
+      "description": "RE7"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "RF0",
+      "description": "RF0"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "RF1",
+      "description": "RF1"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "RF6",
+      "description": "RF6"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "RG2",
+      "description": "RG2"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "RG3",
+      "description": "RG3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RG6",
+      "description": "RG6"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RG7",
+      "description": "RG7"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RG8",
+      "description": "RG8"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RG9",
+      "description": "RG9"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "RX1",
+      "description": "RX1"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "RX2",
+      "description": "RX2"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "TX1",
+      "description": "TX1"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "TX2",
+      "description": "TX2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VREF+_RB0",
+      "description": "VREF+_RB0"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VREF-_RB1",
+      "description": "VREF-_RB1"
+    }
+  ]
+}

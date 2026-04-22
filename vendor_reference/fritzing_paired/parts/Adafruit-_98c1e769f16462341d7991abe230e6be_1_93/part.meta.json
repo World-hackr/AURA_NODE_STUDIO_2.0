@@ -1,0 +1,139 @@
+{
+  "moduleId": "Adafruit-_98c1e769f16462341d7991abe230e6be_1_93",
+  "title": "Adafruit QT 3V to 5V Level Booster Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_98c1e769f16462341d7991abe230e6be_1_93.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_98c1e769f16462341d7991abe230e6be_1_breadboard_93.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_98c1e769f16462341d7991abe230e6be_1_schematic_93.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_98c1e769f16462341d7991abe230e6be_1_pcb_93.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_98c1e769f16462341d7991abe230e6be_1_icon_93.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "5.0V",
+      "description": "5.0V"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "SDA_5V",
+      "description": "SDA_5V"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "SDA_5V",
+      "description": "SDA_5V"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "SCL_5V",
+      "description": "SCL_5V"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "SCL_5V",
+      "description": "SCL_5V"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "SDA_LV",
+      "description": "SDA_LV"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "SDA_LV",
+      "description": "SDA_LV"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "SCL_LV",
+      "description": "SCL_LV"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "SCL_LV",
+      "description": "SCL_LV"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

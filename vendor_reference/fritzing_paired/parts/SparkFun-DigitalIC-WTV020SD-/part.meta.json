@@ -1,0 +1,151 @@
+{
+  "moduleId": "SparkFun-DigitalIC-WTV020SD-",
+  "title": "WTV020SD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-wtv020sd-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_ssop_20_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_wtv020sd-20s_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_ssop_20_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_ssop_20_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OSCI_P10",
+      "description": "OSCI_P10"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OSCO_P11",
+      "description": "OSCO_P11"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "P00",
+      "description": "P00"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "P01",
+      "description": "P01"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "P02",
+      "description": "P02"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "P03",
+      "description": "P03"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P04",
+      "description": "P04"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "P05",
+      "description": "P05"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "P06",
+      "description": "P06"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P07",
+      "description": "P07"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PAD_EQI",
+      "description": "PAD_EQI"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PAD_EQO",
+      "description": "PAD_EQO"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SPK_N",
+      "description": "SPK_N"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SPK_P",
+      "description": "SPK_P"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VPP",
+      "description": "VPP"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "moduleId": "5f931bf73fa1c23675a1f96fda160ee4_DC",
+  "title": "Vibration Motor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Vibration_Motor__3f75c41f09d3f86b002b144460c7f162_DC.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Vibration_Motor__3f75c41f09d3f86b002b144__icon__05caee9f226089ad3135dd4ccbd692cf_DC.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Vibration_Motor__3f75c41f09d3f86b002b144__breadboard__19c53cc90f71d0a687336675ca3f7ddb_DC.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Vibration_Motor__3f75c41f09d3f86b002b144__schematic__757bccd0775d42250ebe717274fbdcdf_DC.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Vibration_Motor__3f75c41f09d3f86b002b144__pcb__41daa6ef1dbea71070ebaef7061776c5_DC.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "POS",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "NEG",
+      "description": "no description yet"
+    }
+  ]
+}

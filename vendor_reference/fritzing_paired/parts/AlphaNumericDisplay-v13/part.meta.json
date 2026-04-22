@@ -1,0 +1,223 @@
+{
+  "moduleId": "AlphaNumericDisplay-v13",
+  "title": "Serial Alphanumeric Display Driver",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\AlphaNumericDisplay-v13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AlphaNumericDisplay-v13_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\AlphaNumericDisplay-v13_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\AlphaNumericDisplay-v13_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AlphaNumericDisplay-v13_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 32,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "SDI",
+      "description": "SDI"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "LE",
+      "description": "LE"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "OE",
+      "description": "OE"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "SDO",
+      "description": "SDO"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "LE",
+      "description": "LE"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "OE",
+      "description": "OE"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "H",
+      "description": "H"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "F",
+      "description": "F"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "G1",
+      "description": "G1"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "E",
+      "description": "E"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "N",
+      "description": "N"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "M",
+      "description": "M"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "13",
+      "description": "13"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "L",
+      "description": "L"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "G2",
+      "description": "G2"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "K",
+      "description": "K"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "J",
+      "description": "J"
+    }
+  ]
+}

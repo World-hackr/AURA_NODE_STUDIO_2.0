@@ -1,0 +1,337 @@
+{
+  "moduleId": "SparkFun-RF-GE865-",
+  "title": "GE865",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-ge865-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_ge865_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_ge865_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_ge865_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\GE865.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 51,
+  "connectors": [
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "ACD_IN1",
+      "description": "ACD_IN1"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "ADC_IN2",
+      "description": "ADC_IN2"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "ANTENNA",
+      "description": "ANTENNA"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "C103_TXD",
+      "description": "C103_TXD"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "C104_RXD",
+      "description": "C104_RXD"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "C105_RTS",
+      "description": "C105_RTS"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "C106_CTS",
+      "description": "C106_CTS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "C107_DSR",
+      "description": "C107_DSR"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "C108_DTR",
+      "description": "C108_DTR"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "C109_DCD",
+      "description": "C109_DCD"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "C125_RING",
+      "description": "C125_RING"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "DAC_OUT",
+      "description": "DAC_OUT"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "EAR+",
+      "description": "EAR+"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "EAR-",
+      "description": "EAR-"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GPIO_01",
+      "description": "GPIO_01"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GPIO_02_JDR",
+      "description": "GPIO_02_JDR"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GPIO_03",
+      "description": "GPIO_03"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "GPIO_04_TX_DISAB",
+      "description": "GPIO_04_TX_DISAB"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GPIO_05_RFTXMON",
+      "description": "GPIO_05_RFTXMON"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "GPIO_06_ALARM",
+      "description": "GPIO_06_ALARM"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "GPIO_07_BUZZER",
+      "description": "GPIO_07_BUZZER"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GPIO_08",
+      "description": "GPIO_08"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GPIO_09",
+      "description": "GPIO_09"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GPIO_10",
+      "description": "GPIO_10"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "MIC+",
+      "description": "MIC+"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "MIC-",
+      "description": "MIC-"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "ON_OFF",
+      "description": "ON_OFF"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PWRMON",
+      "description": "PWRMON"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RXD_AUX",
+      "description": "RXD_AUX"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "SIMCLK",
+      "description": "SIMCLK"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "SIMIN",
+      "description": "SIMIN"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "SIMIO",
+      "description": "SIMIO"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "SIMRST",
+      "description": "SIMRST"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "SIMVCC",
+      "description": "SIMVCC"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "STAT_LED",
+      "description": "STAT_LED"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "TXD_AUX",
+      "description": "TXD_AUX"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VBATT",
+      "description": "VBATT"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VBATT",
+      "description": "VBATT"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VBATT",
+      "description": "VBATT"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VRTC",
+      "description": "VRTC"
+    }
+  ]
+}

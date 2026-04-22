@@ -1,0 +1,91 @@
+{
+  "moduleId": "SparkFun-Displays-7-SEGMENT-DISPLAY-1_-RED-",
+  "title": "7-SEGMENT-DISPLAY-1_-RED",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-displays-7-segment-display-1_-red-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-displays_7-segment-1_pth_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-displays_7-segment-1__schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-displays_7-segment-1_pth_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-displays_7-segment-1_pth_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "A",
+      "description": "A"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B",
+      "description": "B"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "D",
+      "description": "D"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DP",
+      "description": "DP"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "E",
+      "description": "E"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "F",
+      "description": "F"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "G",
+      "description": "G"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "G1",
+      "description": "G1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "G2",
+      "description": "G2"
+    }
+  ]
+}

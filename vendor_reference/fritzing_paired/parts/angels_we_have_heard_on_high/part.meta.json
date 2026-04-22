@@ -1,0 +1,194 @@
+{
+  "moduleId": "angels_we_have_heard_on_high",
+  "title": "Artreeno",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\artreeno.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\artreeno.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\artreeno.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\artreeno.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "aref",
+      "description": "aref"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND1",
+      "description": "gnd"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "digital13",
+      "description": "digital13"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "digital12",
+      "description": "digital12"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "digital11",
+      "description": "digital11"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "digital10",
+      "description": "digital10"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "digital9",
+      "description": "digital9"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "digital8",
+      "description": "digital8"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "digital7",
+      "description": "digital7"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "digital6",
+      "description": "digital6"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "digital5",
+      "description": "digital5"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "digital4",
+      "description": "digital4"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "digital3",
+      "description": "digital3"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "digital2",
+      "description": "digital2"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "digital1",
+      "description": "digital1"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "digital0",
+      "description": "digital0"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "reset",
+      "description": "Reset"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "GND3",
+      "description": "GND3"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "Vin",
+      "description": "Vin"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "analog0",
+      "description": "analog0"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "analog1",
+      "description": "analog1"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "analog2",
+      "description": "analog2"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "analog3",
+      "description": "analog3"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "analog4",
+      "description": "analog4"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "analog5",
+      "description": "analog5"
+    }
+  ]
+}

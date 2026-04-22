@@ -1,0 +1,145 @@
+{
+  "moduleId": "SparkFun-Sensors-IDG500-",
+  "title": "IDG500",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-idg500-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_sparkfun_idg500_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_idg500-1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_sparkfun_idg500_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_sparkfun_idg500_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 19,
+  "connectors": [
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "AZ",
+      "description": "AZ"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CPOUT",
+      "description": "CPOUT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "PTATS",
+      "description": "PTATS"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VREF",
+      "description": "VREF"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "X4.5IN",
+      "description": "X4.5IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "X4.5OUT",
+      "description": "X4.5OUT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "XAGC",
+      "description": "XAGC"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "XOUT",
+      "description": "XOUT"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Y4.5IN",
+      "description": "Y4.5IN"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Y4.5OUT",
+      "description": "Y4.5OUT"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "YAGC",
+      "description": "YAGC"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "YOUT",
+      "description": "YOUT"
+    }
+  ]
+}

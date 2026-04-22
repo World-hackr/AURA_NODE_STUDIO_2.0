@@ -1,0 +1,43 @@
+{
+  "moduleId": "LilyPad_LED-v14",
+  "title": "LilyPad LED",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\LilyPad_LED-v14.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LilyPad_LED-v14_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\LilyPad_LED-v14_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LilyPad_LED-v14_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LilyPad_LED-v14_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "+",
+      "description": "+"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "-",
+      "description": "-"
+    }
+  ]
+}

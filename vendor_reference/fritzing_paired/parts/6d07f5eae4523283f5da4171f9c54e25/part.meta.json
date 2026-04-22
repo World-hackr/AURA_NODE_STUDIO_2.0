@@ -1,0 +1,32 @@
+{
+  "moduleId": "6d07f5eae4523283f5da4171f9c54e25",
+  "title": "Antenna",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Antenna.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\antenna.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\antenna.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_1_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 1,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "antenna lead",
+      "description": "antenna lead"
+    }
+  ]
+}

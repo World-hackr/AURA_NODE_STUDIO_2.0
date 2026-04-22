@@ -1,0 +1,247 @@
+{
+  "moduleId": "Heltec_WiFi_LoRa_32_V2",
+  "title": "Heltec WiFi LoRa 32 V2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Heltec_WiFi_LoRa_32_V2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Heltec_WiFi_LoRa_32_V2_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Heltec_WiFi_LoRa_32_V2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Heltec_WiFi_LoRa_32_V2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Heltec_WiFi_LoRa_32_V2_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 36,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "Pin 21, SDA, GPIO21, V_SPI_HD"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "Pin 13, GPIO13, ADC2_4, Touch4"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 3",
+      "description": "Pin 12, GPIO12, ADC2_5, Touch5"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "Pin 14, GPIO14, ADC2_6, Touch6, LoRa_RST"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 5",
+      "description": "Pin 27, GPIO27, ADC2_7, Touch7, LoRa_MOSI"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 6",
+      "description": "Pin 26, GPIO26, ADC2_9, DAC1, LoRa_IRQ"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 7",
+      "description": "Pin 25, GPIO25, ADC2_8, DAC2, LED"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 8",
+      "description": "Pin 33, XTAL32, GPIO33, ADC1_5, Touch9"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 9",
+      "description": "Pin 32, XTAL32, GPIO32, ADC1_4, Touch8"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 10",
+      "description": "Pin 35, GPIO35, ADC1_7, LoRa DIO1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 11",
+      "description": "Pin 34, GPIO34, ADC1_6, LoRa DIO2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin 12",
+      "description": "Pin 39, GPIO39, ADC1_3"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin 13",
+      "description": "Pin 38, GPIO38, ADC1_2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin 14",
+      "description": "Pin 37, GPIO37, ADC1_1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin 15",
+      "description": "Pin 36, GPIO36, ADC1_0"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin 16",
+      "description": "3V3"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin 17",
+      "description": "3V3"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin 20",
+      "description": "5V"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin 21",
+      "description": "Vext"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin 22",
+      "description": "Vext"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin 23",
+      "description": "Rx, GPIO3, U0_RxD"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin 24",
+      "description": "Tx, GPIO1, U0_TxD"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin 25",
+      "description": "RST"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "pin 26",
+      "description": "Pin 0. GPIO0, ADC2_1, Touch1, PRG Button"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "pin 27",
+      "description": "Pin 22, SCL, GPIO22, V_SPI_WP, U0_RTS"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "pin 28",
+      "description": "Pin 19, GPIO19, V_SPI_Q, U0_CTS, LoRa_MISO"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "pin 29",
+      "description": "Pin 23, GPIO23, V_SPI_D"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "pin 30",
+      "description": "Pin 18, GPIO18, V_SPI_CLK, LoRa_CS"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "pin 31",
+      "description": "Pin 5, GPIO5, V_SPI_CSO, LoRa_SCK"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "pin 32",
+      "description": "Pin 15, GPIO15, ADC2_3, HSPI_CSO, Touch3, OLED_SCL"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "pin 33",
+      "description": "Pin 2, GPIO2, ADC2_2, HSPI_WP, Touch2"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "pin 34",
+      "description": "Pin 4, GPIO4, ADC2_0, HSPI_HD, Touch0, OLED_SDA"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "pin 35",
+      "description": "Pin 17, GPIO17, U2_TxD"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "pin 36",
+      "description": "Pin 16, GPIO16, U2_RxD, OLED_RST"
+    }
+  ]
+}

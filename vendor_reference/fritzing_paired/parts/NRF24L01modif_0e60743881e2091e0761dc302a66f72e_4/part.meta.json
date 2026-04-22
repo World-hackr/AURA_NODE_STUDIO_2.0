@@ -1,0 +1,69 @@
+{
+  "moduleId": "NRF24L01modif_0e60743881e2091e0761dc302a66f72e_4",
+  "title": "NRF24L01",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\NRF24L01modif_0e60743881e2091e0761dc302a66f72e_4.fzp",
+  "copiedViews": [],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/NRF24L01modif_0e60743881e2091e0761dc302a66f72e_4_breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "schematic/NRF24L01modif_0e60743881e2091e0761dc302a66f72e_4_schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "pcb/NRF24L01modif_0e60743881e2091e0761dc302a66f72e_4_pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "icon/NRF24L01modif_0e60743881e2091e0761dc302a66f72e_4_icon.svg"
+    }
+  ],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "CSN",
+      "description": "CSN"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "CE",
+      "description": "CE"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "moduleId": "7658504bdcb62998a7281b0d1baaac37",
+  "title": "Arduino Ethernet Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Arduino Ethernet Shield.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\Arduino_Ethernet_Shield__1f9aa78a3d98991.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\Arduino_Ethernet_Shield__1f9aa78a3d98991.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\Arduino_Ethernet_Shield__1f9aa78a3d98991.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\pcb-arduino-diecimila-fp.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "D0RX",
+      "description": "Digital I/O 0 / Serial Recieve"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "D8",
+      "description": "Digital I/O 8"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "RST",
+      "description": "Reset"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "D7",
+      "description": "Digital I/O 7"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "3V3",
+      "description": "+3.3V DC"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "D6",
+      "description": "Digital I/O 6"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5 V Regulated DC"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "VIN",
+      "description": "DC Supply Voltage Input"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "A0",
+      "description": "Analog Input 0"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "A1",
+      "description": "Analog Input 1"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "A2",
+      "description": "Analog Input 2"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "A3",
+      "description": "Analog Input 3"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "A4",
+      "description": "Analog Input 4"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "A5",
+      "description": "Analog Input 5"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "aref",
+      "description": "aref"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "D5",
+      "description": "Digital I/O 5"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "SCK",
+      "description": "SPI clock"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "SS",
+      "description": "SPI slave select"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "MISO",
+      "description": "SPI master in, slave out"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "D3",
+      "description": "Digital I/O 3"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "MOSI",
+      "description": "SPI master out, slave in"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "D2",
+      "description": "Digital I/O 2"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "SS",
+      "description": "SPI slave select"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "D9",
+      "description": "Digital I/O 9"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "D1TX",
+      "description": "Digital I/O 1 / Serial Transmit"
+    }
+  ]
+}

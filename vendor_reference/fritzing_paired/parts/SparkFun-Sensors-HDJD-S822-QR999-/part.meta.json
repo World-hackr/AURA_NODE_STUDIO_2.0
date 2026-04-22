@@ -1,0 +1,109 @@
+{
+  "moduleId": "SparkFun-Sensors-HDJD-S822-QR999-",
+  "title": "HDJD-S822-QR999",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-hdjd-s822-qr999-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_qfn-16_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_hdjd-s822-qr999_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_qfn-16_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\HDJD-S822-QR999.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 13,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GSBLUE0",
+      "description": "GSBLUE0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GSBLUE1",
+      "description": "GSBLUE1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GSGRN0",
+      "description": "GSGRN0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GSGRN1",
+      "description": "GSGRN1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GSRED0",
+      "description": "GSRED0"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GSRED1",
+      "description": "GSRED1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "TEST_EN",
+      "description": "TEST_EN"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VBOUT",
+      "description": "VBOUT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VDD3",
+      "description": "VDD3"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VDD5",
+      "description": "VDD5"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VGOUT",
+      "description": "VGOUT"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VROUT",
+      "description": "VROUT"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "moduleId": "SparkFun_BME280_Breakout",
+  "title": "BME280 Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SparkFun_BME280_Breakout.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun_BME280_Breakout_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SparkFun_BME280_Breakout_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SparkFun_BME280_Breakout_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun_BME280_Breakout_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "SDI/SDA",
+      "description": "SDI/SDA"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "SCK/SCL",
+      "description": "SCK/SCL"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "!CS",
+      "description": "!CS"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "SDI/SDA",
+      "description": "SDI/SDA"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "SDO/ADR",
+      "description": "SDO/ADR"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "SCK/SCL",
+      "description": "SCK/SCL"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

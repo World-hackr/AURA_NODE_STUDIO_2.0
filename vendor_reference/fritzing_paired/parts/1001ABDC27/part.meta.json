@@ -1,0 +1,49 @@
+{
+  "moduleId": "1001ABDC27",
+  "title": "Basic FET P-Channel",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\basic_fet_p.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\mosfet_p_channel_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\mosfet_p_channel.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\fet_p.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\TO-220.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "gate",
+      "description": "gate"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "drain",
+      "description": "drain"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "source",
+      "description": "source"
+    }
+  ]
+}

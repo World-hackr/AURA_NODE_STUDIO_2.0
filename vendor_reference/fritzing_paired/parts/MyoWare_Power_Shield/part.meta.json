@@ -1,0 +1,67 @@
+{
+  "moduleId": "MyoWare_Power_Shield",
+  "title": "MyoWare Power Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\MyoWare_Power_Shield.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MyoWare_Power_Shield_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\MyoWare_Power_Shield_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\MyoWare_Power_Shield_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MyoWare_Power_Shield_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "RAW",
+      "description": "RAW"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "SHLD",
+      "description": "SHLD"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SIG",
+      "description": "SIG"
+    }
+  ]
+}

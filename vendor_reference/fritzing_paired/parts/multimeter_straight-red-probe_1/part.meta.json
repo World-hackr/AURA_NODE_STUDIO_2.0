@@ -1,0 +1,49 @@
+{
+  "moduleId": "multimeter_straight-red-probe_1",
+  "title": "Multimeter straight red probe",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\multimeter_straight-red-probe_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\multimeter_straight-red-probe_1_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\multimeter_straight-red-probe_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\multimeter_straight-red-probe_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\multimeter_straight-red-probe_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Probe tip",
+      "description": "Red probe tip"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Probe meter end",
+      "description": "Probe meter end"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "Probe tip 2",
+      "description": "Red probe tip"
+    }
+  ]
+}

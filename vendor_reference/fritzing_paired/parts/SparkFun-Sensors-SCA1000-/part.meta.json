@@ -1,0 +1,103 @@
+{
+  "moduleId": "SparkFun-Sensors-SCA1000-",
+  "title": "SCA1000",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-sca1000-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_sca1000_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_sca1000_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_sca1000_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_sca1000_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CSB",
+      "description": "CSB"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "N_C",
+      "description": "N_C"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "N_C",
+      "description": "N_C"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "OUTX",
+      "description": "OUTX"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUTY",
+      "description": "OUTY"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "ST1",
+      "description": "ST1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "ST2",
+      "description": "ST2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

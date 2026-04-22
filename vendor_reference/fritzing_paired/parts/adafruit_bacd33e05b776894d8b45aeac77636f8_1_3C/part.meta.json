@@ -1,0 +1,79 @@
+{
+  "moduleId": "adafruit_bacd33e05b776894d8b45aeac77636f8_1_3C",
+  "title": "Adafruit Thermocouple Amplifier MAX31855",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_bacd33e05b776894d8b45aeac77636f8_1_3C.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_bacd33e05b776894d8b45aeac77636f8_4_breadboard_3C.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_bacd33e05b776894d8b45aeac77636f8_4_schematic_3C.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_bacd33e05b776894d8b45aeac77636f8_4_pcb_3C.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_bacd33e05b776894d8b45aeac77636f8_4_icon_3C.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "+3V3",
+      "description": "+3V3"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "DO",
+      "description": "DO"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "THERMO-",
+      "description": "THERMO-"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "THERMO+",
+      "description": "THERMO+"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

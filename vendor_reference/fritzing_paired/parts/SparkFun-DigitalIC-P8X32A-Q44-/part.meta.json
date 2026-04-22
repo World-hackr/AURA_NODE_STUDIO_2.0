@@ -1,0 +1,295 @@
+{
+  "moduleId": "SparkFun-DigitalIC-P8X32A-Q44-",
+  "title": "P8X32A-Q44",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-p8x32a-q44-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_p8x32a-q44_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_4vdd4vss_mix_10_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_p8x32a-q44_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_p8x32a-q44_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 44,
+  "connectors": [
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P VDD",
+      "description": "P VDD"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "P VDD",
+      "description": "P VDD"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "P VDD",
+      "description": "P VDD"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "P VDD",
+      "description": "P VDD"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "P VSS",
+      "description": "P VSS"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "P VSS",
+      "description": "P VSS"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "P VSS",
+      "description": "P VSS"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "P VSS",
+      "description": "P VSS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "P8X32A-Q44 BOE_",
+      "description": "P8X32A-Q44 BOE_"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "P8X32A-Q44 P0",
+      "description": "P8X32A-Q44 P0"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "P8X32A-Q44 P1",
+      "description": "P8X32A-Q44 P1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "P8X32A-Q44 P10",
+      "description": "P8X32A-Q44 P10"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "P8X32A-Q44 P11",
+      "description": "P8X32A-Q44 P11"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "P8X32A-Q44 P12",
+      "description": "P8X32A-Q44 P12"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "P8X32A-Q44 P13",
+      "description": "P8X32A-Q44 P13"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "P8X32A-Q44 P14",
+      "description": "P8X32A-Q44 P14"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "P8X32A-Q44 P15",
+      "description": "P8X32A-Q44 P15"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "P8X32A-Q44 P16",
+      "description": "P8X32A-Q44 P16"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "P8X32A-Q44 P17",
+      "description": "P8X32A-Q44 P17"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "P8X32A-Q44 P18",
+      "description": "P8X32A-Q44 P18"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "P8X32A-Q44 P19",
+      "description": "P8X32A-Q44 P19"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "P8X32A-Q44 P2",
+      "description": "P8X32A-Q44 P2"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "P8X32A-Q44 P20",
+      "description": "P8X32A-Q44 P20"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "P8X32A-Q44 P21",
+      "description": "P8X32A-Q44 P21"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "P8X32A-Q44 P22",
+      "description": "P8X32A-Q44 P22"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "P8X32A-Q44 P23",
+      "description": "P8X32A-Q44 P23"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "P8X32A-Q44 P24",
+      "description": "P8X32A-Q44 P24"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "P8X32A-Q44 P25",
+      "description": "P8X32A-Q44 P25"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "P8X32A-Q44 P26",
+      "description": "P8X32A-Q44 P26"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "P8X32A-Q44 P27",
+      "description": "P8X32A-Q44 P27"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "P8X32A-Q44 P28",
+      "description": "P8X32A-Q44 P28"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "P8X32A-Q44 P29",
+      "description": "P8X32A-Q44 P29"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "P8X32A-Q44 P3",
+      "description": "P8X32A-Q44 P3"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "P8X32A-Q44 P30",
+      "description": "P8X32A-Q44 P30"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "P8X32A-Q44 P31",
+      "description": "P8X32A-Q44 P31"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "P8X32A-Q44 P4",
+      "description": "P8X32A-Q44 P4"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "P8X32A-Q44 P5",
+      "description": "P8X32A-Q44 P5"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "P8X32A-Q44 P6",
+      "description": "P8X32A-Q44 P6"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "P8X32A-Q44 P7",
+      "description": "P8X32A-Q44 P7"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "P8X32A-Q44 P8",
+      "description": "P8X32A-Q44 P8"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P8X32A-Q44 P9",
+      "description": "P8X32A-Q44 P9"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P8X32A-Q44 RES_",
+      "description": "P8X32A-Q44 RES_"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "P8X32A-Q44 XI",
+      "description": "P8X32A-Q44 XI"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "P8X32A-Q44 XO",
+      "description": "P8X32A-Q44 XO"
+    }
+  ]
+}

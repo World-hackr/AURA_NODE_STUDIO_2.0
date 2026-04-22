@@ -1,0 +1,267 @@
+{
+  "moduleId": "zero_81699322f82a623afbd08d93176de99b_1",
+  "title": "Raspberry Pi Zero",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\zero_RPi_1.fzp",
+  "copiedViews": [],
+  "missingViews": [
+    {
+      "view": "icon",
+      "source": "icon/zero_81699322f82a623afbd08d93176de99b_1_icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "breadboard/zero_81699322f82a623afbd08d93176de99b_1_breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "schematic/zero_81699322f82a623afbd08d93176de99b_1_schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "pcb/zero_81699322f82a623afbd08d93176de99b_1_pcb.svg"
+    }
+  ],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "3V3 Power"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "5V Power"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 3",
+      "description": "BCM 2 (SDA)"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "5V Power"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 5",
+      "description": "BCM 3 (SCL)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 6",
+      "description": "Ground"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 7",
+      "description": "BCM 4 (GPCLK0)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 8",
+      "description": "BCM 14 (TXD)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 9",
+      "description": "Ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 10",
+      "description": "BCM 15 (RXD)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 11",
+      "description": "BCM 17"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin 12",
+      "description": "BCM 18 (PWM0)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin 13",
+      "description": "BCM 27"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin 14",
+      "description": "Gound"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin 15",
+      "description": "BCM 22"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin 16",
+      "description": "BCM 23"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin 17",
+      "description": "3V3 Power"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin 18",
+      "description": "BCM 24"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin 19",
+      "description": "BCM 10 (MOSI)"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin 20",
+      "description": "Gound"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin 21",
+      "description": "BCM 9 (MISO)"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin 22",
+      "description": "BCM 25"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin 23",
+      "description": "BCM 11 (SCLK)"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin 24",
+      "description": "BCM 8 (CE0)"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin 25",
+      "description": "Gound"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "pin 26",
+      "description": "BCM 7 (CE1)"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "pin 27",
+      "description": "BCM 0 (ID_SD)"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "pin 28",
+      "description": "BCM 1 (ID_SC)"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "pin 29",
+      "description": "BCM 5"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "pin 30",
+      "description": "Ground"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "pin 31",
+      "description": "BCM 6"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "pin 32",
+      "description": "BCM 12 (PWM0)"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "pin 33",
+      "description": "BCM 13 (PWM1)"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "pin 34",
+      "description": "Ground"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "pin 35",
+      "description": "BCM 19 (MISO)"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "pin 36",
+      "description": "BCM 16"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "pin 37",
+      "description": "BCM 26"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "pin 38",
+      "description": "BCM 20 (MOSI)"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "pin 39",
+      "description": "Ground"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "pin 40",
+      "description": "BCM 21 (SCLK)"
+    }
+  ]
+}

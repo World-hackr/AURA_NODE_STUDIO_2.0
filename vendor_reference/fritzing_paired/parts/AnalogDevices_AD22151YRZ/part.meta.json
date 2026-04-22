@@ -1,0 +1,79 @@
+{
+  "moduleId": "AnalogDevices_AD22151YRZ",
+  "title": "AD22151 - Linear Output Magnetic Field Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ADI_AD22151.AnalogDevices_AD22151YRZ.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AD22151.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\AD22151.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\AD22151CMOD.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AD22151.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "TC1",
+      "description": "TC1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "TC2",
+      "description": "TC2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "TC3",
+      "description": "TC3"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OUTPUT",
+      "description": "OUTPUT"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GAIN",
+      "description": "GAIN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "REF",
+      "description": "REF"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

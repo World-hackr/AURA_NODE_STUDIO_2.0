@@ -1,0 +1,103 @@
+{
+  "moduleId": "WIZ820io_fix",
+  "title": "WIZ820io",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\WIZ820io.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WIZ820io_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\WIZ820io_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\WIZ820io_fix_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WIZ820io_breadboard.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 12,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SPI Clock input"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "nSS",
+      "description": "Active LOW SPI chip select"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "nINT",
+      "description": "Active Low Interrupt output"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "MISO",
+      "description": "SPI Master Input Slave output"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "nRESET",
+      "description": "Low active reset input"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "PWDN",
+      "description": "Optioanl Power Down Input"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VIN",
+      "description": "3.3V Power Input"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VIN",
+      "description": "3.3V Power Input"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "MOSI",
+      "description": "SPI Master output slave input"
+    }
+  ]
+}

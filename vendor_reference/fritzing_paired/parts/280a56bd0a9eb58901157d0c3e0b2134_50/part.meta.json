@@ -1,0 +1,49 @@
+{
+  "moduleId": "280a56bd0a9eb58901157d0c3e0b2134_50",
+  "title": "AM2302 Humidity and Temperature Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\AM2302_Humidity_and_Temperature_Sensor__cafbd7d627e73316b9803d750df13435_50.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\AM2302_Humidity_and_Temperature_Sensor____icon__307f99c98df4dac11d0252590bf789bd_50.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\AM2302_Humidity_and_Temperature_Sensor____breadboard__6b3583b65223c97f54c730db5c4bd9f6_50.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\AM2302_Humidity_and_Temperature_Sensor____schematic__336fffabeafeb1adc98d179778748217_50.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\AM2302_Humidity_and_Temperature_Sensor____pcb__9c268c2c521ede51978cd4e3b9b39a74_50.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD",
+      "description": "supply voltage (3-5.5V)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DATA",
+      "description": "Data signal"
+    }
+  ]
+}

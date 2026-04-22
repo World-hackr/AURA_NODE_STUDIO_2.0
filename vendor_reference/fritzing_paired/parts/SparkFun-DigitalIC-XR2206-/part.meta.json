@@ -1,0 +1,126 @@
+{
+  "moduleId": "SparkFun-DigitalIC-XR2206-",
+  "title": "XR2206",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-xr2206-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_xr2206_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil16_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_16_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_16_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "AMSI",
+      "description": "AMSI"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "BIAS",
+      "description": "BIAS"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "FSKI",
+      "description": "FSKI"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "MO",
+      "description": "MO"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "STO",
+      "description": "STO"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SYMA1",
+      "description": "SYMA1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "SYMA2",
+      "description": "SYMA2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "SYNCO",
+      "description": "SYNCO"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "TC1",
+      "description": "TC1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TC2",
+      "description": "TC2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "TR1",
+      "description": "TR1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TR2",
+      "description": "TR2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "WAVEA1",
+      "description": "WAVEA1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "WAVEA2",
+      "description": "WAVEA2"
+    }
+  ]
+}

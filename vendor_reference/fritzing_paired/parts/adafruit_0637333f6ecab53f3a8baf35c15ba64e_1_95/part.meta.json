@@ -1,0 +1,91 @@
+{
+  "moduleId": "adafruit_0637333f6ecab53f3a8baf35c15ba64e_1_95",
+  "title": "TFT 2.2 inch 320x240 w microSD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_0637333f6ecab53f3a8baf35c15ba64e_1_95.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_f3e757ae0bd48b81fb5dfb2a02970041_1_breadboard_95.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_f3e757ae0bd48b81fb5dfb2a02970041_1_schematic_95.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_f3e757ae0bd48b81fb5dfb2a02970041_1_pcb_95.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_f3e757ae0bd48b81fb5dfb2a02970041_1_icon_95.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "BACKLIGHT",
+      "description": "BACKLIGHT"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "LCDCS",
+      "description": "LCDCS"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SDCS",
+      "description": "SDCS"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DC",
+      "description": "DC"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

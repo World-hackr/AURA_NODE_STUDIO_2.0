@@ -1,0 +1,24 @@
+{
+  "schema": "aura.library_index.v1",
+  "packages": [
+    {
+      "packageId": "pkg_arduino_uno_rev3",
+      "slug": "arduino_uno_rev3",
+      "name": "Arduino Uno Rev3",
+      "category": "board",
+      "path": "library/curated_packages/arduino_uno_rev3",
+      "aliases": ["arduino uno", "uno", "uno r3"],
+      "status": "trusted"
+    },
+    {
+      "packageId": "pkg_led_red_5mm",
+      "slug": "led_red_5mm",
+      "name": "Red LED 5mm",
+      "category": "indicator",
+      "path": "library/curated_packages/led_red_5mm",
+      "runtimeProfileId": "light_output",
+      "aliases": ["red led", "5mm led"],
+      "status": "trusted"
+    }
+  ]
+}

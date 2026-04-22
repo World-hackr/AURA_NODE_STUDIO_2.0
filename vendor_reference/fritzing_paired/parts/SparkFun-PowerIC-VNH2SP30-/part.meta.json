@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-PowerIC-VNH2SP30-",
+  "title": "VNH2SP30",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-vnh2sp30-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_vnh2sp30_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_vnh2sp30_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_vnh2sp30_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Dual_VNH2SP30_Motor_Driver_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "EN_DIAA",
+      "description": "EN_DIAA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "EN_DIAB",
+      "description": "EN_DIAB"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GNDA",
+      "description": "GNDA"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "GNDA",
+      "description": "GNDA"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GNDA",
+      "description": "GNDA"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GNDB",
+      "description": "GNDB"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GNDB",
+      "description": "GNDB"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "GNDB",
+      "description": "GNDB"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "INA",
+      "description": "INA"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "INB",
+      "description": "INB"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "OUTA",
+      "description": "OUTA"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "OUTA",
+      "description": "OUTA"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "OUTA",
+      "description": "OUTA"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUTA",
+      "description": "OUTA"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "OUTB",
+      "description": "OUTB"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "OUTB",
+      "description": "OUTB"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "OUTB",
+      "description": "OUTB"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "OUTB",
+      "description": "OUTB"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PWM",
+      "description": "PWM"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

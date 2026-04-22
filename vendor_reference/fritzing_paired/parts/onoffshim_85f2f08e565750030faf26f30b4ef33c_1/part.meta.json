@@ -1,0 +1,115 @@
+{
+  "moduleId": "onoffshim_85f2f08e565750030faf26f30b4ef33c_1",
+  "title": "Pimoroni OnOffShim",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\onoffshim_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\onoffshim_1.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\onoffshim_1.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\onoffshim_1.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\onoffshim_1.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "3V3 Power"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "5V Power"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 3",
+      "description": "BCM 2 (SDA)"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin 4",
+      "description": "5V Power"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 5",
+      "description": "BCM 3 (SCL)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 6",
+      "description": "Ground"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 7",
+      "description": "PI_SHUTDOWN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 8",
+      "description": "BCM 14 (NOT USED)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin 9",
+      "description": "Ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin 10",
+      "description": "BCM 15 (NOT USED)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin 11",
+      "description": "PI_POWER_BTN"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin 12",
+      "description": "BCM 18 (NOT USED)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Button pin1",
+      "description": "Button pin1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Button pin2",
+      "description": "Button pin2"
+    }
+  ]
+}

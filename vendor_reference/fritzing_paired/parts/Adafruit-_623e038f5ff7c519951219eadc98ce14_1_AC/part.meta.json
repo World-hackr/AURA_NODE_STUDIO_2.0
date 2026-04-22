@@ -1,0 +1,115 @@
+{
+  "moduleId": "Adafruit-_623e038f5ff7c519951219eadc98ce14_1_AC",
+  "title": "Adafruit TS3USB30 USB 1 to 2 Switch",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_623e038f5ff7c519951219eadc98ce14_1_AC.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_623e038f5ff7c519951219eadc98ce14_1_breadboard_AC.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_623e038f5ff7c519951219eadc98ce14_1_schematic_AC.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_623e038f5ff7c519951219eadc98ce14_1_pcb_AC.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_623e038f5ff7c519951219eadc98ce14_1_icon_AC.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "!OE",
+      "description": "!OE"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "D+1",
+      "description": "D+1"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "D-1",
+      "description": "D-1"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "DMH",
+      "description": "DMH"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "S",
+      "description": "S"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "D+2",
+      "description": "D+2"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "D-2",
+      "description": "D-2"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "DPH",
+      "description": "DPH"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "moduleId": "FloraCompass_099e3fc1e6a7840eea152ac0bd558ad4_1_E3",
+  "title": "Flora LSM303 Compass+Accel",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\FloraCompass_099e3fc1e6a7840eea152ac0bd558ad4_1_E3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\FloraCompass_9062cba96964aa53a35a0d071d3ecd0f_1_breadboard_E3.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\FloraCompass_9062cba96964aa53a35a0d071d3ecd0f_1_schematic_E3.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\FloraCompass_9062cba96964aa53a35a0d071d3ecd0f_1_pcb_E3.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\FloraCompass_9062cba96964aa53a35a0d071d3ecd0f_1_icon_E3.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    }
+  ]
+}

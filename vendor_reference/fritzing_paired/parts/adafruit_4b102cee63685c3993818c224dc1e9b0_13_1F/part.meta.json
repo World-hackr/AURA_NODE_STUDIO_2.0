@@ -1,0 +1,163 @@
+{
+  "moduleId": "adafruit_4b102cee63685c3993818c224dc1e9b0_13_1F",
+  "title": "Adafruit Audio FX Mini Sound Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_4b102cee63685c3993818c224dc1e9b0_13_1F.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_4b102cee63685c3993818c224dc1e9b0_14_breadboard_1F.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_4b102cee63685c3993818c224dc1e9b0_14_schematic_1F.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_4b102cee63685c3993818c224dc1e9b0_14_pcb_1F.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_4b102cee63685c3993818c224dc1e9b0_14_icon_1F.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 22,
+  "connectors": [
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "ACT",
+      "description": "ACT"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GPIO0_7",
+      "description": "GPIO0_7"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "GPIO0_6",
+      "description": "GPIO0_6"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "GPIO0_5",
+      "description": "GPIO0_5"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "GPIO0_4",
+      "description": "GPIO0_4"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GPIO0_3",
+      "description": "GPIO0_3"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "GPIO0_2",
+      "description": "GPIO0_2"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "GPIO0_1",
+      "description": "GPIO0_1"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "GPIO0_0",
+      "description": "GPIO0_0"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "RX_5V",
+      "description": "RX_5V"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "UG",
+      "description": "UG"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "R_AC",
+      "description": "R_AC"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "L_AC",
+      "description": "L_AC"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

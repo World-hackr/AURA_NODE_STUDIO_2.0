@@ -1,0 +1,44 @@
+{
+  "moduleId": "1238DBDC00",
+  "title": "npn-Powertransistor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\basic_power_transistor_npn.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\powertransistor_npn_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\powertransistor_npn.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\TO-220.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "base",
+      "description": "base"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "collector",
+      "description": "collector"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "emitter",
+      "description": "emitter"
+    }
+  ]
+}

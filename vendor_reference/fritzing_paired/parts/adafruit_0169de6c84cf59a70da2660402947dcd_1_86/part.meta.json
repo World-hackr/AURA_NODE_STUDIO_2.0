@@ -1,0 +1,91 @@
+{
+  "moduleId": "adafruit_0169de6c84cf59a70da2660402947dcd_1_86",
+  "title": "Adafruit ADS1015 12Bit I2C ADC",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_0169de6c84cf59a70da2660402947dcd_1_86.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_0169de6c84cf59a70da2660402947dcd_2_breadboard_86.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_0169de6c84cf59a70da2660402947dcd_2_schematic_86.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_0169de6c84cf59a70da2660402947dcd_2_pcb_86.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_0169de6c84cf59a70da2660402947dcd_2_icon_86.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "AIN3",
+      "description": "AIN3"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "AIN2",
+      "description": "AIN2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "AIN1",
+      "description": "AIN1"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "AIN0",
+      "description": "AIN0"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "ALERT",
+      "description": "ALERT"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "ADDR",
+      "description": "ADDR"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "moduleId": "APEM-PT65-303_Rotary_coded_hexadecimal_switch",
+  "title": "Hexadecimal Rotary Encoder",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\APEM-PT65-303_Rotary_coded_hexadecimal_switch.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\APEM-PT65-303_Rotary_coded_hexadecimal_switch_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\APEM-PT65-303_Rotary_coded_hexadecimal_switch_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\APEM-PT65-303_Rotary_coded_hexadecimal_switch_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Output1Pin",
+      "description": "1 output pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Output2Pin",
+      "description": "2 output pin"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Output4Pin",
+      "description": "4 output pin"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Output8pin",
+      "description": "8 output pin"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "InputCommon",
+      "description": "Common input"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "InputCommon2",
+      "description": "Common Input"
+    }
+  ]
+}

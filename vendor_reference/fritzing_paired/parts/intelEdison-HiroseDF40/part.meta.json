@@ -1,0 +1,451 @@
+{
+  "moduleId": "intelEdison-HiroseDF40",
+  "title": "EDISON",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\intel_edison-hirosedf40.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\intel_edison-hirosedf40_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\intel_edison-hirosedf40_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\intel_edison-hirosedf40_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\intel_edison_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 70,
+  "connectors": [
+    {
+      "id": "connector13",
+      "type": "pad",
+      "name": "DCIN",
+      "description": "DCIN"
+    },
+    {
+      "id": "connector18",
+      "type": "pad",
+      "name": "FAULT",
+      "description": "FAULT"
+    },
+    {
+      "id": "connector68",
+      "type": "pad",
+      "name": "FW_RCVR",
+      "description": "FW_RCVR"
+    },
+    {
+      "id": "connector0",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "pad",
+      "name": "GND1",
+      "description": "GND1"
+    },
+    {
+      "id": "connector8",
+      "type": "pad",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector10",
+      "type": "pad",
+      "name": "GND3",
+      "description": "GND3"
+    },
+    {
+      "id": "connector12",
+      "type": "pad",
+      "name": "GND4",
+      "description": "GND4"
+    },
+    {
+      "id": "connector14",
+      "type": "pad",
+      "name": "GND5",
+      "description": "GND5"
+    },
+    {
+      "id": "connector54",
+      "type": "pad",
+      "name": "GP109_SSP5_CLK",
+      "description": "GP109_SSP5_CLK"
+    },
+    {
+      "id": "connector52",
+      "type": "pad",
+      "name": "GP110_SSP5_FS0",
+      "description": "GP110_SSP5_FS0"
+    },
+    {
+      "id": "connector50",
+      "type": "pad",
+      "name": "GP111_SSP5_FS1",
+      "description": "GP111_SSP5_FS1"
+    },
+    {
+      "id": "connector58",
+      "type": "pad",
+      "name": "GP114_SSP5_RXD",
+      "description": "GP114_SSP5_RXD"
+    },
+    {
+      "id": "connector56",
+      "type": "pad",
+      "name": "GP115_SSP5_TXD",
+      "description": "GP115_SSP5_TXD"
+    },
+    {
+      "id": "connector64",
+      "type": "pad",
+      "name": "GP128_UART1_CTS",
+      "description": "GP128_UART1_CTS"
+    },
+    {
+      "id": "connector62",
+      "type": "pad",
+      "name": "GP129_UART1_RTS",
+      "description": "GP129_UART1_RTS"
+    },
+    {
+      "id": "connector34",
+      "type": "pad",
+      "name": "GP12_PWM0",
+      "description": "GP12_PWM0"
+    },
+    {
+      "id": "connector60",
+      "type": "pad",
+      "name": "GP130_UART1_RX",
+      "description": "GP130_UART1_RX"
+    },
+    {
+      "id": "connector45",
+      "type": "pad",
+      "name": "GP131_UART1_TX",
+      "description": "GP131_UART1_TX"
+    },
+    {
+      "id": "connector21",
+      "type": "pad",
+      "name": "GP134_UART2_RX",
+      "description": "GP134_UART2_RX"
+    },
+    {
+      "id": "connector26",
+      "type": "pad",
+      "name": "GP135_UART2_TX",
+      "description": "GP135_UART2_TX"
+    },
+    {
+      "id": "connector32",
+      "type": "pad",
+      "name": "GP13_PWM1",
+      "description": "GP13_PWM1"
+    },
+    {
+      "id": "connector47",
+      "type": "pad",
+      "name": "GP14_AUDIO_INT",
+      "description": "GP14_AUDIO_INT"
+    },
+    {
+      "id": "connector41",
+      "type": "pad",
+      "name": "GP15",
+      "description": "GP15"
+    },
+    {
+      "id": "connector24",
+      "type": "pad",
+      "name": "GP165",
+      "description": "GP165"
+    },
+    {
+      "id": "connector36",
+      "type": "pad",
+      "name": "GP182_PWM2",
+      "description": "GP182_PWM2"
+    },
+    {
+      "id": "connector38",
+      "type": "pad",
+      "name": "GP183_PWM3",
+      "description": "GP183_PWM3"
+    },
+    {
+      "id": "connector40",
+      "type": "pad",
+      "name": "GP19_I2C1_SCL",
+      "description": "GP19_I2C1_SCL"
+    },
+    {
+      "id": "connector42",
+      "type": "pad",
+      "name": "GP20_I2C1_SDA",
+      "description": "GP20_I2C1_SDA"
+    },
+    {
+      "id": "connector44",
+      "type": "pad",
+      "name": "GP27_I2C6_SCL",
+      "description": "GP27_I2C6_SCL"
+    },
+    {
+      "id": "connector46",
+      "type": "pad",
+      "name": "GP28_I2C6_SDA",
+      "description": "GP28_I2C6_SDA"
+    },
+    {
+      "id": "connector51",
+      "type": "pad",
+      "name": "GP40_SSP2_CLK",
+      "description": "GP40_SSP2_CLK"
+    },
+    {
+      "id": "connector53",
+      "type": "pad",
+      "name": "GP41_SSP2_FS",
+      "description": "GP41_SSP2_FS"
+    },
+    {
+      "id": "connector49",
+      "type": "pad",
+      "name": "GP42_SSP2_RXD",
+      "description": "GP42_SSP2_RXD"
+    },
+    {
+      "id": "connector55",
+      "type": "pad",
+      "name": "GP43_SSP2_TXD",
+      "description": "GP43_SSP2_TXD"
+    },
+    {
+      "id": "connector23",
+      "type": "pad",
+      "name": "GP44_ALD_INT_N",
+      "description": "GP44_ALD_INT_N"
+    },
+    {
+      "id": "connector25",
+      "type": "pad",
+      "name": "GP45_COMP_DRDY",
+      "description": "GP45_COMP_DRDY"
+    },
+    {
+      "id": "connector27",
+      "type": "pad",
+      "name": "GP46_ACC_INT1",
+      "description": "GP46_ACC_INT1"
+    },
+    {
+      "id": "connector29",
+      "type": "pad",
+      "name": "GP47_ACC_INT2",
+      "description": "GP47_ACC_INT2"
+    },
+    {
+      "id": "connector31",
+      "type": "pad",
+      "name": "GP48_GYRO_DRDY",
+      "description": "GP48_GYRO_DRDY"
+    },
+    {
+      "id": "connector33",
+      "type": "pad",
+      "name": "GP49_GYRO_INT",
+      "description": "GP49_GYRO_INT"
+    },
+    {
+      "id": "connector59",
+      "type": "pad",
+      "name": "GP77_SD_CDN",
+      "description": "GP77_SD_CDN"
+    },
+    {
+      "id": "connector57",
+      "type": "pad",
+      "name": "GP78_SD_CLK",
+      "description": "GP78_SD_CLK"
+    },
+    {
+      "id": "connector61",
+      "type": "pad",
+      "name": "GP79_SD_CMD",
+      "description": "GP79_SD_CMD"
+    },
+    {
+      "id": "connector65",
+      "type": "pad",
+      "name": "GP80_SD_DAT0",
+      "description": "GP80_SD_DAT0"
+    },
+    {
+      "id": "connector69",
+      "type": "pad",
+      "name": "GP81_SD_DAT1",
+      "description": "GP81_SD_DAT1"
+    },
+    {
+      "id": "connector63",
+      "type": "pad",
+      "name": "GP82_SD_DAT2",
+      "description": "GP82_SD_DAT2"
+    },
+    {
+      "id": "connector67",
+      "type": "pad",
+      "name": "GP83_SD_DAT3",
+      "description": "GP83_SD_DAT3"
+    },
+    {
+      "id": "connector16",
+      "type": "pad",
+      "name": "GPI_PWRBTN_N",
+      "description": "GPI_PWRBTN_N"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "MSIC_SLP_CLK3",
+      "description": "MSIC_SLP_CLK3"
+    },
+    {
+      "id": "connector28",
+      "type": "pad",
+      "name": "N_C1",
+      "description": "N_C1"
+    },
+    {
+      "id": "connector37",
+      "type": "pad",
+      "name": "N_C2",
+      "description": "N_C2"
+    },
+    {
+      "id": "connector39",
+      "type": "pad",
+      "name": "N_C3",
+      "description": "N_C3"
+    },
+    {
+      "id": "connector48",
+      "type": "pad",
+      "name": "N_C6",
+      "description": "N_C6"
+    },
+    {
+      "id": "connector66",
+      "type": "pad",
+      "name": "OSC_CLK_OUT_0",
+      "description": "OSC_CLK_OUT_0"
+    },
+    {
+      "id": "connector20",
+      "type": "pad",
+      "name": "PSW",
+      "description": "PSW"
+    },
+    {
+      "id": "connector30",
+      "type": "pad",
+      "name": "RCVR_MODE",
+      "description": "RCVR_MODE"
+    },
+    {
+      "id": "connector35",
+      "type": "pad",
+      "name": "RESET_OUT#",
+      "description": "RESET_OUT#"
+    },
+    {
+      "id": "connector43",
+      "type": "pad",
+      "name": "SD_CLK_FB",
+      "description": "SD_CLK_FB"
+    },
+    {
+      "id": "connector17",
+      "type": "pad",
+      "name": "USB_DN",
+      "description": "USB_DN"
+    },
+    {
+      "id": "connector15",
+      "type": "pad",
+      "name": "USB_DP",
+      "description": "USB_DP"
+    },
+    {
+      "id": "connector2",
+      "type": "pad",
+      "name": "USB_ID",
+      "description": "USB_ID"
+    },
+    {
+      "id": "connector19",
+      "type": "pad",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector11",
+      "type": "pad",
+      "name": "V_V1P80_VDD1",
+      "description": "V_V1P80_VDD1"
+    },
+    {
+      "id": "connector7",
+      "type": "pad",
+      "name": "V_V3P30_VDD3",
+      "description": "V_V3P30_VDD3"
+    },
+    {
+      "id": "connector9",
+      "type": "pad",
+      "name": "V_V3P30_VDD3A",
+      "description": "V_V3P30_VDD3A"
+    },
+    {
+      "id": "connector22",
+      "type": "pad",
+      "name": "V_VBAT_BKUP",
+      "description": "V_VBAT_BKUP"
+    },
+    {
+      "id": "connector1",
+      "type": "pad",
+      "name": "V_VSYS",
+      "description": "V_VSYS"
+    },
+    {
+      "id": "connector3",
+      "type": "pad",
+      "name": "V_VSYS1",
+      "description": "V_VSYS1"
+    },
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "V_VSYS2",
+      "description": "V_VSYS2"
+    }
+  ]
+}

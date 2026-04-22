@@ -1,0 +1,25 @@
+{
+  "moduleId": "1234ABDE24BH",
+  "title": "Plain PCB - 60 x 100 mm",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\pcb-plain-60x100.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 0,
+  "connectors": []
+}

@@ -1,0 +1,157 @@
+{
+  "moduleId": "adafruit_68eda7281cc4d48be280df509aa4d38b_1_2F",
+  "title": "Adafruit MAX98306 Stereo 3.7W Class D Audio Amplifier",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_68eda7281cc4d48be280df509aa4d38b_1_2F.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_68eda7281cc4d48be280df509aa4d38b_3_breadboard_2F.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_68eda7281cc4d48be280df509aa4d38b_3_schematic_2F.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_68eda7281cc4d48be280df509aa4d38b_3_pcb_2F.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_68eda7281cc4d48be280df509aa4d38b_3_icon_2F.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 21,
+  "connectors": [
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "9DB",
+      "description": "9DB"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "15DB",
+      "description": "15DB"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "GAIN1",
+      "description": "GAIN1"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "GAIN1",
+      "description": "GAIN1"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "GAIN1",
+      "description": "GAIN1"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "GAIN1",
+      "description": "GAIN1"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "GAIN1",
+      "description": "GAIN1"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GAIN2",
+      "description": "GAIN2"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "IN_RIGHT-",
+      "description": "IN_RIGHT-"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "IN_RIGHT+",
+      "description": "IN_RIGHT+"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "IN_LEFT-",
+      "description": "IN_LEFT-"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "IN_LEFT+",
+      "description": "IN_LEFT+"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "SHUTDOWN",
+      "description": "SHUTDOWN"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "ROUT-",
+      "description": "ROUT-"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "ROUT+",
+      "description": "ROUT+"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "LOUT-",
+      "description": "LOUT-"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "LOUT+",
+      "description": "LOUT+"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

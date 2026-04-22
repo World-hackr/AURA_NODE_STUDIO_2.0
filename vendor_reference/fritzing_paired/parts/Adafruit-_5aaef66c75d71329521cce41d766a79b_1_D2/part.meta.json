@@ -1,0 +1,91 @@
+{
+  "moduleId": "Adafruit-_5aaef66c75d71329521cce41d766a79b_1_D2",
+  "title": "Adafruit CAN Pal Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_5aaef66c75d71329521cce41d766a79b_1_D2.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_5aaef66c75d71329521cce41d766a79b_1_breadboard_D2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_5aaef66c75d71329521cce41d766a79b_1_schematic_D2.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_5aaef66c75d71329521cce41d766a79b_1_pcb_D2.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_5aaef66c75d71329521cce41d766a79b_1_icon_D2.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "CAN1_RX",
+      "description": "CAN1_RX"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "CAN1_S",
+      "description": "CAN1_S"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "CAN1_TX",
+      "description": "CAN1_TX"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "CAN_L",
+      "description": "CAN_L"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "CAN_L",
+      "description": "CAN_L"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "CAN_H",
+      "description": "CAN_H"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "CAN_H",
+      "description": "CAN_H"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

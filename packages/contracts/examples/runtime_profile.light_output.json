@@ -1,0 +1,19 @@
+{
+  "schema": "aura.runtime_profile.v1",
+  "profileId": "light_output",
+  "label": "Light Output",
+  "kind": "output",
+  "state": {
+    "defaultBrightness": 0,
+    "maxBrightness": 1,
+    "colorMode": "single"
+  },
+  "bindings": [
+    {
+      "bindingKind": "opacity",
+      "targetNodeId": "light_core",
+      "minValue": 0,
+      "maxValue": 1
+    }
+  ]
+}

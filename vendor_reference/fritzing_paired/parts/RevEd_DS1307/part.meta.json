@@ -1,0 +1,79 @@
+{
+  "moduleId": "RevEd_DS1307",
+  "title": "DS1307",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DS1307.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DS1307_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DS1307_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DS1307_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "X1 - Crystal",
+      "description": "Connect this pin to a 32kHz watch crystal"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "X2 - Crystal",
+      "description": "Connect this pin to a 32kHz watch crystal"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Vbat - Backup Supply",
+      "description": "Connect this pin to the positive connection of a 3V battery or connect to 0V (ground) to operate the device without a backup battery supply"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SDA - I2C Data",
+      "description": "Connect this pin to the 'I2C Data' (SDA) signal of the controller"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SCL - I2C Clock",
+      "description": "Connect this pin to the 'I2C Clock' (SCL) signal of the controller"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SWQ/OUT - Clock Output",
+      "description": "This pin is an open-collector output which can generate a square wave signal when the clock is running. To use this output with a digital input a pull-up resistor to the postive rail of the power supply must be fitted"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    }
+  ]
+}

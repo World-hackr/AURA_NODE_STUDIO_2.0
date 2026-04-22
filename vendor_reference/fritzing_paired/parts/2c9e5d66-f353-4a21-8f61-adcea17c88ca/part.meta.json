@@ -1,0 +1,49 @@
+{
+  "moduleId": "2c9e5d66-f353-4a21-8f61-adcea17c88ca",
+  "title": "Basic FET P-Channel",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_P-FET.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\mosfet_p_channel_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\mosfet_p_channel.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\fet_p.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_D2Pak.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Gate",
+      "description": "gate"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "drain",
+      "description": "drain"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "source",
+      "description": "source"
+    }
+  ]
+}

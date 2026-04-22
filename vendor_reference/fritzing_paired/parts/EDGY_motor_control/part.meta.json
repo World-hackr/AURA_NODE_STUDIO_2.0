@@ -1,0 +1,121 @@
+{
+  "moduleId": "EDGY_motor_control",
+  "title": "EDGY",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\EDGY_motor_control.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\EDGY.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\EDGY_motor_control.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\EDGY_motor_control.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\EDGY_motor_control.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A1",
+      "description": "Motor 1 A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "B1",
+      "description": "Motor 1 B"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Speed1",
+      "description": "Motor 1 Speed"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Vin",
+      "description": "suply voltage 5V+ to 12V+"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "A2",
+      "description": "Motor 2 A"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B2",
+      "description": "Motor 2 B"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Speed2",
+      "description": "Motor 2 Speed"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "5V+",
+      "description": "5V+"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "B2out",
+      "description": "Motor 2 B out"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "A2out",
+      "description": "Motor 2 A out"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "B1out",
+      "description": "Motor 1 B out"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "A1out",
+      "description": "Motor 1 A out"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "5V+",
+      "description": "5V+"
+    }
+  ]
+}

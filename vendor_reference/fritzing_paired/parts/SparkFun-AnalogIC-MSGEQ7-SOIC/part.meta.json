@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-AnalogIC-MSGEQ7-SOIC",
+  "title": "MSGEQ7",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-msgeq7-soic.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_msgeq7_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_soic8_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "AUDIO_IN",
+      "description": "AUDIO_IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CG",
+      "description": "CG"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CKIN",
+      "description": "CKIN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DCOUT",
+      "description": "DCOUT"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "STROBE",
+      "description": "STROBE"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

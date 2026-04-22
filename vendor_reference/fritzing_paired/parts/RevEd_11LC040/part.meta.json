@@ -1,0 +1,79 @@
+{
+  "moduleId": "RevEd_11LC040",
+  "title": "11LC040",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\11LC040.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\11LC040_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\11LC040_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\11LC040_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "N/C",
+      "description": "Do not connect anything to this pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "N/C",
+      "description": "Do not connect anything to this pin"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "N/C",
+      "description": "Do not connect anything to this pin"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SCIO - Data I/O",
+      "description": "This pin is used to read data from the device and to provide data to be written. Connect this pin to a digital I/O pin of your controller"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "N/C",
+      "description": "Do not connect anything to this pin"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "N/C",
+      "description": "Do not connect anything to this pin"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "moduleId": "adafruit_cb2ac9799ba2257534286cb3b7dd1680_1_30",
+  "title": "Adafruit HDC1008 Temperature Humidity Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_cb2ac9799ba2257534286cb3b7dd1680_1_30.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_cb2ac9799ba2257534286cb3b7dd1680_3_breadboard_30.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_cb2ac9799ba2257534286cb3b7dd1680_3_schematic_30.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_cb2ac9799ba2257534286cb3b7dd1680_3_pcb_30.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_cb2ac9799ba2257534286cb3b7dd1680_3_icon_30.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RDY",
+      "description": "RDY"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "moduleId": "Adafruit-_21826482517ac24b21d6a931a0c70033_1_E0",
+  "title": "Adafruit USB Type C Power Delivery Dummy - I2C or Switchable - HUSB238 - STEMMA QT",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_21826482517ac24b21d6a931a0c70033_1_E0.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_21826482517ac24b21d6a931a0c70033_1_E0_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_21826482517ac24b21d6a931a0c70033_1_E0_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_21826482517ac24b21d6a931a0c70033_1_E0_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_21826482517ac24b21d6a931a0c70033_1_E0_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "VBUS",
+      "description": "VBUS"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "VOUT",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "N$2",
+      "description": "N$2"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "D+",
+      "description": "D+"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "D-",
+      "description": "D-"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

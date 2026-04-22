@@ -1,0 +1,115 @@
+{
+  "moduleId": "f5a254ffda17133e1a1e658278e5abce",
+  "title": "SN74LS21N",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SN74LS21N.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SN74LS21N_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SN74LS21N_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SN74LS21N_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SN74LS21N_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "1C",
+      "description": "In part 3 section 1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "1D",
+      "description": "In part 4 section 1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "1Y",
+      "description": "Out part 1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "2Y",
+      "description": "Out part 2"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "2A",
+      "description": "In part 1 section 2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "2B",
+      "description": "In part 2 section 2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "NC",
+      "description": "Not connected"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "2D",
+      "description": "In part 4 section 2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1A",
+      "description": "In part 1 section 1"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "2C",
+      "description": "In part 3 section 2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VCC",
+      "description": "Power"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "1B",
+      "description": "In part 2 section 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "NC",
+      "description": "Not connected"
+    }
+  ]
+}

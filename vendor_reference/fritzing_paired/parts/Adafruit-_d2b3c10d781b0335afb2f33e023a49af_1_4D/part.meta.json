@@ -1,0 +1,133 @@
+{
+  "moduleId": "Adafruit-_d2b3c10d781b0335afb2f33e023a49af_1_4D",
+  "title": "Adafruit DRV2605L Haptic Motor Controller - STEMMA QT",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_d2b3c10d781b0335afb2f33e023a49af_1_4D.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_d2b3c10d781b0335afb2f33e023a49af_1_breadboard_4D.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_d2b3c10d781b0335afb2f33e023a49af_1_schematic_4D.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_d2b3c10d781b0335afb2f33e023a49af_1_pcb_4D.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_d2b3c10d781b0335afb2f33e023a49af_1_icon_4D.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 17,
+  "connectors": [
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "IN/TRIG",
+      "description": "IN/TRIG"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "OUT+",
+      "description": "OUT+"
+    },
+    {
+      "id": "connector29",
+      "type": "pad",
+      "name": "OUT+",
+      "description": "OUT+"
+    },
+    {
+      "id": "connector35",
+      "type": "pad",
+      "name": "OUT-",
+      "description": "OUT-"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "OUT-",
+      "description": "OUT-"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

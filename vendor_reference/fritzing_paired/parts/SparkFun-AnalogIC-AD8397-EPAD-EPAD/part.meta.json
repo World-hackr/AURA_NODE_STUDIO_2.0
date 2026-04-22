@@ -1,0 +1,85 @@
+{
+  "moduleId": "SparkFun-AnalogIC-AD8397-EPAD-EPAD",
+  "title": "AD8397",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-ad8397-epad-epad.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_so08-epad_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_op-amp_--1_mix_0_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so08-epad_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "A +IN",
+      "description": "A +IN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "A -IN",
+      "description": "A -IN"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "A EPAD",
+      "description": "A EPAD"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A OUT",
+      "description": "A OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "A V+",
+      "description": "A V+"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "A V-",
+      "description": "A V-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "B +IN",
+      "description": "B +IN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B -IN",
+      "description": "B -IN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "B OUT",
+      "description": "B OUT"
+    }
+  ]
+}

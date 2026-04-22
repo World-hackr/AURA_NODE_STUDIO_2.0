@@ -1,0 +1,43 @@
+{
+  "moduleId": "fuse_with_handler_cff5",
+  "title": "Fuse with Handler",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Fuse_with_Handler.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Fuse_with_Handler_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Fuse_with_Handler_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Fuse_with_Handler_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Fuse_with_Handler_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Connector1",
+      "description": "Connector"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Connector2",
+      "description": "Connector"
+    }
+  ]
+}

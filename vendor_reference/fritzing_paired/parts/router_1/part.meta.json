@@ -1,0 +1,50 @@
+{
+  "moduleId": "router_1",
+  "title": "Rounter OpenMesh",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\router_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\router_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\router_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\router_1_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "V_neg",
+      "description": "Negative 12V power connection"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "V_pos",
+      "description": "Positive 12V power connection"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "ETH_right",
+      "description": "Right Ethernet connection 18-24V POE"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "ETH_left",
+      "description": "Left Ethernet connection 802.3af POE"
+    }
+  ]
+}

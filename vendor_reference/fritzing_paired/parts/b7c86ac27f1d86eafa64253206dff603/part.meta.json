@@ -1,0 +1,271 @@
+{
+  "moduleId": "b7c86ac27f1d86eafa64253206dff603",
+  "title": "Wiring S",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Wiring_S.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Wiring_Sa99.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Wiring_Sa99.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Wiring_Sa99.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Wiring_Sa99.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "D3/TX1",
+      "description": "Digital I/O 3, Serial Transmit 1"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "D20",
+      "description": "Digital I/O 20, SPI SS (Slave)"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "D4",
+      "description": "Digital I/O 4, PWM"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "D21",
+      "description": "Digital I/O 21, SPI MOSI"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "D5",
+      "description": "Digital I/O 5, PWM"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "D22",
+      "description": "Digital I/O 22, SPI MISO"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "D6",
+      "description": "Digital I/O 6, PWM"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "D7",
+      "description": "Digital I/O 7, PWM"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "D23",
+      "description": "Digital I/O 23, SPI SCK"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "D8",
+      "description": "Digital I/O 8, I2C/TWI SCL"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "D24",
+      "description": "Digital I/O 24, Analog Input 0"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "D9",
+      "description": "Digital I/O 9, I2C/TWI SDA"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "D25",
+      "description": "Digital I/O 25, Analog Input 1"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "D26",
+      "description": "Digital I/O 26, Analog Input 2"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "D27",
+      "description": "Digital I/O 27, Analog Input 3"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "D28",
+      "description": "Digital I/O 28, Analog Input 4"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "D29",
+      "description": "Digital I/O 29, Analog Input 5"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "D30",
+      "description": "Digital I/O 30, Analog Input 6"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "D31",
+      "description": "Digital I/O 31, Analog Input 7"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "RESET",
+      "description": "Reset"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "AREF",
+      "description": "Analog Input External Voltage Reference"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3 Volt Power Supply"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3 Volt Power Supply"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "5V",
+      "description": "5 Volt Power Supply"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "5V",
+      "description": "5 Volt Power Supply"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "D10",
+      "description": "Digital I/O 10"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "D11",
+      "description": "Digital I/O 11"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "D12",
+      "description": "Digital I/O 12"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "D13",
+      "description": "Digital I/O 13"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "D14",
+      "description": "Digital I/O 14"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "D15",
+      "description": "Digital I/O 15"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "D16",
+      "description": "Digital I/O 16"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "D17",
+      "description": "Digital I/O 17"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "D18",
+      "description": "Digital I/O 18"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "D19",
+      "description": "Digital I/O 19"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "D0/RX0",
+      "description": "Digital I/O 0, Serial Receive 0"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "D1/TX0",
+      "description": "Digital I/O 1, Serial Transmit 0"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "D2/RX1",
+      "description": "Digital I/O 2, Serial Receive 1"
+    }
+  ]
+}

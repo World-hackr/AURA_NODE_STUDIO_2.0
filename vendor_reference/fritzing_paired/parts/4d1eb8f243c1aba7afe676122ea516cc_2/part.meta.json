@@ -1,0 +1,38 @@
+{
+  "moduleId": "4d1eb8f243c1aba7afe676122ea516cc_2",
+  "title": "Textile Pushbutton",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Textile Pushbutton.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Textile_push_button.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Textile_push_button.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\pushbutton_2_300mil_thick.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "leg0",
+      "description": "leg"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "leg1",
+      "description": "leg"
+    }
+  ]
+}

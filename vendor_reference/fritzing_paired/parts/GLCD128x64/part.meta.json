@@ -1,0 +1,151 @@
+{
+  "moduleId": "GLCD128x64",
+  "title": "128 x 64 Graphic LCD",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\GLCD 128x64.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\GLCD_128x64.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\GLCD_128x64.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\GLCD_128x64.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\GLCD_128x64.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "7 DB0",
+      "description": "Data Input/Output (LSB)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "8 DB1",
+      "description": "Data Input/Output"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "9 BD2",
+      "description": "Data Input/Output"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1 Vss",
+      "description": "Ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "10 DB3",
+      "description": "Data Input/Output"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "11 DB4",
+      "description": "Data Input/Output"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "12 DB5",
+      "description": "Data Input/Output"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "13 DB6",
+      "description": "Data Input/Output"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "14 DB7",
+      "description": "Data Input/Output (MSB)"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "15 CS1",
+      "description": "H: Chip selection for IC 1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "16 CS2",
+      "description": "H: Chip selection for IC 2"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "17 RST",
+      "description": "L: Reset"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "18 Vout",
+      "description": "Power Supply for LCD Driving"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "19 A(+)",
+      "description": "Power Supply for LED Backlight (+)"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "20 K(-)",
+      "description": "Power Supply for LED Backlight (-)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2 Vdd",
+      "description": "+5V Power for logic"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "3 Vo",
+      "description": "Operating voltage for LCD Driving"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "4 D/I",
+      "description": "H: Data Input\r\nL: Instruction Code Input"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "5 R/W",
+      "description": "H: Data Read (LCD Module   MPU)\r\nL: Dara Write (LCD Module   MPU)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "6 Enable",
+      "description": "Enable Signal"
+    }
+  ]
+}

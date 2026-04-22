@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-AnalogIC-X9015_DIGI_POT-S",
+  "title": "X9015",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-x9015_digi_pot-s.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_x9015_digi_pot_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_so08_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CS_",
+      "description": "CS_"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "INC_",
+      "description": "INC_"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RH_VH",
+      "description": "RH_VH"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RL_VL",
+      "description": "RL_VL"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RW_VW",
+      "description": "RW_VW"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "U_D_",
+      "description": "U_D_"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

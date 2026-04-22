@@ -1,0 +1,97 @@
+{
+  "moduleId": "SparkFun-PowerIC-LMD1820X-",
+  "title": "LMD1820X",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-lmd1820x-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_to-220-11lead_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_lmd1820x_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_to-220-11lead_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_to-220-11lead_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "BRK",
+      "description": "BRK"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "BS1",
+      "description": "BS1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "BS2",
+      "description": "BS2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DIR",
+      "description": "DIR"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OUT1",
+      "description": "OUT1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUT2",
+      "description": "OUT2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PGND",
+      "description": "PGND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "PWM",
+      "description": "PWM"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PWR",
+      "description": "PWR"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SGND",
+      "description": "SGND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "TF",
+      "description": "TF"
+    }
+  ]
+}

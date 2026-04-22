@@ -1,0 +1,295 @@
+{
+  "moduleId": "seeeduino_v3",
+  "title": "Seeeduino V3.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\seeed_seeeduino_v3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\seeed_seeeduino_v3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\seeed_seeeduino_v3_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\seeed_seeeduino_v3_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\seeed_seeeduino_v3_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 44,
+  "connectors": [
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "D0/RX",
+      "description": "D0/RX"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "D1/TX",
+      "description": "D1/TX"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "D2/SDA",
+      "description": "D2/SDA"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "D3 PWM/SCL",
+      "description": "D3 PWM/SCL"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "D4/A6",
+      "description": "D4/A6"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "D5 PWM",
+      "description": "D5 PWM"
+    },
+    {
+      "id": "connector82",
+      "type": "female",
+      "name": "D6 PWM/A7",
+      "description": "D6 PWM/A7"
+    },
+    {
+      "id": "connector83",
+      "type": "female",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "A6",
+      "description": "A6"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "A7",
+      "description": "A6"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "D8/A8",
+      "description": "D8/A8"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "D9 PWM/A9",
+      "description": "D9 PWM/A9"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "D10 PWM/A10",
+      "description": "D10 PWM/A10"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "D11 PWM",
+      "description": "D11 PWM"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "D12/A11",
+      "description": "D12/A11"
+    },
+    {
+      "id": "connector103",
+      "type": "female",
+      "name": "D13 PWM",
+      "description": "D13 PWM"
+    },
+    {
+      "id": "connector104",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector105",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector106",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector107",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector108",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector109",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector110",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector111",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector112",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector113",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector114",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector115",
+      "type": "female",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector116",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector117",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector118",
+      "type": "female",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector119",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

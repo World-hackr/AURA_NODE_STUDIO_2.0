@@ -1,0 +1,79 @@
+{
+  "moduleId": "FRAM8K_677804e9a50fdec80699709ad161eb15_1_DC",
+  "title": "SPI Non-Volatile FRAM 8KB",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\FRAM8K_677804e9a50fdec80699709ad161eb15_1_DC.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\FRAM8K_677804e9a50fdec80699709ad161eb15_1_breadboard_DC.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\FRAM8K_677804e9a50fdec80699709ad161eb15_1_schematic_DC.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\FRAM8K_677804e9a50fdec80699709ad161eb15_1_pcb_DC.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\FRAM8K_677804e9a50fdec80699709ad161eb15_1_icon_DC.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "WP",
+      "description": "WP"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "HOLD",
+      "description": "HOLD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

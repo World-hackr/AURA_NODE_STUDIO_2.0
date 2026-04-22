@@ -1,0 +1,175 @@
+{
+  "moduleId": "4067 HCF",
+  "title": "HCF 4067",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\4067_HCF.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\HCF_4067397.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\HCF_4067397.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\HCF_4067397.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\HCF_406703c.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "16 TG15",
+      "description": "TG15"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "8 TG1",
+      "description": "TG1"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "17 TG14",
+      "description": "TG14"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "9 TG0",
+      "description": "TG0"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "18 TG13",
+      "description": "TG13"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "10 A",
+      "description": "Control Pin A"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "19 TG12",
+      "description": "TG12"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "20 TG11",
+      "description": "TG11"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "21 TG10",
+      "description": "TG10"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "22 TG9",
+      "description": "TG9"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "23 TG8",
+      "description": "TG8"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "24 Vdd",
+      "description": "VDD"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1 O/I",
+      "description": "Common out/in"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2 TG 7",
+      "description": "TG7"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "11 B",
+      "description": "Control Pin B"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "3 TG6",
+      "description": "TG6"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "4 TG5",
+      "description": "TG5"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "12 VSS",
+      "description": "Vss Ground"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "5 TG4",
+      "description": "TG4"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "13 D",
+      "description": "Control Pin D"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "6 TG3",
+      "description": "TG3"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "14 C",
+      "description": "Control Pin C"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "7 TG2",
+      "description": "TG2"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "15 Inhibit",
+      "description": "Inhibit"
+    }
+  ]
+}

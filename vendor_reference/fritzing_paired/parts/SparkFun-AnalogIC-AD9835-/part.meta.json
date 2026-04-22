@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-AnalogIC-AD9835-",
+  "title": "AD9835",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-analogic-ad9835-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_tssop16_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-analogic_ad9835_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-analogic_tssop16_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-analogic_tssop16_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "COMP",
+      "description": "COMP"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DVDD",
+      "description": "DVDD"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "FSEL",
+      "description": "FSEL"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "FSYNC",
+      "description": "FSYNC"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "FS_ADJ",
+      "description": "FS_ADJ"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "IOUT",
+      "description": "IOUT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "MCLK",
+      "description": "MCLK"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PSEL0",
+      "description": "PSEL0"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PSEL1",
+      "description": "PSEL1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "REFIN",
+      "description": "REFIN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "REFOUT",
+      "description": "REFOUT"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SDATA",
+      "description": "SDATA"
+    }
+  ]
+}

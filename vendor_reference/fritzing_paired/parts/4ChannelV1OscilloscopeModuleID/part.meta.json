@@ -1,0 +1,51 @@
+{
+  "moduleId": "4ChannelV1OscilloscopeModuleID",
+  "title": "Oscilloscope",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\oscilloscope_4channel_v1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\oscilloscope_v1_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\oscilloscope_v1_breadboard.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "COM Probe",
+      "description": "COM"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "V1 Probe",
+      "description": "Voltage 1 probe"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "V2 Probe",
+      "description": "Voltage 2 probe"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "V3 Probe",
+      "description": "Voltage 3 probe"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "V4 Probe",
+      "description": "Voltage 4 probe"
+    }
+  ]
+}

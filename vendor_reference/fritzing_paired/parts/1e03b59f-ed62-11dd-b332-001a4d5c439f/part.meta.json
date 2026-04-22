@@ -1,0 +1,139 @@
+{
+  "moduleId": "1e03b59f-ed62-11dd-b332-001a4d5c439f",
+  "title": "Mystery Part - 18 pins",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\mystery_part18.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\mystery_part_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\mystery_part18.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\mystery_part18.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\jumper18.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "leg1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "leg2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "leg3",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "leg4",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "leg5",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "leg6",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "leg7",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "leg8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "leg9",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "leg10",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "leg11",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "leg12",
+      "description": "pin 12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "leg13",
+      "description": "pin 13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "leg14",
+      "description": "pin 14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "leg15",
+      "description": "pin 15"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "leg16",
+      "description": "pin 16"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "leg17",
+      "description": "pin 17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "leg18",
+      "description": "pin 18"
+    }
+  ]
+}

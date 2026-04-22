@@ -1,0 +1,121 @@
+{
+  "moduleId": "adafruit_8b114e360a67d82fe89bec7c7fcbc0ad_1_0F",
+  "title": "Adafruit UDA1334 I2S DAC",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_8b114e360a67d82fe89bec7c7fcbc0ad_1_0F.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_8b114e360a67d82fe89bec7c7fcbc0ad_1_breadboard_0F.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_8b114e360a67d82fe89bec7c7fcbc0ad_1_schematic_0F.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_8b114e360a67d82fe89bec7c7fcbc0ad_1_pcb_0F.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_8b114e360a67d82fe89bec7c7fcbc0ad_1_icon_0F.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 15,
+  "connectors": [
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "WORDSEL_IN",
+      "description": "WORDSEL_IN"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "DATA_IN",
+      "description": "DATA_IN"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "BITCLK_IN",
+      "description": "BITCLK_IN"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "OUTL",
+      "description": "OUTL"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "OUTR",
+      "description": "OUTR"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "SYSCLK_IN",
+      "description": "SYSCLK_IN"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "SFOR1",
+      "description": "SFOR1"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "MUTE",
+      "description": "MUTE"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "SFOR0",
+      "description": "SFOR0"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "PLL_IN",
+      "description": "PLL_IN"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "DEEM/CLKOUT",
+      "description": "DEEM/CLKOUT"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

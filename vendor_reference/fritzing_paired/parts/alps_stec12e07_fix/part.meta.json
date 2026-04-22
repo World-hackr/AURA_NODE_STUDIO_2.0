@@ -1,0 +1,44 @@
+{
+  "moduleId": "alps_stec12e07_fix",
+  "title": "Rotary Encoder",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Rotary_Encoder_fix.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Rotary_Encoder.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Rotary_Encoder.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Rotary_Encoder.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "EncoderPinA",
+      "description": "output Pin A"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "EncoderPinC",
+      "description": "common Pin C"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "EncoderPinB",
+      "description": "output Pin B"
+    }
+  ]
+}

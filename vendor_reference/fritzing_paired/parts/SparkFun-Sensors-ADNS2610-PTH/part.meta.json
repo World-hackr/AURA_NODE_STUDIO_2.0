@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Sensors-ADNS2610-PTH",
+  "title": "ADNS2610",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-adns2610-pth.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_adns2610_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_adns2610_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_adns2610_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ADNS2610.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "LED_CNTL",
+      "description": "LED_CNTL"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "OSC_IN",
+      "description": "OSC_IN"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OSC_OUT",
+      "description": "OSC_OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "REFA",
+      "description": "REFA"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SDIO",
+      "description": "SDIO"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    }
+  ]
+}

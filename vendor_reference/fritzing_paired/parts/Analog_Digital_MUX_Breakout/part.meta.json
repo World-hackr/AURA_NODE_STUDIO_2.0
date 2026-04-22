@@ -1,0 +1,175 @@
+{
+  "moduleId": "Analog_Digital_MUX_Breakout",
+  "title": "Analog Digital MUX Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Analog_Digital_MUX_Breakout.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Analog_Digital_MUX_Breakout_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Analog_Digital_MUX_Breakout_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Analog_Digital_MUX_Breakout_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Analog_Digital_MUX_Breakout_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "C0",
+      "description": "C0"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "C1",
+      "description": "C1"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "C2",
+      "description": "C2"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "C3",
+      "description": "C3"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "C4",
+      "description": "C4"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "C5",
+      "description": "C5"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "C6",
+      "description": "C6"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "C7",
+      "description": "C7"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "C8",
+      "description": "C8"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "C9",
+      "description": "C9"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "C10",
+      "description": "C10"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "C11",
+      "description": "C11"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "C12",
+      "description": "C12"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "C13",
+      "description": "C13"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "C14",
+      "description": "C14"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "C15",
+      "description": "C15"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "S0",
+      "description": "S0"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "S1",
+      "description": "S1"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "S2",
+      "description": "S2"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "S3",
+      "description": "S3"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "SIG",
+      "description": "SIG"
+    }
+  ]
+}

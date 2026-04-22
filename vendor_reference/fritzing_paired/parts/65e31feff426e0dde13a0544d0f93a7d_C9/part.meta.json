@@ -1,0 +1,55 @@
+{
+  "moduleId": "65e31feff426e0dde13a0544d0f93a7d_C9",
+  "title": "DHT22 Humidity and Temperature Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\DHT22_Humidity_and_Temperature_Sensor__5a66c01a9adead9b6c488a2653070fb3_C9.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\DHT22_Humidity_and_Temperature_Sensor__5__icon__4caeacf640f3c2d385033468f2ee0bc0_C9.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\DHT22_Humidity_and_Temperature_Sensor__5__breadboard__67661d4d429261e07b957bd0624c8b6c_C9.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\DHT22_Humidity_and_Temperature_Sensor__5__schematic__ae1e51a69b5501310a66809452990f99_C9.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\DHT22_Humidity_and_Temperature_Sensor__5__pcb__8208ee535139cc9d3d1852dd5f67ea8f_C9.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "NULL",
+      "description": "no connection"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD",
+      "description": "supply voltage"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DATA",
+      "description": "signal"
+    }
+  ]
+}

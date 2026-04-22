@@ -1,0 +1,38 @@
+{
+  "moduleId": "xc307sadf951b6bdd0d67c0d2ad67eabZenerDiodeModuleID",
+  "title": "Zener Diode",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\diode_zener_0_5w_3_6v_300mil.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic-diode.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\diode_zener.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DO-41_diode_2_300mil_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "cathode",
+      "description": "Cathode Pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "anode",
+      "description": "Anode Pin"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "moduleId": "034578dd-8cbd-41f9-a9c1-5aee236347ce-DPak",
+  "title": "Basic FET N-Channel",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_N-FET_DPak.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\mosfet_n_channel_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\mosfet_n_channel.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\fet_n.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_DPak.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Gate",
+      "description": "gate"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "drain",
+      "description": "drain"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "source",
+      "description": "source"
+    }
+  ]
+}

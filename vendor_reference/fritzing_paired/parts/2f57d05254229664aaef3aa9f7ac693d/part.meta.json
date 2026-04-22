@@ -1,0 +1,523 @@
+{
+  "moduleId": "2f57d05254229664aaef3aa9f7ac693d",
+  "title": "Arduino Mega",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\arduino_mega.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\controller_arduino_mega.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\pcb-arduino-mega-fp.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\controller_arduino_mega.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\controller_arduino_mega.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 82,
+  "connectors": [
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "A7",
+      "description": "Analog Input Pin 7"
+    },
+    {
+      "id": "connector72",
+      "type": "female",
+      "name": "A8",
+      "description": "Analog Input Pin 8"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "A9",
+      "description": "Analog Input Pin 9"
+    },
+    {
+      "id": "connector74",
+      "type": "female",
+      "name": "A10",
+      "description": "Analog Input 10"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "A11",
+      "description": "Analog Input 11"
+    },
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "A12",
+      "description": "Analog Input 12"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "A13",
+      "description": "Analog Input 13"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "A14",
+      "description": "Analog Input 14"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "A15",
+      "description": "Analog Input 15"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "AREF",
+      "description": "Analog Reference Voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "D13",
+      "description": "Digital I/O pin 13"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "D12",
+      "description": "Digital I/O Pin 12 (PWM)"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "D11",
+      "description": "Digital I/O Pin 11 (PWM)"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "D10",
+      "description": "Digital I/O Pin 10 (PWM)"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "+5V",
+      "description": "Regulated 5V Output"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "D9",
+      "description": "Digital I/O Pin 9 (PWM)"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "+5V",
+      "description": "Regulated 5V Output"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "D8",
+      "description": "Digital I/O Pin 8 (PWM)"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "D7",
+      "description": "Digital I/O Pin 7 (PWM)"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "D6",
+      "description": "Digital I/O Pin 6"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "D5",
+      "description": "Digital I/O pin 5 (PWM)"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "D4",
+      "description": "Digital I/O pin 4 (PWM)"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "D3",
+      "description": "Digital I/O pin 3 (PWM)"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "D2",
+      "description": "Digital I/O pin 2 (PWM)"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "D1TX",
+      "description": "Digital I/O Pin 1 (TX)"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "D0RX",
+      "description": "Digital I/O Pin 0 (RX)"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "RST",
+      "description": "Reset Pin"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "3V3",
+      "description": "Regulated 3.3 Volt Output"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "+5V",
+      "description": "Regulated 5 Volt Output"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "VIN",
+      "description": "Supply Voltage (5-17 V)"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "A0",
+      "description": "Analog Input pin 0"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "A1",
+      "description": "Analog Input Pin 1"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "A2",
+      "description": "Analog Input Pin 2"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "A3",
+      "description": "Analog Input Pin 3"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "A4",
+      "description": "Analog Input Pin 4"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "A5",
+      "description": "Analog Input Pin 5"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "D14",
+      "description": "Digital I/O Pin 14 (TX3)"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "D15",
+      "description": "Digital I/O Pin 15 (RX3)"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "D16",
+      "description": "Digital I/O Pin 16 (TX2)"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "D17",
+      "description": "Digital I/O Pin 17 (RX2)"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "D18",
+      "description": "Digital I/O Pin 18 (TX1)"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "D19",
+      "description": "Digital I/O Pin 19 (RX1)"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "D20",
+      "description": "Digital I/O Pin 20 (SDA)"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "D21",
+      "description": "Digital I/O Pin 21 (SCL)"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "D22",
+      "description": "Digital I/O Pin 22"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "D23",
+      "description": "Digital I/O Pin 23"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "D24",
+      "description": "Digital I/O Pin 24"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "D25",
+      "description": "Digital I/O Pin 25"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "D26",
+      "description": "Digital I/O Pin 26"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "D27",
+      "description": "Digital I/O Pin 27"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "D28",
+      "description": "Digital I/O Pin 28"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "D29",
+      "description": "Digital I/O Pin 29"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "D30",
+      "description": "Digital I/O Pin 30"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "D31",
+      "description": "Digital I/O Pin 31"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "D32",
+      "description": "Digital I/O Pin 32"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "D33",
+      "description": "Digital I/O Pin 33"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "D34",
+      "description": "Digital I/O Pin 34"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "D35",
+      "description": "Digital I/O Pin 35"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "D36",
+      "description": "Digital I/O Pin 36"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "D37",
+      "description": "Digital I/O Pin 37"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "D38",
+      "description": "Digital I/O Pin 38"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "D39",
+      "description": "Digital I/O Pin 39"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "D40",
+      "description": "Digital I/O Pin 40"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "D41",
+      "description": "Digital I/O Pin 41"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "D42",
+      "description": "Digital I/O Pin 42"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "D43",
+      "description": "Digital I/O Pin 43"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "D44",
+      "description": "Digital I/O Pin 44"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "D45",
+      "description": "Digital I/O Pin 45"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "D46",
+      "description": "Digital I/O Pin 46"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "D47",
+      "description": "Digital I/O Pin 47"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "D48",
+      "description": "Digital I/O Pin 48"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "D49",
+      "description": "Digital I/O Pin 49"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "D50",
+      "description": "Digital I/O Pin 50"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "D51",
+      "description": "Digital I/O Pin 51"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "D52",
+      "description": "Digital I/O Pin 52"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "D53",
+      "description": "Digital I/O Pin 53"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector69",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector70",
+      "type": "female",
+      "name": "A6",
+      "description": "Analog Input Pin 6"
+    }
+  ]
+}

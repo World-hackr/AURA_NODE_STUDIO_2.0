@@ -1,0 +1,163 @@
+{
+  "moduleId": "ISD1932 Breakout-v11",
+  "title": "ISD1932 Voice Recorder w/ Mic",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ISD1932 Breakout-v11.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ISD1932 Breakout-v11_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ISD1932 Breakout-v11_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ISD1932 Breakout-v11_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ISD1932 Breakout-v11_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 22,
+  "connectors": [
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "SP+",
+      "description": "SP+"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "SP-",
+      "description": "SP-"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "MIC+",
+      "description": "MIC+"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "MIC-",
+      "description": "MIC-"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "S3",
+      "description": "S3"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "S2",
+      "description": "S2"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "S1",
+      "description": "S1"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "S0",
+      "description": "S0"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "E3",
+      "description": "E3"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "E2",
+      "description": "E2"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "E1",
+      "description": "E1"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "E0",
+      "description": "E0"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "LED",
+      "description": "LED"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "XCLK",
+      "description": "XCLK"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "FT",
+      "description": "FT"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "AGC",
+      "description": "AGC"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "ROSC",
+      "description": "ROSC"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "REC",
+      "description": "REC"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "FMC2",
+      "description": "FMC2"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "FMC1",
+      "description": "FMC1"
+    }
+  ]
+}

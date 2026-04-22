@@ -1,0 +1,133 @@
+{
+  "moduleId": "adafruit_e2038ea6b62cf4a9b6ce794eacb71a7f_1_0F",
+  "title": "Adafruit USB DC Solar LiPo Charger",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_e2038ea6b62cf4a9b6ce794eacb71a7f_1_0F.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_e2038ea6b62cf4a9b6ce794eacb71a7f_2_breadboard_0F.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_e2038ea6b62cf4a9b6ce794eacb71a7f_2_schematic_0F.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_e2038ea6b62cf4a9b6ce794eacb71a7f_2_pcb_0F.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_e2038ea6b62cf4a9b6ce794eacb71a7f_2_icon_0F.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 17,
+  "connectors": [
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "DCIN",
+      "description": "DCIN"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "DCIN",
+      "description": "DCIN"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "LOAD",
+      "description": "LOAD"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "BATT",
+      "description": "BATT"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "CHARGE",
+      "description": "CHARGE"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "DCIN",
+      "description": "DCIN"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "DONE",
+      "description": "DONE"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "P$1",
+      "description": "P$1"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "P$1",
+      "description": "P$1"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "P$1",
+      "description": "P$1"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "P$1",
+      "description": "P$1"
+    }
+  ]
+}

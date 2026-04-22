@@ -1,0 +1,97 @@
+{
+  "moduleId": "SparkFun-RF-RMCM01-SMD",
+  "title": "RMCM01",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-rmcm01-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_rmcm01_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_rmcm01_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_rmcm01_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\RMCM01.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 11,
+  "connectors": [
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "F32KIN",
+      "description": "F32KIN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "FPLS",
+      "description": "FPLS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "HR",
+      "description": "HR"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "LX1",
+      "description": "LX1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "LX2",
+      "description": "LX2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "OSC",
+      "description": "OSC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OSC_ON",
+      "description": "OSC_ON"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "WIDB_DET",
+      "description": "WIDB_DET"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "moduleId": "adafruit_04438b87e8b6eacd3157afd472814067_1_24",
+  "title": "Adafruit PCF8574",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_04438b87e8b6eacd3157afd472814067_1_24.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_04438b87e8b6eacd3157afd472814067_1_breadboard_24.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_04438b87e8b6eacd3157afd472814067_1_schematic_24.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_04438b87e8b6eacd3157afd472814067_1_pcb_24.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_04438b87e8b6eacd3157afd472814067_1_icon_24.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "P7",
+      "description": "P7"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "P6",
+      "description": "P6"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "P5",
+      "description": "P5"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "P4",
+      "description": "P4"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "P3",
+      "description": "P3"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "P2",
+      "description": "P2"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "P1",
+      "description": "P1"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "P0",
+      "description": "P0"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

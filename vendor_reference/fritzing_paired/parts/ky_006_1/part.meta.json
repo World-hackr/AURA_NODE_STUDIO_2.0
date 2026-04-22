@@ -1,0 +1,49 @@
+{
+  "moduleId": "ky_006_1",
+  "title": "Passive Buzzer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ky_006_1.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ky_006_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ky_006_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ky_006_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ky_006_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "S",
+      "description": "Signal"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "-",
+      "description": "Ground"
+    }
+  ]
+}

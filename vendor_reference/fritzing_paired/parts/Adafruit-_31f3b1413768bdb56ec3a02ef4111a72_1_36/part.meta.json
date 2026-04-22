@@ -1,0 +1,175 @@
+{
+  "moduleId": "Adafruit-_31f3b1413768bdb56ec3a02ef4111a72_1_36",
+  "title": "Adafruit DAC7578 Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_31f3b1413768bdb56ec3a02ef4111a72_1_36.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_31f3b1413768bdb56ec3a02ef4111a72_1_36_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_31f3b1413768bdb56ec3a02ef4111a72_1_36_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_31f3b1413768bdb56ec3a02ef4111a72_1_36_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_31f3b1413768bdb56ec3a02ef4111a72_1_36_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "VREFIN",
+      "description": "VREFIN"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "VOUTA",
+      "description": "VOUTA"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "VOUTB",
+      "description": "VOUTB"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "VOUTC",
+      "description": "VOUTC"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "VOUTD",
+      "description": "VOUTD"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "VOUTE",
+      "description": "VOUTE"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "VOUTF",
+      "description": "VOUTF"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "VOUTG",
+      "description": "VOUTG"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "VOUTH",
+      "description": "VOUTH"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "!LDAC",
+      "description": "!LDAC"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "!CLR",
+      "description": "!CLR"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

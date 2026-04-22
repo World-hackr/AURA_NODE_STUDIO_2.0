@@ -1,0 +1,133 @@
+{
+  "moduleId": "SparkFun-DigitalIC-FT232RL-BASIC-SSOP",
+  "title": "USB UART",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-ft232rl-basic-ssop.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP28DB_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_ft232r-basic_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_ssop28db_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP28DB_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 17,
+  "connectors": [
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "3V3OUT",
+      "description": "3V3OUT"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND1",
+      "description": "GND1"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "GND3",
+      "description": "GND3"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "RXLED",
+      "description": "RXLED"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "TEST",
+      "description": "TEST"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "TXLED",
+      "description": "TXLED"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "USBDM",
+      "description": "USBDM"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "USBDP",
+      "description": "USBDP"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VCCIO",
+      "description": "VCCIO"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "moduleId": "FloraGPS_04139c64583f49ddca8d141d2884124f_1_20",
+  "title": "Flora GPS",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\FloraGPS_04139c64583f49ddca8d141d2884124f_1_20.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\FloraGPS_714790356a35e5c88193623133b7ceae_1_breadboard_20.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\FloraGPS_714790356a35e5c88193623133b7ceae_1_schematic_20.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\FloraGPS_714790356a35e5c88193623133b7ceae_1_pcb_20.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\FloraGPS_714790356a35e5c88193623133b7ceae_1_icon_20.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "BAT",
+      "description": "BAT"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "FIX",
+      "description": "FIX"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    }
+  ]
+}

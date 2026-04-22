@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-Sensors-HMC1052L-",
+  "title": "HMC1052L",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-hmc1052l-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_16lpcc_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_hmc1052l_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_16lpcc_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_16lpcc_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND1A",
+      "description": "GND1A"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND1B",
+      "description": "GND1B"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND2A",
+      "description": "GND2A"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND2B",
+      "description": "GND2B"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "NC2",
+      "description": "NC2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "NC3",
+      "description": "NC3"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OFF+",
+      "description": "OFF+"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OFF-",
+      "description": "OFF-"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "OUT+A",
+      "description": "OUT+A"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OUT+B",
+      "description": "OUT+B"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OUT-A",
+      "description": "OUT-A"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUT-B",
+      "description": "OUT-B"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "S_R+",
+      "description": "S_R+"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "S_R-",
+      "description": "S_R-"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VB",
+      "description": "VB"
+    }
+  ]
+}

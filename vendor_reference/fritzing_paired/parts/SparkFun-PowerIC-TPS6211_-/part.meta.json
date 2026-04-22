@@ -1,0 +1,133 @@
+{
+  "moduleId": "SparkFun-PowerIC-TPS6211*-",
+  "title": "TPS6211*",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-tps6211_-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_qfn16-4x4_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_tps6211__schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_qfn16-4x4_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_qfn16-4x4_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 17,
+  "connectors": [
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "FB",
+      "description": "FB"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "LBI",
+      "description": "LBI"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "LBO",
+      "description": "LBO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "PG",
+      "description": "PG"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "PGND",
+      "description": "PGND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PGND",
+      "description": "PGND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "PWPD",
+      "description": "PWPD"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SYNC",
+      "description": "SYNC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VINA",
+      "description": "VINA"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "aura.schematic_document.v1",
+  "metadata": {
+    "title": "Resistor Divider",
+    "description": "Minimal symbol-based schematic document example.",
+    "standard": "iec"
+  },
+  "instances": [
+    {
+      "id": "r1",
+      "symbolKey": "Device:R",
+      "reference": "R1",
+      "value": "10k",
+      "placement": {
+        "x": 120,
+        "y": 80,
+        "rotationDeg": 90
+      }
+    },
+    {
+      "id": "r2",
+      "symbolKey": "Device:R",
+      "reference": "R2",
+      "value": "10k",
+      "placement": {
+        "x": 120,
+        "y": 180,
+        "rotationDeg": 90
+      }
+    }
+  ],
+  "nets": [
+    {
+      "id": "net_vcc",
+      "label": "VCC",
+      "connections": [
+        { "instanceId": "r1", "pinId": "pin_1" }
+      ]
+    },
+    {
+      "id": "net_div",
+      "label": "VOUT",
+      "connections": [
+        { "instanceId": "r1", "pinId": "pin_2" },
+        { "instanceId": "r2", "pinId": "pin_1" }
+      ]
+    },
+    {
+      "id": "net_gnd",
+      "label": "GND",
+      "connections": [
+        { "instanceId": "r2", "pinId": "pin_2" }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "id": "label_vout",
+      "text": "VOUT",
+      "x": 168,
+      "y": 130
+    }
+  ]
+}

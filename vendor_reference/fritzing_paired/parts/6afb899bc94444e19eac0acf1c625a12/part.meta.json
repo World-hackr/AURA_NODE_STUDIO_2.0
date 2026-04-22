@@ -1,0 +1,163 @@
+{
+  "moduleId": "6afb899bc94444e19eac0acf1c625a12",
+  "title": "Arduino LilyPad",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Arduino LilyPad.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\Arduino_LilyPad3b7.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\Arduino_LilyPad7f6.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\Arduino_LilyPad7f6.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\Arduino_LilyPad4b5.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 22,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "D0",
+      "description": "Digital I/O 0"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "D8",
+      "description": "Digital I/O 8"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "D7",
+      "description": "Digital I/O 7"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "D6",
+      "description": "Digital I/O 6"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "POW",
+      "description": "Regulated power (2.7-5.5 V)"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "A0",
+      "description": "Analog Input 0"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "A1",
+      "description": "Analog Input 1"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "A2",
+      "description": "Analog Input 2"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "A3",
+      "description": "Analog Input 3"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "A4",
+      "description": "Analog Input 4"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "A5",
+      "description": "Analog Input 5"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "D5",
+      "description": "Digital I/O 5"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "D13",
+      "description": "Digital I/O 13"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "D4",
+      "description": "Digital I/O 4"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "D12",
+      "description": "Digital I/O 12"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "D11",
+      "description": "Digital I/O 11"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "D3",
+      "description": "Digital I/O 3"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "D10",
+      "description": "Digital I/O 10"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "D2",
+      "description": "Digital I/O 2"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "D9",
+      "description": "Digital I/O 9"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "D1",
+      "description": "Digital I/O 1"
+    }
+  ]
+}

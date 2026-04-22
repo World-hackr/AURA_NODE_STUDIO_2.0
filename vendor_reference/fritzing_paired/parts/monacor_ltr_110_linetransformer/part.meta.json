@@ -1,0 +1,91 @@
+{
+  "moduleId": "monacor_ltr_110_linetransformer",
+  "title": "Monacor line transformer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\monacor_ltr_110_linetransformer.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\monacor_ltr_110_linetransformer_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\monacor_ltr_110_linetransformer_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\monacor_ltr_110_linetransformer_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\monacor_ltr_110_linetransformer_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "03",
+      "description": "connector 03 - (75 Ohm)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "02",
+      "description": "connector 02 - (75 Ohm)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "01",
+      "description": "connector 01 - (75 Ohm)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "08",
+      "description": "connector 08 - (90 Ohm)"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "05",
+      "description": "connector 05 - (60 Ohm)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "07",
+      "description": "connector 07 - (90 Ohm)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "04",
+      "description": "connector 04 - (60 Ohm)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "06",
+      "description": "connector 06 - (90 Ohm)"
+    },
+    {
+      "id": "connector130",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground Connector"
+    },
+    {
+      "id": "connector131",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground Connector"
+    }
+  ]
+}

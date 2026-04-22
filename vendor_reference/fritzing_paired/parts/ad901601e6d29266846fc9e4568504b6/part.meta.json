@@ -1,0 +1,73 @@
+{
+  "moduleId": "ad901601e6d29266846fc9e4568504b6",
+  "title": "Barometric Pressure Sensor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Barometric Pressure Sensor.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Barometric_Pressure_Sensor__2eaec138e035.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Barometric_Pressure_Sensor__2eaec138e035.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Barometric_Pressure_Sensor__2eaec138e035.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_7_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "MOSI",
+      "description": "Master Out, Slave In"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SCK",
+      "description": "SPI Clock"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3v voltage input"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "DRDY",
+      "description": "Data Ready Pin"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "CSB",
+      "description": "Chip Select (or Slave Select, in SPI terms)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "MISO",
+      "description": "Master in, Slave Out"
+    }
+  ]
+}

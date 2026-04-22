@@ -1,0 +1,61 @@
+{
+  "moduleId": "daf5c6f3ee7e6da72522d1ea59fca803_65",
+  "title": "CAR RELAY",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\CAR_RELE_NVF4-2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\NVF4-2_carrelay.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\NVF4-2_carrelay.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\NVF4-2_carrelay.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\NVF4-2s_carrelay.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "86",
+      "description": "Relay Coil - Pin 2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "87",
+      "description": "Switch Terminal 'B'"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "87A",
+      "description": "Switch Terminal 'A'"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "85",
+      "description": "Relay Coil - Pin 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "30",
+      "description": "Switch Common Terminal"
+    }
+  ]
+}

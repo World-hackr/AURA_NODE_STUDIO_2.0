@@ -1,0 +1,78 @@
+{
+  "moduleId": "SparkFun-Connectors-MMA_ACCEL_CONNECTOR-",
+  "title": "MMA_ACCEL_CONNECTOR",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-mma_accel_connector-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_mma_con_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\1X08.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_female_pin_header_8_100mil_bread.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "pcb/nsjumper_8_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GS1",
+      "description": "GS1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GS2",
+      "description": "GS2"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SLP",
+      "description": "SLP"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "X",
+      "description": "X"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Y",
+      "description": "Y"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Z",
+      "description": "Z"
+    }
+  ]
+}

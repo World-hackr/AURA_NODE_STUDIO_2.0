@@ -1,0 +1,73 @@
+{
+  "moduleId": "291117f8a8e88fc4a178f5b83ee48800_BF",
+  "title": "Maxbotix MaxSonar Ultrasonic Sensor (Hi-Res)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Maxbotix_MaxSonar_Ultrasonic_Sensor__Hi_Res___46aa3af16e6548afb1ef1e17b85bef7a_BF.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Maxbotix_MaxSonar_Ultrasonic_Sensor__eda__schematic__b3e1931e565778b55caa786cfa05182b_BF.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Maxbotix_MaxSonar_Ultrasonic_Sensor__eda__pcb__76354de46efeaa027ca49692ac075f29_BF.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Maxbotix_MaxSonar_Ultrasonic_Sensor__Hi___icon__7712e7ce352a1dd441cb010ff652e976_BF.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Maxbotix_MaxSonar_Ultrasonic_Sensor__Hi___breadboard__8e0e52cf1f79af9af4737caae48d70c3_BF.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "TX",
+      "description": "tx line"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RX",
+      "description": "rx line"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "AN",
+      "description": "analog output"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PW",
+      "description": "pulsewidth output"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "BW",
+      "description": "TX serial inhibit"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "+5V",
+      "description": "supply voltage"
+    }
+  ]
+}

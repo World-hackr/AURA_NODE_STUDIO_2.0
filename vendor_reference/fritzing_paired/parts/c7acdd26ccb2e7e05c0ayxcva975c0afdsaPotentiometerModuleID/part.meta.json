@@ -1,0 +1,175 @@
+{
+  "moduleId": "c7acdd26ccb2e7e05c0ayxcva975c0afdsaPotentiometerModuleID",
+  "title": "AD5206 Digital Potentiometer",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_AD5206.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\AD5206_Digital_Potentiometer__1569b6e5e5.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\AD5206_Digital_Potentiometer__1569b6e5e5.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_SO24_DT.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\AD5206_Digital_Potentiometer__1569b6e5e5.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "B1",
+      "description": "Channel 1 voltage low"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CLK",
+      "description": "Serial clock"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "W1",
+      "description": "Channel 1 wiper"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Vss",
+      "description": "Voltage low (usually ground)"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "A1",
+      "description": "Channel 1 voltage high"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "B5",
+      "description": "Channel 5 voltage low"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "A2",
+      "description": "Channel 2 voltage high"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "W2",
+      "description": "Channel 2 wiper"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "B2",
+      "description": "Channel 2 voltage low"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "A4",
+      "description": "Channel 4 voltage high"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "W4",
+      "description": "Channel 4 wiper"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "B4",
+      "description": "Channel 4 voltage low"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A6",
+      "description": "Channel 6 voltage high"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "W6",
+      "description": "Channel 6 wiper"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "W5",
+      "description": "Channel 5 wiper"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "B6",
+      "description": "Channel 6 voltage low"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "A5",
+      "description": "Channel 5 voltage high"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Gnd",
+      "description": "Ground"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "B3",
+      "description": "Channel 3 voltage low"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CS",
+      "description": "Chip Select (active low)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "W3",
+      "description": "Channel 3 wiper"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Vdd",
+      "description": "Voltage high"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "A3",
+      "description": "Channel 3 voltage high"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SDI",
+      "description": "Serial Data In"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "moduleId": "5e3b9f7a14a1627168e700bfc9a03b3c",
+  "title": "USB connector",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\USB connector.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\usb_connector.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\usb_connector.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\connector_usb_b.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\usb_connector.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "5V",
+      "description": "+5V"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "d-",
+      "description": "D- (white)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "d+",
+      "description": "D+ (green)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "chassis5",
+      "description": "Chassis (Pin 5)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "chassis6",
+      "description": "Chassis (Pin 6)"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

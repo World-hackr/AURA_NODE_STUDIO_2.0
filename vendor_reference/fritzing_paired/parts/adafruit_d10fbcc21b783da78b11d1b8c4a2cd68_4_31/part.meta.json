@@ -1,0 +1,67 @@
+{
+  "moduleId": "adafruit_d10fbcc21b783da78b11d1b8c4a2cd68_4_31",
+  "title": "Adafruit AT42QT1012 Standalone Toggle Capacitive Touch Sensor Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_d10fbcc21b783da78b11d1b8c4a2cd68_4_31.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_d10fbcc21b783da78b11d1b8c4a2cd68_5_breadboard_31.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_d10fbcc21b783da78b11d1b8c4a2cd68_5_schematic_31.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_d10fbcc21b783da78b11d1b8c4a2cd68_5_pcb_31.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_d10fbcc21b783da78b11d1b8c4a2cd68_5_icon_31.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "LEDA",
+      "description": "LEDA"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "TIME",
+      "description": "TIME"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "CAPPAD",
+      "description": "CAPPAD"
+    }
+  ]
+}

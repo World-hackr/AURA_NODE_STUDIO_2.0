@@ -1,0 +1,138 @@
+{
+  "moduleId": "SparkFun-DigitalIC-PIC16F88-DIP-",
+  "title": "PIC16F88-DIP",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-pic16f88-dip-.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_pic16f88-dip_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil18_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_18_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_18_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "RA0_AN0",
+      "description": "RA0_AN0"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "RA1_AN1",
+      "description": "RA1_AN1"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RA2_AN2",
+      "description": "RA2_AN2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RA3_AN3",
+      "description": "RA3_AN3"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RA4_AN4",
+      "description": "RA4_AN4"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RA5_MCLR",
+      "description": "RA5_MCLR"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RA6_OSC2",
+      "description": "RA6_OSC2"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "RA7_OSC1",
+      "description": "RA7_OSC1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RB0_INT",
+      "description": "RB0_INT"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "RB1_SDA",
+      "description": "RB1_SDA"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RB2_RX",
+      "description": "RB2_RX"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RB3",
+      "description": "RB3"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "RB4_SCL",
+      "description": "RB4_SCL"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "RB5_TX",
+      "description": "RB5_TX"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "RB6_PGC",
+      "description": "RB6_PGC"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "RB7_PGD",
+      "description": "RB7_PGD"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    }
+  ]
+}

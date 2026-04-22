@@ -1,0 +1,139 @@
+{
+  "moduleId": "c8994c24e2a6d9182a55c653b6bbefed",
+  "title": "16-segment display",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\16-segment_display.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\16-segment display.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\16-segment display.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\16-segment display.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_18_600mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "anodeM",
+      "description": "Anode Segment M"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "anodeR",
+      "description": "Anode Segment R"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "commCathode",
+      "description": "Common Cathode"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "anodeN",
+      "description": "Anode Segment N"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "anodeK",
+      "description": "Anode Segment K"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "anodeD1",
+      "description": "Anode Segment D1"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "anodeA2",
+      "description": "Anode Segment A2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "anodeA1",
+      "description": "Anode Segment A1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "anodeD2",
+      "description": "Anode Segment D2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "anodeF",
+      "description": "Anode Segment F"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "commCathode",
+      "description": "Common Cathode"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "anodeH",
+      "description": "Anode Segment H"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "anodeE",
+      "description": "Anode Segment E"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "anodeC",
+      "description": "Anode Segment C"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "anodeJ",
+      "description": "Anode Segment J"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "anodeG",
+      "description": "Anode Segment G"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "anodeP",
+      "description": "Anode Segment P"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "anodeB",
+      "description": "Anode Segment B"
+    }
+  ]
+}

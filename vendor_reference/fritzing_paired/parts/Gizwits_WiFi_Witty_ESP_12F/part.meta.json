@@ -1,0 +1,127 @@
+{
+  "moduleId": "Gizwits_WiFi_Witty_ESP_12F",
+  "title": "Gizwits WiFi Witty ESP-12F",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Gizwits_WiFi_Witty_ESP_12F.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Gizwits-WiFi-Witty-ESP-12F_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Gizwits-WiFi-Witty-ESP-12F_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Gizwits-WiFi-Witty-ESP-12F_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Gizwits-WiFi-Witty-ESP-12F_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "REST",
+      "description": "Reset"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "ADC",
+      "description": "ADC"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "CH_PD",
+      "description": "CH_PD"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GPIO16",
+      "description": "GPIO16"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GPIO14",
+      "description": "GPIO14"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GPIO12",
+      "description": "GPIO12"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GPIO13",
+      "description": "GPIO13"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GPIO15",
+      "description": "GPIO15"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GPIO2",
+      "description": "GPIO2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GPIO0",
+      "description": "GPIO0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GPIO4",
+      "description": "GPIO4"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GPIO5",
+      "description": "GPIO5"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    }
+  ]
+}

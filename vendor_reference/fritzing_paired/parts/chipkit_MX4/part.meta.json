@@ -1,0 +1,679 @@
+{
+  "moduleId": "chipkit_MX4",
+  "title": "chipKIT™Pro MX4",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\chipkit_MX4.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\chipkit_MX4_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\chipkit_MX4_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\chipkit_MX4_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\chipkit_MX4_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 108,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "RC4",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "RD12",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "RA10",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "RA9",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 7"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "RB13",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "RB12",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "RB11",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "RB10",
+      "description": "pin 12"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 13"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 14"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "RB9",
+      "description": "pin 15"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "RB8",
+      "description": "pin 16"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "RB5",
+      "description": "pin 17"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "RB4",
+      "description": "pin 18"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 19"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 20"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "RB3",
+      "description": "pin 21"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "RB2",
+      "description": "pin 22"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "RB1",
+      "description": "pin 23"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "RB0",
+      "description": "pin 24"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 25"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 26"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "RD13",
+      "description": "pin 27"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "RD8",
+      "description": "pin 28"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "RD0",
+      "description": "pin 29"
+    },
+    {
+      "id": "connector29",
+      "type": "female",
+      "name": "RE8",
+      "description": "pin 30"
+    },
+    {
+      "id": "connector30",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 31"
+    },
+    {
+      "id": "connector31",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 32"
+    },
+    {
+      "id": "connector32",
+      "type": "female",
+      "name": "RF13",
+      "description": "pin 33"
+    },
+    {
+      "id": "connector33",
+      "type": "female",
+      "name": "RF4",
+      "description": "pin 34"
+    },
+    {
+      "id": "connector34",
+      "type": "female",
+      "name": "RF5",
+      "description": "pin 35"
+    },
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "RF12",
+      "description": "pin 36"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "RE0",
+      "description": "pin 37"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "RE1",
+      "description": "pin 38"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "RE2",
+      "description": "pin 39"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "RE3",
+      "description": "pin 40"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 41"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 42"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "RE4",
+      "description": "pin 43"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "RE5",
+      "description": "pin 44"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "RE6",
+      "description": "pin 45"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "RE7",
+      "description": "pin 46"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 47"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 48"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "RG9",
+      "description": "pin 49"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "RG8",
+      "description": "pin 50"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "RG7",
+      "description": "pin 51"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "RG6",
+      "description": "pin 52"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 53"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 54"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "RB15",
+      "description": "pin 55"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "RD5",
+      "description": "pin 56"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "RD4",
+      "description": "pin 57"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "RB14",
+      "description": "pin 58"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 59"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 60"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "RG12",
+      "description": "pin 61"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "RG13",
+      "description": "pin 62"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "RG14",
+      "description": "pin 63"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "RG15",
+      "description": "pin 64"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 65"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 66"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "RG0",
+      "description": "pin 67"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "RG1",
+      "description": "pin 68"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "RF0",
+      "description": "pin 69"
+    },
+    {
+      "id": "connector69",
+      "type": "female",
+      "name": "RF1",
+      "description": "pin 70"
+    },
+    {
+      "id": "connector70",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 71"
+    },
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 72"
+    },
+    {
+      "id": "connector72",
+      "type": "female",
+      "name": "RD7",
+      "description": "pin 73"
+    },
+    {
+      "id": "connector73",
+      "type": "female",
+      "name": "RD1",
+      "description": "pin 74"
+    },
+    {
+      "id": "connector74",
+      "type": "female",
+      "name": "RD9",
+      "description": "pin 75"
+    },
+    {
+      "id": "connector75",
+      "type": "female",
+      "name": "RC1",
+      "description": "pin 76"
+    },
+    {
+      "id": "connector76",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 77"
+    },
+    {
+      "id": "connector77",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 78"
+    },
+    {
+      "id": "connector78",
+      "type": "female",
+      "name": "RD6",
+      "description": "pin 79"
+    },
+    {
+      "id": "connector79",
+      "type": "female",
+      "name": "RD2",
+      "description": "pin 80"
+    },
+    {
+      "id": "connector80",
+      "type": "female",
+      "name": "RD10",
+      "description": "pin 81"
+    },
+    {
+      "id": "connector81",
+      "type": "female",
+      "name": "RC2",
+      "description": "pin 82"
+    },
+    {
+      "id": "connector82",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 83"
+    },
+    {
+      "id": "connector83",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 84"
+    },
+    {
+      "id": "connector84",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 85"
+    },
+    {
+      "id": "connector85",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 86"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "RC3",
+      "description": "pin 87"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "RD11",
+      "description": "pin 88"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "RD3",
+      "description": "pin 89"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "RE9",
+      "description": "pin 90"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 91"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 92"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "RD15",
+      "description": "pin 93"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "RF2",
+      "description": "pin 94"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "RF8",
+      "description": "pin 95"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "RD14",
+      "description": "pin 96"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 97"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 98"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "RA5",
+      "description": "pin 99"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "RA4",
+      "description": "pin 100"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "RA1",
+      "description": "pin 101"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "RA0",
+      "description": "pin 102"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "VDD",
+      "description": "pin 103"
+    },
+    {
+      "id": "connector103",
+      "type": "female",
+      "name": "GND",
+      "description": "pin 104"
+    },
+    {
+      "id": "connector104",
+      "type": "female",
+      "name": "RA7",
+      "description": "pin 105"
+    },
+    {
+      "id": "connector105",
+      "type": "female",
+      "name": "RA6",
+      "description": "pin 106"
+    },
+    {
+      "id": "connector106",
+      "type": "female",
+      "name": "RA15",
+      "description": "pin 107"
+    },
+    {
+      "id": "connector107",
+      "type": "female",
+      "name": "RA14",
+      "description": "pin 108"
+    }
+  ]
+}

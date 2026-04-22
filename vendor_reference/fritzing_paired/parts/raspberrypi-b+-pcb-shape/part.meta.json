@@ -1,0 +1,30 @@
+{
+  "moduleId": "raspberrypi-b+-pcb-shape",
+  "title": "Raspberry Pi Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\raspberrypi-b+-pcb-shape.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\plain_pcb.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\raspberrypi-b+-pcb-shape.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 0,
+  "connectors": []
+}

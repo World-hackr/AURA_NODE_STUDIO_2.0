@@ -1,0 +1,49 @@
+{
+  "moduleId": "atlas-sientific_Pre-AssembledFemaleBNC",
+  "title": "Pre-Assembled Female BNC",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\atlas-sientific_Pre-AssembledFemaleBNC.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\atlas-sientific_Pre-AssembledFemaleBNC_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\atlas-sientific_Pre-AssembledFemaleBNC_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\atlas-sientific_Pre-AssembledFemaleBNC_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\atlas-sientific_Pre-AssembledFemaleBNC_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "NC",
+      "description": "Not Connected"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "PRB",
+      "description": "Probe (Sensor)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "Supply Ground"
+    }
+  ]
+}

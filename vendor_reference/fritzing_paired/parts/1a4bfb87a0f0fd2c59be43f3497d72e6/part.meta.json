@@ -1,0 +1,151 @@
+{
+  "moduleId": "1a4bfb87a0f0fd2c59be43f3497d72e6",
+  "title": "XBee",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\xbee.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\xbee.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\xbee.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\xbee.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\xbee_20_2mm_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin16",
+      "description": "RTS / AD6 / DIO6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "Do Not Connect!"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin17",
+      "description": "AD3 / DIO3"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin9",
+      "description": "DTR / SLEEP_RQ / DI8"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin18",
+      "description": "AD2 / DIO2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin19",
+      "description": "AD1 / DIO1"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin20",
+      "description": "AD0 / DIO0"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "Supply Voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "DIN / CONFIG"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin11",
+      "description": "AD4 / DIO4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin12",
+      "description": "CTS / DIO7"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "DO8"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "RESET"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin13",
+      "description": "ON / SLEEP"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "PWM0 / RSSI"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin14",
+      "description": "VREF"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "PWM1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin15",
+      "description": "Associate / AD5 / DIO5"
+    }
+  ]
+}

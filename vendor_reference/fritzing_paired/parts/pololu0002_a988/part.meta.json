@@ -1,0 +1,127 @@
+{
+  "moduleId": "pololu0002_a988",
+  "title": "Pololu A4988",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\pololu0002_a988.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\pololu0002_a988_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\pololu0002_a988_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\pololu0002_a988_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\pololu0002_a988_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "ENABLE",
+      "description": "if 0  true"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "MS1",
+      "description": null
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "MS2",
+      "description": null
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "MS3",
+      "description": null
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RESET",
+      "description": "If 0 true"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SLEEP",
+      "description": "If 0 true"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "STEP",
+      "description": null
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DIR",
+      "description": null
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND",
+      "description": "logic ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VDD",
+      "description": "logic power supply (3-5.5V)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "1B",
+      "description": null
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "1A",
+      "description": null
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "2A",
+      "description": null
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "2B",
+      "description": null
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GND",
+      "description": "motor ground"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VMOT",
+      "description": "motor power supply (8-35V)"
+    }
+  ]
+}

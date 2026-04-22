@@ -1,0 +1,181 @@
+{
+  "moduleId": "DB25Med113b6de2954d12b481954e2ef4e0f7",
+  "title": "DB25M",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DB25M_41ab500_002.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DB25M_41ab500_002.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DB25M_41ab500_002.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DB25M_41ab500_002.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DB25M_41ab500_002.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 25,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin16",
+      "description": "Pin 16"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "Pin 8"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin17",
+      "description": "Pin 17"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin9",
+      "description": "Pin 9"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin18",
+      "description": "Pin 18"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin10",
+      "description": "Pin 10"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin19",
+      "description": "Pin 19"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin20",
+      "description": "Pin 20"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin21",
+      "description": "Pin 21"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin22",
+      "description": "Pin 22"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin23",
+      "description": "Pin 23"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin24",
+      "description": "Pin 24"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin25",
+      "description": "Pin 25"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "Pin 2"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin11",
+      "description": "Pin 11"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "Pin 3"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin12",
+      "description": "Pin 12"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "Pin 4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "Pin 5"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin13",
+      "description": "Pin 13"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "Pin 6"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin14",
+      "description": "Pin 14"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "Pin 7"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin15",
+      "description": "Pin 15"
+    }
+  ]
+}

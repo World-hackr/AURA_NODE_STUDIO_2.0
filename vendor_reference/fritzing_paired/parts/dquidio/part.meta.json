@@ -1,0 +1,271 @@
+{
+  "moduleId": "dquidio",
+  "title": "dquidio board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\dquidio.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\dquidio_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\dquidio_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\dquidio_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\dquidio_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "12V_Input",
+      "description": "pin 1 - User 12V – Input"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "5V_Output",
+      "description": "pin 2 - 5V- Output"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RS-232 Rx",
+      "description": "pin 3 - to be managed via Firmware"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RS-232 Tx",
+      "description": "pin 4 - to be managed via Firmware"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 5 - GND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 6 - GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 7 - GND"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 8 - GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "I2C_SCL",
+      "description": "pin 9 - to be managed via Firmware"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "I2C_SDA",
+      "description": "pin 10 - to be managed via Firmware"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "UART Tx",
+      "description": "pin 11 - to be managed via Firmware"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "UART Rx",
+      "description": "pin 12 - to be managed via Firmware"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "OUTPUT 1",
+      "description": "pin 13 - can be configured via DQuid APP"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OUTPUT 2",
+      "description": "pin 14 - can be configured via DQuid APP"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OUTPUT 3",
+      "description": "pin 15 - can be configured via DQuid APP"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OUTPUT 4",
+      "description": "pin 16 - can be configured via DQuid APP"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "INPUT 1",
+      "description": "pin 17 - can be configured via DQuid APP"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "INPUT 2",
+      "description": "pin 18 - can be configured via DQuid APP"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "INPUT 3",
+      "description": "pin 19 - can be configured via DQuid APP"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "INPUT 4",
+      "description": "pin 20 - can be configured via DQuid APP"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin21",
+      "description": "pin 21"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin22",
+      "description": "pin 22"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin23",
+      "description": "pin 23"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin24",
+      "description": "pin 24"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin25",
+      "description": "pin 25"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "pin26",
+      "description": "pin 26"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "pin27",
+      "description": "pin 27"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "pin28",
+      "description": "pin 28"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "pin29",
+      "description": "pin 29"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "pin30",
+      "description": "pin 30"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "pin31",
+      "description": "pin 31"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "pin32",
+      "description": "pin 32"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "pin33",
+      "description": "pin 33"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "pin34",
+      "description": "pin 34"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "pin35",
+      "description": "pin 35"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "pin36",
+      "description": "pin 36"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "pin37",
+      "description": "pin 37"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "pin38",
+      "description": "pin 38"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "pin39",
+      "description": "pin 39"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "pin40",
+      "description": "pin 40"
+    }
+  ]
+}

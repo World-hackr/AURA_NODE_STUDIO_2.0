@@ -1,0 +1,43 @@
+{
+  "moduleId": "Molex-Picoblade-53261-0219_smd-2p-h",
+  "title": "Molex Picoblade Series Header",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Molex-Picoblade-53261-0219_smd-2p-h_48.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Molex-Picoblade-53261-0219_smd-2p-h_48.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Molex-Picoblade-53261-0219_smd-2p-h_48.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Molex-Picoblade-53261-0219_smd-2p-h_48.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Molex-Picoblade-53261-0219_smd-2p-h_48.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "1",
+      "description": "1"
+    }
+  ]
+}

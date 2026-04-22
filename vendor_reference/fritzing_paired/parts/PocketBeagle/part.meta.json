@@ -1,0 +1,463 @@
+{
+  "moduleId": "PocketBeagle",
+  "title": "PocketBeagle",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\PocketBeagle.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\PocketBeagle_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\PocketBeagle_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\PocketBeagle_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\PocketBeagle_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 72,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector18",
+      "type": "pad",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector28",
+      "type": "pad",
+      "name": "VOUT",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector53",
+      "type": "pad",
+      "name": "VOUT",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector63",
+      "type": "pad",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector52",
+      "type": "pad",
+      "name": "POWER.BUTTON",
+      "description": "POWER.BUTTON"
+    },
+    {
+      "id": "connector21",
+      "type": "pad",
+      "name": "AIN.VREFN",
+      "description": "AIN.VREFN"
+    },
+    {
+      "id": "connector22",
+      "type": "pad",
+      "name": "AIN.VREFP",
+      "description": "AIN.VREFP"
+    },
+    {
+      "id": "connector23",
+      "type": "pad",
+      "name": "AIN0(1.8V)",
+      "description": "AIN0(1.8V)"
+    },
+    {
+      "id": "connector25",
+      "type": "pad",
+      "name": "AIN1(1.8V)",
+      "description": "AIN1(1.8V)"
+    },
+    {
+      "id": "connector27",
+      "type": "pad",
+      "name": "AIN2(1.8V)",
+      "description": "AIN2(1.8V)"
+    },
+    {
+      "id": "connector29",
+      "type": "pad",
+      "name": "AIN3(1.8V)",
+      "description": "AIN3(1.8V)"
+    },
+    {
+      "id": "connector31",
+      "type": "pad",
+      "name": "AIN4(1.8V)",
+      "description": "AIN4(1.8V)"
+    },
+    {
+      "id": "connector75",
+      "type": "pad",
+      "name": "AIN5/GPIO86",
+      "description": "AIN5/GPIO86"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "AIN6/GPIO87",
+      "description": "AIN6/GPIO87"
+    },
+    {
+      "id": "connector76",
+      "type": "pad",
+      "name": "AIN7(1.8V)",
+      "description": "AIN7(1.8V)"
+    },
+    {
+      "id": "connector56",
+      "type": "pad",
+      "name": "BAT.TEMP",
+      "description": "BAT.TEMP"
+    },
+    {
+      "id": "connector24",
+      "type": "pad",
+      "name": "GPIO20",
+      "description": "GPIO20"
+    },
+    {
+      "id": "connector43",
+      "type": "pad",
+      "name": "GPIO23",
+      "description": "GPIO23"
+    },
+    {
+      "id": "connector38",
+      "type": "pad",
+      "name": "GPIO26",
+      "description": "GPIO26"
+    },
+    {
+      "id": "connector59",
+      "type": "pad",
+      "name": "GPIO27",
+      "description": "GPIO27"
+    },
+    {
+      "id": "connector73",
+      "type": "pad",
+      "name": "GPIO45",
+      "description": "GPIO45"
+    },
+    {
+      "id": "connector62",
+      "type": "pad",
+      "name": "GPIO46",
+      "description": "GPIO46"
+    },
+    {
+      "id": "connector58",
+      "type": "pad",
+      "name": "GPIO47",
+      "description": "GPIO47"
+    },
+    {
+      "id": "connector64",
+      "type": "pad",
+      "name": "GPIO48",
+      "description": "GPIO48"
+    },
+    {
+      "id": "connector50",
+      "type": "pad",
+      "name": "GPIO52",
+      "description": "GPIO52"
+    },
+    {
+      "id": "connector46",
+      "type": "pad",
+      "name": "GPIO57",
+      "description": "GPIO57"
+    },
+    {
+      "id": "connector44",
+      "type": "pad",
+      "name": "GPIO58",
+      "description": "GPIO58"
+    },
+    {
+      "id": "connector42",
+      "type": "pad",
+      "name": "GPIO59",
+      "description": "GPIO59"
+    },
+    {
+      "id": "connector48",
+      "type": "pad",
+      "name": "GPIO60",
+      "description": "GPIO60"
+    },
+    {
+      "id": "connector60",
+      "type": "pad",
+      "name": "GPIO64",
+      "description": "GPIO64"
+    },
+    {
+      "id": "connector57",
+      "type": "pad",
+      "name": "GPIO65",
+      "description": "GPIO65"
+    },
+    {
+      "id": "connector8",
+      "type": "pad",
+      "name": "GPIO89",
+      "description": "GPIO89"
+    },
+    {
+      "id": "connector11",
+      "type": "pad",
+      "name": "USB1.VIN",
+      "description": "USB1.VIN"
+    },
+    {
+      "id": "connector9",
+      "type": "pad",
+      "name": "USB1.VBUS",
+      "description": "USB1.VBUS"
+    },
+    {
+      "id": "connector17",
+      "type": "pad",
+      "name": "USB1.ID",
+      "description": "USB1.ID"
+    },
+    {
+      "id": "connector7",
+      "type": "pad",
+      "name": "USB1.DRVVBUS",
+      "description": "USB1.DRVVBUS"
+    },
+    {
+      "id": "connector15",
+      "type": "pad",
+      "name": "USB1.DP",
+      "description": "USB1.DP"
+    },
+    {
+      "id": "connector13",
+      "type": "pad",
+      "name": "USB1.DN",
+      "description": "USB1.DN"
+    },
+    {
+      "id": "connector47",
+      "type": "pad",
+      "name": "UART4.TX",
+      "description": "UART4.TX"
+    },
+    {
+      "id": "connector45",
+      "type": "pad",
+      "name": "UART4.RX",
+      "description": "UART4.RX"
+    },
+    {
+      "id": "connector34",
+      "type": "pad",
+      "name": "UART0.TX",
+      "description": "UART0.TX"
+    },
+    {
+      "id": "connector36",
+      "type": "pad",
+      "name": "UART0.RX",
+      "description": "UART0.RX"
+    },
+    {
+      "id": "connector65",
+      "type": "pad",
+      "name": "SPI1.MOSI",
+      "description": "SPI1.MOSI"
+    },
+    {
+      "id": "connector67",
+      "type": "pad",
+      "name": "SPI1.MISO",
+      "description": "SPI1.MISO"
+    },
+    {
+      "id": "connector71",
+      "type": "pad",
+      "name": "SPI1.CS",
+      "description": "SPI1.CS"
+    },
+    {
+      "id": "connector69",
+      "type": "pad",
+      "name": "SPI1.CLK",
+      "description": "SPI1.CLK"
+    },
+    {
+      "id": "connector16",
+      "type": "pad",
+      "name": "SPI0.MOSI",
+      "description": "SPI0.MOSI"
+    },
+    {
+      "id": "connector14",
+      "type": "pad",
+      "name": "SPI0.MISO",
+      "description": "SPI0.MISO"
+    },
+    {
+      "id": "connector10",
+      "type": "pad",
+      "name": "SPI0.CS",
+      "description": "SPI0.CS"
+    },
+    {
+      "id": "connector12",
+      "type": "pad",
+      "name": "SPI0.CLK",
+      "description": "SPI0.CLK"
+    },
+    {
+      "id": "connector66",
+      "type": "pad",
+      "name": "RESET#",
+      "description": "RESET#"
+    },
+    {
+      "id": "connector41",
+      "type": "pad",
+      "name": "PWM1A",
+      "description": "PWM1A"
+    },
+    {
+      "id": "connector40",
+      "type": "pad",
+      "name": "PWM0A",
+      "description": "PWM0A"
+    },
+    {
+      "id": "connector39",
+      "type": "pad",
+      "name": "PRU1.10",
+      "description": "PRU1.10"
+    },
+    {
+      "id": "connector33",
+      "type": "pad",
+      "name": "PRU0.7",
+      "description": "PRU0.7"
+    },
+    {
+      "id": "connector68",
+      "type": "pad",
+      "name": "PRU0.6",
+      "description": "PRU0.6"
+    },
+    {
+      "id": "connector74",
+      "type": "pad",
+      "name": "PRU0.5",
+      "description": "PRU0.5"
+    },
+    {
+      "id": "connector35",
+      "type": "pad",
+      "name": "PRU0.4",
+      "description": "PRU0.4"
+    },
+    {
+      "id": "connector70",
+      "type": "pad",
+      "name": "PRU0.3",
+      "description": "PRU0.3"
+    },
+    {
+      "id": "connector72",
+      "type": "pad",
+      "name": "PRU0.2",
+      "description": "PRU0.2"
+    },
+    {
+      "id": "connector37",
+      "type": "pad",
+      "name": "PRU0.1",
+      "description": "PRU0.1"
+    },
+    {
+      "id": "connector32",
+      "type": "pad",
+      "name": "I2C2.SCL",
+      "description": "I2C2.SCL"
+    },
+    {
+      "id": "connector30",
+      "type": "pad",
+      "name": "I2C2.SDA",
+      "description": "I2C2.SDA"
+    },
+    {
+      "id": "connector49",
+      "type": "pad",
+      "name": "I2C1.SCL",
+      "description": "I2C1.SCL"
+    },
+    {
+      "id": "connector51",
+      "type": "pad",
+      "name": "I2C1.SDA",
+      "description": "I2C1.SDA"
+    },
+    {
+      "id": "connector19",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector20",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector26",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector55",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector61",
+      "type": "pad",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector90",
+      "type": "pad",
+      "name": "BAT.VIN",
+      "description": "BAT.VIN"
+    }
+  ]
+}

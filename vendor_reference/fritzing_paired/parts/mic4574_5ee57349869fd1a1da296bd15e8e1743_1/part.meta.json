@@ -1,0 +1,67 @@
+{
+  "moduleId": "mic4574_5ee57349869fd1a1da296bd15e8e1743_1",
+  "title": "MIC4574",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\mic4574_5ee57349869fd1a1da296bd15e8e1743_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\mic4574_4da78c7798e22b7a20f7174fa3cb0840_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\mic4574_4da78c7798e22b7a20f7174fa3cb0840_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\mic4574_4da78c7798e22b7a20f7174fa3cb0840_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\mic4574_4da78c7798e22b7a20f7174fa3cb0840_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "FB"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "SIG_GND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "EN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "PWR_GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "VIN"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin7",
+      "description": "SW"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "moduleId": "TE_RELAY",
+  "title": "RELAY",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\TE_RELAY.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\TE_RELAY_05435a7cf6a72ed64571d5e62307969c_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\TE_RELAY_05435a7cf6a72ed64571d5e62307969c_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\TE_RELAY_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\TE_RELAY_05435a7cf6a72ed64571d5e62307969c_1_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "COIL1",
+      "description": "COIL1"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "COIL2",
+      "description": "COIL2"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "MAIN",
+      "description": "MAIN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "NO",
+      "description": "NO"
+    }
+  ]
+}

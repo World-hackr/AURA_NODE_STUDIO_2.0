@@ -1,0 +1,145 @@
+{
+  "moduleId": "Adafruit-_fbd558818fc12eaadace7bb71a4f9f39_1_94",
+  "title": "Adafruit LSM6DS3TR-C + LIS3MDL - Precision 9 DoF IMU - STEMMA QT / Qwiic",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_fbd558818fc12eaadace7bb71a4f9f39_1_94.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_fbd558818fc12eaadace7bb71a4f9f39_1_breadboard_94.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_fbd558818fc12eaadace7bb71a4f9f39_1_schematic_94.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_fbd558818fc12eaadace7bb71a4f9f39_1_pcb_94.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_fbd558818fc12eaadace7bb71a4f9f39_1_icon_94.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 19,
+  "connectors": [
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "ADAG",
+      "description": "ADAG"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "ADM",
+      "description": "ADM"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "INT1",
+      "description": "INT1"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "INT2",
+      "description": "INT2"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "INTM",
+      "description": "INTM"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "DRDY",
+      "description": "DRDY"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

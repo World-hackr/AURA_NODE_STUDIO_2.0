@@ -1,0 +1,133 @@
+{
+  "moduleId": "EasyDriver_v44",
+  "title": "EasyDriver_v44",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\EasyDriver_v44.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\EasyDriver_v44_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\EasyDriver_v44_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\EasyDriver_v44_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\EasyDriver_v44_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 17,
+  "connectors": [
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "V+",
+      "description": "V+"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "STEP",
+      "description": "STEP"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "DIR",
+      "description": "DIR"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "OUT2A",
+      "description": "OUT2A"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "OUT2B",
+      "description": "OUT2B"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "OUT1A",
+      "description": "OUT1A"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "OUT1B",
+      "description": "OUT1B"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "MS1",
+      "description": "MS1"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "SLEEP",
+      "description": "SLEEP"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "ENABLE",
+      "description": "ENABLE"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "MS2",
+      "description": "MS2"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "PFD",
+      "description": "PFD"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    }
+  ]
+}

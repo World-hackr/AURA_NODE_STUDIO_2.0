@@ -1,0 +1,67 @@
+{
+  "moduleId": "Prolight RGB 3 Watt Star",
+  "title": "Prolight RGB 3 Watt Star",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\LED_Prolight_RGB.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\LED_Prolight_RGB.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\LED_Prolight_RGB.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\LED_Prolight_RGB.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\LED_Prolight_RGB.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "pad",
+      "name": "B+",
+      "description": "blue anode"
+    },
+    {
+      "id": "connector2",
+      "type": "pad",
+      "name": "G+",
+      "description": "green anode"
+    },
+    {
+      "id": "connector3",
+      "type": "pad",
+      "name": "R+",
+      "description": "red anode"
+    },
+    {
+      "id": "connector4",
+      "type": "pad",
+      "name": "R-",
+      "description": "red cathode"
+    },
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "G-",
+      "description": "green cathode"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "B-",
+      "description": "blue cathode"
+    }
+  ]
+}

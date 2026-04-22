@@ -1,0 +1,79 @@
+{
+  "moduleId": "linino_dogrj45",
+  "title": "linino dogRJ45",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\linino_dogrj45(01).fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\linino_one(rev1)_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\linino_dogrj45_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\linino_dogrj45_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\linino_dogrj45_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RX +",
+      "description": "RX +"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RX -",
+      "description": "RX -"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "TX +",
+      "description": "TX +"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "TX -",
+      "description": "TX -"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "VCC_CT",
+      "description": "VCC_CT"
+    }
+  ]
+}

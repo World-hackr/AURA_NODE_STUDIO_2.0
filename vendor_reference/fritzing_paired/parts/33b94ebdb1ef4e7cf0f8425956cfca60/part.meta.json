@@ -1,0 +1,43 @@
+{
+  "moduleId": "33b94ebdb1ef4e7cf0f8425956cfca60",
+  "title": "Round Pushbutton",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Pushbutton.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Pushbuttonc.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Pushbuttonc.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\pushbutton.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\pushbutton_2_300mil_thick.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "leg0",
+      "description": "leg"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "leg1",
+      "description": "leg"
+    }
+  ]
+}

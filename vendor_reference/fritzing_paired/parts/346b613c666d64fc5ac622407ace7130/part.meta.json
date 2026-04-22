@@ -1,0 +1,271 @@
+{
+  "moduleId": "346b613c666d64fc5ac622407ace7130",
+  "title": "mbed",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\controller_mbed.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\controller_mbed.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\controller_mbed.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\controller_mbed.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_40_900mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 40,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "nR",
+      "description": "Reset"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "pin21",
+      "description": "PWM out"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "SPI MOSI"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "pin22",
+      "description": "PWM out"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "SPI MISO"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "pin23",
+      "description": "PWM out"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "SPI SCK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "pin24",
+      "description": "PWM out"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "pin9",
+      "description": "Serial TX / I2C SDA"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "pin25",
+      "description": "PWM out"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "pin26",
+      "description": "PWM out"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "pin10",
+      "description": "Serial RX / I2C SCL"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "pin27",
+      "description": "Serial RX / I2C SCL"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "pin28",
+      "description": "Serial TX / I2C SDA"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "pin29",
+      "description": "CAN Bus TD"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "pin30",
+      "description": "CAN Bus RD"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "D+",
+      "description": "USB D+"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "D-",
+      "description": "USB D-"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "TD+",
+      "description": "Ethernet TD+"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "TD-",
+      "description": "Ethernet TD-"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "RD+",
+      "description": "Ethernet RD+"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "RD-",
+      "description": "Ethernet RD-"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "IF+",
+      "description": "Future Use"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "IF-",
+      "description": "Future Use"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "VU",
+      "description": "Power 5V (over USB)"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "VOUT",
+      "description": "Power 3.3V"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "pin11",
+      "description": "SPI MOSI"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "pin12",
+      "description": "SPI MISO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "pin13",
+      "description": "Serial TX / SPI SCK"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "pin14",
+      "description": "Serial RX"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "pin15",
+      "description": "Analog In"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "pin16",
+      "description": "Analog In"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "pin17",
+      "description": "Analog In"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "pin18",
+      "description": "Analog In/Out"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "pin19",
+      "description": "Analog In"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "pin20",
+      "description": "Analog In"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Vin",
+      "description": "External Power Supply"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Vb",
+      "description": "Battery Backup Power Supply"
+    }
+  ]
+}

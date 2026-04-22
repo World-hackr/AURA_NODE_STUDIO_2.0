@@ -1,0 +1,199 @@
+{
+  "moduleId": "f5e8f260-de38-11dd-b332-0022430987e8",
+  "title": "atmega168",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\atmega168.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\microcontroller.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\atmega168.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\atmega168_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_28_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "Pin 16",
+      "description": "PB2 (SS/OC1B/PCINT3)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Pin 8",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "Pin 17",
+      "description": "PB3 (MOSI/OC2A/PCINT3)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Pin 9",
+      "description": "PB6 (PCINT6/XTAL1/TOSC1)"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Pin 10",
+      "description": "PB7 (PCINT7/XTAL2/TOSC2)"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "Pin 18",
+      "description": "PB4 (MISO/PCINT4)"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "Pin 19",
+      "description": "PB5 (SCK/PCINT5)"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "Pin 20",
+      "description": "AVCC"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "Pin 21",
+      "description": "AREF"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "Pin 22",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "Pin 23",
+      "description": "PC0 (ADC0/PCINT8)"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "Pin 24",
+      "description": "PC1 (ADC1/PCINT9)"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "Pin 25",
+      "description": "PC2 (ADC2/PCINT10)"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "Pin 26",
+      "description": "PC3 (ADC3/PCINT11)"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "Pin 27",
+      "description": "PC4 (ADC4/SDA/PCINT12)"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "Pin 28",
+      "description": "PC5 (ADC5/SCL/PCINT13)"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Pin 1",
+      "description": "PC6 (PCINT14/RESET)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Pin 2",
+      "description": "PD0 (PCINT16/RXD)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Pin 3",
+      "description": "PD1 (PCINT17/TXD)"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Pin 11",
+      "description": "PD5 (PCINT21/OC0B/T1)"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Pin 4",
+      "description": "PD2 (PCINT18/INT0)"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "Pin 12",
+      "description": "PD6 (PCINT22/OC0A/AIN0)"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Pin 5",
+      "description": "PD3 (PCINT19/OC2B/INT1)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "Pin 13",
+      "description": "PD7 (PCINT23/AIN1)"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Pin 6",
+      "description": "PD4 (PCINT20/XCK/T0)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "Pin 14",
+      "description": "PB0 (PCINT0/CLK0/ICP1)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Pin 7",
+      "description": "VCC"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "Pin 15",
+      "description": "PB1 (OC1A/PCINT1)"
+    }
+  ]
+}

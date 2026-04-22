@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-Connectors-EB-85A-SMD",
+  "title": "EB-85A Connector",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-connectors-eb-85a-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-connectors_eb-85a_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-connectors_eb-85a_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-connectors_eb-85a_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\EB-85A.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "BATT",
+      "description": "BATT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PPS",
+      "description": "PPS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RX1",
+      "description": "RX1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RX2",
+      "description": "RX2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "TX1",
+      "description": "TX1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "TX2",
+      "description": "TX2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

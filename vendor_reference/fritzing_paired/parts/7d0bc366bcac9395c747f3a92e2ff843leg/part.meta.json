@@ -1,0 +1,55 @@
+{
+  "moduleId": "7d0bc366bcac9395c747f3a92e2ff843leg",
+  "title": "Stepper Motor - Bipolar",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\stepper_motor_bipolar.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Stepper_Motor_Bipolar_breadboard_leg.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Stepper_Motor_-_Bipolar__schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Stepper_Motor_-_Bipolar__icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/jumper_4_100mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D",
+      "description": "Terminal &quot;D&quot; - Coil Pair 2"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A",
+      "description": "Terminal &quot;A&quot; - Coil Pair 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "C",
+      "description": "Terminal &quot;C&quot; - Coil Pair 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "B",
+      "description": "Terminal &quot;B&quot; - Coil Pair 2"
+    }
+  ]
+}

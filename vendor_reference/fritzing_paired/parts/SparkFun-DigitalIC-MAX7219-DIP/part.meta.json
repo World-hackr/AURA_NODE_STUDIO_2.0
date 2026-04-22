@@ -1,0 +1,174 @@
+{
+  "moduleId": "SparkFun-DigitalIC-MAX7219-DIP",
+  "title": "MAX7219",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-max7219-dip.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_max7219_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil24_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_24_400mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_24_400mil_bread.svg"
+    }
+  ],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DIG0",
+      "description": "DIG0"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "DIG1",
+      "description": "DIG1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DIG2",
+      "description": "DIG2"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DIG3",
+      "description": "DIG3"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DIG4",
+      "description": "DIG4"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DIG5",
+      "description": "DIG5"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DIG6",
+      "description": "DIG6"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DIG7",
+      "description": "DIG7"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "DIN",
+      "description": "DIN"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "ISET",
+      "description": "ISET"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "LOAD",
+      "description": "LOAD"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SEGA",
+      "description": "SEGA"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "SEGB",
+      "description": "SEGB"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "SEGC",
+      "description": "SEGC"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SEGD",
+      "description": "SEGD"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SEGDP",
+      "description": "SEGDP"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "SEGE",
+      "description": "SEGE"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SEGF",
+      "description": "SEGF"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SEGG",
+      "description": "SEGG"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

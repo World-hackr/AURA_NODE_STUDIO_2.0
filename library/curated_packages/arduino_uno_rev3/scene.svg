@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="80" viewBox="0 0 180 80">
+  <rect id="board_body" x="10" y="18" width="160" height="52" rx="8" fill="#285a8f" stroke="#0d2238" stroke-width="2" />
+  <rect id="header_top" x="42" y="10" width="102" height="10" rx="2" fill="#1b1b1b" />
+  <circle cx="60" cy="15" r="2.4" fill="#d7c26b" />
+  <circle cx="75" cy="15" r="2.4" fill="#d7c26b" />
+  <circle cx="130" cy="15" r="2.4" fill="#d7c26b" />
+  <text x="20" y="48" fill="#f3f7fb" font-size="12" font-family="Segoe UI, sans-serif">Arduino Uno Rev3</text>
+</svg>

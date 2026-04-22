@@ -1,0 +1,55 @@
+{
+  "moduleId": "KA78R05L035700a2cdcd47b284953d1e7f90f4bd",
+  "title": "KA78R05 Low Dropout Voltage Regulator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\KA78R05_Low_Dropout_Voltage_Regulator_f20bf48_002.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\KA78R05_Low_Dropout_Voltage_Regulator_f20bf48_002.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\KA78R05_Low_Dropout_Voltage_Regulator_f20bf48_002.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\KA78R05_Low_Dropout_Voltage_Regulator_f20bf48_002.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\KA78R05_Low_Dropout_Voltage_Regulator_from_nsjumper_4_100mil_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "EN",
+      "description": "ENABLE"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VIN",
+      "description": "Input Voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VOUT",
+      "description": "Output Voltage"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    }
+  ]
+}

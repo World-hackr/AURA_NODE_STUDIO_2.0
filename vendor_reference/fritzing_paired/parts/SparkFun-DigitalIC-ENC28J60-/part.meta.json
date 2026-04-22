@@ -1,0 +1,199 @@
+{
+  "moduleId": "SparkFun-DigitalIC-ENC28J60-",
+  "title": "ENC28J60",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-enc28j60-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP28DB_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_enc28j60_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_ssop28db_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SSOP28DB_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "_INT",
+      "description": "_INT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "CLKOUT",
+      "description": "CLKOUT"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CS",
+      "description": "CS"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "LEDA",
+      "description": "LEDA"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "LEDB",
+      "description": "LEDB"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "OSC1",
+      "description": "OSC1"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "OSC2",
+      "description": "OSC2"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "RBIAS",
+      "description": "RBIAS"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SI",
+      "description": "SI"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SO",
+      "description": "SO"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "TPIN+",
+      "description": "TPIN+"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "TPIN-",
+      "description": "TPIN-"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "TPOUT+",
+      "description": "TPOUT+"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "TPOUT-",
+      "description": "TPOUT-"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCAP",
+      "description": "VCAP"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "VDDOSC",
+      "description": "VDDOSC"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VDDPLL",
+      "description": "VDDPLL"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VDDRX",
+      "description": "VDDRX"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VDDTX",
+      "description": "VDDTX"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VSSOSC",
+      "description": "VSSOSC"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "VSSPLL",
+      "description": "VSSPLL"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VSSRX",
+      "description": "VSSRX"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VSSTX",
+      "description": "VSSTX"
+    }
+  ]
+}

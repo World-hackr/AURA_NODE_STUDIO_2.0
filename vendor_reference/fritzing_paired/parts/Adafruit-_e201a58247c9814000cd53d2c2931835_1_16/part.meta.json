@@ -1,0 +1,79 @@
+{
+  "moduleId": "Adafruit-_e201a58247c9814000cd53d2c2931835_1_16",
+  "title": "Adafruit Switchable USB Type A to C Breakout Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_e201a58247c9814000cd53d2c2931835_1_16.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_e201a58247c9814000cd53d2c2931835_1_16_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_e201a58247c9814000cd53d2c2931835_1_16_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_e201a58247c9814000cd53d2c2931835_1_16_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_e201a58247c9814000cd53d2c2931835_1_16_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "V_F",
+      "description": "V_F"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "V_M",
+      "description": "V_M"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "N_F",
+      "description": "N_F"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "N_M",
+      "description": "N_M"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "P_F",
+      "description": "P_F"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P_M",
+      "description": "P_M"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "G_F",
+      "description": "G_F"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "G_M",
+      "description": "G_M"
+    }
+  ]
+}

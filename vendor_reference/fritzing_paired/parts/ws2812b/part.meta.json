@@ -1,0 +1,55 @@
+{
+  "moduleId": "ws2812b",
+  "title": "ws2812b",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ws2812b.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ws2812b_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ws2812b_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ws2812b_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ws2812b_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VDD",
+      "description": "pin 1 Vdd"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DOUT",
+      "description": "pin 2 DOut"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VSS",
+      "description": "pin 3 Vss"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DIN",
+      "description": "pin 4 DIn"
+    }
+  ]
+}

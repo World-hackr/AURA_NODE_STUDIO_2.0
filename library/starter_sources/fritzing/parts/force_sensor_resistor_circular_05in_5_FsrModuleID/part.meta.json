@@ -1,0 +1,33 @@
+{
+  "moduleId": "force_sensor_resistor_circular_05in_5_FsrModuleID",
+  "title": "Basic Force Sensing Resistor (FSR)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\force_sensor_resistor_circular_05in_5.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\force_sensor_resistor_circular_05in_5_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\force_sensor_resistor_circular_05in_5_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin 1",
+      "description": "Pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "Pin 2"
+    }
+  ]
+}

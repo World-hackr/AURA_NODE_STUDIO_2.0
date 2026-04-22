@@ -1,0 +1,181 @@
+{
+  "moduleId": "SparkFun-RF-NRF24AP1-SMD",
+  "title": "2.4GHz ANT IC",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-nrf24ap1-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_mlp-24_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_nrf24ap1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_mlp-24_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_mlp-24_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 25,
+  "connectors": [
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "ANT1",
+      "description": "ANT1"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "ANT2",
+      "description": "ANT2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "BR1",
+      "description": "BR1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "BR2",
+      "description": "BR2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "DVDD",
+      "description": "DVDD"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "EXT32K",
+      "description": "EXT32K"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "IREF",
+      "description": "IREF"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "PORTSEL",
+      "description": "PORTSEL"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SLEEP",
+      "description": "SLEEP"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SUSPEND",
+      "description": "SUSPEND"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VDD_PA",
+      "description": "VDD_PA"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VSS",
+      "description": "VSS"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VSS_PA",
+      "description": "VSS_PA"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "XC1",
+      "description": "XC1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "XC2",
+      "description": "XC2"
+    }
+  ]
+}

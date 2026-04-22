@@ -1,0 +1,199 @@
+{
+  "moduleId": "SM130_33794b5e6f145a56453d5bdb762bab0e_2",
+  "title": "SM130",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\SM130_33794b5e6f145a56453d5bdb762bab0e_2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\SM130_7c3fb81e05f5cd451db8fb4bd067edae_5_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\SM130_7c3fb81e05f5cd451db8fb4bd067edae_5_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\SM130_7c3fb81e05f5cd451db8fb4bd067edae_5_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\schematic\\SM130_7c3fb81e05f5cd451db8fb4bd067edae_5_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RFVCC",
+      "description": ""
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "NC",
+      "description": ""
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "NC",
+      "description": ""
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "NC",
+      "description": ""
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "NC",
+      "description": ""
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "NC",
+      "description": ""
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "NC",
+      "description": ""
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "NC",
+      "description": ""
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "I2C SCL",
+      "description": ""
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "I2C SDA",
+      "description": ""
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "UART RX",
+      "description": ""
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "UART TX",
+      "description": ""
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "RSVD",
+      "description": "Reserved. Do not connect this pin"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": ""
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RSVD",
+      "description": ""
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "OUTPUT OK",
+      "description": ""
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "OUTPUT ERROR",
+      "description": ""
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "RESET",
+      "description": ""
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "INPUT1",
+      "description": ""
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "INPUT2",
+      "description": ""
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "OUTPUT1",
+      "description": ""
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "OUTPUT2",
+      "description": ""
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "RFGND",
+      "description": ""
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "ANT1",
+      "description": ""
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "RFGND",
+      "description": ""
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "ANT2",
+      "description": ""
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "RFGND",
+      "description": ""
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "VCC",
+      "description": "5V Supply Voltage"
+    }
+  ]
+}

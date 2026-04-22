@@ -1,0 +1,223 @@
+{
+  "moduleId": "Netduino_plus_2",
+  "title": "Netduino Plus2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\NetduinoPlus2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\NetduinoPlus2.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\NetduinoPlus2.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\NetduinoPlus2_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\netduino_plus2_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 32,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "D0_RX0",
+      "description": "Digital I/O 0 / Serial Recieve 0 [Max output current 16 mA]"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "D1_TX0",
+      "description": "Digital I/O 1 / Serial Transmit 0 [Max output current 16 mA]"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "D2_RX1",
+      "description": "Digital I/O 2 / Serial Receive 1 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "D3_TX1",
+      "description": "Digital I/O 3 / Serial Transmit 1 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "D4_CS0",
+      "description": "Digital I/O 4 / SPI Chip Select 0 / SPI Slave Select [Max output current 8 mA]"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "D5_PWM0",
+      "description": "Digital I/O 5 / PWM Output 0 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector9",
+      "type": "female",
+      "name": "D6_PWM1",
+      "description": "Digital I/O 6 / PWM Output 1 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector8",
+      "type": "female",
+      "name": "D7_RTS1",
+      "description": "Digital I/O 7 / Serial Request To Send 1 [Max output current 16 mA]"
+    },
+    {
+      "id": "connector7",
+      "type": "female",
+      "name": "D8_CTS1",
+      "description": "Digital I/O 8 / Serial Clear To Send 1 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector6",
+      "type": "female",
+      "name": "D9_PWM2",
+      "description": "Digital I/O 9 / PWM Output 2 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector5",
+      "type": "female",
+      "name": "D10_PWM3",
+      "description": "Digital I/O 10 / PWM Output 3 [Max output current 8 mA]"
+    },
+    {
+      "id": "connector4",
+      "type": "female",
+      "name": "D11_MOSI",
+      "description": "Digital I/O 11 / SPI Master Out Slave In [Max output current 8 mA]"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "D12_MISO",
+      "description": "Digital I/O 12 / SPI Master In Slave Out [Max output current 8 mA]"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "D13_SPCK",
+      "description": "Digital I/O 13 / SPI Clock [Max output current 8 mA]"
+    },
+    {
+      "id": "connector0",
+      "type": "female",
+      "name": "Aref",
+      "description": "Analog-to-Digital Converter reference voltage [Connect to 3.3V]"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "RST",
+      "description": "Reset [Active logic LOW]"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "3V3",
+      "description": "+3.3V DC"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "+5V",
+      "description": "+5V Regulated DC"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "VIN",
+      "description": "DC Supply Voltage Input"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "A0",
+      "description": "Analog Input 0 / Digital I/O [Max output current 2 mA]"
+    },
+    {
+      "id": "connector23",
+      "type": "female",
+      "name": "A1",
+      "description": "Analog Input 1 / Digital I/O [Max output current 2 mA]"
+    },
+    {
+      "id": "connector24",
+      "type": "female",
+      "name": "A2",
+      "description": "Analog Input 2 / Digital I/O [Max output current 2 mA]"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "A3",
+      "description": "Analog Input 3 / Digital I/O [Max output current 2 mA]"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "A4_TWD",
+      "description": "Analog Input 4 / Two Wire Data [Max output current 8 mA]"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "A5_TWCK",
+      "description": "Analog Input 5 / Two Wire Clock [Max output current 8 mA]"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "SC",
+      "description": "SC"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "SD",
+      "description": "SD"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "IOREF",
+      "description": "IOREF"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "NC",
+      "description": "not connected"
+    }
+  ]
+}

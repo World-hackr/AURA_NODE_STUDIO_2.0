@@ -1,0 +1,109 @@
+{
+  "moduleId": "adafruit_d6e32a25e43cef3b10b23d6c3f15cf15_1_A5",
+  "title": "Adafruit 2.9\" eInk Display Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_d6e32a25e43cef3b10b23d6c3f15cf15_1_A5.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_d6e32a25e43cef3b10b23d6c3f15cf15_1_breadboard_A5.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_d6e32a25e43cef3b10b23d6c3f15cf15_1_schematic_A5.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_d6e32a25e43cef3b10b23d6c3f15cf15_1_pcb_A5.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_d6e32a25e43cef3b10b23d6c3f15cf15_1_icon_A5.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 13,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "DISPCS",
+      "description": "DISPCS"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "DC",
+      "description": "DC"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SRAMCS",
+      "description": "SRAMCS"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SDCS",
+      "description": "SDCS"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "BUSY",
+      "description": "BUSY"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "ENABLE",
+      "description": "ENABLE"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

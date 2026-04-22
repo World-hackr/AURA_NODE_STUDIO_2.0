@@ -1,0 +1,79 @@
+{
+  "moduleId": "adafruit_2733c17b59ee58d6fb19255d43d47d62_1_E6",
+  "title": "Adafruit DS3231",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_2733c17b59ee58d6fb19255d43d47d62_1_E6.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_2733c17b59ee58d6fb19255d43d47d62_1_breadboard_E6.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_2733c17b59ee58d6fb19255d43d47d62_1_schematic_E6.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_2733c17b59ee58d6fb19255d43d47d62_1_pcb_E6.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_2733c17b59ee58d6fb19255d43d47d62_1_icon_E6.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "Vin",
+      "description": "Vin"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "BAT",
+      "description": "BAT"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "32KHZ",
+      "description": "32KHZ"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "SQW",
+      "description": "SQW"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "!RTC_RST",
+      "description": "!RTC_RST"
+    }
+  ]
+}

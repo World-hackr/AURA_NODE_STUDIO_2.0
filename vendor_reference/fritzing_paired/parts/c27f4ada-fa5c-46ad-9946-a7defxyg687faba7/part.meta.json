@@ -1,0 +1,79 @@
+{
+  "moduleId": "c27f4ada-fa5c-46ad-9946-a7defxyg687faba7",
+  "title": "LM 358 Dual Op-Amp",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SMD_lm358_SO.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\lm358icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\lm358_bread.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\lm358_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SMD_SO8_DT.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "pad",
+      "name": "Pin 4",
+      "description": "Ground"
+    },
+    {
+      "id": "connector4",
+      "type": "pad",
+      "name": "Pin 5",
+      "description": "Non-Inverting Input B"
+    },
+    {
+      "id": "connector5",
+      "type": "pad",
+      "name": "Pin 6",
+      "description": "Inverting Input B"
+    },
+    {
+      "id": "connector6",
+      "type": "pad",
+      "name": "Pin 7",
+      "description": "Output B"
+    },
+    {
+      "id": "connector7",
+      "type": "pad",
+      "name": "Pin 8",
+      "description": "V+"
+    },
+    {
+      "id": "connector0",
+      "type": "pad",
+      "name": "Pin 1",
+      "description": "Output A"
+    },
+    {
+      "id": "connector1",
+      "type": "pad",
+      "name": "Pin 2",
+      "description": "Inverting Input A"
+    },
+    {
+      "id": "connector2",
+      "type": "pad",
+      "name": "Pin 3",
+      "description": "Non-Inverting Input A"
+    }
+  ]
+}

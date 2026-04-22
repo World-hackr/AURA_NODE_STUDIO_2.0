@@ -1,0 +1,79 @@
+{
+  "moduleId": "RevEd_uM_FPUv2",
+  "title": "uM-FPUv2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\uM_FPUv2.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\uM_FPUv2_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\uM_FPUv2_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\uM_FPUv2_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_8_300mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "CS",
+      "description": "Chip Select"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SPI Data Out",
+      "description": "When using SPI mode this pin is used to read data from this device. Connect this pin to the 'SPI Data In' (DI/DIN/SI) pin or to a digital input pin of your controller"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "I2C Clock / SPI Clock",
+      "description": "When using I2C mode connect this pin to the 'I2C Clock' (SCL) signal of the controller. When using SPI mode this pin is used to clock data in and data out of the device. Connect this pin to the 'SPI Clock' (SCK/SCLK) pin or to a digital output pin of your controller"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "0V",
+      "description": "Connect to the 0V (ground) of the power supply in your circuit"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "I2C Data / SPI Data In",
+      "description": "When using I2C mode connect this pin to the 'I2C Data' (SDA) signal of the controller. When using SPI mode this pin is used to write data into this device. Connect this pin to the 'SPI Data Out' (DO/DOUT/SO) pin or to a digital output pin of your controller"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "TSTOUT",
+      "description": "Test Output"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "TSTIN",
+      "description": "Test Input"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "+V",
+      "description": "Connect to the positive rail of the power supply in your circuit"
+    }
+  ]
+}

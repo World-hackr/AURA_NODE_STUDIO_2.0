@@ -1,0 +1,331 @@
+{
+  "moduleId": "SparkFun-RF-WT32-",
+  "title": "WT32",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-wt32-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_wt32_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_wt32_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_wt32_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\WT32.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 50,
+  "connectors": [
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "AIO0",
+      "description": "AIO0"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "AIO1",
+      "description": "AIO1"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "AUDIO_IN_N_LEFT",
+      "description": "AUDIO_IN_N_LEFT"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "AUDIO_IN_N_RIGHT",
+      "description": "AUDIO_IN_N_RIGHT"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "AUDIO_IN_P_LEFT",
+      "description": "AUDIO_IN_P_LEFT"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "AUDIO_IN_P_RIGHT",
+      "description": "AUDIO_IN_P_RIGHT"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "AUDIO_OUT_N_LEFT",
+      "description": "AUDIO_OUT_N_LEFT"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "AUDIO_OUT_N_RIGHT",
+      "description": "AUDIO_OUT_N_RIGHT"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "AUDIO_OUT_P_LEFT",
+      "description": "AUDIO_OUT_P_LEFT"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "AUDIO_OUT_P_RIGHT",
+      "description": "AUDIO_OUT_P_RIGHT"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DGND",
+      "description": "DGND"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "LED0",
+      "description": "LED0"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "MIC_BIAS",
+      "description": "MIC_BIAS"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "PCM_CLK",
+      "description": "PCM_CLK"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "PCM_IN",
+      "description": "PCM_IN"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "PCM_OUT",
+      "description": "PCM_OUT"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "PCM_SYNC",
+      "description": "PCM_SYNC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PIO0",
+      "description": "PIO0"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PIO10",
+      "description": "PIO10"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "PIO1",
+      "description": "PIO1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PIO2",
+      "description": "PIO2"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "PIO3",
+      "description": "PIO3"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "PIO4",
+      "description": "PIO4"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "PIO5",
+      "description": "PIO5"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "PIO6",
+      "description": "PIO6"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "PIO7",
+      "description": "PIO7"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "PIO8",
+      "description": "PIO8"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "PIO9",
+      "description": "PIO9"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "SPI_CLK",
+      "description": "SPI_CLK"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "SPI_CS",
+      "description": "SPI_CS"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "SPI_MISO",
+      "description": "SPI_MISO"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "SPI_MOSI",
+      "description": "SPI_MOSI"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "USB_DN",
+      "description": "USB_DN"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "USB_DP",
+      "description": "USB_DP"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "VDDIO",
+      "description": "VDDIO"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "VDD_BAT",
+      "description": "VDD_BAT"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "VDD_CHG",
+      "description": "VDD_CHG"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VREG_ENA",
+      "description": "VREG_ENA"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "aura.symbol_definition.v1",
+  "metadata": {
+    "id": "sym_device_resistor_generic",
+    "slug": "device_resistor_generic",
+    "name": "Resistor",
+    "description": "Generic two-pin resistor symbol.",
+    "keywords": ["resistor", "passive", "device"],
+    "sourceKind": "kicad",
+    "sourceLibrary": "Device",
+    "sourceSymbol": "R",
+    "defaultReferencePrefix": "R",
+    "symbolKey": "Device:R"
+  },
+  "body": {
+    "shape": "rectangle",
+    "pinLayout": "opposite_sides"
+  },
+  "pins": [
+    {
+      "id": "pin_1",
+      "number": "1",
+      "name": "~",
+      "side": "left",
+      "electricalType": "passive",
+      "sequence": 0
+    },
+    {
+      "id": "pin_2",
+      "number": "2",
+      "name": "~",
+      "side": "right",
+      "electricalType": "passive",
+      "sequence": 1
+    }
+  ],
+  "fields": [
+    {
+      "key": "Value",
+      "value": "R",
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "moduleId": "96dbe71554ce3f1d1ef42d1960e0069c_15",
+  "title": "2.1mm DC Barrel Jack",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\2.1mm_DC_Barrel_Jack__0d81611f192da410c39c2b4301ccb3cb_15.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\2.1mm_DC_Barrel_Jack__0d81611f192da410c3__icon__0f80004bbeabc910a88ed9f29066a059_15.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\2.1mm_DC_Barrel_Jack__0d81611f192da410c3__breadboard__b39b62bbcfb168018da0668f7d8e0b85_15.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\2.1mm_DC_Barrel_Jack__0d81611f192da410c3__schematic__72e3cf088d3adf732fb918b666216ac1_15.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\2.1mm_DC_Barrel_Jack__0d81611f192da410c3__pcb__a4d600445c260db3506f8bea8d6e95f9_15.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "sleeve",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "center",
+      "description": ""
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "switch",
+      "description": "no description yet"
+    }
+  ]
+}

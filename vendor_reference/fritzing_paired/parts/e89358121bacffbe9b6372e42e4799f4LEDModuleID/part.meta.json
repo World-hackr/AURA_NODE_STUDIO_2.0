@@ -1,0 +1,67 @@
+{
+  "moduleId": "e89358121bacffbe9b6372e42e4799f4LEDModuleID",
+  "title": "RGB LED (6 legs)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\led-rgb-6pin.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\led-rgb-6pin.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\led-rgb-6pin-leg.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\led-rgb-6pin.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\led-rgb-6pin.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Blue1",
+      "description": "Blue component"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Green",
+      "description": "Green component"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Blue2",
+      "description": "Blue component"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Red",
+      "description": "Red component"
+    }
+  ]
+}

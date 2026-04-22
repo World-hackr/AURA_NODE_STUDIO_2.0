@@ -1,0 +1,115 @@
+{
+  "moduleId": "c624c0ff7a2eb1ca7994123ee87f58fb",
+  "title": "BASIC Stamp 1",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\BASIC_Stamp_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\BASIC_Stamp_1.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\BASIC_Stamp_1.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\BASIC_Stamp_1.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\BASIC_Stamp_1.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PCI",
+      "description": "PC In"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "VDD",
+      "description": "5-volt DC input/output"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "RES",
+      "description": "Reset input/output"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "P0",
+      "description": "General-purpose I/O pins: each can sink 25 mA and source 20 mA."
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "P1",
+      "description": "General-purpose I/O pins: each can sink 25 mA and source 20 mA."
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "P2",
+      "description": "General-purpose I/O pins: each can sink 25 mA and source 20 mA."
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "P3",
+      "description": "General-purpose I/O pins: each can sink 25 mA and source 20 mA."
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "P4",
+      "description": "General-purpose I/O pins: each can sink 25 mA and source 20 mA."
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "P5",
+      "description": "General-purpose I/O pins: each can sink 25 mA and source 20 mA."
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "P6",
+      "description": "General-purpose I/O pins: each can sink 25 mA and source 20 mA."
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VIN",
+      "description": "Unregulated power in: accepts 5.5 - 15 VDC (6-40 VDC on BS1-IC rev. b)."
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "VSS",
+      "description": "System ground"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "P7",
+      "description": "General-purpose I/O pins: each can sink 25 mA and source 20 mA."
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PCO",
+      "description": "PC Out"
+    }
+  ]
+}

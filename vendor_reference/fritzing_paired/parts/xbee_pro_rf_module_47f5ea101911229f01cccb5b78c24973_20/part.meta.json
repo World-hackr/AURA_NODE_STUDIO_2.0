@@ -1,0 +1,151 @@
+{
+  "moduleId": "xbee_pro_rf_module_47f5ea101911229f01cccb5b78c24973_20",
+  "title": "XBee Pro RF module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\xbee_pro_rf_module.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\xbee_pro_rf_module_4.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\xbee_pro_rf_module_4.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\xbee_pro_rf_module_4.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\xbee_pro_rf_module_4.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "DOUT",
+      "description": "DOUT"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "DIN",
+      "description": "DIN"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DO8",
+      "description": "DO8"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PWM0/RSSI",
+      "description": "PWM0/RSSI"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "PWM1",
+      "description": "PWM1"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "[RESERVED]",
+      "description": "[RESERVED]"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DTR/SLEEP_RQ/DI8",
+      "description": "DTR/SLEEP_RQ/DI8"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "AD4/DIO4",
+      "description": "AD4/DIO4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CTS/DIO7",
+      "description": "CTS/DIO7"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "ON/SLEEP",
+      "description": "ON/SLEEP"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VREF",
+      "description": "VREF"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "ASSOC/AD5/DIO5",
+      "description": "ASSOC/AD5/DIO5"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "RTS/AD5/DIO6",
+      "description": "RTS/AD5/DIO6"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "AD3/DIO3",
+      "description": "AD3/DIO3"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "AD2/DIO2",
+      "description": "AD2/DIO2"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "AD1/DIO1",
+      "description": "AD1/DIO1"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "AD0/DIO0",
+      "description": "AD0/DIO0"
+    }
+  ]
+}

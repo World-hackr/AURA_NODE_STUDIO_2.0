@@ -1,0 +1,79 @@
+{
+  "moduleId": "SparkFun-PowerIC-MC34063-SMD",
+  "title": "MC34063",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-mc34063-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_mc34063_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_so08_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SO08_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "COMP",
+      "description": "COMP"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DVR",
+      "description": "DVR"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SEN",
+      "description": "SEN"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SWC",
+      "description": "SWC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SWE",
+      "description": "SWE"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "TC",
+      "description": "TC"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    }
+  ]
+}

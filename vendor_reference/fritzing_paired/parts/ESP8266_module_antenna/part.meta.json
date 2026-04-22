@@ -1,0 +1,187 @@
+{
+  "moduleId": "ESP8266_module_antenna",
+  "title": "ESP8266 WiFi Module",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\ESP8266_module.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\ESP8266_module_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\ESP8266_module_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\ESP8266_module_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\ESP8266_module_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 26,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "IO0",
+      "description": "General-Purpose IO 0 (Active-low flash enable; pull high)"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "IO2",
+      "description": "General-Purpose IO 2"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D2",
+      "description": "Data line 2"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "CLK",
+      "description": "Data clock"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CMD",
+      "description": "Data command"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "D0",
+      "description": "Data line 0"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "D1",
+      "description": "Data line 1"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "D3",
+      "description": "Data line 3"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "IO4",
+      "description": "General-Purpose IO 4"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "3.3V",
+      "description": "+3.3V Supply"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "3.3V",
+      "description": "+3.3V Supply"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "IO5",
+      "description": "General-Purpose IO 5"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "T_OUT",
+      "description": "Analog-Digital Converter"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "RST",
+      "description": "Active-low reset"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "CHIP_EN",
+      "description": "Chip enable"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "XPD",
+      "description": "Deep-sleep wakeup"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "IO14",
+      "description": "General-Purpose IO 14"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "IO12",
+      "description": "General-Purpose IO 12"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "IO13",
+      "description": "General-Purpose IO 13"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "IO15",
+      "description": "General-Purpose IO 15 (Pull high)"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "TX",
+      "description": "UART Transmit"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "RX",
+      "description": "UART Receive"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "3.3V",
+      "description": "+3.3V Supply"
+    }
+  ]
+}

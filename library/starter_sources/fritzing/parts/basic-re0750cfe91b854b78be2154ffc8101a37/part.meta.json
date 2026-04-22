@@ -1,0 +1,67 @@
+{
+  "moduleId": "basic-re0750cfe91b854b78be2154ffc8101a37",
+  "title": "Relay",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\basic-relay-6p_1c569ac_002.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\basic-relay-6p_1c569ac_002.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\basic-relay-6p_1c569ac_002.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\basic-relay-6p_1c569ac_002.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\basic-relay-6p_1c569ac_002.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 6,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "C2",
+      "description": "Switch Common Terminal"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "COIL2",
+      "description": "Relay Coil - Pin 2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B",
+      "description": "Switch Terminal 'B'"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A",
+      "description": "Switch Terminal 'A'"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "COIL1",
+      "description": "Relay Coil - Pin 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "C1",
+      "description": "Switch Common Terminal"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "moduleId": "Micro-Python-pyboard-PYBv10b",
+  "title": "Micro Python pyboard",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\obsolete\\Micro-Python-pyboard-PYBv10b.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Micro-Python-pyboard-PYBv10b_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Micro-Python-pyboard-PYBv10b_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Micro-Python-pyboard-PYBv10b_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\pcb\\Micro-Python-pyboard-PYBv10b_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 56,
+  "connectors": [
+    {
+      "id": "y1",
+      "type": "female",
+      "name": "Y1",
+      "description": "Y1"
+    },
+    {
+      "id": "y2",
+      "type": "female",
+      "name": "Y2",
+      "description": "Y2"
+    },
+    {
+      "id": "y3",
+      "type": "female",
+      "name": "Y3",
+      "description": "Y3"
+    },
+    {
+      "id": "y4",
+      "type": "female",
+      "name": "Y4",
+      "description": "Y4"
+    },
+    {
+      "id": "y5",
+      "type": "female",
+      "name": "Y5",
+      "description": "Y5"
+    },
+    {
+      "id": "y6",
+      "type": "female",
+      "name": "Y6",
+      "description": "Y6"
+    },
+    {
+      "id": "y7",
+      "type": "female",
+      "name": "Y7",
+      "description": "Y7"
+    },
+    {
+      "id": "y8",
+      "type": "female",
+      "name": "Y8",
+      "description": "Y8"
+    },
+    {
+      "id": "y9",
+      "type": "female",
+      "name": "Y9",
+      "description": "Y9"
+    },
+    {
+      "id": "y10",
+      "type": "female",
+      "name": "Y10",
+      "description": "Y10"
+    },
+    {
+      "id": "y11",
+      "type": "female",
+      "name": "Y11",
+      "description": "Y11"
+    },
+    {
+      "id": "y12",
+      "type": "female",
+      "name": "Y12",
+      "description": "Y12"
+    },
+    {
+      "id": "y13-rst",
+      "type": "female",
+      "name": "Y13 RST",
+      "description": "Y13 RST"
+    },
+    {
+      "id": "y14-gnd",
+      "type": "female",
+      "name": "Y14 GND",
+      "description": "Y14 GND"
+    },
+    {
+      "id": "y15-3v3",
+      "type": "female",
+      "name": "Y15 3V3",
+      "description": "Y15 3V3"
+    },
+    {
+      "id": "y16-vin",
+      "type": "female",
+      "name": "Y16 VIN",
+      "description": "Y16 VIN"
+    },
+    {
+      "id": "x1",
+      "type": "female",
+      "name": "X1",
+      "description": "X1"
+    },
+    {
+      "id": "x2",
+      "type": "female",
+      "name": "X2",
+      "description": "X2"
+    },
+    {
+      "id": "x3",
+      "type": "female",
+      "name": "X3",
+      "description": "X3"
+    },
+    {
+      "id": "x4",
+      "type": "female",
+      "name": "X4",
+      "description": "X4"
+    },
+    {
+      "id": "x5",
+      "type": "female",
+      "name": "X5",
+      "description": "X5"
+    },
+    {
+      "id": "x6",
+      "type": "female",
+      "name": "X6",
+      "description": "X6"
+    },
+    {
+      "id": "x7",
+      "type": "female",
+      "name": "X7",
+      "description": "X7"
+    },
+    {
+      "id": "x8",
+      "type": "female",
+      "name": "X8",
+      "description": "X8"
+    },
+    {
+      "id": "x9",
+      "type": "female",
+      "name": "X9",
+      "description": "X9"
+    },
+    {
+      "id": "x10",
+      "type": "female",
+      "name": "X10",
+      "description": "X10"
+    },
+    {
+      "id": "x11",
+      "type": "female",
+      "name": "X11",
+      "description": "X11"
+    },
+    {
+      "id": "x12",
+      "type": "female",
+      "name": "X12",
+      "description": "X12"
+    },
+    {
+      "id": "x13-rst",
+      "type": "female",
+      "name": "X13 RST",
+      "description": "X13 RST"
+    },
+    {
+      "id": "x14-gnd",
+      "type": "female",
+      "name": "X14 GND",
+      "description": "X14 GND"
+    },
+    {
+      "id": "x15-3v3",
+      "type": "female",
+      "name": "X15 3V3",
+      "description": "X15 3V3"
+    },
+    {
+      "id": "x-vin",
+      "type": "female",
+      "name": "X16 VIN",
+      "description": "X16 VIN"
+    },
+    {
+      "id": "x17-usr",
+      "type": "female",
+      "name": "X17 USR",
+      "description": "X17 USR"
+    },
+    {
+      "id": "x18",
+      "type": "female",
+      "name": "X18",
+      "description": "X18"
+    },
+    {
+      "id": "x19",
+      "type": "female",
+      "name": "X19",
+      "description": "X19"
+    },
+    {
+      "id": "x20",
+      "type": "female",
+      "name": "X20",
+      "description": "X20"
+    },
+    {
+      "id": "x21",
+      "type": "female",
+      "name": "X21",
+      "description": "X21"
+    },
+    {
+      "id": "x22",
+      "type": "female",
+      "name": "X22",
+      "description": "X22"
+    },
+    {
+      "id": "x23-a3v3",
+      "type": "female",
+      "name": "X23 A3V3",
+      "description": "X23 A3V3"
+    },
+    {
+      "id": "x24-agnd",
+      "type": "female",
+      "name": "X24 AGND",
+      "description": "X24 AGND"
+    },
+    {
+      "id": "p1-boot0",
+      "type": "female",
+      "name": "P1 BOOT0",
+      "description": "P1 BOOT0"
+    },
+    {
+      "id": "p2-blue-led",
+      "type": "female",
+      "name": "P2 Blue LED",
+      "description": "P2 Blue LED"
+    },
+    {
+      "id": "p3-yellow-led",
+      "type": "female",
+      "name": "P3 Yellow LED",
+      "description": "P3 Yellow LED"
+    },
+    {
+      "id": "p4-green-led",
+      "type": "female",
+      "name": "P4 Green LED",
+      "description": "P4 Green LED"
+    },
+    {
+      "id": "p5-red-led",
+      "type": "female",
+      "name": "P5 Red LED",
+      "description": "P5 Red LED"
+    },
+    {
+      "id": "p6-vbat",
+      "type": "female",
+      "name": "P6 VBAT",
+      "description": "P6 VBAT"
+    },
+    {
+      "id": "p7-vin",
+      "type": "female",
+      "name": "P7 VIN",
+      "description": "P7 VIN"
+    },
+    {
+      "id": "p8-gnd",
+      "type": "female",
+      "name": "P8 GND",
+      "description": "P8 GND"
+    },
+    {
+      "id": "p9a-gnd",
+      "type": "female",
+      "name": "P9A GND",
+      "description": "P9A GND"
+    },
+    {
+      "id": "p10a-vin",
+      "type": "female",
+      "name": "P10A VIN",
+      "description": "P10A VIN"
+    },
+    {
+      "id": "p9b-gnd",
+      "type": "female",
+      "name": "P9B GND",
+      "description": "P9B GND"
+    },
+    {
+      "id": "p10b-vin",
+      "type": "female",
+      "name": "P10B VIN",
+      "description": "P10B VIN"
+    },
+    {
+      "id": "p9c-gnd",
+      "type": "female",
+      "name": "P9C GND",
+      "description": "P9C GND"
+    },
+    {
+      "id": "p10c-vin",
+      "type": "female",
+      "name": "P10C VIN",
+      "description": "P10C VIN"
+    },
+    {
+      "id": "p9d-gnd",
+      "type": "female",
+      "name": "P9D GND",
+      "description": "P9D GND"
+    },
+    {
+      "id": "p10d-vin",
+      "type": "female",
+      "name": "P10D VIN",
+      "description": "P10D VIN"
+    }
+  ]
+}

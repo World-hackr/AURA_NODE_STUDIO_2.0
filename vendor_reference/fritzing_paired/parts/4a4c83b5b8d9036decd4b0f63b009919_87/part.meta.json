@@ -1,0 +1,49 @@
+{
+  "moduleId": "4a4c83b5b8d9036decd4b0f63b009919_87",
+  "title": "LD33 Low-Dropout Voltage Regulator",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\LD33_Low_Dropout_Voltage_Regulator__0a93e12e7e89d78c1891e2b9caa1429e_87.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\LD33_Low_Dropout_Voltage_Regulator__0a93__icon__64173b2945e9c8226fcc724feaeeb74e_87.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\LD33_Low_Dropout_Voltage_Regulator__0a93__schematic__8abf8068f29d2e2fb7ffe88c20159b5c_87.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\LD33_Low_Dropout_Voltage_Regulator__0a93__pcb__39e801818419af80a0d09f6350226a18_87.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\LD33_Low_Dropout_Voltage_Regulator__0a93__breadboard__77d3bc749ecfe674ee2556d9e828a45b_87.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 3,
+  "connectors": [
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Vin",
+      "description": "Input Voltage"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Vout",
+      "description": "Output Voltage"
+    }
+  ]
+}

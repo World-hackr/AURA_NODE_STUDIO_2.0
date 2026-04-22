@@ -1,0 +1,61 @@
+{
+  "moduleId": "144096d13637627703324c683e3211ec_40",
+  "title": "OMRON PCB Power Relay – G5LE",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\OMRON_G5LE.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\icon\\relay_reloaded.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\obsolete\\breadboard\\relay_reloaded.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\G5LE-power-relay.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\svg.schematics.G5LE-power-relay_1.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "COIL2",
+      "description": "Relay Coil - Pin 2"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "B",
+      "description": "Switch Terminal 'B'"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A",
+      "description": "Switch Terminal 'A'"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "COIL1",
+      "description": "Relay Coil - Pin 1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "C",
+      "description": "Switch Common Terminal"
+    }
+  ]
+}

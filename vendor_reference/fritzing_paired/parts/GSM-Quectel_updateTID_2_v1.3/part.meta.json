@@ -1,0 +1,223 @@
+{
+  "moduleId": "GSM-Quectel_updateTID_2_v1.3",
+  "title": "Arduino GSM Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\GSM-Quectel_updateTID_2_v1.3.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\GSM-Quectel_updateTID_2_v1.3_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\GSM-Quectel_updateTID_2_v1.3_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\GSM-Quectel_updateTID_2_v1.3_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\GSM-Quectel_updateTID_2_v1.3_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 32,
+  "connectors": [
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "A5/SCL",
+      "description": "A5/SCL"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "A4/SDA",
+      "description": "A4/SDA"
+    },
+    {
+      "id": "connector42",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector43",
+      "type": "female",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector44",
+      "type": "female",
+      "name": "SCK/D13",
+      "description": "SCK/D13"
+    },
+    {
+      "id": "connector45",
+      "type": "female",
+      "name": "MISO/D12",
+      "description": "MISO/D12"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "MOSI/PWM D11",
+      "description": "MOSI/PWM D11"
+    },
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "SS/PWM D10",
+      "description": "SS/PWM D10"
+    },
+    {
+      "id": "connector48",
+      "type": "female",
+      "name": "PWM D9",
+      "description": "PWM D9"
+    },
+    {
+      "id": "connector49",
+      "type": "female",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "connector50",
+      "type": "female",
+      "name": "N/C",
+      "description": "N/C"
+    },
+    {
+      "id": "connector51",
+      "type": "female",
+      "name": "IOREF",
+      "description": "IOREF"
+    },
+    {
+      "id": "connector52",
+      "type": "female",
+      "name": "RST ARDUINO",
+      "description": "RST ARDUINO"
+    },
+    {
+      "id": "connector53",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "connector54",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector55",
+      "type": "female",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector56",
+      "type": "female",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "N/C D0",
+      "description": "N/C"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "N/C D1",
+      "description": "N/C"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "DSM RX D2",
+      "description": "DSM RX D2"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "DSM TX D3",
+      "description": "DSM TX D3"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "PWM D4",
+      "description": "PWM D4"
+    },
+    {
+      "id": "connector63",
+      "type": "female",
+      "name": "PWM D5",
+      "description": "PWM D5"
+    },
+    {
+      "id": "connector64",
+      "type": "female",
+      "name": "PWM D6",
+      "description": "PWM D6"
+    },
+    {
+      "id": "connector65",
+      "type": "female",
+      "name": "RST MDM/D7",
+      "description": "RST MDM/D7"
+    },
+    {
+      "id": "connector66",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector67",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector68",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector69",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector70",
+      "type": "female",
+      "name": "A4/SDA",
+      "description": "A4/SDA"
+    },
+    {
+      "id": "connector71",
+      "type": "female",
+      "name": "A5/SCL",
+      "description": "A5/SCL"
+    }
+  ]
+}

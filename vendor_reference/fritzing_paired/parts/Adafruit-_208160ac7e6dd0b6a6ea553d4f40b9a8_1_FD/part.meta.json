@@ -1,0 +1,139 @@
+{
+  "moduleId": "Adafruit-_208160ac7e6dd0b6a6ea553d4f40b9a8_1_FD",
+  "title": "Adafruit EYESPI Breakout Board",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_208160ac7e6dd0b6a6ea553d4f40b9a8_1_FD.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_208160ac7e6dd0b6a6ea553d4f40b9a8_1_breadboard_FD.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_208160ac7e6dd0b6a6ea553d4f40b9a8_1_schematic_FD.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_208160ac7e6dd0b6a6ea553d4f40b9a8_1_pcb_FD.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_208160ac7e6dd0b6a6ea553d4f40b9a8_1_icon_FD.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GPIO2",
+      "description": "GPIO2"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "GPIO1",
+      "description": "GPIO1"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "BUSY",
+      "description": "BUSY"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "TSCS",
+      "description": "TSCS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "MEM_CS",
+      "description": "MEM_CS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CARDCS",
+      "description": "CARDCS"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "TFTCS",
+      "description": "TFTCS"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "TFTRST",
+      "description": "TFTRST"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "TFTDC",
+      "description": "TFTDC"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "MOSI",
+      "description": "MOSI"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "SCK",
+      "description": "SCK"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "LITE",
+      "description": "LITE"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

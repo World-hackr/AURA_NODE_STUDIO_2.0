@@ -1,0 +1,151 @@
+{
+  "moduleId": "Adafruit-_83631d353bf40441bed3923ba54de296_1_8C",
+  "title": "Adafruit NAU7802 Breakout Rev C",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_83631d353bf40441bed3923ba54de296_1_8C.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_83631d353bf40441bed3923ba54de296_1_8C_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_83631d353bf40441bed3923ba54de296_1_8C_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_83631d353bf40441bed3923ba54de296_1_8C_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_83631d353bf40441bed3923ba54de296_1_8C_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 20,
+  "connectors": [
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector26",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector57",
+      "type": "female",
+      "name": "AVDD",
+      "description": "AVDD"
+    },
+    {
+      "id": "connector62",
+      "type": "female",
+      "name": "B+",
+      "description": "B+"
+    },
+    {
+      "id": "connector61",
+      "type": "female",
+      "name": "B-",
+      "description": "B-"
+    },
+    {
+      "id": "connector60",
+      "type": "female",
+      "name": "A+",
+      "description": "A+"
+    },
+    {
+      "id": "connector59",
+      "type": "female",
+      "name": "A-",
+      "description": "A-"
+    },
+    {
+      "id": "connector28",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector22",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector21",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector27",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "DRDY",
+      "description": "DRDY"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector58",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector25",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

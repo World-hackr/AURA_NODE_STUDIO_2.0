@@ -1,0 +1,751 @@
+{
+  "moduleId": "Arduino-Sensor-Shield-v5_1",
+  "title": "Arduino Sensor Shield v5.0",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Arduino-Sensor-Shield-v5_1.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Arduino-Sensor-Shield-v5_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Arduino-Sensor-Shield-v5_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Arduino-Sensor-Shield-v5_1_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Arduino-Sensor-Shield-v5_1_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 120,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SD-VCC",
+      "description": "SD-VCC"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SD-GND",
+      "description": "SD-GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SD-D11",
+      "description": "SD-D11"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "SD-D10",
+      "description": "SD-D10"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "SD-D13",
+      "description": "SD-D13"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "SD-D12",
+      "description": "SD-D12"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "URF01-VCC",
+      "description": "URF01-VCC"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "URF01-A0",
+      "description": "URF01-A0"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "URF01-A1",
+      "description": "URF01-A1"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "URF01-GND",
+      "description": "URF01-GND"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "SEL1",
+      "description": "SEL"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SEL2",
+      "description": "SEL"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "A0-SIG",
+      "description": "A0-SIG"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "A0-VCC",
+      "description": "A0-VCC"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "A0-GND",
+      "description": "A0-GND"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "A1-SIG",
+      "description": "A1-SIG"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "A1-VCC",
+      "description": "A1-VCC"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "A1-GND",
+      "description": "A1-GND"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "A2-SIG",
+      "description": "A2-SIG"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "A2-VCC",
+      "description": "A2-VCC"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "A2-GND",
+      "description": "A2-GND"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "A3-SIG",
+      "description": "A3-SIG"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "A3-VCC",
+      "description": "A3-VCC"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "A3-GND",
+      "description": "A3-GND"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "A4-SIG",
+      "description": "A4-SIG"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "A4-VCC",
+      "description": "A4-VCC"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "A4-GND",
+      "description": "A4-GND"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "A5-SIG",
+      "description": "A5-SIG"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "A5-VCC",
+      "description": "A5-VCC"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "A5-GND",
+      "description": "A5-GND"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "IIC-SCL",
+      "description": "IIC-SCL"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "IIC-SDA",
+      "description": "IIC-SDA"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "IIC-GND",
+      "description": "IIC-GND"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "IIC-VCC",
+      "description": "IIC-VCC"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "COM-TX",
+      "description": "COM-TX"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "COM-RX",
+      "description": "COM-RX"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "COM-GND",
+      "description": "COM-GND"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "COM-VCC",
+      "description": "COM-VCC"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "APC220-",
+      "description": "APC220-"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "APC220-D0",
+      "description": "APC220-D0"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "APC220-D1",
+      "description": "APC220-D1"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "APC220-",
+      "description": "APC220-"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "APC220-VCC",
+      "description": "APC220-VCC"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "APC220-GND",
+      "description": "APC220-GND"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "BLUETOOTH-3V3",
+      "description": "BLUETOOTH-3V3"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "BLUETOOTH-GND",
+      "description": "BLUETOOTH-GND"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "BLUETOOTH-D0",
+      "description": "BLUETOOTH-D0"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "BLUETOOTH-D1",
+      "description": "BLUETOOTH-D1"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "BLUETOOTH-GND",
+      "description": "BLUETOOTH-GND"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "BLUETOOTH-VCC",
+      "description": "BLUETOOTH-VCC"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "AREF-S",
+      "description": "AREF-S"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "AREF-V",
+      "description": "AREF-V"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "AREF-G",
+      "description": "AREF-G"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "GND-S",
+      "description": "GND-S"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "GND-V",
+      "description": "GND-V"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "GND-G",
+      "description": "GND-G"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "13-S",
+      "description": null
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "13-V",
+      "description": "13-V"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "13-G",
+      "description": "13-G"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "12-S",
+      "description": "12-S"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "12-V",
+      "description": "12-V"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "12-G",
+      "description": "12-G"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "11-S",
+      "description": "11-S"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "11-V",
+      "description": "11-V"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "11-G",
+      "description": "11-G"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "10-S",
+      "description": "10-S"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "10-V",
+      "description": "10-V"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "10-G",
+      "description": "10-G"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "9-S",
+      "description": "9-S"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "9-V",
+      "description": "9-V"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "9-G",
+      "description": "9-G"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "8-S",
+      "description": "8-S"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "8-V",
+      "description": "8-V"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "8-G",
+      "description": "8-G"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "7-S",
+      "description": "7-S"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "7-V",
+      "description": "7-V"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "7-G",
+      "description": "7-G"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "6-S",
+      "description": "6-S"
+    },
+    {
+      "id": "connector80",
+      "type": "male",
+      "name": "6-V",
+      "description": "6-V"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "6-G",
+      "description": "6-G"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "5-S",
+      "description": "5-S"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "5-V",
+      "description": "5-V"
+    },
+    {
+      "id": "connector84",
+      "type": "male",
+      "name": "5-G",
+      "description": "5-G"
+    },
+    {
+      "id": "connector85",
+      "type": "male",
+      "name": "4-S",
+      "description": "4-S"
+    },
+    {
+      "id": "connector86",
+      "type": "male",
+      "name": "4-V",
+      "description": "4-V"
+    },
+    {
+      "id": "connector87",
+      "type": "male",
+      "name": "4-G",
+      "description": "4-G"
+    },
+    {
+      "id": "connector88",
+      "type": "male",
+      "name": "3-S",
+      "description": "3-S"
+    },
+    {
+      "id": "connector89",
+      "type": "male",
+      "name": "3-V",
+      "description": "3-V"
+    },
+    {
+      "id": "connector90",
+      "type": "male",
+      "name": "3-G",
+      "description": "3-G"
+    },
+    {
+      "id": "connector91",
+      "type": "male",
+      "name": "2-S",
+      "description": "2-S"
+    },
+    {
+      "id": "connector92",
+      "type": "male",
+      "name": "2-V",
+      "description": "2-V"
+    },
+    {
+      "id": "connector93",
+      "type": "male",
+      "name": "2-G",
+      "description": "2-G"
+    },
+    {
+      "id": "connector94",
+      "type": "male",
+      "name": "1-S",
+      "description": "1-S"
+    },
+    {
+      "id": "connector95",
+      "type": "male",
+      "name": "1-V",
+      "description": "1-V"
+    },
+    {
+      "id": "connector96",
+      "type": "male",
+      "name": "1-G",
+      "description": "1-G"
+    },
+    {
+      "id": "connector97",
+      "type": "male",
+      "name": "0-S",
+      "description": "0-S"
+    },
+    {
+      "id": "connector98",
+      "type": "male",
+      "name": "0-V",
+      "description": "0-V"
+    },
+    {
+      "id": "connector99",
+      "type": "male",
+      "name": "0-G",
+      "description": "0-G"
+    },
+    {
+      "id": "connector100",
+      "type": "male",
+      "name": "ParallelLCD-VCC",
+      "description": "ParallelLCD-VCC"
+    },
+    {
+      "id": "connector101",
+      "type": "male",
+      "name": "ParallelLCD-D13",
+      "description": "ParallelLCD-D13"
+    },
+    {
+      "id": "connector102",
+      "type": "male",
+      "name": "ParallelLCD-GND",
+      "description": "ParallelLCD-GND"
+    },
+    {
+      "id": "connector103",
+      "type": "male",
+      "name": "ParallelLCD-D12",
+      "description": "ParallelLCD-D12"
+    },
+    {
+      "id": "connector104",
+      "type": "male",
+      "name": "ParallelLCD-D2",
+      "description": "ParallelLCD-D2"
+    },
+    {
+      "id": "connector105",
+      "type": "male",
+      "name": "ParallelLCD-D11",
+      "description": "ParallelLCD-D11"
+    },
+    {
+      "id": "connector106",
+      "type": "male",
+      "name": "ParallelLCD-D3",
+      "description": "ParallelLCD-D3"
+    },
+    {
+      "id": "connector107",
+      "type": "male",
+      "name": "ParallelLCD-D10",
+      "description": "ParallelLCD-D10"
+    },
+    {
+      "id": "connector108",
+      "type": "male",
+      "name": "ParallelLCD-D4",
+      "description": "ParallelLCD-D4"
+    },
+    {
+      "id": "connector109",
+      "type": "male",
+      "name": "ParallelLCD-D9",
+      "description": "ParallelLCD-D9"
+    },
+    {
+      "id": "connector110",
+      "type": "male",
+      "name": "ParallelLCD-D5",
+      "description": "ParallelLCD-D5"
+    },
+    {
+      "id": "connector111",
+      "type": "male",
+      "name": "ParallelLCD-D8",
+      "description": "ParallelLCD-D8"
+    },
+    {
+      "id": "connector112",
+      "type": "male",
+      "name": "ParallelLCD-D6",
+      "description": "ParallelLCD-D6"
+    },
+    {
+      "id": "connector113",
+      "type": "male",
+      "name": "ParallelLCD-D7",
+      "description": "ParallelLCD-D7"
+    },
+    {
+      "id": "connector114",
+      "type": "male",
+      "name": "SerialLCD-D4",
+      "description": "SerialLCD-D4"
+    },
+    {
+      "id": "connector115",
+      "type": "male",
+      "name": "SerialLCD-VCC",
+      "description": "SerialLCD-VCC"
+    },
+    {
+      "id": "connector116",
+      "type": "male",
+      "name": "SerialLCD-D3",
+      "description": "SerialLCD-D3"
+    },
+    {
+      "id": "connector117",
+      "type": "male",
+      "name": "SerialLCD-",
+      "description": "SerialLCD-"
+    },
+    {
+      "id": "connector118",
+      "type": "male",
+      "name": "SerialLCD-D2",
+      "description": "SerialLCD-D2"
+    },
+    {
+      "id": "connector119",
+      "type": "male",
+      "name": "SerialLCD-GND",
+      "description": "SerialLCD-GND"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "moduleId": "WeMos_D1_Mini_Motor_Shield_no_headers",
+  "title": "WeMos D1 Mini Motor Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\WeMos-D1-mini-Motor-Shield-no-headers.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WeMos-D1-mini-Motor-Shield-no-headers_breadboard.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\WeMos-D1-mini-Motor-Shield-no-headers_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\WeMos-D1-mini-Motor-Shield_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\WeMos-D1-mini-Motor-Shield_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 31,
+  "connectors": [
+    {
+      "id": "rst",
+      "type": "female",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "a0",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "d0",
+      "type": "female",
+      "name": "D0",
+      "description": "D0"
+    },
+    {
+      "id": "d5",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "d6",
+      "type": "female",
+      "name": "D6",
+      "description": "D6"
+    },
+    {
+      "id": "d7",
+      "type": "female",
+      "name": "D7",
+      "description": "D7"
+    },
+    {
+      "id": "d8",
+      "type": "female",
+      "name": "D8",
+      "description": "D8"
+    },
+    {
+      "id": "3v3",
+      "type": "female",
+      "name": "3V3",
+      "description": "3V3"
+    },
+    {
+      "id": "5v",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "g",
+      "type": "female",
+      "name": "G",
+      "description": "G"
+    },
+    {
+      "id": "d4",
+      "type": "female",
+      "name": "D4",
+      "description": "D4"
+    },
+    {
+      "id": "d3",
+      "type": "female",
+      "name": "D3",
+      "description": "D3"
+    },
+    {
+      "id": "d2",
+      "type": "female",
+      "name": "D2",
+      "description": "D2"
+    },
+    {
+      "id": "d1",
+      "type": "female",
+      "name": "D1",
+      "description": "D1"
+    },
+    {
+      "id": "rx",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "tx",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "gnd",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "rts",
+      "type": "female",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "3v",
+      "type": "female",
+      "name": "3V",
+      "description": "3V"
+    },
+    {
+      "id": "r",
+      "type": "female",
+      "name": "R",
+      "description": "R"
+    },
+    {
+      "id": "t",
+      "type": "female",
+      "name": "T",
+      "description": "T"
+    },
+    {
+      "id": "dtr",
+      "type": "female",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "vm1",
+      "type": "female",
+      "name": "VM1",
+      "description": "VM1"
+    },
+    {
+      "id": "vm2",
+      "type": "female",
+      "name": "VM2",
+      "description": "VM2"
+    },
+    {
+      "id": "gnd1",
+      "type": "female",
+      "name": "GND1",
+      "description": "GND1"
+    },
+    {
+      "id": "gnd2",
+      "type": "female",
+      "name": "GND2",
+      "description": "GND2"
+    },
+    {
+      "id": "a1",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "a2",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "b2",
+      "type": "female",
+      "name": "B2",
+      "description": "B2"
+    },
+    {
+      "id": "b1",
+      "type": "female",
+      "name": "B1",
+      "description": "B1"
+    },
+    {
+      "id": "s",
+      "type": "female",
+      "name": "S",
+      "description": "S"
+    }
+  ]
+}

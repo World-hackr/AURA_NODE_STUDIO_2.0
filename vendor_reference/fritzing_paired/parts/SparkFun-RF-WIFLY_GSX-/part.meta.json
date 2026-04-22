@@ -1,0 +1,295 @@
+{
+  "moduleId": "SparkFun-RF-WIFLY_GSX-",
+  "title": "WIFLY_GSX",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-wifly_gsx-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_wifly_gsx_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_wifly_gsx_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_wifly_gsx_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\WIFLY_GSX.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 44,
+  "connectors": [
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "3V3_IN",
+      "description": "3V3_IN"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "3V3_OUT",
+      "description": "3V3_OUT"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "DMA_RX",
+      "description": "DMA_RX"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "DMA_TX",
+      "description": "DMA_TX"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "EPCA",
+      "description": "EPCA"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "EPCB",
+      "description": "EPCB"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "FORCE_WAKE",
+      "description": "FORCE_WAKE"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "G1",
+      "description": "G1"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "G10",
+      "description": "G10"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "G2",
+      "description": "G2"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "G3",
+      "description": "G3"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "G4",
+      "description": "G4"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "G5",
+      "description": "G5"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "G6",
+      "description": "G6"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "G7",
+      "description": "G7"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "G8",
+      "description": "G8"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "G9",
+      "description": "G9"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GPIO4",
+      "description": "GPIO4"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GPIO5",
+      "description": "GPIO5"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "GPIO6",
+      "description": "GPIO6"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "GPIO7",
+      "description": "GPIO7"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "GPIO8",
+      "description": "GPIO8"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "GPIO9",
+      "description": "GPIO9"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GPIO_12",
+      "description": "GPIO_12"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GPIO_13",
+      "description": "GPIO_13"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RESET_L",
+      "description": "RESET_L"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "SENS0",
+      "description": "SENS0"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "SENS1",
+      "description": "SENS1"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "SENS2",
+      "description": "SENS2"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "SENS3",
+      "description": "SENS3"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SENS4",
+      "description": "SENS4"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SENS5",
+      "description": "SENS5"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SENS6",
+      "description": "SENS6"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "SENS7",
+      "description": "SENS7"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "SENSPWR",
+      "description": "SENSPWR"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "SPI_CLK",
+      "description": "SPI_CLK"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "SPI_MISO",
+      "description": "SPI_MISO"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "SPI_MOSI",
+      "description": "SPI_MOSI"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "SUPCAP",
+      "description": "SUPCAP"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "URX",
+      "description": "URX"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "UTX",
+      "description": "UTX"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "VD_3V_IN",
+      "description": "VD_3V_IN"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "VD_BAT",
+      "description": "VD_BAT"
+    }
+  ]
+}

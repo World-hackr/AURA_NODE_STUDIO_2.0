@@ -1,0 +1,73 @@
+{
+  "moduleId": "icl7662 (dip)_b0b26f8cea2efc2a43aad86f232f436b_1",
+  "title": "ICL7662 (DIP)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\icl7662 (dip)_b0b26f8cea2efc2a43aad86f232f436b_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\icl7662 (dip)_289c9acffd8dbce873172d95f69181e2_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\icl7662 (dip)_289c9acffd8dbce873172d95f69181e2_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\icl7662 (dip)_289c9acffd8dbce873172d95f69181e2_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\icl7662 (dip)_289c9acffd8dbce873172d95f69181e2_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin 2",
+      "description": "C+"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin 3",
+      "description": "GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "C-"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin 5",
+      "description": "VOUT"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin 6",
+      "description": "LV"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin 7",
+      "description": "OSC"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin 8",
+      "description": "VIN"
+    }
+  ]
+}

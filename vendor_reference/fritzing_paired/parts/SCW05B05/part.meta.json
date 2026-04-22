@@ -1,0 +1,79 @@
+{
+  "moduleId": "SCW05B05",
+  "title": "SCW05B-05",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SCW05B-05.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\SCW05B-05_4.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SCW05B-05_4.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SCW05B-05_4.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SCW05B-05_4.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "Vin -",
+      "description": "Vin -"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Vin -",
+      "description": "Vin -"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Vin +",
+      "description": "Vin +"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Vin +",
+      "description": "Vin +"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "NC",
+      "description": "NC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Vout +",
+      "description": "Vout +"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

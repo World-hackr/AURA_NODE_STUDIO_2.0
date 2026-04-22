@@ -1,0 +1,85 @@
+{
+  "moduleId": "aoz3018pi_4b4d7335497bbf379c232d88829b4eaf_1",
+  "title": "APZ3018PI",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\aoz3018pi_4b4d7335497bbf379c232d88829b4eaf_1.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\aoz3018pi_007a70b9384772c13aaca27b3fa85f5d_1_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\aoz3018pi_007a70b9384772c13aaca27b3fa85f5d_1_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\aoz3018pi_007a70b9384772c13aaca27b3fa85f5d_1_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\aoz3018pi_007a70b9384772c13aaca27b3fa85f5d_1_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 9,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "PGND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "VIN"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "pin3",
+      "description": "AGND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "pin4",
+      "description": "FB"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "pin5",
+      "description": "COMP"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "pin6",
+      "description": "EN"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "pin7",
+      "description": "SS"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "pin8",
+      "description": "LX (sense)"
+    },
+    {
+      "id": "padpin",
+      "type": "pad",
+      "name": "pad",
+      "description": "LX"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "moduleId": "Adafruit_4e95c19bd8e141ea86d2761d24235f36_1_A0",
+  "title": "Adafruit NeoKey CHOC Breakout",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit_4e95c19bd8e141ea86d2761d24235f36_1_A0.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit_4e95c19bd8e141ea86d2761d24235f36_1_breadboard_A0.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit_4e95c19bd8e141ea86d2761d24235f36_1_schematic_A0.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit_4e95c19bd8e141ea86d2761d24235f36_1_pcb_A0.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit_4e95c19bd8e141ea86d2761d24235f36_1_icon_A0.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 14,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "NEO_IN",
+      "description": "NEO_IN"
+    },
+    {
+      "id": "connector10",
+      "type": "female",
+      "name": "NEO_IN",
+      "description": "NEO_IN"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "NEO_OUT",
+      "description": "NEO_OUT"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "NEO_OUT",
+      "description": "NEO_OUT"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "SWITCHA",
+      "description": "SWITCHA"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SWITCHA",
+      "description": "SWITCHA"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "SWITCHC",
+      "description": "SWITCHC"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "SWITCHC",
+      "description": "SWITCHC"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SWITCHC",
+      "description": "SWITCHC"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "SWITCHC",
+      "description": "SWITCHC"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

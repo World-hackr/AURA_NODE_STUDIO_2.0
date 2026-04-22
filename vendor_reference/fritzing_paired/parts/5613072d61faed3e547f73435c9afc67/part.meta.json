@@ -1,0 +1,127 @@
+{
+  "moduleId": "5613072d61faed3e547f73435c9afc67",
+  "title": "TPA2000D1 Audio Amplifier",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\TPA2000D1 Audio Amplifier dip.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\TPA2000D1_Audio_Amplifier.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\TPA2000D1_Audio_Amplifier.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\TPA2000D1_AudioAmplifier_schematic.svg",
+      "file": "schematic.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "pcb",
+      "source": "pcb/dip_16_700mil_pcb.svg"
+    }
+  ],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "BYPASS",
+      "description": "Bypass pin. Connect with 1uF cap to GND"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GAIN0",
+      "description": "Gain Select logic bit 0"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GAIN0",
+      "description": "Gain Select logic bit 1"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "PVDD",
+      "description": "Power supply max 5.5V"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OUTP",
+      "description": "Output Pin (Power)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "PGND",
+      "description": "Power ground"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUTN",
+      "description": "Output neutral"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PVDD1",
+      "description": "Power Supply max 5.5V"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VDD",
+      "description": "Voltage Supply"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "ROSC",
+      "description": "External oscillator Resistor"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "INP",
+      "description": "Input Pin (power)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "COSC",
+      "description": "External oscilator Capacitor"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "INN",
+      "description": "Input Pin (neutral)"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "AGND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SHUTDOWN",
+      "description": "Shutdown pin. Low to shutdown"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "moduleId": "DIPRelay170495d155b24134b5d3f59be2e098ed",
+  "title": "DIP-Relay-D31A",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\DIP_Relay_D31A_14fadb0_002.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\DIP_Relay_D31A_14fadb0_002.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\DIP_Relay_D31A_14fadb0_002.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\DIP_Relay_D31A_14fadb0_002.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\DIP_Relay_D31A_14fadb0_002.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 8,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Coil2 -",
+      "description": "(6)"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "B1 Switch Terminal B",
+      "description": "(7)"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "B2 Switch Terminal B",
+      "description": "(8)"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "Coil Sheeld",
+      "description": "(9)"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "A1 Switch Terminal A",
+      "description": "(1)"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "n.c.",
+      "description": "(13)"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "COIL1 +",
+      "description": "(2)"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "A2 Switch Terminal A",
+      "description": "(14)"
+    }
+  ]
+}

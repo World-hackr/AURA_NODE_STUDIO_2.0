@@ -1,0 +1,50 @@
+{
+  "moduleId": "Camdenboss_CTB0158-2_5_08mm_pitch_90deg_terminals",
+  "title": "Camdenboss CTB0158-2",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Camdenboss_CTB0158-2_5_08mm_pitch_90deg_terminals.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\Camdenboss_CTB0158-2_5_08mm_pitch_90deg_terminals_icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Camdenboss_CTB0158-2_5_08mm_pitch_90deg_terminals_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Camdenboss_CTB0158-2_5_08mm_pitch_90deg_terminals_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 4,
+  "connectors": [
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "pin1",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "pin2",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "female",
+      "name": "terminal 1",
+      "description": "screw terminal 1"
+    },
+    {
+      "id": "connector3",
+      "type": "female",
+      "name": "terminal 2",
+      "description": "screw terminal 2"
+    }
+  ]
+}

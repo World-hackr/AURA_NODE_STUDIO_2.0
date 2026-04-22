@@ -1,0 +1,133 @@
+{
+  "moduleId": "SparkFun-PowerIC-TPS6214X-",
+  "title": "TPS6214X",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-poweric-tps6214x-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_qfn16-3x3mm_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-poweric_tps62143_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-poweric_qfn16-3x3mm_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-poweric_qfn16-3x3mm_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 17,
+  "connectors": [
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "AGND",
+      "description": "AGND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "AVIN",
+      "description": "AVIN"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DEF",
+      "description": "DEF"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "EN",
+      "description": "EN"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "EXT",
+      "description": "EXT"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "FB",
+      "description": "FB"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "FSW",
+      "description": "FSW"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "PG",
+      "description": "PG"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "PGND",
+      "description": "PGND"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PGND",
+      "description": "PGND"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PVIN",
+      "description": "PVIN"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PVIN",
+      "description": "PVIN"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "SS_TR",
+      "description": "SS_TR"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "SW",
+      "description": "SW"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "VOS",
+      "description": "VOS"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "moduleId": "81591c6c31ccf12f0f3ccec5f150df2d",
+  "title": "Wiring USB Adapter",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\usbadapter_wiring.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\controller_wiring.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\controller_wiring_usb_adapter.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\controller_wiring_usb_adapter.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\wiringmini_usb-adapter.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 18,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "RESET",
+      "description": "Reset"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "RX",
+      "description": "Receive Asynchronous Data"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "OSCI",
+      "description": "Oscillator Input"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "5V",
+      "description": "Power Out"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "OSCO",
+      "description": "Oscillator Output"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "DTR",
+      "description": "Data Terminal Ready"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "RTS",
+      "description": "Request To Send"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "GND",
+      "description": "Ground"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "RI",
+      "description": "Ring Indicator"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "DSR",
+      "description": "Data Set Ready"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "3.3V",
+      "description": "Power Out"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "DCD",
+      "description": "Data Carrier Detect"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "CBUS3",
+      "description": "Configurable CBUS"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "CTS",
+      "description": "Clear To Send"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "CBUS2",
+      "description": "Configurable CBUS"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "CBUS4",
+      "description": "Configurable CBUS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "TX",
+      "description": "Transmit Asynchronous Data"
+    }
+  ]
+}

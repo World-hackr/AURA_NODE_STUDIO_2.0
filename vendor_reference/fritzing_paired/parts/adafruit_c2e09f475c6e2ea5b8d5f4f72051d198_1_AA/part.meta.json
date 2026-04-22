@@ -1,0 +1,61 @@
+{
+  "moduleId": "adafruit_c2e09f475c6e2ea5b8d5f4f72051d198_1_AA",
+  "title": "NeoPixel Jewel",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_c2e09f475c6e2ea5b8d5f4f72051d198_1_AA.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_6ee2ad5cd25d8f6983c8c64a0f03b1d3_1_breadboard_AA.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_6ee2ad5cd25d8f6983c8c64a0f03b1d3_1_schematic_AA.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_6ee2ad5cd25d8f6983c8c64a0f03b1d3_1_pcb_AA.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_6ee2ad5cd25d8f6983c8c64a0f03b1d3_1_icon_AA.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector47",
+      "type": "female",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "IN",
+      "description": "IN"
+    },
+    {
+      "id": "connector46",
+      "type": "female",
+      "name": "OUT",
+      "description": "OUT"
+    },
+    {
+      "id": "connector15",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

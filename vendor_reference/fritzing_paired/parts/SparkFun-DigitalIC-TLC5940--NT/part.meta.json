@@ -1,0 +1,198 @@
+{
+  "moduleId": "SparkFun-DigitalIC-TLC5940--NT",
+  "title": "Packages:",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-tlc5940--nt.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_tlc5940_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_dil28-3_pcb.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [
+    {
+      "view": "breadboard",
+      "source": "breadboard/generic_ic_dip_28_300mil_bread.svg"
+    },
+    {
+      "view": "icon",
+      "source": "breadboard/generic_ic_dip_28_300mil_bread.svg"
+    }
+  ],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "BLANK",
+      "description": "BLANK"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "DCPRG",
+      "description": "DCPRG"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "GSCLK",
+      "description": "GSCLK"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "IREF",
+      "description": "IREF"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "OUT0",
+      "description": "OUT0"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "OUT1",
+      "description": "OUT1"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUT10",
+      "description": "OUT10"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "OUT11",
+      "description": "OUT11"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "OUT12",
+      "description": "OUT12"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "OUT13",
+      "description": "OUT13"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "OUT14",
+      "description": "OUT14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "OUT15",
+      "description": "OUT15"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "OUT2",
+      "description": "OUT2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "OUT3",
+      "description": "OUT3"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "OUT4",
+      "description": "OUT4"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "OUT5",
+      "description": "OUT5"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "OUT6",
+      "description": "OUT6"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "OUT7",
+      "description": "OUT7"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "OUT8",
+      "description": "OUT8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "OUT9",
+      "description": "OUT9"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "SCLK",
+      "description": "SCLK"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "SIN",
+      "description": "SIN"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SOUT",
+      "description": "SOUT"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "VPRG",
+      "description": "VPRG"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "XERR",
+      "description": "XERR"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "XLAT",
+      "description": "XLAT"
+    }
+  ]
+}

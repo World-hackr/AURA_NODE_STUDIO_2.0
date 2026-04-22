@@ -1,0 +1,73 @@
+{
+  "moduleId": "Adafruit-_795b5e5cd920f33a6c84863d3d7360b5_1_3A",
+  "title": "Adafruit TPS65131 Split Power Supply Boost Converter",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_795b5e5cd920f33a6c84863d3d7360b5_1_3A.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_795b5e5cd920f33a6c84863d3d7360b5_1_3A_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_795b5e5cd920f33a6c84863d3d7360b5_1_3A_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_795b5e5cd920f33a6c84863d3d7360b5_1_3A_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_795b5e5cd920f33a6c84863d3d7360b5_1_3A_icon.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 7,
+  "connectors": [
+    {
+      "id": "connector35",
+      "type": "female",
+      "name": "+12V",
+      "description": "+12V"
+    },
+    {
+      "id": "connector37",
+      "type": "female",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector41",
+      "type": "female",
+      "name": "-12V",
+      "description": "-12V"
+    },
+    {
+      "id": "connector39",
+      "type": "female",
+      "name": "ENABLE",
+      "description": "ENABLE"
+    },
+    {
+      "id": "connector36",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector38",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector40",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

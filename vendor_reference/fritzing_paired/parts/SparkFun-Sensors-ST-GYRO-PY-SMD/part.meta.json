@@ -1,0 +1,127 @@
+{
+  "moduleId": "SparkFun-Sensors-ST-GYRO-PY-SMD",
+  "title": "ST-GYRO-PY",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-sensors-st-gyro-py-smd.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_st-gyro_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-sensors_st-gyro-py_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-sensors_st-gyro_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-sensors_st-gyro_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 16,
+  "connectors": [
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "4XINX",
+      "description": "4XINX"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "4XINZ",
+      "description": "4XINZ"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "4XOUTX",
+      "description": "4XOUTX"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "4XOUTZ",
+      "description": "4XOUTZ"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "FILTVDD",
+      "description": "FILTVDD"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "HP",
+      "description": "HP"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "OUTX",
+      "description": "OUTX"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "OUTZ",
+      "description": "OUTZ"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "PD",
+      "description": "PD"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "RES",
+      "description": "RES"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "RES",
+      "description": "RES"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "ST",
+      "description": "ST"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "VCONT",
+      "description": "VCONT"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VREF",
+      "description": "VREF"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "moduleId": "MP3 Shield-v13",
+  "title": "Arduino MP3 Player Shield",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\MP3 Shield-v13.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MP3 Shield-v13_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\MP3 Shield-v13_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\MP3 Shield-v13_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\MP3 Shield-v13_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 31,
+  "connectors": [
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GBUF",
+      "description": "GBUF"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "RIGHT",
+      "description": "RIGHT"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "LEFT",
+      "description": "LEFT"
+    },
+    {
+      "id": "connector86",
+      "type": "female",
+      "name": "3.3",
+      "description": "3.3"
+    },
+    {
+      "id": "connector87",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector88",
+      "type": "female",
+      "name": "A0",
+      "description": "A0"
+    },
+    {
+      "id": "connector89",
+      "type": "female",
+      "name": "A1",
+      "description": "A1"
+    },
+    {
+      "id": "connector90",
+      "type": "female",
+      "name": "A2",
+      "description": "A2"
+    },
+    {
+      "id": "connector91",
+      "type": "female",
+      "name": "A3",
+      "description": "A3"
+    },
+    {
+      "id": "connector92",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector93",
+      "type": "female",
+      "name": "A5",
+      "description": "A5"
+    },
+    {
+      "id": "connector94",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector95",
+      "type": "female",
+      "name": "MP3-DREQ",
+      "description": "MP3-DREQ"
+    },
+    {
+      "id": "connector96",
+      "type": "female",
+      "name": "5V-MIDI-RX",
+      "description": "5V-MIDI-RX"
+    },
+    {
+      "id": "connector97",
+      "type": "female",
+      "name": "5V-GPIO1",
+      "description": "5V-GPIO1"
+    },
+    {
+      "id": "connector98",
+      "type": "female",
+      "name": "D5",
+      "description": "D5"
+    },
+    {
+      "id": "connector99",
+      "type": "female",
+      "name": "5V-MP3-CS",
+      "description": "5V-MP3-CS"
+    },
+    {
+      "id": "connector100",
+      "type": "female",
+      "name": "5V-MP3-DCS",
+      "description": "5V-MP3-DCS"
+    },
+    {
+      "id": "connector101",
+      "type": "female",
+      "name": "5V-MP3-RST",
+      "description": "5V-MP3-RST"
+    },
+    {
+      "id": "connector102",
+      "type": "female",
+      "name": "5V-SD-CS",
+      "description": "5V-SD-CS"
+    },
+    {
+      "id": "connector103",
+      "type": "female",
+      "name": "D10",
+      "description": "D10"
+    },
+    {
+      "id": "connector104",
+      "type": "female",
+      "name": "5V-MOSI",
+      "description": "5V-MOSI"
+    },
+    {
+      "id": "connector105",
+      "type": "female",
+      "name": "MISO",
+      "description": "MISO"
+    },
+    {
+      "id": "connector106",
+      "type": "female",
+      "name": "5V-SCK",
+      "description": "5V-SCK"
+    },
+    {
+      "id": "connector107",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector108",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector109",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector110",
+      "type": "female",
+      "name": "ARST",
+      "description": "ARST"
+    },
+    {
+      "id": "connector111",
+      "type": "female",
+      "name": "RX",
+      "description": "RX"
+    },
+    {
+      "id": "connector112",
+      "type": "female",
+      "name": "TX",
+      "description": "TX"
+    },
+    {
+      "id": "connector113",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    }
+  ]
+}

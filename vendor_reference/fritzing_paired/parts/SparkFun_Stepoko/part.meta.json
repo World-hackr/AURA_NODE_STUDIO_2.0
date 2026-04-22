@@ -1,0 +1,451 @@
+{
+  "moduleId": "SparkFun_Stepoko",
+  "title": "SparkFun Stepoko",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SparkFun_Stepoko.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun_Stepoko_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\SparkFun_Stepoko_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\SparkFun_Stepoko_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\SparkFun_Stepoko_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 70,
+  "connectors": [
+    {
+      "id": "connector151",
+      "type": "female",
+      "name": "MISO-D12-LIMIT-Z",
+      "description": "MISO-D12-LIMIT-Z"
+    },
+    {
+      "id": "connector152",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector153",
+      "type": "female",
+      "name": "SCK-D13-SPINDLE_DIR",
+      "description": "SCK-D13-SPINDLE_DIR"
+    },
+    {
+      "id": "connector154",
+      "type": "female",
+      "name": "MOSI-D11-SPINDLE_PWM",
+      "description": "MOSI-D11-SPINDLE_PWM"
+    },
+    {
+      "id": "connector155",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector156",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector157",
+      "type": "female",
+      "name": "Limit XYZ (shared)",
+      "description": "Limit XYZ (shared)"
+    },
+    {
+      "id": "connector158",
+      "type": "female",
+      "name": "Limit X",
+      "description": "Limit X"
+    },
+    {
+      "id": "connector159",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector160",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector161",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector162",
+      "type": "female",
+      "name": "ESTOP-LOGIC",
+      "description": "ESTOP-LOGIC"
+    },
+    {
+      "id": "connector163",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector164",
+      "type": "female",
+      "name": "A0-RESET/ABORT",
+      "description": "A0-RESET/ABORT"
+    },
+    {
+      "id": "connector165",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector166",
+      "type": "female",
+      "name": "A1-FEED_HOLD",
+      "description": "A1-FEED_HOLD"
+    },
+    {
+      "id": "connector167",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector168",
+      "type": "female",
+      "name": "A2-CYCLE_START/RESUME",
+      "description": "A2-CYCLE_START/RESUME"
+    },
+    {
+      "id": "connector169",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector170",
+      "type": "female",
+      "name": "A3-COOLANT_ENABLE",
+      "description": "A3-COOLANT_ENABLE"
+    },
+    {
+      "id": "connector171",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector172",
+      "type": "female",
+      "name": "A4",
+      "description": "A4"
+    },
+    {
+      "id": "connector173",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector174",
+      "type": "female",
+      "name": "A5-PROBE",
+      "description": "A5-PROBE"
+    },
+    {
+      "id": "connector175",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector176",
+      "type": "female",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector177",
+      "type": "female",
+      "name": "AREF",
+      "description": "AREF"
+    },
+    {
+      "id": "connector178",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector179",
+      "type": "female",
+      "name": "RXI",
+      "description": "RXI"
+    },
+    {
+      "id": "connector180",
+      "type": "female",
+      "name": "TXO",
+      "description": "TXO"
+    },
+    {
+      "id": "connector181",
+      "type": "female",
+      "name": "A7",
+      "description": "A7"
+    },
+    {
+      "id": "connector182",
+      "type": "female",
+      "name": "A6",
+      "description": "A6"
+    },
+    {
+      "id": "connector183",
+      "type": "female",
+      "name": "SCK-D13-SPINDLE_DIR",
+      "description": "SCK-D13-SPINDLE_DIR"
+    },
+    {
+      "id": "connector184",
+      "type": "female",
+      "name": "MOSI-D11-SPINDLE_PWM",
+      "description": "MOSI-D11-SPINDLE_PWM"
+    },
+    {
+      "id": "connector185",
+      "type": "female",
+      "name": "Limit XYZ (shared)",
+      "description": "Limit XYZ (shared)"
+    },
+    {
+      "id": "connector186",
+      "type": "female",
+      "name": "Limit Y",
+      "description": "Limit Y"
+    },
+    {
+      "id": "connector187",
+      "type": "female",
+      "name": "Limit XYZ (shared)",
+      "description": "Limit XYZ (shared)"
+    },
+    {
+      "id": "connector188",
+      "type": "female",
+      "name": "Limit Z",
+      "description": "Limit Z"
+    },
+    {
+      "id": "connector198",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector199",
+      "type": "female",
+      "name": "Probe (switch)",
+      "description": "Probe (switch)"
+    },
+    {
+      "id": "connector200",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector201",
+      "type": "female",
+      "name": "E-Stop (switch)",
+      "description": "E-Stop (switch)"
+    },
+    {
+      "id": "connector202",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector203",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector204",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector205",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector206",
+      "type": "female",
+      "name": "5V",
+      "description": "5V"
+    },
+    {
+      "id": "connector207",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector208",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector209",
+      "type": "female",
+      "name": "STEP_ENABLE",
+      "description": "STEP_ENABLE"
+    },
+    {
+      "id": "connector210",
+      "type": "female",
+      "name": "D2-STEP-X",
+      "description": "D2-STEP-X"
+    },
+    {
+      "id": "connector211",
+      "type": "female",
+      "name": "D3-STEP-Y",
+      "description": "D3-STEP-Y"
+    },
+    {
+      "id": "connector212",
+      "type": "female",
+      "name": "D4-STEP-Z",
+      "description": "D4-STEP-Z"
+    },
+    {
+      "id": "connector213",
+      "type": "female",
+      "name": "D7-DIR-Z",
+      "description": "D7-DIR-Z"
+    },
+    {
+      "id": "connector214",
+      "type": "female",
+      "name": "D6-DIR-Y",
+      "description": "D6-DIR-Y"
+    },
+    {
+      "id": "connector215",
+      "type": "female",
+      "name": "D5-DIR-X",
+      "description": "D5-DIR-X"
+    },
+    {
+      "id": "connector619",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector620",
+      "type": "female",
+      "name": "VIN",
+      "description": "VIN"
+    },
+    {
+      "id": "connector621",
+      "type": "female",
+      "name": "X A+",
+      "description": "X A+"
+    },
+    {
+      "id": "connector622",
+      "type": "female",
+      "name": "X A-",
+      "description": "X A-"
+    },
+    {
+      "id": "connector623",
+      "type": "female",
+      "name": "X B+",
+      "description": "X B+"
+    },
+    {
+      "id": "connector624",
+      "type": "female",
+      "name": "X B-",
+      "description": "X B-"
+    },
+    {
+      "id": "connector625",
+      "type": "female",
+      "name": "Y A+",
+      "description": "Y A+"
+    },
+    {
+      "id": "connector626",
+      "type": "female",
+      "name": "Y A-",
+      "description": "Y A-"
+    },
+    {
+      "id": "connector627",
+      "type": "female",
+      "name": "Y B+",
+      "description": "Y B+"
+    },
+    {
+      "id": "connector628",
+      "type": "female",
+      "name": "Y B-",
+      "description": "Y B-"
+    },
+    {
+      "id": "connector629",
+      "type": "female",
+      "name": "Z A+",
+      "description": "Z A+"
+    },
+    {
+      "id": "connector630",
+      "type": "female",
+      "name": "Z A-",
+      "description": "Z A-"
+    },
+    {
+      "id": "connector631",
+      "type": "female",
+      "name": "Z B+",
+      "description": "Z B+"
+    },
+    {
+      "id": "connector632",
+      "type": "female",
+      "name": "Z B-",
+      "description": "Z B-"
+    }
+  ]
+}

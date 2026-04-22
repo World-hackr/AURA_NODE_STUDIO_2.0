@@ -1,0 +1,43 @@
+{
+  "moduleId": "26261b720ada961cb156d737670a58e3_9D",
+  "title": "Arcade Button (pink)",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Arcade_Button__pink___6eef0f7f9c57e71e47b697a8b9021d71_9D.fzp",
+  "copiedViews": [
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Arcade_Button__blue___0c30cbbdde0863c5df__schematic__d8366fcc92cf6f1f2281d3d8a33c8d06_9D.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Arcade_Button__blue___0c30cbbdde0863c5df__pcb__93882a7ba3b8289551f4df52db18e663_9D.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Arcade_Button__pink___6eef0f7f9c57e71e47__icon__d5b36925165fb236395ed6f48afd3216_9D.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Arcade_Button__pink___6eef0f7f9c57e71e47__breadboard__1efa0776372050c224c301722775478f_9D.svg",
+      "file": "breadboard.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "no name yet",
+      "description": "no description yet"
+    }
+  ]
+}

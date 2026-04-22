@@ -1,0 +1,511 @@
+{
+  "moduleId": "SIM928A-SIM928A",
+  "title": "SIM928A",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\SIM928A-sim928A.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sim928A_sim928A_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sim928A_sim928A_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sim928A_sim928A_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sim928A_sim928A_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 80,
+  "connectors": [
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "ADC",
+      "description": "ADC"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "CTS",
+      "description": "CTS"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "DCD",
+      "description": "DCD"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "DISP-CLK",
+      "description": "DISP-CLK"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "DISP-CS",
+      "description": "DISP-CS"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "DISP-DATA",
+      "description": "DISP-DATA"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "DISP-DC",
+      "description": "DISP-DC"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "DTR",
+      "description": "DTR"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "GND10",
+      "description": "GND"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "GND11",
+      "description": "GND"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "GND12",
+      "description": "GND"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "GND13",
+      "description": "GND"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "GND14",
+      "description": "GND"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "GND15",
+      "description": "GND"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "GND16",
+      "description": "GND"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "GND17",
+      "description": "GND"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "GND18",
+      "description": "GND"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GND2",
+      "description": "GND"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GND3",
+      "description": "GND"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "GND4",
+      "description": "GND"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "GND5",
+      "description": "GND"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "GND6",
+      "description": "GND"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "GND7",
+      "description": "GND"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "GND8",
+      "description": "GND"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "GND9",
+      "description": "GND9"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "GPIO1",
+      "description": "GPIO1"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "GPIO2",
+      "description": "GPIO2"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GPIO3",
+      "description": "GPIO3"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "GPIO4",
+      "description": "GPIO4"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "GPIO5",
+      "description": "GPIO5"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "GPIO6",
+      "description": "GPIO6"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "GPS-ANTINA",
+      "description": "GPS-ANTINA"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "GPS-DBG-RX",
+      "description": "GPS-DBG-RX"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "GPS-DGB-TX",
+      "description": "GPS-DGB-TX"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "GPS-VANT-IN",
+      "description": "GPS-VANT-IN"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "GPS-VANT-OUT",
+      "description": "GPS-VANT-OUT"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "GSM-ANTINA",
+      "description": "GSM-ANTINA"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "MIC2N",
+      "description": "MIC2N"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "MIC2P",
+      "description": "MIC2P"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "MICN",
+      "description": "MICN"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "MICP",
+      "description": "MICP"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "Reset",
+      "description": "Reset"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "AADET_N",
+      "description": "AADET_N"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "RF-SYNS",
+      "description": "RF-SYNS"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "GPS-WAKEUP",
+      "description": "GPS-WAKEUP"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "IPPS",
+      "description": "IPPS"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "GPS_VCC",
+      "description": "GPS_VCC"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "V_BACKUP",
+      "description": "V_BACKUP"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "GPS_TXD1",
+      "description": "GPS_TXD1"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "GPS_RXD1",
+      "description": "GPS_RXD1"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "DBG_TXD",
+      "description": "DBG_TXD"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "DBG_RXD",
+      "description": "DBG_RXD"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "NC9",
+      "description": "NC"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "NETLIGHT",
+      "description": "NETLIGHT"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "PWM1",
+      "description": "PWM1"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "PWM2",
+      "description": "PWM2"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "PWM3",
+      "description": "PWM3"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "PWRKEY",
+      "description": "PWRKEY"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "RI",
+      "description": "RI"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "RTS",
+      "description": "RTS"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "RXD",
+      "description": "RXD"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "SIM-CLK",
+      "description": "SIM-CLK"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "SIM-DATA",
+      "description": "SIM-DATA"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "SIM-RST",
+      "description": "SIM-RST"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "SIM-VDD",
+      "description": "SIM-VDD"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "SPK2N",
+      "description": "SPK2N"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "SPK2P",
+      "description": "SPK2P"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "SPKN",
+      "description": "SPKN"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SPKP",
+      "description": "SPKP"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "STATUS",
+      "description": "STATUS"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "TMP-BAT",
+      "description": "TMP-BAT"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "TXD",
+      "description": "TXD"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "VBAT",
+      "description": "VBAT"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "VBAT2",
+      "description": "VBAT2"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "VCHG",
+      "description": "VCHG"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "VDD-EXD",
+      "description": "VDD-EXD"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "VRTC",
+      "description": "VRTC"
+    }
+  ]
+}

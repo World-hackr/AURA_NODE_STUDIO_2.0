@@ -1,0 +1,61 @@
+{
+  "moduleId": "adafruit_3d603ca965e83d8db67d0530e9fafb47_1_C7",
+  "title": "Adafruit PDM Mic",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\adafruit_3d603ca965e83d8db67d0530e9fafb47_1_C7.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\adafruit_3d603ca965e83d8db67d0530e9fafb47_2_breadboard_C7.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\adafruit_3d603ca965e83d8db67d0530e9fafb47_2_schematic_C7.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\adafruit_3d603ca965e83d8db67d0530e9fafb47_2_pcb_C7.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\adafruit_3d603ca965e83d8db67d0530e9fafb47_2_icon_C7.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 5,
+  "connectors": [
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "CLK",
+      "description": "CLK"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "DATA",
+      "description": "DATA"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "SELECT",
+      "description": "SELECT"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

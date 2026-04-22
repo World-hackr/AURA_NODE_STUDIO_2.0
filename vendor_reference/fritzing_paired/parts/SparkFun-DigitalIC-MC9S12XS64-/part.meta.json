@@ -1,0 +1,415 @@
+{
+  "moduleId": "SparkFun-DigitalIC-MC9S12XS64-",
+  "title": "MC9S12XS64",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-mc9s12xs64-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_sqfp-s-10x10-64_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_mc9s12xs64_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_sqfp-s-10x10-64_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-digitalic_sqfp-s-10x10-64_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 64,
+  "connectors": [
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "ECLK_PE4",
+      "description": "ECLK_PE4"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "EXTAL",
+      "description": "EXTAL"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "IOC0_PT0",
+      "description": "IOC0_PT0"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "IOC1_PT1",
+      "description": "IOC1_PT1"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "IOC1_PWM1_KWP1_PP1",
+      "description": "IOC1_PWM1_KWP1_PP1"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "IOC2_PT2",
+      "description": "IOC2_PT2"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "IOC3_PT3",
+      "description": "IOC3_PT3"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "IRQ_PE1",
+      "description": "IRQ_PE1"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "MODC_BKGD",
+      "description": "MODC_BKGD"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "PA0",
+      "description": "PA0"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "PA1",
+      "description": "PA1"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "PA2",
+      "description": "PA2"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "PA3",
+      "description": "PA3"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "PAD00_AN00",
+      "description": "PAD00_AN00"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "PAD01_AN01",
+      "description": "PAD01_AN01"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "PAD02_AN02",
+      "description": "PAD02_AN02"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "PAD03_AN03",
+      "description": "PAD03_AN03"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "PAD04_AN04",
+      "description": "PAD04_AN04"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "PAD05_AN05",
+      "description": "PAD05_AN05"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "PAD06_AN06",
+      "description": "PAD06_AN06"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "PAD07_AN07",
+      "description": "PAD07_AN07"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "PB0",
+      "description": "PB0"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "PB5",
+      "description": "PB5"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "PB6",
+      "description": "PB6"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "PB7",
+      "description": "PB7"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "PM0_RXCAN0_RXD1",
+      "description": "PM0_RXCAN0_RXD1"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "PM1_TXCAN0_TXD1",
+      "description": "PM1_TXCAN0_TXD1"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "PM2_MISO0",
+      "description": "PM2_MISO0"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "PM3_SS0",
+      "description": "PM3_SS0"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "PM4_MOSI0",
+      "description": "PM4_MOSI0"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "PM5_SCK0",
+      "description": "PM5_SCK0"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "PP5_KPW5_PWM5",
+      "description": "PP5_KPW5_PWM5"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "PP7_KWP7_PWM7",
+      "description": "PP7_KWP7_PWM7"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "PS0_RXD0",
+      "description": "PS0_RXD0"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "PS1_TXD0",
+      "description": "PS1_TXD0"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "PS2_RXD1",
+      "description": "PS2_RXD1"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "PS3_TXD1",
+      "description": "PS3_TXD1"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "PWM3_KWP3_PP3",
+      "description": "PWM3_KWP3_PP3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "PWM4_IOC4_PT4",
+      "description": "PWM4_IOC4_PT4"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "PWM6_IOC6_PT6",
+      "description": "PWM6_IOC6_PT6"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "PWM7_IOC7_PT7",
+      "description": "PWM7_IOC7_PT7"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "RXD1_IOC0_PWM0_KWP0_PP0",
+      "description": "RXD1_IOC0_PWM0_KWP0_PP0"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "TEST",
+      "description": "TEST"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "TXD1_IOC2_PWM2_KWP2_PP2",
+      "description": "TXD1_IOC2_PWM2_KWP2_PP2"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "VDDA",
+      "description": "VDDA"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "VDDF",
+      "description": "VDDF"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "VDDPLL",
+      "description": "VDDPLL"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "VDDR",
+      "description": "VDDR"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "VDDX1",
+      "description": "VDDX1"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "VDDX2",
+      "description": "VDDX2"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "VREG_API_PWM5_IOC5_PT",
+      "description": "VREG_API_PWM5_IOC5_PT"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "VRH",
+      "description": "VRH"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "VSS1",
+      "description": "VSS1"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "VSS2",
+      "description": "VSS2"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "VSS3",
+      "description": "VSS3"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "VSSA_VRL",
+      "description": "VSSA_VRL"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "VSSPLL",
+      "description": "VSSPLL"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "VSSX1",
+      "description": "VSSX1"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "VSSX2",
+      "description": "VSSX2"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "XCLKS_ECLKX2_PE7",
+      "description": "XCLKS_ECLKX2_PE7"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "XIRQ_PE0",
+      "description": "XIRQ_PE0"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "XTAL",
+      "description": "XTAL"
+    }
+  ]
+}

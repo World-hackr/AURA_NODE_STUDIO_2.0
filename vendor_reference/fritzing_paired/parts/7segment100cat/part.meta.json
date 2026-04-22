@@ -1,0 +1,91 @@
+{
+  "moduleId": "7segment100cat",
+  "title": "7 Segment Display",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\7segment_100_cat.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\7segment.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\7segment_100.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\7segment_100_cat.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\7segment_100.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 10,
+  "connectors": [
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "Segment E",
+      "description": "Segment E"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "Segment D",
+      "description": "Segment D"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "common cathode",
+      "description": "common cathode"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "Segment C",
+      "description": "Segment C"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "Segment DP",
+      "description": "Segment DP"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "Segment B",
+      "description": "Segment B"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "Segment A",
+      "description": "Segment A"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "common cathode",
+      "description": "common cathode"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "Segment F",
+      "description": "Segment F"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "Segment G",
+      "description": "Segment G"
+    }
+  ]
+}

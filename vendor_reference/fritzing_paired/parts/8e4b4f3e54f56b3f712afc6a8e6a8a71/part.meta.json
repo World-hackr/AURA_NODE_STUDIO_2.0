@@ -1,0 +1,199 @@
+{
+  "moduleId": "8e4b4f3e54f56b3f712afc6a8e6a8a71",
+  "title": "atmega168",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\atmega168_8e4b4f3e54f56b3f712afc6a8e6a8a71.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\microcontroller.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\atmega_breadboard_8e4b4f3e54f56b3f712afc6a8e6a8a71.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\atmega_schematic_8e4b4f3e54f56b3f712afc6a8e6a8a71.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\atmega_pcb_8e4b4f3e54f56b3f712afc6a8e6a8a71.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 28,
+  "connectors": [
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "D10 (PWM)",
+      "description": "pin 16"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 8"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "XLAT1",
+      "description": "pin 9"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "D11 (PWM)",
+      "description": "pin 17"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "D12",
+      "description": "pin 18"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "XLAT2",
+      "description": "pin 10"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "D13",
+      "description": "pin 19"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "AVCC",
+      "description": "pin 20"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "AREF",
+      "description": "pin 21"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "GND",
+      "description": "pin 22"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "A0",
+      "description": "pin 23"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "A1",
+      "description": "pin 24"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "A2",
+      "description": "pin 25"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "A3",
+      "description": "pin 26"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "A4",
+      "description": "pin 27"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "A5",
+      "description": "pin 28"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "RESET",
+      "description": "pin 1"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "D0 (RX)",
+      "description": "pin 2"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "D1 (TX)",
+      "description": "pin 3"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "D5 (PWM)",
+      "description": "pin 11"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "D2",
+      "description": "pin 4"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "D6 (PWM)",
+      "description": "pin 12"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "D3 (PWM)",
+      "description": "pin 5"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "D7",
+      "description": "pin 13"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "D4",
+      "description": "pin 6"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "D8",
+      "description": "pin 14"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "D9 (PWM)",
+      "description": "pin 15"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "VCC",
+      "description": "pin 7"
+    }
+  ]
+}

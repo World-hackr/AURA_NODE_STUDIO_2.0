@@ -1,0 +1,43 @@
+{
+  "moduleId": "LilyPad Vibe Motor",
+  "title": "Lilypad Vibe Motor",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\Lilypad Vibe Motor.fzp",
+  "copiedViews": [
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Lilypad_Vibe_Motor.svg",
+      "file": "icon.svg"
+    },
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\Lilypad_Vibe_Motor.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\Lilypad_Vibe_Motor.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\Lilypad_Vibe_Motor.svg",
+      "file": "pcb.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 2,
+  "connectors": [
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "Supply",
+      "description": "Pin to 5V"
+    },
+    {
+      "id": "connector1",
+      "type": "female",
+      "name": "GND",
+      "description": "Pin to GND"
+    }
+  ]
+}

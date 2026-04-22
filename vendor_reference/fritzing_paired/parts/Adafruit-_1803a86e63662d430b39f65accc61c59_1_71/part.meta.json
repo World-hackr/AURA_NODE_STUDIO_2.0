@@ -1,0 +1,235 @@
+{
+  "moduleId": "Adafruit-_1803a86e63662d430b39f65accc61c59_1_71",
+  "title": "Adafruit TCA8418 Keypad Matrix and GPIO Expander Breakout - STEMMA QT / Qwiic",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\contrib\\Adafruit-_1803a86e63662d430b39f65accc61c59_1_71.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\breadboard\\Adafruit-_1803a86e63662d430b39f65accc61c59_1_breadboard_71.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\schematic\\Adafruit-_1803a86e63662d430b39f65accc61c59_1_schematic_71.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\pcb\\Adafruit-_1803a86e63662d430b39f65accc61c59_1_pcb_71.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\contrib\\icon\\Adafruit-_1803a86e63662d430b39f65accc61c59_1_icon_71.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 34,
+  "connectors": [
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector12",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector18",
+      "type": "female",
+      "name": "VCC",
+      "description": "VCC"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "3.3V",
+      "description": "3.3V"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "R1",
+      "description": "R1"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "R0",
+      "description": "R0"
+    },
+    {
+      "id": "connector56",
+      "type": "male",
+      "name": "C0",
+      "description": "C0"
+    },
+    {
+      "id": "connector57",
+      "type": "male",
+      "name": "C1",
+      "description": "C1"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "C2",
+      "description": "C2"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "C3",
+      "description": "C3"
+    },
+    {
+      "id": "connector60",
+      "type": "male",
+      "name": "C4",
+      "description": "C4"
+    },
+    {
+      "id": "connector61",
+      "type": "male",
+      "name": "C5",
+      "description": "C5"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "C6",
+      "description": "C6"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "C7",
+      "description": "C7"
+    },
+    {
+      "id": "connector64",
+      "type": "male",
+      "name": "C8",
+      "description": "C8"
+    },
+    {
+      "id": "connector65",
+      "type": "male",
+      "name": "C9",
+      "description": "C9"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "R2",
+      "description": "R2"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "R3",
+      "description": "R3"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "R4",
+      "description": "R4"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "R5",
+      "description": "R5"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "R6",
+      "description": "R6"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "R7",
+      "description": "R7"
+    },
+    {
+      "id": "connector73",
+      "type": "male",
+      "name": "RST",
+      "description": "RST"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "INT",
+      "description": "INT"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector13",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector19",
+      "type": "female",
+      "name": "SDA",
+      "description": "SDA"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector14",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector20",
+      "type": "female",
+      "name": "SCL",
+      "description": "SCL"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector69",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector11",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector17",
+      "type": "female",
+      "name": "GND",
+      "description": "GND"
+    }
+  ]
+}

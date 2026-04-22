@@ -1,0 +1,175 @@
+{
+  "moduleId": "SparkFun-DigitalIC-DOSONCHIP-IC-QFN",
+  "title": "DOSonCHIP IC",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-digitalic-dosonchip-ic-qfn.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-24_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-digitalic_dosonchip-ic_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-digitalic_qfn-24_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\QFN-24_breadboard.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 24,
+  "connectors": [
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CARD_CD",
+      "description": "CARD_CD"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "CARD_CS",
+      "description": "CARD_CS"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "CARD_DIN",
+      "description": "CARD_DIN"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "CARD_DOUT",
+      "description": "CARD_DOUT"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "CARD_SCLK",
+      "description": "CARD_SCLK"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "CARD_WP",
+      "description": "CARD_WP"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "DIR",
+      "description": "DIR"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "I2C_SCL",
+      "description": "I2C_SCL"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "I2C_SDA",
+      "description": "I2C_SDA"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "MODE0",
+      "description": "MODE0"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "MODE1",
+      "description": "MODE1"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "SPI_CS",
+      "description": "SPI_CS"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "SPI_MISO",
+      "description": "SPI_MISO"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "SPI_MOSI",
+      "description": "SPI_MOSI"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "SPI_SCLK",
+      "description": "SPI_SCLK"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "UART_CTS",
+      "description": "UART_CTS"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "UART_RTS_BUSY",
+      "description": "UART_RTS_BUSY"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "UART_RX",
+      "description": "UART_RX"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "UART_TX",
+      "description": "UART_TX"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "VDD",
+      "description": "VDD"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "XTAL_IN",
+      "description": "XTAL_IN"
+    },
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "XTAL_OUT",
+      "description": "XTAL_OUT"
+    }
+  ]
+}

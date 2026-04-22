@@ -1,0 +1,481 @@
+{
+  "moduleId": "SparkFun-RF-GE863_GPS-",
+  "title": "GE863 Cellular Module with GPS",
+  "sourceFzp": "vendor_reference\\fritzing_official\\fritzing-parts\\core\\sparkfun-rf-ge863_gps-.fzp",
+  "copiedViews": [
+    {
+      "view": "breadboard",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\breadboard\\sparkfun-rf_ge863_breadboard.svg",
+      "file": "breadboard.svg"
+    },
+    {
+      "view": "schematic",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\schematic\\sparkfun-rf_ge863_schematic.svg",
+      "file": "schematic.svg"
+    },
+    {
+      "view": "pcb",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\pcb\\sparkfun-rf_ge863_pcb.svg",
+      "file": "pcb.svg"
+    },
+    {
+      "view": "icon",
+      "source": "vendor_reference\\fritzing_official\\fritzing-parts\\svg\\core\\icon\\GE863.svg",
+      "file": "icon.svg"
+    }
+  ],
+  "missingViews": [],
+  "connectorCount": 75,
+  "connectors": [
+    {
+      "id": "connector22",
+      "type": "male",
+      "name": "ADC_IN1",
+      "description": "ADC_IN1"
+    },
+    {
+      "id": "connector48",
+      "type": "male",
+      "name": "ANT",
+      "description": "ANT"
+    },
+    {
+      "id": "connector29",
+      "type": "male",
+      "name": "AXE",
+      "description": "AXE"
+    },
+    {
+      "id": "connector36",
+      "type": "male",
+      "name": "C103_TXD",
+      "description": "C103_TXD"
+    },
+    {
+      "id": "connector37",
+      "type": "male",
+      "name": "C104_RXD",
+      "description": "C104_RXD"
+    },
+    {
+      "id": "connector39",
+      "type": "male",
+      "name": "C105_RTS",
+      "description": "C105_RTS"
+    },
+    {
+      "id": "connector40",
+      "type": "male",
+      "name": "C106_CTS",
+      "description": "C106_CTS"
+    },
+    {
+      "id": "connector42",
+      "type": "male",
+      "name": "C107_DSR",
+      "description": "C107_DSR"
+    },
+    {
+      "id": "connector38",
+      "type": "male",
+      "name": "C108_DTR",
+      "description": "C108_DTR"
+    },
+    {
+      "id": "connector41",
+      "type": "male",
+      "name": "C109_DCD",
+      "description": "C109_DCD"
+    },
+    {
+      "id": "connector43",
+      "type": "male",
+      "name": "C125_RING",
+      "description": "C125_RING"
+    },
+    {
+      "id": "connector6",
+      "type": "male",
+      "name": "CAM_CLK",
+      "description": "CAM_CLK"
+    },
+    {
+      "id": "connector34",
+      "type": "male",
+      "name": "CHARGE",
+      "description": "CHARGE"
+    },
+    {
+      "id": "connector62",
+      "type": "male",
+      "name": "DAC_OUT",
+      "description": "DAC_OUT"
+    },
+    {
+      "id": "connector10",
+      "type": "male",
+      "name": "EAR_HF+",
+      "description": "EAR_HF+"
+    },
+    {
+      "id": "connector11",
+      "type": "male",
+      "name": "EAR_HF-",
+      "description": "EAR_HF-"
+    },
+    {
+      "id": "connector9",
+      "type": "male",
+      "name": "EAR_MT+",
+      "description": "EAR_MT+"
+    },
+    {
+      "id": "connector8",
+      "type": "male",
+      "name": "EAR_MT-",
+      "description": "EAR_MT-"
+    },
+    {
+      "id": "connector7",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector16",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector71",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector76",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector78",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector81",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector27",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector35",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector44",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector47",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector49",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector55",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector66",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector68",
+      "type": "male",
+      "name": "GND",
+      "description": "GND"
+    },
+    {
+      "id": "connector83",
+      "type": "male",
+      "name": "GND_GPS",
+      "description": "GND_GPS"
+    },
+    {
+      "id": "connector33",
+      "type": "male",
+      "name": "GPIO1",
+      "description": "GPIO1"
+    },
+    {
+      "id": "connector3",
+      "type": "male",
+      "name": "GPIO10",
+      "description": "GPIO10"
+    },
+    {
+      "id": "connector2",
+      "type": "male",
+      "name": "GPIO11",
+      "description": "GPIO11"
+    },
+    {
+      "id": "connector1",
+      "type": "male",
+      "name": "GPIO12",
+      "description": "GPIO12"
+    },
+    {
+      "id": "connector0",
+      "type": "male",
+      "name": "GPIO13",
+      "description": "GPIO13"
+    },
+    {
+      "id": "connector59",
+      "type": "male",
+      "name": "GPIO14",
+      "description": "GPIO14"
+    },
+    {
+      "id": "connector70",
+      "type": "male",
+      "name": "GPIO15",
+      "description": "GPIO15"
+    },
+    {
+      "id": "connector63",
+      "type": "male",
+      "name": "GPIO16",
+      "description": "GPIO16"
+    },
+    {
+      "id": "connector58",
+      "type": "male",
+      "name": "GPIO17",
+      "description": "GPIO17"
+    },
+    {
+      "id": "connector75",
+      "type": "male",
+      "name": "GPIO18",
+      "description": "GPIO18"
+    },
+    {
+      "id": "connector32",
+      "type": "male",
+      "name": "GPIO2_JDR",
+      "description": "GPIO2_JDR"
+    },
+    {
+      "id": "connector54",
+      "type": "male",
+      "name": "GPIO3_CAM_SCL",
+      "description": "GPIO3_CAM_SCL"
+    },
+    {
+      "id": "connector31",
+      "type": "male",
+      "name": "GPIO4_CAM_SDA",
+      "description": "GPIO4_CAM_SDA"
+    },
+    {
+      "id": "connector52",
+      "type": "male",
+      "name": "GPIO5",
+      "description": "GPIO5"
+    },
+    {
+      "id": "connector53",
+      "type": "male",
+      "name": "GPIO6",
+      "description": "GPIO6"
+    },
+    {
+      "id": "connector50",
+      "type": "male",
+      "name": "GPIO7_BUZZER",
+      "description": "GPIO7_BUZZER"
+    },
+    {
+      "id": "connector5",
+      "type": "male",
+      "name": "GPIO8_CAM_ON",
+      "description": "GPIO8_CAM_ON"
+    },
+    {
+      "id": "connector4",
+      "type": "male",
+      "name": "GPIO9_CAM_RST",
+      "description": "GPIO9_CAM_RST"
+    },
+    {
+      "id": "connector82",
+      "type": "male",
+      "name": "GPS_ANT",
+      "description": "GPS_ANT"
+    },
+    {
+      "id": "connector14",
+      "type": "male",
+      "name": "MIC_HF+",
+      "description": "MIC_HF+"
+    },
+    {
+      "id": "connector15",
+      "type": "male",
+      "name": "MIC_HF-",
+      "description": "MIC_HF-"
+    },
+    {
+      "id": "connector12",
+      "type": "male",
+      "name": "MIC_MT+",
+      "description": "MIC_MT+"
+    },
+    {
+      "id": "connector13",
+      "type": "male",
+      "name": "MIN_MT-",
+      "description": "MIN_MT-"
+    },
+    {
+      "id": "connector45",
+      "type": "male",
+      "name": "ON_OFF",
+      "description": "ON_OFF"
+    },
+    {
+      "id": "connector74",
+      "type": "male",
+      "name": "PPS",
+      "description": "PPS"
+    },
+    {
+      "id": "connector51",
+      "type": "male",
+      "name": "PWRMON",
+      "description": "PWRMON"
+    },
+    {
+      "id": "connector46",
+      "type": "male",
+      "name": "RESET",
+      "description": "RESET"
+    },
+    {
+      "id": "connector72",
+      "type": "male",
+      "name": "RX_GPS",
+      "description": "RX_GPS"
+    },
+    {
+      "id": "connector77",
+      "type": "male",
+      "name": "RX_GPS_BIN",
+      "description": "RX_GPS_BIN"
+    },
+    {
+      "id": "connector25",
+      "type": "male",
+      "name": "RX_TRACE",
+      "description": "RX_TRACE"
+    },
+    {
+      "id": "connector17",
+      "type": "male",
+      "name": "SIMCLK",
+      "description": "SIMCLK"
+    },
+    {
+      "id": "connector20",
+      "type": "male",
+      "name": "SIMIN",
+      "description": "SIMIN"
+    },
+    {
+      "id": "connector19",
+      "type": "male",
+      "name": "SIMIO",
+      "description": "SIMIO"
+    },
+    {
+      "id": "connector18",
+      "type": "male",
+      "name": "SIMRST",
+      "description": "SIMRST"
+    },
+    {
+      "id": "connector21",
+      "type": "male",
+      "name": "SIMVCC",
+      "description": "SIMVCC"
+    },
+    {
+      "id": "connector28",
+      "type": "male",
+      "name": "STAT_LED",
+      "description": "STAT_LED"
+    },
+    {
+      "id": "connector67",
+      "type": "male",
+      "name": "TX_GPS",
+      "description": "TX_GPS"
+    },
+    {
+      "id": "connector79",
+      "type": "male",
+      "name": "TX_GPS_BIN",
+      "description": "TX_GPS_BIN"
+    },
+    {
+      "id": "connector24",
+      "type": "male",
+      "name": "TX_TRACE",
+      "description": "TX_TRACE"
+    },
+    {
+      "id": "connector30",
+      "type": "male",
+      "name": "VAUX1",
+      "description": "VAUX1"
+    },
+    {
+      "id": "connector26",
+      "type": "male",
+      "name": "VBATT",
+      "description": "VBATT"
+    },
+    {
+      "id": "connector23",
+      "type": "male",
+      "name": "VRTC",
+      "description": "VRTC"
+    }
+  ]
+}
