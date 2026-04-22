@@ -4109,3 +4109,25 @@
   - Exclude runtime log artifacts from version control while keeping the actual project state committed.
 - Next recommended step:
   - Rename the branch to `main`, add the requested GitHub remote, and push the snapshot upstream.
+
+## 2026-04-22 20:38 IST
+
+- Context:
+  - Completed the requested git backup/push flow for the current Studio workspace.
+- What changed:
+  - Renamed the branch from `master` to `main`.
+  - Added GitHub remote `origin` pointing to `https://github.com/World-hackr/AURA_NODE_STUDIO_2.0.git`.
+  - Pushed the committed workspace snapshot to `origin/main` and set upstream tracking.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Git actions taken:
+  - `git branch -M main`
+  - `git remote add origin https://github.com/World-hackr/AURA_NODE_STUDIO_2.0.git`
+  - `git push -u origin main`
+- Verification:
+  - Verified branch is `main` and tracks `origin/main`.
+  - Verified `origin` remote fetch/push URLs.
+- Decisions made:
+  - Preserve the pushed repository as the current checkpoint before continuing AI-tooling work.
+- Next recommended step:
+  - Start defining the deterministic AI tool contracts on top of this checkpoint: `scene_state`, `net_summary`, `selection_context`, and `circuit_patch`.
