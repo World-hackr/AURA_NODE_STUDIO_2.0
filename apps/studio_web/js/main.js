@@ -63,6 +63,10 @@ let selectionBox = null;
 let selectionMode = false;
 let selectionScope = "both";
 let lastSelectionCycle = null;
+let aiPatchPreviewState = null;
+let aiConversation = [];
+let aiProviderDefaults = null;
+let aiRequestInFlight = false;
 
 let showGrid = true;
 let gridOpacity = 0.4;
@@ -144,6 +148,10 @@ let selectedSymbolSummary = null;
 let selectedSymbolDefinition = null;
 let librarySearchQuery = "";
 let symbolSearchQuery = "";
+let globalSymbolSearchQuery = "";
+let globalSymbolSearchResults = [];
+let globalSymbolSearchBusy = false;
+let globalSymbolSearchRequestToken = 0;
 let selectedLibraryGroup = "common";
 let symbolPreviewObserver = null;
 const symbolPreviewPending = new Map();
@@ -152,6 +160,37 @@ const symbolDefinitionCache = new Map();
 const API_BASE = "http://localhost:8787";
 const KICAD_MILS_PER_AURA_UNIT = 12.5;
 const SYMBOL_UNIT_SCALE = 1 / KICAD_MILS_PER_AURA_UNIT;
+const DEFAULT_SYMBOL_STYLE = "ansi";
+const SYMBOL_STYLE_VARIANTS = {
+    ansi: {
+        "Device:R": "Device:R_US",
+        "Device:R_Small": "Device:R_Small_US",
+        "Device:R_Variable": "Device:R_Variable_US",
+        "Device:R_Shunt": "Device:R_Shunt_US",
+        "Device:Thermistor": "Device:Thermistor_US",
+        "Device:Thermistor_NTC": "Device:Thermistor_NTC_US",
+        "Device:Thermistor_PTC": "Device:Thermistor_PTC_US",
+    },
+    iec: {},
+};
+
+function getPreferredSymbolKey(symbolKey, style = DEFAULT_SYMBOL_STYLE) {
+    const normalizedKey = String(symbolKey || "");
+    const styleMap = SYMBOL_STYLE_VARIANTS[style] ?? {};
+    return styleMap[normalizedKey] || normalizedKey;
+}
+
+function getPreferredLibrarySymbolId(libraryId, symbolId, style = DEFAULT_SYMBOL_STYLE) {
+    const preferredKey = getPreferredSymbolKey(`${libraryId}:${symbolId}`, style);
+    const separatorIndex = preferredKey.indexOf(":");
+    if (separatorIndex < 0) {
+        return { libraryId, symbolId };
+    }
+    return {
+        libraryId: preferredKey.slice(0, separatorIndex),
+        symbolId: preferredKey.slice(separatorIndex + 1),
+    };
+}
 
 const LIBRARY_GROUPS = {
     common: {
@@ -177,7 +216,7 @@ const LIBRARY_GROUPS = {
 };
 
 const COMMON_COMPONENTS = [
-    { label: "Resistor", ref: "R", libraryId: "Device", symbolId: "R" },
+    { label: "Resistor", ref: "R", libraryId: "Device", symbolId: "R_US" },
     { label: "Capacitor", ref: "C", libraryId: "Device", symbolId: "C" },
     { label: "Inductor", ref: "L", libraryId: "Device", symbolId: "L" },
     { label: "Diode", ref: "D", libraryId: "Device", symbolId: "D" },
@@ -192,66 +231,462 @@ const COMMON_COMPONENTS = [
 ];
 
 const JSON_IMPORT_EXAMPLE = {
-    schema: "aura.schematic_document.v1",
+    schema: "aura.scene_state.v1",
     metadata: {
-        title: "Resistor Divider",
-        description: "Starter schematic import example.",
+        title: "Buck Converter Demo",
+        description: "Left-to-right demonstration circuit with manually clean wiring for AI and routing tests.",
+        captureSource: "studio_example",
+        sourceSchematicId: "demo-buck-converter",
+        sourceRevision: 1,
         standard: "iec",
     },
-    instances: [
-        {
-            id: "r1",
-            symbolKey: "Device:R",
-            reference: "R1",
-            value: "10k",
-            placement: { x: 120, y: 80, rotationDeg: 90 },
+    canvas: {
+        grid: {
+            unitMm: BASE_UNIT_MM,
+            pixelsPerUnit,
         },
-        {
-            id: "r2",
-            symbolKey: "Device:R",
-            reference: "R2",
-            value: "10k",
-            placement: { x: 120, y: 180, rotationDeg: 90 },
+        viewport: {
+            zoom: 1,
+            offsetX: 0,
+            offsetY: 0,
         },
+    },
+    components: [
         {
-            id: "p1",
+            id: "pwr_vcc",
             symbolKey: "power:VCC",
             reference: "#PWR1",
             value: "VCC",
-            placement: { x: 120, y: 16, rotationDeg: 0 },
+            placement: { x: 80, y: 80, rotationDeg: 0 },
         },
         {
-            id: "p2",
+            id: "pwr_gnd",
             symbolKey: "power:GND",
             reference: "#PWR2",
             value: "GND",
-            placement: { x: 120, y: 248, rotationDeg: 0 },
+            placement: { x: 160, y: 300, rotationDeg: 0 },
+        },
+        {
+            id: "s1",
+            symbolKey: "Switch:SW_SPST",
+            reference: "S1",
+            value: "SW",
+            placement: { x: 170, y: 80, rotationDeg: 0 },
+        },
+        {
+            id: "l1",
+            symbolKey: "Device:L",
+            reference: "L1",
+            value: "22uH",
+            placement: { x: 310, y: 80, rotationDeg: 0 },
+        },
+        {
+            id: "c_in",
+            symbolKey: "Device:C",
+            reference: "C1",
+            value: "10u",
+            placement: { x: 80, y: 180, rotationDeg: 90 },
+        },
+        {
+            id: "d1",
+            symbolKey: "Device:D",
+            reference: "D1",
+            value: "Schottky",
+            placement: { x: 240, y: 180, rotationDeg: 90 },
+        },
+        {
+            id: "c_out",
+            symbolKey: "Device:C",
+            reference: "C2",
+            value: "47u",
+            placement: { x: 440, y: 180, rotationDeg: 90 },
+        },
+        {
+            id: "r_load",
+            symbolKey: getPreferredSymbolKey("Device:R"),
+            reference: "R3",
+            value: "20R",
+            placement: { x: 580, y: 180, rotationDeg: 90 },
+        },
+        {
+            id: "j_out",
+            symbolKey: "Connector_Generic:Conn_01x02",
+            reference: "J1",
+            value: "OUTPUT",
+            placement: { x: 730, y: 180, rotationDeg: 0 },
         },
     ],
-    nets: [
+    junctions: [
         {
-            id: "net_vcc",
-            label: "VCC",
-            connections: [
-                { instanceId: "p1", pinId: "1" },
-                { instanceId: "r1", pinId: "pin_1" },
+            id: "j_vin",
+            x: 120,
+            y: 80,
+        },
+        {
+            id: "j_sw",
+            x: 240,
+            y: 80,
+        },
+        {
+            id: "j_vout_a",
+            x: 440,
+            y: 80,
+        },
+        {
+            id: "j_vout_b",
+            x: 580,
+            y: 80,
+        },
+        {
+            id: "j_vout_c",
+            x: 700,
+            y: 80,
+        },
+        {
+            id: "j_gnd_a",
+            x: 160,
+            y: 240,
+        },
+        {
+            id: "j_gnd_b",
+            x: 240,
+            y: 240,
+        },
+        {
+            id: "j_gnd_c",
+            x: 440,
+            y: 240,
+        },
+        {
+            id: "j_gnd_d",
+            x: 580,
+            y: 240,
+        },
+        {
+            id: "j_gnd_e",
+            x: 700,
+            y: 240,
+        },
+    ],
+    wires: [
+        {
+            id: "w_vin_rail",
+            netId: "net_vin",
+            label: "VIN",
+            from: { kind: "pin", componentId: "pwr_vcc", pinId: "1" },
+            to: { kind: "junction", junctionId: "j_vin" },
+            routePoints: [],
+        },
+        {
+            id: "w_switch_in",
+            netId: "net_vin",
+            label: "VIN",
+            from: { kind: "pin", componentId: "s1", pinId: "1" },
+            to: { kind: "junction", junctionId: "j_vin" },
+            routePoints: [],
+        },
+        {
+            id: "w_cin_top",
+            netId: "net_vin",
+            label: "VIN",
+            from: { kind: "pin", componentId: "c_in", pinId: "pin_1" },
+            to: { kind: "junction", junctionId: "j_vin" },
+            routePoints: [
+                { x: 80, y: 80 },
             ],
         },
         {
-            id: "net_div",
+            id: "w_switch_out",
+            netId: "net_sw",
+            label: "SW",
+            from: { kind: "pin", componentId: "s1", pinId: "2" },
+            to: { kind: "junction", junctionId: "j_sw" },
+            routePoints: [],
+        },
+        {
+            id: "w_l1_in",
+            netId: "net_sw",
+            label: "SW",
+            from: { kind: "pin", componentId: "l1", pinId: "pin_1" },
+            to: { kind: "junction", junctionId: "j_sw" },
+            routePoints: [],
+        },
+        {
+            id: "w_diode_top",
+            netId: "net_sw",
+            label: "SW",
+            from: { kind: "pin", componentId: "d1", pinId: "1" },
+            to: { kind: "junction", junctionId: "j_sw" },
+            routePoints: [
+                { x: 240, y: 120 },
+            ],
+        },
+        {
+            id: "w_l1_out",
+            netId: "net_vout",
             label: "VOUT",
-            connections: [
-                { instanceId: "r1", pinId: "pin_2" },
-                { instanceId: "r2", pinId: "pin_1" },
+            from: { kind: "pin", componentId: "l1", pinId: "pin_2" },
+            to: { kind: "junction", junctionId: "j_vout_a" },
+            routePoints: [],
+        },
+        {
+            id: "w_vout_bus_ab",
+            netId: "net_vout",
+            label: "VOUT",
+            from: { kind: "junction", junctionId: "j_vout_a" },
+            to: { kind: "junction", junctionId: "j_vout_b" },
+            routePoints: [],
+        },
+        {
+            id: "w_vout_bus_bc",
+            netId: "net_vout",
+            label: "VOUT",
+            from: { kind: "junction", junctionId: "j_vout_b" },
+            to: { kind: "junction", junctionId: "j_vout_c" },
+            routePoints: [],
+        },
+        {
+            id: "w_cout_top",
+            netId: "net_vout",
+            label: "VOUT",
+            from: { kind: "pin", componentId: "c_out", pinId: "pin_1" },
+            to: { kind: "junction", junctionId: "j_vout_a" },
+            routePoints: [
+                { x: 440, y: 120 },
             ],
         },
         {
-            id: "net_gnd",
-            label: "GND",
-            connections: [
-                { instanceId: "r2", pinId: "pin_2" },
-                { instanceId: "p2", pinId: "1" },
+            id: "w_rload_top",
+            netId: "net_vout",
+            label: "VOUT",
+            from: { kind: "pin", componentId: "r_load", pinId: "pin_1" },
+            to: { kind: "junction", junctionId: "j_vout_b" },
+            routePoints: [
+                { x: 580, y: 120 },
             ],
+        },
+        {
+            id: "w_out_top",
+            netId: "net_vout",
+            label: "VOUT",
+            from: { kind: "pin", componentId: "j_out", pinId: "1" },
+            to: { kind: "junction", junctionId: "j_vout_c" },
+            routePoints: [
+                { x: 700, y: 80 },
+            ],
+        },
+        {
+            id: "w_gnd_symbol",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "pin", componentId: "pwr_gnd", pinId: "1" },
+            to: { kind: "junction", junctionId: "j_gnd_a" },
+            routePoints: [],
+        },
+        {
+            id: "w_gnd_bus_ab",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "junction", junctionId: "j_gnd_a" },
+            to: { kind: "junction", junctionId: "j_gnd_b" },
+            routePoints: [],
+        },
+        {
+            id: "w_gnd_bus_bc",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "junction", junctionId: "j_gnd_b" },
+            to: { kind: "junction", junctionId: "j_gnd_c" },
+            routePoints: [],
+        },
+        {
+            id: "w_gnd_bus_cd",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "junction", junctionId: "j_gnd_c" },
+            to: { kind: "junction", junctionId: "j_gnd_d" },
+            routePoints: [],
+        },
+        {
+            id: "w_gnd_bus_de",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "junction", junctionId: "j_gnd_d" },
+            to: { kind: "junction", junctionId: "j_gnd_e" },
+            routePoints: [],
+        },
+        {
+            id: "w_cin_bottom",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "pin", componentId: "c_in", pinId: "pin_2" },
+            to: { kind: "junction", junctionId: "j_gnd_a" },
+            routePoints: [
+                { x: 80, y: 240 },
+            ],
+        },
+        {
+            id: "w_diode_bottom",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "pin", componentId: "d1", pinId: "2" },
+            to: { kind: "junction", junctionId: "j_gnd_b" },
+            routePoints: [
+                { x: 240, y: 120 },
+                { x: 240, y: 240 },
+            ],
+        },
+        {
+            id: "w_cout_bottom",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "pin", componentId: "c_out", pinId: "pin_2" },
+            to: { kind: "junction", junctionId: "j_gnd_c" },
+            routePoints: [
+                { x: 440, y: 240 },
+            ],
+        },
+        {
+            id: "w_rload_bottom",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "pin", componentId: "r_load", pinId: "pin_2" },
+            to: { kind: "junction", junctionId: "j_gnd_d" },
+            routePoints: [
+                { x: 580, y: 240 },
+            ],
+        },
+        {
+            id: "w_out_bottom",
+            netId: "net_gnd",
+            label: "GND",
+            from: { kind: "pin", componentId: "j_out", pinId: "2" },
+            to: { kind: "junction", junctionId: "j_gnd_e" },
+            routePoints: [
+                { x: 700, y: 240 },
+            ],
+        },
+    ],
+    selection: {
+        componentIds: [],
+        wireIds: [],
+        junctionIds: [],
+        scope: "both",
+    },
+    netSummary: [],
+    issues: [],
+};
+
+const AI_PATCH_EXAMPLE = {
+    schema: "aura.circuit_patch.v1",
+    metadata: {
+        title: "Add Output Sense Divider",
+        description: "Preview-mode patch for the buck converter demo scene.",
+        mode: "preview",
+        requestedBy: "assistant",
+    },
+    target: {
+        sceneSchema: "aura.scene_state.v1",
+        sourceSchematicId: "studio-canvas",
+        sourceRevision: 0,
+    },
+    operations: [
+        {
+            op: "add_component",
+            component: {
+                id: "r_fb_top",
+                symbolKey: getPreferredSymbolKey("Device:R"),
+                reference: "R4",
+                value: "82k",
+                placement: {
+                    x: 640,
+                    y: 180,
+                    rotationDeg: 90,
+                },
+            },
+        },
+        {
+            op: "add_component",
+            component: {
+                id: "r_fb_bottom",
+                symbolKey: getPreferredSymbolKey("Device:R"),
+                reference: "R5",
+                value: "15k",
+                placement: {
+                    x: 640,
+                    y: 270,
+                    rotationDeg: 90,
+                },
+            },
+        },
+        {
+            op: "add_wire",
+            wire: {
+                id: "w_fb_top_vout",
+                netId: "net_vout",
+                label: "VOUT",
+                from: {
+                    kind: "junction",
+                    junctionId: "j_vout_c",
+                },
+                to: {
+                    kind: "pin",
+                    componentId: "r_fb_top",
+                    pinId: "pin_1",
+                },
+                routePoints: [
+                    { x: 640, y: 80 },
+                    { x: 640, y: 140 },
+                ],
+            },
+        },
+        {
+            op: "add_wire",
+            wire: {
+                id: "w_fb_mid",
+                netId: "net_fb",
+                label: "FB",
+                from: {
+                    kind: "pin",
+                    componentId: "r_fb_top",
+                    pinId: "pin_2",
+                },
+                to: {
+                    kind: "pin",
+                    componentId: "r_fb_bottom",
+                    pinId: "pin_1",
+                },
+                routePoints: [],
+            },
+        },
+        {
+            op: "add_wire",
+            wire: {
+                id: "w_fb_gnd",
+                netId: "net_gnd",
+                label: "GND",
+                from: {
+                    kind: "pin",
+                    componentId: "r_fb_bottom",
+                    pinId: "pin_2",
+                },
+                to: {
+                    kind: "junction",
+                    junctionId: "j_gnd_e",
+                },
+                routePoints: [
+                    { x: 640, y: 240 },
+                ],
+            },
+        },
+        {
+            op: "set_selection",
+            selection: {
+                componentIds: ["r_fb_top", "r_fb_bottom"],
+                wireIds: ["w_fb_top_vout", "w_fb_mid", "w_fb_gnd"],
+                junctionIds: [],
+                scope: "both",
+            },
         },
     ],
 };
@@ -303,6 +738,48 @@ async function apiGet(path) {
     return data;
 }
 
+async function apiPost(path, body) {
+    const response = await fetch(`${API_BASE}${path}`, {
+        method: "POST",
+        headers: {
+            "content-type": "application/json",
+        },
+        body: JSON.stringify(body ?? {}),
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) {
+        throw new Error(data?.message || `Request failed for ${path}`);
+    }
+    return data;
+}
+
+async function apiPostWithTimeout(path, body, timeoutMs = 180000) {
+    const controller = new AbortController();
+    const timeoutId = window.setTimeout(() => controller.abort(), timeoutMs);
+    try {
+        const response = await fetch(`${API_BASE}${path}`, {
+            method: "POST",
+            headers: {
+                "content-type": "application/json",
+            },
+            body: JSON.stringify(body ?? {}),
+            signal: controller.signal,
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) {
+            throw new Error(data?.message || `Request failed for ${path}`);
+        }
+        return data;
+    } catch (error) {
+        if (error?.name === "AbortError") {
+            throw new Error("AI request timed out after 3 minutes. Try a smaller request or a faster model.");
+        }
+        throw error;
+    } finally {
+        window.clearTimeout(timeoutId);
+    }
+}
+
 function getJsonImportElements() {
     return {
         modal: document.getElementById("json-import-modal"),
@@ -346,6 +823,317 @@ function closeJsonImportModal() {
     if (modal) {
         modal.hidden = true;
     }
+}
+
+function getAiToolsElements() {
+    return {
+        modal: document.getElementById("ai-tools-modal"),
+        trigger: document.getElementById("ai-tools-trigger"),
+        close: document.getElementById("ai-tools-close"),
+        cancel: document.getElementById("ai-tools-cancel"),
+        exportScene: document.getElementById("ai-tools-export-scene"),
+        providerSelect: document.getElementById("ai-provider-select"),
+        modelSelect: document.getElementById("ai-model-select"),
+        geminiKeyField: document.getElementById("ai-gemini-key-field"),
+        geminiKeyInput: document.getElementById("ai-gemini-key"),
+        refreshModels: document.getElementById("ai-tools-refresh-models"),
+        checkProvider: document.getElementById("ai-tools-check-provider"),
+        providerStatus: document.getElementById("ai-provider-status"),
+        runStatus: document.getElementById("ai-run-status"),
+        sendRequest: document.getElementById("ai-tools-send-request"),
+        clearChat: document.getElementById("ai-tools-clear-chat"),
+        chatLog: document.getElementById("ai-chat-log"),
+        sceneOutput: document.getElementById("ai-scene-output"),
+        userRequest: document.getElementById("ai-user-request"),
+        generatePrompt: document.getElementById("ai-tools-generate-prompt"),
+        clearPrompt: document.getElementById("ai-tools-clear-prompt"),
+        promptOutput: document.getElementById("ai-prompt-output"),
+        patchInput: document.getElementById("ai-patch-input"),
+        loadExample: document.getElementById("ai-tools-load-example"),
+        clearPatch: document.getElementById("ai-tools-clear-patch"),
+        clearPreview: document.getElementById("ai-tools-clear-preview"),
+        preview: document.getElementById("ai-tools-preview"),
+        apply: document.getElementById("ai-tools-apply"),
+        status: document.getElementById("ai-tools-status"),
+    };
+}
+
+function setAiToolsStatus(message, tone = "") {
+    const { status } = getAiToolsElements();
+    if (!status) {
+        return;
+    }
+    status.textContent = message;
+    status.classList.remove("is-error", "is-success");
+    if (tone === "error") {
+        status.classList.add("is-error");
+    } else if (tone === "success") {
+        status.classList.add("is-success");
+    }
+}
+
+function clearAiPatchPreview() {
+    aiPatchPreviewState = null;
+    draw();
+}
+
+async function openAiToolsModal() {
+    const { modal, patchInput, sceneOutput } = getAiToolsElements();
+    if (!modal) {
+        return;
+    }
+    modal.hidden = false;
+    syncAiProviderFieldVisibility();
+    renderAiModelOptions("ollama", getFallbackAiModels("ollama"), readStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model) || "gemma4:e2b");
+    await ensureAiProviderUiDefaults().catch((error) => {
+        console.error("Failed to load AI provider defaults:", error);
+        setAiToolsStatus(error?.message || "Failed to load AI provider defaults.", "error");
+    });
+    renderAiChatLog();
+    setAiToolsStatus("Export the current scene, then paste a circuit patch and preview it.");
+    if (sceneOutput) {
+        sceneOutput.value = JSON.stringify(exportSceneState(), null, 2);
+    }
+    patchInput?.focus();
+}
+
+function closeAiToolsModal() {
+    const { modal } = getAiToolsElements();
+    if (modal) {
+        modal.hidden = true;
+    }
+    clearAiPatchPreview();
+}
+
+const AI_PROVIDER_STORAGE_KEYS = {
+    provider: "aura.ai.provider",
+    model: "aura.ai.model",
+    geminiKey: "aura.ai.geminiKey",
+};
+let aiProviderModelCache = {
+    ollama: [],
+    gemini: [],
+};
+
+function readStoredAiSetting(key) {
+    try {
+        return window.localStorage.getItem(key);
+    } catch {
+        return null;
+    }
+}
+
+function writeStoredAiSetting(key, value) {
+    try {
+        if (value == null || value === "") {
+            window.localStorage.removeItem(key);
+        } else {
+            window.localStorage.setItem(key, value);
+        }
+    } catch {
+        // Ignore localStorage failures in the browser shell.
+    }
+}
+
+function getAiDefaultModelForProvider(provider) {
+    if (provider === "gemini") {
+        return aiProviderDefaults?.defaults?.geminiModel || "gemini-2.5-flash";
+    }
+    return aiProviderDefaults?.defaults?.ollamaModel || "gemma4:e2b";
+}
+
+function getFallbackAiModels(provider) {
+    if (provider === "gemini") {
+        return [
+            { id: "gemini-2.5-flash", label: "Gemini 2.5 Flash" },
+            { id: "gemini-2.5-flash-lite", label: "Gemini 2.5 Flash-Lite" },
+            { id: "gemini-2.5-pro", label: "Gemini 2.5 Pro" },
+        ];
+    }
+    return [
+        { id: "gemma4:e2b", label: "gemma4:e2b" },
+    ];
+}
+
+function renderAiChatLog() {
+    const { chatLog } = getAiToolsElements();
+    if (!chatLog) {
+        return;
+    }
+    if (!aiConversation.length) {
+        chatLog.innerHTML = `<div class="empty-state">No built-in AI conversation yet.</div>`;
+        return;
+    }
+    chatLog.innerHTML = aiConversation.map((entry) => `
+        <div class="ai-chat-entry" data-role="${escapeHtml(entry.role)}">
+            <div class="ai-chat-role">${escapeHtml(entry.role === "assistant" ? "Assistant" : "User")}</div>
+            <div class="ai-chat-message">${escapeHtml(entry.content)}</div>
+        </div>
+    `).join("");
+    chatLog.scrollTop = chatLog.scrollHeight;
+}
+
+function syncAiProviderFieldVisibility() {
+    const { providerSelect, geminiKeyField, modelSelect } = getAiToolsElements();
+    const provider = providerSelect?.value || "ollama";
+    if (geminiKeyField) {
+        geminiKeyField.hidden = provider !== "gemini";
+    }
+    if (modelSelect) {
+        modelSelect.disabled = false;
+    }
+}
+
+async function loadAiProviderDefaults() {
+    if (aiProviderDefaults) {
+        return aiProviderDefaults;
+    }
+    aiProviderDefaults = await apiGet("/ai/providers");
+    return aiProviderDefaults;
+}
+
+async function loadAiModelsForProvider(provider, { force = false } = {}) {
+    const normalizedProvider = provider === "gemini" ? "gemini" : "ollama";
+    if (!force && aiProviderModelCache[normalizedProvider]?.length) {
+        return aiProviderModelCache[normalizedProvider];
+    }
+    const { geminiKeyInput } = getAiToolsElements();
+    const query = new URLSearchParams({ provider: normalizedProvider });
+    if (normalizedProvider === "gemini") {
+        const apiKey = String(geminiKeyInput?.value ?? "").trim();
+        if (apiKey) {
+            query.set("apiKey", apiKey);
+        }
+    }
+    const result = await apiGet(`/ai/models?${query.toString()}`);
+    aiProviderModelCache[normalizedProvider] = result.models ?? [];
+    return aiProviderModelCache[normalizedProvider];
+}
+
+function renderAiModelOptions(provider, models, preferredModel = "") {
+    const { modelSelect } = getAiToolsElements();
+    if (!modelSelect) {
+        return;
+    }
+    const fallbackModel = preferredModel || getAiDefaultModelForProvider(provider);
+    const safeModels = Array.isArray(models) && models.length
+        ? models
+        : [{ id: fallbackModel, label: fallbackModel }];
+    modelSelect.innerHTML = safeModels.map((model) => `
+        <option value="${escapeHtml(model.id)}">${escapeHtml(model.label || model.id)}</option>
+    `).join("");
+    const targetValue = safeModels.some((model) => model.id === preferredModel)
+        ? preferredModel
+        : (safeModels.some((model) => model.id === fallbackModel) ? fallbackModel : safeModels[0].id);
+    modelSelect.value = targetValue;
+}
+
+function setAiProviderStatus(message, tone = "") {
+    const { providerStatus } = getAiToolsElements();
+    if (!providerStatus) {
+        return;
+    }
+    providerStatus.textContent = message;
+    providerStatus.classList.remove("is-ready", "is-error");
+    if (tone === "ready") {
+        providerStatus.classList.add("is-ready");
+    } else if (tone === "error") {
+        providerStatus.classList.add("is-error");
+    }
+}
+
+function setAiRunStatus(message, tone = "") {
+    const { runStatus } = getAiToolsElements();
+    if (!runStatus) {
+        return;
+    }
+    runStatus.textContent = message;
+    runStatus.classList.remove("is-busy", "is-success", "is-error");
+    if (tone === "busy") {
+        runStatus.classList.add("is-busy");
+    } else if (tone === "success") {
+        runStatus.classList.add("is-success");
+    } else if (tone === "error") {
+        runStatus.classList.add("is-error");
+    }
+}
+
+function setAiControlsBusy(isBusy) {
+    aiRequestInFlight = !!isBusy;
+    const {
+        sendRequest,
+        refreshModels,
+        checkProvider,
+        preview,
+        apply,
+    } = getAiToolsElements();
+    [sendRequest, refreshModels, checkProvider, preview, apply].forEach((button) => {
+        if (button) {
+            button.disabled = aiRequestInFlight;
+        }
+    });
+    if (sendRequest) {
+        sendRequest.textContent = aiRequestInFlight ? "Thinking..." : "Ask Built-In AI";
+    }
+}
+
+function summarizeAiMessage(message, fallback = "") {
+    const text = String(message ?? "").trim() || fallback;
+    if (text.length <= 140) {
+        return text;
+    }
+    return `${text.slice(0, 137)}...`;
+}
+
+async function checkSelectedAiProviderStatus() {
+    const { providerSelect, modelSelect, geminiKeyInput } = getAiToolsElements();
+    const provider = providerSelect?.value || "ollama";
+    const model = modelSelect?.value || getAiDefaultModelForProvider(provider);
+    const query = new URLSearchParams({ provider, model });
+    if (provider === "gemini") {
+        const apiKey = String(geminiKeyInput?.value ?? "").trim();
+        if (apiKey) {
+            query.set("apiKey", apiKey);
+        }
+    }
+
+    setAiProviderStatus(`Checking ${provider}...`);
+    const result = await apiGet(`/ai/status?${query.toString()}`);
+    setAiProviderStatus(result.message || `${provider} status checked.`, result.ready ? "ready" : "error");
+    return result;
+}
+
+async function ensureAiProviderUiDefaults() {
+    await loadAiProviderDefaults().catch(() => {
+        aiProviderDefaults = {
+            defaults: {
+                provider: "ollama",
+                ollamaModel: "gemma4:e2b",
+                geminiModel: "gemini-2.5-flash",
+            },
+        };
+    });
+    const { providerSelect, modelSelect, geminiKeyInput } = getAiToolsElements();
+    if (providerSelect) {
+        providerSelect.value = readStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.provider)
+            || aiProviderDefaults?.defaults?.provider
+            || "ollama";
+    }
+    if (geminiKeyInput && !geminiKeyInput.value) {
+        geminiKeyInput.value = readStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.geminiKey) || "";
+    }
+    const provider = providerSelect?.value || "ollama";
+    const preferredModel = readStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model)
+        || getAiDefaultModelForProvider(provider);
+    const models = await loadAiModelsForProvider(provider).catch(() => getFallbackAiModels(provider));
+    renderAiModelOptions(provider, models, preferredModel);
+    if (modelSelect) {
+        writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model, modelSelect.value);
+    }
+    syncAiProviderFieldVisibility();
+    checkSelectedAiProviderStatus().catch((error) => {
+        setAiProviderStatus(error?.message || "AI status check failed.", "error");
+    });
 }
 
 function pickPrimaryUnitId(definition) {
@@ -441,6 +1229,31 @@ function getFieldDisplayText(field, comp, def) {
     }
 
     return field.value || "";
+}
+
+function getCanvasComponentLabels(comp, def) {
+    const referenceText = String(comp?.refdes || "").trim();
+    const valueText = String(
+        comp?.properties?.netLabel
+        || comp?.properties?.value
+        || getFieldValue(def?.fields, "Value")
+        || "",
+    ).trim();
+    const sourceSymbol = String(def?.sourceSymbol || "").trim();
+    const normalizedValue = valueText.toLowerCase();
+    const normalizedSource = sourceSymbol.toLowerCase();
+    const hideReference = referenceText.startsWith("#PWR");
+    const hideValue = !valueText
+        || normalizedValue === normalizedSource
+        || normalizedValue === "r_us"
+        || normalizedValue === "r"
+        || normalizedValue === "c"
+        || normalizedValue === "d";
+
+    return {
+        reference: hideReference ? "" : referenceText,
+        value: hideValue ? "" : valueText,
+    };
 }
 
 function computeSymbolBounds(graphics, pins, fields = [], def = null) {
@@ -553,8 +1366,8 @@ function scalePin(pin) {
 function scaleField(field) {
     return {
         ...field,
-        x: scaleValue(field.x),
-        y: scaleValue(field.y),
+        x: Number.isFinite(Number(field.x)) ? scaleValue(field.x) : 0,
+        y: Number.isFinite(Number(field.y)) ? scaleValue(field.y) : 0,
         fontSize: Number.isFinite(Number(field.fontSize)) ? scaleValue(field.fontSize) : scaleValue(50),
     };
 }
@@ -893,6 +1706,45 @@ function compareLibrariesByGroup(left, right) {
     return left.name.localeCompare(right.name);
 }
 
+function isGlobalSymbolSearchActive() {
+    return globalSymbolSearchQuery.trim().length > 0;
+}
+
+async function runGlobalSymbolSearch(query) {
+    const normalizedQuery = String(query ?? "").trim();
+    const requestToken = ++globalSymbolSearchRequestToken;
+    if (!normalizedQuery) {
+        globalSymbolSearchResults = [];
+        globalSymbolSearchBusy = false;
+        renderLibraryBrowser();
+        return;
+    }
+
+    globalSymbolSearchBusy = true;
+    renderLibraryBrowser();
+
+    try {
+        const data = await apiGet(`/symbol-sources/kicad/search?q=${encodeURIComponent(normalizedQuery)}&limit=80`);
+        if (requestToken !== globalSymbolSearchRequestToken) {
+            return;
+        }
+        globalSymbolSearchResults = Array.isArray(data.symbols) ? data.symbols : [];
+        renderLibraryBrowser();
+    } catch (error) {
+        if (requestToken !== globalSymbolSearchRequestToken) {
+            return;
+        }
+        console.error("Global KiCad search failed:", error);
+        globalSymbolSearchResults = [];
+        renderLibraryBrowser();
+    } finally {
+        if (requestToken === globalSymbolSearchRequestToken) {
+            globalSymbolSearchBusy = false;
+            renderLibraryBrowser();
+        }
+    }
+}
+
 async function loadFirstLibraryForCurrentGroup() {
     const groupLibraries = kicadLibraries
         .filter(libraryIsInSelectedGroup)
@@ -929,9 +1781,10 @@ function renderCategoryToolbar() {
 }
 
 async function placeKnownComponent(libraryId, symbolId) {
-    const symbolKey = `${libraryId}:${symbolId}`;
-    if (selectedLibraryId !== libraryId) {
-        await loadLibrary(libraryId);
+    const preferredSymbol = getPreferredLibrarySymbolId(libraryId, symbolId);
+    const symbolKey = `${preferredSymbol.libraryId}:${preferredSymbol.symbolId}`;
+    if (selectedLibraryId !== preferredSymbol.libraryId) {
+        await loadLibrary(preferredSymbol.libraryId);
     }
     await selectSymbol(symbolKey);
     await addComponent(symbolKey);
@@ -972,6 +1825,7 @@ function renderCommonComponents() {
 
 function renderLibraryBrowser() {
     const libraryGroup = document.getElementById("library-group");
+    const globalSymbolSearch = document.getElementById("global-symbol-search");
     const librarySearch = document.getElementById("library-search");
     const symbolSearch = document.getElementById("symbol-search");
     const libraryList = document.getElementById("kicad-library-list");
@@ -997,6 +1851,14 @@ function renderLibraryBrowser() {
         librarySearch.oninput = (event) => {
             librarySearchQuery = event.target.value;
             renderLibraryBrowser();
+        };
+    }
+
+    if (globalSymbolSearch) {
+        globalSymbolSearch.value = globalSymbolSearchQuery;
+        globalSymbolSearch.oninput = (event) => {
+            globalSymbolSearchQuery = event.target.value;
+            runGlobalSymbolSearch(globalSymbolSearchQuery);
         };
     }
 
@@ -1031,44 +1893,72 @@ function renderLibraryBrowser() {
     });
 
     const query = symbolSearchQuery.trim().toLowerCase();
-    const filteredSymbols = [...currentLibrarySymbols]
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .filter((symbol) => {
-        if (!query) {
-            return true;
-        }
-        const haystack = [
-            symbol.name,
-            symbol.description,
-            symbol.reference,
-            ...(symbol.keywords ?? []),
-        ].join(" ").toLowerCase();
-        return haystack.includes(query);
-    });
+    const globalSearchActive = isGlobalSymbolSearchActive();
+    const filteredSymbols = globalSearchActive
+        ? [...globalSymbolSearchResults]
+        : [...currentLibrarySymbols]
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .filter((symbol) => {
+                if (!query) {
+                    return true;
+                }
+                const haystack = [
+                    symbol.name,
+                    symbol.description,
+                    symbol.reference,
+                    ...(symbol.keywords ?? []),
+                ].join(" ").toLowerCase();
+                return haystack.includes(query);
+            });
 
-    symbolList.innerHTML = filteredSymbols.map((symbol) => `
-        <button type="button" class="symbol-row${symbol.id === selectedSymbolId ? " is-selected" : ""}" data-symbol-id="${escapeHtml(symbol.id)}" title="${escapeHtml(symbol.name)}">
-            <span class="symbol-ref">${escapeHtml(symbol.reference || "U")}</span>
-            <span class="symbol-main">
-                <span class="symbol-name">${escapeHtml(symbol.name)}</span>
-                <span class="symbol-subtitle">${escapeHtml(symbol.description || symbol.sourceSymbol || symbol.id)}</span>
-            </span>
-        </button>
-    `).join("") || `<div class="empty-state" style="padding: 12px;">No symbols match this query.</div>`;
-
-    symbolList.querySelectorAll("[data-symbol-id]").forEach((button) => {
-        button.addEventListener("click", async () => {
-            const symbolId = button.getAttribute("data-symbol-id");
-            if (symbolId) {
-                await addComponent(symbolId);
-            }
+    if (globalSearchActive) {
+        const searchingMarkup = globalSymbolSearchBusy
+            ? `<div class="empty-state" style="padding: 12px;">Searching all KiCad symbols...</div>`
+            : "";
+        const resultsMarkup = filteredSymbols.map((symbol) => `
+            <button type="button" class="symbol-row" data-global-library-id="${escapeHtml(symbol.sourceLibrary)}" data-global-symbol-id="${escapeHtml(symbol.sourceSymbol)}" title="${escapeHtml(symbol.id)}">
+                <span class="symbol-ref">${escapeHtml(symbol.reference || "U")}</span>
+                <span class="symbol-main">
+                    <span class="symbol-name">${escapeHtml(symbol.name)}</span>
+                    <span class="symbol-subtitle">${escapeHtml(symbol.sourceLibrary)}:${escapeHtml(symbol.sourceSymbol)}${symbol.description ? ` - ${escapeHtml(symbol.description)}` : ""}</span>
+                </span>
+            </button>
+        `).join("");
+        symbolList.innerHTML = searchingMarkup || resultsMarkup || `<div class="empty-state" style="padding: 12px;">No global symbol matches for "${escapeHtml(globalSymbolSearchQuery.trim())}".</div>`;
+        symbolList.querySelectorAll("[data-global-library-id][data-global-symbol-id]").forEach((button) => {
+            button.addEventListener("click", async () => {
+                const libraryId = button.getAttribute("data-global-library-id");
+                const symbolId = button.getAttribute("data-global-symbol-id");
+                if (libraryId && symbolId) {
+                    await placeKnownComponent(libraryId, symbolId);
+                }
+            });
         });
-    });
+    } else {
+        symbolList.innerHTML = filteredSymbols.map((symbol) => `
+            <button type="button" class="symbol-row${symbol.id === selectedSymbolId ? " is-selected" : ""}" data-symbol-id="${escapeHtml(symbol.id)}" title="${escapeHtml(symbol.name)}">
+                <span class="symbol-ref">${escapeHtml(symbol.reference || "U")}</span>
+                <span class="symbol-main">
+                    <span class="symbol-name">${escapeHtml(symbol.name)}</span>
+                    <span class="symbol-subtitle">${escapeHtml(symbol.description || symbol.sourceSymbol || symbol.id)}</span>
+                </span>
+            </button>
+        `).join("") || `<div class="empty-state" style="padding: 12px;">No symbols match this query.</div>`;
+
+        symbolList.querySelectorAll("[data-symbol-id]").forEach((button) => {
+            button.addEventListener("click", async () => {
+                const symbolId = button.getAttribute("data-symbol-id");
+                if (symbolId) {
+                    await addComponent(symbolId);
+                }
+            });
+        });
+    }
 
     if (addButton) {
-        addButton.disabled = !selectedSymbolId;
+        addButton.disabled = globalSearchActive || !selectedSymbolId;
         addButton.onclick = () => {
-            if (selectedSymbolId) {
+            if (!globalSearchActive && selectedSymbolId) {
                 addComponent(selectedSymbolId);
             }
         };
@@ -1199,7 +2089,7 @@ function bindJsonImportModal() {
         if (input) {
             input.value = JSON.stringify(JSON_IMPORT_EXAMPLE, null, 2);
         }
-        setJsonImportStatus("Loaded schematic example. Apply it to place the sample circuit.");
+        setJsonImportStatus("Loaded the buck converter demo scene. Apply it to place the clean left-to-right example.");
     });
     apply?.addEventListener("click", async () => {
         if (!input) {
@@ -1219,6 +2109,187 @@ function bindJsonImportModal() {
     modal?.addEventListener("click", (event) => {
         if (event.target === modal) {
             closeJsonImportModal();
+        }
+    });
+}
+
+function bindAiToolsModal() {
+    const {
+        modal,
+        trigger,
+        close,
+        cancel,
+        exportScene,
+        providerSelect,
+        modelSelect,
+        geminiKeyInput,
+        refreshModels,
+        checkProvider,
+        sendRequest,
+        clearChat,
+        sceneOutput,
+        userRequest,
+        generatePrompt,
+        clearPrompt,
+        promptOutput,
+        patchInput,
+        loadExample,
+        clearPatch,
+        clearPreview,
+        preview,
+        apply,
+    } = getAiToolsElements();
+
+    trigger?.addEventListener("click", openAiToolsModal);
+    close?.addEventListener("click", closeAiToolsModal);
+    cancel?.addEventListener("click", closeAiToolsModal);
+    providerSelect?.addEventListener("change", async () => {
+        writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.provider, providerSelect.value);
+        syncAiProviderFieldVisibility();
+        const models = await loadAiModelsForProvider(providerSelect.value, { force: true }).catch(() => getFallbackAiModels(providerSelect.value));
+        renderAiModelOptions(providerSelect.value, models, getAiDefaultModelForProvider(providerSelect.value));
+        writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model, modelSelect?.value || "");
+        checkSelectedAiProviderStatus().catch((error) => {
+            setAiProviderStatus(error?.message || "AI status check failed.", "error");
+        });
+    });
+    modelSelect?.addEventListener("change", () => {
+        writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model, modelSelect.value);
+        checkSelectedAiProviderStatus().catch((error) => {
+            setAiProviderStatus(error?.message || "AI status check failed.", "error");
+        });
+    });
+    geminiKeyInput?.addEventListener("change", async () => {
+        writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.geminiKey, geminiKeyInput.value.trim());
+        if (providerSelect?.value === "gemini") {
+            const models = await loadAiModelsForProvider("gemini", { force: true }).catch(() => getFallbackAiModels("gemini"));
+            renderAiModelOptions("gemini", models, modelSelect?.value || getAiDefaultModelForProvider("gemini"));
+            writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model, modelSelect?.value || "");
+            checkSelectedAiProviderStatus().catch((error) => {
+                setAiProviderStatus(error?.message || "AI status check failed.", "error");
+            });
+        }
+    });
+    refreshModels?.addEventListener("click", async () => {
+        try {
+            const provider = providerSelect?.value || "ollama";
+            const models = await loadAiModelsForProvider(provider, { force: true }).catch(() => getFallbackAiModels(provider));
+            renderAiModelOptions(provider, models, modelSelect?.value || getAiDefaultModelForProvider(provider));
+            writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model, modelSelect?.value || "");
+            setAiToolsStatus(`Refreshed ${provider} model list.`, "success");
+            checkSelectedAiProviderStatus().catch((error) => {
+                setAiProviderStatus(error?.message || "AI status check failed.", "error");
+            });
+        } catch (error) {
+            console.error("Model refresh failed:", error);
+            setAiToolsStatus(error?.message || "Model refresh failed.", "error");
+        }
+    });
+    checkProvider?.addEventListener("click", async () => {
+        try {
+            const result = await checkSelectedAiProviderStatus();
+            setAiToolsStatus(result.message || "AI status checked.", result.ready ? "success" : "error");
+        } catch (error) {
+            console.error("AI status check failed:", error);
+            setAiProviderStatus(error?.message || "AI status check failed.", "error");
+            setAiToolsStatus(error?.message || "AI status check failed.", "error");
+        }
+    });
+    clearChat?.addEventListener("click", () => {
+        aiConversation = [];
+        renderAiChatLog();
+        setAiRunStatus("Idle. Type a request, then click Ask Built-In AI.");
+        setAiToolsStatus("Built-in AI conversation cleared.");
+    });
+    sendRequest?.addEventListener("click", async () => {
+        try {
+            await sendBuiltInAiRequest();
+        } catch (error) {
+            console.error("Built-in AI request failed:", error);
+            setAiRunStatus(error?.message || "Built-in AI request failed.", "error");
+            setAiToolsStatus(error?.message || "Built-in AI request failed.", "error");
+        }
+    });
+    exportScene?.addEventListener("click", () => {
+        const sceneState = exportSceneState();
+        if (sceneOutput) {
+            sceneOutput.value = JSON.stringify(sceneState, null, 2);
+        }
+        setAiToolsStatus(`Exported scene with ${sceneState.components.length} components and ${sceneState.wires.length} wires.`, "success");
+    });
+    generatePrompt?.addEventListener("click", () => {
+        try {
+            const promptPack = buildExternalAiPromptPack(userRequest?.value ?? "");
+            if (sceneOutput && !sceneOutput.value.trim()) {
+                sceneOutput.value = JSON.stringify(exportSceneState(), null, 2);
+            }
+            if (promptOutput) {
+                promptOutput.value = promptPack;
+            }
+            setAiToolsStatus("Generated external AI prompt pack. Paste it into ChatGPT, Gemini, or another model, then paste the returned patch JSON into Patch Input.", "success");
+        } catch (error) {
+            console.error("Prompt pack generation failed:", error);
+            setAiToolsStatus(error?.message || "Prompt pack generation failed.", "error");
+        }
+    });
+    clearPrompt?.addEventListener("click", () => {
+        if (promptOutput) {
+            promptOutput.value = "";
+        }
+        setAiToolsStatus("Prompt pack cleared.");
+    });
+    loadExample?.addEventListener("click", () => {
+        if (patchInput) {
+            patchInput.value = JSON.stringify(AI_PATCH_EXAMPLE, null, 2);
+        }
+        setAiToolsStatus("Loaded patch example for the buck converter demo scene. Preview it to see the overlay.", "success");
+    });
+    clearPatch?.addEventListener("click", () => {
+        if (patchInput) {
+            patchInput.value = "";
+        }
+        setAiToolsStatus("Patch input cleared.");
+    });
+    clearPreview?.addEventListener("click", () => {
+        clearAiPatchPreview();
+        setAiToolsStatus("Preview cleared.");
+    });
+    preview?.addEventListener("click", async () => {
+        if (!patchInput) {
+            return;
+        }
+        try {
+            setAiToolsStatus("Validating patch and building preview...");
+            const payload = JSON.parse(patchInput.value);
+            await previewCircuitPatch(payload);
+        } catch (error) {
+            console.error("Patch preview failed:", error);
+            setAiToolsStatus(error?.message || "Patch preview failed.", "error");
+        }
+    });
+    apply?.addEventListener("click", async () => {
+        if (!patchInput) {
+            return;
+        }
+        try {
+            setAiToolsStatus("Applying patch...");
+            const payload = JSON.parse(patchInput.value);
+            const previewState = await applyCircuitPatch(payload);
+            closeAiToolsModal();
+            const { sceneOutput } = getAiToolsElements();
+            if (sceneOutput) {
+                sceneOutput.value = JSON.stringify(exportSceneState("preview_overlay"), null, 2);
+            }
+            setAiToolsStatus(`Applied "${previewState.title}" to the canvas.`, "success");
+        } catch (error) {
+            console.error("Patch apply failed:", error);
+            openAiToolsModal();
+            setAiToolsStatus(error?.message || "Patch apply failed.", "error");
+        }
+    });
+    modal?.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            closeAiToolsModal();
         }
     });
 }
@@ -1310,6 +2381,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const leftPanel = document.getElementById('left-panel');
     bindCanvasSettings();
     bindJsonImportModal();
+    bindAiToolsModal();
     bindPinLabelToggleButton();
     bindWireAutoroutePanel();
     bindSelectionModeToggleButton();
@@ -1441,7 +2513,7 @@ function mapCircuitIrPackageToSymbolKey(component) {
     if (explicitSymbolKey) {
         return String(explicitSymbolKey);
     }
-    if (packageId.includes("resistor")) return "Device:R";
+    if (packageId.includes("resistor")) return getPreferredSymbolKey("Device:R");
     if (packageId.includes("capacitor")) return "Device:C";
     if (packageId.includes("inductor")) return "Device:L";
     if (packageId.includes("led")) return "Device:LED";
@@ -2722,6 +3794,12 @@ async function autorouteSelectedWires(wireIds) {
 }
 
 function toSchematicInstancesFromPayload(payload) {
+    if (payload?.schema === "aura.scene_state.v1") {
+        return {
+            sceneState: payload,
+        };
+    }
+
     if (payload?.schema === "aura.schematic_document.v1") {
         return {
             title: payload.metadata?.title || "Imported schematic",
@@ -2758,11 +3836,150 @@ function toSchematicInstancesFromPayload(payload) {
         };
     }
 
-    throw new Error("Unsupported schema. Use aura.schematic_document.v1 or aura.circuit_ir.v1.");
+    throw new Error("Unsupported schema. Use aura.scene_state.v1, aura.schematic_document.v1, or aura.circuit_ir.v1.");
+}
+
+function normalizeSceneStateImportEndpoint(endpoint, label) {
+    if (!endpoint || typeof endpoint !== "object") {
+        throw new Error(`${label} is required.`);
+    }
+    if (endpoint.kind === "pin") {
+        if (!endpoint.componentId || !endpoint.pinId) {
+            throw new Error(`${label} pin endpoint requires componentId and pinId.`);
+        }
+        return {
+            kind: "pin",
+            compId: String(endpoint.componentId),
+            pinId: String(endpoint.pinId),
+        };
+    }
+    if (endpoint.kind === "junction") {
+        if (!endpoint.junctionId) {
+            throw new Error(`${label} junction endpoint requires junctionId.`);
+        }
+        return {
+            kind: "junction",
+            junctionId: String(endpoint.junctionId),
+        };
+    }
+    throw new Error(`${label} endpoint kind must be pin or junction.`);
+}
+
+function normalizeSceneStateImportRoutePoints(routePoints, label) {
+    if (!Array.isArray(routePoints)) {
+        throw new Error(`${label} routePoints must be an array.`);
+    }
+    return routePoints.map((point, index) => {
+        if (!point || !Number.isFinite(Number(point.x)) || !Number.isFinite(Number(point.y))) {
+            throw new Error(`${label} routePoints[${index}] requires numeric x and y.`);
+        }
+        return {
+            uX: Number(point.x),
+            uY: Number(point.y),
+        };
+    });
+}
+
+async function buildStudioStateFromSceneStatePayload(payload) {
+    const sceneComponents = Array.isArray(payload.components) ? payload.components : [];
+    const uniqueSymbolKeys = Array.from(new Set(
+        sceneComponents
+            .map((component) => String(component?.symbolKey || ""))
+            .filter(Boolean),
+    ));
+    await Promise.all(uniqueSymbolKeys.map((symbolKey) => ensureComponentDefByKey(symbolKey)));
+
+    const importedComponents = sceneComponents.map((component, index) => {
+        if (!component?.id || !component?.symbolKey) {
+            throw new Error(`components[${index}] requires id and symbolKey.`);
+        }
+        const def = COMPONENT_DEFS[component.symbolKey];
+        if (!def) {
+            throw new Error(`Missing symbol definition for ${component.symbolKey}`);
+        }
+        const placement = normalizeImportedPlacement(component.placement);
+        return {
+            id: String(component.id),
+            type: String(component.symbolKey),
+            refdes: component.reference || nextReferenceFor(def),
+            uX: placement.uX,
+            uY: placement.uY,
+            rotation: placement.rotation,
+            properties: {
+                ...(component.fields ?? {}),
+                ...(component.properties ?? {}),
+                ...(component.value ? { value: component.value } : {}),
+            },
+        };
+    });
+
+    const componentById = new Map(importedComponents.map((component) => [String(component.id), component]));
+    const importedJunctions = (payload.junctions ?? []).map((junction, index) => {
+        if (!junction?.id || !Number.isFinite(Number(junction.x)) || !Number.isFinite(Number(junction.y))) {
+            throw new Error(`junctions[${index}] requires id, x, and y.`);
+        }
+        return {
+            id: String(junction.id),
+            uX: Number(junction.x),
+            uY: Number(junction.y),
+        };
+    });
+    const junctionById = new Map(importedJunctions.map((junction) => [String(junction.id), junction]));
+
+    const importedWires = (payload.wires ?? []).map((wire, index) => {
+        if (!wire?.id) {
+            throw new Error(`wires[${index}] requires an id.`);
+        }
+        const from = normalizeSceneStateImportEndpoint(wire.from, `wires[${index}].from`);
+        const to = normalizeSceneStateImportEndpoint(wire.to, `wires[${index}].to`);
+        if (from.kind === "pin") {
+            const component = componentById.get(String(from.compId));
+            const resolvedPinId = component ? resolveImportPinId(component, from.pinId) : null;
+            if (!component || !resolvedPinId) {
+                throw new Error(`wires[${index}].from references missing pin ${from.compId}:${from.pinId}.`);
+            }
+            from.pinId = resolvedPinId;
+        } else if (!junctionById.has(String(from.junctionId))) {
+            throw new Error(`wires[${index}].from references missing junction ${from.junctionId}.`);
+        }
+        if (to.kind === "pin") {
+            const component = componentById.get(String(to.compId));
+            const resolvedPinId = component ? resolveImportPinId(component, to.pinId) : null;
+            if (!component || !resolvedPinId) {
+                throw new Error(`wires[${index}].to references missing pin ${to.compId}:${to.pinId}.`);
+            }
+            to.pinId = resolvedPinId;
+        } else if (!junctionById.has(String(to.junctionId))) {
+            throw new Error(`wires[${index}].to references missing junction ${to.junctionId}.`);
+        }
+        return {
+            id: String(wire.id),
+            from,
+            to,
+            color: currentWireColor,
+            routePoints: normalizeSceneStateImportRoutePoints(wire.routePoints ?? [], `wires[${index}]`),
+            jumps: [],
+            properties: {
+                ...(wire.properties ?? {}),
+                ...(wire.netId ? { netId: String(wire.netId) } : {}),
+                ...(wire.label ? { netLabel: String(wire.label) } : {}),
+            },
+        };
+    });
+
+    return {
+        title: payload.metadata?.title || "Imported scene state",
+        components: importedComponents,
+        junctions: importedJunctions,
+        wires: importedWires,
+    };
 }
 
 async function buildStudioStateFromPayload(payload) {
     const normalized = toSchematicInstancesFromPayload(payload);
+    if (normalized.sceneState) {
+        return buildStudioStateFromSceneStatePayload(normalized.sceneState);
+    }
     const unresolvedInstances = normalized.instances.filter((instance) => !instance.symbolKey);
     if (unresolvedInstances.length > 0) {
         throw new Error(`Unable to map symbol keys for: ${unresolvedInstances.map((instance) => instance.reference || instance.id).join(", ")}`);
@@ -3070,6 +4287,1153 @@ function fitViewportToCanvasContent(paddingPx = 96) {
     offsetX = rect.width / 2 - centerUX * renderedUnit;
     offsetY = rect.height / 2 + centerUY * renderedUnit;
     return true;
+}
+
+function internalSelectionScopeToScene(scope) {
+    if (scope === "components") {
+        return "parts";
+    }
+    if (scope === "wires") {
+        return "wires";
+    }
+    return "both";
+}
+
+function sceneSelectionScopeToInternal(scope) {
+    if (scope === "parts") {
+        return "components";
+    }
+    if (scope === "wires") {
+        return "wires";
+    }
+    return "both";
+}
+
+function cloneSceneSelectionState() {
+    return {
+        componentIds: [...selectedComponentIds],
+        wireIds: [...selectedWireIds],
+        junctionIds: selectedJunctionId ? [String(selectedJunctionId)] : [],
+        scope: internalSelectionScopeToScene(selectionScope),
+    };
+}
+
+function cloneCurrentStudioScene() {
+    return {
+        components: JSON.parse(JSON.stringify(components)),
+        wires: JSON.parse(JSON.stringify(wires)),
+        junctions: JSON.parse(JSON.stringify(junctions)),
+        selection: cloneSceneSelectionState(),
+    };
+}
+
+function findComponentByIdInScene(scene, compId) {
+    return scene?.components?.find((comp) => String(comp.id) === String(compId)) ?? null;
+}
+
+function findJunctionByIdInScene(scene, junctionId) {
+    return scene?.junctions?.find((junction) => String(junction.id) === String(junctionId)) ?? null;
+}
+
+function findPinByIdInScene(comp, pinId) {
+    const def = comp ? COMPONENT_DEFS[comp.type] : null;
+    return def?.pins?.find((pin) => getPinId(pin) === String(pinId)) ?? null;
+}
+
+function getComponentWorldBoundsForSceneComponent(comp) {
+    const def = COMPONENT_DEFS[comp.type];
+    if (!def) {
+        return null;
+    }
+
+    const localBounds = def.bodyBounds ?? computeSymbolBounds(def.graphics ?? [], []);
+    const worldCorners = [
+        localPointToWorld(comp, { uX: localBounds.minX, uY: localBounds.minY }),
+        localPointToWorld(comp, { uX: localBounds.minX, uY: localBounds.maxY }),
+        localPointToWorld(comp, { uX: localBounds.maxX, uY: localBounds.minY }),
+        localPointToWorld(comp, { uX: localBounds.maxX, uY: localBounds.maxY }),
+    ];
+
+    return {
+        left: Math.min(...worldCorners.map((point) => point.uX)),
+        right: Math.max(...worldCorners.map((point) => point.uX)),
+        top: Math.max(...worldCorners.map((point) => point.uY)),
+        bottom: Math.min(...worldCorners.map((point) => point.uY)),
+    };
+}
+
+function resolveWireEndpointInScene(scene, endpoint) {
+    const normalizedEndpoint = normalizeEndpoint(endpoint);
+    if (!normalizedEndpoint) {
+        return null;
+    }
+
+    if (normalizedEndpoint.kind === "junction") {
+        const junction = findJunctionByIdInScene(scene, normalizedEndpoint.junctionId);
+        if (!junction) {
+            return null;
+        }
+        const point = getScreenPointFromUnits(junction.uX, junction.uY);
+        return {
+            kind: "junction",
+            junction,
+            junctionId: junction.id,
+            label: junction.id,
+            uX: junction.uX,
+            uY: junction.uY,
+            point,
+            direction: undefined,
+        };
+    }
+
+    const comp = findComponentByIdInScene(scene, normalizedEndpoint.compId);
+    const pin = comp ? findPinByIdInScene(comp, normalizedEndpoint.pinId) : null;
+    if (!comp || !pin) {
+        return null;
+    }
+
+    const pinWorld = getPinWorldGeometry(comp, pin);
+    const tipScreen = getScreenPointFromUnits(pinWorld.uX, pinWorld.uY);
+    return {
+        kind: "pin",
+        comp,
+        pin,
+        compId: normalizedEndpoint.compId,
+        pinId: normalizedEndpoint.pinId,
+        label: pinWorld.label,
+        uX: pinWorld.uX,
+        uY: pinWorld.uY,
+        point: tipScreen,
+        direction: getPinRoutingDirection(comp, pin),
+    };
+}
+
+function getManualWirePointsForScene(scene, wire, endPoint = null) {
+    const startEndpoint = resolveWireEndpointInScene(scene, wire?.from);
+    if (!startEndpoint) {
+        return [];
+    }
+    const routePoints = Array.isArray(wire?.routePoints) ? wire.routePoints : [];
+    const screenPoints = [
+        startEndpoint.point,
+        ...routePoints.map((point) => getScreenPointFromUnits(point.uX, point.uY)),
+    ];
+    if (endPoint) {
+        screenPoints.push(endPoint);
+    }
+    return screenPoints;
+}
+
+function buildRenderedWireRoutesForScene(scene) {
+    const renderedRoutes = [];
+    (scene?.wires ?? []).forEach((wire) => {
+        const start = resolveWireEndpointInScene(scene, wire.from);
+        const end = resolveWireEndpointInScene(scene, wire.to);
+        if (!start || !end) {
+            return;
+        }
+        const routePoints = Array.isArray(wire.routePoints) && wire.routePoints.length > 0
+            ? getManualWirePointsForScene(scene, wire, end.point)
+            : [start.point, end.point];
+        if (routePoints.length < 2) {
+            return;
+        }
+        renderedRoutes.push({
+            connection: wire,
+            start,
+            end,
+            routePoints,
+        });
+    });
+    return renderedRoutes;
+}
+
+function serializeWireEndpointForScene(endpoint) {
+    const normalizedEndpoint = normalizeEndpoint(endpoint);
+    if (!normalizedEndpoint) {
+        return null;
+    }
+    if (normalizedEndpoint.kind === "junction") {
+        return {
+            kind: "junction",
+            junctionId: String(normalizedEndpoint.junctionId),
+        };
+    }
+    return {
+        kind: "pin",
+        componentId: String(normalizedEndpoint.compId),
+        pinId: String(normalizedEndpoint.pinId),
+    };
+}
+
+function serializeComponentForSceneState(comp) {
+    const def = COMPONENT_DEFS[comp.type];
+    const bodyBounds = getComponentWorldBoundsForSceneComponent(comp);
+    const fields = Object.fromEntries(
+        (def?.fields ?? [])
+            .filter((field) => field.visible !== false)
+            .map((field) => [field.key, getFieldDisplayText(field, comp, def)]),
+    );
+
+    return {
+        id: String(comp.id),
+        symbolKey: comp.type,
+        reference: comp.refdes || def?.referencePrefix || "U?",
+        ...(comp.properties?.value ? { value: String(comp.properties.value) } : {}),
+        ...(comp.unitId ? { unitId: String(comp.unitId) } : {}),
+        ...(Object.keys(fields).length ? { fields } : {}),
+        ...(Object.keys(comp.properties ?? {}).length ? { properties: { ...comp.properties } } : {}),
+        placement: {
+            x: comp.uX,
+            y: comp.uY,
+            rotationDeg: comp.rotation || 0,
+        },
+        bodyBounds: bodyBounds ?? {
+            left: comp.uX,
+            top: comp.uY,
+            right: comp.uX,
+            bottom: comp.uY,
+        },
+        pins: (def?.pins ?? []).map((pin) => {
+            const geometry = getPinWorldGeometry(comp, pin);
+            const direction = getPinRoutingDirection(comp, pin);
+            return {
+                pinId: getPinId(pin),
+                ...(pin.number ? { number: String(pin.number) } : {}),
+                ...(pin.name ? { name: String(pin.name) } : {}),
+                ...(pin.electricalType ? { electricalType: String(pin.electricalType) } : {}),
+                ...(direction ? { direction } : {}),
+                x: geometry.uX,
+                y: geometry.uY,
+            };
+        }),
+    };
+}
+
+function serializeWireForSceneState(wire) {
+    return {
+        id: String(wire.id),
+        ...(wire.netId ? { netId: String(wire.netId) } : {}),
+        ...(wire.label ? { label: String(wire.label) } : {}),
+        ...(wire.properties?.netLabel && !wire.label ? { label: String(wire.properties.netLabel) } : {}),
+        from: serializeWireEndpointForScene(wire.from),
+        to: serializeWireEndpointForScene(wire.to),
+        routePoints: (wire.routePoints ?? []).map((point) => ({
+            x: point.uX,
+            y: point.uY,
+        })),
+    };
+}
+
+function buildSceneNetSummary(scene) {
+    const adjacency = new Map();
+    const wireByNodeKey = new Map();
+    const pinMembers = [];
+    const junctionMembers = [];
+
+    const ensureNode = (nodeKey) => {
+        if (!nodeKey || adjacency.has(nodeKey)) {
+            return;
+        }
+        adjacency.set(nodeKey, new Set());
+    };
+
+    const connectNodes = (firstKey, secondKey) => {
+        if (!firstKey || !secondKey || firstKey === secondKey) {
+            return;
+        }
+        ensureNode(firstKey);
+        ensureNode(secondKey);
+        adjacency.get(firstKey)?.add(secondKey);
+        adjacency.get(secondKey)?.add(firstKey);
+    };
+
+    (scene.components ?? []).forEach((comp) => {
+        const def = COMPONENT_DEFS[comp.type];
+        (def?.pins ?? []).forEach((pin) => {
+            const nodeKey = getGraphNodeKeyForEndpoint({ kind: "pin", compId: comp.id, pinId: getPinId(pin) });
+            ensureNode(nodeKey);
+            pinMembers.push({
+                nodeKey,
+                member: {
+                    kind: "component_pin",
+                    id: String(comp.id),
+                    pinId: getPinId(pin),
+                },
+            });
+        });
+    });
+
+    (scene.junctions ?? []).forEach((junction) => {
+        const nodeKey = getGraphNodeKeyForEndpoint({ kind: "junction", junctionId: junction.id });
+        ensureNode(nodeKey);
+        junctionMembers.push({
+            nodeKey,
+            member: {
+                kind: "junction",
+                id: String(junction.id),
+            },
+        });
+    });
+
+    (scene.wires ?? []).forEach((wire) => {
+        const wireNodeKey = `wire:${String(wire.id)}`;
+        ensureNode(wireNodeKey);
+        wireByNodeKey.set(wireNodeKey, wire);
+        connectNodes(wireNodeKey, getGraphNodeKeyForEndpoint(wire.from));
+        connectNodes(wireNodeKey, getGraphNodeKeyForEndpoint(wire.to));
+    });
+
+    const memberByNodeKey = new Map();
+    pinMembers.forEach(({ nodeKey, member }) => memberByNodeKey.set(nodeKey, member));
+    junctionMembers.forEach(({ nodeKey, member }) => memberByNodeKey.set(nodeKey, member));
+
+    const nets = [];
+    const visited = new Set();
+    let fallbackIndex = 1;
+
+    adjacency.forEach((_, nodeKey) => {
+        if (visited.has(nodeKey)) {
+            return;
+        }
+        const queue = [nodeKey];
+        const cluster = [];
+        const labels = [];
+        const netIds = [];
+        visited.add(nodeKey);
+
+        while (queue.length > 0) {
+            const currentNodeKey = queue.shift();
+            const wire = wireByNodeKey.get(currentNodeKey);
+            const member = memberByNodeKey.get(currentNodeKey);
+            if (wire) {
+                cluster.push({ kind: "wire", id: String(wire.id) });
+                if (wire.label || wire.properties?.netLabel) {
+                    labels.push(String(wire.label || wire.properties.netLabel));
+                }
+                if (wire.netId) {
+                    netIds.push(String(wire.netId));
+                }
+            } else if (member) {
+                cluster.push(member);
+            }
+
+            (adjacency.get(currentNodeKey) ?? []).forEach((neighbor) => {
+                if (visited.has(neighbor)) {
+                    return;
+                }
+                visited.add(neighbor);
+                queue.push(neighbor);
+            });
+        }
+
+        if (!cluster.length) {
+            return;
+        }
+        const hasWire = cluster.some((member) => member.kind === "wire");
+        if (!hasWire && cluster.length < 2) {
+            return;
+        }
+
+        cluster.sort((left, right) => {
+            const leftKey = `${left.kind}:${left.id}:${left.pinId ?? ""}`;
+            const rightKey = `${right.kind}:${right.id}:${right.pinId ?? ""}`;
+            return leftKey.localeCompare(rightKey);
+        });
+
+        nets.push({
+            id: netIds[0] ?? `net_${fallbackIndex}`,
+            ...(labels[0] ? { label: labels[0] } : {}),
+            members: cluster,
+        });
+        fallbackIndex += 1;
+    });
+
+    return nets;
+}
+
+function exportSceneState(captureSource = "studio_canvas") {
+    const scene = cloneCurrentStudioScene();
+    return {
+        schema: "aura.scene_state.v1",
+        metadata: {
+            title: "Studio Canvas Scene",
+            description: "Live Studio scene export for AI context and patch preview.",
+            captureSource,
+            sourceSchematicId: "studio-canvas",
+            sourceRevision: Math.max(0, historyIndex),
+            standard: "iec",
+        },
+        canvas: {
+            grid: {
+                unitMm: BASE_UNIT_MM,
+                pixelsPerUnit,
+            },
+            viewport: {
+                zoom,
+                offsetX,
+                offsetY,
+            },
+        },
+        components: scene.components.map(serializeComponentForSceneState),
+        wires: scene.wires.map(serializeWireForSceneState),
+        junctions: scene.junctions.map((junction) => ({
+            id: String(junction.id),
+            x: junction.uX,
+            y: junction.uY,
+        })),
+        selection: scene.selection,
+        netSummary: buildSceneNetSummary(scene),
+        issues: [],
+    };
+}
+
+function buildAllowedSymbolKeys() {
+    return dedupeIds([
+        ...COMMON_COMPONENTS.map((entry) => `${entry.libraryId}:${entry.symbolId}`),
+        ...components.map((component) => String(component.type)),
+    ]).sort((left, right) => left.localeCompare(right));
+}
+
+function buildSelectionContextSummary() {
+    const componentSummary = selectedComponentIds.length
+        ? `components=${selectedComponentIds.join(", ")}`
+        : "components=none";
+    const wireSummary = selectedWireIds.length
+        ? `wires=${selectedWireIds.join(", ")}`
+        : "wires=none";
+    const junctionSummary = selectedJunctionId
+        ? `junction=${selectedJunctionId}`
+        : "junction=none";
+    return `${componentSummary}; ${wireSummary}; ${junctionSummary}; scope=${internalSelectionScopeToScene(selectionScope)}`;
+}
+
+function buildExternalAiPromptPack(userRequest) {
+    const trimmedRequest = String(userRequest ?? "").trim();
+    if (!trimmedRequest) {
+        throw new Error("Enter a user request before generating the prompt pack.");
+    }
+
+    const sceneState = exportSceneState();
+    const allowedSymbols = buildAllowedSymbolKeys();
+    const examplePatch = {
+        ...AI_PATCH_EXAMPLE,
+        metadata: {
+            ...AI_PATCH_EXAMPLE.metadata,
+            title: "Example only",
+        },
+    };
+
+    return [
+        "You are generating a deterministic circuit patch for AURA Studio.",
+        "",
+        "Hard rules:",
+        "- Output valid JSON only.",
+        "- Do not wrap the JSON in markdown fences.",
+        "- Do not include explanation text before or after the JSON.",
+        "- The JSON must match schema `aura.circuit_patch.v1`.",
+        "- The patch target scene schema must be `aura.scene_state.v1`.",
+        "- Preserve existing ids unless you are adding new items.",
+        "- Use only the allowed symbol keys listed below for new components.",
+        "- Prefer patching the current circuit instead of regenerating it.",
+        "- If a component, wire, or junction is not meant to change, leave it untouched.",
+        "",
+        "User request:",
+        trimmedRequest,
+        "",
+        "Current selection context:",
+        buildSelectionContextSummary(),
+        "",
+        "Allowed symbol keys for new components:",
+        JSON.stringify(allowedSymbols, null, 2),
+        "",
+        "Required patch shape summary:",
+        JSON.stringify({
+            schema: "aura.circuit_patch.v1",
+            metadata: {
+                title: "short patch title",
+                mode: "preview",
+                requestedBy: "external_ai",
+            },
+            target: {
+                sceneSchema: "aura.scene_state.v1",
+                sourceSchematicId: "studio-canvas",
+                sourceRevision: Math.max(0, historyIndex),
+            },
+            operations: [
+                { op: "add_component", component: { id: "new_id", symbolKey: getPreferredSymbolKey("Device:R"), reference: "R9", placement: { x: 0, y: 0, rotationDeg: 0 } } },
+            ],
+        }, null, 2),
+        "",
+        "Current scene state JSON:",
+        JSON.stringify(sceneState, null, 2),
+        "",
+        "Example valid patch JSON:",
+        JSON.stringify(examplePatch, null, 2),
+        "",
+        "Return only one JSON object matching `aura.circuit_patch.v1`.",
+    ].join("\n");
+}
+
+async function sendBuiltInAiRequest() {
+    if (aiRequestInFlight) {
+        return;
+    }
+    const {
+        providerSelect,
+        modelSelect,
+        geminiKeyInput,
+        sceneOutput,
+        userRequest,
+        patchInput,
+    } = getAiToolsElements();
+    const requestText = String(userRequest?.value ?? "").trim();
+    if (!requestText) {
+        throw new Error("Enter a request for the built-in AI first.");
+    }
+
+    const provider = providerSelect?.value || "ollama";
+    const model = String(modelSelect?.value ?? "").trim() || getAiDefaultModelForProvider(provider);
+    const sceneState = exportSceneState();
+    const nextConversation = [
+        ...aiConversation,
+        { role: "user", content: requestText },
+    ];
+
+    aiConversation = nextConversation;
+    renderAiChatLog();
+    if (sceneOutput) {
+        sceneOutput.value = JSON.stringify(sceneState, null, 2);
+    }
+
+    setAiControlsBusy(true);
+    setAiToolsStatus(`Sending request to ${provider}...`);
+    setAiRunStatus(`Sending to ${provider}:${model}. First local response can take time while Ollama loads the model...`, "busy");
+
+    try {
+        const result = await apiPostWithTimeout("/ai/generate-patch", {
+            provider,
+            model,
+            apiKey: provider === "gemini" ? String(geminiKeyInput?.value ?? "").trim() : "",
+            sceneState,
+            allowedSymbolKeys: buildAllowedSymbolKeys(),
+            conversation: nextConversation,
+        });
+
+        aiConversation = [
+            ...nextConversation,
+            { role: "assistant", content: String(result.assistantMessage || "AI returned a response.") },
+        ];
+        renderAiChatLog();
+        if (userRequest) {
+            userRequest.value = "";
+        }
+
+        if (result.patch && patchInput) {
+            patchInput.value = JSON.stringify(result.patch, null, 2);
+            setAiRunStatus("AI returned a valid patch. Building canvas preview...", "busy");
+            await previewCircuitPatch(result.patch);
+            setAiRunStatus("Patch preview is ready. Review the canvas, then Apply Patch if it looks correct.", "success");
+            setAiToolsStatus(`Built-in AI responded with a patch using ${result.provider}:${result.model}. The patch is now previewed on canvas.`, "success");
+            return;
+        }
+
+        clearAiPatchPreview();
+        const noPatchSummary = summarizeAiMessage(result.assistantMessage, "AI did not return a patch.");
+        setAiRunStatus(`No patch returned: ${noPatchSummary}`, "success");
+        setAiToolsStatus(`Built-in AI responded without a patch using ${result.provider}:${result.model}. ${noPatchSummary}`, "success");
+    } catch (error) {
+        setAiRunStatus(error?.message || "AI request failed.", "error");
+        throw error;
+    } finally {
+        setAiControlsBusy(false);
+    }
+}
+
+function createPatchError(message) {
+    return new Error(`Patch invalid: ${message}`);
+}
+
+function normalizePatchPlacement(placement, label) {
+    if (!placement || typeof placement !== "object") {
+        throw createPatchError(`${label} requires placement.`);
+    }
+    if (![placement.x, placement.y, placement.rotationDeg].every((value) => Number.isFinite(Number(value)))) {
+        throw createPatchError(`${label} placement requires numeric x, y, and rotationDeg.`);
+    }
+    return {
+        x: Number(placement.x),
+        y: Number(placement.y),
+        rotationDeg: Number(placement.rotationDeg),
+        ...(placement.mirrorX != null ? { mirrorX: !!placement.mirrorX } : {}),
+        ...(placement.mirrorY != null ? { mirrorY: !!placement.mirrorY } : {}),
+    };
+}
+
+function normalizePatchEndpointRecord(endpoint, label) {
+    if (!endpoint || typeof endpoint !== "object") {
+        throw createPatchError(`${label} endpoint is missing.`);
+    }
+    if (endpoint.kind === "pin") {
+        if (!endpoint.componentId || !endpoint.pinId) {
+            throw createPatchError(`${label} pin endpoint requires componentId and pinId.`);
+        }
+        return {
+            kind: "pin",
+            compId: String(endpoint.componentId),
+            pinId: String(endpoint.pinId),
+        };
+    }
+    if (endpoint.kind === "junction") {
+        if (!endpoint.junctionId) {
+            throw createPatchError(`${label} junction endpoint requires junctionId.`);
+        }
+        return {
+            kind: "junction",
+            junctionId: String(endpoint.junctionId),
+        };
+    }
+    throw createPatchError(`${label} endpoint kind must be pin or junction.`);
+}
+
+function normalizePatchRoutePoints(routePoints, label) {
+    if (!Array.isArray(routePoints)) {
+        throw createPatchError(`${label} routePoints must be an array.`);
+    }
+    return routePoints.map((point, index) => {
+        if (!point || !Number.isFinite(Number(point.x)) || !Number.isFinite(Number(point.y))) {
+            throw createPatchError(`${label} routePoints[${index}] requires numeric x and y.`);
+        }
+        return {
+            uX: Number(point.x),
+            uY: Number(point.y),
+        };
+    });
+}
+
+function normalizePatchSelectionRecord(selection) {
+    if (!selection || typeof selection !== "object") {
+        throw createPatchError("set_selection requires a selection object.");
+    }
+    if (!["parts", "wires", "both"].includes(selection.scope)) {
+        throw createPatchError("set_selection.scope must be parts, wires, or both.");
+    }
+    const normalizeIds = (ids) => {
+        if (!Array.isArray(ids)) {
+            throw createPatchError("selection ids must be arrays.");
+        }
+        return dedupeIds(ids);
+    };
+    return {
+        componentIds: normalizeIds(selection.componentIds),
+        wireIds: normalizeIds(selection.wireIds),
+        junctionIds: normalizeIds(selection.junctionIds),
+        scope: selection.scope,
+    };
+}
+
+function normalizePatchComponentRecord(component, label) {
+    if (!component || typeof component !== "object") {
+        throw createPatchError(`${label} requires a component record.`);
+    }
+    if (!component.id || !component.symbolKey || !component.reference) {
+        throw createPatchError(`${label} requires id, symbolKey, and reference.`);
+    }
+    return {
+        id: String(component.id),
+        type: String(component.symbolKey),
+        refdes: String(component.reference),
+        uX: Number(component.placement?.x),
+        uY: Number(component.placement?.y),
+        rotation: Number(component.placement?.rotationDeg),
+        properties: {
+            ...(component.properties ?? {}),
+            ...(component.value != null ? { value: String(component.value) } : {}),
+        },
+        ...(component.unitId ? { unitId: String(component.unitId) } : {}),
+        ...(component.fields ? { fields: { ...component.fields } } : {}),
+    };
+}
+
+function normalizePatchWireRecord(wire, label) {
+    if (!wire || typeof wire !== "object") {
+        throw createPatchError(`${label} requires a wire record.`);
+    }
+    if (!wire.id) {
+        throw createPatchError(`${label} requires an id.`);
+    }
+    return {
+        id: String(wire.id),
+        from: normalizePatchEndpointRecord(wire.from, `${label}.from`),
+        to: normalizePatchEndpointRecord(wire.to, `${label}.to`),
+        routePoints: normalizePatchRoutePoints(wire.routePoints ?? [], `${label}.routePoints`),
+        color: currentWireColor,
+        ...(wire.netId ? { netId: String(wire.netId) } : {}),
+        ...(wire.label ? { label: String(wire.label) } : {}),
+        ...(wire.label ? { properties: { netLabel: String(wire.label) } } : {}),
+    };
+}
+
+function normalizeCircuitPatchPayload(payload) {
+    if (!payload || typeof payload !== "object") {
+        throw createPatchError("Payload must be an object.");
+    }
+    if (payload.schema !== "aura.circuit_patch.v1") {
+        throw createPatchError("schema must be aura.circuit_patch.v1.");
+    }
+    if (!payload.metadata?.title || !["preview", "apply"].includes(payload.metadata?.mode)) {
+        throw createPatchError("metadata.title and metadata.mode are required.");
+    }
+    if (payload.target?.sceneSchema !== "aura.scene_state.v1") {
+        throw createPatchError("target.sceneSchema must be aura.scene_state.v1.");
+    }
+    if (!Array.isArray(payload.operations) || payload.operations.length === 0) {
+        throw createPatchError("operations must contain at least one operation.");
+    }
+    return payload;
+}
+
+async function ensurePatchComponentDefinitions(payload) {
+    const symbolKeys = [];
+    payload.operations.forEach((operation) => {
+        if (operation.op === "add_component" && operation.component?.symbolKey) {
+            symbolKeys.push(String(operation.component.symbolKey));
+        }
+    });
+    for (const symbolKey of dedupeIds(symbolKeys)) {
+        const def = await ensureComponentDefByKey(symbolKey);
+        if (!def) {
+            throw createPatchError(`unknown symbolKey ${symbolKey}.`);
+        }
+    }
+}
+
+function requireComponentInScene(scene, componentId, label) {
+    const component = findComponentByIdInScene(scene, componentId);
+    if (!component) {
+        throw createPatchError(`${label} references missing component ${componentId}.`);
+    }
+    return component;
+}
+
+function requireJunctionInScene(scene, junctionId, label) {
+    const junction = findJunctionByIdInScene(scene, junctionId);
+    if (!junction) {
+        throw createPatchError(`${label} references missing junction ${junctionId}.`);
+    }
+    return junction;
+}
+
+function validateEndpointAgainstScene(scene, endpoint, label) {
+    if (endpoint.kind === "junction") {
+        requireJunctionInScene(scene, endpoint.junctionId, label);
+        return;
+    }
+    const component = requireComponentInScene(scene, endpoint.compId, label);
+    const pin = findPinByIdInScene(component, endpoint.pinId);
+    if (!pin) {
+        throw createPatchError(`${label} references missing pin ${endpoint.pinId} on ${endpoint.compId}.`);
+    }
+}
+
+function applyPatchOperationsToScene(scene, payload) {
+    payload.operations.forEach((operation, index) => {
+        const label = `operations[${index}]`;
+        if (!operation || typeof operation !== "object" || !operation.op) {
+            throw createPatchError(`${label} is missing op.`);
+        }
+
+        if (operation.op === "add_component") {
+            const placement = normalizePatchPlacement(operation.component?.placement, `${label}.component`);
+            const component = normalizePatchComponentRecord({
+                ...operation.component,
+                placement,
+            }, `${label}.component`);
+            if (findComponentByIdInScene(scene, component.id)) {
+                throw createPatchError(`${label} component id ${component.id} already exists.`);
+            }
+            scene.components.push(component);
+            return;
+        }
+
+        if (operation.op === "update_component") {
+            const component = requireComponentInScene(scene, operation.id, label);
+            const changes = operation.changes;
+            if (!changes || typeof changes !== "object" || !Object.keys(changes).length) {
+                throw createPatchError(`${label} requires changes.`);
+            }
+            if (changes.reference != null) {
+                component.refdes = String(changes.reference);
+            }
+            if (changes.value != null) {
+                component.properties = {
+                    ...(component.properties ?? {}),
+                    value: String(changes.value),
+                };
+            }
+            if (changes.unitId != null) {
+                component.unitId = String(changes.unitId);
+            }
+            if (changes.fields) {
+                component.fields = { ...changes.fields };
+            }
+            if (changes.properties) {
+                component.properties = { ...(changes.properties ?? {}) };
+                if (changes.value != null) {
+                    component.properties.value = String(changes.value);
+                }
+            }
+            if (changes.placement) {
+                const placement = normalizePatchPlacement(changes.placement, `${label}.changes.placement`);
+                component.uX = placement.x;
+                component.uY = placement.y;
+                component.rotation = placement.rotationDeg;
+            }
+            return;
+        }
+
+        if (operation.op === "delete_component") {
+            const componentId = String(operation.id || "");
+            requireComponentInScene(scene, componentId, label);
+            scene.components = scene.components.filter((component) => String(component.id) !== componentId);
+            scene.wires = scene.wires.filter((wire) => {
+                const from = normalizeEndpoint(wire.from);
+                const to = normalizeEndpoint(wire.to);
+                return !((from?.kind === "pin" && String(from.compId) === componentId)
+                    || (to?.kind === "pin" && String(to.compId) === componentId));
+            });
+            return;
+        }
+
+        if (operation.op === "add_junction") {
+            const junction = operation.junction;
+            if (!junction?.id || !Number.isFinite(Number(junction.x)) || !Number.isFinite(Number(junction.y))) {
+                throw createPatchError(`${label}.junction requires id, x, and y.`);
+            }
+            if (findJunctionByIdInScene(scene, junction.id)) {
+                throw createPatchError(`${label} junction id ${junction.id} already exists.`);
+            }
+            scene.junctions.push({
+                id: String(junction.id),
+                uX: Number(junction.x),
+                uY: Number(junction.y),
+            });
+            return;
+        }
+
+        if (operation.op === "update_junction") {
+            const junction = requireJunctionInScene(scene, operation.id, label);
+            if (!operation.changes || !Number.isFinite(Number(operation.changes.x)) || !Number.isFinite(Number(operation.changes.y))) {
+                throw createPatchError(`${label}.changes requires numeric x and y.`);
+            }
+            junction.uX = Number(operation.changes.x);
+            junction.uY = Number(operation.changes.y);
+            return;
+        }
+
+        if (operation.op === "delete_junction") {
+            const junctionId = String(operation.id || "");
+            requireJunctionInScene(scene, junctionId, label);
+            scene.junctions = scene.junctions.filter((junction) => String(junction.id) !== junctionId);
+            scene.wires = scene.wires.filter((wire) => {
+                const from = normalizeEndpoint(wire.from);
+                const to = normalizeEndpoint(wire.to);
+                return !((from?.kind === "junction" && String(from.junctionId) === junctionId)
+                    || (to?.kind === "junction" && String(to.junctionId) === junctionId));
+            });
+            return;
+        }
+
+        if (operation.op === "add_wire") {
+            const wire = normalizePatchWireRecord(operation.wire, `${label}.wire`);
+            if (scene.wires.some((entry) => String(entry.id) === wire.id)) {
+                throw createPatchError(`${label} wire id ${wire.id} already exists.`);
+            }
+            validateEndpointAgainstScene(scene, wire.from, `${label}.wire.from`);
+            validateEndpointAgainstScene(scene, wire.to, `${label}.wire.to`);
+            scene.wires.push(wire);
+            return;
+        }
+
+        if (operation.op === "update_wire") {
+            const wire = scene.wires.find((entry) => String(entry.id) === String(operation.id));
+            if (!wire) {
+                throw createPatchError(`${label} references missing wire ${operation.id}.`);
+            }
+            const changes = operation.changes;
+            if (!changes || typeof changes !== "object" || !Object.keys(changes).length) {
+                throw createPatchError(`${label} requires changes.`);
+            }
+            if (changes.from) {
+                wire.from = normalizePatchEndpointRecord(changes.from, `${label}.changes.from`);
+                validateEndpointAgainstScene(scene, wire.from, `${label}.changes.from`);
+            }
+            if (changes.to) {
+                wire.to = normalizePatchEndpointRecord(changes.to, `${label}.changes.to`);
+                validateEndpointAgainstScene(scene, wire.to, `${label}.changes.to`);
+            }
+            if (changes.routePoints) {
+                wire.routePoints = normalizePatchRoutePoints(changes.routePoints, `${label}.changes.routePoints`);
+            }
+            if (changes.netId != null) {
+                wire.netId = String(changes.netId);
+            }
+            if (changes.label != null) {
+                wire.label = String(changes.label);
+                wire.properties = {
+                    ...(wire.properties ?? {}),
+                    netLabel: String(changes.label),
+                };
+            }
+            return;
+        }
+
+        if (operation.op === "delete_wire") {
+            const wireId = String(operation.id || "");
+            if (!scene.wires.some((entry) => String(entry.id) === wireId)) {
+                throw createPatchError(`${label} references missing wire ${wireId}.`);
+            }
+            scene.wires = scene.wires.filter((wire) => String(wire.id) !== wireId);
+            return;
+        }
+
+        if (operation.op === "set_selection") {
+            const selection = normalizePatchSelectionRecord(operation.selection);
+            selection.componentIds.forEach((id) => requireComponentInScene(scene, id, `${label}.selection.componentIds`));
+            selection.wireIds.forEach((id) => {
+                if (!scene.wires.some((wire) => String(wire.id) === String(id))) {
+                    throw createPatchError(`${label}.selection references missing wire ${id}.`);
+                }
+            });
+            selection.junctionIds.forEach((id) => requireJunctionInScene(scene, id, `${label}.selection.junctionIds`));
+            scene.selection = selection;
+            return;
+        }
+
+        throw createPatchError(`${label} has unsupported op ${operation.op}.`);
+    });
+
+    scene.selection = scene.selection ?? {
+        componentIds: [],
+        wireIds: [],
+        junctionIds: [],
+        scope: "both",
+    };
+    scene.selection.componentIds = scene.selection.componentIds
+        .filter((id) => !!findComponentByIdInScene(scene, id));
+    scene.selection.wireIds = scene.selection.wireIds
+        .filter((id) => scene.wires.some((wire) => String(wire.id) === String(id)));
+    scene.selection.junctionIds = scene.selection.junctionIds
+        .filter((id) => !!findJunctionByIdInScene(scene, id));
+}
+
+function diffSceneCollection(currentItems, nextItems) {
+    const currentById = new Map(currentItems.map((item) => [String(item.id), item]));
+    const nextById = new Map(nextItems.map((item) => [String(item.id), item]));
+    const added = [];
+    const updated = [];
+    const deleted = [];
+
+    nextById.forEach((item, id) => {
+        if (!currentById.has(id)) {
+            added.push(item);
+            return;
+        }
+        if (JSON.stringify(currentById.get(id)) !== JSON.stringify(item)) {
+            updated.push({
+                before: currentById.get(id),
+                after: item,
+            });
+        }
+    });
+
+    currentById.forEach((item, id) => {
+        if (!nextById.has(id)) {
+            deleted.push(item);
+        }
+    });
+
+    return { added, updated, deleted };
+}
+
+function buildPatchPreviewState(payload) {
+    const currentScene = cloneCurrentStudioScene();
+    const nextScene = cloneCurrentStudioScene();
+    applyPatchOperationsToScene(nextScene, payload);
+    return {
+        title: payload.metadata.title,
+        currentScene,
+        nextScene,
+        components: diffSceneCollection(currentScene.components, nextScene.components),
+        wires: diffSceneCollection(currentScene.wires, nextScene.wires),
+        junctions: diffSceneCollection(currentScene.junctions, nextScene.junctions),
+    };
+}
+
+async function prepareCircuitPatchPayload(rawPayload) {
+    const payload = normalizeCircuitPatchPayload(rawPayload);
+    await ensurePatchComponentDefinitions(payload);
+    return payload;
+}
+
+function applySceneSelectionToStudio(selectionRecord) {
+    selectionScope = sceneSelectionScopeToInternal(selectionRecord?.scope);
+    selectedComponentIds = dedupeIds(selectionRecord?.componentIds ?? []);
+    selectedWireIds = dedupeIds(selectionRecord?.wireIds ?? []);
+    selectedJunctionId = selectionRecord?.junctionIds?.[0] ? String(selectionRecord.junctionIds[0]) : null;
+}
+
+function applyPreviewSceneToStudio(scene) {
+    components = JSON.parse(JSON.stringify(scene.components));
+    wires = JSON.parse(JSON.stringify(scene.wires));
+    junctions = JSON.parse(JSON.stringify(scene.junctions));
+    applySceneSelectionToStudio(scene.selection);
+    placingComponent = null;
+    activeWire = null;
+    handledActiveWireCrossings = [];
+    pendingWireTurnCrossingDecision = null;
+    pendingWireCanvasAction = null;
+    syncSelectionPresentation();
+    refreshWireAutoroutePanel();
+}
+
+function drawPreviewWireRoutes(routes, color, options = {}) {
+    const {
+        opacity = 1,
+        lineWidth = Math.max(1.5, wireWidth * zoom),
+        dashed = false,
+    } = options;
+    ctx.save();
+    ctx.globalAlpha = opacity;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = lineWidth;
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+    if (dashed) {
+        ctx.setLineDash([10, 6]);
+    }
+    routes.forEach((route) => {
+        if (!route?.routePoints?.length) {
+            return;
+        }
+        ctx.beginPath();
+        ctx.moveTo(route.routePoints[0].x, route.routePoints[0].y);
+        route.routePoints.slice(1).forEach((point) => ctx.lineTo(point.x, point.y));
+        ctx.stroke();
+    });
+    ctx.restore();
+}
+
+function drawPreviewComponentBounds(componentEntries, color, options = {}) {
+    const {
+        opacity = 1,
+        dashed = false,
+        fill = false,
+    } = options;
+    ctx.save();
+    ctx.globalAlpha = opacity;
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
+    ctx.lineWidth = 2;
+    if (dashed) {
+        ctx.setLineDash([8, 6]);
+    }
+    componentEntries.forEach((component) => {
+        const bounds = getComponentBodyBounds(component);
+        if (!bounds) {
+            return;
+        }
+        const width = Math.max(1, bounds.right - bounds.left);
+        const height = Math.max(1, bounds.bottom - bounds.top);
+        if (fill) {
+            ctx.fillRect(bounds.left, bounds.top, width, height);
+        } else {
+            ctx.strokeRect(bounds.left, bounds.top, width, height);
+        }
+        ctx.font = '11px "IBM Plex Sans", "Segoe UI", sans-serif';
+        ctx.textAlign = "left";
+        ctx.textBaseline = "bottom";
+        ctx.fillText(component.refdes || component.id, bounds.left + 4, bounds.top - 4);
+    });
+    ctx.restore();
+}
+
+function drawPreviewJunctions(junctionEntries, color, options = {}) {
+    const {
+        opacity = 1,
+        radius = Math.max(4, 4 * zoom),
+    } = options;
+    ctx.save();
+    ctx.globalAlpha = opacity;
+    ctx.fillStyle = color;
+    junctionEntries.forEach((junction) => {
+        const point = getScreenPointFromUnits(junction.uX, junction.uY);
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, radius, 0, Math.PI * 2);
+        ctx.fill();
+    });
+    ctx.restore();
+}
+
+function drawPatchPreviewOverlay() {
+    if (!aiPatchPreviewState) {
+        return;
+    }
+
+    const red = "#ff6b6b";
+    const green = "#58d26a";
+    const deletedRoutes = buildRenderedWireRoutesForScene({
+        components: aiPatchPreviewState.currentScene.components,
+        wires: aiPatchPreviewState.wires.deleted,
+        junctions: aiPatchPreviewState.currentScene.junctions,
+    });
+    const addedRoutes = buildRenderedWireRoutesForScene({
+        components: aiPatchPreviewState.nextScene.components,
+        wires: aiPatchPreviewState.wires.added,
+        junctions: aiPatchPreviewState.nextScene.junctions,
+    });
+    const updatedBeforeRoutes = buildRenderedWireRoutesForScene({
+        components: aiPatchPreviewState.currentScene.components,
+        wires: aiPatchPreviewState.wires.updated.map((entry) => entry.before),
+        junctions: aiPatchPreviewState.currentScene.junctions,
+    });
+    const updatedAfterRoutes = buildRenderedWireRoutesForScene({
+        components: aiPatchPreviewState.nextScene.components,
+        wires: aiPatchPreviewState.wires.updated.map((entry) => entry.after),
+        junctions: aiPatchPreviewState.nextScene.junctions,
+    });
+
+    drawPreviewWireRoutes(deletedRoutes, red, { opacity: 0.92, dashed: true });
+    drawPreviewWireRoutes(updatedBeforeRoutes, red, { opacity: 0.5, dashed: true });
+    drawPreviewWireRoutes(addedRoutes, green, { opacity: 0.95 });
+    drawPreviewWireRoutes(updatedAfterRoutes, green, { opacity: 0.95 });
+
+    drawPreviewComponentBounds(aiPatchPreviewState.components.deleted, red, { opacity: 0.9, dashed: true });
+    drawPreviewComponentBounds(aiPatchPreviewState.components.updated.map((entry) => entry.before), red, { opacity: 0.5, dashed: true });
+    drawPreviewComponentBounds(aiPatchPreviewState.components.added, green, { opacity: 0.95 });
+    drawPreviewComponentBounds(aiPatchPreviewState.components.updated.map((entry) => entry.after), green, { opacity: 0.95 });
+
+    drawPreviewJunctions(aiPatchPreviewState.junctions.deleted, red, { opacity: 0.85 });
+    drawPreviewJunctions(aiPatchPreviewState.junctions.updated.map((entry) => entry.before), red, { opacity: 0.45 });
+    drawPreviewJunctions(aiPatchPreviewState.junctions.added, green, { opacity: 0.95 });
+    drawPreviewJunctions(aiPatchPreviewState.junctions.updated.map((entry) => entry.after), green, { opacity: 0.95 });
+}
+
+async function previewCircuitPatch(rawPayload) {
+    const payload = await prepareCircuitPatchPayload(rawPayload);
+    aiPatchPreviewState = buildPatchPreviewState(payload);
+    setAiToolsStatus(`Preview ready: ${payload.operations.length} operation(s) from "${payload.metadata.title}".`, "success");
+    draw();
+}
+
+async function applyCircuitPatch(rawPayload) {
+    const payload = await prepareCircuitPatchPayload(rawPayload);
+    const previewState = buildPatchPreviewState(payload);
+    aiPatchPreviewState = null;
+    applyPreviewSceneToStudio(previewState.nextScene);
+    saveHistory();
+    draw();
+    return previewState;
 }
 
 function startPlacement(type, def) {
@@ -4159,7 +6523,7 @@ function openInspector(comp) {
 function draw() {
     ctx.clearRect(0, 0, canvas.width / dpr, canvas.height / dpr);
     if (useTextureBackground && texture.complete) { ctx.save(); ctx.translate(texOffsetX, texOffsetY); ctx.scale(texZoom, texZoom); ctx.drawImage(texture, 0, 0); ctx.restore(); }
-    if (showGrid) drawGrid(); drawWires(); drawAllComponents(); if (placingComponent) drawGhost(); if (showAllPinLabels) drawAllPinLabels(); if (hoveredPin) drawPinLabel(hoveredPin, { emphasized: true, showMarker: true }); drawSelectionBox(); drawRulers(); updateShellStatus();
+    if (showGrid) drawGrid(); drawWires(); drawAllComponents(); drawPatchPreviewOverlay(); if (placingComponent) drawGhost(); if (showAllPinLabels) drawAllPinLabels(); if (hoveredPin) drawPinLabel(hoveredPin, { emphasized: true, showMarker: true }); drawSelectionBox(); drawRulers(); updateShellStatus();
     refreshWireAutoroutePanel();
 }
 
@@ -4495,6 +6859,7 @@ function drawArcOnCanvas(graphic, scale) {
 
 function drawSchematicFallback(comp, def, opacity, screenX, screenY, scale) {
     const bounds = def.hitBounds ?? def.bounds ?? { minX: -200, maxX: 200, minY: -150, maxY: 150, width: 400, height: 300 };
+    const bodyBounds = def.bodyBounds ?? bounds;
     const schematicInk = textureIsDark ? "#efe48b" : "#111111";
     ctx.save();
     try {
@@ -4550,19 +6915,21 @@ function drawSchematicFallback(comp, def, opacity, screenX, screenY, scale) {
             }
         }
 
+        const labels = getCanvasComponentLabels(comp, def);
+        const labelFontSize = Math.max(10, 0.5 * scale);
+        const labelGap = Math.max(10, 0.45 * scale);
+        const topLabelY = Math.min(bodyBounds.minY, bounds.minY) * scale - labelGap;
+        const bottomLabelY = Math.max(bodyBounds.maxY, bounds.maxY) * scale + labelGap;
         ctx.fillStyle = schematicInk;
+        ctx.font = `${labelFontSize}px "IBM Plex Sans"`;
         ctx.textAlign = "center";
-        ctx.textBaseline = "middle";
-        for (const field of def.fields ?? []) {
-            if (field.visible === false) {
-                continue;
-            }
-            const text = getFieldDisplayText(field, comp, def);
-            if (!text) {
-                continue;
-            }
-            ctx.font = `${Math.max(10, (field.fontSize || 0.7) * scale * 0.8)}px "IBM Plex Sans"`;
-            ctx.fillText(text, field.x * scale, field.y * scale);
+        if (labels.reference) {
+            ctx.textBaseline = "bottom";
+            ctx.fillText(labels.reference, 0, topLabelY);
+        }
+        if (labels.value) {
+            ctx.textBaseline = "top";
+            ctx.fillText(labels.value, 0, bottomLabelY);
         }
         ctx.textAlign = "start";
         ctx.textBaseline = "alphabetic";
@@ -5260,9 +7627,15 @@ window.addEventListener('keydown', (e) => {
     const key = e.key.toLowerCase();
     const isTyping = ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName) || document.activeElement.isContentEditable;
     const importModal = document.getElementById("json-import-modal");
+    const aiToolsModal = document.getElementById("ai-tools-modal");
     if (key === 'escape' && importModal && !importModal.hidden) {
         e.preventDefault();
         closeJsonImportModal();
+        return;
+    }
+    if (key === 'escape' && aiToolsModal && !aiToolsModal.hidden) {
+        e.preventDefault();
+        closeAiToolsModal();
         return;
     }
     if (e.ctrlKey && key === 'z') { e.preventDefault(); e.stopImmediatePropagation(); undo(); return; }

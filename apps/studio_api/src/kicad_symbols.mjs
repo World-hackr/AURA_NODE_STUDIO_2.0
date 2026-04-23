@@ -94,9 +94,16 @@ function parseProperty(block, propertyName) {
     return null;
   }
 
+  const atMatch = match[2].match(/\(at\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)/m);
+  const sizeMatch = match[2].match(/\(font[\s\S]*?\(size\s+([-\d.]+)\s+([-\d.]+)/m);
+
   return {
     value: match[1],
     visible: !/\(hide yes\)/m.test(match[2]),
+    x: atMatch ? mmToMil(atMatch[1]) : 0,
+    y: atMatch ? -mmToMil(atMatch[2]) : 0,
+    rotationDeg: atMatch ? -Number(atMatch[3]) : 0,
+    fontSize: sizeMatch ? mmToMil(sizeMatch[1]) : 50,
   };
 }
 
@@ -595,6 +602,94 @@ export async function listKiCadSymbolsInLibrary(libraryName) {
     library: libraryData.library,
     symbols: libraryData.summaries,
   };
+}
+
+export async function searchKiCadSymbols(query, options = {}) {
+  const normalizedQuery = String(query || "").trim().toLowerCase();
+  if (!normalizedQuery) {
+    return [];
+  }
+
+  const limit = Math.max(1, Math.min(200, Number(options.limit) || 60));
+  const allowedLibraries = Array.isArray(options.libraries) && options.libraries.length
+    ? new Set(options.libraries.map((value) => String(value)))
+    : null;
+
+  const libraries = await listKiCadLibraries();
+  const targetLibraries = allowedLibraries
+    ? libraries.filter((library) => allowedLibraries.has(library.id))
+    : libraries;
+
+  const scoreSymbol = (symbol) => {
+    const symbolId = String(symbol.id || "").toLowerCase();
+    const symbolName = String(symbol.name || "").toLowerCase();
+    const sourceSymbol = String(symbol.sourceSymbol || "").toLowerCase();
+    const description = String(symbol.description || "").toLowerCase();
+    const reference = String(symbol.reference || "").toLowerCase();
+    const keywords = Array.isArray(symbol.keywords)
+      ? symbol.keywords.map((value) => String(value).toLowerCase())
+      : [];
+
+    let score = 0;
+    if (symbolId === normalizedQuery || symbolName === normalizedQuery || sourceSymbol === normalizedQuery) {
+      score += 1000;
+    }
+    if (sourceSymbol.startsWith(normalizedQuery)) {
+      score += 500;
+    }
+    if (symbolName.startsWith(normalizedQuery)) {
+      score += 350;
+    }
+    if (symbolId.includes(normalizedQuery)) {
+      score += 250;
+    }
+    if (symbolName.includes(normalizedQuery)) {
+      score += 180;
+    }
+    if (sourceSymbol.includes(normalizedQuery)) {
+      score += 180;
+    }
+    if (reference === normalizedQuery) {
+      score += 120;
+    }
+    if (description.includes(normalizedQuery)) {
+      score += 60;
+    }
+    if (keywords.some((keyword) => keyword.includes(normalizedQuery))) {
+      score += 40;
+    }
+    return score;
+  };
+
+  const results = [];
+  for (const library of targetLibraries) {
+    const libraryData = await loadKiCadLibrary(library.id);
+    if (!libraryData) {
+      continue;
+    }
+    for (const symbol of libraryData.summaries) {
+      const score = scoreSymbol(symbol);
+      if (score <= 0) {
+        continue;
+      }
+      results.push({
+        ...symbol,
+        matchScore: score,
+      });
+    }
+  }
+
+  return results
+    .sort((left, right) => {
+      if (right.matchScore !== left.matchScore) {
+        return right.matchScore - left.matchScore;
+      }
+      if (left.sourceLibrary !== right.sourceLibrary) {
+        return String(left.sourceLibrary).localeCompare(String(right.sourceLibrary));
+      }
+      return String(left.name).localeCompare(String(right.name));
+    })
+    .slice(0, limit);
 }
 
 export async function getKiCadSymbolDefinition(libraryName, symbolName) {

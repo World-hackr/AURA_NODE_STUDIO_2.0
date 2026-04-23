@@ -37,6 +37,7 @@
         <button class="tool-btn" title="Zoom to Selection"><img src="assets/kicad/zoom_selection_24.png" alt="Zoom Selection"></button>
         <div class="toolbar-sep"></div>
         <button class="tool-btn" id="json-import-trigger" title="Import JSON"><img src="assets/kicad/import_document_24.png" alt="Import JSON"></button>
+        <button class="tool-btn tool-btn--text" id="ai-tools-trigger" type="button" title="AI Scene and Patch Tools">AI</button>
         <button class="tool-btn" title="Update PCB"><img src="assets/kicad/update_pcb_from_sch_24.png" alt="Update PCB"></button>
     </div>
 
@@ -51,39 +52,57 @@
         </div>
 
         <!-- Left Panel: Library Browser -->
-        <div class="side-panel left-panel">
-            <div class="panel-header">Symbol Library</div>
-            <div class="panel-content">
-                <label class="panel-label" for="library-group">Symbol Set</label>
-                <select class="panel-search" id="library-group">
-                    <option value="common">Common schematic</option>
-                    <option value="power">Power and connectors</option>
-                    <option value="semiconductors">Semiconductors</option>
-                    <option value="ics">ICs and modules</option>
-                    <option value="all">All KiCad libraries</option>
-                </select>
-                <div class="panel-header panel-header-inline">Common Components</div>
-                <div class="common-component-list" id="common-component-list">
-                    <div class="empty-state">Loading common symbols...</div>
+        <div class="side-panel left-panel left-panel--compact">
+            <div class="panel-header">Symbols</div>
+            <div class="panel-content panel-content--dense">
+                <div class="panel-section panel-section--compact">
+                    <label class="panel-label" for="library-group">Symbol Set</label>
+                    <select class="panel-search" id="library-group">
+                        <option value="common">Common schematic</option>
+                        <option value="power">Power and connectors</option>
+                        <option value="semiconductors">Semiconductors</option>
+                        <option value="ics">ICs and modules</option>
+                        <option value="all">All KiCad libraries</option>
+                    </select>
+                    <input type="text" class="panel-search" id="global-symbol-search" placeholder="Search all symbols... 7805, IRFZ44N">
                 </div>
-                <input type="text" class="panel-search" id="library-search" placeholder="Filter...">
-                <div class="library-tree" id="kicad-library-list">
-                    <div class="empty-state">Loading libraries...</div>
+
+                <div class="panel-section panel-section--compact">
+                    <div class="panel-section-title">Quick Parts</div>
+                    <div class="common-component-list" id="common-component-list">
+                        <div class="empty-state">Loading common symbols...</div>
+                    </div>
                 </div>
-                <div class="panel-header">Symbols</div>
-                <input type="text" class="panel-search" id="symbol-search" placeholder="Search symbols...">
-                <div class="symbol-gallery browser-list--symbols" id="component-palette">
-                    <div class="empty-state">Loading symbols...</div>
+
+                <div class="library-browser-grid">
+                    <div class="panel-section panel-section--compact library-column">
+                        <div class="panel-section-title">Libraries</div>
+                        <input type="text" class="panel-search" id="library-search" placeholder="Filter libraries...">
+                        <div class="library-tree" id="kicad-library-list">
+                            <div class="empty-state">Loading libraries...</div>
+                        </div>
+                    </div>
+
+                    <div class="panel-section panel-section--compact symbol-column">
+                        <div class="panel-section-title">Results</div>
+                        <input type="text" class="panel-search" id="symbol-search" placeholder="Filter current results...">
+                        <div class="symbol-gallery browser-list--symbols" id="component-palette">
+                            <div class="empty-state">Loading symbols...</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="panel-header">Preview</div>
-                <div class="symbol-preview-area" id="selected-symbol-preview">
-                    <div class="empty-state">No symbol selected</div>
+
+                <div class="panel-section panel-section--compact preview-section">
+                    <div class="panel-section-title">Preview</div>
+                    <div class="symbol-preview-area" id="selected-symbol-preview">
+                        <div class="empty-state">No symbol selected</div>
+                    </div>
+                    <div class="symbol-preview-meta">
+                        <div class="symbol-preview-name" id="selected-symbol-name">No symbol selected</div>
+                        <div class="symbol-preview-description" id="selected-symbol-description">Pick a symbol to inspect and place.</div>
+                    </div>
+                    <button class="panel-action" id="add-selected-symbol" type="button" disabled>Place on canvas</button>
                 </div>
-                <div class="symbol-preview-meta">
-                    <div class="symbol-preview-name" id="selected-symbol-name">No symbol selected</div>
-                    <div class="symbol-preview-description" id="selected-symbol-description">Pick a symbol to inspect and place.</div>
-                </div>
-                <button class="panel-action" id="add-selected-symbol" type="button" disabled>Place on canvas</button>
             </div>
         </div>
 
@@ -219,6 +238,80 @@
             <div class="modal-footer">
                 <button class="panel-action panel-action--secondary" id="json-import-cancel" type="button">Cancel</button>
                 <button class="panel-action" id="json-import-apply" type="button">Apply To Canvas</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="ai-tools-modal" hidden>
+        <div class="modal-card modal-card--wide">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <div class="modal-title">AI Scene and Patch Tools</div>
+                    <div class="modal-subtitle">Use built-in AI with Ollama or Gemini, then preview or apply the returned <code>aura.circuit_patch.v1</code> payload.</div>
+                </div>
+                <button class="modal-close" id="ai-tools-close" type="button" aria-label="Close AI tools dialog">x</button>
+            </div>
+            <div class="modal-body modal-body--split">
+                <div class="ai-tools-column">
+                    <div class="panel-label">Built-In AI</div>
+                    <div class="ai-provider-grid">
+                        <label class="ai-provider-field">
+                            <span>Provider</span>
+                            <select class="panel-search" id="ai-provider-select">
+                                <option value="ollama">Ollama</option>
+                                <option value="gemini">Gemini</option>
+                            </select>
+                        </label>
+                        <label class="ai-provider-field">
+                            <span>Model</span>
+                            <select class="panel-search" id="ai-model-select">
+                                <option value="gemma4:e2b">gemma4:e2b</option>
+                            </select>
+                        </label>
+                        <label class="ai-provider-field ai-provider-field--full" id="ai-gemini-key-field">
+                            <span>Gemini API Key</span>
+                            <input class="panel-search" id="ai-gemini-key" type="password" placeholder="Paste Gemini API key for free-tier testing">
+                        </label>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="panel-action panel-action--secondary" id="ai-tools-refresh-models" type="button">Refresh Models</button>
+                        <button class="panel-action panel-action--secondary" id="ai-tools-check-provider" type="button">Check AI</button>
+                        <button class="panel-action" id="ai-tools-send-request" type="button">Ask Built-In AI</button>
+                        <button class="panel-action panel-action--secondary" id="ai-tools-clear-chat" type="button">Clear Chat</button>
+                    </div>
+                    <div class="ai-provider-status" id="ai-provider-status">AI status not checked yet.</div>
+                    <div class="ai-run-status" id="ai-run-status">Idle. Type a request, then click Ask Built-In AI.</div>
+                    <div class="panel-label">User Request</div>
+                    <textarea class="json-import-input ai-request-input" id="ai-user-request" spellcheck="true" placeholder="Type the AI prompt here. Example: Add a green LED indicator on the divider output with a suitable resistor to ground."></textarea>
+                    <div class="panel-label">AI Conversation</div>
+                    <div class="ai-chat-log" id="ai-chat-log">
+                        <div class="empty-state">No built-in AI conversation yet.</div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="panel-action panel-action--secondary" id="ai-tools-generate-prompt" type="button">Generate Prompt Pack</button>
+                        <button class="panel-action panel-action--secondary" id="ai-tools-clear-prompt" type="button">Clear Prompt</button>
+                    </div>
+                    <div class="panel-label">External AI Prompt Pack</div>
+                    <textarea class="json-import-input ai-prompt-output" id="ai-prompt-output" spellcheck="false" readonly placeholder="Generated prompt pack for external AI will appear here."></textarea>
+                </div>
+                <div class="ai-tools-column">
+                    <div class="modal-actions">
+                        <button class="panel-action panel-action--secondary" id="ai-tools-export-scene" type="button">Export Scene State</button>
+                        <button class="panel-action panel-action--secondary" id="ai-tools-load-example" type="button">Load Patch Example</button>
+                        <button class="panel-action panel-action--secondary" id="ai-tools-clear-patch" type="button">Clear Patch</button>
+                        <button class="panel-action panel-action--secondary" id="ai-tools-clear-preview" type="button">Clear Preview</button>
+                    </div>
+                    <div class="panel-label">Patch Input</div>
+                    <textarea class="json-import-input ai-tools-input" id="ai-patch-input" spellcheck="false" placeholder="{&#10;  &quot;schema&quot;: &quot;aura.circuit_patch.v1&quot;,&#10;  ...&#10;}"></textarea>
+                    <div class="panel-label">Scene State Output</div>
+                    <textarea class="json-import-input ai-tools-output" id="ai-scene-output" spellcheck="false" readonly placeholder="Current canvas scene state will appear here."></textarea>
+                </div>
+                <div class="json-import-status" id="ai-tools-status">Export the current scene, then paste a circuit patch and preview it.</div>
+            </div>
+            <div class="modal-footer">
+                <button class="panel-action panel-action--secondary" id="ai-tools-cancel" type="button">Close</button>
+                <button class="panel-action panel-action--secondary" id="ai-tools-preview" type="button">Preview Patch</button>
+                <button class="panel-action" id="ai-tools-apply" type="button">Apply Patch</button>
             </div>
         </div>
     </div>

@@ -4131,3 +4131,1000 @@
   - Preserve the pushed repository as the current checkpoint before continuing AI-tooling work.
 - Next recommended step:
   - Start defining the deterministic AI tool contracts on top of this checkpoint: `scene_state`, `net_summary`, `selection_context`, and `circuit_patch`.
+
+## 2026-04-22 20:44 IST
+
+- Context:
+  - User asked why the git backup flow triggered many separate permission prompts.
+- What changed:
+  - No product source files changed in this turn.
+  - Added only this continuity entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Explain the permission behavior directly: the tool requires separate approval for distinct escalated git/file actions, and this sequence became longer because the workspace was not already a git repo and there was a stale lock-file cleanup step.
+- Next recommended step:
+  - For future git-only flows, batch the steps more tightly and keep prompts to the minimum allowed by the tool/runtime.
+
+## 2026-04-22 20:51 IST
+
+- Context:
+  - User asked for review of an external Gemini-generated coding prompt about replacing the Studio autorouter with a professional line-search router.
+- What changed:
+  - No product source files changed in this turn.
+  - Added only this continuity entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Findings:
+  - The prompt is directionally useful but partially inaccurate against the current codebase.
+  - `apps/studio_web/js/routing.js` does contain a grid/queue search in `getRoutePointsViaGridSearch(...)`, but the import-time freeze claim is outdated because import no longer autoroutes on apply.
+  - The current router is already partly sparse/axis-based, not a naive cell-by-cell full-canvas BFS.
+- Decisions made:
+  - Recommend correcting the prompt before using it so any rewrite targets the real hot path and preserves current local-context/scoring behavior.
+- Next recommended step:
+  - Rewrite the request into a precise task: replace only the middle-route grid search with a visibility/line-probe router, keep local context + scoring, and benchmark it against current selected-wire autoroute flows.
+
+## 2026-04-22 20:57 IST
+
+- Context:
+  - User clarified that current autoroute still takes seconds in practice and emphasized that routing quality/speed/determinism matter because AI-driven preview must show wiring clearly and consistently to the user.
+- What changed:
+  - No product source files changed in this turn.
+  - Added only this continuity entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Treat routing as a first-class product requirement for AI preview, not just a later polish item.
+  - Frame Gemini's suggestion as a move toward a deterministic sparse line-search / visibility router replacing the current slower middle-route search.
+- Next recommended step:
+  - Define the router rewrite around a local orthogonal visibility graph / line-probe approach with deterministic tie-breaking and stable scoring before touching AI preview work.
+
+## 2026-04-22 21:00 IST
+
+- Context:
+  - User asked whether the earlier Gemini guidance had actually linked an open-source routing implementation.
+- What changed:
+  - No product source files changed in this turn.
+  - Added only this continuity entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Findings:
+  - The pasted Gemini text did not include any open-source project link; it only described an algorithmic direction and rewrite request.
+- Decisions made:
+  - Clarify that no linked library/source was present in the pasted message and request the actual Gemini link/message if the user wants that source reviewed.
+- Next recommended step:
+  - If available, paste the Gemini message that includes the open-source reference so it can be evaluated against the current Studio router.
+
+## 2026-04-22 21:03 IST
+
+- Context:
+  - User asked whether the pasted Gemini message itself contained the open-source references.
+- What changed:
+  - No product source files changed in this turn.
+  - Added only this continuity entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Findings:
+  - The pasted Gemini text does name open-source options: `elkjs` and `pathfinding.js`-style JPS libraries.
+  - It does not include an actual repository URL or exact package link.
+  - Its third option, line-search / Mikami-Tabuchi / Hightower, is an algorithm class, not a named linked library in that pasted text.
+- Decisions made:
+  - Clarify the distinction between "named open-source tool" and "algorithm suggestion" before evaluating adoption.
+- Next recommended step:
+  - If needed, compare `elkjs` versus a custom local orthogonal router for Studio-specific schematic routing and determinism.
+
+## 2026-04-22 21:18 IST
+
+- Context:
+  - User shared Gemini's reviewed implementation prompt for a `libavoid-js` routing spike and asked for feedback.
+- What changed:
+  - No product source files changed in this turn.
+  - Added only this continuity entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Findings:
+  - Gemini's revised prompt is much stronger than the earlier one: it isolates the spike, preserves the existing router during evaluation, and defines clear acceptance gates around grid discipline, performance, and determinism.
+  - One detail should still be corrected before execution: import-time `Apply To Canvas` no longer autoroutes on apply, so the performance benchmark should target selected-wire/batch autoroute flows rather than import itself.
+  - `libavoid-js` may also need a worker or careful main-thread isolation if the spike reveals noticeable blocking.
+- Decisions made:
+  - Treat the revised prompt as implementation-ready after a small benchmark wording correction.
+- Next recommended step:
+  - If approved, run the `libavoid-js` spike behind an isolated adapter and benchmark it against current local autoroute flows.
+
+## 2026-04-22 21:42 IST
+
+- Context:
+  - User approved the `libavoid-js` spike and asked that it be isolated, validated carefully, and not leave a half-replaced routing system behind.
+- What changed:
+  - Installed `libavoid-js` in `apps/studio_web`.
+  - Added isolated routing spike adapter `apps/studio_web/js/libavoid_adapter.js`.
+  - Exposed the spike helpers through `window.AuraRouting` without swapping the production router path yet.
+  - Added benchmark harness `scripts/libavoid_spike.mjs` and npm script `apps/studio_web/package.json -> spike:libavoid`.
+  - Added decision memo `docs/LIBAVOID_SPIKE_DECISION.md`.
+- Files touched:
+  - `apps/studio_web/js/libavoid_adapter.js`
+  - `apps/studio_web/js/routing.js`
+  - `apps/studio_web/package.json`
+  - `apps/studio_web/package-lock.json`
+  - `scripts/libavoid_spike.mjs`
+  - `docs/LIBAVOID_SPIKE_DECISION.md`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/libavoid_adapter.js`
+  - `node --check apps/studio_web/js/routing.js`
+  - `node --check scripts/libavoid_spike.mjs`
+  - `npm --prefix apps/studio_web run spike:libavoid`
+  - `npm --prefix apps/studio_web run build` (outside sandbox due prior `esbuild` spawn EPERM)
+- Benchmark result:
+  - Synthetic `24 wire / 12 obstacle` batch routed in about `111 ms` on first run and `63 ms` on second run.
+  - Deterministic repeated output: `true`
+  - Grid-disciplined output after endpoint-preserving normalization: `true`
+  - Obstacle violations: `false`
+- Decisions made:
+  - Keep the current production router untouched for now.
+  - Treat the spike as a pass and move toward replacing the current middle-route search through one clean switch point later, rather than running two production routers in parallel.
+- Next recommended step:
+  - Integrate the libavoid adapter behind `computeAutoroutedInteriorRoute(...)` and validate it on real Studio scenes before deleting the old search implementation.
+
+## 2026-04-22 22:06 IST
+
+- Context:
+  - User approved moving past the isolated libavoid spike and asked for a proper production integration, with one clean replacement path rather than a half-kept duplicate router.
+- What changed:
+  - Promoted the libavoid adapter from spike-only usage to the production autoroute engine path.
+  - Updated `apps/studio_web/js/libavoid_adapter.js` to expose production names (`initLibavoidRouter`, `getLibavoidRouterStatus`, `routeConnectionWithLibavoid`, `routeConnectionBatchWithLibavoid`, `runLibavoidBenchmark`) and removed the old spike aliases.
+  - Updated `apps/studio_web/js/routing.js` to initialize libavoid at module load time and route the old `getRoutePointsViaGridSearch(...)` call site through libavoid instead of the previous queue-based search.
+  - Simplified `buildAutoroutedConnectionRoute(...)` so production autoroute now takes one libavoid-based path instead of the old candidate-expansion/scoring loop.
+  - Cleaned the exported routing surface so obsolete candidate-builder helpers are no longer exposed globally.
+  - Renamed the benchmark command to `bench:libavoid` in `apps/studio_web/package.json` and updated `scripts/libavoid_spike.mjs` to use the production adapter names.
+  - Updated `docs/LIBAVOID_SPIKE_DECISION.md` to reflect that libavoid is now the production autoroute path rather than only an isolated spike.
+- Files touched:
+  - `apps/studio_web/js/libavoid_adapter.js`
+  - `apps/studio_web/js/routing.js`
+  - `apps/studio_web/package.json`
+  - `apps/studio_web/package-lock.json`
+  - `scripts/libavoid_spike.mjs`
+  - `docs/LIBAVOID_SPIKE_DECISION.md`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/libavoid_adapter.js`
+  - `node --check apps/studio_web/js/routing.js`
+  - `node --check apps/studio_web/js/main.js`
+  - `node --check scripts/libavoid_spike.mjs`
+  - `npm --prefix apps/studio_web run bench:libavoid`
+  - `npm --prefix apps/studio_web run build` (outside sandbox)
+- Benchmark result:
+  - Synthetic `24 wire / 12 obstacle` batch remained deterministic and grid-disciplined with no obstacle violations.
+  - Recent run: about `112 ms` first pass and `62 ms` second pass.
+- Decisions made:
+  - The old queue/grid search is no longer the production routing engine.
+  - Keep only a minimal simple fallback shape if libavoid is unavailable, instead of keeping two production routing strategies active.
+- Next recommended step:
+  - Manually validate the new production router on real Studio scenes:
+    1. imported example circuits
+    2. selected-wire batch autoroute
+    3. reroute after component movement
+    4. AI preview-style patch routing later
+
+## 2026-04-22 22:26 IST
+
+- Context:
+  - User approved moving on to the next AI foundation layer after the routing upgrade.
+- What changed:
+  - Added deterministic AI-facing contract schema `packages/contracts/scene_state.v1.schema.json`.
+  - Added deterministic AI patch schema `packages/contracts/circuit_patch.v1.schema.json`.
+  - Added example scene capture `packages/contracts/examples/scene_state.resistor_divider.json`.
+  - Added example patch payload `packages/contracts/examples/circuit_patch.add_indicator_led.json`.
+  - Updated `packages/contracts/contract_index.json`, `packages/contracts/README.md`, and `packages/contracts/scripts/validate-examples.mjs` for the new contracts.
+  - Added `docs/AI_EDITING_FLOW.md` to define how `scene_state.v1` and `circuit_patch.v1` should drive preview/apply AI editing.
+- Files touched:
+  - `packages/contracts/scene_state.v1.schema.json`
+  - `packages/contracts/circuit_patch.v1.schema.json`
+  - `packages/contracts/examples/scene_state.resistor_divider.json`
+  - `packages/contracts/examples/circuit_patch.add_indicator_led.json`
+  - `packages/contracts/README.md`
+  - `packages/contracts/contract_index.json`
+  - `packages/contracts/scripts/validate-examples.mjs`
+  - `docs/AI_EDITING_FLOW.md`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `npm --prefix packages/contracts run validate:examples`
+- Decisions made:
+  - Start AI integration with deterministic read-context and patch contracts instead of building chat UI first.
+  - Keep `scene_state` geometry-rich so AI can understand placement, selection, and wiring without relying on screenshots.
+  - Keep `circuit_patch` operation-based so future preview/apply UI can highlight add/update/delete changes deterministically.
+- Next recommended step:
+  - Implement Studio exporters/parsers next:
+    1. export current canvas to `scene_state.v1`
+    2. validate and ingest `circuit_patch.v1`
+    3. render preview overlays from patch operations before any apply flow
+
+## 2026-04-22 22:30 IST
+
+- Context:
+  - User asked for an ordered, concrete test checklist for the current state before continuing.
+- What changed:
+  - No product source files changed in this turn.
+  - Added only this continuity entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Provide a concise manual test order covering the recent routing integration and current Studio behavior, not the not-yet-implemented AI contract exporters.
+- Next recommended step:
+  - User runs the ordered checklist, then we proceed to implementing `scene_state` export and patch preview/apply support.
+
+## 2026-04-22 22:35 IST
+
+- Context:
+  - User asked for guidance on how to proceed with the next implementation step after routing validation passed.
+- What changed:
+  - No product source files changed in this turn.
+  - Added only this continuity entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Provide a step-by-step implementation guide for the next AI foundation work in the correct order: scene-state export, patch validation, then preview overlays.
+- Next recommended step:
+  - Implement `scene_state.v1` export from live Studio state first.
+
+## 2026-04-22 23:35 IST
+
+- Context:
+  - User asked to build the real AI preparation layer in the Studio UI rather than only defining schemas/docs.
+  - Goal for this turn was to make the AI tooling actually usable: scene export, patch preview, patch apply, and visible on-canvas diff overlays.
+- What changed:
+  - Added a real `AI` toolbar entry and a working `AI Scene and Patch Tools` modal in `apps/studio_web/index.html`.
+  - Added modal layout styles for a wider split-pane AI tools dialog in `apps/studio_web/css/main.css`.
+  - Added live `scene_state.v1` export support in `apps/studio_web/js/main.js` via `exportSceneState(...)`, including components, wires, junctions, selection, viewport/grid data, and deterministic net summary generation.
+  - Added browser-side patch normalization/validation for `aura.circuit_patch.v1` in `apps/studio_web/js/main.js`.
+  - Added preview/apply support for patch operations in `apps/studio_web/js/main.js`, including add/update/delete for components, wires, and junctions plus `set_selection`.
+  - Added a green/red on-canvas patch preview overlay in `apps/studio_web/js/main.js` so AI-proposed additions/changes/deletions can be inspected before apply.
+  - Wired the new AI modal controls so users can:
+    - export the current scene
+    - load a working patch example
+    - preview the patch on canvas
+    - apply the patch to the real scene
+    - clear preview safely
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+  - `node --check apps/studio_web/js/routing.js`
+- Decisions made:
+  - Keep browser-side patch handling focused and deterministic in `main.js` instead of trying to reuse the current Node-only contract validator in the browser.
+  - Use a preview-overlay model first for AI edits, with real scene mutation only on explicit apply.
+  - Render patch updates as red old-state overlays and green new-state overlays so the user can see exactly what AI is proposing before commit.
+- Next recommended step:
+  - Manually test the new AI modal end-to-end:
+    1. open `AI`
+    2. confirm scene export populates
+    3. load the example patch
+    4. preview it and inspect the overlay
+    5. apply it and confirm the canvas updates cleanly
+  - If that passes, the next build step is the actual AI workspace around these deterministic tools.
+
+## 2026-04-23 00:12 IST
+
+- Context:
+  - User confirmed the new AI tools seemed fine and asked to move directly to the next piece.
+  - Since built-in API chat is still unavailable, the next useful deliverable was the real external-AI workflow on top of the scene export and patch preview/apply foundation.
+- What changed:
+  - Extended the AI tools UI to include a real `User Request` input and `External AI Prompt Pack` output in `apps/studio_web/index.html`.
+  - Added prompt-pack textarea sizing in `apps/studio_web/css/main.css`.
+  - Added prompt-pack generation logic in `apps/studio_web/js/main.js`:
+    - derives allowed symbol keys from the current Studio library/common set plus current canvas symbols
+    - includes current selection context
+    - includes live `scene_state.v1` JSON
+    - includes a valid `circuit_patch.v1` example
+    - instructs external AI to return strict JSON only
+  - Wired the new buttons so users can generate and clear the external prompt pack without affecting the existing preview/apply patch flow.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Prioritize the external-AI prompt-pack workflow now, because it is usable without an API key and also serves as the test harness for the later built-in AI.
+  - Keep the prompt pack strict and deterministic instead of conversational, so returned payloads are more likely to fit `aura.circuit_patch.v1` cleanly.
+- Next recommended step:
+  - Manually test the external-AI flow:
+    1. open `AI`
+    2. type a request
+    3. click `Generate Prompt Pack`
+    4. paste that prompt into an external AI
+    5. paste the returned JSON into `Patch Input`
+    6. preview and apply it in Studio
+  - If that works, the next build step is the actual built-in AI chat workspace shell around the same deterministic scene/patch pipeline.
+
+## 2026-04-23 00:20 IST
+
+- Context:
+  - User asked a design question about whether using KiCad libraries gives enough standardization that external AI can work without sending component/database context.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarified that KiCad symbol keys help standardize identifiers, but they do not remove the need to send allowed-catalog context to external AI.
+  - Recommended sending a compact deterministic catalog manifest or allowed-symbol subset instead of the full database.
+- Next recommended step:
+  - Tighten the external prompt-pack design so it includes only the minimum deterministic catalog data external AI actually needs: allowed symbol keys, human labels, and canonical pin metadata for candidate parts.
+
+## 2026-04-23 00:24 IST
+
+- Context:
+  - User questioned whether the external-AI workflow is realistically viable given the catalog/context burden.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarified that external AI is not impossible, but it is only practical for a constrained subset of workflows.
+  - Determined that broad freeform circuit generation through arbitrary external AI is too unreliable unless Studio supplies a compact deterministic catalog and patch contract.
+- Next recommended step:
+  - Re-scope external AI to narrow use cases such as small edits on an existing scene, while prioritizing the built-in AI path for broader circuit generation.
+
+## 2026-04-23 00:28 IST
+
+- Context:
+  - User argued that an external-AI edit assistant feels strategically weak compared with stronger existing products and questioned its value.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Agreed that external-AI editing should not be treated as a flagship differentiator.
+  - Reframed it as optional scaffolding/testing infrastructure rather than core product direction.
+  - Prioritized the built-in deterministic AI + Studio workflow as the main path worth investing in.
+- Next recommended step:
+  - Stop expanding the external-AI path beyond basic support and shift focus to the built-in AI workspace, scene understanding, patch planning, and deterministic apply/preview flow.
+
+## 2026-04-23 00:56 IST
+
+- Context:
+  - User decided to move past external-AI positioning and asked to integrate built-in AI using a local Ollama Gemma setup, while also leaving room for free-tier Gemini API testing.
+- What changed:
+  - Added backend AI provider support in `apps/studio_api/src/ai.mjs` for:
+    - local `Ollama` chat-based patch generation
+    - optional `Gemini` REST patch generation with per-request or environment API key support
+    - deterministic scene-state validation and returned patch validation against `scene_state.v1` and `circuit_patch.v1`
+    - minor patch repair for missing top-level metadata/target fields before contract validation
+  - Added Studio API endpoints in `apps/studio_api/src/server.mjs`:
+    - `GET /ai/providers`
+    - `POST /ai/generate-patch`
+  - Updated `apps/studio_api/README.md` with Ollama/Gemini configuration notes.
+  - Extended the AI tools modal in `apps/studio_web/index.html` with real built-in AI controls:
+    - provider select
+    - model input
+    - Gemini API key field
+    - built-in AI send/clear buttons
+    - conversation log
+  - Added built-in AI UI styling in `apps/studio_web/css/main.css`.
+  - Added built-in AI client logic in `apps/studio_web/js/main.js`:
+    - provider defaults fetch from the API
+    - localStorage-backed provider/model/key persistence
+    - conversation log rendering
+    - request submission to `/ai/generate-patch`
+    - automatic patch injection into `Patch Input`
+    - automatic preview of returned valid patches on canvas
+- Files touched:
+  - `apps/studio_api/src/ai.mjs`
+  - `apps/studio_api/src/server.mjs`
+  - `apps/studio_api/README.md`
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Keep the built-in AI stateless on the backend for now; the browser sends the live scene state and conversation each turn.
+  - Treat `Ollama` as the default provider path and `Gemini` as an optional second provider for free-tier testing.
+  - Keep the AI output contract deterministic: backend accepts only a short assistant message plus a valid `circuit_patch.v1` payload or `null`.
+- Next recommended step:
+  - Run the full local loop:
+    1. start `studio_api`
+    2. open Studio
+    3. open `AI`
+    4. choose `Ollama` and set the exact local model tag
+    5. ask for a circuit change
+    6. confirm the returned patch auto-previews on canvas
+    7. then test the same flow with `Gemini` by pasting an API key into the Gemini field
+
+## 2026-04-23 01:09 IST
+
+- Context:
+  - User reported the built-in AI UI still felt too technical and static: manual model typing was unnecessary, Ollama should default to the exact preferred local model, Gemini should behave dynamically, and provider-specific fields should hide cleanly.
+- What changed:
+  - Updated `apps/studio_api/src/ai.mjs` to default Ollama to `gemma4:e2b`.
+  - Added backend AI model discovery in `apps/studio_api/src/ai.mjs` and exposed it through `GET /ai/models` in `apps/studio_api/src/server.mjs`.
+  - `Ollama` model discovery now uses the local Ollama tags endpoint.
+  - `Gemini` model discovery now uses the Gemini `models.list` API when a key is present, with a safe fallback list otherwise.
+  - Updated the Studio AI UI in `apps/studio_web/index.html` to replace the free-text model field with a model dropdown and a `Refresh Models` button.
+  - Updated `apps/studio_web/js/main.js` so provider changes dynamically reload model choices, persist the chosen model, and hide the Gemini API key field when `Ollama` is selected.
+  - Updated `apps/studio_api/README.md` to document the new `GET /ai/models` endpoint.
+- Files touched:
+  - `apps/studio_api/src/ai.mjs`
+  - `apps/studio_api/src/server.mjs`
+  - `apps/studio_api/README.md`
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Prefer a provider-specific dynamic model chooser over a raw free-text model input.
+  - Treat `gemma4:e2b` as the default Ollama model in this workspace unless the environment overrides it.
+  - Make Gemini model listing opportunistic: use the live API when a key is available, otherwise fall back to a short safe list.
+- Next recommended step:
+  - Restart the Studio API, open `AI`, switch between `Ollama` and `Gemini`, confirm the model dropdown and key field change correctly, then run one real Ollama request end-to-end.
+
+## 2026-04-23 01:17 IST
+
+- Context:
+  - User reported a small bug: the model dropdown/tab in the AI modal was not opening or behaving correctly.
+- What changed:
+  - Added a static default `gemma4:e2b` option directly in `apps/studio_web/index.html` so the model dropdown is never empty before async API/model discovery completes.
+  - Updated `apps/studio_web/js/main.js` so opening the AI modal immediately renders provider visibility and fallback model options before waiting on backend calls.
+  - Added frontend fallback model lists for both `Ollama` and `Gemini` so model selection remains usable even if the API has not restarted, Ollama is not running, or Gemini has no API key yet.
+  - Updated provider/model refresh paths to use fallback model lists instead of leaving the dropdown blank on errors.
+  - Changed frontend Ollama fallback default from `gemma3` to `gemma4:e2b`.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+- Decisions made:
+  - Model selection must be usable immediately and not depend on backend/model-list calls succeeding.
+  - Backend discovery should improve the list when available, but fallback UI should always be present.
+- Next recommended step:
+  - Reload Studio, open `AI`, verify the model dropdown contains `gemma4:e2b` immediately, and confirm the Gemini key field hides when `Ollama` is selected.
+
+## 2026-04-23 01:22 IST
+
+- Context:
+  - User asked how the Ollama built-in AI integration works operationally before using it: whether Ollama runs once and stays running or starts per prompt.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarified the runtime model: Ollama is a separate local server/process, Studio sends one HTTP request per AI message, and the model may stay loaded in Ollama depending on Ollama's own keep-alive behavior.
+- Next recommended step:
+  - User should start Ollama once, start Studio API once, then send messages from the AI modal; no separate manual model start should be needed if the model is already installed.
+
+## 2026-04-23 01:31 IST
+
+- Context:
+  - User asked to make AI setup/testing built in and easy instead of relying on manual terminal knowledge.
+- What changed:
+  - Added AI provider readiness checking in `apps/studio_api/src/ai.mjs`.
+  - Exposed `GET /ai/status` in `apps/studio_api/src/server.mjs`.
+  - Documented `GET /ai/status` in `apps/studio_api/README.md`.
+  - Added `Check AI` button and a persistent provider status line to the AI modal in `apps/studio_web/index.html`.
+  - Added provider status styling in `apps/studio_web/css/main.css`.
+  - Wired frontend provider/model/key changes in `apps/studio_web/js/main.js` to automatically check AI readiness and show actionable status.
+- Files touched:
+  - `apps/studio_api/src/ai.mjs`
+  - `apps/studio_api/src/server.mjs`
+  - `apps/studio_api/README.md`
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Keep startup manual for now, but make readiness visible and testable inside Studio with one button.
+  - Avoid adding automatic process spawning from the browser/API in this pass because it is platform-sensitive and riskier than status/test controls.
+- Next recommended step:
+  - Reload Studio, open `AI`, click `Check AI`, and confirm it reports whether Ollama is running and whether `gemma4:e2b` is installed.
+
+## 2026-04-23 01:36 IST
+
+- Context:
+  - User asked for exact usage steps for the newly integrated built-in AI path.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Provide a concise operator checklist covering Ollama, Studio API, Studio web, provider check, request, preview, and apply.
+- Next recommended step:
+  - User should run the checklist and report the first exact step that fails if anything does not work.
+
+## 2026-04-23 01:39 IST
+
+- Context:
+  - User ran `ollama serve` and received a port bind error on `127.0.0.1:11434`, indicating Ollama is already running.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Treat the bind error as a successful indication that the Ollama server is already active, not as a blocker.
+- Next recommended step:
+  - User should proceed to `ollama list`, then start Studio API/web and use `Check AI` in the Studio AI modal.
+
+## 2026-04-23 01:48 IST
+
+- Context:
+  - User asked Codex to run the local stack and said they would only test the frontend.
+  - Initial attempt showed an old API process still on port `8787`; after restart checks, the current API is now serving the new AI endpoints.
+- What changed:
+  - No product source files changed in this turn.
+  - Started/verified local runtime services for testing.
+  - Added this continuity entry only.
+- Files touched:
+  - `.codex-runtime-logs/studio-api.current.out.log`
+  - `.codex-runtime-logs/studio-api.current.err.log`
+  - `.codex-runtime-logs/studio-web.start.out.log`
+  - `.codex-runtime-logs/studio-web.start.err.log`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `GET http://127.0.0.1:8787/health` returned `{ ok: true, service: "aura-studio-api" }`.
+  - `GET http://127.0.0.1:8787/ai/status?provider=ollama&model=gemma4:e2b` returned ready `true` and confirmed `gemma4:e2b` is installed.
+  - `GET http://127.0.0.1:5173` returned HTTP `200`.
+  - Both `localhost:5173/js/main.js` and `127.0.0.1:5173/js/main.js` contain the latest AI status code.
+- Decisions made:
+  - Leave the web server running because it is serving the latest frontend code.
+  - Treat the local AI backend as ready for user frontend testing.
+- Next recommended step:
+  - User should hard-refresh the browser, open `AI`, click `Check AI`, and then try one small built-in AI request.
+
+## 2026-04-23 07:22 IST
+
+- Context:
+  - User asked Codex to run the local stack again and asked where to type the AI prompt.
+- What changed:
+  - No product source files changed in this turn.
+  - Relaunched local runtime services for frontend testing.
+  - Added this continuity entry only.
+- Files touched:
+  - `.codex-runtime-logs/studio-api.relaunch.out.log`
+  - `.codex-runtime-logs/studio-api.relaunch.err.log`
+  - `.codex-runtime-logs/studio-web.relaunch.out.log`
+  - `.codex-runtime-logs/studio-web.relaunch.err.log`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - Studio API is running at `http://127.0.0.1:8787/health`.
+  - Studio web is running at `http://127.0.0.1:5173`.
+  - Ollama is currently not ready; `ollama list` returned `Error: upgrade in progress...`, and the API AI status endpoint reported `fetch failed` when checking Ollama.
+- Decisions made:
+  - Leave API and web running for frontend testing.
+  - Tell the user to type prompts in the `User Request` box inside the `AI` modal, and to wait for/restart Ollama after the upgrade finishes before using local AI generation.
+- Next recommended step:
+  - User should open `http://127.0.0.1:5173`, click `AI`, use the `User Request` box for prompts, and click `Check AI` after Ollama finishes upgrading.
+
+## 2026-04-23 07:26 IST
+
+- Context:
+  - User could not find the `User Request` input in the AI modal.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Explain that the field may be below the visible top of the AI modal because the current modal has multiple stacked sections; user should scroll inside the modal or look in the left column below `Scene State Output`.
+  - Recommend a UI cleanup next if the field is too hidden.
+- Next recommended step:
+  - If the user confirms the field is hidden/awkward, move `User Request` to the top of the AI modal so prompt entry is immediately visible.
+
+## 2026-04-23 07:31 IST
+
+- Context:
+  - User reported that the AI modal showed `AI Conversation` but no visible `User Request` field, and asked Codex to check carefully.
+- What changed:
+  - Inspected source and served HTML; the `User Request` field existed but was placed below `Scene State Output`, making it easy to miss in the tall modal.
+  - Moved `User Request` above `AI Conversation` in `apps/studio_web/index.html`, directly under the AI provider/status controls.
+  - Updated `apps/studio_web/css/main.css` to make the request box taller and visually highlighted.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+  - Confirmed served HTML contains `Type the AI prompt here` and `ai-user-request` above `AI Conversation`.
+- Decisions made:
+  - Prompt entry should be near the top of the built-in AI section, not below scene export/debug output.
+- Next recommended step:
+  - User should hard-refresh Studio, open `AI`, and look directly below the AI status line for the `User Request` prompt box.
+
+## 2026-04-23 07:39 IST
+
+- Context:
+  - User said the `User Request` box is now visible, but `Scene State Output` is pushed too low while there is usable space under the `Patch Input` block.
+- What changed:
+  - Rebalanced the AI modal layout in `apps/studio_web/index.html`:
+    - left column now holds built-in AI controls, `User Request`, `AI Conversation`, and external prompt-pack output
+    - right column now holds patch controls, `Patch Input`, and `Scene State Output`
+  - Removed `Scene State Output` from the left column and moved it directly below `Patch Input` in the right column.
+  - Tightened AI modal textarea/log heights in `apps/studio_web/css/main.css` so major blocks fit better without hidden scrolling.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+  - Inspected updated AI modal markup and CSS selectors.
+- Decisions made:
+  - Keep user interaction on the left and data/debug outputs on the right.
+  - Avoid burying any major AI block behind vertical scroll where possible.
+- Next recommended step:
+  - User should hard-refresh, open `AI`, and confirm both `Patch Input` and `Scene State Output` are visible in the right column while `User Request` remains visible in the left column.
+
+## 2026-04-23 07:42 IST
+
+- Context:
+  - User asked what to do after typing a prompt in the AI modal.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Provide the exact click sequence: check AI, ask built-in AI, wait for patch preview, then apply or clear preview.
+- Next recommended step:
+  - User should click `Check AI`, then `Ask Built-In AI`, and report the exact status line message if it fails.
+
+## 2026-04-23 07:48 IST
+
+- Context:
+  - User clicked `Ask Built-In AI` and nothing appeared to happen, so they asked what feedback they should see.
+- What changed:
+  - Added a visible `AI run status` line under the provider status in `apps/studio_web/index.html`.
+  - Added status styling for idle/busy/success/error AI request states in `apps/studio_web/css/main.css`.
+  - Added `apiPostWithTimeout(...)` in `apps/studio_web/js/main.js` so long or stuck AI calls time out after 3 minutes with a clear message.
+  - Added an `aiRequestInFlight` state in `apps/studio_web/js/main.js`.
+  - Updated built-in AI send flow in `apps/studio_web/js/main.js` so clicking `Ask Built-In AI` now immediately:
+    - appends the user message to the conversation log
+    - changes the button to `Thinking...`
+    - disables request/preview/apply/provider buttons while running
+    - shows progress text while sending to Ollama/Gemini
+    - shows success when a patch preview is ready
+    - shows clear error text if the request fails or times out
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Local AI calls need explicit lifecycle UI because first model load can be slow and otherwise feels like a dead button.
+  - Disable conflicting controls while an AI request is running to avoid overlapping patch previews or duplicate requests.
+- Next recommended step:
+  - User should hard-refresh, click `Ask Built-In AI`, and confirm the button changes to `Thinking...` plus the new run-status line updates immediately.
+
+## 2026-04-23 07:54 IST
+
+- Context:
+  - User received a built-in AI reply saying it could not perform the LED/resistor action because there was no defined output node in the current scene state.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarified that the current model behaved conservatively because it did not confidently map the phrase `output node` to a specific wire/junction in the exported scene.
+  - Recommended more explicit user phrasing for now, and identified selection-aware targeting / better node naming as the next product improvement.
+- Next recommended step:
+  - User should try a more explicit request such as referencing the exact junction or the wire between named parts, while the next implementation pass should make AI understand selected wires/junctions as target nodes.
+## 2026-04-23 08:05 IST
+
+- Context:
+  - User asked what the built-in AI reply meant after it said there was no defined output node in the current scene state.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Explained that the reply indicates an ambiguous target reference in the prompt, not a routing failure.
+  - Recommended using exact component/pin/junction references or selecting the target wire first before asking for an edit.
+- Next recommended step:
+  - User should retry with a concrete prompt tied to a named wire, junction, or selected object, and the next AI improvement should map selection state into clearer target aliases.
+## 2026-04-23 08:28 IST
+
+- Context:
+  - User requested a better default example circuit than the small resistor divider and wanted prompt testing to use that larger circuit.
+- What changed:
+  - Replaced the default JSON import example in `apps/studio_web/js/main.js` with a larger `Filtered Input With Output Indicator` circuit using connectors, passives, an explicit `OUT` net, an LED branch, and output connector.
+  - Replaced the AI patch example in `apps/studio_web/js/main.js` so it now targets the larger default test circuit and adds an input pull-down resistor instead of assuming the old divider demo.
+  - Updated the example-load status messages in `apps/studio_web/js/main.js` so the UI now describes the larger AI test circuit more clearly.
+- Files touched:
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - The default prompt/routing test scene should expose a named `OUT` net and more realistic topology so built-in AI prompts do not depend on the tiny divider demo.
+  - The patch example should match the default loaded scene instead of referencing obsolete divider-specific ids.
+- Next recommended step:
+  - User should `Load Example`, `Apply To Canvas`, then test built-in AI prompts against the new larger scene, especially prompts that reference `OUT`, `SIG_IN`, or selected wires.
+## 2026-04-23 08:43 IST
+
+- Context:
+  - User said the current default example still did not feel elegant because routing on more connected circuits gets messy, and requested a cleaner buck-converter-style demonstration with left-to-right component flow.
+- What changed:
+  - Replaced the default JSON import example in `apps/studio_web/js/main.js` with a manually wired `aura.scene_state.v1` buck converter demo instead of a net-imported schematic payload.
+  - Added `aura.scene_state.v1` import support in `apps/studio_web/js/main.js` so the import flow can now place exact components, junctions, and pre-routed wires from a scene payload.
+  - Updated the AI patch example in `apps/studio_web/js/main.js` to match the new buck converter demo scene by adding an output sense divider.
+  - Updated example-load status messages in `apps/studio_web/js/main.js` to refer to the buck converter demo scene.
+- Files touched:
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - A clean demonstration scene should not depend on the heuristic router; it should load as an explicit scene with intentional wire geometry.
+  - Supporting `aura.scene_state.v1` import is useful beyond the demo because it aligns the import path with the AI preview/export contracts already present in Studio.
+- Next recommended step:
+  - User should load the buck converter demo scene, confirm the left-to-right layout reads cleanly, and then use that scene as the default target for prompt testing.
+## 2026-04-23 08:52 IST
+
+- Context:
+  - User reported that built-in AI took too long and then showed `AI replied, but did not return a patch`, while the conversation panel only showed the misleading text `AI returned a patch`.
+- What changed:
+  - Fixed the backend fallback assistant message in `apps/studio_api/src/ai.mjs` so it now says `AI did not return a patch.` when the model response omits a patch.
+  - Improved frontend no-patch feedback in `apps/studio_web/js/main.js` so the run status and AI status now surface a short summary of the assistant message instead of a generic instruction to read the conversation.
+- Files touched:
+  - `apps/studio_api/src/ai.mjs`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Generic fallback text was masking the real failure mode and had to be corrected before further prompt tuning.
+  - When no patch is returned, the UI should immediately surface the model's reason in the status area instead of forcing the user to infer it from the conversation panel.
+- Next recommended step:
+  - User should retry after reload; if the model still returns no patch, the status line should now show the actual reason, which can then be used to tighten the prompt or scene targeting logic.
+## 2026-04-23 09:03 IST
+
+- Context:
+  - User deferred the built-in AI no-patch issue and requested a true global component search so symbols like `7805` and `IRFZ44N` can be found directly instead of library-by-library browsing.
+- What changed:
+  - Added backend KiCad symbol search in `apps/studio_api/src/kicad_symbols.mjs` that scores matches across all KiCad libraries by exact match, prefix, id, name, description, and keywords.
+  - Added a new API endpoint in `apps/studio_api/src/server.mjs`: `GET /symbol-sources/kicad/search`.
+  - Added a `Global Search` field to the left symbol browser in `apps/studio_web/index.html`.
+  - Added frontend global search state and result rendering in `apps/studio_web/js/main.js`; when a global query is active, the symbol list switches to cross-library search results and clicking a result places that symbol directly.
+- Files touched:
+  - `apps/studio_api/src/kicad_symbols.mjs`
+  - `apps/studio_api/src/server.mjs`
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/kicad_symbols.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Global search should bypass library-by-library friction and search across the full KiCad catalog, because discovery by exact part family/name is a primary workflow.
+  - Search results should be directly placeable so the feature is useful immediately, not just informational.
+- Next recommended step:
+  - User should reload Studio, use the new `Global Search` field with queries like `7805`, `IRFZ44N`, or `LM2596`, and confirm cross-library matches appear and place correctly; if the API server does not auto-reload, restart `apps/studio_api` once.
+## 2026-04-23 09:10 IST
+
+- Context:
+  - User reported the new global component search was returning `not found` even for obvious symbols like `3v`.
+- What changed:
+  - No product source files changed in this turn.
+  - Diagnosed the running backend and confirmed `http://127.0.0.1:8787/symbol-sources/kicad/search?...` was returning `404 Not Found` while `/health` still worked.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `Invoke-WebRequest http://127.0.0.1:8787/health`
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/search?q=3v&limit=10`
+- Decisions made:
+  - The global search code is present in source, but the currently running API process is stale and does not include the new route.
+  - This is an environment/runtime issue first, not a search-ranking problem.
+- Next recommended step:
+  - Restart the `apps/studio_api` dev server so the new search endpoint is loaded, then retest global search before making further search logic changes.
+## 2026-04-23 09:18 IST
+
+- Context:
+  - User still saw `no global symbol matches` after the global-search feature landed.
+- What changed:
+  - No product source files changed in this turn.
+  - Restarted the Studio API using `npm --prefix apps/studio_api run start` because the running server still lacked the new `/symbol-sources/kicad/search` endpoint.
+  - Verified the live backend now returns results for global search queries such as `3v` and `7805`.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+  - `studio_api_dev.log`
+  - `studio_api_start.log`
+- Verification:
+  - `Invoke-WebRequest http://127.0.0.1:8787/health`
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/search?q=3v&limit=10`
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/search?q=7805&limit=10`
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/search?q=IRFZ44N&limit=10`
+- Decisions made:
+  - The immediate failure was caused by a stale backend process, not by the search UI.
+  - `IRFZ44N` does not appear in the current KiCad symbol set on this machine, so an empty result there is expected unless a matching library is added later.
+- Next recommended step:
+  - User should hard-refresh the Studio page and retest global search with `3v` or `7805`; if those work but `IRFZ44N` does not, the issue is library coverage rather than the search feature itself.
+## 2026-04-23 09:24 IST
+
+- Context:
+  - User said global search is working and asked about improving the symbol library UI plus whether KiCad symbol data contains both the British/IEC and American/ANSI visual styles.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarified that the two visual styles the user remembers are typically IEC/European versus ANSI/IEEE/American schematic styles.
+  - Framed the next UI work as a library-browser density/layout problem separate from symbol-source data availability.
+- Next recommended step:
+  - Explain what style data KiCad usually provides per symbol key and then propose a compact library-browser redesign before implementing UI changes.
+## 2026-04-23 09:28 IST
+
+- Context:
+  - User asked whether the installed KiCad libraries already include the American/US schematic style because the current default resistor style is not what they want.
+- What changed:
+  - No product source files changed in this turn.
+  - Queried the live KiCad search endpoint for `R_US`, `R_Small_US`, and `resistor` to confirm available symbol variants.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/search?q=R_US&limit=20`
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/search?q=R_Small_US&limit=20`
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/search?q=resistor&limit=20`
+- Decisions made:
+  - Confirmed the current installed KiCad libraries already contain US/ANSI-style resistor symbols such as `Device:R_US` and `Device:R_Small_US`, so no extra download is needed for that basic case.
+  - The remaining work is product-side selection/mapping: exposing a style preference and defaulting common component placement to the US variants where available.
+- Next recommended step:
+  - Decide whether Studio should add a global `ANSI/US` vs `IEC` symbol-style preference, then remap common symbols and search/browser defaults accordingly.
+## 2026-04-23 09:34 IST
+
+- Context:
+  - User requested ANSI as the default symbol style and asked how KiCad stores both ANSI and IEC looks even though they differ visually.
+- What changed:
+  - Added a default symbol-style preference in `apps/studio_web/js/main.js` with ANSI as the current default.
+  - Added style-variant helpers in `apps/studio_web/js/main.js` to remap generic symbol keys like `Device:R` to ANSI variants such as `Device:R_US`.
+  - Updated common component placement, example circuits, circuit-IR symbol mapping, and prompt-pack example payloads in `apps/studio_web/js/main.js` so resistors now default to ANSI/US symbols.
+- Files touched:
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - ANSI should be the Studio default for this setup rather than asking users to manually choose US variants each time.
+  - KiCad stores ANSI vs IEC as separate symbol definitions with the same electrical idea but different graphic primitives, so Studio should remap symbol keys rather than trying to morph one drawing into another.
+- Next recommended step:
+  - User should reload Studio and confirm new resistor placements now use the zigzag US/ANSI symbol; after that, the next UI pass should expose the active style clearly and compact the library browser.
+## 2026-04-23 09:39 IST
+
+- Context:
+  - User reported that after switching the default resistor style, labels like reference/value (`D1`, `VCC`, etc.) did not seem to show and asked whether the ANSI variants lack that data.
+- What changed:
+  - No product source files changed in this turn.
+  - Queried live KiCad symbol definitions for `Device:R` and `Device:R_US` to compare their metadata and fields.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/libraries/Device/symbols/R/definition`
+  - `Invoke-WebRequest http://127.0.0.1:8787/symbol-sources/kicad/libraries/Device/symbols/R_US/definition`
+- Decisions made:
+  - Confirmed that the ANSI/US symbol definition still contains visible `Reference` and `Value` fields, so missing labels are not caused by absent KiCad field data.
+  - Concluded that any missing `D1`/`VCC`-style labels are a Studio rendering/presentation issue rather than a limitation of the ANSI symbol source.
+- Next recommended step:
+  - Explain that KiCad stores separate symbol drawings plus field metadata for both variants, then inspect Studio's label-render path if the user wants the missing labels fixed next.
+## 2026-04-23 09:47 IST
+
+- Context:
+  - User clarified that component reference/value tags previously visible on symbols were no longer showing and asked whether a toggle had hidden them.
+- What changed:
+  - Updated KiCad property parsing in `apps/studio_api/src/kicad_symbols.mjs` to include field position, rotation, and font size for symbol properties like `Reference` and `Value`.
+  - Hardened field scaling in `apps/studio_web/js/main.js` so missing numeric field coordinates no longer propagate as `NaN`.
+- Files touched:
+  - `apps/studio_api/src/kicad_symbols.mjs`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/kicad_symbols.mjs`
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - There is no existing UI toggle for component reference/value tags comparable to the pin-label toggle.
+  - The missing tags were caused by incomplete KiCad field parsing rather than the ANSI symbol variant itself.
+- Next recommended step:
+  - Restart the Studio API so new symbol definitions include field coordinates, then hard-refresh the web app and confirm component reference/value tags appear again on ANSI symbols.
+## 2026-04-23 09:54 IST
+
+- Context:
+  - User said the restored component tags looked awful: too long, obstructing the circuit, and appearing on top of component bodies.
+- What changed:
+  - Replaced raw KiCad field-position rendering in `apps/studio_web/js/main.js` with a cleaner Studio label policy that draws compact component tags outside the symbol body.
+  - Added `getCanvasComponentLabels(...)` in `apps/studio_web/js/main.js` to suppress noisy/default texts such as `#PWR` references and generic symbol values while keeping useful labels like real references and values.
+  - Updated `drawSchematicFallback(...)` in `apps/studio_web/js/main.js` so references render above the body and values render below it instead of on top of the symbol graphics.
+- Files touched:
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - KiCad field coordinates are not a good default visual policy for Studio canvas readability.
+  - Studio should render a simplified, readability-first label layout rather than mirroring raw source field placement.
+- Next recommended step:
+  - User should hard-refresh Studio and confirm component tags are now compact and outside symbol bodies; if needed, the next pass can further reduce value-label density or add a dedicated tag-visibility toggle.
+## 2026-04-23 10:00 IST
+
+- Context:
+  - User said the new component tags were mostly right but still slightly touched components whose pins extend upward.
+- What changed:
+  - Updated label placement in `apps/studio_web/js/main.js` so reference/value tags are positioned relative to the full component hit bounds (including protruding pins) instead of only the body bounds.
+- Files touched:
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Label clearance should respect the full rendered component footprint, not just the symbol body rectangle, because protruding pins create the real visual collision.
+- Next recommended step:
+  - User should hard-refresh and verify top-pin components now have enough clearance; if any specific symbol still collides, tune that family separately.
+## 2026-04-23 10:03 IST
+
+- Context:
+  - User confirmed the tag spacing fix is now correct and asked what to do next.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - With symbol search, ANSI defaults, label readability, and the cleaner demo scene in place, the most valuable next work is reducing symbol-browser wasted space and making AI patch generation more reliable.
+- Next recommended step:
+  - Prioritize either (1) compacting/redesigning the symbol library browser, or (2) improving built-in AI patch reliability with stricter repair/retry flow.
+## 2026-04-23 10:09 IST
+
+- Context:
+  - User asked to improve the symbol library browser because it looks bad and wastes too much space.
+- What changed:
+  - Restructured the left symbol-library panel in `apps/studio_web/index.html` into denser sections: symbol set + global search, quick parts, libraries, results, and preview.
+  - Tightened left-panel layout and styling in `apps/studio_web/css/main.css` by reducing panel width, padding, row heights, preview height, and search/input sizing while keeping the same core controls and ids.
+  - Added compact section wrappers and a stacked library/results grid in `apps/studio_web/css/main.css` for clearer hierarchy with less wasted vertical space.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - The symbol browser should prioritize density and scan speed rather than oversized headers and large preview blocks.
+  - The redesign kept all existing ids and JS hooks intact so the behavior remains stable while the layout becomes tighter.
+- Next recommended step:
+  - User should hard-refresh and check the new symbol browser density; if it feels good, the next pass should expose the active ANSI style more clearly and then return to built-in AI patch reliability.
+## 2026-04-23 10:18 IST
+
+- Context:
+  - User asked to stop on further library redesign for the moment and first push the current Studio achievements to git on a separate branch from `main`.
+- What changed:
+  - Created a dedicated checkpoint branch for the current Studio work: `studio-ui-ai-checkpoint-2026-04-23`.
+  - Prepared to commit only the Studio/API/contracts/docs changes for this checkpoint and leave unrelated `host_remote` work out of the branch commit.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The checkpoint branch should include only Studio-side work so unrelated firmware changes do not get mixed into this UI/AI/routing milestone.
+- Next recommended step:
+  - Stage the Studio-related files, commit them on the new branch, and push that branch to `origin` before returning to the symbol-library redesign.

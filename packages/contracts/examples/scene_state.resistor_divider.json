@@ -1,0 +1,272 @@
+{
+  "schema": "aura.scene_state.v1",
+  "metadata": {
+    "title": "Resistor Divider Scene Capture",
+    "description": "Example Studio canvas capture for AI read-context work.",
+    "captureSource": "studio_canvas",
+    "sourceSchematicId": "demo-resistor-divider",
+    "sourceRevision": 3,
+    "standard": "iec"
+  },
+  "canvas": {
+    "grid": {
+      "unitMm": 0.3175,
+      "pixelsPerUnit": 10
+    },
+    "viewport": {
+      "zoom": 1,
+      "offsetX": 420,
+      "offsetY": 260
+    }
+  },
+  "components": [
+    {
+      "id": "pwr_vcc",
+      "symbolKey": "power:VCC",
+      "reference": "#PWR1",
+      "value": "VCC",
+      "placement": {
+        "x": 120,
+        "y": 16,
+        "rotationDeg": 0
+      },
+      "bodyBounds": {
+        "left": 102,
+        "top": 8,
+        "right": 138,
+        "bottom": 24
+      },
+      "pins": [
+        {
+          "pinId": "1",
+          "number": "1",
+          "name": "VCC",
+          "direction": "down",
+          "x": 120,
+          "y": 32
+        }
+      ]
+    },
+    {
+      "id": "r1",
+      "symbolKey": "Device:R",
+      "reference": "R1",
+      "value": "10k",
+      "placement": {
+        "x": 120,
+        "y": 80,
+        "rotationDeg": 90
+      },
+      "bodyBounds": {
+        "left": 104,
+        "top": 56,
+        "right": 136,
+        "bottom": 104
+      },
+      "pins": [
+        {
+          "pinId": "pin_1",
+          "number": "1",
+          "name": "~",
+          "electricalType": "passive",
+          "direction": "up",
+          "x": 120,
+          "y": 40
+        },
+        {
+          "pinId": "pin_2",
+          "number": "2",
+          "name": "~",
+          "electricalType": "passive",
+          "direction": "down",
+          "x": 120,
+          "y": 120
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "symbolKey": "Device:R",
+      "reference": "R2",
+      "value": "10k",
+      "placement": {
+        "x": 120,
+        "y": 180,
+        "rotationDeg": 90
+      },
+      "bodyBounds": {
+        "left": 104,
+        "top": 156,
+        "right": 136,
+        "bottom": 204
+      },
+      "pins": [
+        {
+          "pinId": "pin_1",
+          "number": "1",
+          "name": "~",
+          "electricalType": "passive",
+          "direction": "up",
+          "x": 120,
+          "y": 140
+        },
+        {
+          "pinId": "pin_2",
+          "number": "2",
+          "name": "~",
+          "electricalType": "passive",
+          "direction": "down",
+          "x": 120,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "pwr_gnd",
+      "symbolKey": "power:GND",
+      "reference": "#PWR2",
+      "value": "GND",
+      "placement": {
+        "x": 120,
+        "y": 248,
+        "rotationDeg": 0
+      },
+      "bodyBounds": {
+        "left": 102,
+        "top": 240,
+        "right": 138,
+        "bottom": 256
+      },
+      "pins": [
+        {
+          "pinId": "1",
+          "number": "1",
+          "name": "GND",
+          "direction": "up",
+          "x": 120,
+          "y": 232
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "w_vcc_r1",
+      "netId": "net_vcc",
+      "label": "VCC",
+      "from": {
+        "kind": "pin",
+        "componentId": "pwr_vcc",
+        "pinId": "1"
+      },
+      "to": {
+        "kind": "pin",
+        "componentId": "r1",
+        "pinId": "pin_1"
+      },
+      "routePoints": []
+    },
+    {
+      "id": "w_mid",
+      "netId": "net_div",
+      "label": "VOUT",
+      "from": {
+        "kind": "pin",
+        "componentId": "r1",
+        "pinId": "pin_2"
+      },
+      "to": {
+        "kind": "pin",
+        "componentId": "r2",
+        "pinId": "pin_1"
+      },
+      "routePoints": []
+    },
+    {
+      "id": "w_r2_gnd",
+      "netId": "net_gnd",
+      "label": "GND",
+      "from": {
+        "kind": "pin",
+        "componentId": "r2",
+        "pinId": "pin_2"
+      },
+      "to": {
+        "kind": "pin",
+        "componentId": "pwr_gnd",
+        "pinId": "1"
+      },
+      "routePoints": []
+    }
+  ],
+  "junctions": [],
+  "selection": {
+    "componentIds": [],
+    "wireIds": ["w_mid"],
+    "junctionIds": [],
+    "scope": "wires"
+  },
+  "netSummary": [
+    {
+      "id": "net_vcc",
+      "label": "VCC",
+      "members": [
+        {
+          "kind": "component_pin",
+          "id": "pwr_vcc",
+          "pinId": "1"
+        },
+        {
+          "kind": "component_pin",
+          "id": "r1",
+          "pinId": "pin_1"
+        },
+        {
+          "kind": "wire",
+          "id": "w_vcc_r1"
+        }
+      ]
+    },
+    {
+      "id": "net_div",
+      "label": "VOUT",
+      "members": [
+        {
+          "kind": "component_pin",
+          "id": "r1",
+          "pinId": "pin_2"
+        },
+        {
+          "kind": "component_pin",
+          "id": "r2",
+          "pinId": "pin_1"
+        },
+        {
+          "kind": "wire",
+          "id": "w_mid"
+        }
+      ]
+    },
+    {
+      "id": "net_gnd",
+      "label": "GND",
+      "members": [
+        {
+          "kind": "component_pin",
+          "id": "r2",
+          "pinId": "pin_2"
+        },
+        {
+          "kind": "component_pin",
+          "id": "pwr_gnd",
+          "pinId": "1"
+        },
+        {
+          "kind": "wire",
+          "id": "w_r2_gnd"
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

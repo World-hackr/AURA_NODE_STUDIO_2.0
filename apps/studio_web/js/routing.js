@@ -1,11 +1,27 @@
 "use strict";
 
+import {
+    getLibavoidRouterStatus,
+    initLibavoidRouter,
+    routeConnectionWithLibavoid,
+    runLibavoidBenchmark,
+} from "./libavoid_adapter.js";
+
 const DEFAULT_STUB_LENGTH = 20;
 const GUIDE_CHANNEL_OFFSET = 30;
 const GUIDE_WIDE_CHANNEL_OFFSET = 60;
 const CROWDING_MARGIN = 24;
 const CROWDING_PENALTY = 54;
-const ALL_ROUTING_DIRECTIONS = ["left", "right", "up", "down"];
+const LIBAVOID_GRID_SIZE = 10;
+
+let libavoidInitError = null;
+
+try {
+    await initLibavoidRouter();
+} catch (error) {
+    libavoidInitError = error instanceof Error ? error.message : String(error);
+    console.error("Failed to initialize libavoid router", error);
+}
 
 function nudgePoint(point, direction, distance) {
     switch (direction) {
@@ -411,178 +427,23 @@ function getSoftSegmentPenalty(start, end, segments) {
 }
 
 function getRoutePointsViaGridSearch(start, end, obstacles, penaltySegments, step = 8) {
-    const attempts = [96, 160, 240, 340];
-
-    for (const margin of attempts) {
-        const corridorLeft = Math.min(start.x, end.x) - margin;
-        const corridorTop = Math.min(start.y, end.y) - margin;
-        const corridorRight = Math.max(start.x, end.x) + margin;
-        const corridorBottom = Math.max(start.y, end.y) + margin;
-        const relevantObstacles = obstacles.filter((rect) =>
-            rectIntersectsBounds(rect, corridorLeft, corridorTop, corridorRight, corridorBottom),
-        );
-
-        const boundsLeft = Math.min(
-            corridorLeft,
-            ...relevantObstacles.map((rect) => rect.left - margin * 0.35),
-        );
-        const boundsTop = Math.min(
-            corridorTop,
-            ...relevantObstacles.map((rect) => rect.top - margin * 0.35),
-        );
-        const boundsRight = Math.max(
-            corridorRight,
-            ...relevantObstacles.map((rect) => rect.right + margin * 0.35),
-        );
-        const boundsBottom = Math.max(
-            corridorBottom,
-            ...relevantObstacles.map((rect) => rect.bottom + margin * 0.35),
-        );
-
-        const forcedXs = [
-            start.x,
-            end.x,
-            ...relevantObstacles.flatMap((rect) => [
-                rect.left,
-                rect.right,
-                rect.left - GUIDE_CHANNEL_OFFSET,
-                rect.right + GUIDE_CHANNEL_OFFSET,
-                rect.left - GUIDE_WIDE_CHANNEL_OFFSET,
-                rect.right + GUIDE_WIDE_CHANNEL_OFFSET,
-            ]),
-            ...penaltySegments.flatMap((segment) => [segment.start.x, segment.end.x]),
-        ];
-        const forcedYs = [
-            start.y,
-            end.y,
-            ...relevantObstacles.flatMap((rect) => [
-                rect.top,
-                rect.bottom,
-                rect.top - GUIDE_CHANNEL_OFFSET,
-                rect.bottom + GUIDE_CHANNEL_OFFSET,
-                rect.top - GUIDE_WIDE_CHANNEL_OFFSET,
-                rect.bottom + GUIDE_WIDE_CHANNEL_OFFSET,
-            ]),
-            ...penaltySegments.flatMap((segment) => [segment.start.y, segment.end.y]),
-        ];
-        const xs = buildAxisValues(boundsLeft, boundsRight, step, forcedXs);
-        const ys = buildAxisValues(boundsTop, boundsBottom, step, forcedYs);
-        const points = dedupePoints(
-            xs.flatMap((x) =>
-                ys.map((y) => ({ x, y })).filter(
-                    (point) => !relevantObstacles.some((rect) => pointInsideRect(point, rect)),
-                ),
-            ),
-        );
-        const indexByKey = new Map(points.map((point, index) => [pointKey(point), index]));
-        const startIndex = indexByKey.get(pointKey(start));
-        const endIndex = indexByKey.get(pointKey(end));
-        if (startIndex == null || endIndex == null) {
-            continue;
-        }
-
-        const adjacency = new Map();
-        const connect = (first, second, axis) => {
-            if (relevantObstacles.some((rect) => segmentIntersectsRect(first, second, rect))) {
-                return;
-            }
-            const firstIndex = indexByKey.get(pointKey(first));
-            const secondIndex = indexByKey.get(pointKey(second));
-            if (firstIndex == null || secondIndex == null || firstIndex === secondIndex) {
-                return;
-            }
-
-            const distance = Math.abs(first.x - second.x) + Math.abs(first.y - second.y);
-            const crowdingPenalty = getSegmentCrowdingPenalty(first, second, relevantObstacles);
-            const wirePenalty = getSoftSegmentPenalty(first, second, penaltySegments);
-            const entry = { to: secondIndex, axis, distance, penalty: crowdingPenalty + wirePenalty };
-            const reverse = { to: firstIndex, axis, distance, penalty: crowdingPenalty + wirePenalty };
-            adjacency.set(firstIndex, [...(adjacency.get(firstIndex) ?? []), entry]);
-            adjacency.set(secondIndex, [...(adjacency.get(secondIndex) ?? []), reverse]);
-        };
-
-        xs.forEach((x) => {
-            const linePoints = points
-                .filter((point) => Math.abs(point.x - x) < 0.01)
-                .sort((left, right) => left.y - right.y);
-            for (let index = 0; index < linePoints.length - 1; index += 1) {
-                connect(linePoints[index], linePoints[index + 1], "v");
-            }
-        });
-
-        ys.forEach((y) => {
-            const linePoints = points
-                .filter((point) => Math.abs(point.y - y) < 0.01)
-                .sort((left, right) => left.x - right.x);
-            for (let index = 0; index < linePoints.length - 1; index += 1) {
-                connect(linePoints[index], linePoints[index + 1], "h");
-            }
-        });
-
-        const queue = [
-            {
-                node: startIndex,
-                axis: null,
-                cost: 0,
-                estimate: Math.abs(start.x - end.x) + Math.abs(start.y - end.y),
-            },
-        ];
-        const best = new Map([[`${startIndex}:none`, 0]]);
-        const parent = new Map([[`${startIndex}:none`, { previousKey: null, node: startIndex }]]);
-        const bendPenalty = 26;
-
-        while (queue.length > 0) {
-            queue.sort((left, right) => (left.cost + left.estimate) - (right.cost + right.estimate));
-            const current = queue.shift();
-            if (!current) {
-                break;
-            }
-
-            const currentAxisKey = current.axis ?? "none";
-            const currentKey = `${current.node}:${currentAxisKey}`;
-            const currentBest = best.get(currentKey);
-            if (currentBest == null || current.cost > currentBest) {
-                continue;
-            }
-
-            if (current.node === endIndex) {
-                const path = [];
-                let walkerKey = currentKey;
-                while (walkerKey) {
-                    const walker = parent.get(walkerKey);
-                    if (!walker) {
-                        break;
-                    }
-                    path.push(points[walker.node]);
-                    walkerKey = walker.previousKey;
-                }
-                return simplifyOrthogonalPoints(path.reverse());
-            }
-
-            const edges = adjacency.get(current.node) ?? [];
-            edges.forEach((edge) => {
-                const turnPenalty = current.axis != null && current.axis !== edge.axis ? bendPenalty : 0;
-                const nextCost = current.cost + edge.distance + edge.penalty + turnPenalty;
-                const nextKey = `${edge.to}:${edge.axis}`;
-                const existing = best.get(nextKey);
-                if (existing != null && existing <= nextCost) {
-                    return;
-                }
-
-                const point = points[edge.to];
-                best.set(nextKey, nextCost);
-                parent.set(nextKey, { previousKey: currentKey, node: edge.to });
-                queue.push({
-                    node: edge.to,
-                    axis: edge.axis,
-                    cost: nextCost,
-                    estimate: Math.abs(point.x - end.x) + Math.abs(point.y - end.y),
-                });
-            });
-        }
+    void step;
+    if (!getLibavoidRouterStatus().ready) {
+        return null;
     }
 
-    return null;
+    try {
+        const routed = routeConnectionWithLibavoid({
+            start,
+            end,
+            obstacles,
+            penaltySegments,
+            gridSize: LIBAVOID_GRID_SIZE,
+        });
+        return routed?.routePoints ?? null;
+    } catch {
+        return null;
+    }
 }
 
 function getFallbackRoutePoints(start, end, startDirection, endDirection) {
@@ -1613,184 +1474,33 @@ function buildAutoroutedConnectionRoute({
         return null;
     }
 
-    const manhattanDistance = Math.abs(startPoint.x - endPoint.x) + Math.abs(startPoint.y - endPoint.y);
-    const anchorManhattanDistance = Math.abs(startAnchor.x - endAnchor.x) + Math.abs(startAnchor.y - endAnchor.y);
-    const shouldTryCompactRoutes =
-        manhattanDistance <= 220 || anchorManhattanDistance <= 180;
-    const startDirectionOptions = preferredStartDirection
-        ? shouldTryCompactRoutes
-            ? [
-                preferredStartDirection,
-                undefined,
-                ...ALL_ROUTING_DIRECTIONS.filter((direction) => direction !== preferredStartDirection),
-            ]
-            : [preferredStartDirection]
-        : [undefined, ...ALL_ROUTING_DIRECTIONS];
-    const endDirectionOptions = preferredEndDirection
-        ? shouldTryCompactRoutes
-            ? [
-                preferredEndDirection,
-                undefined,
-                ...ALL_ROUTING_DIRECTIONS.filter((direction) => direction !== preferredEndDirection),
-            ]
-            : [preferredEndDirection]
-        : [undefined, ...ALL_ROUTING_DIRECTIONS];
-    const candidateMap = new Map();
-
-    function addCandidate(routePoints, candidate) {
-        const routeKey = routePoints
-            .map((point) => `${point.x.toFixed(2)}:${point.y.toFixed(2)}`)
-            .join("|");
-        const existingCandidate = candidateMap.get(routeKey);
-        if (existingCandidate && existingCandidate.score <= candidate.score) {
-            return;
-        }
-        candidateMap.set(routeKey, { routePoints, ...candidate });
-    }
-
-    function pickBestCandidate() {
-        const rankedCandidates = Array.from(candidateMap.values()).sort((left, right) => {
-            if (left.obstacleCount !== right.obstacleCount) {
-                return left.obstacleCount - right.obstacleCount;
-            }
-            if (left.backtrackCount !== right.backtrackCount) {
-                return left.backtrackCount - right.backtrackCount;
-            }
-            if (left.overlapCount !== right.overlapCount) {
-                return left.overlapCount - right.overlapCount;
-            }
-            if (left.crossingCount !== right.crossingCount) {
-                return left.crossingCount - right.crossingCount;
-            }
-            if (left.bendCount !== right.bendCount) {
-                return left.bendCount - right.bendCount;
-            }
-            if (left.overlapLength !== right.overlapLength) {
-                return left.overlapLength - right.overlapLength;
-            }
-            return left.score - right.score;
-        });
-        const obstacleFreeCandidates = rankedCandidates.filter(
-            (candidate) => candidate.obstacleCount === 0,
-        );
-        const monotonicCandidates = obstacleFreeCandidates.filter(
-            (candidate) => candidate.backtrackCount === 0,
-        );
-        const nonOverlappingCandidates = monotonicCandidates.filter(
-            (candidate) => candidate.overlapCount === 0,
-        );
-        return (
-            nonOverlappingCandidates[0]
-            ?? monotonicCandidates[0]
-            ?? obstacleFreeCandidates[0]
-            ?? rankedCandidates[0]
-        ) ?? null;
-    }
-
-    function maybeAddCheapCandidate(routePoints, directionPenalty = 0, bendWeight = 24, scoreBonus = 0) {
-        const normalizedRoute = cleanupAutorouteRoute(
-            normalizeRoutePoints(routePoints),
-            obstacles,
-        );
-        const candidate = scoreAutorouteCandidate(
-            normalizedRoute,
+    const anchoredRoutePoints = getSmartOrthogonalRoutePoints(
+        startAnchor.x,
+        startAnchor.y,
+        endAnchor.x,
+        endAnchor.y,
+        preferredStartDirection,
+        preferredEndDirection,
+        obstacles,
+        penaltySegments,
+    );
+    const routePoints = normalizeRoutePoints([
+        startPoint,
+        ...anchoredRoutePoints,
+        endPoint,
+    ]);
+    const cleanedRoutePoints = cleanupAutorouteRoute(routePoints, obstacles);
+    return {
+        routePoints: cleanedRoutePoints,
+        ...scoreAutorouteCandidate(
+            cleanedRoutePoints,
             routeReferenceRoutes,
             explicitPoints,
-            directionPenalty,
-            bendWeight,
+            0,
+            26,
             obstacles,
-        );
-        addCandidate(normalizedRoute, {
-            ...candidate,
-            score: candidate.score + scoreBonus,
-        });
-        return candidate;
-    }
-
-    if (shouldTryCompactRoutes) {
-        for (const anchorRoutePoints of buildCompactOrthogonalRoutes(startAnchor, endAnchor)) {
-            if (!isCompactAnchorRouteClear(anchorRoutePoints, obstacles)) {
-                continue;
-            }
-
-            const candidate = maybeAddCheapCandidate([
-                startPoint,
-                ...anchorRoutePoints,
-                endPoint,
-            ], 0, 24, -44);
-
-            if (candidate.crossingCount === 0 && candidate.overlapCount === 0 && candidate.bendCount <= 2) {
-                const directnessSlack = Math.max(28, manhattanDistance * 0.16);
-                if (candidate.routeLength <= manhattanDistance + directnessSlack) {
-                    return pickBestCandidate();
-                }
-            }
-        }
-    }
-
-    const skeletonRoutes = buildSkeletonChannelRoutes(startAnchor, endAnchor, obstacles);
-    for (const anchorRoutePoints of skeletonRoutes) {
-        if (!isCompactAnchorRouteClear(anchorRoutePoints, obstacles)) {
-            continue;
-        }
-
-        const candidate = maybeAddCheapCandidate([
-            startPoint,
-            ...anchorRoutePoints,
-            endPoint,
-        ], 0, 26, -18);
-
-        if (
-            candidate.crossingCount === 0
-            && candidate.overlapCount === 0
-            && candidate.bendCount <= 3
-            && candidate.routeLength <= manhattanDistance + Math.max(42, manhattanDistance * 0.24)
-        ) {
-            return pickBestCandidate();
-        }
-    }
-
-    startDirectionOptions.forEach((startDirection) => {
-        endDirectionOptions.forEach((endDirection) => {
-            const anchoredRoutePoints = getSmartOrthogonalRoutePoints(
-                startAnchor.x,
-                startAnchor.y,
-                endAnchor.x,
-                endAnchor.y,
-                startDirection,
-                endDirection,
-                obstacles,
-                penaltySegments,
-            );
-            const routePoints = normalizeRoutePoints([
-                startPoint,
-                ...anchoredRoutePoints,
-                endPoint,
-            ]);
-            const cleanedRoutePoints = cleanupAutorouteRoute(routePoints, obstacles);
-            const directionPenalty =
-                (startDirection != null && preferredStartDirection != null && startDirection !== preferredStartDirection
-                    ? 18
-                    : 0)
-                + (startDirection == null && preferredStartDirection != null ? 10 : 0)
-                + (endDirection != null && preferredEndDirection != null && endDirection !== preferredEndDirection
-                    ? 18
-                    : 0)
-                + (endDirection == null && preferredEndDirection != null ? 10 : 0);
-            const candidate = scoreAutorouteCandidate(
-                cleanedRoutePoints,
-                routeReferenceRoutes,
-                explicitPoints,
-                directionPenalty,
-                34,
-                obstacles,
-            );
-
-            addCandidate(cleanedRoutePoints, candidate);
-        });
-    });
-
-    return pickBestCandidate();
+        ),
+    };
 }
 
 function removeRoutePointAtIndex(routePoints, pointIndex) {
@@ -1842,11 +1552,13 @@ window.AuraRouting = {
     getRouteBendCount,
     countRouteCrossings,
     countRouteOverlaps,
-    buildCompactOrthogonalRoutes,
-    buildSkeletonChannelRoutes,
-    scoreAutorouteCandidate,
     buildAutoroutedConnectionRoute,
     removeRoutePointAtIndex,
     insertRoutePointOnSegment,
     cleanupAutorouteRoute,
+    getLibavoidRouterStatus,
+    initLibavoidRouter,
+    routeConnectionWithLibavoid,
+    runLibavoidBenchmark,
+    libavoidInitError,
 };

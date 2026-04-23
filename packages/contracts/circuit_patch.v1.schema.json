@@ -1,0 +1,322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aura/contracts/circuit_patch.v1",
+  "title": "AURA Circuit Patch V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "metadata", "target", "operations"],
+  "properties": {
+    "schema": {
+      "const": "aura.circuit_patch.v1"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "mode"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "mode": {
+          "type": "string",
+          "enum": ["preview", "apply"]
+        },
+        "requestedBy": {
+          "type": "string",
+          "enum": ["user", "assistant", "external_ai"]
+        }
+      }
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sceneSchema"],
+      "properties": {
+        "sceneSchema": {
+          "const": "aura.scene_state.v1"
+        },
+        "sourceSchematicId": { "type": "string" },
+        "sourceRevision": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "operations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          { "$ref": "#/$defs/addComponentOperation" },
+          { "$ref": "#/$defs/updateComponentOperation" },
+          { "$ref": "#/$defs/deleteComponentOperation" },
+          { "$ref": "#/$defs/addJunctionOperation" },
+          { "$ref": "#/$defs/updateJunctionOperation" },
+          { "$ref": "#/$defs/deleteJunctionOperation" },
+          { "$ref": "#/$defs/addWireOperation" },
+          { "$ref": "#/$defs/updateWireOperation" },
+          { "$ref": "#/$defs/deleteWireOperation" },
+          { "$ref": "#/$defs/setSelectionOperation" }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    },
+    "placement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y", "rotationDeg"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "rotationDeg": { "type": "number" },
+        "mirrorX": { "type": "boolean" },
+        "mirrorY": { "type": "boolean" }
+      }
+    },
+    "wireEndpoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["pin", "junction"]
+        },
+        "componentId": { "type": "string", "minLength": 1 },
+        "pinId": { "type": "string", "minLength": 1 },
+        "junctionId": { "type": "string", "minLength": 1 }
+      },
+      "oneOf": [
+        {
+          "required": ["kind", "componentId", "pinId"],
+          "properties": {
+            "kind": { "const": "pin" },
+            "componentId": { "type": "string", "minLength": 1 },
+            "pinId": { "type": "string", "minLength": 1 }
+          }
+        },
+        {
+          "required": ["kind", "junctionId"],
+          "properties": {
+            "kind": { "const": "junction" },
+            "junctionId": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "componentRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "symbolKey", "reference", "placement"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "symbolKey": { "type": "string", "minLength": 1 },
+        "reference": { "type": "string", "minLength": 1 },
+        "value": { "type": "string" },
+        "unitId": { "type": "string" },
+        "fields": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "properties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": ["string", "number", "boolean", "null"]
+          }
+        },
+        "placement": {
+          "$ref": "#/$defs/placement"
+        }
+      }
+    },
+    "junctionRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "x", "y"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    },
+    "wireRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "from", "to", "routePoints"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "netId": { "type": "string" },
+        "label": { "type": "string" },
+        "from": { "$ref": "#/$defs/wireEndpoint" },
+        "to": { "$ref": "#/$defs/wireEndpoint" },
+        "routePoints": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/point" }
+        }
+      }
+    },
+    "selectionRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["componentIds", "wireIds", "junctionIds", "scope"],
+      "properties": {
+        "componentIds": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "wireIds": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "junctionIds": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "scope": {
+          "type": "string",
+          "enum": ["parts", "wires", "both"]
+        }
+      }
+    },
+    "addComponentOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "component"],
+      "properties": {
+        "op": { "const": "add_component" },
+        "component": { "$ref": "#/$defs/componentRecord" }
+      }
+    },
+    "updateComponentOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "id", "changes"],
+      "properties": {
+        "op": { "const": "update_component" },
+        "id": { "type": "string", "minLength": 1 },
+        "changes": {
+          "type": "object",
+          "additionalProperties": false,
+          "minProperties": 1,
+          "properties": {
+            "reference": { "type": "string", "minLength": 1 },
+            "value": { "type": "string" },
+            "unitId": { "type": "string" },
+            "fields": {
+              "type": "object",
+              "additionalProperties": { "type": "string" }
+            },
+            "properties": {
+              "type": "object",
+              "additionalProperties": {
+                "type": ["string", "number", "boolean", "null"]
+              }
+            },
+            "placement": { "$ref": "#/$defs/placement" }
+          }
+        }
+      }
+    },
+    "deleteComponentOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "id"],
+      "properties": {
+        "op": { "const": "delete_component" },
+        "id": { "type": "string", "minLength": 1 }
+      }
+    },
+    "addJunctionOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "junction"],
+      "properties": {
+        "op": { "const": "add_junction" },
+        "junction": { "$ref": "#/$defs/junctionRecord" }
+      }
+    },
+    "updateJunctionOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "id", "changes"],
+      "properties": {
+        "op": { "const": "update_junction" },
+        "id": { "type": "string", "minLength": 1 },
+        "changes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y"],
+          "properties": {
+            "x": { "type": "number" },
+            "y": { "type": "number" }
+          }
+        }
+      }
+    },
+    "deleteJunctionOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "id"],
+      "properties": {
+        "op": { "const": "delete_junction" },
+        "id": { "type": "string", "minLength": 1 }
+      }
+    },
+    "addWireOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "wire"],
+      "properties": {
+        "op": { "const": "add_wire" },
+        "wire": { "$ref": "#/$defs/wireRecord" }
+      }
+    },
+    "updateWireOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "id", "changes"],
+      "properties": {
+        "op": { "const": "update_wire" },
+        "id": { "type": "string", "minLength": 1 },
+        "changes": {
+          "type": "object",
+          "additionalProperties": false,
+          "minProperties": 1,
+          "properties": {
+            "netId": { "type": "string" },
+            "label": { "type": "string" },
+            "from": { "$ref": "#/$defs/wireEndpoint" },
+            "to": { "$ref": "#/$defs/wireEndpoint" },
+            "routePoints": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/point" }
+            }
+          }
+        }
+      }
+    },
+    "deleteWireOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "id"],
+      "properties": {
+        "op": { "const": "delete_wire" },
+        "id": { "type": "string", "minLength": 1 }
+      }
+    },
+    "setSelectionOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "selection"],
+      "properties": {
+        "op": { "const": "set_selection" },
+        "selection": { "$ref": "#/$defs/selectionRecord" }
+      }
+    }
+  }
+}

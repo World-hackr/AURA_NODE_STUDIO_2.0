@@ -1,5 +1,6 @@
 import Fastify from "fastify";
 import cors from "@fastify/cors";
+import { generateAiPatchReply, getAiProviderDefaults, getAiProviderStatus, listAiProviderModels } from "./ai.mjs";
 
 import {
   listContracts,
@@ -21,6 +22,7 @@ import {
   listKiCadLibraries,
   getKiCadSymbolDefinition,
   listKiCadSymbolsInLibrary,
+  searchKiCadSymbols,
 } from "./kicad_symbols.mjs";
 import { listCuratedPackages } from "./library.mjs";
 
@@ -41,6 +43,55 @@ app.get("/contracts", async () => ({
   ok: true,
   contracts: await listContracts(),
 }));
+
+app.get("/ai/providers", async () => getAiProviderDefaults());
+
+app.get("/ai/models", async (request, reply) => {
+  try {
+    return await listAiProviderModels({
+      provider: request.query?.provider,
+      apiKey: request.query?.apiKey,
+    });
+  } catch (error) {
+    const statusCode = Number.isInteger(error?.statusCode) ? error.statusCode : 500;
+    return reply.code(statusCode).send({
+      ok: false,
+      message: error instanceof Error ? error.message : "AI model listing failed.",
+      ...(error?.details ? { details: error.details } : {}),
+    });
+  }
+});
+
+app.get("/ai/status", async (request, reply) => {
+  try {
+    return await getAiProviderStatus({
+      provider: request.query?.provider,
+      apiKey: request.query?.apiKey,
+      model: request.query?.model,
+    });
+  } catch (error) {
+    const statusCode = Number.isInteger(error?.statusCode) ? error.statusCode : 500;
+    return reply.code(statusCode).send({
+      ok: false,
+      ready: false,
+      message: error instanceof Error ? error.message : "AI provider status check failed.",
+      ...(error?.details ? { details: error.details } : {}),
+    });
+  }
+});
+
+app.post("/ai/generate-patch", async (request, reply) => {
+  try {
+    return await generateAiPatchReply(request.body ?? {});
+  } catch (error) {
+    const statusCode = Number.isInteger(error?.statusCode) ? error.statusCode : 500;
+    return reply.code(statusCode).send({
+      ok: false,
+      message: error instanceof Error ? error.message : "AI request failed.",
+      ...(error?.details ? { details: error.details } : {}),
+    });
+  }
+});
 
 app.post("/validate/:contractId", async (request, reply) => {
   const { contractId } = request.params;
@@ -102,6 +153,21 @@ app.get("/symbol-sources/kicad/libraries/:libraryId", async (request, reply) => 
   return {
     ok: true,
     ...result,
+  };
+});
+
+app.get("/symbol-sources/kicad/search", async (request) => {
+  const rawLibraries = String(request.query?.libraries || "").trim();
+  const libraries = rawLibraries
+    ? rawLibraries.split(",").map((value) => value.trim()).filter(Boolean)
+    : [];
+  return {
+    ok: true,
+    query: String(request.query?.q || ""),
+    symbols: await searchKiCadSymbols(request.query?.q, {
+      libraries,
+      limit: request.query?.limit,
+    }),
   };
 });
 

@@ -22,6 +22,16 @@
       "purpose": "Canonical deterministic symbol-based schematic document"
     },
     {
+      "id": "scene_state.v1",
+      "path": "packages/contracts/scene_state.v1.schema.json",
+      "purpose": "Deterministic Studio canvas read-context for AI and preview systems"
+    },
+    {
+      "id": "circuit_patch.v1",
+      "path": "packages/contracts/circuit_patch.v1.schema.json",
+      "purpose": "Deterministic add/update/delete patch format for AI-proposed edits"
+    },
+    {
       "id": "component_package.v1",
       "path": "packages/contracts/component_package.v1.schema.json",
       "purpose": "Canonical reusable component package model"

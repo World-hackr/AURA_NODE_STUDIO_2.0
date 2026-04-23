@@ -1,0 +1,112 @@
+{
+  "schema": "aura.circuit_patch.v1",
+  "metadata": {
+    "title": "Add indicator LED to divider output",
+    "description": "Preview-mode patch that adds a simple LED indicator and keeps the new items selected.",
+    "mode": "preview",
+    "requestedBy": "assistant"
+  },
+  "target": {
+    "sceneSchema": "aura.scene_state.v1",
+    "sourceSchematicId": "demo-resistor-divider",
+    "sourceRevision": 3
+  },
+  "operations": [
+    {
+      "op": "add_component",
+      "component": {
+        "id": "d1",
+        "symbolKey": "Device:LED",
+        "reference": "D1",
+        "value": "GREEN",
+        "placement": {
+          "x": 240,
+          "y": 140,
+          "rotationDeg": 0
+        }
+      }
+    },
+    {
+      "op": "add_component",
+      "component": {
+        "id": "r3",
+        "symbolKey": "Device:R",
+        "reference": "R3",
+        "value": "1k",
+        "placement": {
+          "x": 330,
+          "y": 140,
+          "rotationDeg": 0
+        }
+      }
+    },
+    {
+      "op": "add_wire",
+      "wire": {
+        "id": "w_vout_led",
+        "netId": "net_div",
+        "label": "VOUT",
+        "from": {
+          "kind": "pin",
+          "componentId": "r2",
+          "pinId": "pin_1"
+        },
+        "to": {
+          "kind": "pin",
+          "componentId": "d1",
+          "pinId": "1"
+        },
+        "routePoints": [
+          { "x": 180, "y": 140 }
+        ]
+      }
+    },
+    {
+      "op": "add_wire",
+      "wire": {
+        "id": "w_led_res",
+        "from": {
+          "kind": "pin",
+          "componentId": "d1",
+          "pinId": "2"
+        },
+        "to": {
+          "kind": "pin",
+          "componentId": "r3",
+          "pinId": "pin_1"
+        },
+        "routePoints": []
+      }
+    },
+    {
+      "op": "add_wire",
+      "wire": {
+        "id": "w_res_gnd",
+        "netId": "net_gnd",
+        "label": "GND",
+        "from": {
+          "kind": "pin",
+          "componentId": "r3",
+          "pinId": "pin_2"
+        },
+        "to": {
+          "kind": "pin",
+          "componentId": "pwr_gnd",
+          "pinId": "1"
+        },
+        "routePoints": [
+          { "x": 330, "y": 220 }
+        ]
+      }
+    },
+    {
+      "op": "set_selection",
+      "selection": {
+        "componentIds": ["d1", "r3"],
+        "wireIds": ["w_vout_led", "w_led_res", "w_res_gnd"],
+        "junctionIds": [],
+        "scope": "both"
+      }
+    }
+  ]
+}
