@@ -6349,3 +6349,23 @@
   - Keep `apps/studio_web/ble_test.html` uncommitted because it is a standalone local test page rather than part of the current Studio milestone.
 - Next recommended step:
   - Create the Studio-only commit, push it to `main`, and then delete the old remote checkpoint branch once `main` contains the same work.
+## 2026-04-24 17:33 IST
+
+- Context:
+  - Completed the requested Studio-only git checkpoint and branch cleanup.
+- What changed:
+  - Created Studio-only commit `3a1ae491bad1a71e0a44b09bcaccf40973661dc0` with the AI pipeline, contract, UI, database, ignore-file, and status-report updates.
+  - Updated local `main` to point to that commit.
+  - Pushed the commit to `origin/main`.
+  - Deleted the old remote checkpoint branch `origin/studio-ui-ai-checkpoint-2026-04-23`.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `git rev-parse HEAD`
+  - `git push origin HEAD:main`
+  - `git push origin --delete studio-ui-ai-checkpoint-2026-04-23`
+- Decisions made:
+  - Leave unrelated local firmware changes and untracked firmware files in the working tree without committing them.
+  - Leave the current local working branch in place because it is the checked-out branch and the tree still contains unrelated local changes.
+- Next recommended step:
+  - Continue Studio work from `main` semantics, with the next product task focused on richer AI tool context and multi-step repair/review loops rather than bigger models alone.
