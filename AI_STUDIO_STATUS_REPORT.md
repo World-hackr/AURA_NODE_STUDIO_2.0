@@ -1,262 +1,278 @@
 # AURA Node Studio Status Report
 
-Updated: 2026-04-22
+Updated: 2026-04-24
 
 ## Purpose
 
-This file is a durable handoff and status summary for future work by Codex, Gemini, or any other assistant operating inside this workspace. It complements `AI_CONTINUITY_LOG.md` by summarizing the bigger picture, current behavior, important design decisions, and known gaps.
+This file is the current Studio-side handoff summary. It complements `AI_CONTINUITY_LOG.md` by keeping the durable product state, what is already solid enough to build on, and what should happen next.
 
 ## Product Scope
 
-Current active scope in this repo:
+Active scope:
 - Circuit Studio
 - Component Lab
 - curated package library
-- deterministic circuit intent -> circuit IR -> Studio flow
-- AI-assisted circuit generation and editing
+- deterministic `circuit_intent -> resolver -> circuit_ir` flow
+- AI-assisted generation and editing
 
-Out of scope right now:
+Out of scope:
 - host firmware
+- node/locator work
 - phone app
-- node/locator platform
 - inventory backend
-- full simulator-first platform
+- simulation-first platform work
 
-## Core Product Rule
+## Current Product Rule
 
-Everything should support this flow:
+Everything in the repo should support this flow:
 1. user intent
-2. AI produces structured circuit intent or patch
-3. deterministic resolver/compiler maps to trusted packages and circuit IR
-4. Studio renders an editable circuit
+2. AI produces structured `circuit_intent` or editing intent
+3. deterministic resolver/compiler maps to trusted packages and `circuit_ir`
+4. Studio renders editable circuit data
 5. user makes small fixes
-6. export deterministic data
+6. system exports deterministic data
 
-This means AI should not freely paint the final circuit. AI should read structured state and emit structured intent or patch data that Studio validates before apply.
+AI is not allowed to paint final truth directly. Final circuit/package/pin truth stays in deterministic Studio systems.
 
-## Major Work Completed So Far
+## What Has Been Achieved
 
-### 1. Import Modal and Import Flow
+### 1. Core Studio Shell Is Stable Enough To Build On
 
-Completed:
-- fixed the JSON import modal appearing open by default
-- fixed modal close behavior
-- made `Apply To Canvas` close the modal immediately after successful JSON parse
-- removed hidden import-time autorouting from JSON apply
-- import now places raw components, junctions, and wires directly
-- added viewport auto-fit after import so the imported sketch is visible without manual zoom-out
+The current web app can:
+- open and run reliably with the local API
+- import and render structured circuit data
+- edit components, wires, and junctions on canvas
+- preserve history/state through the existing editor flow
+- export deterministic scene state for AI/tooling use
 
-Current import behavior:
-- `Load Example` fills the modal text area
-- `Apply To Canvas` parses JSON, closes the modal, places the scene, fits the viewport, updates history, and redraws
-- import no longer pretends to produce final routed wiring
+The editor now has a workable baseline for:
+- panning
+- selection scopes
+- marquee selection
+- wire interaction
+- preview/apply flows
 
-Important file:
-- `apps/studio_web/js/main.js`
+### 2. Library/Browser UI Was Restructured
 
-### 2. Canvas Navigation and Selection
+The component browser is no longer a single overgrown left column.
 
-Completed:
-- fixed the regression where a modal overlay blocked panning
-- changed empty-stage drag behavior so panning works normally
-- added `SEL` toggle for explicit marquee mode
-- added `PART / WIRE / BOTH` selection scopes
-- fixed marquee rendering so the box actually appears while dragging
-- improved multi-select behavior
-- improved selected wire visibility with stronger green highlighting
+What is now in place:
+- simpler search vs browse structure
+- improved symbol browsing flow
+- better preview docking
+- better mode clarity
+- more usable quick access to package/symbol lookup
 
-Current interaction rules:
-- `SEL` on: left drag marquee-selects
-- `SEL` off: left drag pans
-- `Shift+drag`: one-off marquee select
-- repeated hit cycling in `BOTH` mode can distinguish overlapping body and wire targets
+This is not the final information architecture, but it is no longer blocking the main Studio workflow.
 
-Important files:
-- `apps/studio_web/js/main.js`
-- `apps/studio_web/index.html`
-- `apps/studio_web/css/main.css`
+### 3. Deterministic AI Editing Foundation Exists
 
-### 3. Wire Autoroute Work
+Structured AI-related contracts now exist for:
+- `scene_state.v1`
+- `layout_intent.v1`
+- `circuit_patch.v1`
+- `circuit_intent.v1`
+- `circuit_ir.v1`
 
-Completed:
-- added selected-wire autoroute action
-- added capped batch autoroute behavior
-- improved UI progress feedback for multi-wire autoroute
-- reduced autoroute working set to local nearby geometry instead of scoring against the entire canvas for every selected wire
+The backend can now:
+- validate structured AI payloads
+- convert `layout_intent` into deterministic patch geometry
+- keep AI patch/chat history in SQLite
+- expose AI provider status/models
+- run normal AI chat
+- run patch generation
+- run first-pass circuit generation
 
-Current status:
-- autoroute is still heuristic, not globally optimal
-- it is good enough for bounded local use, but not the final routing architecture
-- import no longer autoroutes automatically
-- explicit autoroute is still the right place for heavier routing work
+### 4. First Deterministic Circuit Generation Path Exists
 
-Important routing limitation:
-- this is not yet a full libavoid-style incremental router
-- monotonic cleanup and a more formal bridge / routing architecture are still future work
+The app now has a real backend path for:
 
-Important files:
-- `apps/studio_web/js/main.js`
-- `apps/studio_web/js/routing.js`
+`prompt -> circuit_intent -> trusted package resolution -> circuit_ir`
 
-### 4. Wire Jump / Bridge Rendering
+What is implemented:
+- new circuit pipeline module
+- deterministic fallback intent generation
+- trusted package resolution against the curated library
+- `circuit_ir` compilation
+- API route: `POST /ai/generate-circuit`
+- frontend import of generated `circuit_ir` directly onto the canvas
 
-Completed:
-- fixed several regressions around jump visibility
-- replaced the old preview-vs-committed mismatch with a unified live crossing resolver
-- jump arcs now render from current route geometry using stored jump points only as hints
-- fixed the bug where jump arcs disappeared after completing a wire to a pin because preview and committed wires used different logic
-- added a wider fallback search so jumps do not disappear as easily when a connected component is moved farther than before
-- included pin lead stubs in jump-reference geometry so visual overlaps near exposed pins are more realistic
+This is the first real version of the intended product loop.
 
-Current status:
-- jump arcs are now much more stable
-- if a crossing moves, the arc can follow
-- if a crossing disappears, the arc can disappear
-- this is functionally closer to a bridge-manager model than the earlier stale stored-point model
-
-Known caveat:
-- pin stubs are used in bridge / overlap logic, but not yet fully treated as wire semantics everywhere in the editor
-
-Important files:
-- `apps/studio_web/js/main.js`
-- `apps/studio_web/js/routing.js`
-
-### 5. Wire-to-Wire Attachment / Junction Tapping
-
-Completed on 2026-04-22:
-- added support for starting a wire from an existing wire segment by clicking the wire in wire mode
-- added support for completing a wire onto an existing wire segment by clicking the wire in wire mode
-- this works by projecting the click onto the nearest rendered wire segment, splitting that wire at the projected point, creating a junction, and then using that junction as the start or completion endpoint
-
-Current behavior:
-- wire tool + click on existing wire with no active wire: split wire, create junction, start new wire from that junction
-- wire tool + active wire + click on existing wire: split target wire, create junction, complete current wire to that junction
-
-Important file:
-- `apps/studio_web/js/main.js`
-
-### 6. Component Body-Only Selection
+### 5. Package/Contract Reliability Improved
 
 Completed:
-- component selection hit testing now prefers body-only bounds derived from symbol graphics
-- box selection also uses body bounds instead of the larger pin-inclusive area
+- added missing `led_red_5mm` to the curated library index
+- added `layout_intent.v1` to contracts and examples
+- fixed concurrent validator initialization in contracts
+- tightened Gemini status reporting so missing selected models are not reported as ready
 
-Current rule:
-- component body is for selection and dragging
-- pin stubs are not the component selection target
+### 6. SQLite Reliability Was Repaired
 
-Important caveat:
-- user still wants broader pin-stub-as-wire semantics in more places, but that work was deferred
+Completed:
+- recovered the database from journal failure state
+- switched to WAL mode
+- added safer transaction rollback behavior
+- verified `integrity_check = ok`
+- confirmed database status endpoint works again
 
-Important file:
-- `apps/studio_web/js/main.js`
+The current database state is usable for continued Studio-side AI/context work.
 
-## AI Direction Agreed in Discussion
+## Current Runtime Surfaces
 
-The next major feature direction is AI.
+### API
 
-There are two desired AI modes:
+Stable routes relevant to the current product:
+- `/health`
+- `/database/status`
+- `/database/migrate`
+- `/library/packages`
+- `/ai/providers`
+- `/ai/models`
+- `/ai/status`
+- `/ai/chat`
+- `/ai/generate-patch`
+- `/ai/generate-circuit`
+- `/ai/context`
+- `/ai/context/memory`
 
-### A. Built-In AI
+### AI Modes Implemented
 
-Goal:
-- user chats inside Studio
-- AI reads the current circuit state
-- AI proposes or produces structured changes
-- Studio validates and applies them
+1. Normal chat
+- AI sees conversation plus retrieved project context
+- returns assistant text only
 
-Important requirement:
-- AI should understand the current canvas through structured scene state, not only screenshots
+2. Patch generation
+- AI sees conversation, scene state, selection/layout summary, allowed symbol keys, and retrieved project context
+- returns `message`, `patch`, and optional `layoutIntent`
 
-The AI should be able to read:
-- components
-- wires
-- junctions
-- placements and rotations
-- route points
-- selection context
-- connectivity summary
-- layout / bounds summary
+3. Circuit generation
+- AI sees user prompt plus a simplified curated package list
+- returns `circuit_intent`
+- backend then resolves/compiles deterministic outputs
 
-### B. Prompt Pack for External Free AI
+## Known Limitations
 
-Goal:
-- user writes a request in Studio
-- Studio generates a strict prompt package
-- user pastes that prompt to a free external AI such as ChatGPT, Gemini, Claude, or similar
-- external AI returns JSON
-- user pastes the JSON back into Studio
-- Studio validates and imports it
+### 1. Circuit Generator Still Sees Too Little
 
-This path is important because:
-- the user does not currently have API billing / card access
-- it provides a free-user mode
-- it is also a good development and testing harness for the future built-in AI
+The circuit-generation model currently sees:
+- user prompt
+- only the simplified curated package list
 
-## Recommended AI Contract
+It does not yet see:
+- full package details
+- pin maps
+- resolver feedback
+- unresolved-item feedback
+- compiler failure reasons
+- repair-loop state
 
-These schemas should be defined before deeper AI implementation:
+This is the main reason current generation quality caps out quickly.
 
-### 1. `scene_state.v1`
+### 2. Board Rendering Is Still Incomplete
 
-Read-only state from Studio to AI.
+The generated Arduino example is semantically closer to correct than it looks, but the frontend still maps Arduino to a connector-style proxy.
 
-Should include:
-- components
-- wires
-- junctions
-- route geometry
-- net labels
-- current selection
-- canvas bounds / viewport summary
-- connectivity summary
+Current consequence:
+- the backend may resolve an Arduino package
+- the UI may still show a simplified connector symbol
 
-### 2. `circuit_patch.v1`
+So visible output currently understates what the backend resolved.
 
-Structured write format from AI to Studio.
+### 3. AI Loop Is Still Too Thin
 
-Should allow:
-- add / update / remove components
-- add / update / remove wires
-- add / update / remove junctions
-- move / rotate parts
-- preserve untouched ids when possible
+The project now has the first deterministic AI pipeline, but not yet the full multi-step loop.
 
-### 3. `prompt_pack.v1`
+Missing next-stage pieces:
+- explicit resolver report surfaced to AI
+- unresolved-item repair pass
+- compile-review-repair loop
+- render substitution reporting
+- stronger explainability in the UI
 
-Studio-generated external-AI prompt package.
+### 4. The Repo Still Contains Out-of-Scope Firmware Work
 
-Should include:
-- user request
-- allowed component catalog
-- current scene state if editing an existing circuit
-- strict output schema rules
-- no-markdown / JSON-only final output requirements
-- deterministic formatting rules
+There is unrelated firmware/host work present in the working tree. That should not drive current Studio design decisions and should not be mixed into Studio commits by accident.
 
-## Determinism Rules for AI
+## Verification Snapshot
 
-Strongly recommended:
-- AI outputs valid JSON only
-- no prose in the final payload
-- use only allowed symbols / packages
-- preserve existing ids where possible
-- stable ordering of arrays and objects
-- Studio validates before apply
-- Studio rejects ambiguous or invalid structures rather than guessing too much
+Verified during the current Studio stabilization work:
+- contracts validation passes
+- API syntax checks pass
+- web syntax checks pass
+- web production build passes
+- database status works
+- SQLite integrity check is clean
+- AI generate-circuit route returns valid `circuit_intent` and `circuit_ir`
 
-## Current Open Issues / Deferred Items
+## What Should Happen Next
 
-### Deferred: Pin Stub as Full Wire Semantics
+### Immediate Next Goal
 
-The user still wants stronger pin-stub-as-wire behavior.
+Strengthen the AI toolchain around the model before expanding model ambition.
 
-What is already done:
-- pin stubs participate in jump / bridge reference geometry
+That means:
+1. enrich what circuit-generation AI can see
+2. expose deterministic resolver/compiler feedback
+3. add review/repair loops
+4. improve board/package rendering fidelity
 
-What is not fully done:
-- pin stubs behaving like full wire semantics everywhere the user expects
-- examples may include routing, overlap ownership, or future autoroute behavior beyond current bridge logic
+### Concrete Next Work Items
+
+#### A. Expand AI-Visible Context
+
+Add structured context for:
+- full trusted package metadata
+- pin definitions and role hints
+- resolver candidates
+- unresolved roles
+- unresolved connections
+- compiler validation feedback
+- render substitutions/proxies
+
+#### B. Add Deterministic Intermediate Reports
+
+Introduce stable machine-readable reports for:
+- `resolver_result`
+- `unresolved_parts`
+- `unresolved_connections`
+- `compiler_validation`
+- `render_report`
+- `final_summary`
+
+#### C. Add A Multi-Step AI Loop
+
+Target flow:
+1. parse prompt into `circuit_intent`
+2. resolve against trusted packages
+3. inspect unresolved/ambiguous items
+4. run AI repair or clarification pass
+5. compile `circuit_ir`
+6. inspect compile/render validation
+7. return final result plus explanation
+
+#### D. Fix Board Rendering Contracts
+
+A resolved board package should not silently collapse into a generic connector representation without the UI making that explicit.
+
+#### E. Keep The System Deterministic
+
+Maintain this boundary:
+- AI may propose intent, preferences, and repairs
+- engine owns package truth, pin truth, net truth, compile truth, and export truth
+
+## Recommended Working Rule For Future Changes
+
+When choosing the next feature, prefer:
+- better deterministic contracts
+- better AI/tool feedback loops
+- better trusted-library quality
+
+Avoid:
+- broad platform sprawl
+- simulation-first detours
+- firmware work mixed into Studio milestones
+- relying on bigger models before the toolchain is strong enough
 
 Status:
 - deferred for now

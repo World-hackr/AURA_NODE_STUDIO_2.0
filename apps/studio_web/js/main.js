@@ -67,6 +67,7 @@ let aiPatchPreviewState = null;
 let aiConversation = [];
 let aiProviderDefaults = null;
 let aiRequestInFlight = false;
+let aiGeminiKeyRefreshTimer = 0;
 
 let showGrid = true;
 let gridOpacity = 0.4;
@@ -153,10 +154,12 @@ let globalSymbolSearchResults = [];
 let globalSymbolSearchBusy = false;
 let globalSymbolSearchRequestToken = 0;
 let selectedLibraryGroup = "common";
+let selectedLibraryPanel = "search";
 let symbolPreviewObserver = null;
 const symbolPreviewPending = new Map();
 
 const symbolDefinitionCache = new Map();
+const libraryDataCache = new Map();
 const API_BASE = "http://localhost:8787";
 const KICAD_MILS_PER_AURA_UNIT = 12.5;
 const SYMBOL_UNIT_SCALE = 1 / KICAD_MILS_PER_AURA_UNIT;
@@ -827,10 +830,18 @@ function closeJsonImportModal() {
 
 function getAiToolsElements() {
     return {
-        modal: document.getElementById("ai-tools-modal"),
-        trigger: document.getElementById("ai-tools-trigger"),
-        close: document.getElementById("ai-tools-close"),
-        cancel: document.getElementById("ai-tools-cancel"),
+        chatToggle: document.getElementById("ai-chat-toggle"),
+        canvasToggle: document.getElementById("ai-canvas-toggle"),
+        chatPanel: document.getElementById("ai-chat-panel"),
+        canvasPanel: document.getElementById("ai-canvas-panel"),
+        chatClose: document.getElementById("ai-chat-close"),
+        canvasClose: document.getElementById("ai-canvas-close"),
+        chatSetupToggle: document.getElementById("ai-chat-setup-toggle"),
+        chatSetupPanel: document.getElementById("ai-chat-setup-panel"),
+        chatSetupClose: document.getElementById("ai-chat-setup-close"),
+        canvasAdvancedToggle: document.getElementById("ai-canvas-advanced-toggle"),
+        canvasAdvancedPanel: document.getElementById("ai-canvas-advanced-panel"),
+        canvasAdvancedClose: document.getElementById("ai-canvas-advanced-close"),
         exportScene: document.getElementById("ai-tools-export-scene"),
         providerSelect: document.getElementById("ai-provider-select"),
         modelSelect: document.getElementById("ai-model-select"),
@@ -840,10 +851,17 @@ function getAiToolsElements() {
         checkProvider: document.getElementById("ai-tools-check-provider"),
         providerStatus: document.getElementById("ai-provider-status"),
         runStatus: document.getElementById("ai-run-status"),
+        generateCircuit: document.getElementById("ai-tools-generate-circuit"),
         sendRequest: document.getElementById("ai-tools-send-request"),
+        sendChat: document.getElementById("ai-tools-send-chat"),
         clearChat: document.getElementById("ai-tools-clear-chat"),
         chatLog: document.getElementById("ai-chat-log"),
+        chatRequest: document.getElementById("ai-chat-request"),
+        chatStatus: document.getElementById("ai-chat-status"),
+        chatConnectionSummary: document.getElementById("ai-chat-connection-summary"),
+        canvasProviderSummary: document.getElementById("ai-canvas-provider-summary"),
         sceneOutput: document.getElementById("ai-scene-output"),
+        responseOutput: document.getElementById("ai-response-output"),
         userRequest: document.getElementById("ai-user-request"),
         generatePrompt: document.getElementById("ai-tools-generate-prompt"),
         clearPrompt: document.getElementById("ai-tools-clear-prompt"),
@@ -878,11 +896,13 @@ function clearAiPatchPreview() {
 }
 
 async function openAiToolsModal() {
-    const { modal, patchInput, sceneOutput } = getAiToolsElements();
-    if (!modal) {
+    const { chatPanel, canvasPanel, sceneOutput } = getAiToolsElements();
+    if (!chatPanel || !canvasPanel) {
         return;
     }
-    modal.hidden = false;
+    chatPanel.hidden = false;
+    canvasPanel.hidden = false;
+    syncAiPanelVisibility();
     syncAiProviderFieldVisibility();
     renderAiModelOptions("ollama", getFallbackAiModels("ollama"), readStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model) || "gemma4:e2b");
     await ensureAiProviderUiDefaults().catch((error) => {
@@ -890,19 +910,121 @@ async function openAiToolsModal() {
         setAiToolsStatus(error?.message || "Failed to load AI provider defaults.", "error");
     });
     renderAiChatLog();
-    setAiToolsStatus("Export the current scene, then paste a circuit patch and preview it.");
+    setAiToolsStatus("Canvas AI is ready. Ask for a change, then review the preview before applying.");
+    setAiChatStatus("Ready.");
     if (sceneOutput) {
         sceneOutput.value = JSON.stringify(exportSceneState(), null, 2);
     }
-    patchInput?.focus();
+    getAiToolsElements().chatRequest?.focus();
 }
 
 function closeAiToolsModal() {
-    const { modal } = getAiToolsElements();
-    if (modal) {
-        modal.hidden = true;
-    }
+    closeAiPanel("chat");
+    closeAiPanel("canvas");
     clearAiPatchPreview();
+}
+
+function syncAiPanelVisibility() {
+    const { chatPanel, canvasPanel, chatToggle, canvasToggle, chatSetupPanel, chatSetupToggle, canvasAdvancedPanel, canvasAdvancedToggle } = getAiToolsElements();
+    if (chatToggle) {
+        const isOpen = !!chatPanel && !chatPanel.hidden;
+        chatToggle.classList.toggle("active", isOpen);
+        chatToggle.setAttribute("aria-pressed", isOpen ? "true" : "false");
+    }
+    if (canvasToggle) {
+        const isOpen = !!canvasPanel && !canvasPanel.hidden;
+        canvasToggle.classList.toggle("active", isOpen);
+        canvasToggle.setAttribute("aria-pressed", isOpen ? "true" : "false");
+    }
+    if (chatSetupToggle) {
+        const isOpen = !!chatSetupPanel && !chatSetupPanel.hidden;
+        chatSetupToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        chatSetupToggle.classList.toggle("active", isOpen);
+    }
+    if (canvasAdvancedToggle) {
+        const isOpen = !!canvasAdvancedPanel && !canvasAdvancedPanel.hidden;
+        canvasAdvancedToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        canvasAdvancedToggle.classList.toggle("active", isOpen);
+    }
+}
+
+function openAiPanel(kind) {
+    const { chatPanel, canvasPanel, chatRequest, userRequest, sceneOutput } = getAiToolsElements();
+    const panel = kind === "chat" ? chatPanel : canvasPanel;
+    if (!panel) {
+        return;
+    }
+    panel.hidden = false;
+    syncAiPanelVisibility();
+    if (sceneOutput && kind === "canvas") {
+        sceneOutput.value = JSON.stringify(exportSceneState(), null, 2);
+    }
+    if (kind === "chat") {
+        chatRequest?.focus();
+    } else {
+        userRequest?.focus();
+    }
+}
+
+function closeAiPanel(kind) {
+    const { chatPanel, canvasPanel } = getAiToolsElements();
+    const panel = kind === "chat" ? chatPanel : canvasPanel;
+    if (!panel) {
+        return;
+    }
+    panel.hidden = true;
+    if (kind === "chat") {
+        closeAiPopover("chatSetup");
+    } else {
+        closeAiPopover("canvasAdvanced");
+    }
+    syncAiPanelVisibility();
+}
+
+function toggleAiPanel(kind) {
+    const { chatPanel, canvasPanel } = getAiToolsElements();
+    const panel = kind === "chat" ? chatPanel : canvasPanel;
+    if (!panel) {
+        return;
+    }
+    if (panel.hidden) {
+        openAiPanel(kind);
+    } else {
+        closeAiPanel(kind);
+    }
+}
+
+function openAiPopover(kind) {
+    const { chatSetupPanel, canvasAdvancedPanel } = getAiToolsElements();
+    const popover = kind === "chatSetup" ? chatSetupPanel : canvasAdvancedPanel;
+    if (!popover) {
+        return;
+    }
+    popover.hidden = false;
+    syncAiPanelVisibility();
+}
+
+function closeAiPopover(kind) {
+    const { chatSetupPanel, canvasAdvancedPanel } = getAiToolsElements();
+    const popover = kind === "chatSetup" ? chatSetupPanel : canvasAdvancedPanel;
+    if (!popover) {
+        return;
+    }
+    popover.hidden = true;
+    syncAiPanelVisibility();
+}
+
+function toggleAiPopover(kind) {
+    const { chatSetupPanel, canvasAdvancedPanel } = getAiToolsElements();
+    const popover = kind === "chatSetup" ? chatSetupPanel : canvasAdvancedPanel;
+    if (!popover) {
+        return;
+    }
+    if (popover.hidden) {
+        openAiPopover(kind);
+    } else {
+        closeAiPopover(kind);
+    }
 }
 
 const AI_PROVIDER_STORAGE_KEYS = {
@@ -974,13 +1096,20 @@ function renderAiChatLog() {
 }
 
 function syncAiProviderFieldVisibility() {
-    const { providerSelect, geminiKeyField, modelSelect } = getAiToolsElements();
+    const { providerSelect, geminiKeyField, modelSelect, canvasProviderSummary, chatConnectionSummary } = getAiToolsElements();
     const provider = providerSelect?.value || "ollama";
+    const model = String(modelSelect?.value ?? "").trim() || getAiDefaultModelForProvider(provider);
     if (geminiKeyField) {
         geminiKeyField.hidden = provider !== "gemini";
     }
     if (modelSelect) {
         modelSelect.disabled = false;
+    }
+    if (chatConnectionSummary) {
+        chatConnectionSummary.textContent = `Using ${provider} - ${model}`;
+    }
+    if (canvasProviderSummary) {
+        canvasProviderSummary.textContent = `Using ${provider} - ${model}`;
     }
 }
 
@@ -1058,22 +1187,46 @@ function setAiRunStatus(message, tone = "") {
     }
 }
 
+function setAiChatStatus(message, tone = "") {
+    const { chatStatus } = getAiToolsElements();
+    if (!chatStatus) {
+        return;
+    }
+    chatStatus.textContent = message;
+    chatStatus.classList.remove("is-busy", "is-success", "is-error");
+    if (tone === "busy") {
+        chatStatus.classList.add("is-busy");
+    } else if (tone === "success") {
+        chatStatus.classList.add("is-success");
+    } else if (tone === "error") {
+        chatStatus.classList.add("is-error");
+    }
+}
+
 function setAiControlsBusy(isBusy) {
     aiRequestInFlight = !!isBusy;
     const {
         sendRequest,
+        generateCircuit,
+        sendChat,
         refreshModels,
         checkProvider,
         preview,
         apply,
     } = getAiToolsElements();
-    [sendRequest, refreshModels, checkProvider, preview, apply].forEach((button) => {
+    [sendRequest, generateCircuit, sendChat, refreshModels, checkProvider, preview, apply].forEach((button) => {
         if (button) {
             button.disabled = aiRequestInFlight;
         }
     });
+    if (generateCircuit) {
+        generateCircuit.textContent = aiRequestInFlight ? "Thinking..." : "Generate Circuit";
+    }
     if (sendRequest) {
-        sendRequest.textContent = aiRequestInFlight ? "Thinking..." : "Ask Built-In AI";
+        sendRequest.textContent = aiRequestInFlight ? "Thinking..." : "Preview Change";
+    }
+    if (sendChat) {
+        sendChat.textContent = aiRequestInFlight ? "Thinking..." : "Send";
     }
 }
 
@@ -1083,6 +1236,47 @@ function summarizeAiMessage(message, fallback = "") {
         return text;
     }
     return `${text.slice(0, 137)}...`;
+}
+
+function formatAiDetails(result, mode) {
+    const metadata = result?.providerMetadata ?? {};
+    const detail = {
+        mode,
+        provider: result?.provider || "",
+        model: result?.model || "",
+        hasPatch: Boolean(result?.patch),
+        hasLayoutIntent: Boolean(result?.layoutIntent),
+        hasIntent: Boolean(result?.intent),
+        hasCircuitIr: Boolean(result?.circuitIr),
+        assistantMessage: String(result?.assistantMessage || ""),
+        warning: String(result?.warning || ""),
+        rawText: String(result?.rawText || ""),
+        providerMetadata: metadata,
+    };
+    return JSON.stringify(detail, null, 2);
+}
+
+function setAiResponseOutput(value) {
+    const { responseOutput } = getAiToolsElements();
+    if (responseOutput) {
+        responseOutput.value = String(value ?? "");
+    }
+}
+
+async function refreshGeminiModelsFromCurrentKey() {
+    const { providerSelect, geminiKeyInput, modelSelect } = getAiToolsElements();
+    const provider = providerSelect?.value || "ollama";
+    writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.geminiKey, geminiKeyInput?.value.trim() || "");
+    if (provider !== "gemini") {
+        return;
+    }
+    const models = await loadAiModelsForProvider("gemini", { force: true }).catch(() => getFallbackAiModels("gemini"));
+    renderAiModelOptions("gemini", models, modelSelect?.value || getAiDefaultModelForProvider("gemini"));
+    writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model, modelSelect?.value || "");
+    syncAiProviderFieldVisibility();
+    checkSelectedAiProviderStatus().catch((error) => {
+        setAiProviderStatus(error?.message || "AI status check failed.", "error");
+    });
 }
 
 async function checkSelectedAiProviderStatus() {
@@ -1433,12 +1627,12 @@ async function ensureComponentDefByKey(symbolKey) {
         return COMPONENT_DEFS[symbolKey];
     }
 
-    let summary = currentLibrarySymbols.find((symbol) => symbol.id === symbolKey);
+    let summary = currentLibrarySymbols.find((symbol) => symbol.id === symbolKey) ?? null;
     if (!summary) {
         const { libraryId } = splitSymbolKey(symbolKey);
-        if (libraryId && libraryId !== selectedLibraryId) {
-            await loadLibrary(libraryId);
-            summary = currentLibrarySymbols.find((symbol) => symbol.id === symbolKey);
+        if (libraryId) {
+            const libraryData = await fetchLibraryData(libraryId);
+            summary = libraryData?.symbols?.find((symbol) => symbol.id === symbolKey) ?? null;
         }
     }
 
@@ -1598,6 +1792,7 @@ function updateShellStatus() {
             selectedSymbolPreview.textContent = backendOnline ? "Choose a symbol" : "Backend offline";
         }
     }
+    syncSymbolPreviewPanels();
     if (stageModeLabel) {
         if (pendingWireTurnCrossingDecision) {
             stageModeLabel.textContent = "Wire crossing detected. Press J to jump, C to connect, Esc to cancel.";
@@ -1769,6 +1964,14 @@ async function setLibraryGroup(groupId) {
 }
 
 function renderCategoryToolbar() {
+    const modeChip = document.getElementById("symbol-browser-mode-chip");
+    const modeLabels = {
+        search: "Search",
+        libraries: "Browse",
+    };
+    if (modeChip) {
+        modeChip.textContent = modeLabels[selectedLibraryPanel] || "Symbols";
+    }
     document.querySelectorAll("[data-library-group-shortcut]").forEach((button) => {
         const groupId = button.getAttribute("data-library-group-shortcut");
         button.classList.toggle("active", groupId === selectedLibraryGroup);
@@ -1778,6 +1981,83 @@ function renderCategoryToolbar() {
             });
         };
     });
+    document.querySelectorAll("[data-library-panel]").forEach((button) => {
+        const panelId = button.getAttribute("data-library-panel");
+        button.classList.toggle("active", panelId === selectedLibraryPanel);
+        button.onclick = () => {
+            setLibraryPanel(panelId);
+        };
+    });
+}
+
+function syncSymbolPreviewPanels() {
+    const previewArea = document.getElementById("selected-symbol-preview");
+    const previewName = document.getElementById("selected-symbol-name");
+    const previewDescription = document.getElementById("selected-symbol-description");
+    void previewArea;
+    void previewName;
+    void previewDescription;
+}
+
+function applyLibraryPanelLayout() {
+    const searchSection = document.getElementById("symbol-browser-search-section");
+    const mainSection = document.getElementById("symbol-browser-main");
+    const librarySection = document.getElementById("symbol-browser-library-section");
+    const resultsSection = document.getElementById("symbol-browser-results-section");
+    const symbolSearch = document.getElementById("symbol-search");
+    const librarySearch = document.getElementById("library-search");
+    const previewDock = document.getElementById("symbol-browser-preview-dock");
+    const addButton = document.getElementById("add-selected-symbol");
+    const resultsTitle = resultsSection?.querySelector(".panel-section-title");
+    const libraryTitle = librarySection?.querySelector(".panel-section-title");
+
+    if (searchSection) searchSection.hidden = selectedLibraryPanel !== "search";
+    if (mainSection) mainSection.hidden = !["search", "libraries"].includes(selectedLibraryPanel);
+    if (librarySection) librarySection.hidden = selectedLibraryPanel !== "libraries";
+    if (resultsSection) resultsSection.hidden = !["search", "libraries"].includes(selectedLibraryPanel);
+    if (previewDock) previewDock.hidden = !["search", "libraries"].includes(selectedLibraryPanel);
+    mainSection?.classList.toggle("symbol-browser-main--search", selectedLibraryPanel === "search");
+    if (symbolSearch) {
+        symbolSearch.hidden = selectedLibraryPanel !== "libraries";
+    }
+    if (librarySearch) {
+        librarySearch.placeholder = selectedLibraryPanel === "libraries" ? "Filter libraries..." : librarySearch.placeholder;
+    }
+    if (resultsTitle) {
+        resultsTitle.textContent = selectedLibraryPanel === "search" ? "Search Results" : "Results";
+    }
+    if (libraryTitle) {
+        libraryTitle.textContent = "Library Sets";
+    }
+
+    const canPlace = !!selectedSymbolId;
+    if (addButton) {
+        addButton.disabled = !canPlace;
+        addButton.onclick = () => {
+            if (selectedSymbolId) {
+                addComponent(selectedSymbolId);
+            }
+        };
+    }
+    syncSymbolPreviewPanels();
+}
+
+function setLibraryPanel(panelId) {
+    const allowedPanels = new Set(["search", "libraries"]);
+    if (!allowedPanels.has(panelId)) {
+        return;
+    }
+    selectedLibraryPanel = panelId;
+    if (panelId === "search") {
+        symbolSearchQuery = "";
+    }
+    renderCategoryToolbar();
+    applyLibraryPanelLayout();
+    if (panelId === "search") {
+        window.requestAnimationFrame(() => {
+            document.getElementById("global-symbol-search")?.focus();
+        });
+    }
 }
 
 async function placeKnownComponent(libraryId, symbolId) {
@@ -1830,7 +2110,6 @@ function renderLibraryBrowser() {
     const symbolSearch = document.getElementById("symbol-search");
     const libraryList = document.getElementById("kicad-library-list");
     const symbolList = document.getElementById("component-palette");
-    const addButton = document.getElementById("add-selected-symbol");
 
     if (!libraryList || !symbolList) {
         return;
@@ -1955,16 +2234,8 @@ function renderLibraryBrowser() {
         });
     }
 
-    if (addButton) {
-        addButton.disabled = globalSearchActive || !selectedSymbolId;
-        addButton.onclick = () => {
-            if (!globalSearchActive && selectedSymbolId) {
-                addComponent(selectedSymbolId);
-            }
-        };
-    }
-
     setupSymbolPreviewObserver(symbolList);
+    applyLibraryPanelLayout();
     updateShellStatus();
 }
 
@@ -1980,8 +2251,22 @@ async function selectSymbol(symbolId) {
     }
 }
 
+async function fetchLibraryData(libraryId) {
+    const normalizedLibraryId = String(libraryId || "").trim();
+    if (!normalizedLibraryId) {
+        return null;
+    }
+    if (!libraryDataCache.has(normalizedLibraryId)) {
+        libraryDataCache.set(normalizedLibraryId, apiGet(`/symbol-sources/kicad/libraries/${encodeURIComponent(normalizedLibraryId)}`).catch((error) => {
+            libraryDataCache.delete(normalizedLibraryId);
+            throw error;
+        }));
+    }
+    return libraryDataCache.get(normalizedLibraryId);
+}
+
 async function loadLibrary(libraryId) {
-    const data = await apiGet(`/symbol-sources/kicad/libraries/${encodeURIComponent(libraryId)}`);
+    const data = await fetchLibraryData(libraryId);
     selectedLibraryId = libraryId;
     currentLibrary = data.library;
     currentLibrarySymbols = data.symbols ?? [];
@@ -2115,19 +2400,31 @@ function bindJsonImportModal() {
 
 function bindAiToolsModal() {
     const {
-        modal,
-        trigger,
-        close,
-        cancel,
+        chatPanel,
+        canvasPanel,
+        chatToggle,
+        canvasToggle,
+        chatClose,
+        canvasClose,
+        chatSetupToggle,
+        chatSetupPanel,
+        chatSetupClose,
+        canvasAdvancedToggle,
+        canvasAdvancedPanel,
+        canvasAdvancedClose,
         exportScene,
         providerSelect,
         modelSelect,
         geminiKeyInput,
         refreshModels,
         checkProvider,
+        generateCircuit,
         sendRequest,
+        sendChat,
         clearChat,
+        chatRequest,
         sceneOutput,
+        responseOutput,
         userRequest,
         generatePrompt,
         clearPrompt,
@@ -2140,9 +2437,24 @@ function bindAiToolsModal() {
         apply,
     } = getAiToolsElements();
 
-    trigger?.addEventListener("click", openAiToolsModal);
-    close?.addEventListener("click", closeAiToolsModal);
-    cancel?.addEventListener("click", closeAiToolsModal);
+    chatToggle?.addEventListener("click", () => {
+        ensureAiProviderUiDefaults().catch((error) => {
+            setAiToolsStatus(error?.message || "Failed to load AI defaults.", "error");
+        });
+        toggleAiPanel("chat");
+    });
+    canvasToggle?.addEventListener("click", () => {
+        ensureAiProviderUiDefaults().catch((error) => {
+            setAiToolsStatus(error?.message || "Failed to load AI defaults.", "error");
+        });
+        toggleAiPanel("canvas");
+    });
+    chatClose?.addEventListener("click", () => closeAiPanel("chat"));
+    canvasClose?.addEventListener("click", () => closeAiPanel("canvas"));
+    chatSetupToggle?.addEventListener("click", () => toggleAiPopover("chatSetup"));
+    chatSetupClose?.addEventListener("click", () => closeAiPopover("chatSetup"));
+    canvasAdvancedToggle?.addEventListener("click", () => toggleAiPopover("canvasAdvanced"));
+    canvasAdvancedClose?.addEventListener("click", () => closeAiPopover("canvasAdvanced"));
     providerSelect?.addEventListener("change", async () => {
         writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.provider, providerSelect.value);
         syncAiProviderFieldVisibility();
@@ -2159,16 +2471,18 @@ function bindAiToolsModal() {
             setAiProviderStatus(error?.message || "AI status check failed.", "error");
         });
     });
-    geminiKeyInput?.addEventListener("change", async () => {
-        writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.geminiKey, geminiKeyInput.value.trim());
-        if (providerSelect?.value === "gemini") {
-            const models = await loadAiModelsForProvider("gemini", { force: true }).catch(() => getFallbackAiModels("gemini"));
-            renderAiModelOptions("gemini", models, modelSelect?.value || getAiDefaultModelForProvider("gemini"));
-            writeStoredAiSetting(AI_PROVIDER_STORAGE_KEYS.model, modelSelect?.value || "");
-            checkSelectedAiProviderStatus().catch((error) => {
-                setAiProviderStatus(error?.message || "AI status check failed.", "error");
+    geminiKeyInput?.addEventListener("input", () => {
+        window.clearTimeout(aiGeminiKeyRefreshTimer);
+        aiGeminiKeyRefreshTimer = window.setTimeout(() => {
+            refreshGeminiModelsFromCurrentKey().catch((error) => {
+                setAiProviderStatus(error?.message || "Failed to refresh Gemini models.", "error");
             });
-        }
+        }, 350);
+    });
+    geminiKeyInput?.addEventListener("change", () => {
+        refreshGeminiModelsFromCurrentKey().catch((error) => {
+            setAiProviderStatus(error?.message || "Failed to refresh Gemini models.", "error");
+        });
     });
     refreshModels?.addEventListener("click", async () => {
         try {
@@ -2198,8 +2512,24 @@ function bindAiToolsModal() {
     clearChat?.addEventListener("click", () => {
         aiConversation = [];
         renderAiChatLog();
-        setAiRunStatus("Idle. Type a request, then click Ask Built-In AI.");
+        if (chatRequest) {
+            chatRequest.value = "";
+        }
+        setAiRunStatus("Idle. Type a request, then click Ask Canvas AI.");
+        setAiChatStatus("Ready.");
         setAiToolsStatus("Built-in AI conversation cleared.");
+        if (responseOutput) {
+            responseOutput.value = "";
+        }
+    });
+    generateCircuit?.addEventListener("click", async () => {
+        try {
+            await sendBuiltInAiGenerateCircuitRequest();
+        } catch (error) {
+            console.error("Built-in AI circuit generation failed:", error);
+            setAiRunStatus(error?.message || "Built-in AI circuit generation failed.", "error");
+            setAiToolsStatus(error?.message || "Built-in AI circuit generation failed.", "error");
+        }
     });
     sendRequest?.addEventListener("click", async () => {
         try {
@@ -2208,6 +2538,15 @@ function bindAiToolsModal() {
             console.error("Built-in AI request failed:", error);
             setAiRunStatus(error?.message || "Built-in AI request failed.", "error");
             setAiToolsStatus(error?.message || "Built-in AI request failed.", "error");
+        }
+    });
+    sendChat?.addEventListener("click", async () => {
+        try {
+            await sendBuiltInAiChatRequest();
+        } catch (error) {
+            console.error("Built-in AI chat request failed:", error);
+            setAiRunStatus(error?.message || "Built-in AI chat request failed.", "error");
+            setAiToolsStatus(error?.message || "Built-in AI chat request failed.", "error");
         }
     });
     exportScene?.addEventListener("click", () => {
@@ -2275,7 +2614,7 @@ function bindAiToolsModal() {
             setAiToolsStatus("Applying patch...");
             const payload = JSON.parse(patchInput.value);
             const previewState = await applyCircuitPatch(payload);
-            closeAiToolsModal();
+            closeAiPanel("canvas");
             const { sceneOutput } = getAiToolsElements();
             if (sceneOutput) {
                 sceneOutput.value = JSON.stringify(exportSceneState("preview_overlay"), null, 2);
@@ -2283,14 +2622,18 @@ function bindAiToolsModal() {
             setAiToolsStatus(`Applied "${previewState.title}" to the canvas.`, "success");
         } catch (error) {
             console.error("Patch apply failed:", error);
-            openAiToolsModal();
+            openAiPanel("canvas");
             setAiToolsStatus(error?.message || "Patch apply failed.", "error");
         }
     });
-    modal?.addEventListener("click", (event) => {
-        if (event.target === modal) {
-            closeAiToolsModal();
-        }
+    [chatPanel, canvasPanel, chatSetupPanel, canvasAdvancedPanel].forEach((panel) => {
+        panel?.addEventListener("click", (event) => {
+            event.stopPropagation();
+        });
+    });
+    document.addEventListener("click", () => {
+        closeAiPopover("chatSetup");
+        closeAiPopover("canvasAdvanced");
     });
 }
 
@@ -2513,6 +2856,7 @@ function mapCircuitIrPackageToSymbolKey(component) {
     if (explicitSymbolKey) {
         return String(explicitSymbolKey);
     }
+    if (packageId.includes("arduino_uno")) return "Connector_Generic:Conn_01x03";
     if (packageId.includes("resistor")) return getPreferredSymbolKey("Device:R");
     if (packageId.includes("capacitor")) return "Device:C";
     if (packageId.includes("inductor")) return "Device:L";
@@ -2523,6 +2867,20 @@ function mapCircuitIrPackageToSymbolKey(component) {
     if (packageId.includes("conn_01x03") || packageId.includes("connector_3")) return "Connector_Generic:Conn_01x03";
     if (packageId.includes("switch")) return "Switch:SW_SPST";
     return null;
+}
+
+function mapCircuitIrPinToSymbolPin(packageId, pinId) {
+    const normalizedPackageId = String(packageId ?? "").toLowerCase();
+    const normalizedPinId = String(pinId ?? "");
+    if (normalizedPackageId.includes("arduino_uno")) {
+        const arduinoPinMap = {
+            D13: "1",
+            "5V": "2",
+            GND: "3",
+        };
+        return arduinoPinMap[normalizedPinId.toUpperCase()] || normalizedPinId;
+    }
+    return normalizedPinId;
 }
 
 function normalizeImportedPlacement(placement = {}) {
@@ -3809,6 +4167,10 @@ function toSchematicInstancesFromPayload(payload) {
     }
 
     if (payload?.schema === "aura.circuit_ir.v1") {
+        const componentPackageById = new Map((payload.components ?? []).map((component) => [
+            String(component.id),
+            String(component.packageId ?? ""),
+        ]));
         const instances = (payload.components ?? []).map((component) => {
             const symbolKey = mapCircuitIrPackageToSymbolKey(component);
             return {
@@ -3826,7 +4188,10 @@ function toSchematicInstancesFromPayload(payload) {
             label: net.label,
             connections: (net.connections ?? []).map((connection) => ({
                 instanceId: connection.componentId,
-                pinId: connection.pinId,
+                pinId: mapCircuitIrPinToSymbolPin(
+                    componentPackageById.get(String(connection.componentId)),
+                    connection.pinId,
+                ),
             })),
         }));
         return {
@@ -4695,6 +5060,10 @@ function buildAllowedSymbolKeys() {
     ]).sort((left, right) => left.localeCompare(right));
 }
 
+function buildAiProjectKeyFromScene(sceneState) {
+    return String(sceneState?.metadata?.sourceSchematicId || "").trim() || "studio-canvas";
+}
+
 function buildSelectionContextSummary() {
     const componentSummary = selectedComponentIds.length
         ? `components=${selectedComponentIds.join(", ")}`
@@ -4795,6 +5164,7 @@ async function sendBuiltInAiRequest() {
     const provider = providerSelect?.value || "ollama";
     const model = String(modelSelect?.value ?? "").trim() || getAiDefaultModelForProvider(provider);
     const sceneState = exportSceneState();
+    const projectKey = buildAiProjectKeyFromScene(sceneState);
     const nextConversation = [
         ...aiConversation,
         { role: "user", content: requestText },
@@ -4802,18 +5172,24 @@ async function sendBuiltInAiRequest() {
 
     aiConversation = nextConversation;
     renderAiChatLog();
+    openAiPanel("chat");
+    openAiPanel("canvas");
     if (sceneOutput) {
         sceneOutput.value = JSON.stringify(sceneState, null, 2);
     }
 
     setAiControlsBusy(true);
-    setAiToolsStatus(`Sending request to ${provider}...`);
-    setAiRunStatus(`Sending to ${provider}:${model}. First local response can take time while Ollama loads the model...`, "busy");
+    setAiResponseOutput("");
+    setAiToolsStatus(`Preparing patch request for ${provider}...`);
+    setAiRunStatus(`Preparing scene export and patch request for ${provider}:${model}...`, "busy");
 
     try {
+        setAiToolsStatus(`Sending patch request to ${provider}:${model}...`);
+        setAiRunStatus(`Waiting for ${provider}:${model}. First local response can take time while Ollama loads the model...`, "busy");
         const result = await apiPostWithTimeout("/ai/generate-patch", {
             provider,
             model,
+            projectKey,
             apiKey: provider === "gemini" ? String(geminiKeyInput?.value ?? "").trim() : "",
             sceneState,
             allowedSymbolKeys: buildAllowedSymbolKeys(),
@@ -4825,6 +5201,7 @@ async function sendBuiltInAiRequest() {
             { role: "assistant", content: String(result.assistantMessage || "AI returned a response.") },
         ];
         renderAiChatLog();
+        setAiResponseOutput(formatAiDetails(result, "patch"));
         if (userRequest) {
             userRequest.value = "";
         }
@@ -4844,6 +5221,147 @@ async function sendBuiltInAiRequest() {
         setAiToolsStatus(`Built-in AI responded without a patch using ${result.provider}:${result.model}. ${noPatchSummary}`, "success");
     } catch (error) {
         setAiRunStatus(error?.message || "AI request failed.", "error");
+        throw error;
+    } finally {
+        setAiControlsBusy(false);
+    }
+}
+
+async function sendBuiltInAiGenerateCircuitRequest() {
+    if (aiRequestInFlight) {
+        return;
+    }
+    const {
+        providerSelect,
+        modelSelect,
+        geminiKeyInput,
+        userRequest,
+        sceneOutput,
+    } = getAiToolsElements();
+    const requestText = String(userRequest?.value ?? "").trim();
+    if (!requestText) {
+        throw new Error("Enter a circuit request first.");
+    }
+
+    const provider = providerSelect?.value || "ollama";
+    const model = String(modelSelect?.value ?? "").trim() || getAiDefaultModelForProvider(provider);
+    const nextConversation = [
+        ...aiConversation,
+        { role: "user", content: requestText },
+    ];
+
+    aiConversation = nextConversation;
+    renderAiChatLog();
+    openAiPanel("chat");
+    openAiPanel("canvas");
+
+    setAiControlsBusy(true);
+    setAiResponseOutput("");
+    clearAiPatchPreview();
+    setAiToolsStatus(`Generating circuit from ${provider}:${model}...`);
+    setAiRunStatus("Generating circuit intent, resolving trusted packages, and compiling circuit IR...", "busy");
+
+    try {
+        const result = await apiPostWithTimeout("/ai/generate-circuit", {
+            provider,
+            model,
+            apiKey: provider === "gemini" ? String(geminiKeyInput?.value ?? "").trim() : "",
+            prompt: requestText,
+            allowDeterministicFallback: true,
+        });
+
+        await applyJsonPayloadToCanvas(result.circuitIr);
+        if (sceneOutput) {
+            sceneOutput.value = JSON.stringify(exportSceneState("ai_generated_circuit"), null, 2);
+        }
+        setAiResponseOutput(JSON.stringify({
+            ...JSON.parse(formatAiDetails(result, "generate_circuit")),
+            intent: result.intent,
+            resolution: result.resolution,
+            circuitIr: result.circuitIr,
+            validations: result.validations,
+        }, null, 2));
+        aiConversation = [
+            ...nextConversation,
+            {
+                role: "assistant",
+                content: result.warning
+                    ? `Generated a deterministic circuit. Note: ${result.warning}`
+                    : `Generated a circuit with ${result.circuitIr.components.length} components and ${result.circuitIr.nets.length} nets.`,
+            },
+        ];
+        renderAiChatLog();
+        if (userRequest) {
+            userRequest.value = "";
+        }
+        setAiRunStatus(`Generated ${result.circuitIr.components.length} components and ${result.circuitIr.nets.length} nets.`, "success");
+        setAiToolsStatus(`Circuit generated from ${result.intentSource} intent and compiled through trusted packages.`, "success");
+    } catch (error) {
+        setAiRunStatus(error?.message || "Circuit generation failed.", "error");
+        throw error;
+    } finally {
+        setAiControlsBusy(false);
+    }
+}
+
+async function sendBuiltInAiChatRequest() {
+    if (aiRequestInFlight) {
+        return;
+    }
+    const {
+        providerSelect,
+        modelSelect,
+        geminiKeyInput,
+        chatRequest,
+    } = getAiToolsElements();
+    const requestText = String(chatRequest?.value ?? "").trim();
+    if (!requestText) {
+        throw new Error("Enter a chat prompt first.");
+    }
+
+    const provider = providerSelect?.value || "ollama";
+    const model = String(modelSelect?.value ?? "").trim() || getAiDefaultModelForProvider(provider);
+    const sceneState = exportSceneState();
+    const projectKey = buildAiProjectKeyFromScene(sceneState);
+    const nextConversation = [
+        ...aiConversation,
+        { role: "user", content: requestText },
+    ];
+
+    aiConversation = nextConversation;
+    renderAiChatLog();
+    openAiPanel("chat");
+    setAiControlsBusy(true);
+    setAiResponseOutput("");
+    setAiChatStatus(`Sending to ${provider}:${model}...`, "busy");
+    setAiToolsStatus(`Preparing normal chat request for ${provider}...`);
+    setAiRunStatus(`Sending normal chat request to ${provider}:${model}...`, "busy");
+
+    try {
+        const result = await apiPostWithTimeout("/ai/chat", {
+            provider,
+            model,
+            projectKey,
+            apiKey: provider === "gemini" ? String(geminiKeyInput?.value ?? "").trim() : "",
+            sceneState,
+            conversation: nextConversation,
+        });
+
+        aiConversation = [
+            ...nextConversation,
+            { role: "assistant", content: String(result.assistantMessage || "AI returned a response.") },
+        ];
+        renderAiChatLog();
+        setAiResponseOutput(formatAiDetails(result, "chat"));
+        if (chatRequest) {
+            chatRequest.value = "";
+        }
+        setAiChatStatus(`Reply received from ${result.provider}:${result.model}.`, "success");
+        setAiRunStatus(`Normal chat reply received from ${result.provider}:${result.model}.`, "success");
+        setAiToolsStatus("Normal chat worked. This confirms the model can answer without patch generation.", "success");
+    } catch (error) {
+        setAiChatStatus(error?.message || "AI chat request failed.", "error");
+        setAiRunStatus(error?.message || "AI chat request failed.", "error");
         throw error;
     } finally {
         setAiControlsBusy(false);
@@ -7627,13 +8145,14 @@ window.addEventListener('keydown', (e) => {
     const key = e.key.toLowerCase();
     const isTyping = ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName) || document.activeElement.isContentEditable;
     const importModal = document.getElementById("json-import-modal");
-    const aiToolsModal = document.getElementById("ai-tools-modal");
+    const aiChatPanel = document.getElementById("ai-chat-panel");
+    const aiCanvasPanel = document.getElementById("ai-canvas-panel");
     if (key === 'escape' && importModal && !importModal.hidden) {
         e.preventDefault();
         closeJsonImportModal();
         return;
     }
-    if (key === 'escape' && aiToolsModal && !aiToolsModal.hidden) {
+    if (key === 'escape' && ((aiChatPanel && !aiChatPanel.hidden) || (aiCanvasPanel && !aiCanvasPanel.hidden))) {
         e.preventDefault();
         closeAiToolsModal();
         return;

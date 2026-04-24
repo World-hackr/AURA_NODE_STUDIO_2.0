@@ -27,6 +27,11 @@
       "purpose": "Deterministic Studio canvas read-context for AI and preview systems"
     },
     {
+      "id": "layout_intent.v1",
+      "path": "packages/contracts/layout_intent.v1.schema.json",
+      "purpose": "Deterministic AI placement/orientation intent before final patch geometry"
+    },
+    {
       "id": "circuit_patch.v1",
       "path": "packages/contracts/circuit_patch.v1.schema.json",
       "purpose": "Deterministic add/update/delete patch format for AI-proposed edits"

@@ -6,8 +6,13 @@ Thumbs.db
 .vscode/
 .qodo/
 database/*.db
+database/*.db-journal*
 database/*.db-shm
 database/*.db-wal
+database/recovery_*/
 apps/studio_web/node_modules/
 apps/studio_web/dist/
 apps/studio_api/node_modules/
+studio_*.log
+tmp_ai_chat.json
+host_studio_remote/.pio/

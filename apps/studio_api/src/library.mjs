@@ -23,3 +23,27 @@ export async function listCuratedPackages() {
   const index = await loadLibraryIndex();
   return index.packages ?? [];
 }
+
+export async function loadCuratedPackageDetails(packageEntry) {
+  const componentPath = resolve(workspaceRoot, packageEntry.path, "component.json");
+  const raw = await readFile(componentPath, "utf8");
+  const component = JSON.parse(raw);
+  const validation = await validateContractPayload("component_package.v1", component);
+  if (!validation.ok) {
+    throw new Error(`Component package validation failed for ${packageEntry.packageId}: ${validation.errors.map((e) => e.message).join("; ")}`);
+  }
+
+  return {
+    ...packageEntry,
+    component,
+  };
+}
+
+export async function listTrustedPackageDetails() {
+  const packages = await listCuratedPackages();
+  return Promise.all(
+    packages
+      .filter((entry) => entry.status === "trusted")
+      .map((entry) => loadCuratedPackageDetails(entry)),
+  );
+}

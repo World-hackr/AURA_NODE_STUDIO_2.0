@@ -5128,3 +5128,1224 @@
   - The checkpoint branch should include only Studio-side work so unrelated firmware changes do not get mixed into this UI/AI/routing milestone.
 - Next recommended step:
   - Stage the Studio-related files, commit them on the new branch, and push that branch to `origin` before returning to the symbol-library redesign.
+## 2026-04-23 10:18 IST
+
+- Context:
+  - User said simple size reduction was not enough and requested an actual symbol-library layout redesign because the preview block was still falling off-screen.
+- What changed:
+  - Reworked the left symbol browser structure in `apps/studio_web/index.html` into a clearer layout: top controls, horizontal quick-parts strip, compact libraries block, results block, and a docked preview footer.
+  - Updated `apps/studio_web/css/main.css` to support the redesign with a wider compact panel, horizontal quick-part rail, stacked browser main area, and a fixed preview dock that no longer depends on vertical overflow.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - The preview area should be a docked footer, not another tall scrolling block in the main stack.
+  - Quick parts should behave like a fast horizontal rail rather than a vertical card wall, and libraries should consume much less height than results.
+- Next recommended step:
+  - User should hard-refresh and verify the new symbol-browser flow; if it feels right, the next priority should return to built-in AI no-patch reliability.
+## 2026-04-23 10:24 IST
+
+- Context:
+  - User said the latest library redesign intent was right but the actual layout still failed visually, especially because libraries were reduced to effectively one visible option at a time and the far-left toolbar should be used to expand sections instead of showing everything at once.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The library browser needs an interaction redesign, not more size tuning.
+  - The far-left vertical toolbar should become the primary navigation rail for symbol-browser modes/panels so the main left panel can show one purposeful workspace at a time.
+- Next recommended step:
+  - Redesign the symbol browser around rail-driven panels: quick parts, global search/results, libraries, preview, and future style/settings, with only one or two active panes shown at once.
+## 2026-04-23 10:34 IST
+
+- Context:
+  - User approved the rail-driven redesign direction for the symbol library and asked to implement it.
+- What changed:
+  - Repurposed the far-left toolbar in `apps/studio_web/index.html` into symbol-browser mode navigation with dedicated rail buttons for `quick`, `search`, `libraries`, `preview`, and `style`.
+  - Restructured the left panel in `apps/studio_web/index.html` into mode-specific sections so only the relevant workspace is visible at one time instead of stacking everything together.
+  - Added library-panel mode state and layout control in `apps/studio_web/js/main.js`, including synchronized preview content across the docked and large preview panels.
+  - Added supporting layout styles in `apps/studio_web/css/main.css` for the new preview panel, style panel, and rail-driven library-browser arrangement.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `apps/studio_web/css/main.css`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - The far-left rail now acts as the primary information-architecture control for the symbol browser instead of being overloaded with library-category shortcuts.
+  - Focused single-purpose modes are better than forcing search, libraries, preview, and quick parts into one permanently expanded column.
+- Next recommended step:
+  - User should hard-refresh and verify each rail mode (`Quick`, `Search`, `Libraries`, `Preview`, `Style`); after the layout direction is confirmed, return to built-in AI patch reliability.
+## 2026-04-23 10:39 IST
+
+- Context:
+  - User asked to run the Studio again after the library redesign changes.
+- What changed:
+  - Restarted the Studio API and Studio web servers for the current workspace state.
+  - The API is reachable at `http://127.0.0.1:8787/health`.
+  - The web dev server had to be restarted outside the sandbox because Vite/esbuild hit `spawn EPERM`; it is now serving at `http://localhost:5173/`.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+  - `studio_api_start.log`
+  - `studio_web_dev.log`
+- Verification:
+  - `Invoke-WebRequest http://127.0.0.1:8787/health`
+  - `Invoke-WebRequest http://localhost:5173`
+- Decisions made:
+  - Use `localhost:5173` for the current Vite session because that is the address Vite bound to after restart.
+- Next recommended step:
+  - User should open `http://localhost:5173/`, hard-refresh, and check the new rail-driven symbol browser layout.
+## 2026-04-23 10:43 IST
+
+- Context:
+  - User asked what happened to the previous left-rail symbols and suspected they may have been deleted during the rail-driven library redesign.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarified that the previous far-left library-group buttons were repurposed into browser-mode navigation and not removed from the product conceptually.
+  - The missing category shortcuts should be restored in a new location or combined with the library mode rather than treated as deleted functionality.
+- Next recommended step:
+  - Explain the redesign tradeoff and then restore category shortcuts inside the `Libraries` mode or as a secondary row so the user keeps both navigation and category access.
+## 2026-04-23 10:49 IST
+
+- Context:
+  - User asked for a proper library-navigation plan, explicitly wanting KiCad to be consulted first before deciding how many sections the Studio library should have and where they should go.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The next response should be a planning/design answer, not another UI patch.
+  - KiCad should be used as a reference point for interaction structure, but AURA should still optimize for its own workflow rather than copying KiCad blindly.
+- Next recommended step:
+  - Review KiCad’s symbol chooser / browser structure, then produce a concrete Studio library IA plan covering modes, placement, and navigation.
+## 2026-04-23 10:47 IST
+
+- Context:
+  - User asked to focus on visuals for the new rail-driven library design.
+- What changed:
+  - Added labeled navigation buttons to the far-left symbol-browser rail in `apps/studio_web/index.html` so the modes are visually understandable without guessing the icons.
+  - Added a dynamic mode chip to the symbol panel header in `apps/studio_web/index.html` and `apps/studio_web/js/main.js` so the active browser mode is always visible.
+  - Refined symbol-browser visuals in `apps/studio_web/css/main.css` with a clearer navigation rail, stronger active-state styling, softer card surfaces, rounded search/list containers, and more intentional preview/result styling.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `apps/studio_web/css/main.css`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - The rail needed explicit labels because icon-only navigation was too opaque for mode switching.
+  - The symbol-browser visuals should communicate hierarchy and mode clearly before any further structural changes.
+- Next recommended step:
+  - User should refresh and judge the visual clarity of the rail and mode header; if the IA now reads clearly, the next step should return to built-in AI patch reliability.
+## 2026-04-23 10:51 IST
+
+- Context:
+  - User said the rail and overall visual direction are now understandable, but the tools inside each library mode are still not optimized correctly.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The next work should focus on per-mode tool optimization rather than another top-level visual overhaul.
+  - The correct response is to identify mode-specific problems and define what belongs in `Quick`, `Search`, `Libraries`, `Preview`, and `Style`.
+- Next recommended step:
+  - Produce a concrete per-mode tool layout plan, then implement one mode at a time starting with `Search` and `Libraries`.
+## 2026-04-23 10:58 IST
+
+- Context:
+  - User asked to optimize each library mode rather than just keep refining the outer visuals.
+- What changed:
+  - Added an internal category shortcut row inside `Libraries` mode in `apps/studio_web/index.html`, restoring fast access to `common`, `power`, `semiconductors`, `ics`, and `all` without using the outer rail.
+  - Updated `apps/studio_web/js/main.js` so the category chips are wired back to `selectedLibraryGroup`, the mode chip updates correctly, and each library mode now shows leaner tools (`Search` hides the local symbol filter, `Libraries` exposes library-set chips, etc.).
+  - Added supporting mode-specific layout styles in `apps/studio_web/css/main.css`, including the category chips, hidden legacy group select, and search-mode-specific main-pane behavior.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `apps/studio_web/css/main.css`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - `Search` should be a direct part-number/name workflow with minimal extra controls.
+  - `Libraries` should own category navigation and deeper browsing instead of overloading the outer rail.
+  - The hidden dropdown remains only as an internal control path while the visible UI uses the chip row.
+- Next recommended step:
+  - User should refresh and validate the optimized mode contents; if the IA now feels right, the next meaningful task is fixing built-in AI no-patch reliability.
+## 2026-04-23 11:02 IST
+
+- Context:
+  - User judged the optimized library modes and said `Style`, `Quick`, and `Preview` are still useless.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The current mode set is still too fragmented.
+  - `Style` and `Preview` do not justify full rail modes right now, and `Quick` is not earning a dedicated mode either.
+- Next recommended step:
+  - Collapse the library browser to two core modes only: `Search` and `Libraries`, with preview docked contextually and style moved to settings instead of the rail.
+## 2026-04-23 11:08 IST
+
+- Context:
+  - User agreed that `Quick`, `Preview`, and `Style` were not useful enough and asked to simplify the library browser accordingly.
+- What changed:
+  - Reduced the outer symbol-browser rail in `apps/studio_web/index.html` to two core modes only: `Search` and `Browse`.
+  - Folded quick parts into `Search` mode by keeping the quick-parts strip inside the search section in `apps/studio_web/index.html`.
+  - Removed the dedicated preview/style panels from `apps/studio_web/index.html` so preview now exists only as a dock shared by `Search` and `Browse`.
+  - Simplified mode handling in `apps/studio_web/js/main.js` so only `search` and `libraries` are valid library modes and the layout logic matches that reduction.
+  - Cleaned up the now-unused preview/style CSS in `apps/studio_web/css/main.css` and tightened the dock sizing for the two-mode design.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `apps/studio_web/css/main.css`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - The library browser should have only two first-class workflows: direct search and structured browsing.
+  - Preview is contextual, not a primary navigation mode; style belongs in settings later, not in the library rail.
+- Next recommended step:
+  - User should refresh and verify the simplified two-mode rail; if it feels right, the next major task should return to built-in AI patch reliability.
+## 2026-04-23 11:14 IST
+
+- Context:
+  - User reported that searching became blocked again after the two-mode library simplification.
+- What changed:
+  - No product source files changed yet in this turn.
+  - Added this continuity entry only before the follow-up fix.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Treat this as a regression in the `Search` workflow rather than another layout preference issue.
+  - The next fix should make `Search` explicitly first-class again: active by default, easy to re-enter, and focused when selected.
+- Next recommended step:
+  - Patch the library mode handling so `Search` always initializes cleanly and focuses the global search input when the user enters that mode.
+## 2026-04-23 11:18 IST
+
+- Context:
+  - User reported that search became blocked again after the two-mode simplification.
+- What changed:
+  - Restored explicit default-active styling for the `Search` rail button in `apps/studio_web/index.html` so the initial mode reads correctly even before JS finishes wiring states.
+  - Updated `setLibraryPanel(...)` in `apps/studio_web/js/main.js` so entering `Search` now actively focuses the global search input, making the mode immediately usable instead of feeling inert.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Search must behave as the default primary workflow, so it should never feel hidden or require extra discovery clicks.
+- Next recommended step:
+  - User should refresh and confirm the `Search` mode opens visibly and focuses the search box; if search is still blocked, the next step is to inspect the live DOM/event behavior rather than guessing at layout again.
+## 2026-04-23 11:24 IST
+
+- Context:
+  - User said the component library side is now acceptable and asked how to move forward on cleaner AI-driven component placement, orientation, and wiring because routing still does not feel fully good.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The next answer should frame placement/orientation as a deterministic layout-planning problem, not something the AI should freestyle directly.
+  - Cleaner routing depends on better placement and orientation first, so AI needs a layout intent layer before patch generation.
+- Next recommended step:
+  - Define a deterministic `placement planner` between AI intent and final patch application, covering zones, signal flow direction, orientation heuristics, and net-driven local arrangement.
+## 2026-04-23 11:36 IST
+
+- Context:
+  - User returned to the AI layout discussion and asked how the built-in AI will actually know and use the `what -> deterministic placement planner -> routing` flow that was proposed earlier.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The next response should explain the end-to-end contract clearly: what the model sees, what it outputs, what the planner computes, and what the router does afterward.
+  - The explanation should focus on a deterministic `layout_intent -> placement_planner -> circuit_patch` pipeline rather than freeform AI geometry.
+- Next recommended step:
+  - Define the first concrete version of `layout_intent.v1`, the planner inputs/outputs, and the exact AI prompt contract so implementation can start without ambiguity.
+## 2026-04-23 11:45 IST
+
+- Context:
+  - User decided routing should be deprioritized for now and wants the next focus to be deterministic component placement and orientation, especially because the buck converter demo exposed poor manual/example placement quality.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The next response should agree that placement and orientation come before routing quality for AI-generated circuits.
+  - The response should propose the simplest possible deterministic placement system that the built-in AI can drive without choosing raw coordinates directly.
+- Next recommended step:
+  - Define a minimal `layout_intent.v1` and a first deterministic placement planner focused on zones, orientation rules, and adjacency constraints before doing more routing work.
+## 2026-04-23 11:52 IST
+
+- Context:
+  - User asked how to implement deterministic AI-driven placement/orientation, and explicitly allowed online research for open-source references.
+- What changed:
+  - No product source files changed in this turn.
+  - Searched official references for graph/layout engines relevant to left-to-right constrained placement.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Placement/orientation should be implemented locally in Studio, with ELK used only as a reference for directional layering, port constraints, spacing, and anchoring ideas.
+  - The next response should give a concrete staged implementation plan: `layout_intent.v1`, role metadata, deterministic placement planner, and translation into `circuit_patch`.
+- Next recommended step:
+  - Implement the first local placement-planner scaffold instead of introducing a generic external auto-layout dependency.
+## 2026-04-23 12:08 IST
+
+- Context:
+  - User approved starting the deterministic placement/orientation implementation so AI can work through layout intent instead of raw coordinates.
+- What changed:
+  - Added the new `layout_intent.v1` contract in `packages/contracts/layout_intent.v1.schema.json` and a validated buck-converter example in `packages/contracts/examples/layout_intent.buck_converter.json`.
+  - Updated contract documentation and indexing in `packages/contracts/README.md`, `packages/contracts/contract_index.json`, `packages/contracts/scripts/validate-examples.mjs`, and `docs/AI_EDITING_FLOW.md`.
+  - Added role defaults and inference in `apps/studio_api/src/layout_roles.mjs`.
+  - Added the first deterministic placement planner in `apps/studio_api/src/layout_planner.mjs`; it resolves zones, simple adjacency (`after`, `below`, `nearComponentId`), orientation preferences, and emits placement-bearing `circuit_patch` operations.
+  - Updated `apps/studio_api/src/ai.mjs` so built-in AI can return optional `layoutIntent`, which the backend validates and converts into a normal `circuit_patch` before the existing preview/apply path sees it.
+- Files touched:
+  - `packages/contracts/layout_intent.v1.schema.json`
+  - `packages/contracts/examples/layout_intent.buck_converter.json`
+  - `packages/contracts/README.md`
+  - `packages/contracts/contract_index.json`
+  - `packages/contracts/scripts/validate-examples.mjs`
+  - `docs/AI_EDITING_FLOW.md`
+  - `apps/studio_api/src/layout_roles.mjs`
+  - `apps/studio_api/src/layout_planner.mjs`
+  - `apps/studio_api/src/ai.mjs`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/layout_roles.mjs`
+  - `node --check apps/studio_api/src/layout_planner.mjs`
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `npm --prefix packages/contracts run validate:examples`
+  - One direct planner smoke test using `scene_state.resistor_divider.json` and an inline `layout_intent` payload
+- Decisions made:
+  - Placement/orientation is now treated as a first-class deterministic layer between AI and final patch geometry.
+  - The planner stays local and schematic-specific; ELK/Dagre remain reference material only.
+  - Version 1 deliberately plans component placements only and leaves wiring/rerouting to the existing later stage.
+- Next recommended step:
+  - Restart `apps/studio_api`, then test a built-in AI prompt that asks for placement-sensitive work and confirm the model can now return `layoutIntent` that becomes a previewable patch.
+## 2026-04-23 12:16 IST
+
+- Context:
+  - User could not test the first placement-planner build immediately and asked to continue with the next useful feature.
+- What changed:
+  - Tightened the built-in AI prompt in `apps/studio_api/src/ai.mjs` so the model now receives a compact placement-planning summary of the current scene, including inferred component roles, selected components, and labeled nets.
+  - Added an explicit `layout_intent` shape guide directly into the AI prompt so the model has a concrete deterministic format to follow instead of improvising raw geometry.
+  - Strengthened prompt rules around zones, orientation preferences, and preferring `layoutIntent` over direct coordinate guessing for layout-sensitive edits.
+- Files touched:
+  - `apps/studio_api/src/ai.mjs`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `npm --prefix packages/contracts run validate:examples`
+- Decisions made:
+  - The next incremental gain should come from better AI prompting/context, not more planner complexity before first user validation.
+  - The model should be shown the planner language explicitly, because relying on schema names alone is too weak for consistent layout intent generation.
+- Next recommended step:
+  - After the user is free to test again, restart `apps/studio_api` and try a placement-sensitive AI request to see whether the model now emits `layoutIntent` more consistently before expanding planner heuristics further.
+## 2026-04-23 12:24 IST
+
+- Context:
+  - User could not test yet and asked to continue forward with the next feature in the deterministic placement/orientation path.
+- What changed:
+  - Improved `apps/studio_api/src/layout_planner.mjs` with a second heuristic layer instead of changing contracts again.
+  - Added role-aware default placement hints so components without full explicit intent now get better zones/orientations automatically:
+    - connectors default toward input/output edges
+    - power symbols default to top/bottom support based on net
+    - shunt/support/load/indicator roles default off the main trunk
+    - inline/filter/controller roles default to main-flow lanes
+  - Added cluster-aware compaction so grouped main-lane parts are packed with tighter spacing and support parts align to their related main component when possible.
+  - Added small helpers for cluster membership, zone shifting, and heuristic normalization before final placement resolution.
+  - Ran an extra planner smoke test with an inline `layout_intent` that mixed existing parts and newly created indicator parts.
+- Files touched:
+  - `apps/studio_api/src/layout_planner.mjs`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/layout_planner.mjs`
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `npm --prefix packages/contracts run validate:examples`
+  - One direct planner smoke test via inline Node script using `scene_state.resistor_divider.json`
+- Decisions made:
+  - The planner should absorb more layout quality through deterministic heuristics before adding more UI or contract complexity.
+  - The current stage still avoids frontend changes; better placement should arrive through the existing AI->planner->patch path.
+- Next recommended step:
+  - When testing resumes, restart `apps/studio_api` and try prompts that add support/indicator parts or re-layout a simple power stage to see whether these heuristics reduce awkward placements before adding family-specific buck/feedback rules.
+## 2026-04-23 12:31 IST
+
+- Context:
+  - User asked to continue improving the deterministic placement planner while they were busy and unable to test interactively.
+- What changed:
+  - Extended `apps/studio_api/src/layout_planner.mjs` with a third heuristic layer focused on common schematic families rather than generic spacing only.
+  - Added family-aware normalization helpers:
+    - buck-like power-stage support placement (`switch` / `filter` / diode-like `support` / output shunt parts)
+    - feedback cluster placement defaults
+    - indicator branch placement defaults
+  - Added text-matching helpers and post-normalization family passes so the planner can infer better `below`, `above`, `nearComponentId`, `zone`, and orientation defaults before final placement.
+  - Kept all contracts and frontend behavior unchanged; this only improves the backend planner quality.
+  - Ran an additional synthetic planner smoke test covering power-stage, feedback, and indicator roles together.
+- Files touched:
+  - `apps/studio_api/src/layout_planner.mjs`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/layout_planner.mjs`
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `npm --prefix packages/contracts run validate:examples`
+  - One direct synthetic planner smoke test via inline Node script
+- Decisions made:
+  - The next placement-quality gains should continue to come from deterministic family heuristics rather than new schema complexity.
+  - Buck/power-stage, feedback, and indicator branches are now first-class planner concerns because they were repeatedly producing poor example layouts.
+- Next recommended step:
+  - When testing resumes, restart `apps/studio_api` and try layout-sensitive prompts on the buck demo to see which family heuristics still need tightening before moving back to routing quality.
+## 2026-04-23 12:38 IST
+
+- Context:
+  - User asked to continue improving the deterministic placement planner while still unable to test interactively.
+- What changed:
+  - Extended `apps/studio_api/src/layout_planner.mjs` with net-anchor / rail-aware behavior.
+  - Added anchor-zone mapping from `layout_intent.anchors` and net-name inference for common rails such as `VIN`, `VOUT`, `GND`, `VCC`, and similar labels.
+  - Updated placement resolution so components can now align to anchor-driven x/y positions even when the scene has no existing wires or net centers yet.
+  - This especially improves blank-scene planning for:
+    - input/output connectors
+    - shunt capacitors/resistors on output rails
+    - ground symbols and ground-side support placement
+  - Ran an extra blank-scene planner smoke test to confirm that VOUT-aligned shunt parts and GND placement now land on sensible rails without existing wiring.
+- Files touched:
+  - `apps/studio_api/src/layout_planner.mjs`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/layout_planner.mjs`
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `npm --prefix packages/contracts run validate:examples`
+  - One direct blank-scene rail-aware planner smoke test via inline Node script
+- Decisions made:
+  - The planner must not depend on existing net geometry to place new circuits cleanly; anchor labels and net-name heuristics are now treated as first-class deterministic placement inputs.
+  - This remains a backend-only improvement and does not change contracts or frontend patch handling.
+- Next recommended step:
+  - Continue with explicit controller-centered feedback placement and stricter ground-rail distribution only after real user testing shows where the current rail-aware results still look awkward.
+## 2026-04-23 12:47 IST
+
+- Context:
+  - User asked to continue planner work, specifically after rail-aware placement, without pausing for interactive testing.
+- What changed:
+  - Improved `apps/studio_api/src/layout_planner.mjs` again with stronger global feedback/controller heuristics and better ground-rail handling.
+  - Added global feedback fallback logic so feedback parts can associate with controllers and output-side elements even when they are not in the same explicit cluster.
+  - Adjusted net-anchor placement so `above`/`below` relationships are no longer overwritten by rail anchoring, which fixed feedback stacking regressions.
+  - Added top-support compaction to avoid multiple feedback/support items collapsing into the same position.
+  - Added bottom-rail ground spreading so multiple `GND` power symbols no longer pile onto the same x-position by default.
+- Files touched:
+  - `apps/studio_api/src/layout_planner.mjs`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/layout_planner.mjs`
+  - `npm --prefix packages/contracts run validate:examples`
+  - One targeted synthetic smoke test covering controller + feedback + output shunt + multiple ground symbols
+- Decisions made:
+  - Feedback placement must honor controller-relative stacking before rail anchoring, otherwise all rail-aware feedback parts collapse into the same row.
+  - Ground symbols need explicit distribution logic because anchor-based placement alone naturally collapses them onto one support point.
+- Next recommended step:
+  - Pause further planner heuristics until you can test a few real AI-driven layouts on the buck demo; the next changes should be driven by concrete visual failures instead of more blind heuristic layering.
+## 2026-04-23 12:52 IST
+
+- Context:
+  - User is now ready to test and asked for a one-by-one checklist for the new deterministic placement planner and AI-driven layout flow.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The next response should give a concrete ordered manual test checklist focused on placement/orientation quality first, not routing polish.
+  - Testing should cover both AI-driven relayout of existing scenes and AI-created support parts on the current demo circuit.
+- Next recommended step:
+  - User should restart the API, load the buck demo, and run a staged set of AI prompts that exercise connectors, shunt parts, feedback parts, indicators, and ground distribution one by one.
+## 2026-04-23 13:00 IST
+
+- Context:
+  - User reported a JSON import bug on the first test step: loading the example and clicking `Apply To Canvas` shows a red error like `wires[1].from references missing pin s1:1`, but clicking apply again works.
+- What changed:
+  - Patched `apps/studio_web/js/main.js` so symbol-definition resolution during import no longer depends on the mutable currently selected library state.
+  - Added `libraryDataCache` and `fetchLibraryData(...)` so `ensureComponentDefByKey(...)` fetches symbol summaries directly from the correct KiCad library instead of racing through `loadLibrary(...)` and `currentLibrarySymbols`.
+  - This should remove the first-apply race where mixed-library example symbols occasionally resolve incompletely on the first import but succeed on the second once caches are warm.
+- Files touched:
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Import-time symbol resolution must not rely on UI-selected library state because concurrent library loads make first-run imports nondeterministic.
+  - The fix stays local to the web import path and reuses cached library payloads rather than changing the import contract.
+- Next recommended step:
+  - User should hard refresh, then repeat the example import once to confirm the first-click warning is gone before continuing with the placement-planner tests.
+## 2026-04-23 13:03 IST
+
+- Context:
+  - User finished the import-bug check and asked for the next single test in the placement/orientation validation sequence.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Continue the manual checklist one step at a time, starting with the highest-value full relayout prompt on the buck demo.
+- Next recommended step:
+  - User should run a full buck relayout prompt and report whether the main flow, orientations, and support-part positions are visually sensible before testing narrower add-part prompts.
+## 2026-04-23 13:13 IST
+
+- Context:
+  - User reported that built-in AI patch requests were taking too long and timing out after 3 minutes, and asked for a better AI window plus a way to verify whether Gemma works as a normal chatbot at all.
+- What changed:
+  - Added a separate normal-chat backend path in `apps/studio_api/src/ai.mjs` and `apps/studio_api/src/server.mjs` via `generateAiChatReply(...)` and the new `/ai/chat` route.
+  - This lets Studio test Ollama/Gemini as plain chat without the heavy scene-state + patch-generation flow.
+  - Updated the AI modal in `apps/studio_web/index.html` with a new `Ask Chat Only` button and a `Last AI Details` output panel.
+  - Updated `apps/studio_web/js/main.js` so the AI window now:
+    - supports both patch mode and plain chat mode
+    - clears/shows structured last-response diagnostics
+    - gives slightly more explicit stage feedback while requests are running
+    - shows provider/model/raw response/provider metadata in the details panel
+- Files touched:
+  - `apps/studio_api/src/ai.mjs`
+  - `apps/studio_api/src/server.mjs`
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Patch-generation and plain-chat diagnostics must be separate, otherwise it is impossible to tell whether the model is slow in general or only slow because of the structured patch flow.
+  - The AI window needs explicit last-response diagnostics rather than only a short status line.
+- Next recommended step:
+  - Restart `apps/studio_api`, then first test `Ask Chat Only` with a simple prompt to confirm Gemma behaves like a normal chatbot before retrying `Ask Built-In AI` for patch generation.
+## 2026-04-23 13:18 IST
+
+- Context:
+  - User judged the current AI window implementation as poor and said it has too many things. They want a clearer review of what each control does, why it exists, and what should be removed.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The next response should not add more features. It should audit the current AI window, separate essential controls from debug-only controls, and propose a much smaller IA.
+  - The correct direction is to split the AI workspace into a simple default user surface and a hidden debug/advanced surface instead of exposing every internal tool at once.
+- Next recommended step:
+  - Define the minimal AI window needed for normal use, identify which current controls should move to an advanced/debug drawer, and then implement that reduction before adding anything else.
+## 2026-04-23 13:23 IST
+
+- Context:
+  - User rejected another small cleanup of the current AI modal and instead proposed a broader interaction redesign: small canvas-adjacent floating AI windows opened from toolbar icons near the gear, with normal chat separated from canvas-related AI actions.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The current modal-based AI workspace is the wrong interaction model for frequent use because it interrupts canvas inspection and preview review.
+  - The next response should design a canvas-adjacent floating-window model with at least two entry points: normal AI chat and a separate canvas/action-oriented AI surface.
+- Next recommended step:
+  - Define the two-window AI interaction model clearly, including what each icon/window is for, what stays always visible, and what moves out of the current oversized modal before implementing it.
+## 2026-04-23 13:28 IST
+
+- Context:
+  - User extended the AI interaction redesign discussion and said the product also needs professional-grade context storage similar to modern AI tools.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The next response should define a practical context/memory architecture for Studio rather than vague “AI memory” language.
+  - Context should be split into short-term conversation state, persistent project memory, scene snapshots, and deterministic change history, with retrieval instead of stuffing everything into every prompt.
+- Next recommended step:
+  - Define the minimal professional context stack for AURA: conversation thread state, project memory table, scene summaries, selected-context summaries, and patch history retrieval.
+## 2026-04-23 13:31 IST
+
+- Context:
+  - User asked to implement real persistent AI context/memory now, after discussing professional context storage for Studio.
+- What changed:
+  - Added DB migration `database/migrations/0003_ai_context.sql` for two new persistent context tables:
+    - `ai_project_memory`
+    - `ai_patch_history`
+  - Extended `apps/studio_api/src/db.mjs` with:
+    - `getAiProjectContext(...)`
+    - `upsertAiProjectMemory(...)`
+    - `recordAiPatchHistory(...)`
+    - migration fallback logic for legacy already-existing tables in old databases
+  - Added API routes in `apps/studio_api/src/server.mjs`:
+    - `GET /ai/context`
+    - `POST /ai/context/memory`
+  - Updated `apps/studio_api/src/ai.mjs` so both patch mode and chat mode now:
+    - derive a stable `projectKey`
+    - retrieve stored project memory + recent AI history
+    - inject retrieved context into prompts
+    - record each AI chat/patch run into persistent patch history
+  - Updated `apps/studio_web/js/main.js` so AI requests now send a stable `projectKey` derived from the current scene.
+- Files touched:
+  - `database/migrations/0003_ai_context.sql`
+  - `apps/studio_api/src/db.mjs`
+  - `apps/studio_api/src/server.mjs`
+  - `apps/studio_api/src/ai.mjs`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/db.mjs`
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+  - `node --check apps/studio_web/js/main.js`
+  - `npm --prefix packages/contracts run validate:examples`
+  - Runtime DB migration smoke test could not be completed cleanly in this shell because SQLite hit a local `disk I/O error` on the OneDrive-backed database file.
+- Decisions made:
+  - Context storage is now structured and project-keyed, not just chat-history based.
+  - The first professional context layer is backend-first: persistent project memory plus recent AI patch/chat history retrieval.
+  - Frontend UI for editing/viewing that memory is deferred until the AI surface redesign is settled.
+- Next recommended step:
+  - Restart `apps/studio_api` so the new routes/context retrieval are active, then validate the context stack through the redesigned AI UI work instead of adding more backend memory features first.
+## 2026-04-23 14:22 IST
+
+- Context:
+  - User did not want more backend explanation and asked to directly fix the full AI UI around the new floating-panel design discussed earlier.
+- What changed:
+  - Removed the old top-toolbar AI entry point from `apps/studio_web/index.html` and replaced the canvas AI surface with two non-modal floating panels anchored beside the gear button.
+  - Added two new canvas-dock toggles in `apps/studio_web/index.html`:
+    - `CHAT` for normal AI conversation
+    - `EDIT` for canvas-aware AI actions and patch preview/apply
+  - Replaced the oversized AI modal in `apps/studio_web/index.html` with:
+    - a compact `AI Chat` panel for provider/model/check/chat/conversation
+    - a separate `Canvas AI` panel for scene-aware requests, preview apply/discard, and a collapsed advanced area for raw patch/state/debug tools
+  - Updated `apps/studio_web/css/main.css` to style the new floating dock, toggle buttons, stacked right-side panels, and collapsed advanced section.
+  - Updated `apps/studio_web/js/main.js` so the AI system now:
+    - toggles independent chat/canvas panels instead of opening a blocking modal
+    - uses a dedicated chat prompt field for normal chat
+    - keeps canvas requests in a separate field for scene edits
+    - syncs provider/model summary into the canvas panel
+    - applies existing patch preview/apply logic through the new floating UI
+    - closes panels with the new close buttons and `Esc`
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+  - `rg -n "ai-chat-toggle|ai-canvas-toggle|ai-chat-panel|ai-canvas-panel|ai-chat-request|ai-user-request|ai-tools-send-request|ai-tools-send-chat|ai-tools-apply|ai-tools-clear-preview|ai-tools-preview" apps/studio_web/index.html apps/studio_web/js/main.js`
+- Decisions made:
+  - The AI surface should stay on canvas at all times; blocking modal interaction was the wrong model for ongoing chat and preview review.
+  - Chat and scene-edit AI are now separate surfaces because they serve different tasks and should not share one overloaded workspace.
+  - Raw patch/state/debug controls remain available, but only inside a collapsed advanced section in the canvas panel.
+- Next recommended step:
+  - User should visually test the new `CHAT` and `EDIT` floating panels on canvas, then the next pass should tighten AI request reliability rather than add more UI surface.
+## 2026-04-23 14:35 IST
+
+- Context:
+  - User reported two follow-up AI UI problems:
+    - floating AI panels were getting visually trapped behind the bottom inspector because they were still positioned inside the canvas container
+    - the visible AI setup controls still felt messy and intimidating instead of chat-like
+- What changed:
+  - Moved the floating AI panels in `apps/studio_web/index.html` out of the canvas container and into the wider `workspace-stack` so they can overlay both the canvas and the bottom inspector.
+  - Updated `apps/studio_web/css/main.css` so `workspace-stack` is now the positioning root for AI overlays and raised overlay z-indexes above the inspector/tool overlays.
+  - Simplified the `AI Chat` panel in `apps/studio_web/index.html`:
+    - conversation is now the main visible surface
+    - prompt box and send/clear actions stay simple
+    - provider/model/API key/check controls moved into a collapsed `AI Setup` section
+    - added a compact connection summary chip instead of showing all setup fields by default
+  - Simplified the `Canvas AI` panel in `apps/studio_web/index.html`:
+    - request box + ask/apply/discard stay on the main surface
+    - raw patch/state/details/prompt-pack remain in the collapsed `Advanced` area
+    - connection info is reduced to a short summary line
+  - Updated `apps/studio_web/js/main.js` so provider/model changes now refresh both visible connection summary lines.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+  - `rg -n "canvas-ai-dock|ai-float-panel|ai-chat-panel|ai-canvas-panel|ai-chat-connection-summary|ai-canvas-provider-summary|workspace-stack" apps/studio_web/index.html apps/studio_web/css/main.css apps/studio_web/js/main.js`
+- Decisions made:
+  - AI overlays should belong to the full workspace layer, not the canvas sub-layer, otherwise they cannot behave like real floating tools.
+  - Default AI UI should look like chat first, while provider/debug mechanics stay collapsed until needed.
+- Next recommended step:
+  - User should visually check that the AI panels now overlap the bottom inspector correctly and that the simplified default layout feels lighter; after that the next pass should focus on AI response reliability rather than more surface redesign.
+## 2026-04-23 14:42 IST
+
+- Context:
+  - User judged the latest floating AI UI implementation as poorly arranged and not designed from the perspective of a real end user.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The current AI UI should not be incrementally patched further in its present structure.
+  - The next step must be a user-flow-first redesign: define the exact open/use/inspect/apply flow first, then rebuild the panel layout around that flow instead of stacking controls onto the current surface.
+- Next recommended step:
+  - Replace the current AI panel arrangement with a clean interaction spec covering first open state, default chat state, default canvas-edit state, where setup lives, where apply/discard lives, and how previews stay visible while the user inspects the canvas.
+## 2026-04-23 14:50 IST
+
+- Context:
+  - User rejected the previous floating AI arrangement as feeling slapped on rather than designed from the perspective of a real end user.
+- What changed:
+  - Rebuilt the visible AI surface in `apps/studio_web/index.html` around two simple user flows instead of exposing mixed controls by default.
+  - `AI Chat` is now a real chat-first drawer:
+    - connection summary chip
+    - conversation area
+    - inline composer with one send button
+    - clear action kept secondary
+    - provider/model/key/check moved behind collapsed `Connection`
+  - `Canvas AI` is now a compact edit card:
+    - connection summary chip
+    - short status
+    - request box
+    - one primary `Preview Change` action
+    - separate `Apply` / `Discard` row
+    - advanced patch/state/debug tools remain collapsed
+  - Tightened AI panel sizing and hierarchy in `apps/studio_web/css/main.css` so the default surfaces are smaller, less dense, and more product-like.
+  - Updated `apps/studio_web/js/main.js` so the visible provider summaries are shorter and the primary button labels match the new flow (`Send`, `Preview Change`).
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+  - `rg -n "ai-chat-composer|ai-inline-actions|ai-primary-action|Using \$\{provider\} - \$\{model\}|Preview Change|Connection</summary>|AI Chat|Canvas AI" apps/studio_web/index.html apps/studio_web/css/main.css apps/studio_web/js/main.js`
+- Decisions made:
+  - Default AI UI must optimize for the immediate user task only; setup belongs behind a collapsed section.
+  - Chat and scene-edit flows need different visual weight: chat behaves like a drawer, canvas edit behaves like a compact approval card.
+- Next recommended step:
+  - User should visually judge whether the new hierarchy now feels like a product surface; after that, the next pass should focus on interaction polish only where the real flow still feels wrong.
+## 2026-04-23 15:02 IST
+
+- Context:
+  - User reported that the rebuilt AI UI still felt broken in use: no visible chat feedback after typing `hi`, and opening setup made the panel squash and shift badly.
+  - User explicitly asked for online reference patterns and a proper fix rather than another slapped-on arrangement.
+- What changed:
+  - Reworked the AI surfaces in `apps/studio_web/index.html` again around common open-source chat app patterns used by tools like Vercel's AI chatbot starter, assistant-ui, and Open WebUI: simple header, message list, composer, with setup hidden in an overlay instead of expanding inside the main flow.
+  - Replaced the old in-panel expanding `Connection` section in `AI Chat` with a separate popover controlled by a small `Setup` button.
+  - Replaced the old expanding `Advanced` section in `Canvas AI` with a separate `More` popover so opening extra tools no longer compresses or shifts the main edit card.
+  - Added a dedicated visible `ai-chat-status` line in `apps/studio_web/index.html` / `apps/studio_web/js/main.js` so chat requests now immediately show sending/success/error state instead of feeling dead.
+  - Updated `apps/studio_web/css/main.css` to support:
+    - header action buttons
+    - compact popover overlays
+    - dedicated chat status line
+    - cleaner chat composer layout
+  - Tightened the main panel layouts again so the default visible surfaces remain focused on just chat or just edit actions.
+- Files touched:
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/css/main.css`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_web/js/main.js`
+  - `rg -n "ai-chat-setup-toggle|ai-chat-setup-panel|ai-chat-status|ai-canvas-advanced-toggle|ai-canvas-advanced-panel|ai-popover|ai-float-ghost" apps/studio_web/index.html apps/studio_web/css/main.css apps/studio_web/js/main.js`
+- Decisions made:
+  - Setup and advanced controls should open as overlays, not as expanding sections inside the main interaction surface.
+  - Chat must always show immediate request-state feedback, otherwise users interpret it as broken even when a request is in flight.
+  - The main visible AI surfaces should follow chat-product conventions first and keep configuration secondary.
+- Next recommended step:
+  - User should retest the `CHAT` flow with a simple message and verify that `Setup` and `More` now open as overlays without shifting the main panels; after that the next pass should focus on any remaining interaction friction, not more structural churn.
+## 2026-04-23 15:08 IST
+
+- Context:
+  - User hit `Route POST:/ai/chat not found` while testing the rebuilt AI chat UI.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The most likely cause is a stale `studio_api` process that predates the `/ai/chat` route additions, not a new frontend bug.
+  - The immediate fix is to restart the local API process before further UI diagnosis.
+- Next recommended step:
+  - Restart `apps/studio_api`, then retest `CHAT`; if the route error persists after restart, inspect the live server entrypoint and route registration next.
+## 2026-04-24 00:44 IST
+
+- Context:
+  - After fixing the AI backend to tolerate SQLite context/history failures, the user interrupted the API restart attempt and then sent a simple greeting.
+- What changed:
+  - No additional product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Keep the reply minimal because the user sent a casual greeting, but preserve the current state: AI backend fallback code is patched, while API restart may still be incomplete because the restart command was interrupted.
+- Next recommended step:
+  - If the user wants to continue the AI fix, verify whether `studio_api` is currently running the new backend build and restart it cleanly if not.
+## 2026-04-24 00:50 IST
+
+- Context:
+  - Continued the interrupted AI backend recovery work.
+  - Verified that the Studio API is now reachable again and the `/ai/chat` route exists.
+  - Direct chat test against Ollama no longer fails with `Route POST:/ai/chat not found`; instead it now fails because the selected local model cannot fit into available RAM.
+- What changed:
+  - Earlier in this interrupted recovery sequence, `apps/studio_api/src/ai.mjs` was updated to make AI context/history access non-fatal:
+    - added `getAiProjectContextSafe(...)`
+    - added `recordAiPatchHistorySafe(...)`
+    - switched patch/chat generation paths to use these safe wrappers so SQLite `disk I/O error` does not break chat completely
+  - In this turn, no additional product source files changed.
+- Files touched:
+  - `apps/studio_api/src/ai.mjs`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `GET http://127.0.0.1:8787/health` returned `{"ok":true,"service":"aura-studio-api"}`
+  - `POST http://127.0.0.1:8787/ai/chat` now reaches the backend route and returns an Ollama runtime error instead of 404:
+    - `model requires more system memory (7.2 GiB) than is available (6.7 GiB)`
+- Decisions made:
+  - The missing-route problem is resolved.
+  - The current blocker is now model/runtime capacity, not route wiring or the AI chat endpoint.
+  - The next practical fix is to use a smaller Ollama model or Gemini for chat until local memory allows a larger model.
+- Next recommended step:
+  - Switch the default/testing local model away from `gemma4:e2b` to a smaller model that fits the machine, or test the chat path through Gemini temporarily.
+## 2026-04-24 01:03 IST
+
+- Context:
+  - User asked why Gemini was effectively hard-pinned to a small fallback set and requested that entering an API key should automatically fetch the available Gemini models so they can choose freely.
+- What changed:
+  - Updated `apps/studio_api/src/ai.mjs` so Gemini model listing now uses each returned model's actual `name` from the Google models API instead of collapsing entries down to `baseModelId`.
+  - This stops the UI from flattening the returned Gemini list into a tiny hardcoded-looking set and preserves the real selectable model ids.
+  - Updated `apps/studio_web/js/main.js` so typing or pasting a Gemini API key now automatically refreshes Gemini models after a short debounce, instead of waiting only for a late `change` event.
+  - Added `refreshGeminiModelsFromCurrentKey()` in the frontend to centralize:
+    - storing the key
+    - refreshing model options
+    - refreshing status text
+- Files touched:
+  - `apps/studio_api/src/ai.mjs`
+  - `apps/studio_web/js/main.js`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_web/js/main.js`
+- Decisions made:
+  - Gemini model dropdown should reflect the live API response once a key is present; the small static list should remain only as a no-key fallback.
+  - Refreshing on `input` is better than relying on `change` because users often paste API keys and expect the model list to update immediately.
+- Next recommended step:
+  - Restart `apps/studio_api` if it is still running an older build, then paste the Gemini key again and confirm the model dropdown repopulates from the live API.
+## 2026-04-24 01:08 IST
+
+- Context:
+  - User asked for the exact command to check which Gemini models their API key is allowed to use because the Studio UI still showed only one model.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Provide direct shell commands for listing Gemini models from the official Google endpoint so the user can verify whether the key itself exposes many models or only one.
+  - Clarify that if the API key itself lists many models but Studio still shows one, the remaining issue is UI/backend caching or stale process state.
+- Next recommended step:
+  - User should run the official Gemini model-list command with their API key and compare the returned model list with what Studio shows.
+## 2026-04-24 01:12 IST
+
+- Context:
+  - User ran the official Gemini model-list command and confirmed their API key currently exposes only one model: `gemini-2.5-flash`.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The remaining limitation is not the Studio UI. The Google API key/project access itself currently exposes only `gemini-2.5-flash` for this user.
+  - Studio should therefore treat that as the real available Gemini set for this key rather than trying to imply more options exist.
+- Next recommended step:
+  - If needed, simplify the Gemini UX further so when only one live model is available the UI shows that clearly instead of feeling like a broken selector.
+## 2026-04-24 01:15 IST
+
+- Context:
+  - User asked how to see which Gemini models are available to their API key/project.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Provide the direct official API commands again in the most concise form so the user can self-check available Gemini models whenever needed.
+- Next recommended step:
+  - User can run the official model-list command and compare it with Studio’s Gemini dropdown whenever they want to verify available models.
+## 2026-04-24 01:18 IST
+
+- Context:
+  - User observed that another project shows dozens of Gemini-related models, while the direct Generative Language API key they tested here lists only `gemini-2.5-flash`.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarify the likely product/API split: this Studio currently uses the Gemini Developer API model-list endpoint, while the user's other project may be using Vertex AI / Model Garden or a different project/billing context that exposes many more models.
+- Next recommended step:
+  - If the user wants the broader model catalog in Studio, decide whether to keep the current Gemini Developer API integration or add a separate Vertex AI provider path.
+## 2026-04-24 01:10 IST
+
+- Context:
+  - After fixing Gemini live-model refresh, the remaining user confusion is about why another project shows many Gemini-related models while this Studio integration still exposes only one through the tested API key.
+- What changed:
+  - No additional product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarify that the current Studio integration is still using the Gemini Developer API model-list path, while the user's other project is likely using Vertex AI / Model Garden or a different Google Cloud access context.
+  - Keep the explanation concrete: the key's official model-list response is the source of truth for the current Gemini provider in Studio.
+- Next recommended step:
+  - If the user wants the broader model catalog inside Studio, add a separate `Vertex AI` provider rather than overloading the current Gemini API-key provider.
+## 2026-04-24 01:22 IST
+
+- Context:
+  - User re-entered the Gemini API key in Studio and still saw only one model in the dropdown.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Since the user's direct official model-list command already returned only `gemini-2.5-flash`, Studio showing one model is currently expected behavior for the existing Gemini Developer API provider.
+  - The remaining useful work is UX clarification, not forcing more models into that provider.
+- Next recommended step:
+  - Either make the Gemini single-model case explicit in the UI, or add a separate Vertex AI provider if the user wants the broader Google model catalog inside Studio.
+## 2026-04-24 01:28 IST
+
+- Context:
+  - User provided another local project path to inspect its Gemini logic because that project appeared to show many more Gemini models.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - The inspected project is not using Vertex AI. It also uses the Gemini Developer API (`generativelanguage.googleapis.com/v1beta/models`).
+  - The reason that project can appear to show more Gemini choices is its built-in fallback/default catalog, not a broader live Google model listing.
+  - For Studio, the correct decision is to keep live model discovery honest and, if desired, add a clearly-labeled fallback/reference catalog separately instead of pretending those models are available.
+- Next recommended step:
+  - If needed, add an explicit `fallback/reference Gemini models` UI mode in Studio, separate from the live-discovered Gemini models returned by the current API key.
+## 2026-04-24 01:40 IST
+
+- Context:
+  - User asked why the previous step was taking too long and whether they interrupted an active operation.
+- What changed:
+  - No additional product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Explain clearly that the interrupted step was an API restart attempt after backend changes, not a hidden long coding task.
+- Next recommended step:
+  - If the user wants to continue, restart `apps/studio_api` cleanly and then verify the Gemini model list/UI behavior against the new merged live/reference catalog logic.
+## 2026-04-24 02:39 IST
+
+- Context:
+  - User interrupted a long-running turn after approximately 47 minutes and asked what was happening.
+- What changed:
+  - No additional product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Explain clearly that the long wait came from a stuck API restart/probe command sequence, not from additional hidden coding.
+  - The next step should avoid another blocking restart attempt from this shell without tighter controls.
+- Next recommended step:
+  - If continuing, first check whether the API process actually started in the background; if not, ask the user to run the API locally in their own terminal or use a safer non-blocking launch method.
+## 2026-04-24 02:42 IST
+
+- Context:
+  - User asked which exact server process was the one getting stuck.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarify specifically that the stuck process was the local Studio backend API under `apps/studio_api`, not Ollama, not Vite web, and not Gemini itself.
+- Next recommended step:
+  - If continuing, verify whether `apps/studio_api` is already running on port `8787` before attempting any further restart.
+## 2026-04-24 02:45 IST
+
+- Context:
+  - User asked what exact step got stuck and emphasized that retries should stop once it is clear the operation is hanging.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarify the exact stuck step: launching the Studio API process via `Start-Process node ./src/server.mjs` plus waiting for the health probe.
+  - Acknowledge that future retries should stop faster and fall back to asking the user to run the command locally.
+- Next recommended step:
+  - If continuing, use only a short bounded check for `:8787`; if the API is not clearly up quickly, stop and hand the run command to the user.
+## 2026-04-24 02:48 IST
+
+- Context:
+  - User asked whether the restart getting stuck means the API/server is broken and wanted the likely cause explained.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Explain that the likely stuck point is the shell/process-launch environment, not necessarily the API logic itself, especially because the API had responded successfully on `8787` in prior checks.
+- Next recommended step:
+  - Distinguish between a broken app and a broken launch flow by doing a short health check first; only if the API itself fails once running should it be treated as an app bug.
+## 2026-04-24 02:52 IST
+
+- Context:
+  - User asked why the terminal-driven restart path is unreliable here and how they are supposed to run the backend if that path is bad.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Explain that the issue is not the normal user workflow of running a terminal command, but this remote shell/tooling environment trying to spawn and supervise long-lived background processes on the user's machine.
+- Next recommended step:
+  - Provide the direct user-run command for `apps/studio_api` and use that as the reliable startup path when background supervision from this shell becomes flaky.
+## 2026-04-24 02:56 IST
+
+- Context:
+  - User decided to test manually and asked for exact step-by-step instructions.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Provide a short manual test sequence focused only on getting the new Gemini model-catalog backend live and confirming the UI behavior.
+- Next recommended step:
+  - User should restart the API manually, then open Studio and verify the Gemini setup/model dropdown behavior against the new merged catalog logic.
+## 2026-04-24 14:24 IST
+
+- Context:
+  - User asked Codex to review the whole project and report what was learned and what problems were visible.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Review performed:
+  - Read the required project context files and implementation plan.
+  - Mapped the repo structure, API, web app, contracts, database migrations, curated packages, AI flow, and current dirty worktree.
+  - Ran contract validation, syntax checks, package validation, and the web production build.
+  - Direct database status check failed with a SQLite `disk I/O error`.
+- Decisions made:
+  - Treat the declared deterministic pipeline as still incomplete because the current app is stronger as a schematic editor and AI patch surface than as prompt -> `circuit_intent` -> resolver -> compiler -> `circuit_ir`.
+  - Treat SQLite reliability and scope drift as the highest-priority project risks before adding more features.
+- Next recommended step:
+  - Stabilize the SQLite runtime and realign the next implementation pass around the missing deterministic intent/resolver/compiler path.
+## 2026-04-24 14:46 IST
+
+- Context:
+  - User asked to fix the database problem before proceeding with more project work.
+- What changed:
+  - Stopped the running Studio API process on port `8787` so the broken DB could be repaired.
+  - Backed up the database and rollback journal into `database/recovery_20260424_144327/`.
+  - Moved stale/failed rollback journals aside as `.bak` files instead of deleting them.
+  - Switched the SQLite open path in `apps/studio_api/src/db.mjs` to use `PRAGMA busy_timeout = 5000`, `PRAGMA journal_mode = WAL`, and `PRAGMA synchronous = NORMAL`.
+  - Replaced remaining direct transaction rollback calls in `apps/studio_api/src/db.mjs` with `safeRollback(...)`.
+  - Updated `.gitignore` to ignore SQLite rollback journals and local recovery folders.
+- Files touched:
+  - `.gitignore`
+  - `apps/studio_api/src/db.mjs`
+  - `AI_CONTINUITY_LOG.md`
+  - Local runtime artifacts under `database/` were backed up/renamed; product migrations were not changed in this turn.
+- Verification:
+  - `node --check apps/studio_api/src/db.mjs`
+  - `node -e "import('./apps/studio_api/src/db.mjs').then(async (db)=>{...getDatabaseStatus...})"` now succeeds.
+  - SQLite reports `journal_mode: wal`.
+  - SQLite `PRAGMA integrity_check` reports `ok`.
+- Decisions made:
+  - Keep the current SQLite database rather than recreating it, because integrity check passes and existing project rows remain visible.
+  - Use WAL mode to avoid the rollback-journal failure mode that caused the `disk I/O error`.
+- Next recommended step:
+  - Restart `apps/studio_api` normally, then continue with the deterministic intent/resolver/compiler work.
+## 2026-04-24 15:06 IST
+
+- Context:
+  - User asked to reset/test everything, make sure resources were free, then run the project.
+- What changed:
+  - Stopped the old Studio API listener on port `8787` after confirming it was the process occupying the API port.
+  - Started the Studio API with `npm run start:api` as a background process.
+  - Started the Studio web UI with `npm run dev:web` as a background process.
+  - No product source files were changed in this turn beyond this continuity log entry.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `npm run validate:contracts` passed.
+  - `node --check apps/studio_api/src/db.mjs`, `node --check apps/studio_api/src/server.mjs`, and `node --check apps/studio_web/js/main.js` passed.
+  - Direct DB status check passed with all three migrations applied and `2` circuit projects visible.
+  - SQLite reported `journal_mode: wal` and `integrity_check: ok`.
+  - `npm run build:web` passed.
+  - API health endpoint returned `{"ok":true,"service":"aura-studio-api"}`.
+  - API `/database/status` returned `ok: true`.
+  - Vite served `http://localhost:5173/` with HTTP 200 via `curl`.
+- Runtime:
+  - API is listening on port `8787` with Node PID `17724`.
+  - Web UI is listening on port `5173` with Node PID `14420`.
+- Decisions made:
+  - Use `npm run start:api` instead of `npm run dev:api` for the backend run because sandboxed `node --watch` previously failed with `spawn EPERM`.
+  - Use escalated process launch for Vite because esbuild spawning is blocked by the sandbox.
+- Next recommended step:
+  - Open `http://localhost:5173/` and continue testing the Studio UI against the healthy API/database.
+## 2026-04-24 15:51 IST
+
+- Context:
+  - User asked to continue and complete the AI build.
+- What changed:
+  - Added a deterministic prompt-to-circuit backend slice:
+    - `apps/studio_api/src/circuit_pipeline.mjs`
+    - deterministic fallback intent generation from plain prompt
+    - trusted package matching against curated package details
+    - compiler from `circuit_intent.v1` to valid `circuit_ir.v1`
+  - Added `POST /ai/generate-circuit` in `apps/studio_api/src/server.mjs`.
+  - Extended `apps/studio_api/src/ai.mjs` so AI can generate `circuit_intent.v1` first, then deterministic code resolves and compiles it.
+  - Added deterministic fallback when AI provider generation fails unless explicitly disabled.
+  - Fixed Gemini provider status so an unlisted selected model returns `ready: false`.
+  - Added `loadCuratedPackageDetails(...)` and `listTrustedPackageDetails(...)` to `apps/studio_api/src/library.mjs`.
+  - Added the existing `led_red_5mm` package to `library/curated_packages/library_index.json` so the trusted runtime index matches the folder.
+  - Fixed the contracts validator cache in `packages/contracts/src/index.mjs` so concurrent validation of the same schema does not hit Ajv duplicate `$id` errors.
+  - Added a visible `Generate Circuit` action to the Canvas AI panel in `apps/studio_web/index.html`.
+  - Wired the web UI to call `/ai/generate-circuit`, import the returned `circuit_ir`, and render it through the existing JSON import path.
+  - Added package-to-symbol/pin mapping for `pkg_arduino_uno_rev3` so generated beginner circuits can render as a schematic connector proxy for now.
+- Files touched:
+  - `apps/studio_api/src/circuit_pipeline.mjs`
+  - `apps/studio_api/src/ai.mjs`
+  - `apps/studio_api/src/server.mjs`
+  - `apps/studio_api/src/library.mjs`
+  - `apps/studio_web/index.html`
+  - `apps/studio_web/js/main.js`
+  - `library/curated_packages/library_index.json`
+  - `packages/contracts/src/index.mjs`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `node --check apps/studio_api/src/circuit_pipeline.mjs`
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+  - `node --check apps/studio_web/js/main.js`
+  - `node --check packages/contracts/src/index.mjs`
+  - `npm run validate:contracts`
+  - deterministic module test generated `3` components, `3` nets, `0` unresolved, and valid intent/IR.
+  - `npm run build:web`
+  - Restarted API and verified `POST /ai/generate-circuit` over HTTP returns valid generated circuit data.
+  - Verified API health and Vite HTTP 200.
+- Runtime:
+  - API is listening on port `8787` with Node PID `28556`.
+  - Web UI is listening on port `5173` with Node PID `14420`.
+- Decisions made:
+  - Keep AI as the producer of structured `circuit_intent`; deterministic resolver/compiler remains the source of trusted final circuit data.
+  - Use a schematic connector proxy for Arduino Uno rendering until a proper board/schematic symbol package renderer exists.
+- Next recommended step:
+  - Test `Canvas AI -> Generate Circuit` in the browser with a simple prompt, then improve the package renderer so board packages no longer need connector-symbol proxies.
+## 2026-04-24 16:33 IST
+
+- Context:
+  - User reported that generated circuits currently render as only three visible items including a connector proxy instead of a real Arduino, and asked to discuss next AI-tooling priorities without making product edits.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Treat the current issue as primarily an AI-tooling / renderer-contract problem, not simply a weak-model problem.
+  - Prioritize better AI tool boundaries and package/render mappings before expanding model ambition.
+- Next recommended step:
+  - Align on the next non-editing design target: whether to improve tool outputs first, renderer/package mapping first, or structured multi-step planning first.
+## 2026-04-24 16:54 IST
+
+- Context:
+  - User asked whether the right next step is multimodal capability where the AI sees its own answer and decides everything one by one.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarify that the key requirement is staged structured reasoning and tool feedback loops, not necessarily multimodal capability first.
+- Next recommended step:
+  - Define the exact staged AI loop for Studio generation: plan, resolve, inspect, repair, compile, and explain.
+## 2026-04-24 16:56 IST
+
+- Context:
+  - User asked how multi-step reasoning is possible in practice, and whether it can work offline with only an API or with local AI.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Clarify that staged reasoning is implemented by orchestration in the app/backend, not by requiring a special model feature.
+  - Clarify that offline support is possible with local models plus deterministic JS orchestration, while hosted APIs are optional.
+- Next recommended step:
+  - Choose whether the next AI architecture should target `local-first`, `API-first`, or `hybrid` execution.
+## 2026-04-24 17:03 IST
+
+- Context:
+  - User asked for the exact current count of what the AI is prepared to see and what it returns.
+- What changed:
+  - No product source files changed in this turn.
+  - Reviewed the current AI route inputs and outputs in `apps/studio_api/src/ai.mjs`, `apps/studio_api/src/library.mjs`, and relevant contract schemas.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Answer using the current implemented AI surfaces: chat, patch, and generate-circuit.
+  - Distinguish between what the model itself sees and what the backend returns after deterministic processing.
+- Next recommended step:
+  - Decide whether to expand what the circuit generator sees next: package details/pins, resolver feedback, or unresolved-item repair loops.
+## 2026-04-24 17:08 IST
+
+- Context:
+  - User asked for the full target shape of what the AI should be able to see, create, and hand back for deterministic engine parsing.
+- What changed:
+  - No product source files changed in this turn.
+  - Added this continuity entry only.
+- Files touched:
+  - `AI_CONTINUITY_LOG.md`
+- Decisions made:
+  - Frame the target design as three contracts: AI-visible context, AI-generated artifacts, and engine-parsed deterministic structures.
+  - Treat richer AI context as necessary for robustness, while keeping final truth in deterministic resolver/compiler outputs.
+- Next recommended step:
+  - Convert this target contract into a staged generation pipeline with explicit review and repair checkpoints.
+## 2026-04-24 17:26 IST
+
+- Context:
+  - User asked to review the current tree, avoid forgotten weird files, create a proper detailed status file, and push the stable Studio app state to `main`.
+- What changed:
+  - Reviewed the current git working tree and separated Studio-scope files from unrelated firmware work.
+  - Updated `.gitignore` to ignore generated Studio log/temp files and `host_studio_remote/.pio/` artifacts.
+  - Rewrote `AI_STUDIO_STATUS_REPORT.md` to reflect the actual current Studio state, achievements, limitations, and next planned work.
+  - Re-ran Studio-side verification: contracts validation, API/web syntax checks, and production web build.
+  - Left unrelated out-of-scope firmware changes and the standalone `apps/studio_web/ble_test.html` page out of the intended Studio commit set.
+- Files touched:
+  - `.gitignore`
+  - `AI_STUDIO_STATUS_REPORT.md`
+  - `AI_CONTINUITY_LOG.md`
+- Verification:
+  - `npm run validate:contracts`
+  - `node --check apps/studio_api/src/ai.mjs`
+  - `node --check apps/studio_api/src/db.mjs`
+  - `node --check apps/studio_api/src/server.mjs`
+  - `node --check apps/studio_api/src/circuit_pipeline.mjs`
+  - `node --check apps/studio_api/src/layout_planner.mjs`
+  - `node --check apps/studio_api/src/layout_roles.mjs`
+  - `node --check apps/studio_web/js/main.js`
+  - `npm run build:web`
+- Decisions made:
+  - Commit and push only the Studio-side milestone to `main`.
+  - Do not mix current `host_remote/` or `host_studio_remote/` work into this Studio checkpoint.
+  - Keep `apps/studio_web/ble_test.html` uncommitted because it is a standalone local test page rather than part of the current Studio milestone.
+- Next recommended step:
+  - Create the Studio-only commit, push it to `main`, and then delete the old remote checkpoint branch once `main` contains the same work.

@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aura/contracts/layout_intent.v1",
+  "title": "AURA Layout Intent V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "metadata", "target", "flow", "placements"],
+  "properties": {
+    "schema": {
+      "const": "aura.layout_intent.v1"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "requestedBy"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "requestedBy": {
+          "type": "string",
+          "enum": ["user", "assistant", "external_ai"]
+        }
+      }
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sceneSchema"],
+      "properties": {
+        "sceneSchema": {
+          "const": "aura.scene_state.v1"
+        },
+        "sourceSchematicId": { "type": "string" },
+        "sourceRevision": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "flow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["direction"],
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": ["left_to_right", "right_to_left", "top_to_bottom", "bottom_to_top"]
+        },
+        "emphasizeRails": { "type": "boolean" },
+        "keepMainTrunkStraight": { "type": "boolean" }
+      }
+    },
+    "anchors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["net", "zone"],
+        "properties": {
+          "net": { "type": "string", "minLength": 1 },
+          "zone": {
+            "$ref": "#/$defs/zone"
+          }
+        }
+      }
+    },
+    "clusters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "members"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "label": { "type": "string" },
+          "zone": { "$ref": "#/$defs/zone" },
+          "members": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "placements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/placementIntent"
+      }
+    }
+  },
+  "$defs": {
+    "zone": {
+      "type": "string",
+      "enum": [
+        "left",
+        "center_left",
+        "center",
+        "center_right",
+        "right",
+        "top_support",
+        "bottom_support"
+      ]
+    },
+    "orientationPreference": {
+      "type": "string",
+      "enum": [
+        "preserve",
+        "inline",
+        "shunt_vertical",
+        "face_inward",
+        "face_outward",
+        "upright"
+      ]
+    },
+    "componentBlueprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "symbolKey", "reference"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "symbolKey": { "type": "string", "minLength": 1 },
+        "reference": { "type": "string", "minLength": 1 },
+        "value": { "type": "string" },
+        "fields": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "properties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": ["string", "number", "boolean", "null"]
+          }
+        }
+      }
+    },
+    "placementIntent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role"],
+      "properties": {
+        "componentId": { "type": "string", "minLength": 1 },
+        "create": { "$ref": "#/$defs/componentBlueprint" },
+        "role": {
+          "type": "string",
+          "enum": [
+            "connector",
+            "power_symbol",
+            "switch",
+            "controller",
+            "filter",
+            "passive_inline",
+            "passive_shunt",
+            "feedback",
+            "indicator",
+            "load",
+            "support",
+            "generic"
+          ]
+        },
+        "zone": { "$ref": "#/$defs/zone" },
+        "clusterId": { "type": "string" },
+        "orientationPreference": { "$ref": "#/$defs/orientationPreference" },
+        "anchorNet": { "type": "string" },
+        "nearComponentId": { "type": "string" },
+        "nearNet": { "type": "string" },
+        "after": { "type": "string" },
+        "before": { "type": "string" },
+        "above": { "type": "string" },
+        "below": { "type": "string" },
+        "priority": { "type": "integer", "minimum": 0 }
+      },
+      "oneOf": [
+        {
+          "required": ["componentId"]
+        },
+        {
+          "required": ["create"]
+        }
+      ]
+    }
+  }
+}

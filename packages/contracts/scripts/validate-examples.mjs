@@ -13,6 +13,7 @@ const EXAMPLE_TO_CONTRACT = new Map([
   ["symbol_definition.generic_resistor.json", "symbol_definition.v1"],
   ["schematic_document.resistor_divider.json", "schematic_document.v1"],
   ["scene_state.resistor_divider.json", "scene_state.v1"],
+  ["layout_intent.buck_converter.json", "layout_intent.v1"],
   ["circuit_patch.add_indicator_led.json", "circuit_patch.v1"],
   ["component_package.led_red_5mm.json", "component_package.v1"],
   ["runtime_profile.light_output.json", "runtime_profile.v1"],

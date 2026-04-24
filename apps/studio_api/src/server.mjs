@@ -1,12 +1,13 @@
 import Fastify from "fastify";
 import cors from "@fastify/cors";
-import { generateAiPatchReply, getAiProviderDefaults, getAiProviderStatus, listAiProviderModels } from "./ai.mjs";
+import { generateAiChatReply, generateAiCircuitReply, generateAiPatchReply, getAiProviderDefaults, getAiProviderStatus, listAiProviderModels } from "./ai.mjs";
 
 import {
   listContracts,
   validateContractPayload,
 } from "@aura/contracts";
 import {
+  getAiProjectContext,
   getDatabaseStatus,
   getCircuitProjectBySlug,
   getSchematicProjectBySlug,
@@ -15,6 +16,7 @@ import {
   migrateDatabase,
   saveCircuitProject,
   saveSchematicProject,
+  upsertAiProjectMemory,
 } from "./db.mjs";
 import { getFritzingPartByModuleId } from "./fritzing.mjs";
 import {
@@ -88,6 +90,73 @@ app.post("/ai/generate-patch", async (request, reply) => {
     return reply.code(statusCode).send({
       ok: false,
       message: error instanceof Error ? error.message : "AI request failed.",
+      ...(error?.details ? { details: error.details } : {}),
+    });
+  }
+});
+
+app.post("/ai/chat", async (request, reply) => {
+  try {
+    return await generateAiChatReply(request.body ?? {});
+  } catch (error) {
+    const statusCode = Number.isInteger(error?.statusCode) ? error.statusCode : 500;
+    return reply.code(statusCode).send({
+      ok: false,
+      message: error instanceof Error ? error.message : "AI chat request failed.",
+      ...(error?.details ? { details: error.details } : {}),
+    });
+  }
+});
+
+app.post("/ai/generate-circuit", async (request, reply) => {
+  try {
+    return await generateAiCircuitReply(request.body ?? {});
+  } catch (error) {
+    const statusCode = Number.isInteger(error?.statusCode) ? error.statusCode : 500;
+    return reply.code(statusCode).send({
+      ok: false,
+      message: error instanceof Error ? error.message : "AI circuit generation failed.",
+      ...(error?.details ? { details: error.details } : {}),
+      ...(error?.validation ? { validation: error.validation } : {}),
+    });
+  }
+});
+
+app.get("/ai/context", async (request, reply) => {
+  try {
+    return {
+      ok: true,
+      context: await getAiProjectContext(request.query?.projectKey, {
+        historyLimit: request.query?.historyLimit,
+      }),
+    };
+  } catch (error) {
+    const statusCode = Number.isInteger(error?.statusCode) ? error.statusCode : 500;
+    return reply.code(statusCode).send({
+      ok: false,
+      message: error instanceof Error ? error.message : "AI context lookup failed.",
+      ...(error?.details ? { details: error.details } : {}),
+    });
+  }
+});
+
+app.post("/ai/context/memory", async (request, reply) => {
+  try {
+    const body = request.body ?? {};
+    const context = await upsertAiProjectMemory({
+      projectKey: body.projectKey,
+      memory: body.memory,
+      summaryText: body.summaryText,
+    });
+    return {
+      ok: true,
+      context,
+    };
+  } catch (error) {
+    const statusCode = Number.isInteger(error?.statusCode) ? error.statusCode : 500;
+    return reply.code(statusCode).send({
+      ok: false,
+      message: error instanceof Error ? error.message : "AI context memory update failed.",
       ...(error?.details ? { details: error.details } : {}),
     });
   }

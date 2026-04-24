@@ -32,8 +32,24 @@ async function ensureDatabaseFolder() {
 
 function openDatabase() {
   const db = new DatabaseSync(databasePath);
+  db.exec("PRAGMA busy_timeout = 5000;");
+  db.exec("PRAGMA journal_mode = WAL;");
+  db.exec("PRAGMA synchronous = NORMAL;");
   db.exec("PRAGMA foreign_keys = ON;");
   return db;
+}
+
+function safeRollback(db) {
+  try {
+    db.exec("ROLLBACK;");
+  } catch {
+    // Ignore rollback failures when SQLite has already closed the transaction.
+  }
+}
+
+function isAlreadyAppliedMigrationError(error) {
+  const message = String(error?.message || "").toLowerCase();
+  return message.includes("already exists");
 }
 
 function ensureSchemaMigrationsTable(db) {
@@ -75,7 +91,13 @@ export async function migrateDatabase() {
         db.exec("COMMIT;");
         newlyApplied.push(file);
       } catch (error) {
-        db.exec("ROLLBACK;");
+        safeRollback(db);
+        if (isAlreadyAppliedMigrationError(error)) {
+          db.prepare("INSERT INTO schema_migrations (id, applied_at) VALUES (?, ?)")
+            .run(file, nowIso());
+          newlyApplied.push(file);
+          continue;
+        }
         throw error;
       }
     }
@@ -102,6 +124,8 @@ export async function getDatabaseStatus() {
       schematicProjects: db.prepare("SELECT COUNT(*) AS count FROM schematic_projects").get().count,
       importJobs: db.prepare("SELECT COUNT(*) AS count FROM import_jobs").get().count,
       aiGenerationRuns: db.prepare("SELECT COUNT(*) AS count FROM ai_generation_runs").get().count,
+      aiProjectMemory: db.prepare("SELECT COUNT(*) AS count FROM ai_project_memory").get().count,
+      aiPatchHistory: db.prepare("SELECT COUNT(*) AS count FROM ai_patch_history").get().count,
     };
 
     return {
@@ -109,6 +133,190 @@ export async function getDatabaseStatus() {
       appliedMigrations: migrationState.appliedMigrations,
       counts,
     };
+  } finally {
+    db.close();
+  }
+}
+
+function normalizeProjectKey(projectKey) {
+  const normalized = String(projectKey || "").trim();
+  return normalized || "studio-canvas";
+}
+
+function parseJsonOrNull(value) {
+  if (typeof value !== "string" || !value.trim()) {
+    return null;
+  }
+  try {
+    return JSON.parse(value);
+  } catch {
+    return null;
+  }
+}
+
+export async function getAiProjectContext(projectKey, { historyLimit = 8 } = {}) {
+  await migrateDatabase();
+  const db = openDatabase();
+  try {
+    const normalizedProjectKey = normalizeProjectKey(projectKey);
+    const memoryRow = db.prepare(`
+      SELECT id, project_key, memory_json, summary_text, created_at, updated_at
+      FROM ai_project_memory
+      WHERE project_key = ?
+    `).get(normalizedProjectKey);
+
+    const historyRows = db.prepare(`
+      SELECT
+        id,
+        project_key,
+        request_mode,
+        provider,
+        model_name,
+        user_message,
+        scene_schema,
+        scene_revision,
+        selection_summary,
+        layout_intent_json,
+        patch_json,
+        status,
+        assistant_message,
+        created_at
+      FROM ai_patch_history
+      WHERE project_key = ?
+      ORDER BY created_at DESC
+      LIMIT ?
+    `).all(normalizedProjectKey, Math.max(1, Number(historyLimit) || 8));
+
+    return {
+      projectKey: normalizedProjectKey,
+      memory: memoryRow ? {
+        id: memoryRow.id,
+        projectKey: memoryRow.project_key,
+        memory: parseJsonOrNull(memoryRow.memory_json) ?? {},
+        summaryText: memoryRow.summary_text || "",
+        createdAt: memoryRow.created_at,
+        updatedAt: memoryRow.updated_at,
+      } : null,
+      recentHistory: historyRows.map((row) => ({
+        id: row.id,
+        projectKey: row.project_key,
+        requestMode: row.request_mode,
+        provider: row.provider,
+        modelName: row.model_name,
+        userMessage: row.user_message || "",
+        sceneSchema: row.scene_schema || "",
+        sceneRevision: Number.isInteger(row.scene_revision) ? row.scene_revision : null,
+        selectionSummary: row.selection_summary || "",
+        layoutIntent: parseJsonOrNull(row.layout_intent_json),
+        patch: parseJsonOrNull(row.patch_json),
+        status: row.status,
+        assistantMessage: row.assistant_message || "",
+        createdAt: row.created_at,
+      })),
+    };
+  } finally {
+    db.close();
+  }
+}
+
+export async function upsertAiProjectMemory({
+  projectKey,
+  memory,
+  summaryText = "",
+}) {
+  await migrateDatabase();
+  const db = openDatabase();
+  try {
+    const normalizedProjectKey = normalizeProjectKey(projectKey);
+    const timestamp = nowIso();
+    const existing = db.prepare(`
+      SELECT id
+      FROM ai_project_memory
+      WHERE project_key = ?
+    `).get(normalizedProjectKey);
+
+    const recordId = existing?.id ?? randomUUID();
+    const memoryJson = JSON.stringify(memory ?? {}, null, 2);
+
+    db.exec("BEGIN;");
+    try {
+      if (existing) {
+        db.prepare(`
+          UPDATE ai_project_memory
+          SET memory_json = ?, summary_text = ?, updated_at = ?
+          WHERE id = ?
+        `).run(memoryJson, summaryText || "", timestamp, existing.id);
+      } else {
+        db.prepare(`
+          INSERT INTO ai_project_memory (id, project_key, memory_json, summary_text, created_at, updated_at)
+          VALUES (?, ?, ?, ?, ?, ?)
+        `).run(recordId, normalizedProjectKey, memoryJson, summaryText || "", timestamp, timestamp);
+      }
+      db.exec("COMMIT;");
+    } catch (error) {
+      safeRollback(db);
+      throw error;
+    }
+
+    return getAiProjectContext(normalizedProjectKey, { historyLimit: 8 });
+  } finally {
+    db.close();
+  }
+}
+
+export async function recordAiPatchHistory({
+  projectKey,
+  requestMode,
+  provider = null,
+  modelName = null,
+  userMessage = "",
+  sceneSchema = null,
+  sceneRevision = null,
+  selectionSummary = "",
+  layoutIntent = null,
+  patch = null,
+  status,
+  assistantMessage = "",
+}) {
+  await migrateDatabase();
+  const db = openDatabase();
+  try {
+    const normalizedProjectKey = normalizeProjectKey(projectKey);
+    const timestamp = nowIso();
+    db.prepare(`
+      INSERT INTO ai_patch_history (
+        id,
+        project_key,
+        request_mode,
+        provider,
+        model_name,
+        user_message,
+        scene_schema,
+        scene_revision,
+        selection_summary,
+        layout_intent_json,
+        patch_json,
+        status,
+        assistant_message,
+        created_at
+      )
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `).run(
+      randomUUID(),
+      normalizedProjectKey,
+      String(requestMode || "unknown"),
+      provider,
+      modelName,
+      String(userMessage || ""),
+      sceneSchema,
+      Number.isInteger(sceneRevision) ? sceneRevision : null,
+      String(selectionSummary || ""),
+      layoutIntent == null ? null : JSON.stringify(layoutIntent, null, 2),
+      patch == null ? null : JSON.stringify(patch, null, 2),
+      String(status || "unknown"),
+      String(assistantMessage || ""),
+      timestamp,
+    );
   } finally {
     db.close();
   }
@@ -191,7 +399,7 @@ export async function saveCircuitProject({
         },
       };
     } catch (error) {
-      db.exec("ROLLBACK;");
+      safeRollback(db);
       throw error;
     }
   } finally {
@@ -339,7 +547,7 @@ export async function saveSchematicProject({
         },
       };
     } catch (error) {
-      db.exec("ROLLBACK;");
+      safeRollback(db);
       throw error;
     }
   } finally {

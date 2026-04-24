@@ -1,0 +1,113 @@
+{
+  "schema": "aura.layout_intent.v1",
+  "metadata": {
+    "title": "Buck Converter Left-To-Right Layout",
+    "description": "Deterministic placement intent for a clean buck converter demo.",
+    "requestedBy": "assistant"
+  },
+  "target": {
+    "sceneSchema": "aura.scene_state.v1",
+    "sourceSchematicId": "demo-buck-converter",
+    "sourceRevision": 1
+  },
+  "flow": {
+    "direction": "left_to_right",
+    "emphasizeRails": true,
+    "keepMainTrunkStraight": true
+  },
+  "anchors": [
+    { "net": "VIN", "zone": "left" },
+    { "net": "VOUT", "zone": "right" },
+    { "net": "GND", "zone": "bottom_support" }
+  ],
+  "clusters": [
+    {
+      "id": "power_stage",
+      "label": "Buck power stage",
+      "zone": "center",
+      "members": ["s1", "l1", "d1"]
+    },
+    {
+      "id": "output_stage",
+      "label": "Output network",
+      "zone": "right",
+      "members": ["c_out", "r_load", "j_out"]
+    }
+  ],
+  "placements": [
+    {
+      "componentId": "pwr_vcc",
+      "role": "power_symbol",
+      "zone": "left",
+      "orientationPreference": "upright",
+      "anchorNet": "VIN",
+      "priority": 0
+    },
+    {
+      "componentId": "s1",
+      "role": "switch",
+      "zone": "center_left",
+      "orientationPreference": "inline",
+      "after": "pwr_vcc",
+      "clusterId": "power_stage",
+      "priority": 1
+    },
+    {
+      "componentId": "l1",
+      "role": "filter",
+      "zone": "center_right",
+      "orientationPreference": "inline",
+      "after": "s1",
+      "clusterId": "power_stage",
+      "priority": 2
+    },
+    {
+      "componentId": "c_in",
+      "role": "passive_shunt",
+      "zone": "bottom_support",
+      "orientationPreference": "shunt_vertical",
+      "nearComponentId": "pwr_vcc",
+      "anchorNet": "VIN"
+    },
+    {
+      "componentId": "d1",
+      "role": "support",
+      "zone": "bottom_support",
+      "orientationPreference": "shunt_vertical",
+      "below": "s1",
+      "clusterId": "power_stage"
+    },
+    {
+      "componentId": "c_out",
+      "role": "passive_shunt",
+      "zone": "bottom_support",
+      "orientationPreference": "shunt_vertical",
+      "below": "l1",
+      "clusterId": "output_stage"
+    },
+    {
+      "componentId": "r_load",
+      "role": "load",
+      "zone": "bottom_support",
+      "orientationPreference": "shunt_vertical",
+      "after": "c_out",
+      "clusterId": "output_stage"
+    },
+    {
+      "componentId": "j_out",
+      "role": "connector",
+      "zone": "right",
+      "orientationPreference": "face_inward",
+      "after": "l1",
+      "anchorNet": "VOUT",
+      "clusterId": "output_stage"
+    },
+    {
+      "componentId": "pwr_gnd",
+      "role": "power_symbol",
+      "zone": "bottom_support",
+      "orientationPreference": "upright",
+      "anchorNet": "GND"
+    }
+  ]
+}

@@ -65,10 +65,20 @@ export async function getValidator(contractId) {
     return validatorCache.get(contractId);
   }
 
-  const schema = await loadContractSchema(contractId);
-  const validate = ajv.compile(schema);
-  validatorCache.set(contractId, validate);
-  return validate;
+  const validatorPromise = (async () => {
+    const schema = await loadContractSchema(contractId);
+    return ajv.compile(schema);
+  })();
+  validatorCache.set(contractId, validatorPromise);
+
+  try {
+    const validate = await validatorPromise;
+    validatorCache.set(contractId, validate);
+    return validate;
+  } catch (error) {
+    validatorCache.delete(contractId);
+    throw error;
+  }
 }
 
 export async function validateContractPayload(contractId, payload) {

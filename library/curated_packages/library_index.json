@@ -20,6 +20,16 @@
       "status": "trusted"
     },
     {
+      "packageId": "pkg_led_red_5mm",
+      "slug": "led_red_5mm",
+      "name": "Red LED 5mm",
+      "category": "indicator",
+      "path": "library/curated_packages/led_red_5mm",
+      "runtimeProfileId": "light_output",
+      "aliases": ["red led", "5mm red led", "indicator led", "led"],
+      "status": "trusted"
+    },
+    {
       "packageId": "pkg_rgb_led_common_cathode",
       "slug": "rgb_led_common_cathode",
       "name": "RGB LED Common Cathode",

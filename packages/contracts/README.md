@@ -8,6 +8,7 @@ Planned contracts:
 - `symbol_definition.v1`
 - `schematic_document.v1`
 - `scene_state.v1`
+- `layout_intent.v1`
 - `circuit_patch.v1`
 - `component_package.v1`
 - `runtime_profile.v1`
@@ -22,6 +23,7 @@ Files:
 - `symbol_definition.v1.schema.json`
 - `schematic_document.v1.schema.json`
 - `scene_state.v1.schema.json`
+- `layout_intent.v1.schema.json`
 - `circuit_patch.v1.schema.json`
 - `component_package.v1.schema.json`
 - `runtime_profile.v1.schema.json`
@@ -33,6 +35,7 @@ Examples:
 - `examples/symbol_definition.generic_resistor.json`
 - `examples/schematic_document.resistor_divider.json`
 - `examples/scene_state.resistor_divider.json`
+- `examples/layout_intent.buck_converter.json`
 - `examples/circuit_patch.add_indicator_led.json`
 - `examples/component_package.led_red_5mm.json`
 - `examples/runtime_profile.light_output.json`
